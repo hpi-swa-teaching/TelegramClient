@@ -1,0 +1,10 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'TelegramClient',
+      #platforms : [ #squeak ],
+      #directory : 'packages',
+      #load : [ 'tests' ]
+    }
+  ]
+}
