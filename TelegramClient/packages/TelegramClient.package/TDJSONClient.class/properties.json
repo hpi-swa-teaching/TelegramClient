@@ -1,0 +1,15 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"client",
+		"jsonParser" ],
+	"name" : "TDJSONClient",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
