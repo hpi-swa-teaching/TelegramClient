@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-TD",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"is_encrypted" ],
+	"name" : "TD_authorizationStateWaitEncryptionKey",
+	"pools" : [
+		 ],
+	"super" : "TD_AuthorizationState",
+	"type" : "normal" }

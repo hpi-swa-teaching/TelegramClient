@@ -16,3 +16,4 @@ deserializeObject: jobj
 			^obj.
 			].
 		].
+	^jobj.

@@ -1,0 +1,15 @@
+{
+	"category" : "TelegramClient-TD",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"funcName",
+		"args" ],
+	"name" : "SerializableFunctionContainer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
