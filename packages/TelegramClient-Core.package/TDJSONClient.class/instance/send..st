@@ -3,4 +3,5 @@ send: request
 	| stream |
 	stream := ReadWriteStream on: ''.
 	request jsonWriteOn: stream.
-	^self sendTo: client request: stream contents.
+	Debug log: ' [SEND]',stream contents.
+	^self class sendTo: client request: stream contents.

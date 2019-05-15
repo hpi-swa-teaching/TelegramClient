@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"clear" : "HUB 5/15/2019 11:42",
+		"countOpenDebugs" : "HUB 5/15/2019 11:39",
+		"ensureStreamIsOpen" : "HUB 5/15/2019 11:39",
+		"error:" : "HUB 5/15/2019 11:42",
+		"error:from:" : "HUB 5/15/2019 11:43",
+		"log:" : "HUB 5/15/2019 11:43",
+		"log:from:" : "HUB 5/15/2019 11:43",
+		"logLevel" : "HUB 5/15/2019 11:42",
+		"logLevel:" : "HUB 5/15/2019 11:42",
+		"logWithOutLevelCheck:" : "HUB 5/15/2019 11:43",
+		"open" : "HUB 5/15/2019 11:39",
+		"openWindow" : "HUB 5/15/2019 11:39",
+		"reset" : "HUB 5/15/2019 11:42",
+		"warn:" : "HUB 5/15/2019 11:43",
+		"warn:from:" : "HUB 5/15/2019 11:43",
+		"window" : "HUB 5/15/2019 11:41",
+		"window:" : "HUB 5/15/2019 11:41",
+		"writeLog:" : "HUB 5/15/2019 11:48",
+		"writerStream" : "HUB 5/15/2019 11:41",
+		"writerStream:" : "HUB 5/15/2019 11:41" },
+	"instance" : {
+		 } }

@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-TD",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TD_InputMessageContent",
+	"pools" : [
+		 ],
+	"super" : "TD_Serializable",
+	"type" : "normal" }

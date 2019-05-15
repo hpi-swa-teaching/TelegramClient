@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-TD",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TD_authorizationStateReady",
+	"pools" : [
+		 ],
+	"super" : "TD_AuthorizationState",
+	"type" : "normal" }

@@ -1,0 +1,35 @@
+{
+	"category" : "TelegramClient-TD",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"id",
+		"type",
+		"title",
+		"photo",
+		"last_message",
+		"order",
+		"is_pinned",
+		"is_marked_as_unread",
+		"is_sponsored",
+		"can_be_deleted_only_for_self",
+		"can_be_deleted_for_all_users",
+		"can_be_reported",
+		"default_disable_notification",
+		"unread_count",
+		"last_read_inbox_message_id",
+		"last_read_outbox_message_id",
+		"unread_mention_count",
+		"notification_settings",
+		"pinned_message_id",
+		"reply_markup_message_id",
+		"draft_message",
+		"client_data" ],
+	"name" : "TD_chat",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
