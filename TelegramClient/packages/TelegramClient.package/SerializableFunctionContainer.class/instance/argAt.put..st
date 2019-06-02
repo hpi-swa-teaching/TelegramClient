@@ -1,3 +1,3 @@
 as yet unclassified
-argAt: name put: value
-	self args at: name put: value.
+argAt: t1 put: t2 
+	self args at: t1 put: t2

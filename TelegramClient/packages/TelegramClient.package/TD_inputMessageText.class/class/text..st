@@ -1,4 +1,4 @@
 as yet unclassified
-text: text
-	^(self basicNew)
-		text: (TD_formattedText text: text).
+text: t1 
+	^ self basicNew
+		text: (TD_formattedText text: t1)

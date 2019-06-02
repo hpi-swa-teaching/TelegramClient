@@ -1,3 +1,3 @@
 accessing
 asString
-	^ text.
+	^ text

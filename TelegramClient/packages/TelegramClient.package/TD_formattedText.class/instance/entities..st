@@ -1,4 +1,3 @@
 accessing
-entities: anObject
-
-	entities := anObject.
+entities: t1 
+	entities := t1

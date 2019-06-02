@@ -1,4 +1,3 @@
 accessing
 initialize
-	jsonparser := Json new.
-	
+	jsonparser := Json new

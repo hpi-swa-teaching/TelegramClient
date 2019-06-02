@@ -1,4 +1,3 @@
 accessing
-clear_draft: anObject
-
-	clear_draft := anObject.
+clear_draft: t1 
+	clear_draft := t1

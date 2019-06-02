@@ -1,4 +1,3 @@
 as yet unclassified
-window: anObject
-
-	window := anObject.
+window: t1 
+	window := t1

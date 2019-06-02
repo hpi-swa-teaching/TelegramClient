@@ -4,4 +4,4 @@ initialize
 	Transcript clear.
 	Debug clear.
 	clientSandbox := ClientSandbox new.
-	self openInWorld.
+	self openInWorld

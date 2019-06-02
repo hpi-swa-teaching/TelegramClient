@@ -1,3 +1,3 @@
 as yet unclassified
-text: text
-	^ (self basicNew) text: text
+text: t1 
+	^ self basicNew text: t1

@@ -1,5 +1,5 @@
 as yet unclassified
-messageToChat: chatID withText: text
-	^ (self basicNew)
-		chat_id: chatID;
-		input_message_content: (TD_inputMessageText text: text).
+messageToChat: t1 withText: t2 
+	^ self basicNew chat_id: t1;
+		
+		input_message_content: (TD_inputMessageText text: t2)

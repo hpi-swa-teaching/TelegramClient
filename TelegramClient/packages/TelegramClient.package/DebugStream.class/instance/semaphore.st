@@ -1,3 +1,4 @@
 as yet unclassified
 semaphore
-	^AccessSema ifNil:[AccessSema := Semaphore forMutualExclusion]
+	^ AccessSema
+		ifNil: [AccessSema := Semaphore forMutualExclusion]

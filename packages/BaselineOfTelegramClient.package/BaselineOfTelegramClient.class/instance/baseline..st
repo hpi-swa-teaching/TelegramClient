@@ -1,14 +1,13 @@
 baseline
-baseline: spec
+baseline: t1 
 	<baseline>
-	spec
-		for: #'common'
-		do: [
-			spec
-				package: 'TelegramClient-Core';
-				package: 'TelegramClient-Tests' with: [spec requires: #('TelegramClient-Core')];
-				yourself.
-			spec
-				group: 'default' with: #('TelegramClient-Core');
-				group: 'tests' with: #('TelegramClient-Tests')];
-				yourself
+	t1
+		for: #common
+		do: [t1 package: 'TelegramClient-Core';
+				
+				package: 'TelegramClient-Tests'
+				with: [t1 requires: #('TelegramClient-Core')];
+				 yourself.
+			t1 group: 'default' with: #('TelegramClient-Core');
+				 group: 'tests' with: #('TelegramClient-Tests')];
+		 yourself

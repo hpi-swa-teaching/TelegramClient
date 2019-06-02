@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"text:" : "HUB 5/11/2019 16:19" },
+		"text:" : "" },
 	"instance" : {
-		"clear_draft" : "HUB 5/11/2019 15:44",
-		"clear_draft:" : "HUB 5/11/2019 15:44",
-		"disable_web_page_preview" : "HUB 5/11/2019 15:44",
-		"disable_web_page_preview:" : "HUB 5/11/2019 15:44",
-		"text" : "HUB 5/11/2019 15:44",
-		"text:" : "HUB 5/11/2019 15:44" } }
+		"clear_draft" : "",
+		"clear_draft:" : "",
+		"disable_web_page_preview" : "",
+		"disable_web_page_preview:" : "",
+		"text" : "",
+		"text:" : "" } }

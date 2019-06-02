@@ -1,4 +1,3 @@
 accessing
-funcName: anObject
-
-	funcName := anObject.
+funcName: t1 
+	funcName := t1

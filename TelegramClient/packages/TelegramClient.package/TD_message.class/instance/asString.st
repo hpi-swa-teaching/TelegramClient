@@ -1,3 +1,3 @@
 as yet unclassified
 asString
-	^ content asString.
+	^ content asString

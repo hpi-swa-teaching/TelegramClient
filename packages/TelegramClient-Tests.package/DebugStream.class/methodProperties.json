@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"characterLimit" : "HUB 5/15/2019 11:37",
-		"clear" : "HUB 5/15/2019 11:37",
-		"endEntry" : "HUB 5/15/2019 11:37",
-		"semaphore" : "HUB 5/15/2019 11:37",
-		"show:" : "HUB 5/15/2019 11:37",
-		"showln:" : "HUB 5/15/2019 11:37" } }
+		"characterLimit" : "",
+		"clear" : "",
+		"endEntry" : "",
+		"semaphore" : "",
+		"show:" : "",
+		"showln:" : "" } }

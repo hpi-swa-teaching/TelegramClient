@@ -1,4 +1,3 @@
 accessing
-text: anObject
-
-	text := anObject.
+text: t1 
+	text := t1

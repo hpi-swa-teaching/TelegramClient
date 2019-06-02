@@ -1,4 +1,3 @@
 accessing
-limit: anObject
-
-	limit := anObject.
+limit: t1 
+	limit := t1

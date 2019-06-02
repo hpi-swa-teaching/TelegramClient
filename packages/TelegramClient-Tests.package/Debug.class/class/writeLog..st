@@ -1,4 +1,4 @@
 as yet unclassified
-writeLog: aText
+writeLog: t1 
 	self ensureStreamIsOpen.
-	self writerStream showln: aText.
+	self writerStream showln: t1

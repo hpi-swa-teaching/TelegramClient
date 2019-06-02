@@ -1,4 +1,3 @@
 accessing
-offset_order: anObject
-
-	offset_order := anObject.
+offset_order: t1 
+	offset_order := t1

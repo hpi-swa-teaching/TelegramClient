@@ -1,4 +1,3 @@
 accessing
-disable_notification: anObject
-
-	disable_notification := anObject.
+disable_notification: t1 
+	disable_notification := t1

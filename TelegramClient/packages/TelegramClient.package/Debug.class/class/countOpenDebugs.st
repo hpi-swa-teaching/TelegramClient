@@ -1,5 +1,4 @@
 as yet unclassified
 countOpenDebugs
-	"Transcript countOpenTranscripts"
-
-	^ (self dependents select: [:e | e isTextView]) size
+	^ (self dependents
+		select: [:t1 | t1 isTextView]) size

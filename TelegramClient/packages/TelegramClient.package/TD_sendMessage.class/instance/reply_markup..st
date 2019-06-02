@@ -1,4 +1,3 @@
 accessing
-reply_markup: anObject
-
-	reply_markup := anObject.
+reply_markup: t1 
+	reply_markup := t1

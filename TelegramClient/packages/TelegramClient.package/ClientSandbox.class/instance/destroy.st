@@ -1,3 +1,3 @@
 as yet unclassified
 destroy
-	client destroy.
+	client destroy

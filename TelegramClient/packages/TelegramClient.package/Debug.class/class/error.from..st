@@ -1,7 +1,8 @@
 as yet unclassified
-error: aText from: anObject
-	| t |
-	t := anObject class name asString , ': ', aText asString.
-	t := t asText.
-	t addAttribute: (TextColor color: Color red).
-	self writeLog: t.
+error: t1 from: t2 
+	| t3 |
+	t3 := t2 class name asString , ': ' , t1 asString.
+	t3 := t3 asText.
+	t3
+		addAttribute: (TextColor color: Color red).
+	self writeLog: t3

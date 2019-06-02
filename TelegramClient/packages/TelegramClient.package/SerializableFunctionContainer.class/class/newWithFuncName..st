@@ -1,3 +1,3 @@
 as yet unclassified
-newWithFuncName: funcName
-	^ self new funcName: funcName.
+newWithFuncName: t1 
+	^ self new funcName: t1

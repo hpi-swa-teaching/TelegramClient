@@ -1,3 +1,3 @@
 nil
-chatId: chatId
-	^(self basicNew) chat_id: chatId.
+chatId: t1 
+	^ self basicNew chat_id: t1

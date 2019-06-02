@@ -1,3 +1,3 @@
 as yet unclassified
 clear
-	self writerStream clear.
+	self writerStream clear

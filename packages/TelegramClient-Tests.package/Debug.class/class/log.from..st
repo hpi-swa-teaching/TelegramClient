@@ -1,7 +1,6 @@
 as yet unclassified
-log: aText from: anObject
-	self logLevel == #log ifTrue: [
-	| t |
-	t := anObject class name asString, ': ', aText asString.
-	self writeLog: t.
-	].
+log: t1 from: t2 
+	| t3 |
+	self logLevel == #log
+		ifTrue: [t3 := t2 class name asString , ': ' , t1 asString.
+			self writeLog: t3]

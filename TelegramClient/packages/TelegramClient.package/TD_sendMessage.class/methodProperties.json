@@ -1,16 +1,16 @@
 {
 	"class" : {
-		"messageToChat:withText:" : "HUB 5/11/2019 16:04" },
+		"messageToChat:withText:" : "" },
 	"instance" : {
-		"chat_id" : "HUB 5/11/2019 15:44",
-		"chat_id:" : "HUB 5/11/2019 15:44",
-		"disable_notification" : "HUB 5/11/2019 15:44",
-		"disable_notification:" : "HUB 5/11/2019 15:44",
-		"from_background" : "HUB 5/11/2019 15:44",
-		"from_background:" : "HUB 5/11/2019 15:44",
-		"input_message_content" : "HUB 5/11/2019 15:44",
-		"input_message_content:" : "HUB 5/11/2019 15:44",
-		"reply_markup" : "HUB 5/11/2019 15:44",
-		"reply_markup:" : "HUB 5/11/2019 15:44",
-		"reply_to_message_id" : "HUB 5/11/2019 15:44",
-		"reply_to_message_id:" : "HUB 5/11/2019 15:44" } }
+		"chat_id" : "",
+		"chat_id:" : "",
+		"disable_notification" : "",
+		"disable_notification:" : "",
+		"from_background" : "",
+		"from_background:" : "",
+		"input_message_content" : "",
+		"input_message_content:" : "",
+		"reply_markup" : "",
+		"reply_markup:" : "",
+		"reply_to_message_id" : "",
+		"reply_to_message_id:" : "" } }

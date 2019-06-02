@@ -1,4 +1,3 @@
 accessing
-offset_chat_id: anObject
-
-	offset_chat_id := anObject.
+offset_chat_id: t1 
+	offset_chat_id := t1

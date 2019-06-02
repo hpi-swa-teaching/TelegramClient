@@ -1,7 +1,7 @@
 as yet unclassified
-send: request
-	| stream |
-	stream := ReadWriteStream on: ''.
-	request jsonWriteOn: stream.
-	Debug log: ' [SEND]',stream contents.
-	^self class sendTo: client request: stream contents.
+send: t1 
+	| t2 |
+	t2 := ReadWriteStream on: ''.
+	t1 jsonWriteOn: t2.
+	Debug log: ' [SEND]' , t2 contents.
+	^ self class sendTo: client request: t2 contents

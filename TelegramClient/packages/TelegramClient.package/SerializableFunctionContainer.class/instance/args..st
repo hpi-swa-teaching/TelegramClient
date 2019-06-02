@@ -1,4 +1,3 @@
 accessing
-args: anObject
-
-	args := anObject.
+args: t1 
+	args := t1

@@ -1,7 +1,6 @@
 as yet unclassified
-log: aText
-	self logLevel == #log ifTrue: [
-	| t |
-	t := aText asString.
-	self writeLog: t.
-	].
+log: t1 
+	| t2 |
+	self logLevel == #log
+		ifTrue: [t2 := t1 asString.
+			self writeLog: t2]

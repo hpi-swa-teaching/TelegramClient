@@ -1,4 +1,4 @@
 as yet unclassified
-logLevel: anObject
-	logLevel := anObject.
-	self logWithOutLevelCheck: ('Changed log level to ', anObject).
+logLevel: t1 
+	logLevel := t1.
+	self logWithOutLevelCheck: 'Changed log level to ' , t1

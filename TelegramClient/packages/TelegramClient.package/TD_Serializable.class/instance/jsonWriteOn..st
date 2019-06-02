@@ -1,20 +1,20 @@
 as yet unclassified
-jsonWriteOn: aStream
-	| className |
-	aStream nextPut: ${.
-	className := self class asString.
-	className := className copyFrom: 4 to: className size.
-	aStream nextPutAll: '"@type":"', className, '"'.
-	1 to: self class instSize do:
-		[:i | | var |
-		var := self instVarAt: i.
-		var = nil ifFalse: [
-		aStream nextPut: $,.
-		aStream nextPut: $".
-		aStream nextPutAll: (self class instVarNameForIndex: i).
-		aStream nextPut: $".
-		aStream nextPut: $:.
-		var jsonWriteOn: aStream.
-		]
-		].
-	aStream nextPut: $}.
+jsonWriteOn: t1 
+	| t2 t4 |
+	t1 nextPut: ${.
+	t2 := self class asString.
+	t2 := t2 copyFrom: 4 to: t2 size.
+	t1 nextPutAll: '"@type":"' , t2 , '"'.
+	1
+		to: self class instSize
+		do: [:t3 | 
+			t4 := self instVarAt: t3.
+			t4 = nil
+				ifFalse: [t1 nextPut: $,.
+					t1 nextPut: $".
+					t1
+						nextPutAll: (self class instVarNameForIndex: t3).
+					t1 nextPut: $".
+					t1 nextPut: $:.
+					t4 jsonWriteOn: t1]].
+	t1 nextPut: $}

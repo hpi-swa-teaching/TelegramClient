@@ -1,5 +1,8 @@
 accessing
-isSerializedObject: jobj
-	jobj class = JsonObject ifFalse: [^false].
-	jobj at: '@type' ifAbsent: [^false].
-	^true.
+isSerializedObject: t1 
+	t1 class = JsonObject
+		ifFalse: [^ false].
+	t1
+		at: '@type'
+		ifAbsent: [^ false].
+	^ true

@@ -1,0 +1,16 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"fileStream",
+		"startTime",
+		"nextEvent" ],
+	"name" : "TDJSONClientEmulator",
+	"pools" : [
+		 ],
+	"super" : "TDJSONClient",
+	"type" : "normal" }

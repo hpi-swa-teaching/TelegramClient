@@ -1,3 +1,3 @@
 as yet unclassified
 initialize
-	self args: Dictionary new.
+	self args: Dictionary new
