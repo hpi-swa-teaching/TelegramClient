@@ -1,0 +1,36 @@
+{
+	"category" : "TelegramClient-TD",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"id",
+		"sender_user_id",
+		"chat_id",
+		"sending_state",
+		"is_outgoing",
+		"can_be_edited",
+		"can_be_forwarded",
+		"can_be_deleted_only_for_self",
+		"can_be_deleted_for_all_users",
+		"is_channel_post",
+		"contains_unread_mention",
+		"date",
+		"edit_date",
+		"forward_info",
+		"reply_to_message_id",
+		"ttl",
+		"ttl_expires_in",
+		"via_bot_user_id",
+		"author_signature",
+		"views",
+		"media_album_id",
+		"content",
+		"reply_markup" ],
+	"name" : "TD_message",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

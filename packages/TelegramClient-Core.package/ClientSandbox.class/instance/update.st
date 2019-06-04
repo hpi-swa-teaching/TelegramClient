@@ -1,12 +1,12 @@
 nil
 update
-	| incoming |
-	incoming := client receive: 1.
-	
-	(incoming = nil) ifTrue: [^nil].
-	(incoming class =  TD_updateAuthorizationState) ifTrue:[
+	| command |
+	command := client receive: 0.05. 
+	(command = nil) ifTrue: [^nil].
+	Debug log: '[RECIEVED](', command class asString,')', command asString.
+	(command class =  TD_updateAuthorizationState) ifTrue:[
 		| auth_state |
-		auth_state := incoming authorization_state.
+		auth_state := command authorization_state.
 		
 		(auth_state class = TD_authorizationStateClosed) ifTrue:[ ^nil ].
 		
@@ -35,12 +35,28 @@ update
 			^client send: rsp.
 		].
 		(auth_state class = TD_authorizationStateWaitPhoneNumber) ifTrue:[
-			| rsp |
+			[| rsp number |
+			number :=  UIManager default request: 'Enter your telephon nummer please'. 
 			rsp := SerializableFunctionContainer newWithFuncName: 'setAuthenticationPhoneNumber'.
-			rsp argAt: 'phone_number' put: 'USE YOUR OWN, pls dont steal '.
-			^client send: rsp.
-		]
+			rsp argAt: 'phone_number' put: number.
+			client send: rsp.] fork.
+		].
+		(auth_state class = TD_authorizationStateWaitCode) ifTrue:[
+			[| rsp code |
+			code :=  UIManager default request: 'Enter the authorization code please'. 
+			rsp := SerializableFunctionContainer newWithFuncName: 'checkAuthenticationCode'.
+			rsp argAt: 'code' put: code.
+			client send: rsp.] fork.
+		].
+		(auth_state class = TD_authorizationStateReady) ifTrue: [
+			client send: TD_getChats newWithDefaults.
+			"client send: (TD_sendMessage messageToChat: -388007830 withText: 'Hello world! - send by your humble squeak client')."
+		].
 	] ifFalse: [
-	Transcript show: incoming.
-	]
-	
+	command class == TD_chats ifTrue: [
+		command chat_ids do: [ :id | 
+			client send: (TD_getChat chatId: id).
+		].
+	].
+	command class == TD_chat ifTrue: [
+		Transcript show: command asString; cr]]

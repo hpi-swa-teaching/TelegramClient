@@ -1,5 +1,6 @@
 as yet unclassified
 initialize
 	super initialize.
-	client := self createJSONClient.
+	client := self class create.
 	jsonParser := TDJSONParser new.
+	destroyed := false.

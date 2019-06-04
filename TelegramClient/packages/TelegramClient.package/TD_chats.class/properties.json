@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-TD",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"chat_ids" ],
+	"name" : "TD_chats",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

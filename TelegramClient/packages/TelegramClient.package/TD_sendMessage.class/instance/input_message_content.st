@@ -1,0 +1,4 @@
+accessing
+input_message_content
+
+	^ input_message_content

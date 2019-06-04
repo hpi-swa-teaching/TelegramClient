@@ -11,5 +11,5 @@
 	"name" : "SerializableFunctionContainer",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TD_Serializable",
 	"type" : "normal" }
