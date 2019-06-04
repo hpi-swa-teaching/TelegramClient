@@ -35,18 +35,18 @@ update
 			^client send: rsp.
 		].
 		(auth_state class = TD_authorizationStateWaitPhoneNumber) ifTrue:[
-			| rsp number |
+			[| rsp number |
 			number :=  UIManager default request: 'Enter your telephon nummer please'. 
 			rsp := SerializableFunctionContainer newWithFuncName: 'setAuthenticationPhoneNumber'.
 			rsp argAt: 'phone_number' put: number.
-			^client send: rsp.
+			client send: rsp.] fork.
 		].
 		(auth_state class = TD_authorizationStateWaitCode) ifTrue:[
-			| rsp code |
+			[| rsp code |
 			code :=  UIManager default request: 'Enter the authorization code please'. 
 			rsp := SerializableFunctionContainer newWithFuncName: 'checkAuthenticationCode'.
 			rsp argAt: 'code' put: code.
-			^client send: rsp.
+			client send: rsp.] fork.
 		].
 		(auth_state class = TD_authorizationStateReady) ifTrue: [
 			client send: TD_getChats newWithDefaults.
