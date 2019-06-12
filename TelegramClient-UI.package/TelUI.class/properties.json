@@ -1,0 +1,17 @@
+{
+	"category" : "TelegramClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"chat",
+		"contactList",
+		"currentMessege",
+		"currentSelection" ],
+	"name" : "TelUI",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

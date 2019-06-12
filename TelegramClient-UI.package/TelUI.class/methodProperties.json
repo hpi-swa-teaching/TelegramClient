@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addContact:" : "aa 5/13/2019 13:03",
+		"addCurrentMessege" : "aa 5/13/2019 13:39",
+		"addMessege:" : "aa 5/13/2019 13:40",
+		"buildChatWindowWith:" : "aa 5/13/2019 13:50",
+		"buildContactsListWith:" : "aa 5/13/2019 17:33",
+		"buildSendButtonWith:" : "aa 5/13/2019 13:21",
+		"buildTextFieldWith:" : "aa 5/13/2019 17:34",
+		"buildWith:" : "aa 5/12/2019 16:19",
+		"chat" : "",
+		"chat:" : "",
+		"contactList" : "",
+		"contactList:" : "",
+		"currentMessege" : "aa 5/13/2019 13:26",
+		"currentMessege:" : "aa 5/13/2019 13:26",
+		"currentSelection" : "aa 5/13/2019 12:57",
+		"currentSelection:" : "aa 5/13/2019 12:57",
+		"initialize" : "aa 5/13/2019 13:46",
+		"open" : "aa 5/9/2019 16:18",
+		"text" : "aa 5/12/2019 12:33" } }
