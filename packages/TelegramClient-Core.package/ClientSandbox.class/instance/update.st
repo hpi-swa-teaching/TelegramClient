@@ -59,4 +59,4 @@ update
 		].
 	].
 	command class == TD_chat ifTrue: [
-		Transcript show: command asString; cr]]
+		ui model addContact: command title]]
