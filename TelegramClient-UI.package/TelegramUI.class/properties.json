@@ -11,7 +11,7 @@
 		"backend",
 		"messageCache",
 		"messageCacheChatId" ],
-	"name" : "TelUI",
+	"name" : "TelegramUI",
 	"pools" : [
 		 ],
 	"super" : "Model",

@@ -6,8 +6,17 @@ messageList
 	messageCacheChatId = (chat id) ifTrue: [
 		|result |
 		result := Array new: messageCache size.
-		1 to: messageCache size do: [:i |
-			result at: i put: (messageCache at: (messageCache size - i + 1)) content asString ].
+		1 to: messageCache size do: [:i | | t msg |
+		msg :=  (messageCache at: (messageCache size - i + 1)).
+		t := msg content asString asText.
+		msg is_outgoing ifTrue: [
+			t addAttribute:  (TextColor color: Color green).
+			] ifFalse: [
+			t addAttribute:  (TextColor color: Color lightBlue).
+			].
+		
+		result at: i put: t.
+		].
 		^ result.
 		].
 	"Call backend to fetch some messages"

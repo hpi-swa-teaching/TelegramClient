@@ -8,7 +8,7 @@
 	"instvars" : [
 		"client",
 		"ui" ],
-	"name" : "ClientSandbox",
+	"name" : "Telegram",
 	"pools" : [
 		 ],
 	"super" : "Object",
