@@ -1,7 +1,6 @@
 as yet unclassified
 messageList
 	| chat |
-	self getSelectedChatIndexAsNumber > chats size ifTrue: [ ^ Array new. ].
 	chat := chats at: self getSelectedChatIndexAsNumber ifAbsent: [^ Array new. ].
 	messageCacheChatId = (chat id) ifTrue: [
 		|result |

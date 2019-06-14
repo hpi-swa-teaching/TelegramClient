@@ -1,9 +1,12 @@
 as yet unclassified
-addMessage: message
+addMessages: messages
+
+messages messages do: [:message |
 	message chat_id = self getSelectedChatId ifFalse: [ ^ nil].
 	messageCacheChatId = self getSelectedChatId ifFalse: [ messageCache removeAll. messageCacheChatId := self getSelectedChatId].
 	messageCache detect: [:e | e id = message id] ifNone: [
-	messageCache addFirst: message.
-	self changed: #messageList.
+	messageCache addLast: message.
 	].
+].
+self changed: #messageList.
 	

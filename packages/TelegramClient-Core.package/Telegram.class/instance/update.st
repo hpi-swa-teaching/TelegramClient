@@ -57,11 +57,17 @@ update
 		command chat_ids do: [ :id | 
 			client send: (TD_getChat chatId: id).
 		].
+	^nil.
 	].
 	command class == TD_chat ifTrue: [
-		ui model addChat: command]].
+		ui model addChat: command.
+		^nil. ].
 	command class == TD_messages ifTrue: [
-		command messages do: [:msg | 
-			ui model addMessage: msg.
-		]
+		ui model addMessages: command.
+	^nil.
 	].
+	command class == TD_message ifTrue: [
+			ui model addMessage: command.
+			^nil.
+	].
+].

@@ -10,7 +10,8 @@
 		"selectedChatIndex",
 		"backend",
 		"messageCache",
-		"messageCacheChatId" ],
+		"messageCacheChatId",
+		"messageDraft" ],
 	"name" : "TelegramUI",
 	"pools" : [
 		 ],
