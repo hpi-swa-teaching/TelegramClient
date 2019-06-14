@@ -59,4 +59,9 @@ update
 		].
 	].
 	command class == TD_chat ifTrue: [
-		ui model addContact: command title]]
+		ui model addChat: command]].
+	command class == TD_messages ifTrue: [
+		command messages do: [:msg | 
+			ui model addMessage: msg.
+		]
+	].

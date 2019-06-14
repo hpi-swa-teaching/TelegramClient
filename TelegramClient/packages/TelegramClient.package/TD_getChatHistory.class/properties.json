@@ -1,0 +1,18 @@
+{
+	"category" : "TelegramClient-TD",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"chat_id",
+		"from_message_id",
+		"offset",
+		"limit",
+		"only_local" ],
+	"name" : "TD_getChatHistory",
+	"pools" : [
+		 ],
+	"super" : "TD_Function",
+	"type" : "normal" }

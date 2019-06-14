@@ -1,10 +1,14 @@
 accessing
 deserializeObject: jobj
 	| index type string |
+	jobj class = Array ifTrue: [
+		^ jobj collect: [:e | self deserializeObject: e] 
+	].
 	(self isSerializedObject: jobj) ifFalse: [ 
 		^jobj ].
 	
 	type := 'TD_', (jobj at: '@type').
+	
 	index := Smalltalk globals declarations do: [:c | 
 		(c key asString = type) ifTrue: [
 			| obj |

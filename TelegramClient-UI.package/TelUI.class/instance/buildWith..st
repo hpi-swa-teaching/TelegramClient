@@ -4,10 +4,11 @@ buildWith: aBuilder
 		model: self;
 		label: 'Telegram';
  		extent: 500@400; 
+		closeAction: #close;
 		children: {
-			self buildContactsListWith: aBuilder.
+			self buildChatListWith: aBuilder.
 			self buildTextFieldWith: aBuilder.
 			self buildSendButtonWith: aBuilder.
-			self buildChatWindowWith: aBuilder.
+			self buildMessageListWith: aBuilder.
 			};
 		yourself)
