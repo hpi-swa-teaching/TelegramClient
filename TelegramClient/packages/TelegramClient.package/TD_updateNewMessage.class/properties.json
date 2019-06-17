@@ -6,10 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"text",
-		"web_page" ],
-	"name" : "TD_messageText",
+		"message",
+		"contains_mention",
+		"disable_notification" ],
+	"name" : "TD_updateNewMessage",
 	"pools" : [
 		 ],
-	"super" : "TD_MessageContent",
+	"super" : "Object",
 	"type" : "normal" }

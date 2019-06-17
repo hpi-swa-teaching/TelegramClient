@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"debugNew" : "HB 6/14/2019 13:47" },
-	"instance" : {
-		"destroy" : "HUB 5/4/2019 14:55",
-		"fetchMessagesFor:" : "HB 6/14/2019 11:32",
-		"initialize" : "HB 6/14/2019 13:48",
-		"isLibraryConnected" : "HB 6/14/2019 11:30",
-		"update" : "HB 6/14/2019 12:16" } }
