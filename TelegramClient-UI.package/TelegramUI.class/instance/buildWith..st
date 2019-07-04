@@ -9,6 +9,8 @@ buildWith: aBuilder
 			self buildChatListWith: aBuilder.
 			self buildTextFieldWith: aBuilder.
 			self buildSendButtonWith: aBuilder.
+			self buildNewChatButtonWith: aBuilder.
+			self buildNewGroupChatButtonWith: aBuilder.
 			self buildMessageListWith: aBuilder.
 			};
 		yourself)
