@@ -1,0 +1,11 @@
+as yet unclassified
+buildContactListWith: aBuilder
+^ aBuilder pluggableListSpec new
+		model: self;
+		frame: (0@0 corner: 1@0.9);
+		list: #contactNames;
+		
+		getSelected: #getSelectedContactIndex;
+		setSelected: #setSelectedContactIndex:;
+		
+		yourself

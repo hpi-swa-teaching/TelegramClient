@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildContactListWith:" : "MD 7/4/2019 17:05",
+		"buildCreateChatButtonWith:" : "MD 7/4/2019 16:57",
+		"buildWith:" : "MD 7/4/2019 16:56",
+		"close" : "MD 7/4/2019 16:30",
+		"contactNames" : "MD 7/4/2019 16:53",
+		"createChat" : "MD 7/4/2019 16:58",
+		"getSelectedContactIndex" : "MD 7/4/2019 17:07",
+		"setSelectedContactIndex:" : "MD 7/4/2019 17:08" } }
