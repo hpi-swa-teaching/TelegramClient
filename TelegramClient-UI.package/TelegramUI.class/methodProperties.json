@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"newWithBackend:" : "HB 7/5/2019 15:13" },
 	"instance" : {
 		"addChat:" : "HB 6/14/2019 13:23",
 		"addMessage:" : "HB 6/17/2019 19:59",
@@ -16,10 +16,13 @@
 		"getSelectedChatId" : "HB 6/14/2019 13:21",
 		"getSelectedChatIndex" : "HB 6/14/2019 11:13",
 		"getSelectedChatIndexAsNumber" : "HB 6/14/2019 13:21",
-		"initialize" : "HB 6/17/2019 19:25",
+		"initialize" : "HB 7/5/2019 15:12",
+		"initializeListeners" : "HB 7/5/2019 15:23",
 		"messageDraft" : "HB 6/14/2019 14:27",
 		"messageDraft:" : "HB 6/14/2019 14:27",
 		"messageList" : "HB 6/17/2019 19:27",
+		"onAuthStateReady" : "HB 7/5/2019 15:20",
 		"open" : "aa 5/9/2019 16:18",
+		"receivedChats:" : "HB 7/5/2019 15:22",
 		"sendMessage" : "HB 6/14/2019 14:30",
 		"setSelectedChatIndex:" : "HB 6/14/2019 11:54" } }

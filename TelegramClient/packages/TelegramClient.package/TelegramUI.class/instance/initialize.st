@@ -6,3 +6,4 @@ initialize
 	selectedChatIndex := 1.
 	messageCacheChatId := -1.
 	debouncer := Debouncer new.
+	self initializeListeners.

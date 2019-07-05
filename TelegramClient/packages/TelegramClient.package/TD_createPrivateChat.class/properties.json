@@ -1,0 +1,15 @@
+{
+	"category" : "TelegramClient-TD",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"user_id",
+		"force" ],
+	"name" : "TD_createPrivateChat",
+	"pools" : [
+		 ],
+	"super" : "TD_Function",
+	"type" : "normal" }
