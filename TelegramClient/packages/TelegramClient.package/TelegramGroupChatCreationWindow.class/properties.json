@@ -9,7 +9,7 @@
 		"selectedContactIndex",
 		"backend",
 		"users" ],
-	"name" : "TelegramContactWindow",
+	"name" : "TelegramGroupChatCreationWindow",
 	"pools" : [
 		 ],
 	"super" : "Model",

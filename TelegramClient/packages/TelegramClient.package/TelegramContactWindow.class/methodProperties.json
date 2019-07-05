@@ -1,12 +1,20 @@
 {
 	"class" : {
-		 },
+		"newWithBackend:" : "HB 7/5/2019 15:29" },
 	"instance" : {
+		"addUser:" : "HB 7/5/2019 15:42",
+		"backend" : "HB 7/5/2019 15:29",
+		"backend:" : "HB 7/5/2019 15:29",
 		"buildContactListWith:" : "MD 7/4/2019 17:05",
 		"buildCreateChatButtonWith:" : "MD 7/4/2019 16:57",
 		"buildWith:" : "MD 7/4/2019 16:56",
-		"close" : "MD 7/4/2019 16:30",
-		"contactNames" : "MD 7/4/2019 16:53",
-		"createChat" : "MD 7/4/2019 16:58",
+		"close" : "HB 7/5/2019 15:51",
+		"contactNames" : "HB 7/5/2019 16:18",
+		"createChat" : "HB 7/5/2019 16:12",
 		"getSelectedContactIndex" : "MD 7/4/2019 17:07",
-		"setSelectedContactIndex:" : "MD 7/4/2019 17:08" } }
+		"getSelectedContactIndexAsNumber" : "HB 7/5/2019 16:19",
+		"getSelectedUserId" : "HB 7/5/2019 16:17",
+		"initialize" : "HB 7/5/2019 15:47",
+		"receivedUsers:" : "HB 7/5/2019 15:44",
+		"setSelectedContactIndex:" : "MD 7/4/2019 17:08",
+		"userToUIString:" : "HB 7/5/2019 16:18" } }

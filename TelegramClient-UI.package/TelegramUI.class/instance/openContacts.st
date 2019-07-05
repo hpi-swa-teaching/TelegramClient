@@ -1,3 +1,3 @@
 as yet unclassified
 openContacts
-ToolBuilder open: TelegramContactWindow new.
+ToolBuilder open: (TelegramContactWindow newWithBackend: backend).

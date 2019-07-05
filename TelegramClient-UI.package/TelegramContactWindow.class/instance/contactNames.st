@@ -1,3 +1,3 @@
 as yet unclassified
 contactNames
-	^ #( 'Albert' 'Berta' 'Caesar').
+	^ users collect: [:e | self userToUIString: e].
