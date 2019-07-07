@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selectedContactIndex",
 		"backend",
-		"users" ],
+		"users",
+		"contactIndex" ],
 	"name" : "TelegramContactWindow",
 	"pools" : [
 		 ],

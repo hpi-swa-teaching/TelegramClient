@@ -7,12 +7,12 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"chats",
-		"selectedChatIndex",
 		"backend",
 		"messageCache",
 		"messageCacheChatId",
 		"messageDraft",
-		"debouncer" ],
+		"debouncer",
+		"chatIndex" ],
 	"name" : "TelegramUI",
 	"pools" : [
 		 ],

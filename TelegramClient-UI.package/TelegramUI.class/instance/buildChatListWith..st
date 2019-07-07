@@ -4,7 +4,7 @@ buildChatListWith: aBuilder
 		model: self;
 		frame: (0@0.05 corner: 0.3@1);
 		list: #chatTitels;
-		getSelected: #getSelectedChatIndex;
-		setSelected: #setSelectedChatIndex:;
+		getIndex: #getChatIndex;
+		setIndex: #setChatIndex:;
 		
 		yourself

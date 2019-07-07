@@ -1,3 +1,4 @@
 as yet unclassified
 contactNames
-	^ users := #('Anna' 'Berta').
+	| names |
+	names := users collect: [:e | self userToUIString: e].

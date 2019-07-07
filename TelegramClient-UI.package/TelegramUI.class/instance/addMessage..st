@@ -5,6 +5,6 @@ addMessage: message
 	messageCache detect: [:e | e id = message id] ifNone: [
 	messageCache addFirst: message.
 	self changed: #messageList.
-	(self dependents at: 5) scrollToBottom.
+	(self dependents at: 7) scrollToBottom.
 	].
 	

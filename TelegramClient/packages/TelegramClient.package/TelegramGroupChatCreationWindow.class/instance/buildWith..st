@@ -6,6 +6,7 @@ buildWith: aBuilder
  		extent: 200@400; 
 		closeAction: #close;
 		children: {
+			self buildNameFieldWith: aBuilder.
 			self buildContactListWith: aBuilder.
 			self buildCreateGroupButtonWith: aBuilder.
 			};

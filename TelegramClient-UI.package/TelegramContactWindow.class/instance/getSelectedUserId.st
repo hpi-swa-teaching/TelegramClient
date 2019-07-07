@@ -1,3 +1,3 @@
 as yet unclassified
 getSelectedUserId
-	^ (users at: self getSelectedContactIndexAsNumber ifAbsent: [^ -1]) id.
+	^ (users at: self getContactIndex ifAbsent: [^ -1]) id.

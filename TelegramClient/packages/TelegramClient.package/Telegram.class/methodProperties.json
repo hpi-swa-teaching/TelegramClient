@@ -2,6 +2,7 @@
 	"class" : {
 		"debugNew" : "HB 6/14/2019 13:47" },
 	"instance" : {
+		"createNewBasicGroupChat:withTitle:" : "HB 7/7/2019 23:11",
 		"createPrivateChatWith:" : "HB 7/4/2019 16:26",
 		"destroy" : "HUB 5/4/2019 14:55",
 		"fetchAllChats" : "HB 7/5/2019 15:09",

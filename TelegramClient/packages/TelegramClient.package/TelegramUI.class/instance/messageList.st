@@ -1,7 +1,7 @@
 as yet unclassified
 messageList
 	| chat |
-	chat := chats at: self getSelectedChatIndexAsNumber ifAbsent: [^ Array new. ].
+	chat := chats at: self getChatIndex ifAbsent: [^ Array new. ].
 	messageCacheChatId = (chat id) ifTrue: [
 		|result |
 		debouncer reset.

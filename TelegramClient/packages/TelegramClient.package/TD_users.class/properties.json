@@ -11,5 +11,5 @@
 	"name" : "TD_users",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TD_Serializable",
 	"type" : "normal" }

@@ -1,3 +1,3 @@
 as yet unclassified
 openGroupChatCreation
-ToolBuilder open: (TelegramGroupChatCreationWindow).
+ToolBuilder open: (TelegramGroupChatCreationWindow newWithBackend: backend).
