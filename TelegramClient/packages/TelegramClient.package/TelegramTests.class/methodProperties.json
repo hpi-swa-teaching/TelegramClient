@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "ts 7/11/2019 11:46",
+		"tearDown" : "ts 7/11/2019 11:38",
+		"testTelegramConnectingToLibrary" : "ts 7/11/2019 11:58" } }
