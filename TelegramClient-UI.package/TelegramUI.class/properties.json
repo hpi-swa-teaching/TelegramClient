@@ -12,7 +12,8 @@
 		"messageCacheChatId",
 		"messageDraft",
 		"debouncer",
-		"chatIndex" ],
+		"chatIndex",
+		"userCache" ],
 	"name" : "TelegramUI",
 	"pools" : [
 		 ],

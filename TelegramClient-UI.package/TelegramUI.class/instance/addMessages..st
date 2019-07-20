@@ -6,6 +6,9 @@ messages messages do: [:message |
 	messageCacheChatId = self getSelectedChatId ifFalse: [ messageCache removeAll. messageCacheChatId := self getSelectedChatId].
 	messageCache detect: [:e | e id = message id] ifNone: [
 	messageCache addLast: message.
+	(userCache includesKey: message sender_user_id) ifFalse: [
+	backend fetchUser: message sender_user_id.
+	].
 	].
 ].
 self changed: #messageList.

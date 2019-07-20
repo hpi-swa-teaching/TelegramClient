@@ -7,4 +7,5 @@ initialize
 	chatIndex := -1.
 	messageCacheChatId := -1.
 	debouncer := Debouncer new.
+	userCache := Dictionary new.
 	self initializeListeners.
