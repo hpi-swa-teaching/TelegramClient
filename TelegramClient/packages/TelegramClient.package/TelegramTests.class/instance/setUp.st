@@ -1,4 +1,5 @@
 running
 setUp
 
-	telegram := Telegram new.
+	telegram := Telegram debugNew.
+	

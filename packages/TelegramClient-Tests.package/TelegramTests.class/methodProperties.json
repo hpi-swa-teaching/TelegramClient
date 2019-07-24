@@ -2,6 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "ts 7/11/2019 11:46",
+		"getTestVariable:" : "ts 7/24/2019 13:37",
+		"runAllTests" : "ts 7/24/2019 14:14",
+		"setUp" : "ts 7/24/2019 12:28",
 		"tearDown" : "ts 7/11/2019 11:38",
-		"testTelegramConnectingToLibrary" : "ts 7/11/2019 11:58" } }
+		"testTelegramConnectingToLibrary" : "ts 7/11/2019 11:58",
+		"testTelegramUISettingChatIndex" : "ts 7/24/2019 13:55",
+		"testTelegramUISettingMessageDraft" : "ts 7/24/2019 13:55" } }

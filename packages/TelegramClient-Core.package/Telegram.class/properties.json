@@ -10,7 +10,8 @@
 		"ui",
 		"messageHandlerDict",
 		"authStateHandlerDict",
-		"listener" ],
+		"listener",
+		"uiObject" ],
 	"name" : "Telegram",
 	"pools" : [
 		 ],

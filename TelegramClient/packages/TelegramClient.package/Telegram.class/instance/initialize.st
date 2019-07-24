@@ -4,5 +4,6 @@ initialize
 	self initializeMessageHandlers.
 	listener := Dictionary new.
 	client := TDJSONClient new.
-	ui := ToolBuilder open: (TelegramUI newWithBackend: self).
+	uiObject:= TelegramUI newWithBackend: self.
+	ui := ToolBuilder open: uiObject.
 	[[client isDestroyed] whileFalse: [self update. Processor yield]] fork.
