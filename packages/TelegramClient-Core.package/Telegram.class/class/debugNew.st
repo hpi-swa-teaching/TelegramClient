@@ -1,5 +1,5 @@
-as yet unclassified
+instance creation
 debugNew
 	Transcript clear.
 	Debug clear.
-	^ self new.
+	^ self new

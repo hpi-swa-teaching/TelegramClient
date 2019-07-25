@@ -1,4 +1,4 @@
-accessing
+initialize-release
 initialize
-	jsonparser := Json new.
+	jsonparser := Json new
 	

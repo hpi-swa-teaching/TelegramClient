@@ -1,3 +1,3 @@
-nil
+internal
 isLibraryConnected
 	^ client isDestroyed not

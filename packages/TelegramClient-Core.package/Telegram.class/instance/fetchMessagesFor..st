@@ -1,3 +1,3 @@
-nil
+api-calls
 fetchMessagesFor: chatId
-	^ self fetchMessagesFor: chatId startingAt: 0.
+	^ self fetchMessagesFor: chatId startingAt: 0

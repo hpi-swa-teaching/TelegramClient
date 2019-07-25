@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 initialize
 	timeOfLastCall := 0.
-	timeout := 5.
+	timeout := 5

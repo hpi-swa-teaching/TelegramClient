@@ -1,4 +1,4 @@
-nil
+initialize-release
 initializeMessageHandlers
 	messageHandlerDict := Dictionary new.
 	
@@ -6,5 +6,4 @@ initializeMessageHandlers
 		TD_updateAuthorizationState -> [:msg| 
 			| auth_state |
 			auth_state := msg authorization_state.
-			(authStateHandlerDict at: auth_state class ifAbsent: [[:m |]]) value: auth_state.
-		].
+			(authStateHandlerDict at: auth_state class ifAbsent: [[:m |]]) value: auth_state]

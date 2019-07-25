@@ -1,6 +1,6 @@
-as yet unclassified
+lib-calls
 receive: timeout
 	| raw |
 	raw := self class receiveFrom: client withTimeout: timeout.
-	(raw = nil) ifTrue: [^ nil].
-	^ jsonParser deserializeString: raw.
+	raw isNil ifTrue: [^ nil].
+	^ jsonParser deserializeString: raw

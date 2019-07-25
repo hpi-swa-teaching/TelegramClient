@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 timeout: aTimeOut
 	timeout := aTimeOut

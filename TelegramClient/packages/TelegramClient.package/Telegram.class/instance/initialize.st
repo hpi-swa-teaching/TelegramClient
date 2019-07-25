@@ -1,9 +1,8 @@
-as yet unclassified
+initialize-release
 initialize
 	self initializeAuthStateHandler.
 	self initializeMessageHandlers.
 	listener := Dictionary new.
 	client := TDJSONClient new.
-	uiObject:= TelegramUI newWithBackend: self.
-	ui := ToolBuilder open: uiObject.
-	[[client isDestroyed] whileFalse: [self update. Processor yield]] fork.
+	ui := ToolBuilder open: (TelegramUI newWithBackend: self).
+	[[client isDestroyed] whileFalse: [self update. Processor yield]] fork

@@ -1,3 +1,3 @@
-as yet unclassified
+api-calls
 destroy
-	client destroy.
+	client destroy

@@ -1,4 +1,4 @@
-nil
+initialize-release
 initializeAuthStateHandler
 	authStateHandlerDict := Dictionary new.
 	
@@ -18,33 +18,28 @@ initializeAuthStateHandler
 			params at: 'application_version' put: '1.0'.
 			params at: 'enable_storage_optimizer' put: true.
 			rsp argAt: 'parameters' put: params.
-			client send: rsp.
-			].
+			client send: rsp].
 	
 	authStateHandlerDict add: TD_authorizationStateWaitEncryptionKey -> [:msg|
 		"we dont encrypt."
 			| rsp |
 			rsp := SerializableFunctionContainer newWithFuncName: 'checkDatabaseEncryptionKey'.
 			rsp argAt: 'key' put: ''.
-			client send: rsp.
-		].
+			client send: rsp].
 	
 	authStateHandlerDict add: TD_authorizationStateWaitPhoneNumber -> [:msg|
 		[| rsp number |
 			number :=  UIManager default request: 'Enter your telephon nummer please'. 
 			rsp := SerializableFunctionContainer newWithFuncName: 'setAuthenticationPhoneNumber'.
 			rsp argAt: 'phone_number' put: number.
-			client send: rsp.] fork.
-		].
+			client send: rsp.] fork].
 	
 	authStateHandlerDict add: TD_authorizationStateWaitCode -> [:msg|
 		[| rsp code |
 			code :=  UIManager default request: 'Enter the authorization code please'. 
 			rsp := SerializableFunctionContainer newWithFuncName: 'checkAuthenticationCode'.
 			rsp argAt: 'code' put: code.
-			client send: rsp.] fork.
-		].
+			client send: rsp.] fork].
 	
 	authStateHandlerDict add: TD_authorizationStateReady -> [:msg|
-		ui model onAuthStateReady.
-		].
+		ui model onAuthStateReady]
