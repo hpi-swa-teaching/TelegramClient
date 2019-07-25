@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 setChatIndex: index
 	chatIndex := index.
 	self changed: #messageList

@@ -1,3 +1,3 @@
-as yet unclassified
+initialize
 open
 ToolBuilder open: self new.

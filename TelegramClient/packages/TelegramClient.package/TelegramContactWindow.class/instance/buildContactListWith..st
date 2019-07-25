@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildContactListWith: aBuilder
 ^ aBuilder pluggableListSpec new
 		model: self;

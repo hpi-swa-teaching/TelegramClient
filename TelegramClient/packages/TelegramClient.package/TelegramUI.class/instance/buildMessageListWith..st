@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildMessageListWith: aBuilder
 ^ aBuilder pluggableListSpec new
 		model: self;

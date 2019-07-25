@@ -1,3 +1,3 @@
-as yet unclassified
+receiving
 receivedNewMessage: msg
 	self addMessage: msg message.

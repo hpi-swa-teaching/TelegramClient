@@ -1,4 +1,4 @@
-as yet unclassified
+initialize
 initialize
 	self setChatIndex: 1.
 	super initialize.

@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildWith: aBuilder
 ^ aBuilder build: ( aBuilder pluggableWindowSpec new 
 		model: self;

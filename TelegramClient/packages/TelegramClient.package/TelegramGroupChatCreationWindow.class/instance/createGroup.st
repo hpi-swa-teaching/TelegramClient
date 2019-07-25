@@ -1,4 +1,4 @@
-as yet unclassified
+building
 createGroup
 	| selection ids|
 	(nameDraft = nil or: nameDraft = '') ifTrue: [ ^nil].

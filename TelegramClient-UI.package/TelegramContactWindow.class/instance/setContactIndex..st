@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 setContactIndex: index
 	contactIndex := index.

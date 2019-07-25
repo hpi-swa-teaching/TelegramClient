@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildNameFieldWith: aBuilder
 ^ aBuilder pluggableTextSpec new
 		model: self;

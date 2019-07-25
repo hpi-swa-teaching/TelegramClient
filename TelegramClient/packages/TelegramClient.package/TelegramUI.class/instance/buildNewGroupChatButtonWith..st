@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildNewGroupChatButtonWith: aBuilder
 ^ aBuilder pluggableButtonSpec new
 		model: self;
