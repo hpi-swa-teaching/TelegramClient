@@ -58,11 +58,8 @@ script:
   - cd build
   - cmake .. && make -j${JOBS} VERBOSE=1
 - ./test/run_all_tests --filter -client
-os:
-  - linux
-  - osx
 
 smalltalk:
   - Squeak-5.2
   - Squeak-5.1
-- Squeak-5.0
+  - Squeak-5.0
