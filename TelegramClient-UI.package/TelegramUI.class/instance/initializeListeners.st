@@ -1,4 +1,4 @@
-as yet unclassified
+initialize
 initializeListeners
 	backend registerListener: self for: TD_chat withSelector: #addChat:.
 	backend registerListener: self for: TD_messages withSelector: #addMessages:.

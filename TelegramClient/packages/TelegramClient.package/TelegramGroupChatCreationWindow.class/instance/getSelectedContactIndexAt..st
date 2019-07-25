@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 getSelectedContactIndexAt: index
 	^ selectedContactList at: index.

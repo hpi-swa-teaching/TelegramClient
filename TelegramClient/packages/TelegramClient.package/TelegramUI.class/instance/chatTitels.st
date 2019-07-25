@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 chatTitels
 	^ chats collect: [:e |  e title ].

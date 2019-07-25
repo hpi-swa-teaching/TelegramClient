@@ -1,4 +1,4 @@
-as yet unclassified
+initialize
 initialize
 	self setContactIndex: 0.
 	super initialize.

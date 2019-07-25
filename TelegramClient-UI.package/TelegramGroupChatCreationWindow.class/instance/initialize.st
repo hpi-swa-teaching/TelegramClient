@@ -1,4 +1,4 @@
-as yet unclassified
+initialize
 initialize
 	super initialize.
 	self backend registerListener: self for: TD_users withSelector: #receivedUsers:.

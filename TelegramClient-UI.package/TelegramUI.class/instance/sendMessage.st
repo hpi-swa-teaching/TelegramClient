@@ -1,4 +1,4 @@
-as yet unclassified
+sending
 sendMessage
 	| chat |
 	(messageDraft = '' or: messageDraft = nil) ifTrue: [^ nil].

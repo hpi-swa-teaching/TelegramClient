@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildChatListWith: aBuilder
 ^ aBuilder pluggableListSpec new
 		model: self;

@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 messageDraft: aString
 	messageDraft := aString.

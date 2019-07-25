@@ -1,4 +1,4 @@
-as yet unclassified
+sending
 addChat: aTdChatObject
 	chats add: aTdChatObject.
 	self changed: #chatTitels.

@@ -1,4 +1,4 @@
-as yet unclassified
+adding
 addUser: user
 	users add: user.
 	selectedContactList := Array new: users size.

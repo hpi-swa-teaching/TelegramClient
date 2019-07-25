@@ -1,4 +1,4 @@
-as yet unclassified
+building
 createChat
 	contactIndex = nil ifTrue: [^nil].
 	backend createPrivateChatWith: self getSelectedUserId.

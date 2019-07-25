@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 nameDraft: aString
 	nameDraft := aString.

@@ -1,4 +1,4 @@
-as yet unclassified
+receiving
 messageList
 	| chat |
 	chat := chats at: self getChatIndex ifAbsent: [^ Array new. ].
