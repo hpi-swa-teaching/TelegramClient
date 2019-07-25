@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 text: text
 	^ (self basicNew) text: text

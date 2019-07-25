@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 userId: userId
-	^(self basicNew) user_id: userId; force: false.
+	^(self basicNew) user_id: userId; force: false

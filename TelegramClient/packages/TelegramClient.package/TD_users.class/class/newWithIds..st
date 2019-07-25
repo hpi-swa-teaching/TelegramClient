@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 newWithIds: ids
-	^(self basicNew) user_ids: ids; total_count: ids size.
+	^(self basicNew) user_ids: ids; total_count: ids size

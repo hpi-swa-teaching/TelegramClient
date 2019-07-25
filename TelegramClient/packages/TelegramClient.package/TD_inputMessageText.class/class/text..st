@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 text: text
 	^(self basicNew)
-		text: (TD_formattedText text: text).
+		text: (TD_formattedText text: text)

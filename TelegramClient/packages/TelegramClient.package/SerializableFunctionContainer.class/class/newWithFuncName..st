@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 newWithFuncName: funcName
-	^ self new funcName: funcName.
+	^ self new funcName: funcName
