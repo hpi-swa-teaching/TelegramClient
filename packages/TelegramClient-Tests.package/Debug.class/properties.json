@@ -1,0 +1,16 @@
+{
+	"category" : "TelegramClient-Tests",
+	"classinstvars" : [
+		"writerStream",
+		"window",
+		"logLevel" ],
+	"classvars" : [
+		"AccessSema" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Debug",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

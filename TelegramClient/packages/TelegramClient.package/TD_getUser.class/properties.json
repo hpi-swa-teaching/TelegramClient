@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-TD",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"user_id" ],
+	"name" : "TD_getUser",
+	"pools" : [
+		 ],
+	"super" : "TD_Function",
+	"type" : "normal" }

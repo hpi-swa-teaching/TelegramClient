@@ -1,0 +1,15 @@
+{
+	"category" : "TelegramClient-TD",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"total_count",
+		"user_ids" ],
+	"name" : "TD_users",
+	"pools" : [
+		 ],
+	"super" : "TD_Serializable",
+	"type" : "normal" }

@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"newWithBackend:" : "HB 7/7/2019 22:21" },
+	"instance" : {
+		"addUser:" : "ts 7/26/2019 11:04",
+		"backend" : "HB 7/7/2019 22:22",
+		"backend:" : "HB 7/7/2019 22:22",
+		"buildContactListWith:" : "ts 7/26/2019 13:45",
+		"buildCreateGroupButtonWith:" : "HB 7/7/2019 22:47",
+		"buildNameFieldWith:" : "HB 7/7/2019 22:18",
+		"buildWith:" : "ts 7/26/2019 13:45",
+		"close" : "ts 7/26/2019 13:36",
+		"contactNames" : "ts 7/26/2019 13:36",
+		"createGroup" : "ts 7/26/2019 13:36",
+		"getSelectedContactIndexAt:" : "ts 7/26/2019 13:37",
+		"initialize" : "ts 7/26/2019 11:14",
+		"nameDraft" : "ts 7/26/2019 13:37",
+		"nameDraft:" : "ts 7/26/2019 13:37",
+		"receivedUsers:" : "ts 7/26/2019 13:37",
+		"setSelectedContactIndexAt:put:" : "ts 7/26/2019 13:37",
+		"userToUIString:" : "HB 7/7/2019 22:21" } }

@@ -1,0 +1,28 @@
+{
+	"category" : "TelegramClient-TD",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"id",
+		"first_name",
+		"last_name",
+		"username",
+		"phone_number",
+		"status",
+		"profile_photo",
+		"outgoing_link",
+		"incoming_link",
+		"is_verified",
+		"is_support",
+		"restriction_reason",
+		"have_access",
+		"type",
+		"language_code" ],
+	"name" : "TD_user",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

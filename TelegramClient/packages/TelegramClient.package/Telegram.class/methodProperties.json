@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"create" : "HB 7/26/2019 13:14",
+		"createPythonVersion" : "HB 7/26/2019 13:16",
+		"createTelegram:" : "HB 7/26/2019 13:11",
+		"debugCreate" : "HB 7/26/2019 13:12",
+		"openUI:" : "HB 7/26/2019 13:13" },
+	"instance" : {
+		"client:" : "HB 7/26/2019 12:50",
+		"createNewBasicGroupChat:withTitle:" : "HB 7/25/2019 16:06",
+		"createPrivateChatWith:" : "HB 7/25/2019 16:06",
+		"destroy" : "HB 7/25/2019 16:06",
+		"fetchAllChats" : "HB 7/25/2019 16:06",
+		"fetchAllContacts" : "HB 7/25/2019 16:06",
+		"fetchChat:" : "HB 7/25/2019 16:06",
+		"fetchMessagesFor:" : "HB 7/25/2019 15:51",
+		"fetchMessagesFor:startingAt:" : "HB 7/25/2019 16:06",
+		"fetchUser:" : "HB 7/25/2019 16:07",
+		"fireListenerMessage:" : "HB 7/26/2019 13:31",
+		"initialize" : "HB 7/26/2019 13:49",
+		"initializeAuthStateHandler" : "HB 7/26/2019 13:32",
+		"initializeMessageHandlers" : "HB 7/25/2019 16:07",
+		"isLibraryConnected" : "HB 6/14/2019 11:30",
+		"registerListener:for:withSelector:" : "HB 7/25/2019 15:52",
+		"sendMessage:to:" : "HB 7/25/2019 16:07",
+		"unregisterListener:for:withSelector:" : "HB 7/25/2019 16:07",
+		"update" : "HB 7/26/2019 14:04" } }

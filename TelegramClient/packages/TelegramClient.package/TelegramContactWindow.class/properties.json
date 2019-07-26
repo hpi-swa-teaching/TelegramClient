@@ -1,0 +1,16 @@
+{
+	"category" : "TelegramClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"backend",
+		"users",
+		"contactIndex" ],
+	"name" : "TelegramContactWindow",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

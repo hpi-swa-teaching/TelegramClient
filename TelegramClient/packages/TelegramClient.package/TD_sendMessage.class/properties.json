@@ -1,0 +1,19 @@
+{
+	"category" : "TelegramClient-TD",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"chat_id",
+		"reply_to_message_id",
+		"disable_notification",
+		"from_background",
+		"reply_markup",
+		"input_message_content" ],
+	"name" : "TD_sendMessage",
+	"pools" : [
+		 ],
+	"super" : "TD_Function",
+	"type" : "normal" }

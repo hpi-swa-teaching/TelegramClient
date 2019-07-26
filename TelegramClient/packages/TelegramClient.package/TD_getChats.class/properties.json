@@ -1,0 +1,16 @@
+{
+	"category" : "TelegramClient-TD",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"offset_order",
+		"offset_chat_id",
+		"limit" ],
+	"name" : "TD_getChats",
+	"pools" : [
+		 ],
+	"super" : "TD_Function",
+	"type" : "normal" }

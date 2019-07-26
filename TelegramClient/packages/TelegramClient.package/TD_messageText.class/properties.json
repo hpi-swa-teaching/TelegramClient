@@ -1,0 +1,15 @@
+{
+	"category" : "TelegramClient-TD",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"text",
+		"web_page" ],
+	"name" : "TD_messageText",
+	"pools" : [
+		 ],
+	"super" : "TD_MessageContent",
+	"type" : "normal" }

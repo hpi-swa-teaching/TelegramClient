@@ -1,0 +1,16 @@
+{
+	"category" : "TelegramClient-TD",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"message",
+		"contains_mention",
+		"disable_notification" ],
+	"name" : "TD_updateNewMessage",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

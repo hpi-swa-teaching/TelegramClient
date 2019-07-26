@@ -1,0 +1,15 @@
+{
+	"category" : "TelegramClient-TD",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"user_ids",
+		"title" ],
+	"name" : "TD_createNewBasicGroupChat",
+	"pools" : [
+		 ],
+	"super" : "TD_Function",
+	"type" : "normal" }

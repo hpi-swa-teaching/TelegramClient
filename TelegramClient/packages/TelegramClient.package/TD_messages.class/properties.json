@@ -1,0 +1,15 @@
+{
+	"category" : "TelegramClient-TD",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"total_count",
+		"messages" ],
+	"name" : "TD_messages",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

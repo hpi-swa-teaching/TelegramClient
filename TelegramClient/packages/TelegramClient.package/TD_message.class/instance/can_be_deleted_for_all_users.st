@@ -1,0 +1,4 @@
+accessing
+can_be_deleted_for_all_users
+
+	^ can_be_deleted_for_all_users
