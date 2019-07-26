@@ -1,3 +1,3 @@
 initialize
 close
-	backend destroy.
+	backend destroy

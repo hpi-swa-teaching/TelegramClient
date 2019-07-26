@@ -1,3 +1,3 @@
 accessing
 chatTitels
-	^ chats collect: [:e |  e title ].
+	^ chats collect: [:e |  e title ]

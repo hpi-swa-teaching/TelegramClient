@@ -1,3 +1,3 @@
 accessing
 getSelectedUserId
-	^ (users at: self getContactIndex ifAbsent: [^ -1]) id.
+	^ (users at: self getContactIndex ifAbsent: [^ -1]) id

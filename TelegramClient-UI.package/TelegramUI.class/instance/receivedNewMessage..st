@@ -1,3 +1,3 @@
 receiving
 receivedNewMessage: msg
-	self addMessage: msg message.
+	self addMessage: msg message

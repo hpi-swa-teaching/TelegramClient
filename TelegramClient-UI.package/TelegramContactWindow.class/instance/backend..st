@@ -1,4 +1,4 @@
 accessing
 backend: anObject
 
-	backend := anObject.
+	backend := anObject

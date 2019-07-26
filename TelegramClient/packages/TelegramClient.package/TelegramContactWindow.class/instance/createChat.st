@@ -1,5 +1,5 @@
 building
 createChat
-	contactIndex = nil ifTrue: [^nil].
+	contactIndex isNil ifTrue: [^nil].
 	backend createPrivateChatWith: self getSelectedUserId.
-	(self dependents at: 1) delete.
+	(self dependents first) delete.

@@ -1,3 +1,3 @@
 accessing
 messageDraft: aString
-	messageDraft := aString.
+	messageDraft := aString

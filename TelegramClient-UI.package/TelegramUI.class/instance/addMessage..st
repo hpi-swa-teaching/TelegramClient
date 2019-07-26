@@ -10,5 +10,5 @@ addMessage: message
 	].
 	self changed: #messageList.
 	(self dependents at: 7) scrollToBottom.
-	].
+	]
 	

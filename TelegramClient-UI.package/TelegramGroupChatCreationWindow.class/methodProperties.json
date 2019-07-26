@@ -2,7 +2,7 @@
 	"class" : {
 		"newWithBackend:" : "HB 7/7/2019 22:21" },
 	"instance" : {
-		"addUser:" : "HB 7/7/2019 22:47",
+		"addUser:" : "ts 7/26/2019 11:04",
 		"backend" : "HB 7/7/2019 22:22",
 		"backend:" : "HB 7/7/2019 22:22",
 		"buildContactListWith:" : "HB 7/7/2019 22:44",
@@ -11,9 +11,9 @@
 		"buildWith:" : "HB 7/7/2019 22:19",
 		"close" : "HB 7/7/2019 23:07",
 		"contactNames" : "HB 7/11/2019 11:36",
-		"createGroup" : "HB 7/11/2019 11:39",
+		"createGroup" : "ts 7/26/2019 11:09",
 		"getSelectedContactIndexAt:" : "HB 7/7/2019 22:42",
-		"initialize" : "HB 7/7/2019 22:43",
+		"initialize" : "ts 7/26/2019 11:14",
 		"nameDraft" : "HB 7/7/2019 22:20",
 		"nameDraft:" : "HB 7/7/2019 22:20",
 		"receivedUsers:" : "HB 7/7/2019 22:21",

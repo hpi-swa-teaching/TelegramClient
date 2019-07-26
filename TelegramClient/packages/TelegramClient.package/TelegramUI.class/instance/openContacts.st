@@ -1,3 +1,3 @@
 building
 openContacts
-ToolBuilder open: (TelegramContactWindow newWithBackend: backend).
+ToolBuilder open: (TelegramContactWindow newWithBackend: backend)

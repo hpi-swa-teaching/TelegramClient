@@ -1,10 +1,11 @@
 building
 createGroup
 	| selection ids|
-	(nameDraft = nil or: nameDraft = '') ifTrue: [ ^nil].
-	selection := OrderedCollection new.
-	1 to: selectedContactList size do: [:i | (selectedContactList at: i) ifTrue: [selection add: i]].
-	selection size = 0 ifTrue: [^nil].
+	nameDraft isEmptyOrNil ifTrue: [ ^nil].
+	"selection := OrderedCollection new."
+	selection:= selectedContactList collect: [:i | (selectedContactList at: i) equals: true].
+	"1 to: selectedContactList size do: [:i | (selectedContactList at: i) ifTrue: [selection add: i]]."
+	selection isEmpty ifTrue: [^nil].
 	ids := selection collect: [:a | (users at: a) id].
 	backend createNewBasicGroupChat: ids asArray withTitle: nameDraft.
-	(self dependents at: 1) delete.
+	(self dependents first) delete

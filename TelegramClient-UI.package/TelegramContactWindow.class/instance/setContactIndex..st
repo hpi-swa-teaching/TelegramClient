@@ -1,3 +1,3 @@
 accessing
 setContactIndex: index
-	contactIndex := index.
+	contactIndex := index

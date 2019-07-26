@@ -1,4 +1,4 @@
 receiving
 receivedUser: user
 	userCache at: user id put: user.
-	self changed: #messageList.
+	self changed: #messageList

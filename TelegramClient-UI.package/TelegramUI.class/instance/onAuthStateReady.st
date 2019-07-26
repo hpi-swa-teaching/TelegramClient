@@ -1,3 +1,3 @@
 receiving
 onAuthStateReady
-	backend fetchAllChats.
+	backend fetchAllChats

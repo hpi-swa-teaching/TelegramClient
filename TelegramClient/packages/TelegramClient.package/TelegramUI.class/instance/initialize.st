@@ -8,4 +8,4 @@ initialize
 	messageCacheChatId := -1.
 	debouncer := Debouncer new.
 	userCache := Dictionary new.
-	self initializeListeners.
+	self initializeListeners
