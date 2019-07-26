@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"runAllTests" : "HB 7/26/2019 13:27",
+		"setUp" : "aa 7/26/2019 22:35",
+		"tearDown" : "HB 7/26/2019 14:58",
+		"testChatListFetching" : "aa 7/26/2019 22:34",
+		"testMessageListFetching" : "aa 7/26/2019 22:34",
+		"testTelegramWithTimeout:assertion:" : "HB 7/26/2019 14:10" } }

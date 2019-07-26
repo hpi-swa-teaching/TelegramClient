@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"getTestVariable:" : "ts 7/24/2019 13:37",
-		"runAllTests" : "ts 7/26/2019 16:37",
-		"setUp" : "aa 7/26/2019 22:16",
-		"tearDown" : "HB 7/26/2019 12:53" } }

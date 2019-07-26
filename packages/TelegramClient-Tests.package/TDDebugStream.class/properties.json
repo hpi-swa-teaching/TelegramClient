@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"AccessSema" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TDDebugStream",
+	"pools" : [
+		 ],
+	"super" : "TextStream",
+	"type" : "normal" }

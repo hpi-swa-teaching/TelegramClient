@@ -1,0 +1,17 @@
+{
+	"category" : "TelegramClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"backend",
+		"users",
+		"nameDraft",
+		"selectedContactList" ],
+	"name" : "TDTelegramGroupChatCreationWindow",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

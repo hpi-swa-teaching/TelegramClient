@@ -1,3 +1,0 @@
-building
-openGroupChatCreation
-ToolBuilder open: (TD_TelegramGroupChatCreationWindow newWithBackend: backend)
