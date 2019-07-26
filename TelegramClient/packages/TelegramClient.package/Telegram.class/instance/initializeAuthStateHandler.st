@@ -42,4 +42,4 @@ initializeAuthStateHandler
 			client send: rsp.] fork].
 	
 	authStateHandlerDict add: TD_authorizationStateReady -> [:msg|
-		ui model onAuthStateReady]
+		self fireListenerMessage: msg]

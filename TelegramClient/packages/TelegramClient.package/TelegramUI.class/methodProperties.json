@@ -2,7 +2,7 @@
 	"class" : {
 		"newWithBackend:" : "ts 7/23/2019 15:01" },
 	"instance" : {
-		"addChat:" : "ts 7/25/2019 16:21",
+		"addChat:" : "HB 7/26/2019 14:05",
 		"addMessage:" : "ts 7/25/2019 16:21",
 		"addMessages:" : "ts 7/26/2019 11:17",
 		"backend:" : "HB 6/14/2019 12:05",
@@ -18,11 +18,11 @@
 		"getChatIndex" : "HB 7/7/2019 22:27",
 		"getSelectedChatId" : "ts 7/25/2019 16:19",
 		"initialize" : "ts 7/26/2019 11:15",
-		"initializeListeners" : "ts 7/25/2019 16:20",
+		"initializeListeners" : "HB 7/26/2019 13:30",
 		"messageDraft" : "ts 7/25/2019 16:20",
 		"messageDraft:" : "ts 7/25/2019 16:20",
 		"messageList" : "ts 7/25/2019 16:27",
-		"onAuthStateReady" : "ts 7/25/2019 16:21",
+		"onAuthStateReady:" : "HB 7/26/2019 13:30",
 		"openContacts" : "ts 7/25/2019 16:20",
 		"openGroupChatCreation" : "ts 7/25/2019 16:20",
 		"receivedChats:" : "ts 7/25/2019 16:21",

@@ -1,4 +1,4 @@
 running
 tearDown
 
-	telegram := nil.
+	telegram destroy.

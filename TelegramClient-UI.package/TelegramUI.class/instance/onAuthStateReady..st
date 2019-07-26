@@ -1,3 +1,3 @@
 receiving
-onAuthStateReady
+onAuthStateReady: msg
 	backend fetchAllChats

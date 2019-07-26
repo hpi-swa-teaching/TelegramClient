@@ -1,5 +1,5 @@
 instance creation
-debugNew
+debugCreate
 	Transcript clear.
 	Debug clear.
-	^ self new
+	^ self create.
