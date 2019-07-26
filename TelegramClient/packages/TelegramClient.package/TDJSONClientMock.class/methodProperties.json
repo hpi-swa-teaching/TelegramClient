@@ -1,8 +1,9 @@
 {
 	"class" : {
-		"chatCount" : "HB 7/26/2019 13:25" },
+		"chatCount" : "HB 7/26/2019 13:25",
+		"messageInChat1Count" : "HB 7/26/2019 14:26" },
 	"instance" : {
-		"answerSend:" : "HB 7/26/2019 14:05",
+		"answerSend:" : "HB 7/26/2019 14:57",
 		"destroy" : "HB 7/26/2019 12:43",
 		"execute:" : "HB 7/26/2019 12:43",
 		"initialize" : "HB 7/26/2019 13:45",

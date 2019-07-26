@@ -3,4 +3,5 @@ setUp
 	Debug clear.
 	telegram := Telegram createTelegram: (TDJSONClientMock new).
 	uiModel := TelegramUI newWithBackend: telegram.
+	ToolBuilder open: uiModel
 	

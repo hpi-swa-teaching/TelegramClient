@@ -1,6 +1,5 @@
 sending
 addMessages: messages
-
 	messages messages do: [:message |
 		self addMessage: message].
 

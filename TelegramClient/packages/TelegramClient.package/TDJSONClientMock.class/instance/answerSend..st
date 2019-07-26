@@ -13,4 +13,20 @@ answerSend: msg
 			id: msg chat_id;
 			order: msg chat_id. 
 		receivingMsgQueue addLast: chat].
-	^ nil]
+	^ nil].
+
+	msg class = TD_getChatHistory ifTrue: [ | messages  strings|
+		(msg chat_id = 1 and: msg from_message_id = 0) ifFalse: [^nil].
+		messages := TD_messages new.
+		messages total_count: self class messageInChat1Count.
+		strings := Array new: self class messageInChat1Count.
+		1 to: strings size do:  [:i | |m|
+			m := TD_message new.
+			m chat_id: 1.
+			m id: i.
+			m content: ((TD_inputMessageText new) text:  'Test Message: ', i asString).
+			m is_outgoing: true.
+			strings at: i put: m].
+		messages messages: strings.
+		receivingMsgQueue addLast: messages.
+	]
