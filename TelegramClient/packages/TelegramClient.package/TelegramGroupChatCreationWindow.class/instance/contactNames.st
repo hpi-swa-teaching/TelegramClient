@@ -1,3 +1,3 @@
 accessing
 contactNames
-	^ users collect: [:e | self userToUIString: e].
+	^ users collect: [:e | self userToUIString: e]

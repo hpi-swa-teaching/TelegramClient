@@ -1,3 +1,3 @@
 accessing
 nameDraft
-	^ nameDraft.
+	^ nameDraft

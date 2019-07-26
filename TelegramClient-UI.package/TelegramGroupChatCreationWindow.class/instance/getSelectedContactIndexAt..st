@@ -1,3 +1,3 @@
 accessing
 getSelectedContactIndexAt: index
-	^ selectedContactList at: index.
+	^ selectedContactList at: index
