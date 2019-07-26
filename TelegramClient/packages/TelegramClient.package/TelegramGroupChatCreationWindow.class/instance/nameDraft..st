@@ -1,3 +1,3 @@
 accessing
 nameDraft: aString
-	nameDraft := aString.
+	nameDraft := aString

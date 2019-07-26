@@ -8,6 +8,5 @@ buildWith: aBuilder
 		children: {
 			self buildNameFieldWith: aBuilder.
 			self buildContactListWith: aBuilder.
-			self buildCreateGroupButtonWith: aBuilder.
-			};
+			self buildCreateGroupButtonWith: aBuilder};
 		yourself)

@@ -7,6 +7,5 @@ buildWith: aBuilder
 		closeAction: #close;
 		children: {
 			self buildContactListWith: aBuilder.
-			self buildCreateChatButtonWith: aBuilder.
-			};
+			self buildCreateChatButtonWith: aBuilder};
 		yourself)
