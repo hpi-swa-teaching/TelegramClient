@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"apiCreateHatchBrush:with:" : "TBn 6/15/2000 22:42",
+		"backwardDiagonalWithColor:" : "TBn 6/15/2000 23:01",
+		"createHatchBrush:color:" : "TBn 6/15/2000 22:44",
+		"createSolidBrush:" : "ar 1/25/2000 17:03",
+		"crossWithColor:" : "TBn 6/15/2000 23:06",
+		"diagonalCrossWithColor:" : "TBn 6/15/2000 23:03",
+		"forwardDiagonalWithColor:" : "TBn 6/15/2000 23:02",
+		"horizontalWithColor:" : "TBn 6/15/2000 23:04",
+		"verticalWithColor:" : "TBn 6/15/2000 23:05" },
+	"instance" : {
+		 } }

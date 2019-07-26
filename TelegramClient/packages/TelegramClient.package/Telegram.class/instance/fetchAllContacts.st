@@ -1,4 +1,4 @@
-api-calls
+nil
 fetchAllContacts
 	self isLibraryConnected ifFalse: [ ^ nil ].
-	client send: (SerializableFunctionContainer newWithFuncName: 'getContacts')
+	client send: (SerializableFunctionContainer newWithFuncName: 'getContacts').

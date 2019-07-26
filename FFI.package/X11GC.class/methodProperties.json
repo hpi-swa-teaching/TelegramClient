@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"XCreateGC:with:with:with:" : "ar 1/28/2000 19:09",
+		"fields" : "ar 1/28/2000 19:18",
+		"on:" : "ar 1/28/2000 19:09" },
+	"instance" : {
+		"XDrawArc:with:with:with:with:with:with:with:with:" : "ar 1/28/2000 17:09",
+		"XDrawLine:with:with:with:with:with:with:" : "ar 1/28/2000 16:43",
+		"XDrawRectangle:with:with:with:with:with:with:" : "ar 1/27/2000 17:08",
+		"XFillArc:with:with:with:with:with:with:with:with:" : "ar 1/28/2000 17:09",
+		"XFillRectangle:with:with:with:with:with:with:" : "ar 1/27/2000 16:56",
+		"XFreeGC:with:" : "ar 1/28/2000 17:04",
+		"XSetBackground:with:with:" : "ar 1/28/2000 14:54",
+		"XSetForeground:with:with:" : "ar 1/28/2000 14:54",
+		"background:" : "ar 1/28/2000 17:34",
+		"display" : "ar 1/27/2000 16:49",
+		"drawLineFrom:to:" : "ar 1/28/2000 17:32",
+		"drawOval:" : "ar 1/28/2000 17:34",
+		"drawRectangle:" : "ar 1/28/2000 17:34",
+		"drawable" : "ar 1/27/2000 13:01",
+		"drawable:" : "ar 1/27/2000 13:01",
+		"fillOval:" : "ar 1/28/2000 17:34",
+		"fillRectangle:" : "ar 1/28/2000 17:35",
+		"foreground:" : "ar 1/28/2000 17:34",
+		"free" : "ar 1/28/2000 17:03" } }

@@ -1,8 +1,8 @@
-lib-calls
+as yet unclassified
 destroy
 	destroyed := true.
-	Debug log: 'Closing TCP Socket'.
+	Transcript show: 'TDLib will be destroyed. Im scared :('.
 	socket isConnected ifTrue: [
 	socket sendData: (2 negated asByteArrayOfSize: 8).].
 	socket close.
-	socket := nil
+	socket := nil.

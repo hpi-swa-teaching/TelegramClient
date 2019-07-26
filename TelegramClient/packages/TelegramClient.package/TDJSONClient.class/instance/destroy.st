@@ -1,5 +1,5 @@
-lib-calls
+as yet unclassified
 destroy
 	destroyed := true.
-	Debug log: 'Closing Telegram Lib'.
-	^self class destroy: client
+	Transcript show: 'TDLib will be destroyed. Im scared :('.
+	^self class destroy: client.

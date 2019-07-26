@@ -1,3 +1,3 @@
-internal
+nil
 sendMessage: string to: chatId
-	client send: (TD_sendMessage messageToChat: chatId withText: string)
+	client send: (TD_sendMessage messageToChat: chatId withText: string).

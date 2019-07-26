@@ -1,4 +1,4 @@
-api-calls
+nil
 fetchUser: userId
 	self isLibraryConnected ifFalse: [ ^ nil ].
-	client send: (TD_getUser userId: userId)
+	client send: (TD_getUser userId: userId).

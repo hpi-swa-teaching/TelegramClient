@@ -1,0 +1,14 @@
+{
+	"category" : "FFI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ar 8/14/2006 23:06",
+	"instvars" : [
+		 ],
+	"name" : "FFITestPoint2",
+	"pools" : [
+		 ],
+	"super" : "ExternalStructure",
+	"type" : "normal" }

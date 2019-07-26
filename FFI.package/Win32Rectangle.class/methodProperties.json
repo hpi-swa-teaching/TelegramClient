@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"fields" : "TBn 6/15/2000 19:44",
+		"fromRectangle:" : "TBn 6/15/2000 19:49" },
+	"instance" : {
+		"bottom" : "sma 6/25/2000 17:07",
+		"bottom:" : "sma 6/25/2000 17:07",
+		"left" : "sma 6/25/2000 17:07",
+		"left:" : "sma 6/25/2000 17:07",
+		"left:top:right:bottom:" : "TBn 6/15/2000 19:48",
+		"right" : "sma 6/25/2000 17:07",
+		"right:" : "sma 6/25/2000 17:07",
+		"top" : "sma 6/25/2000 17:07",
+		"top:" : "sma 6/25/2000 17:07" } }

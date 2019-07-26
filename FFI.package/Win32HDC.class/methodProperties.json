@@ -1,0 +1,28 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"apiDeleteDC:" : "ar 1/25/2000 17:03",
+		"apiDrawFocusRect:with:" : "TBn 6/15/2000 21:25",
+		"apiDrawFrameControl:with:with:with:" : "TBn 6/15/2000 21:42",
+		"apiEllipse:with:with:with:with:" : "ar 1/25/2000 17:03",
+		"apiExtFloodFill:with:with:with:with:" : "TBn 6/15/2000 20:34",
+		"apiFillRect:with:with:" : "TBn 6/15/2000 20:22",
+		"apiFrameRect:with:with:" : "TBn 6/15/2000 22:36",
+		"apiLineTo:with:with:" : "ar 1/25/2000 17:03",
+		"apiMoveToEx:with:with:with:" : "ar 1/25/2000 17:03",
+		"apiRectangle:with:with:with:with:" : "ar 1/25/2000 17:04",
+		"apiRoundRect:with:with:with:with:with:with:" : "TBn 6/15/2000 21:14",
+		"apiSelectObject:with:" : "ar 1/25/2000 17:04",
+		"delete" : "ar 12/2/1999 18:31",
+		"drawFocusRectangle:" : "TBn 6/15/2000 21:24",
+		"drawFrameControl:type:style:" : "TBn 6/15/2000 21:45",
+		"ellipse:" : "ar 12/2/1999 18:18",
+		"fillRectangle:color:" : "TBn 6/15/2000 20:38",
+		"floodFillAt:boundaryColor:fillColor:" : "TBn 6/15/2000 21:08",
+		"frameRectangle:brush:" : "TBn 6/15/2000 22:38",
+		"lineTo:" : "ar 12/2/1999 18:18",
+		"moveTo:" : "ar 12/2/1999 18:19",
+		"rectangle:" : "ar 12/2/1999 18:19",
+		"roundRectangle:width:height:" : "TBn 6/15/2000 21:16",
+		"selectObject:" : "ar 12/2/1999 18:19" } }

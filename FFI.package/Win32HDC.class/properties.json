@@ -1,0 +1,14 @@
+{
+	"category" : "FFI-Examples-Win32",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Win32HDC",
+	"pools" : [
+		 ],
+	"super" : "Win32Handle",
+	"type" : "normal" }

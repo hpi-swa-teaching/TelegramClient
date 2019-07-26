@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"fields" : "ar 1/27/2000 01:08",
+		"newPixPat" : "ar 1/27/2000 01:04" },
+	"instance" : {
+		"apiDisposePixPat:" : "ar 1/25/2000 11:50",
+		"apiMakeRGBPat:with:" : "ar 1/25/2000 12:05",
+		"dispose" : "ar 1/25/2000 11:50",
+		"makeRGBPattern:" : "ar 1/25/2000 11:59" } }

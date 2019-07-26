@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"apiFillCOval:with:" : "ar 1/25/2000 12:06",
+		"apiFillCRect:with:" : "ar 1/25/2000 12:04",
+		"apiFrameOval:" : "ar 1/25/2000 12:08",
+		"apiFrameRect:" : "ar 1/25/2000 12:16",
+		"coloredEllipses" : "ar 1/28/2000 17:50",
+		"coloredRectangles" : "ar 1/28/2000 17:50",
+		"fields" : "ar 1/25/2000 11:57",
+		"macDraw" : "ar 1/28/2000 19:42" },
+	"instance" : {
+		"bottom" : "ar 1/25/2000 11:57",
+		"bottom:" : "ar 1/25/2000 11:57",
+		"left" : "ar 1/25/2000 11:57",
+		"left:" : "ar 1/25/2000 11:57",
+		"right" : "ar 1/25/2000 11:57",
+		"right:" : "ar 1/25/2000 11:57",
+		"top" : "ar 1/25/2000 11:57",
+		"top:" : "ar 1/25/2000 11:57" } }

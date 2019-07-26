@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"coloredEllipses" : "ar 1/28/2000 19:41",
+		"coloredRectangles" : "ar 1/28/2000 19:41",
+		"getDesktopWindow" : "ar 1/25/2000 17:10",
+		"getFocus" : "ar 1/25/2000 17:10",
+		"win32Draw" : "ar 1/28/2000 17:49" },
+	"instance" : {
+		"apiGetDC:" : "ar 1/25/2000 17:09",
+		"apiGetParent:" : "ar 6/22/2003 20:46",
+		"apiMessageBox:text:title:flags:" : "ar 1/25/2000 17:09",
+		"apiReleaseDC:with:" : "ar 1/25/2000 17:09",
+		"apiScreenToClient:with:" : "ar 1/25/2000 17:10",
+		"getDC" : "ar 12/2/1999 18:21",
+		"getHDCDuring:" : "ar 1/28/2000 19:40",
+		"getParent" : "ar 6/22/2003 20:47",
+		"messageBox:" : "ar 1/27/2000 01:12",
+		"messageBox:title:" : "ar 1/27/2000 01:13",
+		"messageBox:title:flags:" : "ar 1/27/2000 01:13",
+		"releaseDC:" : "ar 12/2/1999 18:21",
+		"screenToClient:" : "ar 12/2/1999 18:21" } }

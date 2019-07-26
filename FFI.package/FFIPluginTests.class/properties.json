@@ -1,0 +1,14 @@
+{
+	"category" : "FFI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "FFIPluginTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

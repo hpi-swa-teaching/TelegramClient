@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"XOpenDisplay:" : "ar 1/27/2000 16:46",
+		"coloredEllipses" : "bf 3/28/2001 15:32",
+		"coloredRectangles" : "bf 3/28/2001 15:33",
+		"fields" : "ar 1/28/2000 19:08",
+		"x11Draw" : "bf 3/28/2001 16:16" },
+	"instance" : {
+		"XCloseDisplay:" : "ar 1/27/2000 16:45",
+		"XDisplayString:" : "ar 1/27/2000 16:45",
+		"XFlush:" : "ar 1/27/2000 17:46",
+		"XGetInputFocus:with:with:" : "ar 1/27/2000 16:51",
+		"XQueryPointer:window:returnRoot:child:rootX:rootY:winX:winY:mask:" : "bf 5/18/2000 15:20",
+		"XSync:" : "ar 1/27/2000 17:52",
+		"closeDisplay" : "ar 1/27/2000 16:45",
+		"displayString" : "ar 1/27/2000 16:46",
+		"flush" : "ar 1/27/2000 17:45",
+		"getInputFocus" : "bf 3/28/2001 16:22",
+		"ourWindow" : "bf 3/28/2001 16:24",
+		"queryPointer:" : "bf 3/28/2001 16:22",
+		"sync" : "ar 1/27/2000 17:51" } }
