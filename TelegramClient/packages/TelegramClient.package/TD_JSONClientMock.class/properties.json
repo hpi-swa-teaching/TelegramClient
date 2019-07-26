@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"receivingMsgQueue" ],
+	"name" : "TD_JSONClientMock",
+	"pools" : [
+		 ],
+	"super" : "TD_JSONClient",
+	"type" : "normal" }

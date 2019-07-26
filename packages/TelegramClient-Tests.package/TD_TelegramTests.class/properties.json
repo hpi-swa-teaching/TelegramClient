@@ -1,0 +1,15 @@
+{
+	"category" : "TelegramClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"telegram",
+		"telegramUI" ],
+	"name" : "TD_TelegramTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

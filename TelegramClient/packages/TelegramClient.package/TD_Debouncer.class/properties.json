@@ -1,0 +1,15 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"timeOfLastCall",
+		"timeout" ],
+	"name" : "TD_Debouncer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

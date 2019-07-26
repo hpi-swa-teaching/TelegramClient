@@ -1,0 +1,21 @@
+{
+	"category" : "TelegramClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"chats",
+		"backend",
+		"messageCache",
+		"messageCacheChatId",
+		"messageDraft",
+		"debouncer",
+		"chatIndex",
+		"userCache" ],
+	"name" : "TD_TelegramUI",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
