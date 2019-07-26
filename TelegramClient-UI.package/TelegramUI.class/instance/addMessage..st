@@ -1,12 +1,10 @@
 sending
 addMessage: message
-
 	message chat_id = self getSelectedChatId ifFalse: [ ^ nil].
-	messageCacheChatId = self getSelectedChatId ifFalse: [ messageCache removeAll. 	messageCacheChatId := self getSelectedChatId].
+	self setMessageCacheChatId.
 	messageCache detect: [:e | e id = message id] ifNone: [
 	messageCache addLast: message.
 	(userCache includesKey: message sender_user_id) ifFalse: [
 	backend fetchUser: message sender_user_id].
-	self changed: #messageList.
-	(self dependents at: 7) scrollToBottom]
+	self updateMessageList]
 	

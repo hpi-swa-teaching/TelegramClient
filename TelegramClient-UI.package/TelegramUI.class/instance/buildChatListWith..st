@@ -6,5 +6,4 @@ buildChatListWith: aBuilder
 		list: #chatTitels;
 		getIndex: #getChatIndex;
 		setIndex: #setChatIndex:;
-		
 		yourself

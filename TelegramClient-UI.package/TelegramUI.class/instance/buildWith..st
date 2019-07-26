@@ -11,6 +11,5 @@ buildWith: aBuilder
 			self buildSendButtonWith: aBuilder.
 			self buildNewChatButtonWith: aBuilder.
 			self buildNewGroupChatButtonWith: aBuilder.
-			self buildMessageListWith: aBuilder.
-			};
+			self buildMessageListWith: aBuilder};
 		yourself)
