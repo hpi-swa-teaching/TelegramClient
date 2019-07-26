@@ -1,3 +1,1 @@
-(Installer repository: 'http://source.squeak.org/FFI')
-    install: 'FFI-Pools';
-    install: 'FFI-Kernel'.
+'From Squeak5.3alpha of 15 April 2019 [latest update: #18492] on 26 July 2019 at 4:04:06 pm'!(Installer repository: 'http://source.squeak.org/FFI')    install: 'FFI-Pools';    install: 'FFI-Kernel'.!
