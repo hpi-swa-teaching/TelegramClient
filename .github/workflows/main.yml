@@ -1,13 +1,12 @@
 name: CI
 
 on: 
-  push:
+  :push
     branches:
       - develop
       - feature/**
       - bugfix/**
-      - master
-  pull_request:
+  :pull_request
     branches:
       - master
       - develop
