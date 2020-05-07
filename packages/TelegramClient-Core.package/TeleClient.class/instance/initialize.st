@@ -1,3 +1,3 @@
 initialize-release
 initialize
-	client := TeleClient CreateClient
+	client:= TeleClient CreateClient

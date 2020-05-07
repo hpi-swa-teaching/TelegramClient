@@ -1,3 +1,4 @@
 initialize-release
 Free
-	TeleClient DeleteClient client
+	TeleClient DeleteClient: client.
+	client:= nil
