@@ -1,10 +1,17 @@
-# This is a basic workflow to help you get started with Actions
 name: CI
 
 on: 
   :push
-     branches:
-       -master
+    branches:
+      - develop
+      - feature/**
+      - bugfix/**
+  :pull_request
+    branches:
+      - master
+      - develop
+      - feature/**
+      - bugfix/**
 
 jobs:
   build:
@@ -17,7 +24,6 @@ jobs:
         smalltalk: [ Squeak64-trunk, Squeak64-5.3, Squeak64-5.2 ]
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
-      - run: echo "::set-env name=RELEASE_TITLE::$( date +%d.%m.%y_%H_%M_%s )"
       - uses: actions/checkout@v2
       - uses: hpi-swa/setup-smalltalkCI@v1
         with:
