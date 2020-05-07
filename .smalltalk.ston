@@ -1,5 +1,4 @@
 SmalltalkCISpec {
-  #preLoading : 'CI/RequireFFI.st'
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'TelegramClient',
