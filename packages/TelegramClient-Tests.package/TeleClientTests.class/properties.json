@@ -1,15 +1,14 @@
 {
-	"category" : "TelegramClient-Core",
+	"category" : "TelegramClient-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"client",
-		"handle" ],
-	"name" : "TeleClient",
+		"client" ],
+	"name" : "TeleClientTests",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }
