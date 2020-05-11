@@ -1,3 +1,3 @@
 initialize-release
 Receive: timeout
-	self ReceiveInternal: client with: timeout
+	^client Receive: handle with: timeout.

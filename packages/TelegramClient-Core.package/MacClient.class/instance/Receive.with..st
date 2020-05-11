@@ -1,4 +1,4 @@
-private
-ReceiveInternal: cl with:timeout
+as yet unclassified
+Receive: handle with:timeout
 	 <cdecl: char*  'td_json_client_receive' (void * double) module: 'tdjson' > 
 	^ self externalCallFailed
