@@ -1,4 +1,8 @@
 as yet unclassified
 testDestroyClearsHandle
-client Free
-self assert: client client equals: nil
+| client handle |
+
+client:= TeleClient new.
+client Free.
+handle:= client client.
+self assert: handle  equals: nil
