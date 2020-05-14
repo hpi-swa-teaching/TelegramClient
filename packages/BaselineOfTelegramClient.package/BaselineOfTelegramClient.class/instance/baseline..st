@@ -44,12 +44,26 @@ baseline: spec
 										'http://source.squeakfoundation.org/FFI' ];
 			
 			"swalint setup"
-			package: 'SwaLint-Preferences';
-			package: 'SwaLint-Core' with: [spec requires: #('RefactoringBrowser' 'SwaLint-Preferences')];
+			package: 'SwaLint-Preferences' with: [
+							spec
+								file: 'SwaLint-Preferences-cypress.1';
+								repository: 
+										'github://hpi-swa-teaching/SwaLint:master/packages' ];
+			package: 'SwaLint-Core' with: [spec
+								file: 'SwaLint-Core-cypress.1';
+								repository: 
+										'github://hpi-swa-teaching/SwaLint:master/packages';
+								requires: #('RefactoringBrowser' 'SwaLint-Preferences')];
 				postLoadDoIt: #postLoad;
-			package: 'SwaLint-PlugIns' with: [ spec requires: 'SwaLint-Core' ];
-			package: 'SwaLint-Slime-Grease' with: [spec requires: #('SwaLint-PlugIns' 'Grease')];
-			package: 'SwaLint-Slime-Seaside' with: [spec requires: #('SwaLint-PlugIns' 'Seaside3')];
+			package: 'SwaLint-PlugIns' with: [ spec file: 'SwaLint-PlugIns-cypress.1';
+								repository: 
+										'github://hpi-swa-teaching/SwaLint:master/packages'; requires: 'SwaLint-Core' ];
+			package: 'SwaLint-Slime-Grease' with: [spec file: 'SwaLint-Slime-Grease-topa.1';
+								repository: 
+										'github://hpi-swa-teaching/SwaLint:master/packages'; requires: #('SwaLint-PlugIns' 'Grease')];
+			package: 'SwaLint-Slime-Seaside' with: [spec file: 'SwaLint-Slime-Seaside-topa.1';
+								repository: 
+										'github://hpi-swa-teaching/SwaLint:master/packages'; requires: #('SwaLint-PlugIns' 'Seaside3')];
 			
 				package: 'TelegramClient-Core' with: [spec requires: #('FFI-Pools' 'FFI-Kernel')];
 				package: 'TelegramClient-Tests'  with: [spec requires: #('default' 'All' )];
