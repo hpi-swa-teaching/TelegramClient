@@ -23,7 +23,7 @@ baseline: spec
 										'http://source.squeakfoundation.org/FFI' ];
 				package: 'SwaLint-Core' with: [
 							spec
-								file: 'SwaLint-Core-cypress';
+								file: 'SwaLint-Core-cypress.1.mcz';
 								repository: 
 										'github://hpi-swa-teaching/SwaLint:master/packages' ];
 				package: 'TelegramClient-Core' with: [spec requires: #('FFI-Pools' 'FFI-Kernel')];
