@@ -43,5 +43,5 @@ baseline: spec
 				group: 'libraries' with: #( 'JSON' 'FFI-Kernel' 'FFI-Pools');
 				group: 'linting' with: #( 'SwaLint-Core' 'SwaLint-Preferences' 'SwaLint-PlugIns');
 				group: 'default' with: #('TelegramClient-Core');
-				group: 'tests' with: #('TelegramClient-Tests')];
+				group: 'tests' with: #('TelegramClient-Tests' 'linting')];
 				yourself
