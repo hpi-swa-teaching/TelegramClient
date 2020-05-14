@@ -7,7 +7,7 @@ baseline: spec
 			spec
 				package: 'FFI-Pools';
 				package: 'FFI-Kernel';
-				package: 'TelegramClient-Core';
+				package: 'TelegramClient-Core' with: [spec requires: #('FFI-Kernel', 'FFI-Pools')];
 				package: 'TelegramClient-Tests' with: [spec requires: #('TelegramClient-Core')];
 				yourself.
 			spec
