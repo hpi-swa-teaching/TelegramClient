@@ -4,6 +4,27 @@ baseline: spec
 	spec
 		for: #'common'
 		do: [		
+			spec 
+			project: 'RefactoringBrowser' with: [
+				spec
+					className: 'ConfigurationOfRefactoringBrowser';
+					versionString: #'stable';
+					loads: #('Core' );
+					repository: 'http://www.squeaksource.com/MetacelloRepository' ];
+			project: 'Grease' with: [
+				spec
+					className: 'ConfigurationOfGrease';
+					versionString: #'stable';
+					loads: #('Slime');
+					repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main';
+					repository: 'http://www.squeaksource.com/MetacelloRepository'];
+			project: 'Seaside3' with: [
+				spec
+					className: 'ConfigurationOfSeaside3';
+					versionString: #'stable';
+					loads: #('Development');
+					repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main';
+					repository: 'http://www.squeaksource.com/MetacelloRepository'].
 			spec   
 				package: 'JSON'
 						with: [
@@ -21,17 +42,26 @@ baseline: spec
 								file: 'FFI-Kernel-nice.68';
 								repository: 
 										'http://source.squeakfoundation.org/FFI' ];
-				package: 'BaselineOfSwaLint' with: [
-							spec
-								loads: #('All');
-								file: 'BaselineOfSwaLint-cypress.1';
-								repository: 
-										'github://hpi-swa-teaching/SwaLint:master/packages' ];
+			
+			"swalint setup"
+			package: 'SwaLint-Preferences';
+			package: 'SwaLint-Core' with: [spec requires: #('RefactoringBrowser' 'SwaLint-Preferences')];
+				postLoadDoIt: #postLoad;
+			package: 'SwaLint-PlugIns' with: [ spec requires: 'SwaLint-Core' ];
+			package: 'SwaLint-Slime-Grease' with: [spec requires: #('SwaLint-PlugIns' 'Grease')];
+			package: 'SwaLint-Slime-Seaside' with: [spec requires: #('SwaLint-PlugIns' 'Seaside3')];
+			
 				package: 'TelegramClient-Core' with: [spec requires: #('FFI-Pools' 'FFI-Kernel')];
-				package: 'TelegramClient-Tests'  with: [spec requires: #('default' 'SwaLint-Preferences' )];
+				package: 'TelegramClient-Tests'  with: [spec requires: #('default' 'All' )];
 				yourself.
 			spec
 				group: 'libraries' with: #( 'JSON' 'FFI-Kernel' 'FFI-Pools');
 				group: 'default' with: #('TelegramClient-Core');
-				group: 'tests' with: #('TelegramClient-Tests' 'SwaLint-Preferences')];
+				group: 'tests' with: #('TelegramClient-Tests' )];
+			group: 'default' with: #('PlugIns');
+			group: 'portability' with: #('PlugIns' 'SwaLint-Slime-Grease');
+			group: 'web' with: #('portability' 'SwaLint-Slime-Seaside');
+			group: 'Core' with: #('SwaLint-Core');
+			group: 'All' with: #('Tests' 'web');
+			group: 'PlugIns' with: #('SwaLint-PlugIns');
 				yourself
