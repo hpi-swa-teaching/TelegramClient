@@ -3,14 +3,29 @@ baseline: spec
 	<baseline>
 	spec
 		for: #'common'
-		do: [
-			spec
-				package: 'TelegramClient-Core';
-				package: 'FFI-Pools';
-				package: 'FFI-Kernel';
-				package: 'TelegramClient-Tests' with: [spec requires: #('TelegramClient-Core')];
+		do: [				
+			spec                 
+				package: 'JSON'
+						with: [
+							spec
+								file: 'JSON-ul.35';
+								repository: 
+										'http://www.squeaksource.com/JSON' ];
+				package: 'FFI-Pools' with: [
+							spec
+								file: 'FFI-Pools-eem.13';
+								repository: 
+										'http://source.squeakfoundation.org/FFI' ];
+				package: 'FFI-Kernel' with: [
+							spec
+								file: 'FFI-Kernel-nice.68';
+								repository: 
+										'http://source.squeakfoundation.org/FFI' ];
+				package: 'TelegramClient-Core' with: [spec requires: #('FFI-Pools' 'FFI-Kernel')];
+				package: 'TelegramClient-Tests'  with: [spec requires: #('default')];
 				yourself.
 			spec
+				group: 'libraries' with: #( 'JSON' 'FFI' );
 				group: 'default' with: #('TelegramClient-Core');
 				group: 'tests' with: #('TelegramClient-Tests')];
 				yourself

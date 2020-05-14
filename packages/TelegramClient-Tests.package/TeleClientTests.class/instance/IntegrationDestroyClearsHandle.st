@@ -1,5 +1,5 @@
-FFI TDlib Accessing Tests
-testDestroyClearsHandle
+as yet unclassified
+IntegrationDestroyClearsHandle
 | client handle |
 
 client:= TeleClient new.
