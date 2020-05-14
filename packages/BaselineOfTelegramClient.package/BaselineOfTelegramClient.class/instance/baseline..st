@@ -13,7 +13,7 @@ baseline: spec
 										'http://www.squeaksource.com/JSON' ];
 				package: 'FFI-Pools';
 				package: 'FFI-Kernel';
-				package: 'TelegramClient-Core';
+				package: 'TelegramClient-Core' with: [spec requires: #('FFI-Pools' 'FFI-Kernel')];
 				package: 'TelegramClient-Tests'  with: [spec requires: #('default')];
 				yourself.
 			spec
