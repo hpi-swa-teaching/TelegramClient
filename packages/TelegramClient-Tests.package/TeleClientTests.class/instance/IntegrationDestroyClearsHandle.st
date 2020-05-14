@@ -1,5 +1,5 @@
 as yet unclassified
-testDestroyClearsHandle
+IntegrationDestroyClearsHandle
 | client handle |
 
 client:= TeleClient new.
