@@ -61,9 +61,7 @@ baseline: spec
 			package: 'SwaLint-Slime-Grease' with: [spec file: 'SwaLint-Slime-Grease-topa.1';
 								repository: 
 										'github://hpi-swa-teaching/SwaLint:master/packages'; requires: #('SwaLint-PlugIns' 'Grease')];
-			package: 'SwaLint-Slime-Seaside' with: [spec file: 'SwaLint-Slime-Seaside-topa.1';
-								repository: 
-										'github://hpi-swa-teaching/SwaLint:master/packages'; requires: #('SwaLint-PlugIns' 'Seaside3')];
+			
 			
 				package: 'TelegramClient-Core' with: [spec requires: #('FFI-Pools' 'FFI-Kernel')];
 				package: 'TelegramClient-Tests'  with: [spec requires: #('default' 'All' )];
@@ -74,7 +72,7 @@ baseline: spec
 				group: 'tests' with: #('TelegramClient-Tests' )];
 			group: 'default' with: #('PlugIns');
 			group: 'portability' with: #('PlugIns' 'SwaLint-Slime-Grease');
-			group: 'web' with: #('portability' 'SwaLint-Slime-Seaside');
+			group: 'web' with: #('portability' );
 			group: 'Core' with: #('SwaLint-Core');
 			group: 'All' with: #( 'web');
 			group: 'PlugIns' with: #('SwaLint-PlugIns');
