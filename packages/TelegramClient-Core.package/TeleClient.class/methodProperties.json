@@ -6,6 +6,10 @@
 		"Free" : "N.S. 5/11/2020 17:53",
 		"Receive:" : "N.S. 5/11/2020 17:54",
 		"Send:" : "N.S. 5/11/2020 17:54",
+		"checkAuthenticationCode:" : "R.S 5/14/2020 21:17",
 		"client" : "N.S. 5/7/2020 17:53",
 		"client:" : "N.S. 5/7/2020 17:53",
-		"initialize" : "N.S. 5/11/2020 17:52" } }
+		"initialize" : "R.S 5/14/2020 19:40",
+		"setDBEncryptionKey" : "R.S 5/14/2020 19:38",
+		"setLibParams" : "R.S 5/14/2020 19:38",
+		"setPhoneNumber:" : "R.S 5/14/2020 19:38" } }

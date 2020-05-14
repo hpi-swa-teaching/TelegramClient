@@ -3,8 +3,13 @@ initialize
 	| os |
 	os := Smalltalk platformName.
 	client := (os startsWith: 'Win32')
-		 ifTrue: [WindowsClient new.]
+		ifTrue: [WindowsClient new.]
 		ifFalse: [(os startsWith: 'Mac OS')
 			ifTrue: [MacClient new.]
 			ifFalse: [LinuxClient new.]].
 		handle := client Create.
+		
+	self 
+		setLibParams;
+		setDBEncryptionKey;
+		setPhoneNumber: '004915750717667'.
