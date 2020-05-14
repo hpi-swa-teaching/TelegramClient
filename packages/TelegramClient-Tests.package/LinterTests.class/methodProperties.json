@@ -2,8 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"ArbitraryCodeRule:" : "N.S. 5/14/2020 00:26",
-		"testClassHasComments" : "N.S. 5/14/2020 00:29",
-		"testNoUnclassifiedMethods" : "N.S. 5/14/2020 00:20",
+		"ArbitraryCodeRule:" : "N.S. 5/14/2020 10:59",
+		"testNoUnclassifiedMethods" : "N.S. 5/14/2020 10:58",
+		"testNoUnconditionalRecursion" : "N.S. 5/14/2020 10:58",
 		"testNoUnreferencedVariables" : "N.S. 5/14/2020 00:23",
-		"testTemporaryVariableCapitalization" : "N.S. 5/14/2020 00:30" } }
+		"testTemporaryVariableCapitalization" : "N.S. 5/14/2020 11:00",
+		"testsmallLintCollectSelectNotUsed" : "N.S. 5/14/2020 10:35",
+		"testsmallLintEqualNotUsed" : "N.S. 5/14/2020 10:58",
+		"testsmallLintFloatEqualityComparison" : "N.S. 5/14/2020 10:57" } }

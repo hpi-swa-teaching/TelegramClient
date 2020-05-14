@@ -1,3 +1,0 @@
-organization
-testClassHasComments
-self ArbitraryCodeRule: #smallLintEqualNotUsed  
