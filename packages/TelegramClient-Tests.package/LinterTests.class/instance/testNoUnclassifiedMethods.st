@@ -1,0 +1,3 @@
+organization
+testNoUnclassifiedMethods
+self ArbitraryCodeRule: #smallLintUnclassifiedMethods 

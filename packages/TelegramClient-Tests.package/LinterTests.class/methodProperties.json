@@ -2,4 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testCodeIsPretty" : "N.S. 5/13/2020 22:45" } }
+		"ArbitraryCodeRule:" : "N.S. 5/14/2020 00:26",
+		"testClassHasComments" : "N.S. 5/14/2020 00:29",
+		"testNoUnclassifiedMethods" : "N.S. 5/14/2020 00:20",
+		"testNoUnreferencedVariables" : "N.S. 5/14/2020 00:23",
+		"testTemporaryVariableCapitalization" : "N.S. 5/14/2020 00:30" } }

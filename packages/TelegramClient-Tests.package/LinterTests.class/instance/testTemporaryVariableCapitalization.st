@@ -1,0 +1,3 @@
+organization
+testTemporaryVariableCapitalization
+self ArbitraryCodeRule: #smallLintTemporaryVariableCapitalization  
