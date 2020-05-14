@@ -3,8 +3,8 @@ baseline: spec
 	<baseline>
 	spec
 		for: #'common'
-		do: [				
-			spec                 
+		do: [		
+			spec   
 				package: 'JSON'
 						with: [
 							spec
@@ -21,9 +21,10 @@ baseline: spec
 								file: 'FFI-Kernel-nice.68';
 								repository: 
 										'http://source.squeakfoundation.org/FFI' ];
-				package: 'SwaLint-Preferences' with: [
+				package: 'BaselineOfSwaLint' with: [
 							spec
-								file: 'SwaLint-Preferences-cypress.1';
+								loads: #('All');
+								file: 'BaselineOfSwaLint-cypress.1';
 								repository: 
 										'github://hpi-swa-teaching/SwaLint:master/packages' ];
 				package: 'TelegramClient-Core' with: [spec requires: #('FFI-Pools' 'FFI-Kernel')];
