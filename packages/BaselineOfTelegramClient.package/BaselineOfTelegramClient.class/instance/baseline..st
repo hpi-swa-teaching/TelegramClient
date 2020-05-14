@@ -31,11 +31,7 @@ baseline: spec
 								file: 'SwaLint-PlugIns-cypress.1';
 								repository: 
 										'github://hpi-swa-teaching/SwaLint:master/packages' ];
-				package: 'SwaLint-Preferences' with: [
-							spec
-								file: 'SwaLint-Preferences-cypress.1';
-								repository: 
-										'github://hpi-swa-teaching/SwaLint:master/packages' ];
+				
 				package: 'TelegramClient-Core' with: [spec requires: #('FFI-Pools' 'FFI-Kernel')];
 				package: 'TelegramClient-Tests'  with: [spec requires: #('default' 'SwaLint-Core' 'SwaLint-PlugIns' 'SwaLint-Preferences')];
 				yourself.
