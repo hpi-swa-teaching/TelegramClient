@@ -18,6 +18,6 @@ baseline: spec
 				yourself.
 			spec
 				group: 'libraries' with: #( 'JSON' 'FFI' );
-				group: 'default' with: #('TelegramClient-Core', 'FFI-Kernel');
-				group: 'tests' with: #('TelegramClient-Tests', 'FFI-Kernel')];
+				group: 'default' with: #('TelegramClient-Core');
+				group: 'tests' with: #('TelegramClient-Tests')];
 				yourself
