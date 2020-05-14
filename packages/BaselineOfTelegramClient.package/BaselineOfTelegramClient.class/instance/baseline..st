@@ -21,23 +21,16 @@ baseline: spec
 								file: 'FFI-Kernel-nice.68';
 								repository: 
 										'http://source.squeakfoundation.org/FFI' ];
-				package: 'SwaLint-Core' with: [
+				package: 'SwaLint-Preferences' with: [
 							spec
-								file: 'SwaLint-Core-cypress.1';
+								file: 'SwaLint-Preferences-cypress.1';
 								repository: 
 										'github://hpi-swa-teaching/SwaLint:master/packages' ];
-				package: 'SwaLint-PlugIns' with: [
-							spec
-								file: 'SwaLint-PlugIns-cypress.1';
-								repository: 
-										'github://hpi-swa-teaching/SwaLint:master/packages' ];
-				
 				package: 'TelegramClient-Core' with: [spec requires: #('FFI-Pools' 'FFI-Kernel')];
-				package: 'TelegramClient-Tests'  with: [spec requires: #('default' 'SwaLint-Core' 'SwaLint-PlugIns' )];
+				package: 'TelegramClient-Tests'  with: [spec requires: #('default' 'SwaLint-Preferences' )];
 				yourself.
 			spec
 				group: 'libraries' with: #( 'JSON' 'FFI-Kernel' 'FFI-Pools');
-				group: 'linting' with: #('SwaLint-Core'  'SwaLint-PlugIns');
 				group: 'default' with: #('TelegramClient-Core');
-				group: 'tests' with: #('TelegramClient-Tests' 'linting')];
+				group: 'tests' with: #('TelegramClient-Tests' 'SwaLint-Preferences')];
 				yourself
