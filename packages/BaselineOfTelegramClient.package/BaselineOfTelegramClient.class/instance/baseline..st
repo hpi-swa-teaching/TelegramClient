@@ -62,6 +62,6 @@ baseline: spec
 			group: 'portability' with: #('PlugIns' 'SwaLint-Slime-Grease');
 			group: 'web' with: #('portability' 'SwaLint-Slime-Seaside');
 			group: 'Core' with: #('SwaLint-Core');
-			group: 'All' with: #('Tests' 'web');
+			group: 'All' with: #( 'web');
 			group: 'PlugIns' with: #('SwaLint-PlugIns');
 				yourself
