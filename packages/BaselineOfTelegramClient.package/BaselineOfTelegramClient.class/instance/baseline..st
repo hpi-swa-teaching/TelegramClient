@@ -21,8 +21,12 @@ baseline: spec
 								file: 'FFI-Kernel-nice.68';
 								repository: 
 										'http://source.squeakfoundation.org/FFI' ];
+				package: 'SwaLint-Core' with: [
+							spec
+								repository: 
+										'github://hpi-swa-teaching/SwaLint:master/packages' ];
 				package: 'TelegramClient-Core' with: [spec requires: #('FFI-Pools' 'FFI-Kernel')];
-				package: 'TelegramClient-Tests'  with: [spec requires: #('default')];
+				package: 'TelegramClient-Tests'  with: [spec requires: #('default', 'SwaLint-Core')];
 				yourself.
 			spec
 				group: 'libraries' with: #( 'JSON' 'FFI' );
