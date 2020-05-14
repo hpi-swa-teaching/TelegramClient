@@ -1,4 +1,4 @@
-as yet unclassified
+FFI TDlib Accessing Tests
 testDestroyClearsHandle
 | client handle |
 
