@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"client",
-		"handle" ],
+		"client" ],
 	"name" : "ReceiveThread",
 	"pools" : [
 		 ],

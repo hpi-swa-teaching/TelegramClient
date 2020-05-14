@@ -2,4 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "R.S 5/14/2020 21:22" } }
+		"client" : "R.S 5/14/2020 23:10",
+		"client:" : "R.S 5/14/2020 23:10",
+		"handleEvent:" : "R.S 5/14/2020 23:11",
+		"initialize" : "R.S 5/14/2020 23:10" } }
