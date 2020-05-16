@@ -6,9 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"client",
-		"handle" ],
-	"name" : "TeleClient",
+		 ],
+	"name" : "MacClient",
 	"pools" : [
 		 ],
 	"super" : "Object",

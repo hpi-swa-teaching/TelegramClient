@@ -1,3 +1,3 @@
 initialize-release
 Send: msg
-	self SendInternal: client with: msg
+	client Send: handle with: msg
