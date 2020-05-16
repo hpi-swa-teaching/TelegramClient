@@ -4,6 +4,7 @@ baseline: spec
 	spec
 		for: #'common'
 		do: [		
+			Preferences disable: #showDeprecationWarnings.		
 			spec 
 			project: 'RefactoringBrowser' with: [
 				spec
