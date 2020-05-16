@@ -1,15 +1,8 @@
 initialize-release
 initialize
-	| os |
-	os := Smalltalk platformName.
-	client := (os startsWith: 'Win32')
-		ifTrue: [WindowsClient new.]
-		ifFalse: [(os startsWith: 'Mac OS')
-			ifTrue: [MacClient new.]
-			ifFalse: [LinuxClient new.]].
-		handle := client Create.
-		
+
 	self 
+		client: (self createSpecificClient:  Smalltalk platformName);
+		handle: client create;
 		setLibParams;
-		setDBEncryptionKey;
-		setPhoneNumber: '004915750717667'.
+		setDBEncryptionKey: ''.

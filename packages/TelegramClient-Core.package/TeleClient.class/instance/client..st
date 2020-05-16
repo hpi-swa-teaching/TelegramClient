@@ -1,3 +1,4 @@
-accessing
-client: anObject
-	client := anObject
+initialize-release
+client: aClient
+
+	client := aClient

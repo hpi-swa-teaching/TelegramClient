@@ -2,14 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
-		"Execute:" : "N.S. 5/11/2020 17:55",
-		"Free" : "N.S. 5/11/2020 17:53",
-		"Receive:" : "N.S. 5/11/2020 17:54",
-		"Send:" : "N.S. 5/11/2020 17:54",
-		"checkAuthenticationCode:" : "R.S 5/14/2020 21:17",
-		"client" : "N.S. 5/7/2020 17:53",
-		"client:" : "N.S. 5/7/2020 17:53",
-		"initialize" : "R.S 5/14/2020 19:40",
-		"setDBEncryptionKey" : "R.S 5/14/2020 19:38",
-		"setLibParams" : "R.S 5/14/2020 19:38",
-		"setPhoneNumber:" : "R.S 5/14/2020 19:38" } }
+		"checkAuthenticationCode:" : "R.S 5/16/2020 10:36",
+		"client" : "R.S 5/16/2020 10:38",
+		"client:" : "R.S 5/16/2020 10:38",
+		"createSpecificClient:" : "R.S 5/16/2020 10:34",
+		"execute:" : "R.S 5/16/2020 10:47",
+		"free" : "R.S 5/16/2020 10:47",
+		"handle" : "R.S 5/16/2020 10:39",
+		"handle:" : "R.S 5/16/2020 10:39",
+		"initialize" : "R.S 5/16/2020 10:47",
+		"receive:" : "R.S 5/16/2020 10:47",
+		"send:" : "R.S 5/16/2020 10:37",
+		"setDBEncryptionKey:" : "R.S 5/16/2020 10:36",
+		"setLibParams" : "R.S 5/16/2020 10:36",
+		"setPhoneNumber:" : "R.S 5/16/2020 10:36" } }

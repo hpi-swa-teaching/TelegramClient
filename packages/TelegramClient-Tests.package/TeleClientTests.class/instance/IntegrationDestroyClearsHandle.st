@@ -3,6 +3,6 @@ IntegrationDestroyClearsHandle
 | client handle |
 
 client:= TeleClient new.
-client Free.
+client free.
 handle:= client client.
 self assert: handle  equals: nil

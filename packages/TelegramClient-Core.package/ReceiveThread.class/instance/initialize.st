@@ -4,5 +4,5 @@ initialize
 	| event |
 	
 	[true] whileTrue: [
-		event := self client Receive: 10.
+		event := self client receive: 10.
 		self handleEvent: event].
