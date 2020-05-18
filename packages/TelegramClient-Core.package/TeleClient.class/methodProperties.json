@@ -10,9 +10,9 @@
 		"free" : "R.S 5/16/2020 10:47",
 		"handle" : "R.S 5/16/2020 10:39",
 		"handle:" : "R.S 5/16/2020 10:39",
-		"initialize" : "R.S 5/16/2020 12:44",
-		"receive:" : "R.S 5/16/2020 10:47",
+		"initialize" : "R.S 5/18/2020 17:14",
+		"receive:" : "R.S 5/18/2020 17:27",
 		"send:" : "R.S 5/16/2020 10:37",
 		"setDBEncryptionKey:" : "R.S 5/16/2020 10:36",
-		"setLibParams" : "R.S 5/16/2020 10:36",
-		"setPhoneNumber:" : "R.S 5/16/2020 10:36" } }
+		"setPhoneNumber:" : "R.S 5/16/2020 10:36",
+		"setTDLibParams" : "R.S 5/18/2020 17:29" } }

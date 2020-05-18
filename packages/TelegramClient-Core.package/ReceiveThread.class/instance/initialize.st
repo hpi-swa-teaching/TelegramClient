@@ -3,7 +3,6 @@ initialize
 
 	| event |
 	[true] whileTrue: [
-		event := self client receive: 1.
-		Transcript show: event.
-		Processor yield.
-		"event isNull ifFalse: [self handleEvent: event]"].
+		event := self client receive: 1.	
+		event isNil ifFalse: [self handleEvent: event].
+		Processor yield].

@@ -1,5 +1,5 @@
 initialize-release
-setLibParams
+setTDLibParams
 
  	self send: '{"@type": "setTdlibParameters", "parameters": {
                                                         "database_directory": "tdlib",
