@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"IntegrationDestroyClearsHandle" : "R.S 5/16/2020 10:36" } }
+		"IntegrationDestroyClearsHandle" : "R.S 5/16/2020 10:36",
+		"setTDLibParams" : "R.S 5/16/2020 11:37" } }
