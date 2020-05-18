@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"client" ],
-	"name" : "ReceiveThread",
+		"client",
+		"authState" ],
+	"name" : "AuthHandler",
 	"pools" : [
 		 ],
 	"super" : "Object",

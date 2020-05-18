@@ -1,4 +1,4 @@
 initialize-release
 handle: aHandle
 
-	handle := aHandle
+	handle := aHandle.

@@ -1,7 +1,7 @@
 initialize-release
 free
 
-	self client free: handle.
+	self specificClient free: handle.
 	self
-		client: nil;
+		specificClient: nil;
 		handle: nil.

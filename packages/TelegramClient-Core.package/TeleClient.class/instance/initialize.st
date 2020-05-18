@@ -2,10 +2,12 @@ initialize-release
 initialize
 
 	self 
-		client: (self createSpecificClient:  Smalltalk platformName);
-		handle: client create.
+		specificClient: (self createSpecificClient:  Smalltalk platformName);
+		handle: self specificClient create.
+		
+	self authHandler: (AuthHandler new client: self).
 	
-	[ReceiveThread newWithClient: self] fork.
+	[self receiveLoop] fork.
 	
 	
 	

@@ -1,4 +1,4 @@
 initialize-release
 execute: aMessage
 
-	^ self client execute: self handle with: aMessage.
+	^ self specificClient execute: self handle with: aMessage.

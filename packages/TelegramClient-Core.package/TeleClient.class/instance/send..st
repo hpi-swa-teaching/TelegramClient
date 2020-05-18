@@ -1,4 +1,4 @@
 initialize-release
 send: aMessage
 
-	self client send: handle with: aMessage
+	self specificClient send: handle with: aMessage.
