@@ -1,9 +1,9 @@
-Client
+client
 testClientDestroysHandle
 | client handle mock |
-mock := AbstractTeleClientFactoryMock new CreateClient: ''.
+mock := AbstractTeleClientFactoryMock new createClient: ''.
 client:= TeleClient new initialize: mock.
-client Free.
-handle:= client client.
+client free.
+handle:= client specificClient.
 self assert: handle  equals: nil.
 self assert: (mock freed) equals: True

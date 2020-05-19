@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"authState" : "R.S 5/18/2020 17:54",
+		"authState:" : "R.S 5/18/2020 17:54",
+		"checkAuthenticationCode:" : "R.S 5/19/2020 10:23",
+		"client" : "R.S 5/18/2020 17:57",
+		"client:" : "R.S 5/18/2020 17:56",
+		"handleEvent:" : "R.S 5/19/2020 10:32",
+		"initialize" : "R.S 5/18/2020 17:52",
+		"isAuthStateClosed" : "R.S 5/19/2020 10:29",
+		"isAwaitingAuthCode" : "R.S 5/19/2020 10:30",
+		"isAwaitingDBEncryptionKey" : "R.S 5/19/2020 10:28",
+		"isAwaitingPhoneNumber" : "R.S 5/19/2020 10:28",
+		"isAwaitingTDLibParams" : "R.S 5/19/2020 10:28",
+		"setDBEncryptionKey:" : "R.S 5/18/2020 17:56",
+		"setPhoneNumber:" : "R.S 5/18/2020 17:57",
+		"setTDLibParams" : "R.S 5/18/2020 18:14" } }

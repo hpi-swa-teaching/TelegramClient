@@ -1,3 +1,0 @@
-ExternalCalls
-Create
-^self subclassResponsibility.
