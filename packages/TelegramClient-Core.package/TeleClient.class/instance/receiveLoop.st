@@ -1,6 +1,6 @@
 initialize-release
 receiveLoop
 
-	[true] whileTrue: [
+	[self isClientAlive] whileTrue: [
 		self update.
 		Processor yield].
