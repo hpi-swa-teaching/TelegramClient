@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AbstractTeleClientFactoryMock",
+	"pools" : [
+		 ],
+	"super" : "AbstractTeleClientFactory",
+	"type" : "normal" }
