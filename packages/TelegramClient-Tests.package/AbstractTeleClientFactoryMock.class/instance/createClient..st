@@ -1,3 +1,3 @@
-Creation
+creation
 createClient: osName
 ^FFIClientMock new.

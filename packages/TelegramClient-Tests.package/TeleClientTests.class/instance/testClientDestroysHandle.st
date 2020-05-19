@@ -1,4 +1,4 @@
-Client
+client
 testClientDestroysHandle
 | client handle mock |
 mock := AbstractTeleClientFactoryMock new createClient: ''.

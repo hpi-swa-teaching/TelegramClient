@@ -1,4 +1,4 @@
-Factory
+factory
 testfactoryCreatesCorrectClientForPlatform
 | client osList factory classList |
 osList := #('Win32' 'Mac OS' 'Linux').
