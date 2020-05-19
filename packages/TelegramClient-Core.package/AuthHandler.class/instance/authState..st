@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 authState: aString
 
 	authState := aString.

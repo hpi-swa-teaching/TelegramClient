@@ -1,4 +1,4 @@
-initialize-release
+accessing
 specificClient: aClient
 
 	specificClient := aClient.

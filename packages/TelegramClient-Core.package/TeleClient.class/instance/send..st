@@ -1,4 +1,4 @@
-initialize-release
+accessing
 send: aMessage
 
 	self specificClient send: handle with: aMessage.

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 isAwaitingDBEncryptionKey
 
 	^ (self authState at: '@type') = 'authorizationStateWaitEncryptionKey'

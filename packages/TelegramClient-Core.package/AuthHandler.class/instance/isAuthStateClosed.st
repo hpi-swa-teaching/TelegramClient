@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 isAuthStateClosed
 
 	^ (self authState at: '@type') = 'authorizationStateClosed' 

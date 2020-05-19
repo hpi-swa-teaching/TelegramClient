@@ -1,4 +1,4 @@
-initialize-release
+accessing
 authHandler: anAuthHandler
 
 	authHandler := anAuthHandler.

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 setTDLibParams
 
  	self client send: '{"@type": "setTdlibParameters", "parameters": {

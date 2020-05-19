@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 isAwaitingAuthCode
 
 	^ (self authState at: '@type') = 'authorizationStateWaitCode'

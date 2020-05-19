@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 isAwaitingTDLibParams
 
 	^ (self authState at: '@type') = 'authorizationStateWaitTdlibParameters'

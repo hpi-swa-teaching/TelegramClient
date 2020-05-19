@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 handleEvent: anEvent
 
 	Transcript show: anEvent.

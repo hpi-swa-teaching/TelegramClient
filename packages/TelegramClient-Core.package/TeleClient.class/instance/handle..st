@@ -1,4 +1,4 @@
-initialize-release
+accessing
 handle: aHandle
 
 	handle := aHandle.
