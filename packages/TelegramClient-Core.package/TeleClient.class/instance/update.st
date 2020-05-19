@@ -3,5 +3,5 @@ update
 
 	| event |
 	
-	event := self receive: 1.	
+	event := self receive: 0.05 .
 	event isNil ifFalse: [self handleEvent: event].
