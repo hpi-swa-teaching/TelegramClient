@@ -2,6 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"IntegrationDestroyClearsHandle" : "R.S 5/19/2020 16:36",
 		"testClientDestroysHandle" : "R.S 5/19/2020 16:35",
 		"testfactoryCreatesCorrectClientForPlatform" : "R.S 5/19/2020 16:35" } }
