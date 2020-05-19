@@ -4,5 +4,5 @@ IntegrationDestroyClearsHandle
 
 client:= TeleClient new.
 client free.
-handle:= client client.
+handle:= client specificClient.
 self assert: handle  equals: nil

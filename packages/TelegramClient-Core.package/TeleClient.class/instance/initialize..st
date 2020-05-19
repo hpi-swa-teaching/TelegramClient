@@ -1,4 +1,5 @@
 initialize-release
-initialize: actualClient
-	client := actualClient.
-	handle := client Create.
+initialize: anActualClient
+
+	self specificClient: anActualClient.
+	self handle: self specificClient create.

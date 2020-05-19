@@ -1,5 +1,5 @@
 Creation
-CreateClient: osName
+createClient: osName
 "Creates a new client based on os name"
 |client|
 client := (osName startsWith: 'Win32')
