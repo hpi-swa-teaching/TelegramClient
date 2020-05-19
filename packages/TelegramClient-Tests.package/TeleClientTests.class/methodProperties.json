@@ -2,5 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"IntegrationDestroyClearsHandle" : "R.S 5/16/2020 10:36",
-		"setTDLibParams" : "R.S 5/16/2020 11:37" } }
+		"testClientDestroysHandle" : "N.S. 5/19/2020 14:05",
+		"testfactoryCreatesCorrectClientForPlatform" : "N.S. 5/19/2020 13:30" } }
