@@ -1,13 +1,14 @@
 {
-	"category" : "TelegramClient-Core",
+	"category" : "TelegramClient-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "WindowsClient",
+		"created",
+		"freed" ],
+	"name" : "FFIClientMock",
 	"pools" : [
 		 ],
 	"super" : "FFIClient",
