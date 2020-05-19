@@ -1,0 +1,4 @@
+initialization
+defaultInputWidth
+
+	^ 150
