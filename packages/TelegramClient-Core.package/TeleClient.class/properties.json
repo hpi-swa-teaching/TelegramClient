@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"client",
-		"handle" ],
+		"specificClient",
+		"handle",
+		"authHandler" ],
 	"name" : "TeleClient",
 	"pools" : [
 		 ],

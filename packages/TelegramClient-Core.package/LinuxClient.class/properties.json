@@ -10,5 +10,5 @@
 	"name" : "LinuxClient",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "FFIClient",
 	"type" : "normal" }

@@ -2,10 +2,19 @@
 	"class" : {
 		 },
 	"instance" : {
-		"Execute:" : "N.S. 5/11/2020 17:55",
-		"Free" : "N.S. 5/11/2020 17:53",
-		"Receive:" : "N.S. 5/11/2020 17:54",
-		"Send:" : "N.S. 5/11/2020 17:54",
-		"client" : "N.S. 5/7/2020 17:53",
-		"client:" : "N.S. 5/7/2020 17:53",
-		"initialize" : "N.S. 5/11/2020 17:52" } }
+		"authHandler" : "R.S 5/18/2020 18:01",
+		"authHandler:" : "R.S 5/18/2020 18:02",
+		"createSpecificClient:" : "R.S 5/18/2020 18:14",
+		"execute:" : "R.S 5/18/2020 18:13",
+		"free" : "R.S 5/18/2020 18:13",
+		"handle" : "R.S 5/16/2020 10:39",
+		"handle:" : "R.S 5/18/2020 18:20",
+		"handleEvent:" : "R.S 5/19/2020 16:48",
+		"initialize:" : "R.S 5/19/2020 18:01",
+		"isClientAlive" : "R.S 5/19/2020 10:36",
+		"receive:" : "R.S 5/18/2020 18:12",
+		"receiveLoop" : "R.S 5/19/2020 10:34",
+		"send:" : "R.S 5/18/2020 18:20",
+		"specificClient" : "R.S 5/18/2020 18:11",
+		"specificClient:" : "R.S 5/18/2020 18:12",
+		"update" : "R.S 5/18/2020 18:38" } }

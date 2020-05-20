@@ -10,5 +10,5 @@
 	"name" : "MacClient",
 	"pools" : [
 		 ],
-	"super" : "ExternalLibrary",
+	"super" : "FFIClient",
 	"type" : "normal" }

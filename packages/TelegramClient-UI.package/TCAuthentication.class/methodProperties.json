@@ -1,0 +1,28 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addHeader" : "R.S 5/10/2020 17:24",
+		"addTitle:to:" : "R.S 5/7/2020 20:50",
+		"buttonBack" : "R.S 5/11/2020 16:58",
+		"buttonBack:" : "R.S 5/11/2020 16:59",
+		"buttonBackPressed" : "R.S 5/12/2020 12:45",
+		"buttonNext" : "R.S 5/11/2020 16:52",
+		"buttonNext:" : "R.S 5/11/2020 16:52",
+		"buttonNextPressed" : "R.S 5/12/2020 12:31",
+		"buttonVerify" : "R.S 5/11/2020 16:57",
+		"buttonVerify:" : "R.S 5/11/2020 16:59",
+		"createErrorLabel:" : "R.S 5/12/2020 12:35",
+		"createInputField:" : "R.S 5/19/2020 09:54",
+		"createLabel:" : "R.S 5/19/2020 09:55",
+		"defaultExtent" : "R.S 5/7/2020 14:55",
+		"defaultInputWidth" : "R.S 5/10/2020 12:17",
+		"errorLabel" : "R.S 5/12/2020 12:27",
+		"errorLabel:" : "R.S 5/12/2020 12:27",
+		"initialize" : "R.S 5/19/2020 09:51",
+		"inputField" : "R.S 5/10/2020 14:40",
+		"inputField:" : "R.S 5/10/2020 14:40",
+		"instructionLabel" : "R.S 5/19/2020 09:55",
+		"instructionLabel:" : "R.S 5/19/2020 09:55",
+		"showFirstStep" : "R.S 5/12/2020 12:45",
+		"showSecondStep" : "R.S 5/19/2020 10:49" } }
