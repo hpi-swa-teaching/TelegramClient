@@ -1,10 +1,5 @@
 {
 	"class" : {
-		 },
+		"moduleName" : "js 5/14/2020 22:48" },
 	"instance" : {
-		"create" : "R.S 5/16/2020 10:43",
-		"execute:with:" : "R.S 5/16/2020 10:45",
-		"free:" : "R.S 5/16/2020 10:45",
-		"receive:with:" : "R.S 5/16/2020 10:44",
-		"send:with:" : "R.S 5/16/2020 10:44",
 		"type" : "R.S 5/14/2020 23:14" } }
