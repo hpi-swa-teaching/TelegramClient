@@ -1,0 +1,19 @@
+{
+	"category" : "TelegramClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"buttonBack",
+		"buttonNext",
+		"buttonVerify",
+		"errorLabel",
+		"inputField",
+		"instructionLabel" ],
+	"name" : "TCAuthentication",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }
