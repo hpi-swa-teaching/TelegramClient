@@ -2,14 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
+		"app" : "R.S 5/20/2020 16:18",
+		"app:" : "R.S 5/20/2020 16:18",
 		"authState" : "R.S 5/18/2020 17:54",
 		"authState:" : "R.S 5/18/2020 17:54",
 		"checkAuthenticationCode:" : "R.S 5/19/2020 10:23",
 		"client" : "R.S 5/18/2020 17:57",
 		"client:" : "R.S 5/18/2020 17:56",
-		"handleEvent:" : "R.S 5/19/2020 10:32",
+		"handleEvent:" : "R.S 5/20/2020 17:04",
 		"initialize" : "R.S 5/18/2020 17:52",
 		"isAuthStateClosed" : "R.S 5/19/2020 10:29",
+		"isAuthorizationStateReady" : "R.S 5/20/2020 16:59",
 		"isAwaitingAuthCode" : "R.S 5/19/2020 10:30",
 		"isAwaitingDBEncryptionKey" : "R.S 5/19/2020 10:28",
 		"isAwaitingPhoneNumber" : "R.S 5/19/2020 10:28",

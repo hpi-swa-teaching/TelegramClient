@@ -1,7 +1,7 @@
-accessing
+as yet unclassified
 update
 
 	| event |
 	
-	event := self receive: 0.05 .
+	event := self client receive: 0.05 .
 	event isNil ifFalse: [self handleEvent: event].

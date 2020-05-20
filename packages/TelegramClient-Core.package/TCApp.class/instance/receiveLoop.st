@@ -1,4 +1,4 @@
-initialize-release
+as yet unclassified
 receiveLoop
 
 	[self isClientAlive] whileTrue: [
