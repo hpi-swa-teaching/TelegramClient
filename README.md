@@ -14,7 +14,7 @@ Step 2: Install the Squeak FFI Workload
 Step 3: Download the required native Binaries for your system. ![Windows](https://drive.google.com/open?id=14tOoIfxioIe8bn2kPxPKmCk_Eg0tSYiJ) ![Mac](https://drive.google.com/open?id=1H2l_V6zkIx4t_SKQKL3MmdtvOV2haFjV) ![Ubuntu 18 lts](https://drive.google.com/open?id=1CpSPcB-5MPA95fEWI-X5MxbUEZUcU3g2).
 Step 4: Place the unzipped binaries inside of your squeak image. On Windows, place them inside the Win32 folder, on Linux and Mac Os place them inside the resources folder.
 # Running TelegramClient
-In a workspace window execute the command 
+In a workspace window execute the command "TCApp new"
 # Building
 Tdlib build instructions are available on their Github page. They also have a wonderful build instruction generator available which was the basis for our workflow . ![Check it out here.](https://tdlib.github.io/td/build.html)
 
