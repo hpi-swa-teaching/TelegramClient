@@ -1,4 +1,5 @@
 ExternalCalls
 send: aHandle with: aMessage
 
-	^self subclassResponsibility.
+	 <cdecl: void* 'td_json_client_send' (void * char*)> 
+	^ self externalCallFailed.

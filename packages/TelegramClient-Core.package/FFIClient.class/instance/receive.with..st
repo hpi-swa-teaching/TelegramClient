@@ -1,4 +1,5 @@
 ExternalCalls
 receive: aHandle with: aTimeout
 
-	^self subclassResponsibility.
+	 <cdecl: char*  'td_json_client_receive' (void * double)> 
+	^ self externalCallFaile.
