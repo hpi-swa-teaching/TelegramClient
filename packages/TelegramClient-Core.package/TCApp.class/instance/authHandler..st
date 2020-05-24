@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 authHandler: anAuthHandler
 
 	authHandler := anAuthHandler.

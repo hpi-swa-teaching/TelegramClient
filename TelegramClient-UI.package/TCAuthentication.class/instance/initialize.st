@@ -8,5 +8,5 @@ initialize
 		borderWidth: 1;
 		borderColor: TCDefaultValues colorGray;
 		addHeader;
-		showFirstStep;
+		showLoadingMessage;
 		openCenteredInWorld.
