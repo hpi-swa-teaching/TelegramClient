@@ -10,5 +10,5 @@
 	"name" : "FFIClient",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ExternalLibrary",
 	"type" : "normal" }

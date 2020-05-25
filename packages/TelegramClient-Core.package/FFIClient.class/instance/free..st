@@ -1,4 +1,5 @@
 ExternalCalls
 free: aHandle
 
-	^self subclassResponsibility.
+	<cdecl: void  'td_json_client_destroy' (void*)> 
+	^ self externalCallFailed
