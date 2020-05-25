@@ -1,6 +1,6 @@
 accessing
 handleEvent: anEvent
-
+	
 	Transcript show: anEvent.
 	self authState: (anEvent at: 'authorization_state'). 
 				
@@ -10,6 +10,9 @@ handleEvent: anEvent
 				
 	self isAwaitingDBEncryptionKey ifTrue: [self setDBEncryptionKey: ''].
 				
-	self isAwaitingPhoneNumber ifTrue: [self setPhoneNumber: ''].
+	self isAwaitingPhoneNumber ifTrue: [self app authUI showFirstStep].
 	
-	self isAwaitingAuthCode ifTrue: [self checkAuthenticationCode: ''].
+	self isAwaitingAuthCode ifTrue: [self app authUI showSecondStep].
+	
+	self isAuthorizationStateReady ifTrue: [self app authUI showWelcomeMessage].
+	
