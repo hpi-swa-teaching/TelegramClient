@@ -1,8 +1,11 @@
 accessing
 showFirstStep
 
+	self instructionLabel 
+		contents: 'Enter Phonenumber: ' asText;
+		center: self center.
+
 	self
-		addMorphCentered: (self createLabel: 'Enter Phone number');
 		addMorph: (self createInputField: '+49');
 		buttonNext: (TCButton new 
 			text: 'Next';
