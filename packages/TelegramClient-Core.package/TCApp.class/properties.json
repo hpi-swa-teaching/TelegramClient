@@ -7,9 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"client",
-		"authState",
-		"app" ],
-	"name" : "AuthHandler",
+		"authUI",
+		"authHandler" ],
+	"name" : "TCApp",
 	"pools" : [
 		 ],
 	"super" : "Object",

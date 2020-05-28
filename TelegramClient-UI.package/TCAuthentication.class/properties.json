@@ -11,7 +11,8 @@
 		"buttonVerify",
 		"errorLabel",
 		"inputField",
-		"instructionLabel" ],
+		"instructionLabel",
+		"app" ],
 	"name" : "TCAuthentication",
 	"pools" : [
 		 ],

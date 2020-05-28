@@ -1,4 +1,4 @@
-initialize-release
+accessing
 receiveLoop
 
 	[self isClientAlive] whileTrue: [
