@@ -1,3 +1,4 @@
 organization
 testsmallLintCollectSelectNotUsed
-self ArbitraryCodeRule: #smallLintCollectSelectNotUsed 
+"prefer collect and select to manual list manipulation and aggregation"
+self ArbitraryCodeRule: #smallLintCollectSelectNotUsed.

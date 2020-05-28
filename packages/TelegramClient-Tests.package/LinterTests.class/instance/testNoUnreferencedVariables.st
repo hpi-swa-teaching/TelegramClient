@@ -1,3 +1,3 @@
 organization
 testNoUnreferencedVariables
-self ArbitraryCodeRule: #smallLintExcessiveVariables  
+self ArbitraryCodeRule: #smallLintExcessiveVariables.

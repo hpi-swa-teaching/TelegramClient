@@ -12,4 +12,4 @@ testRunner runOnTests: {rule} andTestObjects: testObjects.
 positiveResults := testObjects select: [:testObject | | result |
 	result := testObject resultOf: rule.
 result result > 0].
-self assert: 0  equals: positiveResults size.
+self assert: positiveResults isEmpty  equals: true.
