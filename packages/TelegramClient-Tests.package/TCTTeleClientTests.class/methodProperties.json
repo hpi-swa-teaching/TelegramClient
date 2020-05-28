@@ -1,0 +1,6 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testClientDestroysHandle" : "js 5/28/2020 17:46",
+		"testFactoryCreatesCorrectClientForPlatform" : "js 5/28/2020 17:37" } }

@@ -1,0 +1,4 @@
+accessing
+setFreed
+
+	freed := true.

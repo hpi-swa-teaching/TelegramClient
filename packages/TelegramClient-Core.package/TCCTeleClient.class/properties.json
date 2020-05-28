@@ -1,0 +1,16 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"handle",
+		"authHandler",
+		"specificClient" ],
+	"name" : "TCCTeleClient",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
