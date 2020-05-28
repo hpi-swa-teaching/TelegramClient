@@ -1,4 +1,4 @@
 organization
-testsmallLintEqualNotUsed
-"comparisons should be made with equal method"
-self ArbitraryCodeRule: #smallLintEqualNotUsed  
+testsmallLintEqualNotUsed  
+"results of an equal call are ignored"
+self ArbitraryCodeRule: #smallLintEqualNotUsed.
