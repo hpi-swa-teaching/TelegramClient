@@ -7,5 +7,3 @@ initializeMorphs
 		createErrorLabel: '';
 		createButtonBack;
 		createButtonVerify.
-
-	
