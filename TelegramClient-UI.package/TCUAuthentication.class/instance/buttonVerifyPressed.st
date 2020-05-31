@@ -1,4 +1,4 @@
 initialization
 buttonVerifyPressed
 
-	self triggerEvent: #verified with: self inputField text.
+	self core checkAuthenticationCode: self inputField text.

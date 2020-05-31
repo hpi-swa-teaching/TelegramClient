@@ -3,6 +3,7 @@ initialize
 
 	super initialize.
 	self 
+		subscribeCore;
 		extent: self defaultExtent;
 		color: Color white;
 		borderWidth: 1;

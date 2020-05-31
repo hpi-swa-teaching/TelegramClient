@@ -1,4 +1,4 @@
 accessing
 buttonNextPressed
 	
-	self triggerEvent: #phoneNumberSet with: self inputField text.
+	self core sendPhoneNumber: self inputField text.

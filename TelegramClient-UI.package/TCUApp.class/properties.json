@@ -6,16 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"buttonNext",
-		"buttonVerify",
-		"errorLabel",
-		"inputField",
-		"instructionLabel",
-		"event",
-		"authState",
 		"core" ],
-	"name" : "TCUAuthentication",
+	"name" : "TCUApp",
 	"pools" : [
 		 ],
-	"super" : "RectangleMorph",
+	"super" : "Object",
 	"type" : "normal" }

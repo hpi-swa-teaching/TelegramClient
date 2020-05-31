@@ -3,7 +3,6 @@ initialize
 
 	self
 		initializeClient;
-		initializeAuthHandler;
-		initializeAuthUI.
+		initializeAuthHandler.
 	
 	[self receiveLoop] fork.

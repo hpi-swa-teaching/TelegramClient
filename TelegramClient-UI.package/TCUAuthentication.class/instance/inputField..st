@@ -1,4 +1,4 @@
 accessing
-inputField: aMoprh
+inputField: aMorph
 
-	inputField := aMoprh.
+	inputField := aMorph.
