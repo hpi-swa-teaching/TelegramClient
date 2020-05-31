@@ -9,9 +9,12 @@ handleEvent: anEvent
 				
 	self isAwaitingDBEncryptionKey ifTrue: [self setDBEncryptionKey: ''].
 				
-	self isAwaitingPhoneNumber ifTrue: [self app authUI showFirstStep].
+	self isAwaitingPhoneNumber ifTrue: [^ #awaitPhoneNumber].
 	
-	self isAwaitingAuthCode ifTrue: [self app authUI showSecondStep].
+	self isAwaitingAuthCode ifTrue: [^ #awaitAuthCode].
 	
-	self isAuthorizationStateReady ifTrue: [self app authUI showWelcomeMessage].
+	self isAuthorizationStateReady ifTrue: [^ #authReady].
+	
+	^ nil
+	
 	
