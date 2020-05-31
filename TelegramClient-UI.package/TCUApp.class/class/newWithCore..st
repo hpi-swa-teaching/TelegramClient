@@ -1,7 +1,7 @@
 instance creation
 newWithCore: aCore
 
-	^ self basicNew;
+	^ self basicNew
 		core: aCore;
 		initialize;
 		yourself

@@ -1,7 +1,7 @@
 as yet unclassified
 newWithCore: aCore
 
-	^ self basicNew;
+	^ self basicNew
 		core: aCore;
 		initialize;
 		yourself

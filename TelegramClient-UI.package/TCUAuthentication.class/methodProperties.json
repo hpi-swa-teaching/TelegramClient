@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newWithCore:" : "js 5/31/2020 20:06" },
+		"newWithCore:" : "R.S 5/31/2020 20:16" },
 	"instance" : {
 		"addHeader" : "js 5/28/2020 17:47",
 		"addTitle:to:" : "js 5/28/2020 17:48",
@@ -10,6 +10,8 @@
 		"buttonVerify" : "R.S 5/20/2020 13:50",
 		"buttonVerify:" : "R.S 5/20/2020 13:50",
 		"buttonVerifyPressed" : "js 5/31/2020 20:10",
+		"core" : "R.S 5/31/2020 20:18",
+		"core:" : "R.S 5/31/2020 20:18",
 		"createErrorLabel:" : "R.S 5/20/2020 13:50",
 		"createInputField:" : "js 5/28/2020 17:55",
 		"createLabel:" : "R.S 5/20/2020 13:51",
