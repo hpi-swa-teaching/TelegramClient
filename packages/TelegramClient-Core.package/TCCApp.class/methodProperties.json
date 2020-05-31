@@ -11,8 +11,10 @@
 		"handleEvent:" : "f.w. 5/31/2020 18:54",
 		"initialize" : "js 5/28/2020 18:23",
 		"initializeAuthHandler" : "js 5/28/2020 18:36",
-		"initializeAuthUI" : "js 5/28/2020 18:16",
-		"initializeClient" : "js 5/28/2020 18:22",
+		"initializeAuthUI" : "f.w. 5/31/2020 19:03",
+		"initializeClient" : "f.w. 5/31/2020 19:01",
 		"isClientAlive" : "js 5/28/2020 17:18",
 		"receiveLoop" : "js 5/28/2020 17:28",
+		"sendAuthenticationCode:" : "f.w. 5/31/2020 19:04",
+		"sendPhoneNumber:" : "f.w. 5/31/2020 19:06",
 		"update" : "js 5/28/2020 17:28" } }

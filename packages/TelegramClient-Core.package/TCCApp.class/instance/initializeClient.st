@@ -2,6 +2,6 @@ initialization
 initializeClient
 
 	| specificClient |
-	specificClient := TCCTeleClientFactory createClient.
+	specificClient := TCCTeleClientFactory new createClient.
 	
 	self client: (TCCTeleClient newWithClient: specificClient).
