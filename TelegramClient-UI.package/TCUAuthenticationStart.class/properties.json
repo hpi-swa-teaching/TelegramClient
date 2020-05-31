@@ -1,0 +1,21 @@
+{
+	"category" : "TelegramClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"buttonNext",
+		"buttonVerify",
+		"errorLabel",
+		"inputField",
+		"instructionLabel",
+		"tccApp",
+		"event",
+		"authState" ],
+	"name" : "TCUAuthenticationStart",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }
