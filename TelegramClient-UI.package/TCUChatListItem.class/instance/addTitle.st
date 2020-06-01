@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 addTitle
 		
 	self addMorphCentered: (TextMorph new 

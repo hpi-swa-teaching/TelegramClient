@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 addTitle: aString to: aMorph
 
 	| titleLable font |

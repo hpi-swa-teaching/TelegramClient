@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 chatsList: aChatList
 
 	chatsList := aChatList

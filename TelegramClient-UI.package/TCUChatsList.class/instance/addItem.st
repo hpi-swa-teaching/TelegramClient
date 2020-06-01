@@ -1,7 +1,7 @@
-as yet unclassified
+accessing
 addItem
 
 	| item |
 	item := TCUChatListItem newWithChatName: 'jonsie'.
 	item width: self width.
-	self addMorph: item.
+	self addMorphCentered: item.

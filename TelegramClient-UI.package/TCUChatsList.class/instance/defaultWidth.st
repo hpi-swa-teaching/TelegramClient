@@ -1,4 +1,4 @@
-as yet unclassified
+defaultValues
 defaultWidth
 
 	^ 300
