@@ -3,6 +3,7 @@ initialize
 
 	self
 		initializeClient;
-		initializeAuthHandler.
+		initializeHandlers;
+		chats: Dictionary new.
 	
 	[self receiveLoop] fork.
