@@ -2,5 +2,5 @@ initialization
 logInCompleted
 
 	self delete.
-	TCUMain new openCenteredInWorld.
+	TCUMain new openCenteredInWorld core: self core.
 	

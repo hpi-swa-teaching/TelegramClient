@@ -6,4 +6,5 @@ initialize
 		color: Color white;
 		height: self defaultHeight;
 		addTitle;
-		borderWidth: 0.
+		borderWidth: 0;
+		addBorder.

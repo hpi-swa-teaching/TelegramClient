@@ -10,6 +10,9 @@
 		"chatWindow:" : "R.S 6/1/2020 14:27",
 		"chatsList" : "R.S 6/1/2020 14:27",
 		"chatsList:" : "R.S 6/1/2020 14:27",
+		"core" : "R.S 6/1/2020 22:27",
+		"core:" : "R.S 6/1/2020 22:27",
 		"defaultExtent" : "R.S 6/1/2020 14:27",
 		"defaultHeaderHeight" : "R.S 6/1/2020 14:27",
-		"initialize" : "R.S 6/1/2020 14:27" } }
+		"initialize" : "R.S 6/1/2020 14:27",
+		"initializeChatsList:" : "R.S 6/1/2020 22:32" } }
