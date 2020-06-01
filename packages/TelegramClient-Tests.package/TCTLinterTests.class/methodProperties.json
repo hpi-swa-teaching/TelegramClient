@@ -2,9 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"ArbitraryCodeRule:" : "N.S. 5/21/2020 10:14",
+		"ArbitraryCodeRule:" : "N.S. 6/1/2020 14:21",
 		"PrecedenceRuleForMath" : "N.S. 5/21/2020 10:09",
 		"ifTrueReturnsRule" : "N.S. 5/28/2020 09:56",
+		"initialize" : "N.S. 6/1/2020 14:18",
 		"smallLintContains" : "N.S. 5/28/2020 09:57",
 		"smallLintSentNotImplemented" : "N.S. 5/28/2020 09:58",
 		"smallLintUndeclaredReference" : "N.S. 5/28/2020 09:57",

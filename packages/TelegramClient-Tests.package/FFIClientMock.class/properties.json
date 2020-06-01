@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "N.S. 5/14/2020 11:48",
+	"commentStamp" : "",
 	"instvars" : [
-		"classes" ],
-	"name" : "TCTLinterTests",
+		"created",
+		"freed" ],
+	"name" : "FFIClientMock",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "AnObsoleteFFIClient",
 	"type" : "normal" }
