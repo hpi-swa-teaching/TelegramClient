@@ -1,7 +1,10 @@
 accessing
 addChat: aChatEvent
 
-	| userId |
+	| userId chat |
 	
 	userId := aChatEvent at: 'user_id'.
-	self chats at: userId put: (TCCChat new userId: userId).
+	chat := TCCChat new userId: userId.
+	chat fullName ifNil: [self messageHandler getChatInfos: userId].
+	
+	self chats at: userId put: chat.
