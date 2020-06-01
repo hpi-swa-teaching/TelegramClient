@@ -17,5 +17,8 @@ handleEvent: anEvent
 	(anEvent at: '@type') = 'updateUserFullInfo'
 		ifTrue: [self addChat: anEvent].
 		
+	(anEvent at: '@type') = 'chat'
+		ifTrue: [self setChatInfos: anEvent].
+		
 	update isSymbol ifTrue: [self triggerEvent: update].
 	

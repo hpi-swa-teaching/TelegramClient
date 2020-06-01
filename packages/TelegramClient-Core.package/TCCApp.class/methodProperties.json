@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addChat:" : "R.S 6/1/2020 15:38",
+		"addChat:" : "R.S 6/1/2020 15:52",
 		"authHandler" : "R.S 5/20/2020 16:10",
 		"authHandler:" : "R.S 5/20/2020 16:10",
 		"chats" : "R.S 6/1/2020 15:34",
@@ -10,9 +10,10 @@
 		"checkAuthenticationCode:" : "js 5/31/2020 20:10",
 		"client" : "R.S 5/20/2020 16:08",
 		"client:" : "R.S 5/20/2020 16:08",
+		"getChatFromID:" : "R.S 6/1/2020 15:50",
 		"getChats" : "js 6/1/2020 15:06",
-		"handleEvent:" : "R.S 6/1/2020 15:40",
-		"initialize" : "R.S 6/1/2020 15:35",
+		"handleEvent:" : "R.S 6/1/2020 16:01",
+		"initialize" : "R.S 6/1/2020 15:52",
 		"initializeClient" : "f.w. 5/31/2020 19:01",
 		"initializeHandlers" : "js 6/1/2020 14:45",
 		"isClientAlive" : "js 5/28/2020 17:18",
@@ -20,4 +21,5 @@
 		"messageHandler:" : "js 6/1/2020 14:46",
 		"receiveLoop" : "R.S 6/1/2020 15:24",
 		"sendPhoneNumber:" : "js 5/31/2020 20:08",
+		"setChatInfos:" : "R.S 6/1/2020 16:06",
 		"update" : "js 5/28/2020 17:28" } }
