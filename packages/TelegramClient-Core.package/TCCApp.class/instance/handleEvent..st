@@ -3,7 +3,7 @@ handleEvent: anEvent
 	
 	| update |
 	
-	Transcript show: anEvent. 
+	Transcript show: anEvent asString, Character cr. 
 	
 	(((anEvent at: '@type') = 'error') and: [(anEvent at: 'code') = 400 ])
 		ifTrue: [self halt: 'There probably already is an instance of TCClient running'].
@@ -13,6 +13,9 @@ handleEvent: anEvent
 		
 	(anEvent at: '@type')  = 'chats'
 		ifTrue: [update := self messageHandler handleEvent: anEvent].
+		
+	(anEvent at: '@type') = 'updateUserFullInfo'
+		ifTrue: [self addChat: anEvent].
 		
 	update isSymbol ifTrue: [self triggerEvent: update].
 	

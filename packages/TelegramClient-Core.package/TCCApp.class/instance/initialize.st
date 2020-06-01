@@ -3,6 +3,7 @@ initialize
 
 	self
 		initializeClient;
-		initializeHandlers.
+		initializeHandlers;
+		chats: Set new.
 	
 	[self receiveLoop] fork.

@@ -1,0 +1,15 @@
+{
+	"category" : "TelegramClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"created",
+		"freed" ],
+	"name" : "FFIClientMock",
+	"pools" : [
+		 ],
+	"super" : "AnObsoleteFFIClient",
+	"type" : "normal" }
