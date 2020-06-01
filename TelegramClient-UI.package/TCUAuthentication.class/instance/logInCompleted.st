@@ -1,5 +1,5 @@
 initialization
-showWelcomeMessage
+logInCompleted
 
 	self delete.
 	TCUMain new openCenteredInWorld.

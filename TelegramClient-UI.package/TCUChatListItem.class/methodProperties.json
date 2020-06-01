@@ -1,8 +1,9 @@
 {
 	"class" : {
-		 },
+		"newWithChatName:" : "R.S 6/1/2020 15:07" },
 	"instance" : {
+		"addTitle" : "R.S 6/1/2020 14:53",
 		"chatName" : "R.S 6/1/2020 14:22",
 		"chatName:" : "R.S 6/1/2020 14:21",
 		"defaultHeight" : "R.S 6/1/2020 14:22",
-		"initialize" : "R.S 6/1/2020 14:22" } }
+		"initialize" : "R.S 6/1/2020 15:09" } }

@@ -4,4 +4,6 @@ initialize
 	super initialize.
 	self 
 		color: Color white;
-		height: self defaultHeight.
+		height: self defaultHeight;
+		addTitle;
+		borderWidth: 0.
