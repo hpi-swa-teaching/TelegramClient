@@ -1,0 +1,15 @@
+{
+	"category" : "TelegramClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"chatWindow",
+		"chatsList" ],
+	"name" : "TCUMain",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }
