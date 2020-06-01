@@ -2,8 +2,8 @@ accessing
 handleEvent: anEvent
 	
 	| update |
-	
-	Transcript show: anEvent asString, Character cr. 
+
+	update := nil.
 	
 	(((anEvent at: '@type') = 'error') and: [(anEvent at: 'code') = 400 ])
 		ifTrue: [self halt: 'There probably already is an instance of TCClient running'].
@@ -21,4 +21,3 @@ handleEvent: anEvent
 		ifTrue: [self setChatInfos: anEvent].
 		
 	update isSymbol ifTrue: [self triggerEvent: update].
-	

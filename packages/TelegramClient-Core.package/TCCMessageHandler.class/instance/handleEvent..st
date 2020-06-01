@@ -1,4 +1,4 @@
-as yet unclassified
+events
 handleEvent: anEvent
 
-	Transcript show: anEvent.
+	"Transcript show: anEvent."

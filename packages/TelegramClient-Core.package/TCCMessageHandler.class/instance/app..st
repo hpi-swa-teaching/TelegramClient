@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 app: anApp
 
 	app := anApp.
