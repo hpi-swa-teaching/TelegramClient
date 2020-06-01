@@ -3,12 +3,16 @@ handleEvent: anEvent
 	
 	| update |
 	
+	Transcript show: anEvent. 
+	
 	(((anEvent at: '@type') = 'error') and: [(anEvent at: 'code') = 400 ])
 		ifTrue: [self halt: 'There probably already is an instance of TCClient running'].
 	
 	(anEvent at: '@type')  = 'updateAuthorizationState'
-		ifFalse: [^ nil].
+		ifTrue: [update := self authHandler handleEvent: anEvent].
 		
-	update := self authHandler handleEvent: anEvent.
+	(anEvent at: '@type')  = 'chats'
+		ifTrue: [update := self messageHandler handleEvent: anEvent].
+		
 	update isSymbol ifTrue: [self triggerEvent: update].
 	

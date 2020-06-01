@@ -6,3 +6,5 @@ showWelcomeMessage
 	self buttonNext isNil ifFalse: [self buttonNext delete].
 	self instructionLabel contents: 'Welcome' asText.
 	
+	self core getChats.
+	

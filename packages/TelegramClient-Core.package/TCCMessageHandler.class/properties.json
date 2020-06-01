@@ -6,11 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"client",
-		"authUI",
-		"authHandler",
-		"messageHandler" ],
-	"name" : "TCCApp",
+		"app" ],
+	"name" : "TCCMessageHandler",
 	"pools" : [
 		 ],
 	"super" : "Object",
