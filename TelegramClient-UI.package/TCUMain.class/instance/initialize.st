@@ -7,4 +7,5 @@ initialize
 		borderWidth: 0;
 		addHeader;
 		addChatsList;
-		addChatWindow.
+		addChatWindow;
+		initializeChatsList.

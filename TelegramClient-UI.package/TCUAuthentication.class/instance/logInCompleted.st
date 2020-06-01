@@ -1,6 +1,7 @@
 initialization
 logInCompleted
 
-	self delete.
-	TCUMain new openCenteredInWorld core: self core.
+	"self delete."
+	self core getChats.
+	(TCUMain newWithCore: self core) openCenteredInWorld.
 	
