@@ -14,5 +14,7 @@
 		"core:" : "R.S 6/1/2020 22:27",
 		"defaultExtent" : "R.S 6/1/2020 14:27",
 		"defaultHeaderHeight" : "R.S 6/1/2020 14:27",
-		"initialize" : "R.S 6/1/2020 22:34",
-		"initializeChatsList" : "R.S 6/1/2020 22:42" } }
+		"delete" : "R.S 6/3/2020 20:54",
+		"initialize" : "R.S 6/3/2020 21:01",
+		"subscribeCore" : "R.S 6/3/2020 21:01",
+		"updateChatsList" : "R.S 6/3/2020 21:00" } }

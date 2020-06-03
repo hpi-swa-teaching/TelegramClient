@@ -8,4 +8,6 @@ initialize
 		addHeader;
 		addChatsList;
 		addChatWindow;
-		initializeChatsList.
+		subscribeCore.
+		
+	self core getChats.
