@@ -2,7 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addItem:" : "R.S 6/1/2020 22:29",
+		"addItem:" : "R.S 6/3/2020 21:15",
+		"clearChats" : "R.S 6/3/2020 21:18",
 		"defaultWidth" : "R.S 6/1/2020 14:24",
-		"initialize" : "R.S 6/1/2020 22:29",
-		"initializeLayout" : "R.S 6/1/2020 15:00" } }
+		"initialize" : "R.S 6/3/2020 21:19",
+		"initializeLayout" : "R.S 6/1/2020 15:00",
+		"items" : "R.S 6/3/2020 21:15",
+		"items:" : "R.S 6/3/2020 21:15" } }

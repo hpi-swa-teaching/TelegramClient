@@ -4,4 +4,5 @@ addItem: aTitle
 	| item |
 	item := TCUChatListItem newWithChatName: aTitle.
 	item width: self width.
+	self items add: item.
 	self addMorph: item.

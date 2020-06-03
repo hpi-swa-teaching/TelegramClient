@@ -8,6 +8,7 @@ initialize
 		addHeader;
 		addChatsList;
 		addChatWindow;
-		subscribeCore.
+		subscribeCore;
+		clipSubmorphs: true.
 		
 	self core getChats.

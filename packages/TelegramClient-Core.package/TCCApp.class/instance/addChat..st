@@ -8,4 +8,3 @@ addChat: aChatEvent
 	chat fullName ifNil: [self messageHandler getChatInfos: userId].
 	
 	self chats at: userId put: chat.
-	self triggerEvent: #newChatLoaded.
