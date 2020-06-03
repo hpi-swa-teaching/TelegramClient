@@ -1,16 +1,15 @@
 {
-	"category" : "TelegramClient-UI",
+	"category" : "TelegramClient-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"chatWindow",
-		"chatsList",
-		"core" ],
-	"name" : "TCUMain",
+		"created",
+		"freed" ],
+	"name" : "FFIClientMock",
 	"pools" : [
 		 ],
-	"super" : "RectangleMorph",
+	"super" : "AnObsoleteFFIClient",
 	"type" : "normal" }
