@@ -1,0 +1,1 @@
+LinterTests is the PR validation mechanism used to enforce linter compliance before merge. Individual rules are added as tests and required to have zero offenses.

@@ -1,0 +1,17 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"userId",
+		"fullName",
+		"messages",
+		"order" ],
+	"name" : "TCCChat",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

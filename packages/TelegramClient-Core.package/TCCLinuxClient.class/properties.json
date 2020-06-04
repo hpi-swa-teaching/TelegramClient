@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TCCLinuxClient",
+	"pools" : [
+		 ],
+	"super" : "TCCFFIClient",
+	"type" : "normal" }

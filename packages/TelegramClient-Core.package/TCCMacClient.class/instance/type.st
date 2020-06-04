@@ -1,0 +1,4 @@
+accessing
+type
+
+	^ 'Mac OS'
