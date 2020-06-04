@@ -1,3 +1,0 @@
-organization
-testsmallLintCollectSelectNotUsed
-self ArbitraryCodeRule: #smallLintCollectSelectNotUsed 
