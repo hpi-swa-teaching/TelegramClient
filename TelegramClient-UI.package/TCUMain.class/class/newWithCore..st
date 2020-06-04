@@ -1,8 +1,7 @@
-as yet unclassified
-newWithCore: aCore   
+creation
+newWithCore: aCore
 
-	
-	^ self basicNew   
-		core: aCore;   
-		initialize;   
+	^ self basicNew
+		core: aCore;
+		initialize;
 		yourself
