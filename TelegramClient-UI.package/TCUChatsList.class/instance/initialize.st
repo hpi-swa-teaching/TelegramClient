@@ -7,6 +7,5 @@ initialize
 		width: self defaultWidth;
 		color: Color white;
 		borderWidth: 0;
-		initializeLayout.
-		
-	1 to: 5 do: [:x | self addItem].
+		initializeLayout;
+		items: OrderedCollection new.

@@ -7,4 +7,8 @@ initialize
 		borderWidth: 0;
 		addHeader;
 		addChatsList;
-		addChatWindow.
+		addChatWindow;
+		subscribeCore;
+		clipSubmorphs: true.
+		
+	self core getChats.

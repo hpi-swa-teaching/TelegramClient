@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"newWithCore:" : "R.S 6/1/2020 22:35" },
 	"instance" : {
 		"addChatWindow" : "R.S 6/1/2020 14:26",
 		"addChatsList" : "R.S 6/1/2020 14:26",
@@ -10,6 +10,11 @@
 		"chatWindow:" : "R.S 6/1/2020 14:27",
 		"chatsList" : "R.S 6/1/2020 14:27",
 		"chatsList:" : "R.S 6/1/2020 14:27",
+		"core" : "R.S 6/1/2020 22:27",
+		"core:" : "R.S 6/1/2020 22:27",
 		"defaultExtent" : "R.S 6/1/2020 14:27",
 		"defaultHeaderHeight" : "R.S 6/1/2020 14:27",
-		"initialize" : "R.S 6/1/2020 14:27" } }
+		"delete" : "R.S 6/3/2020 20:54",
+		"initialize" : "R.S 6/3/2020 21:21",
+		"subscribeCore" : "R.S 6/3/2020 21:03",
+		"updateChatsList" : "R.S 6/4/2020 10:12" } }
