@@ -3,7 +3,7 @@ updateChatsList
 
 	| chats i|
 	self chatsList clearChats.
-	chats := self core chats.
+	chats := self core chats asSortedCollection: [:x :y| x order < y order].
 	
 	i := 0.
 	

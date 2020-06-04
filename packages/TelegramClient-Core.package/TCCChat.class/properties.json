@@ -8,7 +8,8 @@
 	"instvars" : [
 		"userId",
 		"fullName",
-		"messages" ],
+		"messages",
+		"order" ],
 	"name" : "TCCChat",
 	"pools" : [
 		 ],

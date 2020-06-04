@@ -1,11 +1,11 @@
 accessing
 setChatInfos: anEvent
 
-	| userId |
+	| chatId |
 	
-	Transcript show: anEvent.
-	Transcript show: 'XXXXXXXXXXXXXXXXXXXXXXXX', Character cr.
-	
-	userId := anEvent at: 'id'.
-	(self chats at: userId) fullName: (anEvent at: 'title').
+	chatId := anEvent at: 'id'.
+	(self chats at: chatId) 
+		fullName: (anEvent at: 'title');
+		order: (anEvent at: 'order').
+		
 	self triggerEvent: #newChatLoaded.
