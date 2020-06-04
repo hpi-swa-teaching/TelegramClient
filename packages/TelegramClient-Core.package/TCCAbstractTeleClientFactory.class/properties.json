@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TCCAbstractTeleClientFactory",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

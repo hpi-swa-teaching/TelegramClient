@@ -1,5 +1,5 @@
 # TelegramClient
-# CI Status
+## CI Status
 Develop: ![CI](https://github.com/hpi-swa-teaching/TelegramClient/workflows/CI/badge.svg?branch=develop)
 Master(Release): ![CI](https://github.com/hpi-swa-teaching/TelegramClient/workflows/CI/badge.svg?branch=master)
 
@@ -7,7 +7,7 @@ TelegramClient is a **Squeak-Client** for the widely used Telegram-Messenger. It
 
 *This Project is part of the "Softwaretechnik" Lecture 2020 at the Hasso Plattner Institute.*
 
-# Installation
+## Installation
 Make sure you have the current version of Squeak installed.
 * Step 1: Install the Squeak Git Client
 * Step 2: Install the Squeak FFI Workload. To do so, open the Workspace in Squeak and execute the following command:   `(Installer repository: 'http://source.squeak.org/FFI')
@@ -21,7 +21,12 @@ In a workspace window execute the command
 # Building
 Tdlib build instructions are available on their Github page. They also have a wonderful build instruction generator available which was the basis for our workflow . [Check it out here.](https://tdlib.github.io/td/build.html)
 
-# Notes on TDLIB
-The TelegramClient is build on the TelegramDatabseLibrary which provides access to Telegram API via a JSON-Interface.
-We include TDLIB library in our project and can access the C-Library via FFI from Squeak, giving us the possibility to access the Telegram API via JSON-Interface.
+## Running TelegramClient
+In a workspace window execute the command
 
+## Building Tdlib
+Tdlib build instructions are available on their Github page. They also have a wonderful build instruction generator available which was the basis for our workflow . [Check it out here.](https://tdlib.github.io/td/build.html)
+
+# Notes on Tdlib
+The TelegramClient is build on the TelegramDatabseLibrary which provides access to Telegram API via a JSON-Interface.
+We include Tdlib library in our project and can access the C-Library via FFI from Squeak, giving us the possibility to access the Telegram API via JSON-Interface.

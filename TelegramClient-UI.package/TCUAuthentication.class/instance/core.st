@@ -1,0 +1,5 @@
+initialization
+core
+
+	^ core
+	
