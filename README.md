@@ -19,7 +19,7 @@ install: 'FFI-Kernel'.`
 # Running TelegramClient
 In a workspace window execute the command 
 # Building
-Tdlib build instructions are available on their Github page. They also have a wonderful build instruction generator available which was the basis for our workflow . ![Check it out here.](https://tdlib.github.io/td/build.html)
+Tdlib build instructions are available on their Github page. They also have a wonderful build instruction generator available which was the basis for our workflow . [Check it out here.](https://tdlib.github.io/td/build.html)
 
 # Notes on TDLIB
 The TelegramClient is build on the TelegramDatabseLibrary which provides access to Telegram API via a JSON-Interface.
