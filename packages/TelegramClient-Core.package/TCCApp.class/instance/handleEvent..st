@@ -4,7 +4,6 @@ handleEvent: anEvent
 	| update |
 
 	update := nil.
-	
 	(((anEvent at: '@type') = 'error') and: [(anEvent at: 'code') = 400 ])
 		ifTrue: [self halt: 'There probably already is an instance of TCClient running'].
 	
