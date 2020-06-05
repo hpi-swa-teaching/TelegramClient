@@ -1,12 +1,13 @@
 accessing
 setTDLibParams
 
- 	self client send: '{"@type": "setTdlibParameters", "parameters": {
+self client send: '{"@type": "setTdlibParameters", "parameters": {
                                                         "database_directory": "tdlib",
                                                         "use_message_database": true,
                                                         "use_secret_chats": true,
-                                                        "api_id": 94575,
-                                                        "api_hash": "a3406de8d171bb422bb6ddf3bbd800e2",
+									  "use_test_dc": true,
+                                                        "api_id": 1733417,
+                                                        "api_hash": "bda1c0b38033d2a5f2ce7e8ab06ef31a",
                                                         "system_language_code": "en",
                                                         "device_model": "Desktop",
                                                         "system_version": "', self client specificClient type, '",
