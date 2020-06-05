@@ -20,6 +20,12 @@ Make sure you have the current version of Squeak installed.
 ## Running TelegramClient
 In a workspace window execute the command
 
+## Test TelegramClient
+Use this PhoneNumber:  9996621234
+Use this Code:         22222
+
+Make sure that in `TCCAuthHandler` --> `setTDLibParams` `use_test_dc: true` is set. 
+
 ## Building Tdlib
 Tdlib build instructions are available on their Github page. They also have a wonderful build instruction generator available which was the basis for our workflow . [Check it out here.](https://tdlib.github.io/td/build.html)
 
