@@ -4,7 +4,7 @@ setChatInfos: anEvent
 	| chatId |
 	
 	chatId := anEvent at: 'id'.
-	(self chats at: chatId) 
+	(self chats getChat: chatId) 
 		fullName: (anEvent at: 'title');
 		order: (anEvent at: 'order').
 		

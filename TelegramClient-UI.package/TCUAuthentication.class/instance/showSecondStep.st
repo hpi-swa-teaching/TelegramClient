@@ -1,7 +1,8 @@
 accessing
 showSecondStep
-
+	
 	self buttonNext delete.
+	
 	self instructionLabel 
 		contents: 'Enter the code your recieved on your phone';
 		center: self center.

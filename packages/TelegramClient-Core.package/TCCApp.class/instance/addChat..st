@@ -8,4 +8,4 @@ addChat: aChatEvent
 	chat fullName ifNil: [self messageHandler getChatInfos: userId].
 	chat order ifNil: [chat order: '0'].
 	
-	self chats at: userId put: chat.
+	self chats add: chat.
