@@ -7,4 +7,4 @@ addChat: aChatEvent
 	chat := TCCChat new userId: userId.
 	chat fullName ifNil: [self messageHandler getChatInfos: userId].
 	
-	self chats at: userId put: chat.
+	self chats add: chat.
