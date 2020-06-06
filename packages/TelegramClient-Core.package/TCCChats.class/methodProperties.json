@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"new" : "rs 6/6/2020 17:58" },
 	"instance" : {
 		"getChat:" : "rs 6/6/2020 17:02",
-		"initialize" : "js 6/6/2020 15:36" } }
+		"initialize" : "rs 6/6/2020 17:57",
+		"sortBlock" : "rs 6/6/2020 17:56" } }
