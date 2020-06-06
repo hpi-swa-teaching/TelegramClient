@@ -1,4 +1,6 @@
 accessing
-getChatInfos: aChatId
+getChatInfos: aChatID
 
-	self client send: '{"@type": "getChat", "chat_id": "', aChatId, '"}'.
+	self client send: (TCCRequest
+		newWithType: 'getChat'
+		from: {'chat_id' -> aChatID}).
