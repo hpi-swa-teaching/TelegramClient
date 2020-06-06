@@ -1,6 +1,5 @@
 initialization
-logInCompleted
+logInCompleted   
 
-	self delete.
-	TCUMain new openCenteredInWorld.
-	
+	(TCUMain newWithCore: self core) openCenteredInWorld.
+	super delete.
