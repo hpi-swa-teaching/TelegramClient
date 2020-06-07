@@ -1,4 +1,4 @@
-accessing
+events
 addChat: aChatEvent
 
 	| chat |
@@ -10,5 +10,5 @@ addChat: aChatEvent
 		
 	self halt.
 	
-	self chats add: chat.
+	self app chats add: chat.
 	self triggerEvent: #newChatLoaded.

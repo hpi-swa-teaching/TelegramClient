@@ -10,16 +10,10 @@ handleEvent: anEvent
 	(anEvent at: '@type')  = 'updateAuthorizationState'
 		ifTrue: [update := self authHandler handleEvent: anEvent].
 		
-	(anEvent at: '@type')  = 'chats'
-		ifTrue: [update := self chatsHandler handleEvent: anEvent].
-		
-	"(anEvent at: '@type') = 'updateUserFullInfo'
-		ifTrue: [self addChat: anEvent]."
-		
-	(anEvent at: '@type') = 'chat'
-		ifTrue: [self setChatInfos: anEvent].
-		
 	(anEvent at: '@type') = 'updateNewChat'
 		ifTrue: [self addChat: anEvent].
+		
+	(anEvent at: '@type')  = 'chats'
+		ifTrue: [update := self chatsHandler handleEvent: anEvent].
 		
 	update isSymbol ifTrue: [self triggerEvent: update].
