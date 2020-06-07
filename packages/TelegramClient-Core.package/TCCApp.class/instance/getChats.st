@@ -1,4 +1,4 @@
 accessing
 getChats
 
-	self messageHandler getChats.
+	self chatsHandler getChats.

@@ -5,5 +5,5 @@ receive: aTimeoutNumber
 	
 	event := self specificClient receive: self handle with: aTimeoutNumber.
 	event ifNil: [^nil].
-	Transcript show: event.
+	"Transcript show: event, Character cr."
 	^ Json new readFromString: event
