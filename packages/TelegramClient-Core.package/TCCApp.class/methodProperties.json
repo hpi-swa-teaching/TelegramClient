@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addChat:" : "rs 6/8/2020 13:58",
 		"authHandler" : "R.S 5/20/2020 16:10",
 		"authHandler:" : "R.S 5/20/2020 16:10",
+		"authSucceeded" : "rs 6/8/2020 14:13",
 		"chats" : "R.S 6/1/2020 15:34",
 		"chats:" : "R.S 6/1/2020 15:34",
 		"chatsHandler" : "rs 6/7/2020 21:50",
@@ -12,8 +12,7 @@
 		"checkAuthenticationCode:" : "js 5/31/2020 20:10",
 		"client" : "R.S 5/20/2020 16:08",
 		"client:" : "R.S 5/20/2020 16:08",
-		"getChats" : "rs 6/7/2020 21:50",
-		"handleEvent:" : "rs 6/7/2020 22:38",
+		"handleEvent:" : "rs 6/8/2020 14:07",
 		"initialize" : "rs 6/6/2020 17:56",
 		"initializeClient" : "f.w. 5/31/2020 19:01",
 		"initializeHandlers" : "rs 6/7/2020 21:51",

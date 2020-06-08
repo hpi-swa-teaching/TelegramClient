@@ -7,8 +7,6 @@ addChat: aChatEvent
 		id: ((aChatEvent at: 'chat') at: 'id');
 		title: ((aChatEvent at: 'chat') at: 'title');
 		order: ((aChatEvent at: 'chat') at: 'order').
-		
-	self halt.
 	
 	self app chats add: chat.
-	self triggerEvent: #newChatLoaded.
+	self app triggerEvent: #newChatLoaded.

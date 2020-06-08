@@ -13,5 +13,4 @@ handleEvent: anEvent
 	
 	self isAwaitingAuthCode ifTrue: [^ #awaitAuthCode].
 	
-	self isAuthorizationStateReady ifTrue: [self app getChats.
-		^ #authReady].
+	self isAuthorizationStateReady ifTrue: [^ self app authSucceeded].
