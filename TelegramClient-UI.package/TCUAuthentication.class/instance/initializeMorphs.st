@@ -4,6 +4,8 @@ initializeMorphs
 	self
 		createInputField: '+49';
 		createButtonNext;
-		createErrorLabel: ''.
+		createErrorLabel: '';
+		createButtonBack;
+		createButtonVerify.
 
 	
