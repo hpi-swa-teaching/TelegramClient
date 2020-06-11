@@ -8,4 +8,5 @@
 		"client" : "js 6/1/2020 14:44",
 		"getChatInfos:" : "rs 6/6/2020 16:33",
 		"getChats" : "rs 6/6/2020 16:36",
-		"handleEvent:" : "rs 6/8/2020 14:02" } }
+		"handleEvent:" : "rs 6/8/2020 14:02",
+		"sendMessage:to:" : "f.w. 6/11/2020 19:37" } }
