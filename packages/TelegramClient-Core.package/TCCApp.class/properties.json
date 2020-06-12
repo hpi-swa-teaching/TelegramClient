@@ -9,7 +9,7 @@
 		"client",
 		"authUI",
 		"authHandler",
-		"messageHandler",
+		"chatsHandler",
 		"chats" ],
 	"name" : "TCCApp",
 	"pools" : [

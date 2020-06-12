@@ -1,14 +1,14 @@
 {
-	"category" : "TelegramClient-Core",
+	"category" : "TelegramClient-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"app" ],
-	"name" : "TCCMessageHandler",
+		"receivingMsgQueue" ],
+	"name" : "TDJSONClientMock",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "AnObsoleteTDJSONClient",
 	"type" : "normal" }

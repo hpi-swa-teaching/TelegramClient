@@ -1,6 +1,6 @@
 initialization
 clearChats
 
-	self items do: [:aItem | aItem delete].
-	self items removeAll.
+	self items do: [:aItem | aItem delete.
+		self items remove: aItem].
 		

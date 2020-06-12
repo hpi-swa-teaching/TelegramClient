@@ -4,6 +4,6 @@ initialize
 	self
 		initializeClient;
 		initializeHandlers;
-		chats: Dictionary new.
+		chats: TCCChats new.
 	
 	[self receiveLoop] fork.

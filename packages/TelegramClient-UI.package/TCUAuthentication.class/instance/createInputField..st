@@ -7,6 +7,7 @@ createInputField: aString
 		borderColor: TCUDefaultValues colorGray;
 		borderWidth: 1;
 		center: self instructionLabel center + (0 @ 30);
+		hide;
 		crAction: [self buttonNextPressed]).
 	
-	^ self inputField
+	self addMorph: self inputField.
