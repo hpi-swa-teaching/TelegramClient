@@ -1,4 +1,0 @@
-initialization
-defaultInputWidth
-
-	^ 150
