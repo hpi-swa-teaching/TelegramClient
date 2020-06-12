@@ -1,4 +1,4 @@
-creation
+Creation
 createClient: anOsName
 
 	^ self subclassResponsibility

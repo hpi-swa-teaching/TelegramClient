@@ -6,9 +6,9 @@
 		"app:" : "js 5/28/2020 17:02",
 		"authState" : "R.S 5/18/2020 17:54",
 		"authState:" : "R.S 5/18/2020 17:54",
-		"checkAuthenticationCode:" : "rs 6/6/2020 16:23",
+		"checkAuthenticationCode:" : "R.S 5/19/2020 10:23",
 		"client" : "js 5/28/2020 18:36",
-		"handleEvent:" : "rs 6/8/2020 14:13",
+		"handleEvent:" : "js 6/1/2020 15:04",
 		"isAuthStateClosed" : "R.S 5/19/2020 10:29",
 		"isAuthorizationStateReady" : "R.S 5/20/2020 16:59",
 		"isAwaitingAuthCode" : "R.S 5/19/2020 10:30",
@@ -16,6 +16,6 @@
 		"isAwaitingPhoneNumber" : "R.S 5/19/2020 10:28",
 		"isAwaitingTDLibParams" : "R.S 5/19/2020 10:28",
 		"logout" : "f.w. 6/3/2020 20:41",
-		"sendPhoneNumber:" : "rs 6/6/2020 16:25",
-		"setDBEncryptionKey:" : "rs 6/6/2020 16:26",
-		"setTDLibParams" : "rs 6/6/2020 16:41" } }
+		"sendPhoneNumber:" : "js 5/31/2020 20:09",
+		"setDBEncryptionKey:" : "js 5/28/2020 17:04",
+		"setTDLibParams" : "R.S 5/23/2020 12:22" } }

@@ -1,4 +1,0 @@
-initialization
-buttonBackPressed
-
-	self showFirstStep.

@@ -13,4 +13,4 @@ handleEvent: anEvent
 	
 	self isAwaitingAuthCode ifTrue: [^ #awaitAuthCode].
 	
-	self isAuthorizationStateReady ifTrue: [^ self app authSucceeded].
+	self isAuthorizationStateReady ifTrue: [^ #authReady].
