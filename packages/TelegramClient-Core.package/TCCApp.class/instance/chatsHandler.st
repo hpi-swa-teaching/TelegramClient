@@ -1,4 +1,0 @@
-accessing
-chatsHandler
-
-	^ chatsHandler

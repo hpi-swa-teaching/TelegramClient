@@ -1,4 +1,4 @@
 accessing
-send: aRequest
+send: aMessage
 
-	self specificClient send: self handle with: aRequest asString.
+	self specificClient send: self handle with: aMessage.

@@ -13,8 +13,7 @@
 		"instructionLabel",
 		"event",
 		"authState",
-		"core",
-		"buttonBack" ],
+		"core" ],
 	"name" : "TCUAuthentication",
 	"pools" : [
 		 ],

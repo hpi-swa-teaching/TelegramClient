@@ -7,10 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"userId",
+		"fullName",
 		"messages",
-		"order",
-		"id",
-		"title" ],
+		"order" ],
 	"name" : "TCCChat",
 	"pools" : [
 		 ],

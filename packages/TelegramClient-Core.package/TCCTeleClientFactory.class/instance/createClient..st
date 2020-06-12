@@ -1,4 +1,4 @@
-creation
+Creation
 createClient: anOsName
 	
 	^ (anOsName startsWith: 'Win32')

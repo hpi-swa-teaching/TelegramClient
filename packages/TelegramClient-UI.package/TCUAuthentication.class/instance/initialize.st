@@ -10,5 +10,4 @@ initialize
 		borderColor: TCUDefaultValues colorGray;
 		addHeader;
 		showLoadingMessage;
-		initializeMorphs.
-		
+		openCenteredInWorld.

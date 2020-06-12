@@ -1,6 +1,4 @@
 accessing
 setDBEncryptionKey: aString
 
-	self client send: (TCCRequest
-		newWithType: 'checkDatabaseEncryptionKey'
-		from: {'encryption_key' -> aString}).
+	self client send: '{"@type": "checkDatabaseEncryptionKey", "encryption_key": "', aString, '"}'.

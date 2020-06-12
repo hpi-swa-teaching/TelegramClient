@@ -10,3 +10,5 @@ initialize
 		addChatWindow;
 		subscribeCore;
 		clipSubmorphs: true.
+		
+	self core getChats.
