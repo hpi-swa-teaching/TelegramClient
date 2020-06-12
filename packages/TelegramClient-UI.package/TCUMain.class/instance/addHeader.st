@@ -3,8 +3,6 @@ addHeader
 
 	| header logoutButton |
 	
-	
-	
 	header := RectangleMorph new
 		borderWidth: 0;
 		color: TCUDefaultValues colorGray;
