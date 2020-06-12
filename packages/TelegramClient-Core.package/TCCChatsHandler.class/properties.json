@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"app" ],
+	"name" : "TCCChatsHandler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

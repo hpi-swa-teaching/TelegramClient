@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"app" ],
-	"name" : "TCCMessageHandler",
+		 ],
+	"name" : "TCCChats",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "SortedCollection",
 	"type" : "normal" }
