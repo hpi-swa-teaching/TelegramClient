@@ -1,0 +1,4 @@
+initialization
+defaultInputfieldHeight
+
+	^ 70

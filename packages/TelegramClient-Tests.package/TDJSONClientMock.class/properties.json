@@ -1,15 +1,14 @@
 {
-	"category" : "TelegramClient-UI",
+	"category" : "TelegramClient-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"chatName",
-		"chatId" ],
-	"name" : "TCUChatListItem",
+		"receivingMsgQueue" ],
+	"name" : "TDJSONClientMock",
 	"pools" : [
 		 ],
-	"super" : "RectangleMorph",
+	"super" : "AnObsoleteTDJSONClient",
 	"type" : "normal" }

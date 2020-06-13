@@ -9,4 +9,4 @@ updateChatsList
 	
 	chats do: [:aChat| i < 10 ifTrue: [
 			aChat title isNil not ifTrue: [
-				self chatsList addItem: aChat title.]]].
+				self chatsList addItem: aChat]]].

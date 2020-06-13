@@ -2,4 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "R.S 6/1/2020 14:23" } }
+		"addInputField" : "rs 6/13/2020 09:12",
+		"clear" : "rs 6/13/2020 09:25",
+		"defaultInputfieldHeight" : "rs 6/12/2020 20:03",
+		"initialize" : "rs 6/12/2020 20:08",
+		"inputField" : "rs 6/12/2020 20:00",
+		"inputField:" : "rs 6/12/2020 20:00",
+		"newChatSelected:" : "rs 6/13/2020 09:13",
+		"selectedChat" : "rs 6/13/2020 09:11",
+		"selectedChat:" : "rs 6/13/2020 09:11" } }
