@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 answerSend: msg
 	msg class = TD_getChats ifTrue: [  |ids|
 		ids := Array new: self class chatCount.

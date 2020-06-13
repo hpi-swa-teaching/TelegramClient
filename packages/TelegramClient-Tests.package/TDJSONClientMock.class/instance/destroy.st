@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 destroy
 	destroyed := true
