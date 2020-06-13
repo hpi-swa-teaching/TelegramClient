@@ -7,5 +7,5 @@ initializeChatWindow
 		
 	self chatWindow 
 		position: (self position + (self chatsList width @ self defaultHeaderHeight));
-		when: #buttonSendPressed send: #sendMessage to: self.
+		when: #buttonSendPressed send: #sendMessage: to: self.
 	self addMorph: self chatWindow.

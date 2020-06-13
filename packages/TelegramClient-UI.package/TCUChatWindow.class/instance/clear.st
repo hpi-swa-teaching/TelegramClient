@@ -1,5 +1,5 @@
 initialization
 clear
 
-	self inputField hide.
+	self inputBar hide.
 	self welcomeMessage show.

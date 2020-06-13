@@ -6,4 +6,4 @@ newWithHeight: aHeight width: aWidth
 		height: aHeight;
 		width: aWidth;
 		addWelcomeMessage;
-		addInputField.
+		addInputBar.

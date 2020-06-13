@@ -2,5 +2,5 @@ initialization
 newChatSelected: aChat
 	
 	self welcomeMessage hide.
-	self inputField show.
+	self inputBar show.
 	self selectedChat: aChat.
