@@ -1,4 +1,6 @@
 initialization
 buttonSendPressed
-
-	self triggerEvent: #buttonSendPressed: with: self textInputField contents.
+	
+	self triggerEvent: #buttonSendPressed: with: (Dictionary newFrom: {
+		'chatId' -> self selectedChat chatId,
+		'message' -> self textInputField contents}).
