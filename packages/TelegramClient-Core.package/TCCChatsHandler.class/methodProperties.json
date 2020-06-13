@@ -2,10 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addChat:" : "js 6/13/2020 18:28",
+		"addChat:" : "js 6/13/2020 19:18",
 		"app" : "js 6/1/2020 14:44",
 		"app:" : "js 6/1/2020 14:45",
 		"client" : "js 6/1/2020 14:44",
-		"getChatInfos:" : "rs 6/6/2020 16:33",
 		"getChats" : "rs 6/6/2020 16:36",
 		"sendMessage:to:" : "rs 6/13/2020 15:40" } }

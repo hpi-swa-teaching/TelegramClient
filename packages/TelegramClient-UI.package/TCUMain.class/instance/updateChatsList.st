@@ -7,5 +7,5 @@ updateChatsList
 	chats := self core chats asSortedCollection: [:x :y | x order > y order].
 
 	chats do: [:aChat |
-		aChat title isNil not ifTrue: [
+		aChat title ifNotNil: [
 			self chatsList addItem: aChat]].

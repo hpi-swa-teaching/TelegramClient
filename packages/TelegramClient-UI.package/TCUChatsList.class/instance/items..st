@@ -1,4 +1,4 @@
 accessing
-items: anObject
+items: aCollection
 
-	items := anObject.
+	items := aCollection.

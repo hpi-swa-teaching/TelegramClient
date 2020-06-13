@@ -1,4 +1,4 @@
 accessing
-order: anObject
+order: aNumber
 
-	order := anObject
+	order := aNumber.

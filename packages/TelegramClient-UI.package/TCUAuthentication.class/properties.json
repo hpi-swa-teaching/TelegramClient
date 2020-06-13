@@ -11,8 +11,6 @@
 		"errorLabel",
 		"inputField",
 		"instructionLabel",
-		"event",
-		"authState",
 		"core",
 		"buttonBack" ],
 	"name" : "TCUAuthentication",

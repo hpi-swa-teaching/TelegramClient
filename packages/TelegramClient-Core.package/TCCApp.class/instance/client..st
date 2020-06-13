@@ -1,4 +1,4 @@
 accessing
-client: anObject
+client: aClient
 
-	client := anObject
+	client := aClient.
