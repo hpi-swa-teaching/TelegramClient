@@ -1,4 +1,4 @@
 private
 methodTestObjects
 
-	^ (self classes collect: [:aClassTestObject | aClassTestObject methods]) flatten
+	^ (self classTestObjects collect: [:aClassTestObject | aClassTestObject methods]) flatten
