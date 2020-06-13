@@ -1,5 +1,5 @@
 private
-ArbitraryCodeRule: rule
+arbitraryCodeRule: rule
 "Verifies an arbritrary code rule."
 |testRunner testObjects positiveResults|
 testRunner := SLTestRunner new environment: SLDefaultEnvironment new.

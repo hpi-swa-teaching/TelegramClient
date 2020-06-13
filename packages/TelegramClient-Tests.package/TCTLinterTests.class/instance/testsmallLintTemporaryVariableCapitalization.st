@@ -1,4 +1,4 @@
 organization
 testsmallLintTemporaryVariableCapitalization 
 "temporary  variables should be lowercase"
-self ArbitraryCodeRule: #smallLintTemporaryVariableCapitalization.
+self arbitraryCodeRule: #smallLintTemporaryVariableCapitalization.
