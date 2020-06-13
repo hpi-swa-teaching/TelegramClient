@@ -1,10 +1,10 @@
 private
-arbitraryCodeRule: aRule
+arbitraryCodeRule: aRule plugIn: aPlugIn
 	
 	| failures result |
-
+	
 	failures := ((SLTestRunner new
-		environment: (TCTScopedEnvironment newFor: self classTestObjects test: aRule plugIn: SLSmallLintPlugIn))
+		environment: SLDefaultEnvironment new)
 		runOnTests: {aRule} andTestObjects: self classTestObjects)
 			select: [:testObject |
 				result := (testObject resultOf: aRule).

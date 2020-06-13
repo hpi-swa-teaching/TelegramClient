@@ -1,0 +1,1 @@
+a Data Class for a single Chat

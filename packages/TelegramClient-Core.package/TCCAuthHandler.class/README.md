@@ -1,0 +1,1 @@
+This class handles everything that is required to authenticate with tdlib.

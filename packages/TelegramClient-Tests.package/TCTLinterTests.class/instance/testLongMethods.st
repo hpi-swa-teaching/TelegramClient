@@ -1,4 +1,4 @@
 tests
 testLongMethods
 
-	self arbitraryCodeRule: #longMethods:.
+	self arbitraryCodeRule: #longMethods: plugIn: SLCodingStylesPlugIn.

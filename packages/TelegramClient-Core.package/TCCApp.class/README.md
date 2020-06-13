@@ -1,0 +1,1 @@
+The main component for the core, that handles incoming events.

@@ -1,4 +1,4 @@
 tests
 testInstanceVarAccess
 
-	self arbitraryCodeRule: #instanceVariableAccessIsConsistent:.
+	self arbitraryCodeRule: #instanceVariableAccessIsConsistent: plugIn: SLSwaMetricsPlugIn.

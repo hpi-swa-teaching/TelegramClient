@@ -1,4 +1,4 @@
 tests
 testNoClassComments
 
-	self arbitraryCodeRule: #noClassComments:.
+	self arbitraryCodeRule: #noClassComments: plugIn: SLSwaMetricsPlugIn.
