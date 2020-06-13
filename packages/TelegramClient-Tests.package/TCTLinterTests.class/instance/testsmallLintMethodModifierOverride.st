@@ -1,5 +1,5 @@
 tests
-testsmallLintMethodModifierOverride   
+testsmallLintMethodModifierOverride
 
 	"Checks that messages marked as override actually override something"
-	self arbitraryCodeRule: #smallLintMethodModifierOverride. 
+	self arbitraryCodeRule: #smallLintMethodModifierOverride.

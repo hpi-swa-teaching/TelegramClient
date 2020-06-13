@@ -2,7 +2,7 @@ initialization
 initialize
 
 	super initialize.
-	self 
+	self
 		color: Color white;
 		height: self defaultHeight;
 		borderWidth: 0.

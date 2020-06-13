@@ -3,5 +3,5 @@ fetchClasses: aCollection
 
 	aCollection do: [ :aClass |
 		aClass category ifNotNil: [
-		(self category: aClass category) 
+		(self category: aClass category)
 			add: aClass name]].

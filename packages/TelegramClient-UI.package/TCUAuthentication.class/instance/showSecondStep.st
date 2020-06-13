@@ -5,7 +5,7 @@ showSecondStep
 	self buttonBack show.
 	self buttonVerify show.
 
-	self instructionLabel 
+	self instructionLabel
 		contents: 'Enter the code your recieved on your phone';
 		center: self center.
 

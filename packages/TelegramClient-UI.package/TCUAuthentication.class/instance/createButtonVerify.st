@@ -1,7 +1,7 @@
 initialization
 createButtonVerify
 
-	self 
+	self
 		buttonVerify: (TCUButton new
 			text: 'Verify';
 			center: self inputField center + (70 @ 50);

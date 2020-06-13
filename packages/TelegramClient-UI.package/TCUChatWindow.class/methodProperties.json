@@ -3,9 +3,9 @@
 		"newWithHeight:width:" : "rs 6/13/2020 10:37" },
 	"instance" : {
 		"addInputBar" : "js 6/13/2020 17:59",
-		"addSendButton" : "rs 6/13/2020 15:20",
+		"addSendButton" : "js 6/13/2020 18:46",
 		"addTextInputField" : "js 6/13/2020 18:20",
-		"addWelcomeMessage" : "js 6/13/2020 18:21",
+		"addWelcomeMessage" : "js 6/13/2020 18:47",
 		"buttonSendPressed" : "js 6/13/2020 18:21",
 		"clear" : "rs 6/13/2020 10:40",
 		"createInputBar" : "js 6/13/2020 17:59",

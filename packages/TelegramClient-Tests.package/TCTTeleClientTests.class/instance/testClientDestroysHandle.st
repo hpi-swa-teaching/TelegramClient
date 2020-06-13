@@ -1,7 +1,7 @@
 client
 testClientDestroysHandle
 
-	| aClient aHandle aMock  |
+	| aClient aHandle aMock |
 	aMock := TCTAbstractTeleClientFactoryMock new createClient: ''.
 	aClient := TCCTeleClient newWithClient: aMock.
 	aClient free.

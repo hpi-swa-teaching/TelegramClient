@@ -1,5 +1,5 @@
 tests
-testsmallLintEmptyExceptionHandler  
+testsmallLintEmptyExceptionHandler
 
 	"tests for empty exception handling blocks"
 	self arbitraryCodeRule: #smallLintEmptyExceptionHandler.

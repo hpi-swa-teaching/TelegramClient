@@ -6,6 +6,6 @@ createErrorLabel: aString
 		center: (self center + (0 @ (self defaultExtent y / 3)));
 		color: Color red;
 		lock).
-		
+
 	self addMorph: self errorLabel.
 		

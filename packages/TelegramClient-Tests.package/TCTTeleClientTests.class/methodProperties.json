@@ -2,5 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testClientDestroysHandle" : "js 6/13/2020 18:14",
+		"testClientDestroysHandle" : "js 6/13/2020 18:40",
 		"testFactoryCreatesCorrectClientForPlatform" : "js 5/28/2020 17:37" } }

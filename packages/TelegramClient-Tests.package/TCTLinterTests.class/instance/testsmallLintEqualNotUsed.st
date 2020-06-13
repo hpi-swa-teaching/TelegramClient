@@ -1,5 +1,5 @@
 tests
-testsmallLintEqualNotUsed  
+testsmallLintEqualNotUsed
 
 	"results of an equal call are ignored"
 	self arbitraryCodeRule: #smallLintEqualNotUsed.
