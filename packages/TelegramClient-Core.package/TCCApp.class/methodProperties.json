@@ -18,5 +18,6 @@
 		"initializeHandlers" : "rs 6/7/2020 21:51",
 		"isClientAlive" : "js 5/28/2020 17:18",
 		"receiveLoop" : "R.S 6/1/2020 15:24",
+		"sendMessage:to:" : "rs 6/13/2020 15:26",
 		"sendPhoneNumber:" : "js 6/13/2020 15:35",
 		"update" : "js 5/28/2020 17:28" } }

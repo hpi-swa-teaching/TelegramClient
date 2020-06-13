@@ -2,10 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addItem:" : "R.S 6/4/2020 09:52",
+		"addItem:" : "rs 6/13/2020 16:16",
+		"chatItemClicked:event:from:" : "rs 6/13/2020 15:37",
 		"clearChats" : "js 5/29/2020 12:15",
 		"defaultWidth" : "R.S 6/1/2020 14:24",
-		"initialize" : "R.S 6/3/2020 21:19",
+		"initialize" : "rs 6/13/2020 09:02",
 		"initializeLayout" : "R.S 6/1/2020 15:00",
 		"items" : "js 6/13/2020 14:14",
-		"items:" : "js 6/13/2020 14:14" } }
+		"items:" : "js 6/13/2020 14:14",
+		"selectedChat" : "rs 6/13/2020 08:51",
+		"selectedChat:" : "rs 6/13/2020 08:51" } }

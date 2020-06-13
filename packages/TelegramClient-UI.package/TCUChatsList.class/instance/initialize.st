@@ -8,4 +8,5 @@ initialize
 		color: Color white;
 		borderWidth: 0;
 		initializeLayout;
-		items: OrderedCollection new.
+		items: OrderedCollection new;
+		selectedChat: NullChatListItem new.
