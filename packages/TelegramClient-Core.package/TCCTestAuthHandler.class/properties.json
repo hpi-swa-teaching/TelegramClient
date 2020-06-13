@@ -1,0 +1,15 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"authState",
+		"app" ],
+	"name" : "TCCTestAuthHandler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"app" : "js 6/13/2020 18:12",
+		"app:" : "js 5/28/2020 17:02",
+		"authState" : "R.S 5/18/2020 17:54",
+		"authState:" : "R.S 5/18/2020 17:54",
+		"checkAuthenticationCode" : "F.W. 6/13/2020 21:53",
+		"client" : "js 5/28/2020 18:36",
+		"handleEvent:" : "F.W. 6/13/2020 21:55",
+		"isAuthStateClosed" : "js 6/13/2020 18:31",
+		"isAuthorizationStateReady" : "js 6/13/2020 18:29",
+		"isAwaitingAuthCode" : "js 6/13/2020 18:29",
+		"isAwaitingDBEncryptionKey" : "R.S 5/19/2020 10:28",
+		"isAwaitingPhoneNumber" : "R.S 5/19/2020 10:28",
+		"isAwaitingTDLibParams" : "R.S 5/19/2020 10:28",
+		"logout" : "f.w. 6/3/2020 20:41",
+		"sendPhoneNumber" : "F.W. 6/13/2020 21:52",
+		"setDBEncryptionKey:" : "rs 6/6/2020 16:26",
+		"setTDLibParams" : "F.W. 6/13/2020 21:21" } }
