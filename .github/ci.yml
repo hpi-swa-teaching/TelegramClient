@@ -22,7 +22,8 @@ jobs:
         # Select platform(s)
         os: [ ubuntu-latest, macos-latest ]
         # Select compatible Smalltalk image(s)
-        smalltalk: [ Squeak64-trunk, Squeak64-5.3, Squeak64-5.2 ]
+        # currently not running on Squeak64-trunk
+        smalltalk: [ Squeak64-5.3, Squeak64-5.2 ]
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
