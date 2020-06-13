@@ -2,7 +2,7 @@
 	"class" : {
 		"newWithCore:" : "f.w. 6/3/2020 20:31" },
 	"instance" : {
-		"addChatsList" : "rs 6/13/2020 09:30",
+		"addChatsList" : "rs 6/13/2020 09:43",
 		"addHeader" : "f.w. 6/3/2020 20:23",
 		"addTitle:to:" : "R.S 6/1/2020 14:26",
 		"chatWindow" : "R.S 6/1/2020 14:27",
@@ -14,9 +14,11 @@
 		"defaultExtent" : "R.S 6/1/2020 14:27",
 		"defaultHeaderHeight" : "R.S 6/1/2020 14:27",
 		"delete" : "R.S 6/3/2020 20:54",
-		"initialize" : "rs 6/13/2020 09:28",
-		"initializeChatWindow" : "rs 6/13/2020 09:29",
+		"initialize" : "rs 6/13/2020 09:44",
+		"initializeChatWindow" : "rs 6/13/2020 09:54",
 		"logout" : "js 5/29/2020 09:35",
 		"newChatSelected" : "rs 6/13/2020 09:20",
+		"sendMessage" : "rs 6/13/2020 09:55",
+		"subscribeChatsList" : "rs 6/13/2020 09:44",
 		"subscribeCore" : "R.S 6/3/2020 21:03",
 		"updateChatsList" : "rs 6/13/2020 08:45" } }

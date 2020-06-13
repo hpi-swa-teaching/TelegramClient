@@ -9,5 +9,6 @@ initialize
 		chatWindow: TCUChatWindow new;
 		addChatsList;
 		initializeChatWindow;
+		subscribeChatsList;
 		subscribeCore;
 		clipSubmorphs: true.

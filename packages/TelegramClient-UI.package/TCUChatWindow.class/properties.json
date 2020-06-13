@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"inputField",
-		"selectedChat" ],
+		"selectedChat",
+		"scrollableMessageField",
+		"welcomeMessage" ],
 	"name" : "TCUChatWindow",
 	"pools" : [
 		 ],
