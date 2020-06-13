@@ -1,4 +1,4 @@
 accessing
-chatName: anObject
+chatName: aString
 
-	chatName := anObject.
+	chatName := aString.

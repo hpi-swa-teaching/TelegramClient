@@ -1,8 +1,7 @@
 initialization
 addWelcomeMessage
 
-	self 
+	self
 		welcomeMessage: (TextMorph new
 			contents: 'Welcome!' asText);
 		addMorphCentered: self welcomeMessage.
-		

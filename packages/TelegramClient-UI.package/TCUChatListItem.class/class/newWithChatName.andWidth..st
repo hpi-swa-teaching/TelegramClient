@@ -1,4 +1,4 @@
-creation
+as yet unclassified
 newWithChatName: aChatName andWidth: aWidth
 
 	^ self basicNew
@@ -7,4 +7,4 @@ newWithChatName: aChatName andWidth: aWidth
 		width: aWidth;
 		addTitle;
 		addBorder;
-		yourself.
+		yourself

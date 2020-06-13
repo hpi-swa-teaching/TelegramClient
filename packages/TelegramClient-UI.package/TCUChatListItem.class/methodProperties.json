@@ -1,14 +1,14 @@
 {
 	"class" : {
-		"newWithChatName:andWidth:" : "R.S 6/4/2020 09:52" },
+		"newWithChatName:andWidth:" : "js 6/13/2020 15:23" },
 	"instance" : {
 		"addBorder" : "R.S 6/1/2020 22:20",
-		"addTitle" : "R.S 6/1/2020 14:53",
+		"addTitle" : "js 6/13/2020 18:46",
 		"chatId" : "rs 6/13/2020 08:55",
 		"chatId:" : "rs 6/13/2020 08:55",
 		"chatName" : "R.S 6/1/2020 14:22",
-		"chatName:" : "R.S 6/1/2020 14:21",
-		"defaultHeight" : "R.S 6/1/2020 14:22",
+		"chatName:" : "js 6/13/2020 19:10",
+		"defaultHeight" : "js 6/13/2020 18:42",
 		"deselect" : "rs 6/13/2020 09:02",
-		"initialize" : "rs 6/13/2020 08:54",
+		"initialize" : "js 6/13/2020 18:46",
 		"select" : "rs 6/13/2020 08:49" } }

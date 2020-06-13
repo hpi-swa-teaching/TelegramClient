@@ -6,7 +6,7 @@ addHeader
 		borderWidth: 0;
 		color: TCUDefaultValues colorGray;
 		extent: self width @ 40.
-	
-	self 
+
+	self
 		addMorph: header;
 		addTitle: 'Telegram' to: header.

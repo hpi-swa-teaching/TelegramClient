@@ -4,11 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "js 6/13/2020 19:01",
 	"instvars" : [
 		"inputBar",
 		"selectedChat",
-		"scrollableMessageField",
 		"welcomeMessage",
 		"textInputField" ],
 	"name" : "TCUChatWindow",

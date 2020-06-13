@@ -4,15 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "js 6/13/2020 18:59",
 	"instvars" : [
 		"buttonNext",
 		"buttonVerify",
 		"errorLabel",
 		"inputField",
 		"instructionLabel",
-		"event",
-		"authState",
 		"core",
 		"buttonBack" ],
 	"name" : "TCUAuthentication",

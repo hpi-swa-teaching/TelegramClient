@@ -2,7 +2,7 @@ initialization
 initialize
 
 	super initialize.
-	self 
+	self
 		subscribeCore;
 		extent: self defaultExtent;
 		color: Color white;

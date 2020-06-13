@@ -1,0 +1,1 @@
+serves some standard telegram colors
