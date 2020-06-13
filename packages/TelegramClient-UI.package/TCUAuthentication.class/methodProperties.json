@@ -15,13 +15,9 @@
 		"buttonVerifyPressed" : "js 5/31/2020 20:10",
 		"core" : "R.S 5/31/2020 20:18",
 		"core:" : "R.S 5/31/2020 20:18",
-<<<<<<< HEAD:TelegramClient-UI.package/TCUAuthentication.class/methodProperties.json
-		"createButtonNext" : "rs 6/6/2020 17:29",
-=======
 		"createButtonBack" : "rs 6/11/2020 18:54",
 		"createButtonNext" : "rs 6/11/2020 18:54",
 		"createButtonVerify" : "rs 6/11/2020 18:55",
->>>>>>> develop:packages/TelegramClient-UI.package/TCUAuthentication.class/methodProperties.json
 		"createErrorLabel:" : "R.S 5/20/2020 13:50",
 		"createInputField:" : "rs 6/6/2020 17:40",
 		"createLabel:" : "R.S 5/20/2020 13:51",
@@ -30,25 +26,14 @@
 		"delete" : "f.w. 6/3/2020 20:51",
 		"errorLabel" : "R.S 5/20/2020 13:51",
 		"errorLabel:" : "R.S 5/20/2020 13:51",
-<<<<<<< HEAD:TelegramClient-UI.package/TCUAuthentication.class/methodProperties.json
-		"initialize" : "rs 6/6/2020 17:40",
-		"initializeMorphs" : "rs 6/6/2020 17:29",
-=======
 		"initialize" : "js 5/29/2020 20:11",
 		"initializeMorphs" : "js 5/29/2020 20:11",
->>>>>>> develop:packages/TelegramClient-UI.package/TCUAuthentication.class/methodProperties.json
 		"inputField" : "R.S 5/20/2020 13:51",
 		"inputField:" : "js 5/31/2020 20:07",
 		"instructionLabel" : "R.S 5/20/2020 13:52",
 		"instructionLabel:" : "js 5/28/2020 17:51",
 		"logInCompleted" : "R.S 6/3/2020 20:54",
-<<<<<<< HEAD:TelegramClient-UI.package/TCUAuthentication.class/methodProperties.json
-		"showFirstStep" : "rs 6/6/2020 17:33",
-		"showLoadingMessage" : "R.S 5/24/2020 16:09",
-		"showSecondStep" : "rs 6/6/2020 17:42",
-=======
 		"showFirstStep" : "rs 6/11/2020 18:56",
 		"showLoadingMessage" : "R.S 5/24/2020 16:09",
 		"showSecondStep" : "rs 6/11/2020 18:56",
->>>>>>> develop:packages/TelegramClient-UI.package/TCUAuthentication.class/methodProperties.json
 		"subscribeCore" : "R.S 5/31/2020 20:21" } }

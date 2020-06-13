@@ -10,9 +10,5 @@ initialize
 		borderColor: TCUDefaultValues colorGray;
 		addHeader;
 		showLoadingMessage;
-<<<<<<< HEAD:TelegramClient-UI.package/TCUAuthentication.class/instance/initialize.st
 		initializeMorphs.
 		
-=======
-		initializeMorphs.
->>>>>>> develop:packages/TelegramClient-UI.package/TCUAuthentication.class/instance/initialize.st

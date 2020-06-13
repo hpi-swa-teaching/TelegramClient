@@ -15,11 +15,7 @@
 		"defaultExtent" : "R.S 6/1/2020 14:27",
 		"defaultHeaderHeight" : "R.S 6/1/2020 14:27",
 		"delete" : "R.S 6/3/2020 20:54",
-<<<<<<< HEAD:TelegramClient-UI.package/TCUMain.class/methodProperties.json
 		"initialize" : "rs 6/7/2020 21:53",
-=======
-		"initialize" : "R.S 6/3/2020 21:21",
->>>>>>> develop:packages/TelegramClient-UI.package/TCUMain.class/methodProperties.json
 		"logout" : "js 5/29/2020 09:35",
 		"subscribeCore" : "R.S 6/3/2020 21:03",
 		"updateChatsList" : "rs 6/8/2020 14:01" } }
