@@ -31,8 +31,6 @@
 		"testNoUnconditionalRecursion" : "js 6/13/2020 11:44",
 		"testNoUnreferencedVariables" : "js 6/13/2020 18:09",
 		"testSmallLintContains" : "js 6/13/2020 18:36",
-		"testSmallLintSentNotImplemented" : "js 6/13/2020 18:36",
-		"testSmallLintUndeclaredReference" : "js 6/13/2020 18:36",
 		"testTemporaryVariableCapitalization" : "js 6/13/2020 18:09",
 		"testsmallLintClassVariableCapitalization" : "js 6/13/2020 18:37",
 		"testsmallLintCodeCruftLeftInMethods" : "js 6/13/2020 18:37",
