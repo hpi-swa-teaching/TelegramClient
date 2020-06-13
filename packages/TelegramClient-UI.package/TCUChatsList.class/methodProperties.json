@@ -3,11 +3,11 @@
 		 },
 	"instance" : {
 		"addItem:" : "js 6/13/2020 18:15",
-		"chatItemClicked:event:from:" : "js 6/13/2020 17:57",
+		"chatItemClicked:event:from:" : "js 6/13/2020 18:49",
 		"clearChats" : "js 6/13/2020 17:40",
 		"defaultWidth" : "R.S 6/1/2020 14:24",
 		"initialize" : "js 6/13/2020 18:17",
-		"initializeLayout" : "R.S 6/1/2020 15:00",
+		"initializeLayout" : "js 6/13/2020 18:49",
 		"items" : "js 6/13/2020 14:14",
 		"items:" : "js 6/13/2020 17:40",
 		"selectedChat" : "rs 6/13/2020 08:51",

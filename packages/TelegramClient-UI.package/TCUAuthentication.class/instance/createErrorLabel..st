@@ -8,4 +8,3 @@ createErrorLabel: aString
 		lock).
 
 	self addMorph: self errorLabel.
-		

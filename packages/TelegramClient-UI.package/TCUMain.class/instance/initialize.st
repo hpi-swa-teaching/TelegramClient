@@ -2,7 +2,7 @@ initialization
 initialize
 
 	super initialize.
-	self 
+	self
 		extent: self defaultExtent;
 		borderWidth: 0;
 		addHeader;

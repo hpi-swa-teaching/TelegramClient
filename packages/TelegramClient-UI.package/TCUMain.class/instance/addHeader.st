@@ -10,7 +10,7 @@ addHeader
 		on:#mouseUp send: #logout to: self;
 		position: header position + 5.
 
-	self 
+	self
 		addMorph: header;
 		addTitle: 'Telegram' to: header;
 		addMorph: logoutButton.
