@@ -1,6 +1,6 @@
 accessing
 handleEvent: anEvent
-	
+
 	| update |
 
 	update := nil.

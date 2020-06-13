@@ -1,9 +1,4 @@
 tests
 testMethodHasEmptyLine
 	
-	| code |
-	
-	self methodTestObjects do: [:aSLMethodTestObject |
-		code := aSLMethodTestObject sourceCode string.
-
-		self assert: code lines second isEmpty]
+	self methodsLinesDo: [:lines | self assert: (lines size < 2 or: [lines second isEmpty])].

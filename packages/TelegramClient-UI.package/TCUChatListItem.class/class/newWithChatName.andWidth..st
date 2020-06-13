@@ -7,4 +7,4 @@ newWithChatName: aChatName andWidth: aWidth
 		width: aWidth;
 		addTitle;
 		addBorder;
-		yourself.
+		yourself

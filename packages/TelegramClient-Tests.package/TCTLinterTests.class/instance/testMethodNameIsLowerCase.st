@@ -1,6 +1,4 @@
 tests
 testMethodNameIsLowerCase
 	
-	self methodTestObjects do: [:aSLMethodTestObject |
-
-		self assert: aSLMethodTestObject sourceCode string first isLowercase]
+	self methodsLinesDo: [:lines | self assert: lines first first isLowercase].
