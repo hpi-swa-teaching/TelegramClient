@@ -7,4 +7,4 @@ addItem: aChat
 	item on: #mouseDown send: #chatItemClicked:event:from: to: self withValue: item.
 	
 	self items add: item.
-	(item chatName startsWith: 'Jonas') ifTrue: [self addMorph: item].
+	self addMorph: item.
