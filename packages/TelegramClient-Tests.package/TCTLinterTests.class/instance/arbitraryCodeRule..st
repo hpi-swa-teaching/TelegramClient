@@ -11,5 +11,5 @@ arbitraryCodeRule: aRule
 			result isSummary 
 				ifTrue: [result > 0]
 				ifFalse: [result isNegative]].
-		
+
 	self assert: failures isEmpty description: 'Test ', aRule asString, ' failed on ', failures asString.

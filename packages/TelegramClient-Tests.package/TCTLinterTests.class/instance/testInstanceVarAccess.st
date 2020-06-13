@@ -1,4 +1,4 @@
 organization
 testInstanceVarAccess
 
-	self arbitraryCodeRule: #instanceVariableAccess:.
+	self arbitraryCodeRule: #instanceVariableAccessIsConsistent:.
