@@ -1,7 +1,6 @@
 {
 	"class" : {
-		"runner" : "js 6/13/2020 16:12",
-		"runner:" : "js 6/13/2020 13:37" },
+		 },
 	"instance" : {
 		"arbitraryCodeRule:" : "js 6/13/2020 17:05",
 		"arbitraryCodeRule:plugIn:" : "js 6/13/2020 17:10",
@@ -13,7 +12,6 @@
 		"isLineWithOnlyTabsAndSpaces:" : "js 6/13/2020 16:03",
 		"methodTestObjects" : "js 6/13/2020 14:06",
 		"methodsLinesDo:" : "js 6/13/2020 15:32",
-		"runner" : "js 6/13/2020 13:38",
 		"testCorrectClassPrefix" : "js 6/13/2020 13:31",
 		"testDotAfterLastLine" : "js 6/13/2020 15:50",
 		"testIfTrueReturnsRule" : "js 6/13/2020 16:54",

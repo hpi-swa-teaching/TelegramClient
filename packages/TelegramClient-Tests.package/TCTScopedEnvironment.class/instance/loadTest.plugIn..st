@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 loadTest: aSymbol plugIn: aPlugin
 
 	self addTest: (SLTestData newFromDefault

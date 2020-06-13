@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 initializeForClasses: aCollection test: aSymbol plugIn: aPlugin
 
 	super initialize.
