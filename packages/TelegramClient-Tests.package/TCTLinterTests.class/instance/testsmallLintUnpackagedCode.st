@@ -1,4 +1,5 @@
 organization
 testsmallLintUnpackagedCode      
-"All of our code should be in a monticello package."
-self arbitraryCodeRule: #smallLintUnpackagedCode. 
+	
+	"All of our code should be in a monticello package."
+	self arbitraryCodeRule: #smallLintUnpackagedCode. 

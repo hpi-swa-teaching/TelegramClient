@@ -1,4 +1,5 @@
 organization
 testsmallLintClassVariableCapitalization  
-"Class vars are pascalcase"
-self arbitraryCodeRule: #smallLintClassVariableCapitalization.
+	
+	"Class vars are pascalcase"
+	self arbitraryCodeRule: #smallLintClassVariableCapitalization.

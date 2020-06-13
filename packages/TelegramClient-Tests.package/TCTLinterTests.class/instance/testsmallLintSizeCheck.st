@@ -1,4 +1,5 @@
 organization
 testsmallLintSizeCheck  
-"Checking size is irrelevant if you only enumerate."
-self arbitraryCodeRule: #smallLintSizeCheck .
+
+	"Checking size is irrelevant if you only enumerate."
+	self arbitraryCodeRule: #smallLintSizeCheck .

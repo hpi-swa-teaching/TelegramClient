@@ -1,4 +1,5 @@
 organization
 testsmallLintEmptyExceptionHandler  
-"tests for empty exception handling blocks"
-self arbitraryCodeRule: #smallLintEmptyExceptionHandler.
+	
+	"tests for empty exception handling blocks"
+	self arbitraryCodeRule: #smallLintEmptyExceptionHandler.

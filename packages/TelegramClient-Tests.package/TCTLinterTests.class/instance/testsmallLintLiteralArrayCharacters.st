@@ -1,4 +1,5 @@
 organization
 testsmallLintLiteralArrayCharacters 
-"literal char arrays should be strings"
-self arbitraryCodeRule: #smallLintLiteralArrayCharacters.  
+
+	"literal char arrays should be strings"
+	self arbitraryCodeRule: #smallLintLiteralArrayCharacters.  
