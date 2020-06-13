@@ -1,3 +1,0 @@
-accessing
-destroy
-	destroyed := true
