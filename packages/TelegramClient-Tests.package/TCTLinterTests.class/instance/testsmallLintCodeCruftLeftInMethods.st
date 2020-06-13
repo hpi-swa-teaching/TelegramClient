@@ -1,4 +1,4 @@
-organization
+tests
 testsmallLintCodeCruftLeftInMethods     
 	
 	"remove debugger breaks etc from code, otherwise this test fails"

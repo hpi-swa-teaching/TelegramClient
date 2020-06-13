@@ -1,4 +1,4 @@
-organization
+tests
 testsmallLintEmptyExceptionHandler  
 	
 	"tests for empty exception handling blocks"

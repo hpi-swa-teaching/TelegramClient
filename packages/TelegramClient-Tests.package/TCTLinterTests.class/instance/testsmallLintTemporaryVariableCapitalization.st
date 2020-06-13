@@ -1,4 +1,4 @@
-organization
+tests
 testsmallLintTemporaryVariableCapitalization 
 	
 	"temporary  variables should be lowercase"

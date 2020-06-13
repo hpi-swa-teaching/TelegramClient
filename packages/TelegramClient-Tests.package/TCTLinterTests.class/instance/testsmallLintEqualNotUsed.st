@@ -1,4 +1,4 @@
-organization
+tests
 testsmallLintEqualNotUsed  
 	
 	"results of an equal call are ignored"

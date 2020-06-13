@@ -1,4 +1,4 @@
-organization
+tests
 testNoUnconditionalRecursion
 
 	"Infinite recursion is forbidden"

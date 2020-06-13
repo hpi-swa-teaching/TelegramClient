@@ -1,4 +1,4 @@
-organization
+tests
 testsmallLintClassVariableCapitalization  
 	
 	"Class vars are pascalcase"

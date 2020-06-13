@@ -1,4 +1,4 @@
-organization
+tests
 testNoClassComments
 
 	self arbitraryCodeRule: #noClassComments:.

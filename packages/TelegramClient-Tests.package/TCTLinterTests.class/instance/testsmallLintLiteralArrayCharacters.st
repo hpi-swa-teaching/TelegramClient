@@ -1,4 +1,4 @@
-organization
+tests
 testsmallLintLiteralArrayCharacters 
 
 	"literal char arrays should be strings"

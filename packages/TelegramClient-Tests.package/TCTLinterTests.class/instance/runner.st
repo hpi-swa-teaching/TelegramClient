@@ -1,4 +1,4 @@
 private
 runner
 
-	^ runner
+	^ self class runner

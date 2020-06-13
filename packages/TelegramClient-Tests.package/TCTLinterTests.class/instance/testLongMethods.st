@@ -1,4 +1,4 @@
-organization
+tests
 testLongMethods
 
 	self arbitraryCodeRule: #longMethods:.

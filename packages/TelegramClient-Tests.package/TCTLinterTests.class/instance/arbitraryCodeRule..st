@@ -1,12 +1,11 @@
 private
 arbitraryCodeRule: aRule
 	
-	"Verifies an arbritrary code rule."
 	| failures result |
 		
 	failures := (self runner 
-		runOnTests: {aRule} andTestObjects: self classes)
-		select: [:testObject | 
+		runOnTests: {aRule} andTestObjects: self classTestObjects)
+		select: [:testObject |
 			result := (testObject resultOf: aRule).
 			result isSummary 
 				ifTrue: [result > 0]

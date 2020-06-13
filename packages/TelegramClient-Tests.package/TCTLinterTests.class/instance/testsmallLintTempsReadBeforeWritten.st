@@ -1,4 +1,4 @@
-organization
+tests
 testsmallLintTempsReadBeforeWritten     
 	
 	"Temp vars should be initialized before being written"
