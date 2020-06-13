@@ -1,4 +1,4 @@
-as yet unclassified
+creation
 newWithChatName: aChatName andWidth: aWidth
 
 	^ self basicNew

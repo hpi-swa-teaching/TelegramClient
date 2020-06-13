@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"chatName",
-		"chatId" ],
-	"name" : "TCUChatListItem",
+		 ],
+	"name" : "NullChatListItem",
 	"pools" : [
 		 ],
-	"super" : "RectangleMorph",
+	"super" : "TCUChatListItem",
 	"type" : "normal" }
