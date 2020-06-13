@@ -12,11 +12,7 @@
 		"checkAuthenticationCode:" : "js 5/31/2020 20:10",
 		"client" : "R.S 5/20/2020 16:08",
 		"client:" : "R.S 5/20/2020 16:08",
-<<<<<<< HEAD
-		"handleEvent:" : "f.w. 6/11/2020 18:39",
-=======
 		"handleEvent:" : "rs 6/8/2020 14:07",
->>>>>>> develop
 		"initialize" : "rs 6/6/2020 17:56",
 		"initializeClient" : "f.w. 5/31/2020 19:01",
 		"initializeHandlers" : "rs 6/7/2020 21:51",
