@@ -3,7 +3,7 @@ createButtonNext
 
 	self buttonNext: (TCUButton new 
 			text: 'Next';
-			center: inputField center + (0 @ 50);
+			center: inputField center + (100 @ 50);
 			hide;
 			on: #mouseDown send: #buttonNextPressed to: self).
 			
