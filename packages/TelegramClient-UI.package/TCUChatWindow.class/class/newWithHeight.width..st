@@ -1,4 +1,4 @@
-as yet unclassified
+creation
 newWithHeight: aHeight width: aWidth
 
 	^ self basicNew
