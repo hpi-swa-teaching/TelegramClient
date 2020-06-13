@@ -8,7 +8,7 @@ chatItemClicked: aChatListItem event: anEvent from: aSender
 		aChatListItem select.
 		self 
 			selectedChat: aChatListItem;
-			triggerEvent: #newChatSelected]
+			triggerEvent: #newChatSelected with: aChatListItem]
 	ifFalse: [
 		self 
 			selectedChat: NullChatListItem new;

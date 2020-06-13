@@ -1,6 +1,6 @@
 initialization
 addSendButton
 
-	| sendButton |
-	sendButton := TCUButton new text: 'Send'.
-	self inputBar addMorph: sendButton.
+	self inputBar addMorph: (TCUButton new 
+		text: 'Send';
+		on: #mouseDown send: #buttonSendPressed to: self).
