@@ -1,6 +1,6 @@
 initialization
 createInputField: aString
-	
+
 	self inputField: (TextMorph new 
 		contentsWrapped: aString asText;
 		extent: 150 @ 50;
@@ -9,5 +9,5 @@ createInputField: aString
 		center: self instructionLabel center + (0 @ 30);
 		hide;
 		crAction: [self buttonNextPressed]).
-	
+
 	self addMorph: self inputField.

@@ -1,4 +1,4 @@
 accessing
 items: anObject
 
-	items := anObject
+	items := anObject.

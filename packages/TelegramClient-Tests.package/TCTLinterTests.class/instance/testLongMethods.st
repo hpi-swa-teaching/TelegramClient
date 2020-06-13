@@ -1,4 +1,4 @@
 tests
 testLongMethods
 
-	self arbitraryCodeRule: #longMethods: plugIn: SLCodingStylesPlugIn.
+	self methodsLinesDo: [:lines | self assert: lines size <= 15].

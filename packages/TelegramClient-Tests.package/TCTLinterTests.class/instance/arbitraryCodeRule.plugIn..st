@@ -1,10 +1,10 @@
 private
 arbitraryCodeRule: aRule plugIn: aPlugIn
-	
+
 	| failures result |
-	
+
 	failures := ((SLTestRunner new
-		environment: SLDefaultEnvironment new)
+		environment: (self environmentFor: aPlugIn withRule: aRule))
 		runOnTests: {aRule} andTestObjects: self classTestObjects)
 			select: [:testObject |
 				result := (testObject resultOf: aRule).
@@ -12,4 +12,4 @@ arbitraryCodeRule: aRule plugIn: aPlugIn
 					ifTrue: [result > 0]
 					ifFalse: [result isNegative]].
 
-	self assert: failures isEmpty description: 'Test ', aRule asString, ' failed on ', failures asString.
+	self assert: failures isEmpty description: 'Failures in: ', failures asString.
