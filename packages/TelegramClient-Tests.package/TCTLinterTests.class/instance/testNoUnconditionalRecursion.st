@@ -1,4 +1,5 @@
 organization
 testNoUnconditionalRecursion
-"Infinite recursion is forbidden"
-self arbitraryCodeRule: #smallLintUnconditionalRecursion.
+
+	"Infinite recursion is forbidden"
+	self arbitraryCodeRule: #smallLintUnconditionalRecursion.

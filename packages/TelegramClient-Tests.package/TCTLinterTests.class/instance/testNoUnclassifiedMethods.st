@@ -1,4 +1,5 @@
 organization
 testNoUnclassifiedMethods
-"all methods have to be classified"
-self arbitraryCodeRule: #smallLintUnclassifiedMethods.
+	
+	"all methods have to be classified"
+	self arbitraryCodeRule: #smallLintUnclassifiedMethods.

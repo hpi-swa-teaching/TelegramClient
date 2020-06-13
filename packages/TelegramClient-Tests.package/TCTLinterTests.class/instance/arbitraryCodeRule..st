@@ -1,12 +1,15 @@
 private
-arbitraryCodeRule: rule
-"Verifies an arbritrary code rule."
-|testRunner testObjects positiveResults|
-testRunner := SLTestRunner new environment: SLDefaultEnvironment new.
-
-	testObjects := classes.
-testRunner runOnTests: {rule} andTestObjects: testObjects.
-positiveResults := testObjects select: [:testObject | | result |
-	result := testObject resultOf: rule.
-result result > 0].
-self assert: positiveResults isEmpty  equals: true.
+arbitraryCodeRule: aRule
+	
+	"Verifies an arbritrary code rule."
+	| failures result |
+		
+	failures := (self runner 
+		runOnTests: {aRule} andTestObjects: self classes)
+		select: [:testObject | 
+			result := (testObject resultOf: aRule).
+			result isSummary 
+				ifTrue: [result > 0]
+				ifFalse: [result isNegative]].
+		
+	self assert: failures isEmpty description: 'Test ', aRule asString, ' failed on ', failures asString.
