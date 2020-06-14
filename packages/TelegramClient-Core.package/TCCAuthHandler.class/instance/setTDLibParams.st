@@ -7,8 +7,9 @@ setTDLibParams
 			'database_directory' -> 'tdlib'.
 			'use_message_database' -> true.
 			'use_secret_chats' -> true.
-			'api_id' -> 94575.
-			'api_hash' -> 'a3406de8d171bb422bb6ddf3bbd800e2'.
+			'use_test_dc' -> self useTestDC.
+			'api_id' -> self apiID.
+			'api_hash' -> self apiHash.
 			'system_language_code' -> 'en'.
 			'device_model' -> 'Desktop'.
 			'system_version' -> self client specificClient type.

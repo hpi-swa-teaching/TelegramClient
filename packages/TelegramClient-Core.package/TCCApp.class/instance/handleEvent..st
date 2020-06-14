@@ -2,7 +2,6 @@ accessing
 handleEvent: anEvent
 
 	| update |
-
 	update := nil.
 	(((anEvent at: '@type') = 'error') and: [(anEvent at: 'code') = 400 ])
 		ifTrue: [self halt: 'An Error Occured. Check Transcript Output.'].

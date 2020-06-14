@@ -16,7 +16,7 @@
 		"testCorrectClassPrefix" : "js 6/13/2020 18:23",
 		"testIfTrueReturnsRule" : "js 6/13/2020 18:35",
 		"testInstanceVarAccess" : "js 6/13/2020 16:54",
-		"testLongMethods" : "js 6/13/2020 17:58",
+		"testLongMethods" : "rs 6/14/2020 12:56",
 		"testMethodHasEmptyLine" : "js 6/13/2020 18:13",
 		"testMethodNameIsLowerCase" : "js 6/13/2020 18:05",
 		"testMethodNoEmptyLineAtEnd" : "js 6/13/2020 18:05",
