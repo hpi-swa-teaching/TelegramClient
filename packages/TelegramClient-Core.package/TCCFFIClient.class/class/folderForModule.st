@@ -1,4 +1,0 @@
-accessing
-folderForModule
-
-	^ self subclassResponsibility

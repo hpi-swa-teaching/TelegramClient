@@ -3,7 +3,7 @@ moduleName
 
 	| filePath response |
 
-	filePath := self folderForModule / self fileName.
+	filePath := FileDirectory default / self fileName.
 
 	filePath exists ifFalse: [
 		FileStream fileNamed: filePath fullName do: [:stream |
