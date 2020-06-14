@@ -1,4 +1,4 @@
-as yet unclassified
+logIn
 loginWithTestData
 
 	self authHandler sendPhoneNumber: '9996621234'.

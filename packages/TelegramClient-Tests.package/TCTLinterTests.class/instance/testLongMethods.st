@@ -1,4 +1,4 @@
 tests
 testLongMethods
 
-	self methodsLinesDo: [:lines | self assert: lines size <= 15].
+	self methodsLinesDo: [:lines | self assert: lines size <= 16].
