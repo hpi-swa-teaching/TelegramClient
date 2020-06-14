@@ -2,7 +2,7 @@ client
 testActualClientDestroysHandle
 
 	| aClient aHandle |
-	aHandle := TCCTeleClientFactory new createClient: ''.
+	aHandle := TCCTeleClientFactory new createClient.
 	aClient := TCCTeleClient newWithClient: aHandle.
 	aClient free.
 
