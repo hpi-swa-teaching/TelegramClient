@@ -1,5 +1,5 @@
 initialization
 delete
 
-	self core client free.
+	self triggerEvent: #deleted.
 	super delete.
