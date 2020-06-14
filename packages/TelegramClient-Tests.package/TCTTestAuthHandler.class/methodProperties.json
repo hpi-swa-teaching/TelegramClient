@@ -2,6 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"checkAuthenticationCode" : "rs 6/14/2020 12:26",
-		"sendPhoneNumber" : "rs 6/14/2020 12:26",
-		"setTDLibParams" : "rs 6/14/2020 12:26" } }
+		"apiHash" : "rs 6/14/2020 12:42",
+		"apiID" : "rs 6/14/2020 12:45",
+		"useTestDC" : "rs 6/14/2020 12:41" } }

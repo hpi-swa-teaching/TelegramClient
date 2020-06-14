@@ -1,4 +1,4 @@
 instance creation
-newWithTCCTestApp
+newWithTestApp
 
 	^ self newWithCore: TCTTestApp new
