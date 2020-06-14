@@ -3,4 +3,8 @@ initialize
 
 	super initialize.
 
-	(TCUAuthentication newWithCore: self core) openCenteredInWorld.
+	self 
+		auth: ((TCUAuthentication newWithCore: self core)
+			openCenteredInWorld;
+			when: #authCompleted send: #createMain to: self;
+			yourself).

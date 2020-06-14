@@ -1,5 +1,5 @@
 initialization
 logInCompleted
 
-	(TCUMain newWithCore: self core) openCenteredInWorld.
+	self triggerEvent: #authCompleted.
 	super delete.

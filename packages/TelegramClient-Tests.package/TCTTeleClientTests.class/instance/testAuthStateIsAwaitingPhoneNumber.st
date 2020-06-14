@@ -1,5 +1,5 @@
 client
-testAuthState
+testAuthStateIsAwaitingPhoneNumber
 
 	| app |
 	app := TCUApp newWithTestApp.
