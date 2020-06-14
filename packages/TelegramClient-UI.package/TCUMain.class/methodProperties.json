@@ -14,7 +14,7 @@
 		"createHeaderMorph" : "js 6/13/2020 18:01",
 		"defaultExtent" : "R.S 6/1/2020 14:27",
 		"defaultHeaderHeight" : "R.S 6/1/2020 14:27",
-		"delete" : "js 6/14/2020 16:52",
+		"delete" : "rs 6/14/2020 17:10",
 		"initialize" : "js 6/13/2020 18:51",
 		"initializeChatWindow" : "js 6/13/2020 18:54",
 		"logout" : "js 6/14/2020 16:52",
@@ -23,4 +23,5 @@
 		"sendMessage:" : "rs 6/13/2020 15:15",
 		"subscribeChatsList" : "js 6/13/2020 18:51",
 		"subscribeCore" : "R.S 6/3/2020 21:03",
+		"superDelete" : "rs 6/14/2020 17:12",
 		"updateChatsList" : "js 6/13/2020 19:14" } }

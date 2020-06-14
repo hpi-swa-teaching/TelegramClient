@@ -23,7 +23,7 @@
 		"createLabel:" : "js 6/13/2020 18:13",
 		"defaultExtent" : "R.S 5/20/2020 13:51",
 		"defaultInputWidth" : "R.S 5/20/2020 13:51",
-		"delete" : "js 6/14/2020 16:52",
+		"delete" : "rs 6/14/2020 17:10",
 		"errorLabel" : "R.S 5/20/2020 13:51",
 		"errorLabel:" : "R.S 5/20/2020 13:51",
 		"initialize" : "js 6/13/2020 18:44",
@@ -36,4 +36,5 @@
 		"showFirstStep" : "F.W. 6/13/2020 21:47",
 		"showLoadingMessage" : "js 6/13/2020 18:45",
 		"showSecondStep" : "F.W. 6/13/2020 21:47",
-		"subscribeCore" : "R.S 5/31/2020 20:21" } }
+		"subscribeCore" : "R.S 5/31/2020 20:21",
+		"superDelete" : "rs 6/14/2020 17:11" } }
