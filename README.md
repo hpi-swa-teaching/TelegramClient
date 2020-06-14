@@ -18,7 +18,7 @@ install: 'FFI-Kernel'.`
 * Step 5 (Windows only): Install Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019: [32Bit](https://aka.ms/vs/16/release/vc_redist.x86.exe) or [64Bit](https://aka.ms/vs/16/release/vc_redist.x64.exe)
 
 ## Running TelegramClient
-In a workspace window execute the command
+In a workspace window execute the command `TCUApp newWithTCCApp`
 
 ## Building Tdlib
 Tdlib build instructions are available on their Github page. They also have a wonderful build instruction generator available which was the basis for our workflow . [Check it out here.](https://tdlib.github.io/td/build.html)
