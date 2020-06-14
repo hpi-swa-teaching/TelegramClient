@@ -1,4 +1,0 @@
-accessing
-authState
-
-	^ authState
