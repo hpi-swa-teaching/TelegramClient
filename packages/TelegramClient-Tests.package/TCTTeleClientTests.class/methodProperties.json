@@ -3,5 +3,6 @@
 		 },
 	"instance" : {
 		"testActualClientDestroysHandle" : "js 6/14/2020 15:39",
+		"testAuthState" : "js 6/14/2020 15:53",
 		"testClientDestroysHandle" : "js 6/13/2020 19:20",
 		"testFactoryCreatesCorrectClientForPlatform" : "js 6/13/2020 19:19" } }
