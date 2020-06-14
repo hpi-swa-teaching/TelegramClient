@@ -2,5 +2,5 @@ logIn
 loginWithTestData
 
 	self authHandler sendPhoneNumber: '9996621234'.
-	2 seconds wait.
+	1 seconds wait.
 	self checkAuthenticationCode: '22222'.
