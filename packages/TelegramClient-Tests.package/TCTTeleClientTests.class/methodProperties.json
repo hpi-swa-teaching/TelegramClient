@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"testActualClientDestroysHandle" : "js 6/14/2020 15:39",
-		"testAuthStateIsAwaitingPhoneNumber" : "js 6/14/2020 16:56",
+		"testAuthStateIsAwaitingPhoneNumber" : "js 6/15/2020 09:45",
 		"testAuthStateReady" : "js 6/14/2020 16:56",
 		"testClientDestroysHandle" : "js 6/13/2020 19:20",
 		"testFactoryCreatesCorrectClientForPlatform" : "js 6/13/2020 19:19" } }
