@@ -1,0 +1,1 @@
+Uses registered Information to logInto Telegram Test Database Service

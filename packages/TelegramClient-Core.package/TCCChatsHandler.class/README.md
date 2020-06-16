@@ -1,0 +1,1 @@
+This handles event needed to work with chats and messages.

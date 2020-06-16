@@ -1,0 +1,17 @@
+{
+	"category" : "TelegramClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "js 6/13/2020 19:01",
+	"instvars" : [
+		"inputBar",
+		"selectedChat",
+		"welcomeMessage",
+		"textInputField" ],
+	"name" : "TCUChatWindow",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }

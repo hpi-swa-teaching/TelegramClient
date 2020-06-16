@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"newWithHeight:width:" : "js 6/13/2020 18:58" },
+	"instance" : {
+		"addInputBar" : "js 6/13/2020 17:59",
+		"addSendButton" : "js 6/13/2020 18:46",
+		"addTextInputField" : "js 6/13/2020 18:20",
+		"addWelcomeMessage" : "js 6/13/2020 18:47",
+		"buttonSendPressed" : "js 6/13/2020 18:21",
+		"clear" : "rs 6/13/2020 10:40",
+		"createInputBar" : "js 6/13/2020 17:59",
+		"defaultInputfieldHeight" : "rs 6/12/2020 20:03",
+		"initialize" : "js 6/13/2020 18:22",
+		"inputBar" : "rs 6/13/2020 10:38",
+		"inputBar:" : "rs 6/13/2020 10:38",
+		"newChatSelected:" : "js 6/13/2020 18:03",
+		"selectedChat" : "rs 6/13/2020 09:11",
+		"selectedChat:" : "rs 6/13/2020 09:11",
+		"textInputField" : "rs 6/13/2020 10:41",
+		"textInputField:" : "rs 6/13/2020 10:42",
+		"welcomeMessage" : "rs 6/13/2020 09:36",
+		"welcomeMessage:" : "rs 6/13/2020 09:36" } }

@@ -1,0 +1,1 @@
+the main view containing message history in a chat and a list of all open chats

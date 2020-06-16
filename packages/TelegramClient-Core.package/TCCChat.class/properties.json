@@ -4,12 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "js 6/13/2020 16:25",
 	"instvars" : [
 		"userId",
-		"fullName",
 		"messages",
-		"order" ],
+		"order",
+		"id",
+		"title" ],
 	"name" : "TCCChat",
 	"pools" : [
 		 ],

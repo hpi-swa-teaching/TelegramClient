@@ -1,4 +1,4 @@
 accessing
 setFreed
 
-	freed := true.
+	self freed: true.
