@@ -1,11 +1,8 @@
 initialization
 updateChatsList
 
-	| chats |
-
 	self chatsList clearChats.
-	chats := self core chats asSortedCollection: [:x :y | x order > y order].
 
-	chats do: [:aChat |
+	self core chats reversed do: [:aChat |
 		aChat title ifNotNil: [
 			self chatsList addItem: aChat]].

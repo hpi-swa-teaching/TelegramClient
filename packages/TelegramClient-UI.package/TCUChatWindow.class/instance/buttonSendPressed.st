@@ -5,4 +5,5 @@ buttonSendPressed
 		'chatId' -> self selectedChat chatId.
 		'message' -> self textInputField contents}).
 
+	self messageListWindow addMessage: self textInputField contents.
 	self textInputField contents: ' '.

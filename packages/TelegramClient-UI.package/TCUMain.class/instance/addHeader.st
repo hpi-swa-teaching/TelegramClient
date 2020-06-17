@@ -2,15 +2,13 @@ initialization
 addHeader
 
 	| header |
-	
+
 	header := RectangleMorph new
 		borderWidth: 0;
 		color: TCUDefaultValues colorGray;
 		extent: self width @ self defaultHeaderHeight.
-		
-	self 
+
+	self
 		addMorph: header;
 		addTitle: 'Telegram' to: header;
-		addLogoutButtonTo: header withSpacing: 5
-		
-	
+		addLogoutButtonTo: header withSpacing: 5.
