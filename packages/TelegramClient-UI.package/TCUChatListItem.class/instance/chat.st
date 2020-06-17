@@ -1,4 +1,4 @@
 initialization
-chatId
+chat
 
-	^ chatId
+	^ chat

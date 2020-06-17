@@ -10,5 +10,4 @@ initialize
 		addChatsList;
 		initializeChatWindow;
 		subscribeChatsList;
-		subscribeCore;
 		clipSubmorphs: true.

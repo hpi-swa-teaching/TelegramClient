@@ -1,5 +1,5 @@
 initialization
-clearChats
+clearItems
 
 	self items do: [:anItem | anItem delete].
 	self items removeAll.
