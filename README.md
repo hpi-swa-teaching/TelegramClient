@@ -2,10 +2,10 @@
 
 
 <p align="center">
-    <a href="https://github.com/corona-warn-app/cwa-app-ios/commits/" title="Last Commit"><img src="https://img.shields.io/github/last-commit/hpi-swa-teaching/TelegramClient?style=flat"></a>
-    <a href="https://github.com/corona-warn-app/cwa-app-ios/issues" title="Open Issues"><img src="https://img.shields.io/github/issues/hpi-swa-teaching/TelegramClient"></a>
-    <a href="https://circleci.com/gh/corona-warn-app/cwa-app-ios" title="Build Status"><img src="https://github.com/hpi-swa-teaching/TelegramClient/workflows/CI/badge.svg?branch=develop"></a>
-   <a href="https://sonarcloud.io/component_measures?id=corona-warn-app_cwa-app-ios&metric=Coverage&view=list" title="Coverage"><img src="https://img.shields.io/github/stars/hpi-swa-teaching/TelegramClient"></a>
+    <a href="https://github.com/hpi-swa-teaching/TelegramClient/commits/" title="Last Commit"><img src="https://img.shields.io/github/last-commit/hpi-swa-teaching/TelegramClient?style=flat"></a>
+    <a href="https://github.com/hpi-swa-teaching/TelegramClient/issues" title="Open Issues"><img src="https://img.shields.io/github/issues/hpi-swa-teaching/TelegramClient"></a>
+    <a href="https://github.com/hpi-swa-teaching/TelegramClient/actions" title="Build Status"><img src="https://github.com/hpi-swa-teaching/TelegramClient/workflows/CI/badge.svg?branch=develop"></a>
+   <a href="https://github.com/hpi-swa-teaching/TelegramClient/stargazers" title="Stars"><img src="https://img.shields.io/github/stars/hpi-swa-teaching/TelegramClient"></a>
     <a href="./LICENSE" title="License"><img src="https://img.shields.io/github/license/hpi-swa-teaching/TelegramClient"></a>
 </p>
 
