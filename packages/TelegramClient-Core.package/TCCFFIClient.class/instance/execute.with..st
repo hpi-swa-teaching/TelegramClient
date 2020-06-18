@@ -1,5 +1,5 @@
 ExternalCalls
 execute: aHandle with: aMessage
 
-	<cdecl: char* 'td_json_client_execute' (void * char*)> 
+	<cdecl: char* 'td_json_client_execute' (void * char*)>
 	^ self externalCallFailed

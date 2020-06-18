@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"newWithCore:" : "F.W. 6/13/2020 21:48",
+		"newWithTCCApp" : "js 5/31/2020 20:34",
+		"newWithTestApp" : "rs 6/14/2020 12:31" },
+	"instance" : {
+		"core" : "js 5/31/2020 20:04",
+		"core:" : "js 5/31/2020 20:04",
+		"initialize" : "js 6/13/2020 18:22" } }

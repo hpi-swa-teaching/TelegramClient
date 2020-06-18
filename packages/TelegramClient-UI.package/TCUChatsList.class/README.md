@@ -1,0 +1,1 @@
+a view in TCUMain to display a list of all chats
