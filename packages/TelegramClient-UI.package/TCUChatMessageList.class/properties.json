@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "js 6/13/2020 19:00",
+	"commentStamp" : "rs 6/17/2020 21:32",
 	"instvars" : [
-		"chat" ],
-	"name" : "TCUChatListItem",
+		"messages" ],
+	"name" : "TCUChatMessageList",
 	"pools" : [
 		 ],
-	"super" : "RectangleMorph",
+	"super" : "Morph",
 	"type" : "normal" }

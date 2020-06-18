@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "rs 6/17/2020 23:11",
+	"instvars" : [
+		 ],
+	"name" : "TCCNullChat",
+	"pools" : [
+		 ],
+	"super" : "TCCChat",
+	"type" : "normal" }

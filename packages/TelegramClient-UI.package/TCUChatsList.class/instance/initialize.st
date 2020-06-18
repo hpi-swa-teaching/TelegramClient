@@ -9,4 +9,4 @@ initialize
 		borderWidth: 0;
 		initializeLayout;
 		items: OrderedCollection new;
-		selectedChat: TCUNullChatListItem new.
+		selectedChat: TCCNullChat new.

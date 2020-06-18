@@ -1,9 +1,10 @@
-initialization
+accessing
 initialize
 
 	super initialize.
 
 	self
-		color: Color white;
+		width: self defaultWidth;
 		height: self defaultHeight;
+		color: Color random;
 		borderWidth: 0.

@@ -1,4 +1,4 @@
 accessing
-selectedChat: aChatListItem
+selectedChat: anID
 
-	selectedChat := aChatListItem.
+	selectedChat := anID.
