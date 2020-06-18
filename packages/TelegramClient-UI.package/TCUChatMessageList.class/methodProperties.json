@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addMessage:" : "rs 6/18/2020 16:35",
+		"addMessage:" : "rs 6/18/2020 17:58",
+		"defaultMessageMargin" : "rs 6/18/2020 17:58",
 		"displayChat:" : "rs 6/17/2020 21:50",
 		"heightBetweenMessages" : "rs 6/17/2020 20:41",
 		"initialize" : "rs 6/17/2020 21:33",
