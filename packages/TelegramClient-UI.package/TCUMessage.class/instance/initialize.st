@@ -6,5 +6,6 @@ initialize
 	self
 		width: self defaultWidth;
 		height: self defaultHeight;
-		color: Color random;
-		borderWidth: 0.
+		color: TCUDefaultValues colorLightBlue;
+		borderWidth: 0;
+		useRoundedCorners.
