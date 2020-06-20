@@ -11,5 +11,11 @@ handleEvent: anEvent
 
 	(anEvent at: '@type') = 'updateNewChat'
 		ifTrue: [self chatsHandler addChat: anEvent].
+		
+	(anEvent at: '@type') = 'updateChatOrder'
+		ifTrue: [self chatsHandler updateChatOrder: anEvent].
+		
+	(anEvent at: '@type') = 'updateChatLastMessage'
+		ifTrue: [self chatsHandler updateLastMessage: anEvent].
 
 	update isSymbol ifTrue: [self triggerEvent: update].

@@ -10,7 +10,8 @@
 		"messages",
 		"order",
 		"id",
-		"title" ],
+		"title",
+		"lastMessage" ],
 	"name" : "TCCChat",
 	"pools" : [
 		 ],
