@@ -2,4 +2,4 @@ events
 updateChatOrder: anEvent
 	
 	(self app chats getChat: (anEvent at: 'chat_id')) order: (anEvent at:'order').
-	self triggerEvent: #chatsListChanged.
+	self app chats triggerEvent: #chatsListChanged.
