@@ -10,4 +10,4 @@ addChat: aChatEvent
 
 	self app chats
 		add: chat;
-		triggerEvent: #newChatLoaded.
+		triggerEvent: #chatsListChanged.

@@ -3,4 +3,4 @@ chats: aCollection
 
 	chats := aCollection.
 	self redrawItems.
-	chats when: #newChatLoaded send: #redrawItems to: self.
+	chats when: #chatsListChanged send: #redrawItems to: self.
