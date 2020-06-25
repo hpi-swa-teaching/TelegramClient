@@ -10,7 +10,7 @@
 		"authHandler",
 		"chatsHandler",
 		"chats" ],
-	"name" : "TCCApp",
+	"name" : "TCCCore",
 	"pools" : [
 		 ],
 	"super" : "Object",
