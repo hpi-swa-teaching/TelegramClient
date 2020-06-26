@@ -4,8 +4,6 @@ handleEvent: anEvent
 	| update |
 	update := nil.
 	
-	Transcript show: anEvent.
-	
 	(((anEvent at: '@type') = 'error') and: [(anEvent at: 'code') = 400 ])
 		ifTrue: [self halt: 'An Error Occured. Check Transcript Output.'].
 	(anEvent at: '@type') = 'updateAuthorizationState'
@@ -16,7 +14,7 @@ handleEvent: anEvent
 		ifTrue: [self chatsHandler updateChatOrder: anEvent].
 	(anEvent at: '@type') = 'updateChatLastMessage'
 		ifTrue: [self chatsHandler updateLastMessage: anEvent].
-	(anEvent at: '@type') = 'message'
-		ifTrue: [Transcript show: anEvent].
+	(anEvent at: '@type') = 'messages'
+		ifTrue: [Transcript show: (anEvent at: 'messages')].
 
 	update isSymbol ifTrue: [self triggerEvent: update].
