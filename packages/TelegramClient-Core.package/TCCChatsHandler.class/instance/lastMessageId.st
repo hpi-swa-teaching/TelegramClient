@@ -1,4 +1,0 @@
-accessing
-lastMessageId
-
-	^lastMessageId

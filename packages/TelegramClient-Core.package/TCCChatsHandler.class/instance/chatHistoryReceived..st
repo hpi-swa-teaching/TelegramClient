@@ -1,6 +1,7 @@
 events
 chatHistoryReceived: aChatHistory
 
+"adds the chat message history to the chat message list and calls for more messages if the message limit ist not yet achieved"
 	| newMessagesCount chat messageObject chatId chatMessageNumber oldestMessageId |
 	
 	newMessagesCount := (aChatHistory at: 'messages') size. 
@@ -17,6 +18,6 @@ chatHistoryReceived: aChatHistory
 			chat messages add: messageObject.].].
 	
 	oldestMessageId := chat messages last messageId.
-	chatMessageNumber := messageLimit - chat messages size.
+	chatMessageNumber := self messageLimit - chat messages size.
 	chatMessageNumber > 0 ifTrue: [
 		self getChatHistoryFrom: chatId with: oldestMessageId and: chatMessageNumber.].
