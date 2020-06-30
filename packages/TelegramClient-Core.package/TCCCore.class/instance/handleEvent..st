@@ -16,6 +16,6 @@ handleEvent: anEvent
 	(anEvent at: '@type') = 'messages'
 		ifTrue: [Transcript show: (anEvent at: 'messages')].
 	(anEvent at: '@type') = 'updateNewMessage'
-		ifTrue: [chatsHandler addNewMessage: anEvent].
+		ifTrue: [chatsHandler handleNewMessage: anEvent].
 
 	update isSymbol ifTrue: [self triggerEvent: update].
