@@ -1,22 +1,21 @@
 events
 chatHistoryReceived: aChatHistory
 
-	| messageNumber chat messageObject chatID chatMessageNumber oldestMessageId |
-	Transcript show:' wir sind hier'.
-	messageNumber := (aChatHistory at: 'messages') size. 
-	chatID := (((aChatHistory at: 'messages') at: 1) at: 'chat_id').
-	chat := self app chats getChat: chatID.
+	| newMessagesCount chat messageObject chatId chatMessageNumber oldestMessageId |
 	
-	1 to: messageNumber do: [:x |
-		messageObject := TCCMessage new.
-		messageObject message: (((((aChatHistory at: 'messages') at: x) at: 'content') at: 'text') at: 'text').
-		Transcript show: messageObject message.
-		messageObject chatID: chatID.
-		messageObject senderId: (((aChatHistory at: 'messages') at: x) at: 'sender_user_id').
-		messageObject messageId: (((aChatHistory at: 'messages') at: x) at: 'id').
+	newMessagesCount := (aChatHistory at: 'messages') size. 
+	chatId := (((aChatHistory at: 'messages') at: 1) at: 'chat_id').
+	chat := self app chats getChat: chatId.
+	
+	1 to: newMessagesCount do: [:x |
+		messageObject := TCCMessage new
+			message: (((((aChatHistory at: 'messages') at: x) at: 'content') at: 'text') at: 'text');
+			chatID: chatId;
+			senderId: (((aChatHistory at: 'messages') at: x) at: 'sender_user_id');
+			messageId: (((aChatHistory at: 'messages') at: x) at: 'id').
 		chat messages add: messageObject.].
 	
 	oldestMessageId := chat messages last messageId.
 	chatMessageNumber := messageLimit - chat messages size.
 	chatMessageNumber > 0 ifTrue: [
-		self getChatHistoryFrom: chatID with: oldestMessageId and: chatMessageNumber.].
+		self getChatHistoryFrom: chatId with: oldestMessageId and: chatMessageNumber.].
