@@ -14,7 +14,8 @@ handleEvent: anEvent
 	(anEvent at: '@type') = 'updateChatLastMessage'
 		ifTrue: [self chatsHandler updateLastMessage: anEvent].
 	(anEvent at: '@type') = 'messages'
-		ifTrue: [Transcript show: (anEvent at: 'messages')].
+		ifTrue: [Transcript show: 'core handle'.
+			self chatsHandler chatHistoryReceived: anEvent].
 	(anEvent at: '@type') = 'updateNewMessage'
 		ifTrue: [chatsHandler handleNewMessage: anEvent].
 

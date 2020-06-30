@@ -4,11 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "f.w. 6/29/2020 17:05",
 	"instvars" : [
 		"message",
 		"senderId",
-		"senderName" ],
+		"senderName",
+		"chatID",
+		"messageId" ],
 	"name" : "TCCMessage",
 	"pools" : [
 		 ],

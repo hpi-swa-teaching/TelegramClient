@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "js 6/13/2020 16:26",
 	"instvars" : [
-		"app" ],
+		"app",
+		"messageLimit",
+		"lastMessageId",
+		"messageCollection" ],
 	"name" : "TCCChatsHandler",
 	"pools" : [
 		 ],
