@@ -8,12 +8,13 @@ chatHistoryReceived: aChatHistory
 	chat := self app chats getChat: chatId.
 	
 	1 to: newMessagesCount do: [:x |
-		messageObject := TCCMessage new
-			message: (((((aChatHistory at: 'messages') at: x) at: 'content') at: 'text') at: 'text');
-			chatID: chatId;
-			senderId: (((aChatHistory at: 'messages') at: x) at: 'sender_user_id');
-			messageId: (((aChatHistory at: 'messages') at: x) at: 'id').
-		chat messages add: messageObject.].
+		((((aChatHistory at: 'messages') at: x) at: 'content') at: '@type') = 'messageText' ifTrue: [
+			messageObject := TCCMessage new
+				message: (((((aChatHistory at: 'messages') at: x) at: 'content') at: 'text') at: 'text');
+				chatID: chatId;
+				senderId: (((aChatHistory at: 'messages') at: x) at: 'sender_user_id');
+				messageId: (((aChatHistory at: 'messages') at: x) at: 'id').
+			chat messages add: messageObject.].].
 	
 	oldestMessageId := chat messages last messageId.
 	chatMessageNumber := messageLimit - chat messages size.
