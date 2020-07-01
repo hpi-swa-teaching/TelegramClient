@@ -1,0 +1,10 @@
+  
+language: smalltalk
+sudo: false
+
+os:
+  - linux
+
+smalltalk:
+  - Squeak-5.2
+after_success: "sbt coveralls"
