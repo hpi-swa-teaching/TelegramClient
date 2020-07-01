@@ -8,5 +8,11 @@ SmalltalkCISpec {
       #directory : 'packages',
       #load : [ 'tests' ]
     }
-  ]
+  ],
+   #testing : {
+    #coverage : {
+      #packages : [ 'TelegramClient-Core.*' ]
+    },
+    #packages : [ 'TelegramClient-Tests.*' ]
+  }
 }
