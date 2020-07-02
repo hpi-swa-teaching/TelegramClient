@@ -10,7 +10,7 @@
 </p>
 
 ## Overview
-TeleSqueak is a **Squeak-Client** for the widely used Telegram-Messenger. It provides features such as Authentication, Contacts, Message and Media sending and a minimal, clean UI. We also provide features such as a Zen-mode and receiving messages in the background.
+TeleSqueak is a **Squeak-Client** for the widely used Telegram-Messenger. It aims to provide features such as Authentication, Contacts, Message and Media sending and a minimal, clean UI as well as as a Zen-mode and receiving messages in the background.
 
 *This Project is part of the "Softwaretechnik" Lecture 2020 at the Hasso Plattner Institute.*
 
