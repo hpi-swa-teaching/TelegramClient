@@ -1,4 +1,4 @@
-<p align="center"><img width=50% src="https://i.ibb.co/VHG620F/Telegram-unterschrift.png"></p>
+<p align="center"><img width=50% src="https://i.ibb.co/VHG620F/Telegram-unterschrift.png" alt="TelegramClient Logo" class="center"></p>
 
 
 <p align="center">
