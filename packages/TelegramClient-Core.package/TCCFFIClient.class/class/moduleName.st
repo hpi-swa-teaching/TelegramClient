@@ -3,8 +3,6 @@ moduleName
 
 	| filePath response |
 
-	(Smalltalk classNames includes: 'ExternalLibrary') ifFalse: [self installFFI].
-
 	filePath := FileDirectory default / self fileName.
 
 	filePath exists ifFalse: [
