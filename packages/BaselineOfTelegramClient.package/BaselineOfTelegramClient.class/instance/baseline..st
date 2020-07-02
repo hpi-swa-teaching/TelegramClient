@@ -68,7 +68,7 @@ baseline: spec
 				group: 'libraries' with: #( 'JSON' 'FFI-Kernel' 'FFI-Pools');
 				group: 'default' with: #('TelegramClient-Core');
 				group: 'tests' with: #('TelegramClient-Tests' )];
-			group: 'default' with: #('PlugIns');
+			group: 'default' with: #('PlugIns' 'libraries');
 			group: 'portability' with: #('PlugIns');
 			group: 'web' with: #('portability' );
 			group: 'Core' with: #('SwaLint-Core');
