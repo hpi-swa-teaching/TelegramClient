@@ -5,4 +5,4 @@ os:
   - linux
 
 smalltalk:
-  - Squeak-5.3
+  - Squeak-5.2
