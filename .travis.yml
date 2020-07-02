@@ -5,5 +5,4 @@ os:
   - linux
 
 smalltalk:
-  - Squeak-5.2
-after_success: "sbt coveralls"
+  - Squeak-5.3
