@@ -1,4 +1,4 @@
 accessing
 chatName
 
-	^ chatName
+	^ self chat title

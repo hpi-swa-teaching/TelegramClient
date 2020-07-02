@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"newWithCore:" : "F.W. 6/13/2020 21:48",
+		"newWithTCCCore" : "rs 6/25/2020 10:16",
+		"newWithTestApp" : "rs 6/14/2020 12:31" },
+	"instance" : {
+		"auth" : "js 6/14/2020 16:19",
+		"auth:" : "js 6/14/2020 16:20",
+		"core" : "js 5/31/2020 20:04",
+		"core:" : "js 5/31/2020 20:04",
+		"createMain" : "js 6/14/2020 16:50",
+		"delete" : "rs 6/14/2020 17:15",
+		"initialize" : "rs 6/14/2020 17:15",
+		"logout" : "js 6/14/2020 16:51",
+		"main" : "js 6/14/2020 16:19",
+		"main:" : "js 6/14/2020 16:20" } }

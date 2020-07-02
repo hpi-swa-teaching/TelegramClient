@@ -3,10 +3,10 @@ createInputBar
 
 	self inputBar: (RectangleMorph new
 		borderWidth: 0;
-		color: Color white;
+		color: TCUDefaultValues colorLightGray;
 		width: self width;
 		height: self defaultInputfieldHeight;
-		position: (self position + (0 @ (self height - self defaultInputfieldHeight)));
+		bottomLeft: (self bottomLeft);
 		layoutPolicy: TableLayout new;
 		listDirection: #leftToRight;
 		layoutInset: 2;
