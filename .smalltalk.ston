@@ -14,7 +14,7 @@ SmalltalkCISpec {
       #packages : [ 'TelegramClient-Core.*' ]
     },
     #exclude : {
-      #classes : [ #TCCChat ]
+      #instances : [ #TCCChat ]
     },
     #packages : [ 'TelegramClient-Tests.*' ]
   }
