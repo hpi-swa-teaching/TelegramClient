@@ -13,6 +13,9 @@ SmalltalkCISpec {
     #coverage : {
       #packages : [ 'TelegramClient-Core.*' ]
     },
+    #exclude : {
+      #classes : [ #TCCChat ]
+    },
     #packages : [ 'TelegramClient-Tests.*' ]
   }
 }
