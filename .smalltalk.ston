@@ -13,6 +13,7 @@ SmalltalkCISpec {
     #coverage : {
       #packages : [ 'TelegramClient-Core.*' ]
     },
-    #packages : [ 'TelegramClient-Tests.*' ]
+    #packages : [ 'TelegramClient-Tests.*' ],
+    #defaultTimeout : 60
   }
 }
