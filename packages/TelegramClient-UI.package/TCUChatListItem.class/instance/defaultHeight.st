@@ -1,4 +1,4 @@
 default values
 defaultHeight
 
-	^ 50
+	^ 80
