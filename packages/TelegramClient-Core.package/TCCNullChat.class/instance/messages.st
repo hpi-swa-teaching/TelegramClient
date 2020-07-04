@@ -1,0 +1,4 @@
+accessing
+messages
+
+	^ OrderedCollection new
