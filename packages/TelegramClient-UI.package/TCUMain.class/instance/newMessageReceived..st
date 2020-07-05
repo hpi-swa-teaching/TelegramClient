@@ -1,6 +1,7 @@
 initialization
 newMessageReceived: aMessage
 
-	[TCUNotification newWithMessage: aMessage] fork.
+	(self core loggedInUserID = aMessage senderId) ifFalse: [
+		[TCUNotification newWithMessage: aMessage] fork].
 
 	

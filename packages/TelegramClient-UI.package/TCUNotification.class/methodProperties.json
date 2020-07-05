@@ -3,11 +3,14 @@
 		"newWithMessage:" : "rs 7/5/2020 14:37" },
 	"instance" : {
 		"addTextLabel" : "rs 7/5/2020 14:29",
+		"calculatePosition" : "rs 7/5/2020 14:42",
 		"chatID" : "rs 7/5/2020 14:31",
 		"chatID:" : "rs 7/5/2020 14:31",
 		"defaultHeight" : "rs 7/5/2020 14:18",
-		"defaultWidth" : "rs 7/5/2020 14:18",
-		"initialize" : "rs 7/5/2020 14:37",
+		"defaultOffset" : "rs 7/5/2020 14:43",
+		"defaultWidth" : "rs 7/5/2020 14:44",
+		"initialize" : "rs 7/5/2020 14:43",
+		"initializeDefaults" : "rs 7/5/2020 14:43",
 		"startTimeOut" : "rs 7/5/2020 14:35",
 		"text" : "rs 7/5/2020 14:28",
 		"text:" : "rs 7/5/2020 14:28" } }

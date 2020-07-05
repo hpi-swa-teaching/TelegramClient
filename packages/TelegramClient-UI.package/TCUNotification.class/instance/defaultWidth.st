@@ -1,4 +1,4 @@
 defaultValues
 defaultWidth
 
-	^ 200
+	^ 320
