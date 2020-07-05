@@ -4,7 +4,7 @@ testAuthStateReady
 	| app |
 
 	TCUTelegram newWithTestCore logout.
-	app := TCUTelegram newWithTestApp.
+	app := TCUTelegram newWithTestCore.
 	1 seconds wait.
 	app core loginWithTestData.
 	1 seconds wait.
