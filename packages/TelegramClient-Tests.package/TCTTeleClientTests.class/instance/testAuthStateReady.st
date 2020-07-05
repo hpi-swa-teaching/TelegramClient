@@ -12,7 +12,7 @@ testAuthStateReady
 	core := TCTTestCore new.
 	0.1 seconds wait.
 	core loginWithTestData.
-	1 seconds wait.
+	10 seconds wait.
 
 	self assert: core authHandler isAuthorizationStateReady.
 	core client free.
