@@ -1,13 +1,18 @@
 client
 testAuthStateReady
 
-	| app |
+	| core |
 
-	TCUTelegram newWithTestCore logout.
-	app := TCUTelegram newWithTestCore.
+	core := TCTTestCore new.
+	0.1 seconds wait.
+	core authHandler logout.
+	0.1 seconds wait.
+	core client free.
+	0.1 seconds wait.
+	core := TCTTestCore new.
+	0.1 seconds wait.
+	core loginWithTestData.
 	1 seconds wait.
-	app core loginWithTestData.
-	1 seconds wait.
-	self assert: app core authHandler isAwaitingPhoneNumber.
 
-	app delete.
+	self assert: core authHandler isAuthorizationStateReady.
+	core client free.
