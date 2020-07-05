@@ -1,16 +1,16 @@
 client
 testAuthStateIsAwaitingPhoneNumber
 
-	| app |
+	| core |
 
-	app := TCTTestCore new.
+	core := TCTTestCore new.
 	0.3 seconds wait.
-	app authHandler logout.
+	core authHandler logout.
 	0.3 seconds wait.
-	app client free.
+	core client free.
 	0.5 seconds wait.
-	app := TCTTestCore new.
+	core := TCTTestCore new.
 	0.5 seconds wait.
 
-	self assert: app core authHandler isAwaitingPhoneNumber.
-	app client free.
+	self assert: core authHandler isAwaitingPhoneNumber.
+	core client free.
