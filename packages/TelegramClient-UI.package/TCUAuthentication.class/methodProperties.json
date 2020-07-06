@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newWithCore:" : "R.S 5/31/2020 20:16" },
+		"newWithCore:" : "rs 7/6/2020 18:06" },
 	"instance" : {
 		"addHeader" : "js 6/13/2020 19:18",
 		"addTitle:to:" : "js 6/13/2020 18:52",
@@ -32,7 +32,7 @@
 		"inputField:" : "js 5/31/2020 20:07",
 		"instructionLabel" : "R.S 5/20/2020 13:52",
 		"instructionLabel:" : "js 5/28/2020 17:51",
-		"logInCompleted" : "js 6/14/2020 16:22",
+		"logInCompleted" : "rs 7/6/2020 18:04",
 		"showFirstStep" : "F.W. 6/13/2020 21:47",
 		"showLoadingMessage" : "js 6/13/2020 18:45",
 		"showSecondStep" : "F.W. 6/13/2020 21:47",
