@@ -1,0 +1,8 @@
+language: smalltalk
+sudo: false
+
+os:
+  - linux
+
+smalltalk:
+  - Squeak-5.2
