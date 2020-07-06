@@ -9,5 +9,7 @@ showSecondStep
 		contents: 'Enter the code your recieved on your phone';
 		center: self center.
 
-	self inputField contents: ' '.
+	self inputField
+		contents: ' ';
+		crAction: [self buttonVerifyPressed].
 	self errorLabel hide.
