@@ -3,7 +3,7 @@ handleEvent: anEvent
 
 	self authState: (anEvent at: 'authorization_state').
 
-	self isAuthStateClosed ifTrue: [self client free].
+	self isAuthStateClosed ifTrue: [self halt. self client free].
 
 	self isAwaitingTDLibParams ifTrue: [self setTDLibParams].
 
