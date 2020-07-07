@@ -1,12 +1,16 @@
+  
 SmalltalkCISpec {
-  #preLoading : 'scripts/preLoading.st',
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'TelegramClient',
       #platforms : [ #squeak ],
       #directory : 'packages',
       #load : [ 'tests' ],
+      #useLatestMetacello : true
     }
+  ],
+  #preLoading : [
+    'scripts/preLoading.st'
   ],
   #testing : {
     #classes : [ #TCTLinterTests ]
