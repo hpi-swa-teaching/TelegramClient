@@ -15,7 +15,6 @@ SmalltalkCISpec {
     },
     #exclude : {
       #classes : [ #TCTLinterTests ]
-    },
-    #packages : [ 'TelegramClient-Tests.*' ]
+    }
   }
 }
