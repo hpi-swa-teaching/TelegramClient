@@ -1,4 +1,4 @@
-<img width=50% src="https://i.ibb.co/VHG620F/Telegram-unterschrift.png" alt="TelegramClient Logo" class="center">
+<p align="center"><img width=50% src="https://i.ibb.co/VHG620F/Telegram-unterschrift.png" alt="TelegramClient Logo"></p>
 
 
 <p align="center">
@@ -29,7 +29,7 @@ install: 'FFI-Kernel'.`
 * Step 5 (Windows only): Install Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019: [32Bit](https://aka.ms/vs/16/release/vc_redist.x86.exe) or [64Bit](https://aka.ms/vs/16/release/vc_redist.x64.exe)
 
 ## Running TelegramClient
-In a workspace window execute the command `TCUApp newWithTCCApp`
+In a workspace window either execute the command `TCUApp newWithTCCApp` or click the TelegramClient entry in the Apps dropdown menu.
 
 ## Building Tdlib
 Tdlib build instructions are available on their Github page. They also have a wonderful build instruction generator available which was the basis for our workflow . [Check it out here.](https://tdlib.github.io/td/build.html)
@@ -37,3 +37,6 @@ Tdlib build instructions are available on their Github page. They also have a wo
 ## Notes on Tdlib
 The TelegramClient is build on the TelegramDatabseLibrary which provides access to Telegram API via a JSON-Interface.
 We include Tdlib library in our project and can access the C-Library via FFI from Squeak, giving us the possibility to access the Telegram API via JSON-Interface.
+
+## Resources for following groups
+We have a Discord server setup with a Github Webhook, notifying us on important changes to the repository. It is reachable at https://discord.gg/gFawsU.
