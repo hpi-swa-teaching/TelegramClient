@@ -6,6 +6,8 @@ showFirstStep
 		center: self center.
 
 	self buttonVerify hide.
-	self inputField show.
+	self inputField
+		show;
+		crAction: [self buttonNextPressed].
 	self buttonNext show.
 	self instructionLabel show.
