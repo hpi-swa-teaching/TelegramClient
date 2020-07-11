@@ -8,5 +8,6 @@ initialize
 		color: Color white;
 		borderWidth: 0;
 		initializeLayout;
+		maxHeight: self height;
 		items: OrderedCollection new;
 		selectedChat: TCCNullChat new.
