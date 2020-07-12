@@ -1,4 +1,4 @@
 accessing
 maxHeight: aNumber
 
-	maxHeight = aNumber.
+	maxHeight := aNumber.

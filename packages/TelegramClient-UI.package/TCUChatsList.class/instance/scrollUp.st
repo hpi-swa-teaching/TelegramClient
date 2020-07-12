@@ -1,4 +1,5 @@
 accessing
 scrollUp
 
-	self position: self position + (0 @ 50).
+	self position y = self maxHeight ifFalse:[
+		self position: self position + (0 @ 50).].
