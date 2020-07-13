@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "N.S. 5/14/2020 11:47",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "TCTTeleClientTests",
+	"name" : "TCTCoreTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

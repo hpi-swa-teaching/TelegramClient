@@ -1,4 +1,4 @@
-client
+as yet unclassified
 testClientDestroysHandle
 
 	| aClient aMock |
