@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "r.s 7/13/2020 17:49",
+		"testAuthStateIsAwaitingPhoneNumber" : "r.s 7/13/2020 18:11",
+		"testClientDestroysHandle" : "r.s 7/13/2020 17:48" } }

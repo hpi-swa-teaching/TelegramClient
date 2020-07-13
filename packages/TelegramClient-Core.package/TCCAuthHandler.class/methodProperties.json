@@ -11,6 +11,7 @@
 		"checkAuthenticationCode:" : "js 6/13/2020 18:31",
 		"client" : "js 5/28/2020 18:36",
 		"handleEvent:" : "js 6/13/2020 18:31",
+		"initialize" : "r.s 7/13/2020 18:15",
 		"isAuthStateClosed" : "js 6/13/2020 18:31",
 		"isAuthorizationStateReady" : "js 6/13/2020 18:29",
 		"isAwaitingAuthCode" : "js 6/13/2020 18:29",
