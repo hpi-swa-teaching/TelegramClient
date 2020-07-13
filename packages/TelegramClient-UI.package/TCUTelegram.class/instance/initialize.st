@@ -3,4 +3,5 @@ initialize
 
 	super initialize.
 
-	(TCUAuthentication newWithCore: self core) openCenteredInWorld.
+	self currentWindow: (TCUAuthentication newWithCore: self core).
+	self currentWindow openCenteredInWorld.
