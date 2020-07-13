@@ -1,0 +1,4 @@
+accessing
+type
+
+	^ 'Win32'
