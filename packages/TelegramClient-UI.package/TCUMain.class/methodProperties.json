@@ -3,7 +3,8 @@
 		"newWithCore:" : "f.w. 6/3/2020 20:31" },
 	"instance" : {
 		"addChatsList" : "rs 6/17/2020 22:54",
-		"addHeader" : "rs 6/17/2020 21:35",
+		"addCloseButtonTo:withSpacing:" : "LL 7/14/2020 14:44",
+		"addHeader" : "LL 7/14/2020 14:43",
 		"addLogoutButtonTo:withSpacing:" : "rs 6/17/2020 21:30",
 		"addTitle:to:" : "js 6/13/2020 18:57",
 		"chatWindow" : "R.S 6/1/2020 14:27",
