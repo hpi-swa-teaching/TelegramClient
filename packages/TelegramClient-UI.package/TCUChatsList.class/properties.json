@@ -8,7 +8,8 @@
 	"instvars" : [
 		"items",
 		"selectedChat",
-		"chats" ],
+		"chats",
+		"maxHeight" ],
 	"name" : "TCUChatsList",
 	"pools" : [
 		 ],

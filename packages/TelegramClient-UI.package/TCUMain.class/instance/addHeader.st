@@ -12,4 +12,5 @@ addHeader
 		addMorph: header;
 		addTitle: 'Telegram' to: header;
 		addLogoutButtonTo: header withSpacing: 5;
-		addCloseButtonTo: header withSpacing: 5.
+		addCloseButtonTo: header withSpacing: 5;
+		addInputFieldTo: header withSpacing: 5.

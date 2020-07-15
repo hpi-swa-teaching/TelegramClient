@@ -17,5 +17,7 @@ handleEvent: anEvent
 		ifTrue: [self chatsHandler chatHistoryReceived: anEvent].
 	(anEvent at: '@type') = 'updateNewMessage'
 		ifTrue: [chatsHandler handleNewMessage: anEvent].
+	(anEvent at: '@type') = 'chat'
+		ifTrue: [self chatsHandler openNewChat: anEvent].
 
 	update isSymbol ifTrue: [self triggerEvent: update].
