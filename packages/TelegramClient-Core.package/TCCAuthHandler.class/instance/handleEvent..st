@@ -1,6 +1,8 @@
 accessing
 handleEvent: anEvent
 
+	Transcript show: anEvent.
+
 	self authState: ((anEvent at: 'authorization_state') at: '@type').
 
 	self isAuthStateClosed ifTrue: [self client free].

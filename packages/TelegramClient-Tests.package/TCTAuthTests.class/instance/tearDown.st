@@ -1,5 +1,5 @@
 as yet unclassified
 tearDown
 
-	core client free.
+	self core client free.
 	

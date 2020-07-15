@@ -1,8 +1,13 @@
 as yet unclassified
 setUp
 	
-	"core := TCTTestCore new.
-	0.3 seconds wait.
-	core authHandler logout.
-	0.5 seconds wait."
+	self core: TCTTestCore new.
+	1 seconds wait.
+	self core authHandler isAuthorizationStateReady ifTrue: [self core authHandler logout.
+		1 seconds wait.
+		self core: TCTTestCore new.
+		1 seconds wait].
+	
+	
+	
 	
