@@ -1,6 +1,6 @@
-as yet unclassified
+testing
 testAuthStateReady
 
 	self core loginWithTestData.
 	2 seconds wait.
-	self assert: core authHandler isAuthorizationStateReady.
+	self assert: self core authHandler isAuthorizationStateReady.

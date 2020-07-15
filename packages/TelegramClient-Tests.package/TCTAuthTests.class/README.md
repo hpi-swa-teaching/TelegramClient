@@ -1,0 +1,1 @@
+This class tests auth behaviour

@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testAuthStateIsAwaitingPhoneNumber
 
-	self assert: core authHandler isAwaitingPhoneNumber.
+	self assert: self core authHandler isAwaitingPhoneNumber.
