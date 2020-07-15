@@ -1,4 +1,4 @@
 accessing
 fileName
 
-	^ 'tdjson'
+	^ 'tdjson.dll'
