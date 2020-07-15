@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"core" ],
 	"name" : "TCTLoggedInTests",
 	"pools" : [
 		 ],
