@@ -1,16 +1,14 @@
 initialization
 addHeader
 
-	| header logoutButton |
+	| header |
 
-	header := self createHeaderMorph.
-
-	logoutButton := TCUButton new
-	 	text: 'logout';
-		on:#mouseUp send: #logout to: self;
-		position: header position + 5.
+	header := RectangleMorph new
+		borderWidth: 0;
+		color: TCUDefaultValues colorGray;
+		extent: self width @ self defaultHeaderHeight.
 
 	self
 		addMorph: header;
 		addTitle: 'Telegram' to: header;
-		addMorph: logoutButton.
+		addLogoutButtonTo: header withSpacing: 5.

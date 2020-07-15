@@ -3,4 +3,4 @@ subscribeChatsList
 
 	self chatsList
 		when: #chatDeselected send: #clear to: self chatWindow;
-		when: #newChatSelected send: #newChatSelected: to: self chatWindow with: self chatsList selectedChat.
+		when: #newChatSelected send: #newChatSelected: to: self chatWindow.

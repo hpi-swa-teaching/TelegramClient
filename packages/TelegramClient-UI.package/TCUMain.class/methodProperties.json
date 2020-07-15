@@ -2,8 +2,9 @@
 	"class" : {
 		"newWithCore:" : "f.w. 6/3/2020 20:31" },
 	"instance" : {
-		"addChatsList" : "js 6/13/2020 18:50",
-		"addHeader" : "js 6/13/2020 18:50",
+		"addChatsList" : "rs 6/17/2020 22:54",
+		"addHeader" : "rs 6/17/2020 21:35",
+		"addLogoutButtonTo:withSpacing:" : "rs 6/17/2020 21:30",
 		"addTitle:to:" : "js 6/13/2020 18:57",
 		"chatWindow" : "R.S 6/1/2020 14:27",
 		"chatWindow:" : "R.S 6/1/2020 14:27",
@@ -15,12 +16,9 @@
 		"defaultExtent" : "R.S 6/1/2020 14:27",
 		"defaultHeaderHeight" : "R.S 6/1/2020 14:27",
 		"delete" : "R.S 6/3/2020 20:54",
-		"initialize" : "js 6/13/2020 18:51",
+		"initialize" : "rs 6/22/2020 16:59",
 		"initializeChatWindow" : "js 6/13/2020 18:54",
 		"logout" : "js 6/13/2020 18:11",
-		"newChatSelected" : "rs 6/13/2020 09:20",
 		"newChatSelected:" : "rs 6/13/2020 15:38",
-		"sendMessage:" : "rs 6/13/2020 15:15",
-		"subscribeChatsList" : "js 6/13/2020 18:51",
-		"subscribeCore" : "R.S 6/3/2020 21:03",
-		"updateChatsList" : "js 6/13/2020 19:14" } }
+		"sendMessage:" : "rs 6/17/2020 21:19",
+		"subscribeChatsList" : "rs 6/17/2020 22:18" } }

@@ -1,13 +1,13 @@
 initialization
 chatItemClicked: aChatListItem event: anEvent from: aSender
 
-	self selectedChat deselect.
+	self items do: [:anItem | anItem deselect].
 
-	(aChatListItem chatId ~= self selectedChat chatId)
-	ifTrue: [aChatListItem select.
-		self
-			selectedChat: aChatListItem;
-			triggerEvent: #newChatSelected with: aChatListItem]
-	ifFalse: [self
-		selectedChat: TCUNullChatListItem new;
-		triggerEvent: #chatDeselected].
+	(aChatListItem chatID ~= self selectedChat id)
+		ifTrue: [aChatListItem select.
+			self
+				selectedChat: aChatListItem chat;
+				triggerEvent: #newChatSelected with: aChatListItem chat]
+		ifFalse: [self
+			selectedChat: TCCNullChat new;
+			triggerEvent: #chatDeselected].

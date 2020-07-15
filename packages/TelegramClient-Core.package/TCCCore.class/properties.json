@@ -1,0 +1,17 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "js 6/13/2020 16:24",
+	"instvars" : [
+		"client",
+		"authHandler",
+		"chatsHandler",
+		"chats" ],
+	"name" : "TCCCore",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
