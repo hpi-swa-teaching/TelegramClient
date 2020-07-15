@@ -5,7 +5,7 @@ addCloseButtonTo: aMorph withSpacing: aSpacing
 
 	closeButton := TCUButton new
 	 	text: 'close';
-		color: TCUDefaultValues colorLightRed;
+		color: TCUDefaultValues colorRed;
 		on: #mouseUp send: #delete to: self.
 	closeButton text color: Color white.
 	closeButton position: (aMorph position x + aSpacing) @ aSpacing.
