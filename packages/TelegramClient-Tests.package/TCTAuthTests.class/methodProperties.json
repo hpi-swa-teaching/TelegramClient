@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "r.s 7/13/2020 17:49",
-		"tearDown" : "r.s 7/15/2020 12:11",
-		"testAuthStateIsAwaitingPhoneNumber" : "r.s 7/15/2020 12:13",
+		"core" : "r.s 7/15/2020 12:39",
+		"core:" : "r.s 7/15/2020 12:39",
+		"setUp" : "r.s 7/15/2020 12:34",
+		"tearDown" : "r.s 7/15/2020 12:39",
+		"testAuthStateIsAwaitingPhoneNumber" : "r.s 7/15/2020 12:40",
 		"testClientDestroysHandle" : "r.s 7/13/2020 17:48" } }
