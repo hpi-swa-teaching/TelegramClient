@@ -9,3 +9,4 @@ sendMessage: aString to: aChatID
 				'text' -> (Dictionary newFrom: {
 					'@type' -> 'formattedText'.
 					'text' -> aString})})}).
+	
