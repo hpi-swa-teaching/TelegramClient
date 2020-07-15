@@ -61,8 +61,8 @@ baseline: spec
 										'github://hpi-swa-teaching/SwaLint:master/packages'; requires: 'SwaLint-Core' ];
 			
 			
-				package: 'TelegramClient-Core' with: [spec requires: #('FFI-Pools' 'FFI-Kernel')];
-				package: 'TelegramClient-UI' with: [spec requires: #('FFI-Pools' 'FFI-Kernel')];
+				package: 'TelegramClient-Core' with: [spec requires: #('libraries')];
+				package: 'TelegramClient-UI' with: [spec requires: #('libraries')];
 				package: 'TelegramClient-Tests'  with: [spec requires: #('default' 'All')];
 				yourself.
 			spec
