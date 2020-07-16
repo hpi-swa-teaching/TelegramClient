@@ -2,7 +2,7 @@ initialization
 addLastMessage
 
 	| text |
-	text :=  (self chat lastMessage truncateTo: 25), '...'.
+	text := (self chat lastMessage truncateTo: 25), '...'.
 		
 	self addMorph: (TextMorph new
 		contents: text asText;
