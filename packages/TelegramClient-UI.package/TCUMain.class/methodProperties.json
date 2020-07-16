@@ -4,9 +4,10 @@
 	"instance" : {
 		"addChatsList" : "rs 6/17/2020 22:54",
 		"addCloseButtonTo:withSpacing:" : "LL 7/15/2020 19:36",
-		"addHeader" : "f.w. 7/16/2020 00:22",
+		"addHeader" : "r.s 7/16/2020 08:56",
 		"addInputFieldTo:withSpacing:" : "f.w. 7/16/2020 01:31",
 		"addLogoutButtonTo:withSpacing:" : "f.w. 7/16/2020 01:12",
+		"addNewChatButtonTo:withSpacing:" : "r.s 7/16/2020 08:59",
 		"addTitle:to:" : "js 6/13/2020 18:57",
 		"chatWindow" : "R.S 6/1/2020 14:27",
 		"chatWindow:" : "R.S 6/1/2020 14:27",
@@ -22,6 +23,7 @@
 		"initialize" : "f.w. 7/12/2020 21:51",
 		"initializeChatWindow" : "js 6/13/2020 18:54",
 		"logout" : "js 6/13/2020 18:11",
+		"newChatButtonClicked" : "r.s 7/16/2020 09:33",
 		"newChatSelected:" : "f.w. 7/16/2020 00:02",
 		"sendMessage:" : "rs 6/17/2020 21:19",
 		"subscribeChatsList" : "f.w. 7/15/2020 23:55" } }
