@@ -1,0 +1,1 @@
+This class creates a PopUp window for errors or information
