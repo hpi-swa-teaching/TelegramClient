@@ -15,6 +15,7 @@ SmalltalkCISpec {
     },
     #exclude : {
       #classes : [ #TCTLinterTests ]
-    }
+    },
+    #defaultTimeout : 60
   }
 }
