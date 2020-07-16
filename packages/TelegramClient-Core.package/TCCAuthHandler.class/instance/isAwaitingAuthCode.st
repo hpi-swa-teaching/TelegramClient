@@ -1,4 +1,4 @@
 accessing
 isAwaitingAuthCode
 
-	^ (self authState at: '@type') = 'authorizationStateWaitCode'
+	^ self authState = 'authorizationStateWaitCode'

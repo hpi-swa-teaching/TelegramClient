@@ -1,4 +1,4 @@
 accessing
 isAwaitingDBEncryptionKey
 
-	^ (self authState at: '@type') = 'authorizationStateWaitEncryptionKey'
+	^ self authState = 'authorizationStateWaitEncryptionKey'
