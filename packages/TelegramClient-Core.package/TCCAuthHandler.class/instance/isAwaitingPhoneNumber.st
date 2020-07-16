@@ -1,4 +1,4 @@
 accessing
 isAwaitingPhoneNumber
 
-	^ (self authState at: '@type') = 'authorizationStateWaitPhoneNumber'
+	^ self authState = 'authorizationStateWaitPhoneNumber'
