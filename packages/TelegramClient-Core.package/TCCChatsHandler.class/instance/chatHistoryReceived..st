@@ -1,7 +1,6 @@
 events
 chatHistoryReceived: aChatHistory
 
-	"adds the chat message history to the chat message list and calls for more messages if the message limit ist not yet achieved"
 	| chat chatMessageNumber oldestMessageId chatID |
 
 	(aChatHistory at: 'messages') ifNotEmpty: [
@@ -16,6 +15,7 @@ chatHistoryReceived: aChatHistory
 					senderId: (message at: 'sender_user_id');
 					messageId: (message at: 'id'))]].
 
-		oldestMessageId := chat messages last messageId.
-		chatMessageNumber := self messageLimit - chat messages size.
-		chatMessageNumber > 0 ifTrue: [self getChatHistoryFrom: chatID with: oldestMessageId and: chatMessageNumber]].
+		chat messages ifNotEmpty: [
+			oldestMessageId := chat messages last messageId.
+			chatMessageNumber := self messageLimit - chat messages size.
+			chatMessageNumber > 0 ifTrue: [self getChatHistoryFrom: chatID with: oldestMessageId and: chatMessageNumber]]].
