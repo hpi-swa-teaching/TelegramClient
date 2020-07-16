@@ -3,10 +3,18 @@
 		 },
 	"instance" : {
 		"addChat:" : "rs 6/25/2020 10:48",
+		"addNewMessage:" : "j 7/16/2020 12:06",
 		"app" : "js 6/1/2020 14:44",
 		"app:" : "js 6/1/2020 14:45",
+		"chatHistoryReceived:" : "j 7/16/2020 12:17",
 		"client" : "js 6/1/2020 14:44",
+		"getChatHistoryFrom:with:and:" : "f.w. 6/30/2020 16:17",
 		"getChats" : "rs 6/6/2020 16:36",
-		"sendMessage:to:" : "rs 6/17/2020 20:58",
+		"handleNewMessage:" : "j 7/16/2020 12:31",
+		"messageLimit" : "j 7/16/2020 12:03",
+		"messageLimit:" : "j 7/16/2020 12:03",
+		"openNewChat:" : "j 7/16/2020 12:04",
+		"searchChat:" : "f.w. 7/15/2020 22:53",
+		"sendMessage:to:" : "j 7/16/2020 12:32",
 		"updateChatOrder:" : "rs 6/25/2020 10:58",
-		"updateLastMessage:" : "rs 6/25/2020 10:43" } }
+		"updateLastMessage:" : "j 7/16/2020 12:05" } }

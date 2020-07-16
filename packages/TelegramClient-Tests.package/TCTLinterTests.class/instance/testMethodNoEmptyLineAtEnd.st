@@ -1,4 +1,4 @@
 tests
 testMethodNoEmptyLineAtEnd
 
-	self methodsLinesDo: [:lines | self assert: lines last isEmpty not].
+	self methodsLinesDo: [:lines | self assert: (self isLineWithOnlyTabsAndSpaces: lines last) not].

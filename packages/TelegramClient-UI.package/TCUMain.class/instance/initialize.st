@@ -5,9 +5,9 @@ initialize
 	self
 		extent: self defaultExtent;
 		borderWidth: 0;
-		addHeader;
 		chatWindow: TCUChatWindow new;
 		addChatsList;
+		addHeader;
 		initializeChatWindow;
 		subscribeChatsList;
 		clipSubmorphs: true.

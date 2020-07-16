@@ -2,15 +2,22 @@
 	"class" : {
 		 },
 	"instance" : {
-		"chatItemClicked:event:from:" : "rs 6/17/2020 23:04",
+		"chatItemClicked:event:from:" : "f.w. 6/26/2020 15:19",
 		"chats" : "rs 6/17/2020 22:38",
-		"chats:" : "rs 6/22/2020 17:01",
+		"chats:" : "f.w. 7/15/2020 23:57",
 		"clearItems" : "rs 6/17/2020 22:39",
 		"defaultWidth" : "R.S 6/1/2020 14:24",
-		"initialize" : "rs 6/17/2020 22:31",
+		"handleMouseWheel:" : "r.s 7/15/2020 15:09",
+		"initialize" : "f.w. 7/12/2020 04:29",
 		"initializeLayout" : "js 6/13/2020 18:49",
 		"items" : "js 6/13/2020 14:14",
 		"items:" : "js 6/13/2020 19:09",
-		"redrawItems" : "rs 6/25/2020 10:36",
+		"maxHeight" : "f.w. 7/12/2020 00:10",
+		"maxHeight:" : "f.w. 7/12/2020 04:56",
+		"openNewChat:" : "f.w. 7/16/2020 00:02",
+		"redrawItems" : "f.w. 7/12/2020 04:42",
+		"scrollDown" : "f.w. 7/12/2020 04:14",
+		"scrollUp" : "f.w. 7/12/2020 22:06",
 		"selectedChat" : "rs 6/13/2020 08:51",
-		"selectedChat:" : "rs 6/17/2020 22:25" } }
+		"selectedChat:" : "rs 6/17/2020 22:25",
+		"setToTop" : "f.w. 7/12/2020 22:15" } }
