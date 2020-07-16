@@ -1,16 +1,16 @@
 initialization
 newChatButtonClicked
 
-	| inputField modal|
+	| inputField modal |
 	modal := (TCUModal newWithText: 'Create new Chat with Handle: ' type: 'information').
 	inputField := TextMorph new
-		contentsWrapped:  'search...';
+		contentsWrapped: 'search...';
 		backgroundColor: Color white;
 		borderWidth: 2;
 		extent: 200 @ 50;
 		borderColor: TCUDefaultValues colorLightBlue.
 	inputField crAction: [self core searchChat: inputField text. modal delete].
 
-	modal 
+	modal
 		addMorphCentered: inputField;
 		openCenteredInWorld.
