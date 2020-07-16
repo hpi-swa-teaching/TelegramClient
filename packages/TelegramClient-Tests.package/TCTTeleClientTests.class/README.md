@@ -1,1 +1,0 @@
-TeleClientTests is responsible for testing correct FFI interation with tdlib as well as handle clearing

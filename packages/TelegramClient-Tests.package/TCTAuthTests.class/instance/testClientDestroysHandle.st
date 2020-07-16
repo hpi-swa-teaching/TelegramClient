@@ -1,4 +1,4 @@
-client
+testing
 testClientDestroysHandle
 
 	| aClient aMock |
