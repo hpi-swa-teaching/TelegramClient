@@ -5,4 +5,5 @@ initialize
 
 	self
 		color: TCUDefaultValues colorLightGray;
-		borderWidth: 0.
+		borderWidth: 0;
+		selectedChat: TCCNullChat new.

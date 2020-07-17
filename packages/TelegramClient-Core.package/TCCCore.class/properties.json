@@ -9,7 +9,8 @@
 		"client",
 		"authHandler",
 		"chatsHandler",
-		"chats" ],
+		"chats",
+		"loggedInUserID" ],
 	"name" : "TCCCore",
 	"pools" : [
 		 ],

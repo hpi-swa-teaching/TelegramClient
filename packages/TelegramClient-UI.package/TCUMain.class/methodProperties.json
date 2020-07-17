@@ -14,7 +14,7 @@
 		"chatsList" : "R.S 6/1/2020 14:27",
 		"chatsList:" : "R.S 6/1/2020 14:27",
 		"core" : "js 6/13/2020 18:51",
-		"core:" : "js 6/13/2020 18:51",
+		"core:" : "rs 7/5/2020 14:25",
 		"createHeaderMorph" : "js 6/13/2020 18:01",
 		"defaultExtent" : "R.S 6/1/2020 14:27",
 		"defaultHeaderHeight" : "R.S 6/1/2020 14:27",
@@ -23,7 +23,8 @@
 		"initialize" : "f.w. 7/12/2020 21:51",
 		"initializeChatWindow" : "js 6/13/2020 18:54",
 		"logout" : "js 6/13/2020 18:11",
-		"newChatButtonClicked" : "j 7/16/2020 12:28",
+		"newChatButtonClicked" : "r.s 7/16/2020 13:08",
 		"newChatSelected:" : "f.w. 7/16/2020 00:02",
+		"newMessageReceived:" : "j 7/16/2020 13:26",
 		"sendMessage:" : "rs 6/17/2020 21:19",
 		"subscribeChatsList" : "f.w. 7/15/2020 23:55" } }

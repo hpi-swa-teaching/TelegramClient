@@ -2,9 +2,9 @@ initialization
 newChatButtonClicked
 
 	| inputField modal |
-	modal := (TCUModal newWithText: 'Create new Chat with Handle: ' type: 'information').
+	modal := (TCUModal newWithText: 'Create new Chat with TelegramTag: ' type: 'information').
 	inputField := TextMorph new
-		contentsWrapped: 'search...';
+		contentsWrapped: '@';
 		backgroundColor: Color white;
 		borderWidth: 2;
 		extent: 200 @ 50;

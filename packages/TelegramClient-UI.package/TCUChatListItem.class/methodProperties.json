@@ -1,14 +1,15 @@
 {
 	"class" : {
-		"newWithChat:andWidth:" : "rs 6/17/2020 23:07" },
+		"newWithChat:andWidth:" : "rs 7/4/2020 18:47" },
 	"instance" : {
 		"addBorder" : "R.S 6/1/2020 22:20",
-		"addTitle" : "js 6/13/2020 18:46",
+		"addLastMessage" : "j 7/16/2020 13:27",
+		"addTitle" : "rs 7/4/2020 19:05",
 		"chat" : "rs 6/17/2020 21:45",
 		"chat:" : "rs 6/17/2020 21:45",
 		"chatID" : "rs 6/17/2020 23:05",
 		"chatName" : "rs 6/17/2020 21:45",
-		"defaultHeight" : "js 6/13/2020 18:42",
+		"defaultHeight" : "rs 7/4/2020 18:54",
 		"deselect" : "rs 6/13/2020 09:02",
 		"initialize" : "rs 6/17/2020 23:05",
 		"select" : "rs 6/13/2020 08:49" } }

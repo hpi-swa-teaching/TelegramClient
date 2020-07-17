@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"newWithMessage:" : "j 7/16/2020 13:23" },
+	"instance" : {
+		"addTextLabel" : "j 7/16/2020 13:25",
+		"calculatePosition" : "rs 7/5/2020 14:42",
+		"chatID" : "rs 7/5/2020 14:31",
+		"chatID:" : "rs 7/5/2020 14:31",
+		"defaultHeight" : "rs 7/5/2020 14:18",
+		"defaultOffset" : "rs 7/5/2020 14:43",
+		"defaultWidth" : "rs 7/5/2020 14:44",
+		"initialize" : "rs 7/5/2020 14:43",
+		"initializeDefaults" : "rs 7/5/2020 14:43",
+		"startTimeOut" : "j 7/16/2020 13:25",
+		"text" : "rs 7/5/2020 14:28",
+		"text:" : "rs 7/5/2020 14:28" } }

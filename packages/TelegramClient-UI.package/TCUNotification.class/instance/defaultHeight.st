@@ -1,4 +1,4 @@
-default values
+defaultValues
 defaultHeight
 
 	^ 80

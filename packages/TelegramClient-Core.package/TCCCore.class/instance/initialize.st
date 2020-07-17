@@ -4,6 +4,7 @@ initialize
 	self
 		initializeClient;
 		initializeHandlers;
-		chats: TCCChats new.
+		chats: TCCChats new;
+		loggedInUserID: 0.
 
 	[self receiveLoop] fork.

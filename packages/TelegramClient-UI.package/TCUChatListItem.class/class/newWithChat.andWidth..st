@@ -5,5 +5,6 @@ newWithChat: aChat andWidth: aWidth
 		chat: aChat;
 		width: aWidth;
 		addTitle;
+		addLastMessage;
 		addBorder;
 		yourself

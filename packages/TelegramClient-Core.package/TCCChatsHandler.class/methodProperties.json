@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addChat:" : "rs 6/25/2020 10:48",
-		"addNewMessage:" : "j 7/16/2020 12:06",
+		"addChat:" : "rs 7/4/2020 18:48",
+		"addNewMessage:" : "rs 7/5/2020 14:24",
 		"app" : "js 6/1/2020 14:44",
 		"app:" : "js 6/1/2020 14:45",
-		"chatHistoryReceived:" : "j 7/16/2020 12:17",
+		"chatHistoryReceived:" : "j 7/16/2020 13:29",
 		"client" : "js 6/1/2020 14:44",
 		"getChatHistoryFrom:with:and:" : "f.w. 6/30/2020 16:17",
 		"getChats" : "rs 6/6/2020 16:36",
@@ -17,4 +17,4 @@
 		"searchChat:" : "f.w. 7/15/2020 22:53",
 		"sendMessage:to:" : "j 7/16/2020 12:32",
 		"updateChatOrder:" : "rs 6/25/2020 10:58",
-		"updateLastMessage:" : "j 7/16/2020 12:05" } }
+		"updateLastMessage:" : "r.s 7/7/2020 13:53" } }
