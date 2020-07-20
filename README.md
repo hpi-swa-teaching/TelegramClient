@@ -50,4 +50,4 @@ Once this project concludes there will be a need for the next group to aquire a 
 We have a [Discord](https://discord.gg/craraGh) server setup with a Github Webhook, notifying us on important changes to the repository. Most exchanges happened in there, making it a valueable resource for successive groups.
 
 ## Our Group
-Group 13 of the 2020 SWT I module incuded Rohan Sawahn, Jonas Schmidt, Frederik Wollny, Stefan Spangenberg, Lukas Laskowski and Niklas Schilli.
+Group 13 of the 2020 SWT I module incuded [Rohan Sawahn](https://github.com/rohansaw), [Jonas Schmidt](https://github.com/schmidtjonas), [Frederik Wollny](https://github.com/Freddy200), [Stefan Spangenberg](https://github.com/sspangenberg), [Lukas Laskowski](https://github.com/lasklu) and [Niklas Schilli](https://github.com/Mrnikbobjeff).
