@@ -36,7 +36,7 @@ install: 'FFI-Kernel'.`
 * Step 5 (Windows only): Install the [Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019](https://aka.ms/vs/16/release/vc_redist.x64.exe)
 
 ## Running TelegramClient
-In a workspace window either execute the command `TCUApp newWithTCCApp` or click the TelegramClient entry in the Apps dropdown menu.
+In a workspace window either execute the command `TCUTelegram newWithTCCCore` or click the TelegramClient entry in the Apps dropdown menu.
 
 ## Building Tdlib
 Tdlib build instructions are available on their Github page. They also have a wonderful build instruction generator available which was the basis for our workflow . [Check it out here.](https://tdlib.github.io/td/build.html) Alternatively use the [Github Pipelines](https://github.com/hpi-swa-teaching/tdlib) we setup and modify them according to newer build instructions for successive tdlib versions. Currently we release at Tag 1.6.0.
@@ -44,6 +44,10 @@ Tdlib build instructions are available on their Github page. They also have a wo
 ## Notes on Tdlib
 The TelegramClient is build on the TelegramDatabseLibrary which provides access to Telegram API via a JSON-Interface.
 We include Tdlib in our project and can access it with the Squeak FFI, in turn allowing us to access the Telegram API via JSON-Interface.
+Once this project concludes there will be a need for the next group to aquire a new [API key](https://core.telegram.org/api/obtaining_api_id).
 
 ## Resources for following groups
 We have a [Discord](https://discord.gg/craraGh) server setup with a Github Webhook, notifying us on important changes to the repository. Most exchanges happened in there, making it a valueable resource for successive groups.
+
+## Our Group
+Group 13 of the 2020 SWT I module incuded [Rohan Sawahn](https://github.com/rohansaw), [Jonas Schmidt](https://github.com/schmidtjonas), [Frederik Wollny](https://github.com/Freddy200), [Stefan Spangenberg](https://github.com/sspangenberg), [Lukas Laskowski](https://github.com/lasklu) and [Niklas Schilli](https://github.com/Mrnikbobjeff).
