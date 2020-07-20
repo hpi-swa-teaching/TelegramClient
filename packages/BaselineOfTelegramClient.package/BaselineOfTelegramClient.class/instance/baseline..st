@@ -11,7 +11,7 @@ baseline: spec
 					className: 'ConfigurationOfRefactoringBrowser';
 					versionString: #'stable';
 					loads: #('Core' );
-					repository: 'http://www.squeaksource.com/MetacelloRepository' ];
+					repository: 'http://www.squeaksource.com/MetacelloRepository' ].
 			spec   
 				package: 'JSON'
 						with: [
