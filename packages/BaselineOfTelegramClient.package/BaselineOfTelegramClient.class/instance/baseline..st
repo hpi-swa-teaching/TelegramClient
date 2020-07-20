@@ -23,7 +23,7 @@ baseline: spec
 									repository: 'github://hpi-swa-teaching/SwaLint:master/packages' ];
 			package: 'SwaLint-Core' with: [	spec	file: 'SwaLint-Core-cypress.1';
 								repository: 'github://hpi-swa-teaching/SwaLint:master/packages';
-								requires: #('RefactoringBrowser' 'SwaLint-Preferences')];
+								requires: #('SwaLint-Preferences')];
 			
 			postLoadDoIt: #postLoad;
 			
@@ -32,7 +32,7 @@ baseline: spec
 								requires: 'SwaLint-Core' ];
 			package: 'TelegramClient-Core' with: [spec requires: #('libraries')];
 			package: 'TelegramClient-UI' with: [spec requires: #('libraries')];
-			package: 'TelegramClient-Tests'  with: [spec requires: #('default')];
+			package: 'TelegramClient-Tests'  with: [spec requires: #('default' 'SwaLint')];
 			yourself.
 				
 			spec
@@ -40,6 +40,4 @@ baseline: spec
 				group: 'default' with: #('TelegramClient-Core' 'TelegramClient-UI');
 				group: 'tests' with: #('TelegramClient-Tests' )];
 				group: 'default' with: #('PlugIns' 'libraries');
-				group: 'Core' with: #('SwaLint-Core');
-				group: 'PlugIns' with: #('SwaLint-PlugIns');
 				yourself
