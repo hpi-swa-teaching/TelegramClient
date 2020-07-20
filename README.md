@@ -47,3 +47,6 @@ We include Tdlib in our project and can access it with the Squeak FFI, in turn a
 
 ## Resources for following groups
 We have a [Discord](https://discord.gg/craraGh) server setup with a Github Webhook, notifying us on important changes to the repository. Most exchanges happened in there, making it a valueable resource for successive groups.
+
+## Our Group
+Group 13 of the 2020 SWT I module incuded Rohan Sawahn, Jonas Schmidt, Frederik Wollny, Stefan Spangenberg, Lukas Laskowski and Niklas Schilli.
