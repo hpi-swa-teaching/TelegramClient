@@ -56,9 +56,9 @@ baseline: spec
 				group: 'default' with: #('TelegramClient-Core' 'TelegramClient-UI');
 				group: 'tests' with: #('TelegramClient-Tests' )];
 			group: 'default' with: #('PlugIns' 'libraries');
-			group: 'portability' with: #('PlugIns');
-			group: 'web' with: #('portability' );
+			
+			
 			group: 'Core' with: #('SwaLint-Core');
-			group: 'All' with: #( 'web');
+			
 			group: 'PlugIns' with: #('SwaLint-PlugIns');
 				yourself
