@@ -12,20 +12,6 @@ baseline: spec
 					versionString: #'stable';
 					loads: #('Core' );
 					repository: 'http://www.squeaksource.com/MetacelloRepository' ];
-			project: 'Grease' with: [
-				spec
-					className: 'ConfigurationOfGrease';
-					versionString: #'stable';
-					loads: #('Slime');
-					repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main';
-					repository: 'http://www.squeaksource.com/MetacelloRepository'];
-			project: 'Seaside3' with: [
-				spec
-					className: 'ConfigurationOfSeaside3';
-					versionString: #'stable';
-					loads: #('Development');
-					repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main';
-					repository: 'http://www.squeaksource.com/MetacelloRepository'].
 			spec   
 				package: 'JSON'
 						with: [
