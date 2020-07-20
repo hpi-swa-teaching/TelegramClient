@@ -5,6 +5,27 @@ baseline: spec
 		for: #'common'
 		do: [		
 			Preferences disable: #showDeprecationWarnings.		
+			spec 
+			project: 'RefactoringBrowser' with: [
+				spec
+					className: 'ConfigurationOfRefactoringBrowser';
+					versionString: #'stable';
+					loads: #('Core' );
+					repository: 'http://www.squeaksource.com/MetacelloRepository' ];
+			project: 'Grease' with: [
+				spec
+					className: 'ConfigurationOfGrease';
+					versionString: #'stable';
+					loads: #('Slime');
+					repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main';
+					repository: 'http://www.squeaksource.com/MetacelloRepository'];
+			project: 'Seaside3' with: [
+				spec
+					className: 'ConfigurationOfSeaside3';
+					versionString: #'stable';
+					loads: #('Development');
+					repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main';
+					repository: 'http://www.squeaksource.com/MetacelloRepository'].
 			spec   
 				package: 'JSON'
 						with: [
@@ -33,9 +54,11 @@ baseline: spec
 								file: 'SwaLint-Core-cypress.1';
 								repository: 
 										'github://hpi-swa-teaching/SwaLint:master/packages';
-								requires: #( 'SwaLint-Preferences' )];
+								requires: #('RefactoringBrowser' 'SwaLint-Preferences')];
 				postLoadDoIt: #postLoad;
-			
+			package: 'SwaLint-PlugIns' with: [ spec file: 'SwaLint-PlugIns-cypress.1';
+								repository: 
+										'github://hpi-swa-teaching/SwaLint:master/packages'; requires: 'SwaLint-Core' ];
 			
 			
 				package: 'TelegramClient-Core' with: [spec requires: #('libraries')];
