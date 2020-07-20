@@ -30,7 +30,6 @@ baseline: spec
 			package: 'SwaLint-PlugIns' with: [ spec file: 'SwaLint-PlugIns-cypress.1';
 								repository: 'github://hpi-swa-teaching/SwaLint:master/packages';
 								requires: 'SwaLint-Core' ];
-			
 			package: 'TelegramClient-Core' with: [spec requires: #('libraries')];
 			package: 'TelegramClient-UI' with: [spec requires: #('libraries')];
 			package: 'TelegramClient-Tests'  with: [spec requires: #('default')];
