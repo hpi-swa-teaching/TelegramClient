@@ -26,8 +26,6 @@ jobs:
       - uses: hpi-swa/setup-smalltalkCI@v1
         with:
           smalltalk-version: ${{ matrix.smalltalk }}
-          smalltalkCI-branch: '454-coverage-services'
-          smalltalkCI-source: 'gcotelli/smalltalkCI'
       - run: smalltalkci -s ${{ matrix.smalltalk }}
         timeout-minutes: 15
       - name: Coveralls
