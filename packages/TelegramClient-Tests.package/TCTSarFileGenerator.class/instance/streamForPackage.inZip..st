@@ -1,5 +1,6 @@
 helpers
 streamForPackage: aPackage inZip: aZip
+
 	"Adds a package to a zip file"
 
 	| mczStream workingCopy version |
