@@ -17,20 +17,20 @@ jobs:
           smalltalk-version: ${{ matrix.smalltalk }}
       - run: smalltalkci -s ${{ matrix.smalltalk }} .smalltalk.release.ston
         timeout-minutes: 15
-      - name: Bump version and push tag
-        id: bump_version
-        uses: mathieudutour/github-tag-action@v4.5
+      - name: Get current time
+        uses: 1466587594/get-current-time@v1
+        id: current-time
         with:
-          release_branches : develop
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          format: YYYYMMDD-HH
+          utcOffset: "+01:00"
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: Release Tag ${{ steps.bump_version.new_version  }}
-          release_name: Release ${{ steps.bump_version.new_version  }}
+          tag_name: ${{ steps.current-time.outputs.formattedTime  }}
+          release_name: Release ${{ steps.current-time.outputs.formattedTime  }}
           draft: false
           prerelease: false
       - name: Upload Release Asset
