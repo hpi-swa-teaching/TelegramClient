@@ -11,6 +11,6 @@ SmalltalkCISpec {
   ],
    #testing : {
     #classes : [ #TCTSarFileGenerator ],
-    #defaultTimeout : 60
+    #defaultTimeout : 240
   }
 }
