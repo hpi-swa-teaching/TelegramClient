@@ -1,12 +1,11 @@
 as yet unclassified
-createSARFile
+testCreateSarFile
 	"Creates a release sar file"
 |package ui zip mczStream workingCopy version folder |
 
 package := 'TelegramClient-Core'.
 ui := 'TelegramClient-UI'.
 folder := 'TDLib'.
-
 zip := ZipArchive new.
 mczStream := RWBinaryOrTextStream on: (String new: 10000).
 workingCopy := MCWorkingCopy forPackage: (MCPackage new name: package).
@@ -30,8 +29,7 @@ file := ((Smalltalk platformName) startsWith: ''Win32'')
 				ifFalse: [''libtdjson.so.1.6.0'' ]].
 destination :=  ((Smalltalk platformName) startsWith: ''Win32'')
 			ifTrue: [FileDirectory default / ''..'' / ''Win64'' ]
-			ifFalse: [FileDirectory default].
-						
+			ifFalse: [FileDirectory default].						
 self fileInMonticelloZipVersionNamed:
     ''' , ui , '.mcz''.
 (self membersMatching: (''' , folder , FileDirectory slash , ''',file)) do: [ :f | self
