@@ -1,4 +1,4 @@
-as yet unclassified
+sar
 testCreateSarFile
 	"Creates a release sar file"
 |package ui zip mczStream workingCopy version folder |

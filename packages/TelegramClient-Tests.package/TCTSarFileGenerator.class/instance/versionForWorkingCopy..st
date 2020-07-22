@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 versionForWorkingCopy: aWorkingCopy
 	"Supresses the working copy dialogue and returns a version"
 

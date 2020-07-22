@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 generatePreamble: package uipackage: ui nativeResourceFolder: folder
 	"Returns the inteded filepath for the tdlib binaries"
 
