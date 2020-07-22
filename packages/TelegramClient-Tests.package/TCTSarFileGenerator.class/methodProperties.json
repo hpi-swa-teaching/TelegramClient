@@ -3,5 +3,6 @@
 		 },
 	"instance" : {
 		"generatePreamble:uipackage:nativeResourceFolder:" : "N.S. 7/22/2020 17:58",
-		"testCreateSarFile" : "N.S. 7/22/2020 17:49",
+		"streamForPackage:inZip:" : "N.S. 7/22/2020 18:03",
+		"testCreateSarFile" : "N.S. 7/22/2020 18:05",
 		"versionForWorkingCopy:" : "N.S. 7/22/2020 17:58" } }
