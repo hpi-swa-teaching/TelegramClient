@@ -14,7 +14,6 @@ SmalltalkCISpec {
       #packages : [ 'TelegramClient-Core.*' ]
     },
     #exclude : {
-	  
       #classes : [ #TCTLinterTests ],
     },
     #defaultTimeout : 60
