@@ -21,6 +21,7 @@ jobs:
         id: bump_version
         uses: mathieudutour/github-tag-action@v4.5
         with:
+          release_branches : develop
           github_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Create Release
         id: create_release
@@ -28,7 +29,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ steps.bump_version.new_version  }}
+          tag_name: Release Tag ${{ steps.bump_version.new_version  }}
           release_name: Release ${{ steps.bump_version.new_version  }}
           draft: false
           prerelease: false
