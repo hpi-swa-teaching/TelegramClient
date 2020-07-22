@@ -1,3 +1,3 @@
 SmalltalkCISpec {
-  #preLoading : 'packages/TelegramClient-Tests.package/TCTSarFileGenerator.class/instance/createSARFile.st',
+  #preLoading : 'packages/TelegramClient-Tests.package/TCTSarFileGenerator.class/instance/createSARFile.st'
 }
