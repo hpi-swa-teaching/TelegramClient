@@ -11,5 +11,5 @@ SmalltalkCISpec {
   #preTesting : SCICustomScript {
     #path : 'packages/TelegramClient-Tests.package/TCTSarFileGenerator.class/instance/createSARFile.st',
     #platforms : [ #squeak ]
-  },
+  }
 }
