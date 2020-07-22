@@ -29,3 +29,4 @@ jobs:
       - run: smalltalkci -s ${{ matrix.smalltalk }}
         timeout-minutes: 15
       - run: cat "/home/runner/.smalltalkCI/_builds/coveralls_results.json"
+      - run: ./scripts/coveralls.sh
