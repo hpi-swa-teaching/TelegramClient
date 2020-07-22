@@ -3,8 +3,9 @@ versionForWorkingCopy: aWorkingCopy
 
 	"Supresses the working copy dialogue and returns a version"
 
-	| version |	
-	version := aWorkingCopy newVersion
+	| version |
+	version := ''. "Needed for linter..."
+	[version := aWorkingCopy newVersion]
 		on: MCVersionNameAndMessageRequest
 		do: [:n | 
 			n patchBlock value.
