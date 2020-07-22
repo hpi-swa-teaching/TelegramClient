@@ -10,7 +10,7 @@ SmalltalkCISpec {
     }
   ],
    #testing : {
-    #classes : [ #testCreateSARFile ],
+    #classes : [ #TCTSarFileGenerator ],
     #defaultTimeout : 60
   }
 }
