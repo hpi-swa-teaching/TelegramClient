@@ -5,7 +5,7 @@ SmalltalkCISpec {
       #baseline : 'TelegramClient',
       #platforms : [ #squeak ],
       #directory : 'packages',
-      #load : [ 'tests' ]
+      #load : [ 'tests' 'core' ]
     }
   ],
   #preTesting : SCICustomScript {
