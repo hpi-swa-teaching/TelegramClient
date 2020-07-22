@@ -15,7 +15,7 @@ SmalltalkCISpec {
     },
     #exclude : {
 	  
-      #classes : [ #TCTLinterTests #TCTSarFileGenerator ],
+      #classes : [ #TCTLinterTests, #TCTSarFileGenerator ],
     },
     #defaultTimeout : 60
   }
