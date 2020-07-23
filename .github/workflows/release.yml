@@ -1,6 +1,9 @@
 name: CI-Release
 
-on: [pull_request]
+on: 
+  push:
+    branches:
+      - master
 
 jobs:
   build:
@@ -16,5 +19,30 @@ jobs:
         with:
           smalltalk-version: ${{ matrix.smalltalk }}
       - run: smalltalkci -s ${{ matrix.smalltalk }} .smalltalk.release.ston
-        shell: bash
         timeout-minutes: 15
+      - name: Get current time
+        uses: 1466587594/get-current-time@v1
+        id: current-time
+        with:
+          format: YYYYMMDD-HH
+          utcOffset: "+01:00"
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.current-time.outputs.formattedTime  }} 
+          release_name: Release ${{ steps.current-time.outputs.formattedTime  }}
+          draft: false
+          prerelease: false
+      - name: Upload Release Asset
+        id: upload-release-asset 
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
+          asset_path: /home/runner/.smalltalkCI/_builds/TelegramClient.sar
+          asset_name: TelegramClient.sar
+          asset_content_type: application/zip
