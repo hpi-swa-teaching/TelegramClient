@@ -32,7 +32,7 @@ Make sure you have the current version of Squeak installed.
 install: 'FFI-Pools';
 install: 'FFI-Kernel'.`
 * Step 3: Download the required native Binaries for your system. [Windows](https://github.com/hpi-swa-teaching/tdlib/actions?query=workflow%3A%22Windows+CI%22), [Mac](https://github.com/hpi-swa-teaching/tdlib/actions?query=workflow%3A%22Tdlib+Max+x64+Build%22), [Ubuntu 18 lts](https://github.com/hpi-swa-teaching/tdlib/actions?query=workflow%3A%22Tdlib+Ubuntu+Build%22). Select the latest successful run of the pipeline and download the single artifact produced by the respective pipeline.
-* Step 4: Place the unzipped binaries inside of your squeak image. On Windows, place them inside the Win32 folder, on Linux in "Contents/Linux-x86_64/lib/squeak/\<versionnumber>/" and on Mac place them inside the resources folder.
+* Step 4: Place the unzipped binaries inside of your squeak image inside the 'Resource' folder.
 * Step 5 (Windows only): Install the [Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019](https://aka.ms/vs/16/release/vc_redist.x64.exe)
 
 ## Running TelegramClient
