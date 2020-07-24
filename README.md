@@ -27,7 +27,7 @@ Master(Release): ![CI](https://github.com/hpi-swa-teaching/TelegramClient/workfl
 
 ## Installation
 Make sure you have the current version of Squeak installed.
-* Step 1: Install the Squeak Git Client
+* Step 1: Install the Squeak Git Client and clone this repository. For the trunk clone develop, for the latest stable release choose master.
 * Step 2: Install the Squeak FFI Workload. To do so, open the Workspace in Squeak and execute the following command:   `(Installer repository: 'http://source.squeak.org/FFI')
 install: 'FFI-Pools';
 install: 'FFI-Kernel'.`
@@ -35,8 +35,9 @@ install: 'FFI-Kernel'.`
 * Step 4: Place the unzipped binaries inside of your squeak image inside the 'Resource' folder.
 * Step 5 (Windows only): Install the [Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019](https://aka.ms/vs/16/release/vc_redist.x64.exe)
 
+Alternatively, check our (release page)[https://github.com/hpi-swa-teaching/TelegramClient/releases] for an online installer in the form of a sar file. In that case you just have to follow steps two and five.
 ## Running TelegramClient
-In a workspace window either execute the command `TCUTelegram newWithTCCCore` or click the TelegramClient entry in the Apps dropdown menu.
+In a workspace window either execute the command `TCUTelegram newWithTCCCore` or click the Telegram entry in the Apps dropdown menu. The menu is only available if you already started the app once or installed the app via a release sar file.
 
 ## Building Tdlib
 Tdlib build instructions are available on their Github page. They also have a wonderful build instruction generator available which was the basis for our workflow . [Check it out here.](https://tdlib.github.io/td/build.html) Alternatively use the [Github Pipelines](https://github.com/hpi-swa-teaching/tdlib) we setup and modify them according to newer build instructions for successive tdlib versions. Currently we release at Tag 1.6.0.
