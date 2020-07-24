@@ -38,6 +38,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
+      - run: cd scripts
       - run: npm install
-      - run: npm install codecov-json-to-lcov
-      - run: node ./scripts/index.js
+      - run: node index.js
