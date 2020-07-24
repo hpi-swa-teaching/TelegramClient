@@ -20,6 +20,7 @@ jobs:
         # Select compatible Smalltalk image(s)
         # currently not running on Squeak64-trunk
         smalltalk: [ Squeak64-5.3, Squeak64-5.2 ]
+        node-version: [8.x, 10.x, 12.x]
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
@@ -33,3 +34,10 @@ jobs:
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           file: "/home/runner/.smalltalkCI/_builds/coveralls_results.json"
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm install
+      - run: npm install codecov-json-to-lcov
+      - run: node ./scripts/index.js
