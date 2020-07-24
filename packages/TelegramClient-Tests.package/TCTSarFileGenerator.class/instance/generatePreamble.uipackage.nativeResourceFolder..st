@@ -15,4 +15,5 @@ ifTrue: [FileDirectory default / ''..'' / ''Win64'' ]
 ifFalse: [FileDirectory default].						
 self fileInMonticelloZipVersionNamed:
 ''' , ui , '.mcz''.
+TCUTelegram registerOpenCommand.
 (self membersMatching: (''' , folder , FileDirectory slash , ''',file)) do: [ :f | self extractMemberWithoutPath: f inDirectory: destination].' 
