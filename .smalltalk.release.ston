@@ -1,0 +1,16 @@
+SmalltalkCISpec {
+
+  #preLoading : 'scripts/preLoading.st',
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'TelegramClient',
+      #platforms : [ #squeak ],
+      #directory : 'packages',
+      #load : [ 'tests' ]
+    }
+  ],
+   #testing : {
+    #classes : [ #TCTSarFileGenerator ],
+    #defaultTimeout : 60
+  }
+}
