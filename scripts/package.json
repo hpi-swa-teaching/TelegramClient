@@ -1,0 +1,43 @@
+{
+  "name": "codecov-json-to-lcov",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azu/codecov-json-to-lcov.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/codecov-json-to-lcov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/codecov-json-to-lcov/issues"
+  },
+  "version": "1.1.1",
+  "description": "convert Codecov json format to lcov format.",
+  "main": "lib/codecov-json-to-lcov.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib --source-maps",
+    "watch": "babel src --out-dir lib --watch --source-maps",
+    "prepublish": "npm run --if-present build",
+    "test": "mocha"
+  },
+  "keywords": [
+    "codecov",
+    "coverage",
+    "lcov"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-preset-es2015": "^6.3.13",
+    "espower-babel": "^4.0.1",
+    "mocha": "^2.3.4",
+    "power-assert": "^1.2.0"
+  }
+}
