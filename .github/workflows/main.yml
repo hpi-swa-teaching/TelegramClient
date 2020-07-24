@@ -41,3 +41,4 @@ jobs:
       - run: cd scripts
       - run: npm install
       - run: node index.js
+
