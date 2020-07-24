@@ -8,8 +8,12 @@
 	"instvars" : [
 		"items",
 		"selectedChat",
+<<<<<<< HEAD:packages/TelegramClient-UI.package/TCUChatsList.class/properties.json
 		"chats",
 		"maxHeight" ],
+=======
+		"chats" ],
+>>>>>>> remotes/origin/master:packages/TelegramClient-UI.package/TCUChatsList.class/properties.json
 	"name" : "TCUChatsList",
 	"pools" : [
 		 ],

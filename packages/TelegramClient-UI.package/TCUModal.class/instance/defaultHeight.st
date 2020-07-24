@@ -1,4 +1,0 @@
-defaultValues
-defaultHeight
-
-	^ 280

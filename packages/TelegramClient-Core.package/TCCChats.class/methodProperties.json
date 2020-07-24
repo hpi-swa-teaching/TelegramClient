@@ -2,6 +2,10 @@
 	"class" : {
 		"new" : "rs 6/6/2020 17:58" },
 	"instance" : {
+<<<<<<< HEAD
 		"getChat:" : "rs 6/19/2020 17:13",
+=======
+		"getChat:" : "rs 6/6/2020 17:02",
+>>>>>>> remotes/origin/master
 		"initialize" : "rs 6/6/2020 17:57",
 		"sortBlock" : "rs 6/6/2020 17:56" } }
