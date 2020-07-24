@@ -10,9 +10,7 @@ ifTrue: [''tdjson.dll'' ]
 ifFalse: [(anOsName startsWith: ''Mac OS'')
 ifTrue: [''libtdjson.1.6.0.dylib'' ]
 ifFalse: [''libtdjson.so.1.6.0'' ]].
-destination := ((Smalltalk platformName) startsWith: ''Win32'')
-ifTrue: [FileDirectory default / ''..'' / ''Win64'' ]
-ifFalse: [FileDirectory default].						
+destination := FileDirectory default.			
 self fileInMonticelloZipVersionNamed:
 ''' , ui , '.mcz''.
 TCUTelegram registerOpenCommand.
