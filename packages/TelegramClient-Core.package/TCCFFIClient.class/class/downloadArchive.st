@@ -3,7 +3,7 @@ downloadArchive
 
 	"downloads the link as an archive as is needed for windows"
 	| intermediatePath archive response |
-	intermediatePath := FileDirectory default / 'platformarchive.zip'.
+	intermediatePath := FileDirectory default / 'archive.zip'.
 	FileStream fileNamed: intermediatePath fullName do: [:stream |
 			response := WebClient httpGet: self downloadUrl.
 			stream

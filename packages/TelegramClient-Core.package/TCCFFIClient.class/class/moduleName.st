@@ -17,5 +17,4 @@ moduleName
 			stream
 				binary;
 				nextPutAll: response content]].].
-		
 	^ filePath fullName
