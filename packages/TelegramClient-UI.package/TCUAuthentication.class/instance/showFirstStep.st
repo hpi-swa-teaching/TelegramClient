@@ -2,7 +2,7 @@ accessing
 showFirstStep
 
 	self instructionLabel
-		contents: 'Enter Phonenumber: ' asText;
+		contents: 'Enter your telephone number: ' asText;
 		center: self center.
 
 	self buttonVerify hide.
