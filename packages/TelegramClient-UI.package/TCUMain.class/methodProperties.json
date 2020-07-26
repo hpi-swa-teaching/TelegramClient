@@ -1,5 +1,7 @@
 {
 	"class" : {
+		"core" : "N.S. 7/26/2020 22:26",
+		"core:" : "N.S. 7/26/2020 22:26",
 		"newWithCore:" : "f.w. 6/3/2020 20:31" },
 	"instance" : {
 		"addChatsList" : "rs 6/17/2020 22:54",
@@ -14,7 +16,7 @@
 		"chatsList" : "R.S 6/1/2020 14:27",
 		"chatsList:" : "R.S 6/1/2020 14:27",
 		"core" : "js 6/13/2020 18:51",
-		"core:" : "rs 7/5/2020 14:25",
+		"core:" : "N.S. 7/26/2020 22:15",
 		"createHeaderMorph" : "js 6/13/2020 18:01",
 		"defaultExtent" : "R.S 6/1/2020 14:27",
 		"defaultHeaderHeight" : "R.S 6/1/2020 14:27",
