@@ -25,7 +25,8 @@ If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
  - OS: [e.g. Windosws]
- - Version [e.g. 5.3]
+ - Version [e.g. 10]
+ - Squeak version [e.g. 5.3]
 
 
 **Additional context**
