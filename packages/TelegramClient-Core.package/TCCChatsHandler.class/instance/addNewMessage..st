@@ -1,7 +1,7 @@
 events
 addNewMessage: anEvent
 
-	| aMessage |
+	| aMessage aChat|
 	
 	aMessage := (TCCMessage new
 		message: ((((anEvent at: 'message') at: 'content') at: 'text') at: 'text');
@@ -9,5 +9,8 @@ addNewMessage: anEvent
 		chatID: ((anEvent at: 'message') at: 'chat_id');
 		messageId: ((anEvent at: 'message') at: 'id')).
 		
-	(self app chats getChat: ((anEvent at: 'message') at: 'chat_id')) messages addFirst: aMessage.
+	aChat := (self app chats getChat: ((anEvent at: 'message') at: 'chat_id')).
+	(((aChat messages notEmpty) and: (aChat messages first)) messageId equals: aMessage messageId)
+		ifFalse: [aChat messages addFirst: aMessage.].
+	
 	self app triggerEvent: #newMessageReceived with: aMessage.
