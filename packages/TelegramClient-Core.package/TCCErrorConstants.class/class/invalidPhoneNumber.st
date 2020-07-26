@@ -1,4 +1,4 @@
 messages
 invalidPhoneNumber
 
-^'The phone number or authentication code you entered seems to be invalid.'
+^'The phone number you entered seems to be invalid.'
