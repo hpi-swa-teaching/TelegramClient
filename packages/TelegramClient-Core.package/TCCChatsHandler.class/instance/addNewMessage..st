@@ -10,7 +10,7 @@ addNewMessage: anEvent
 		messageId: ((anEvent at: 'message') at: 'id')).
 		
 	aChatMessageList := (self app chats getChat: ((anEvent at: 'message') at: 'chat_id')) messages.
-	(aChatMessageList notEmpty) ifTrue:[ (aChatMessageList first messageId equals: aMessage messageId)
-		ifFalse: [aChatMessageList addFirst: aMessage.].].
+	((aChatMessageList isEmpty) or: ((aChatMessageList first messageId equals: aMessage messageId) not))
+		ifTrue: [aChatMessageList addFirst: aMessage.].
 	
 	self app triggerEvent: #newMessageReceived with: aMessage.
