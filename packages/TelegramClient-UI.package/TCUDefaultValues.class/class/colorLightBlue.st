@@ -1,4 +1,4 @@
 colors
 colorLightBlue
 
-	^ (Color r: (64 /255) g: (167 / 255) b: (227 / 255))
+	^ (Color r: (0 /255) g: (136 / 255) b: (204 / 255))

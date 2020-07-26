@@ -7,6 +7,7 @@ addTitle: aString to: aMorph
 
 	titleLable := TextMorph new
 		contents: (aString asText addAttribute: font);
-		color: Color white.
+		color: Color white;
+		lock.
 
 	aMorph addMorphCentered: titleLable.

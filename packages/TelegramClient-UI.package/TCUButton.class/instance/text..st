@@ -5,4 +5,5 @@ text: aString
 		contents: aString asText;
 		lock.
 
+	self text color: Color white.
 	self addMorphCentered: text.
