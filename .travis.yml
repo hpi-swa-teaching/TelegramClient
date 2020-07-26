@@ -1,8 +1,0 @@
-language: smalltalk
-sudo: false
-
-os:
-  - linux
-
-smalltalk:
-  - Squeak64-5.2
