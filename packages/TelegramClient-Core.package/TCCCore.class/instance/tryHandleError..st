@@ -5,6 +5,8 @@ tryHandleError: anError
 	(anError at: 'message') caseOf: {
 	 ['USERNAME_NOT_OCCUPIED'] ->[ UIManager default inform: TCCErrorConstants unknownUsername .].
 	 ['USERNAME_INVALID'] -> [ UIManager default inform: TCCErrorConstants unknownUsername .].
+	
+	 ['PHONE_NUMBER_INVALID'] -> [ UIManager default inform: TCCErrorConstants invalidPhoneNumber.].
 	}
 	otherwise: [
 		((anError at: 'message') startsWith: 'Can''t lock file')
