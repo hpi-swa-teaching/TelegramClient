@@ -13,7 +13,6 @@ SmalltalkCISpec {
     #coverage : {
       #packages : [ 'TelegramClient-Core.*' ],
       #service: #coveralls,
-      #auto_upload: false
     },
     #exclude : {
       #classes : [ #TCTLinterTests ]
