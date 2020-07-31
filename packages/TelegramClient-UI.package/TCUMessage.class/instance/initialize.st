@@ -8,6 +8,6 @@ initialize
 		height: self defaultHeight;
 		color: TCUDefaultValues colorLightBlue;
 		hResizing: #shrinkWrap; 
-            vResizing: #shrinkWrap;
+          vResizing: #shrinkWrap;
 		borderWidth: 0;
 		useRoundedCorners.

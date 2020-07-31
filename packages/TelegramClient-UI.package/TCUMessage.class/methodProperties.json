@@ -2,10 +2,10 @@
 	"class" : {
 		"newWithText:senderId:" : "N.S. 7/26/2020 22:23" },
 	"instance" : {
-		"adaptColor:" : "N.S. 7/26/2020 22:36",
+		"adaptColor:" : "r.s 7/31/2020 13:58",
 		"defaultHeight" : "rs 6/17/2020 20:07",
-		"defaultWidth" : "N.S. 7/27/2020 00:01",
-		"initialize" : "N.S. 7/27/2020 00:05",
-		"setText:" : "N.S. 7/27/2020 00:48",
+		"defaultWidth" : "r.s 7/31/2020 13:57",
+		"initialize" : "r.s 7/31/2020 13:56",
+		"setText:" : "r.s 7/31/2020 14:12",
 		"text" : "rs 6/17/2020 19:48",
 		"text:" : "rs 6/17/2020 19:52" } }
