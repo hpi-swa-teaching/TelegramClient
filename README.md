@@ -25,7 +25,7 @@ install: 'FFI-Kernel'.`
 * Step 4: Place the unzipped binaries inside of your squeak image inside the 'Resource' folder.
 * Step 5 (Windows only): Install the [Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019](https://aka.ms/vs/16/release/vc_redist.x64.exe)
 
-Alternatively, check our (release page)[https://github.com/hpi-swa-teaching/TelegramClient/releases] for an online installer in the form of a sar file. In that case you just have to follow steps two and five.
+Alternatively, check our [release page](https://github.com/hpi-swa-teaching/TelegramClient/releases) for an online installer in the form of a sar file. In that case you just have to follow steps two and five.
 ## Running TelegramClient
 In a workspace window either execute the command `TCUTelegram newWithTCCCore` or click the Telegram entry in the Apps dropdown menu. The menu is only available if you already started the app once or installed the app via a release sar file.
 
