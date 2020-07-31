@@ -2,14 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addChat:" : "js 7/31/2020 14:51",
+		"addChat:" : "js 7/31/2020 22:59",
 		"addNewMessage:" : "js 7/31/2020 17:22",
 		"app" : "js 6/1/2020 14:44",
 		"app:" : "js 6/1/2020 14:45",
 		"chatHistoryReceived:" : "js 7/31/2020 17:21",
 		"client" : "js 6/1/2020 14:44",
 		"getChatHistoryFrom:with:and:" : "js 7/31/2020 14:26",
-		"getChats" : "js 7/31/2020 14:26",
+		"getChats" : "js 7/31/2020 22:50",
 		"handleNewMessage:" : "js 7/31/2020 14:54",
 		"messageLimit" : "js 7/31/2020 14:52",
 		"messageLimit:" : "j 7/16/2020 12:03",
