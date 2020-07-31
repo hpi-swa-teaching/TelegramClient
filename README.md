@@ -1,4 +1,4 @@
-<p align="center"><img width=50% src="assets/logo.png" alt="TeleSqueak"></p>
+<p align="center"><img width="200" height="200" src="assets/logo.png" alt="TeleSqueak"></p>
 
 <h1 align="center">TeleSqueak</h1>
 
