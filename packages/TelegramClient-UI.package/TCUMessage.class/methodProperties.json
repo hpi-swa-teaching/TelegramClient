@@ -2,13 +2,13 @@
 	"class" : {
 		"newFromTCCMessage:" : "js 7/31/2020 17:55" },
 	"instance" : {
-		"adaptColor" : "js 7/31/2020 16:13",
-		"addText" : "js 7/31/2020 18:01",
+		"addText" : "js 7/31/2020 18:42",
 		"defaultHeight" : "rs 6/17/2020 20:07",
-		"defaultTextMargins" : "r.s 7/31/2020 14:21",
-		"defaultTextPadding" : "js 7/31/2020 17:46",
+		"defaultMargin" : "js 7/31/2020 18:19",
+		"defaultMinTextLength" : "js 7/31/2020 18:03",
+		"defaultTextMargins" : "js 7/31/2020 18:17",
 		"defaultWidth" : "r.s 7/31/2020 14:19",
-		"initialize" : "r.s 7/31/2020 14:27",
+		"initialize" : "js 7/31/2020 18:15",
 		"isSentByMe" : "js 7/31/2020 16:18",
 		"senderID" : "js 7/31/2020 16:11",
 		"senderID:" : "js 7/31/2020 16:10",

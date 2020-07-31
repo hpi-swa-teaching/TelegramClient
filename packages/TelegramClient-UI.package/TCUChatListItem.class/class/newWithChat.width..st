@@ -1,5 +1,5 @@
 creation
-newWithChat: aChat andWidth: aWidth
+newWithChat: aChat width: aWidth
 
 	^ self new
 		chat: aChat;
