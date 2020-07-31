@@ -1,4 +1,4 @@
 accessing
 chats: aTCCChats
 
-	chats :=  aTCCChats.
+	chats := aTCCChats.
