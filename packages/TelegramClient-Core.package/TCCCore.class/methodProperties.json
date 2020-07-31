@@ -13,7 +13,7 @@
 		"client" : "R.S 5/20/2020 16:08",
 		"client:" : "js 6/13/2020 19:10",
 		"getChatHistoryFrom:" : "j 7/16/2020 12:24",
-		"handleEvent:" : "r.s 7/16/2020 13:05",
+		"handleEvent:" : "N.S. 7/26/2020 17:33",
 		"initialize" : "rs 7/5/2020 15:12",
 		"initializeClient" : "js 6/13/2020 18:20",
 		"initializeHandlers" : "j 7/16/2020 11:42",
@@ -25,4 +25,5 @@
 		"sendMessage:to:" : "rs 6/13/2020 15:26",
 		"sendPhoneNumber:" : "js 6/13/2020 15:35",
 		"setUserID:" : "f.w. 7/6/2020 16:16",
+		"tryHandleError:" : "N.S. 7/26/2020 23:07",
 		"update" : "js 6/13/2020 19:14" } }
