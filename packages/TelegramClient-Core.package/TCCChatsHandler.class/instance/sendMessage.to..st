@@ -1,6 +1,8 @@
 accessing
 sendMessage: aString to: aChatID
 
+	|encoded|
+	encoded := aString asString squeakToUtf8.
 	self client send: (TCCRequest
 		newWithType: 'sendMessage'
 		from: {'chat_id' -> aChatID.
@@ -8,4 +10,4 @@ sendMessage: aString to: aChatID
 				'@type' -> 'inputMessageText'.
 				'text' -> (Dictionary newFrom: {
 					'@type' -> 'formattedText'.
-					'text' -> aString})})}).
+					'text' -> encoded})})}).
