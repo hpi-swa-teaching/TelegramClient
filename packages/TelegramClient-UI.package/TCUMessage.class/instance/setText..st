@@ -14,4 +14,4 @@ setText: aString
 	(expectedWidth <= self defaultMinTextLength) ifTrue: [self text width: expectedWidth + 50.
 		self width: expectedWidth + 80].
 
-	self addMorphCentered:  self text.
+	self addMorphCentered: self text.
