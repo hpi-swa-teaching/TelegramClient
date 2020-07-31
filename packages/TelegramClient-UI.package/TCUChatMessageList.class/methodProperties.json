@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addMessage:" : "rs 6/18/2020 17:58",
-		"defaultMessageMargin" : "rs 6/18/2020 17:58",
-		"displayChat:" : "rs 6/17/2020 21:50",
-		"heightBetweenMessages" : "rs 6/17/2020 20:41",
+		"addMessage:senderId:" : "r.s 7/31/2020 14:05",
+		"defaultMessageMargin" : "r.s 7/31/2020 14:16",
+		"displayChat:" : "r.s 7/31/2020 14:04",
+		"heightBetweenMessages" : "r.s 7/31/2020 14:16",
 		"initialize" : "rs 6/17/2020 21:33",
-		"initializeMessages:" : "rs 7/4/2020 19:29",
+		"initializeMessages:" : "N.S. 7/26/2020 22:20",
 		"messages" : "rs 6/17/2020 19:10",
 		"messages:" : "rs 6/17/2020 19:10" } }

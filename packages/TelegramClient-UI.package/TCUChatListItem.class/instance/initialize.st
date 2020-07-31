@@ -6,4 +6,5 @@ initialize
 	self
 		color: Color white;
 		height: self defaultHeight;
-		borderWidth: 0.
+		borderWidth: 0;
+		clipSubmorphs: true.
