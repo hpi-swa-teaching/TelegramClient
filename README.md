@@ -1,13 +1,12 @@
-<p align="center"><img width=50% src="https://i.ibb.co/VHG620F/Telegram-unterschrift.png" alt="TelegramClient Logo"></p>
+<p align="center"><img width="300" height="300" src="assets/logo.png" alt="TeleSqueak"></p>
 
+<h1 align="center" style=font-size:200px>TeleSqueak</h1>
 
 <p align="center">
     <a href="https://github.com/hpi-swa-teaching/TelegramClient/commits/" title="Last Commit"><img src="https://img.shields.io/github/last-commit/hpi-swa-teaching/TelegramClient?style=flat"></a>
     <a href="https://github.com/hpi-swa-teaching/TelegramClient/issues" title="Open Issues"><img src="https://img.shields.io/github/issues/hpi-swa-teaching/TelegramClient"></a>
-    <a href="https://github.com/hpi-swa-teaching/TelegramClient/issues" title="issue resolution"><img src="http://isitmaintained.com/badge/resolution/hpi-swa-teaching/TelegramClient.svg"></a>
-    <a href="https://github.com/hpi-swa-teaching/TelegramClient/actions" title="Build Status"><img src="https://github.com/hpi-swa-teaching/TelegramClient/workflows/CI/badge.svg?branch=develop"></a>
-    <a href="https://github.com/hpi-swa-teaching/TelegramClient/actions" title="Build Status - Lint"><img src="https://github.com/hpi-swa-teaching/TelegramClient/workflows/CI-Lint/badge.svg?branch=develop"></a>
-   <a href="https://github.com/hpi-swa-teaching/TelegramClient/stargazers" title="Stars"><img src="https://img.shields.io/github/stars/hpi-swa-teaching/TelegramClient"></a>
+        <a href="https://github.com/hpi-swa-teaching/TelegramClient/actions?query=workflow%3ACI" title="Build Status - Master"><img src="https://img.shields.io/github/workflow/status/hpi-swa-teaching/telegramclient/CI/master?color=dwa&label=master&logo=dwa&logoColor=daw"></a>
+    <a href="https://github.com/hpi-swa-teaching/TelegramClient/actions?query=workflow%3ACI" title="Build Status - Develop"><img src="https://img.shields.io/github/workflow/status/hpi-swa-teaching/telegramclient/CI/master?color=dwa&label=develop&logo=dwa&logoColor=daw"></a>
     <a href="./LICENSE" title="License"><img src="https://img.shields.io/github/license/hpi-swa-teaching/TelegramClient"></a>
 </p>
 
@@ -15,15 +14,6 @@
 TeleSqueak is a **Squeak-Client** for the widely used Telegram-Messenger. It aims to provide features such as Authentication, Contacts, Message and Media sending and a minimal, clean UI as well as as a Zen-mode and receiving messages in the background.
 
 *This Project is part of the "Softwaretechnik" Lecture 2020 at the Hasso Plattner Institute.*
-
-## CI Status
-### Unit Tests
-Develop: ![CI](https://github.com/hpi-swa-teaching/TelegramClient/workflows/CI/badge.svg?branch=develop)
-Master(Release): ![CI](https://github.com/hpi-swa-teaching/TelegramClient/workflows/CI/badge.svg?branch=master)
-
-### Linting Tests
-Develop: ![CI](https://github.com/hpi-swa-teaching/TelegramClient/workflows/CI-Lint/badge.svg?branch=develop)
-Master(Release): ![CI](https://github.com/hpi-swa-teaching/TelegramClient/workflows/CI-Lint/badge.svg?branch=master)
 
 ## Installation
 Make sure you have the current version of Squeak installed.
@@ -35,7 +25,7 @@ install: 'FFI-Kernel'.`
 * Step 4: Place the unzipped binaries inside of your squeak image inside the 'Resource' folder.
 * Step 5 (Windows only): Install the [Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019](https://aka.ms/vs/16/release/vc_redist.x64.exe)
 
-Alternatively, check our (release page)[https://github.com/hpi-swa-teaching/TelegramClient/releases] for an online installer in the form of a sar file. In that case you just have to follow steps two and five.
+Alternatively, check our [release page](https://github.com/hpi-swa-teaching/TelegramClient/releases) for an online installer in the form of a sar file. In that case you just have to follow steps two and five.
 ## Running TelegramClient
 In a workspace window either execute the command `TCUTelegram newWithTCCCore` or click the Telegram entry in the Apps dropdown menu. The menu is only available if you already started the app once or installed the app via a release sar file.
 
