@@ -3,15 +3,14 @@
 		 },
 	"instance" : {
 		"addMessage:senderId:" : "js 7/31/2020 16:23",
+		"addMessageAtBottom:" : "js 7/31/2020 17:00",
+		"addMessageAtTop:" : "js 7/31/2020 16:57",
 		"chat" : "js 7/31/2020 16:39",
 		"chat:" : "js 7/31/2020 16:39",
 		"clearMessages" : "js 7/31/2020 16:46",
 		"defaultMessageMargin" : "js 7/31/2020 15:50",
-		"displayChat:" : "js 7/31/2020 16:46",
-		"drawMessage:" : "js 7/31/2020 16:49",
-		"drawMessage:senderId:" : "js 7/31/2020 16:48",
+		"displayChat:" : "js 7/31/2020 17:03",
 		"initialize" : "rs 6/17/2020 21:33",
-		"initializeMessages:" : "js 7/31/2020 15:41",
 		"messages" : "rs 6/17/2020 19:10",
 		"messages:" : "rs 6/17/2020 19:10",
-		"redrawItems" : "js 7/31/2020 16:47" } }
+		"redrawMessages" : "js 7/31/2020 17:02" } }

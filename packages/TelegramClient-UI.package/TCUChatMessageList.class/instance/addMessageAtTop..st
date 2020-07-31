@@ -1,10 +1,10 @@
 accessing
-drawMessage: aString senderId: senderId
+addMessageAtTop: aMessage
 
 	| message |
-	message := TCUMessage newWithText: aString senderId: senderId.
+	message := TCUMessage newFromTCCMessage: aMessage.
 
-	self messages do: [:aMessage | aMessage position: (aMessage position - (0 @ (message height)))].
+	self messages do: [:m | m position: (m position - (0 @ (message height)))].
 
 	message isSentByMe
 		ifTrue: [message bottomRight: (self bottomRight - (self defaultMessageMargin @ 0))]
