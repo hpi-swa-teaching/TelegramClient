@@ -17,15 +17,6 @@ TeleSqueak is a **Squeak-Client** for the widely used Telegram-Messenger. It aim
 
 *This Project is part of the "Softwaretechnik" Lecture 2020 at the Hasso Plattner Institute.*
 
-## CI Status
-### Unit Tests
-Develop: ![CI](https://github.com/hpi-swa-teaching/TelegramClient/workflows/CI/badge.svg?branch=develop)
-Master(Release): ![CI](https://github.com/hpi-swa-teaching/TelegramClient/workflows/CI/badge.svg?branch=master)
-
-### Linting Tests
-Develop: ![CI](https://github.com/hpi-swa-teaching/TelegramClient/workflows/CI-Lint/badge.svg?branch=develop)
-Master(Release): ![CI](https://github.com/hpi-swa-teaching/TelegramClient/workflows/CI-Lint/badge.svg?branch=master)
-
 ## Installation
 Make sure you have the current version of Squeak installed.
 * Step 1: Install the Squeak Git Client and clone this repository. For the trunk clone develop, for the latest stable release choose master.
