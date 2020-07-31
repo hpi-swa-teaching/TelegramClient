@@ -4,6 +4,7 @@ addTitle
 	| text |
 	text := (self chatName asText) addAttribute: TextEmphasis bold.
 
-	self addMorphCentered: (TextMorph new
+	self addMorph: (TextMorph new
+		position: (self topLeft + self titleOffset);
 		contents: text;
 		lock).
