@@ -1,5 +1,6 @@
-<p align="center"><img width=50% src="https://i.ibb.co/VHG620F/Telegram-unterschrift.png" alt="TelegramClient Logo"></p>
+<p align="center"><img width=50% src="assets/logo.png" alt="TeleSqueak"></p>
 
+<h1 align="center">TeleSqueak</h1>
 
 <p align="center">
     <a href="https://github.com/hpi-swa-teaching/TelegramClient/commits/" title="Last Commit"><img src="https://img.shields.io/github/last-commit/hpi-swa-teaching/TelegramClient?style=flat"></a>
