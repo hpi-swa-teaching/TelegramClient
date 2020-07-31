@@ -6,8 +6,4 @@ newChatSelected: aChat
 	self welcomeMessage hide.
 	self inputBar show.
 	self selectedChat: aChat.
-
-	self messageListWindow show.
-	self messageListWindow displayChat: aChat.
-	1 to: messageListReversed size do: [: x |
-		self messageListWindow addMessage: ((messageListReversed at: x) message) senderId: (messageListReversed at: x) senderId].
+	self showChatMessages: messageListReversed from: 0.

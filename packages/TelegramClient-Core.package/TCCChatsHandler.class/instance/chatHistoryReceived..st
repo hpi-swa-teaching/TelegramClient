@@ -18,4 +18,6 @@ chatHistoryReceived: aChatHistory
 		chat messages ifNotEmpty: [
 			oldestMessageId := chat messages last messageId.
 			chatMessageNumber := self messageLimit - chat messages size.
-			chatMessageNumber > 0 ifTrue: [self getChatHistoryFrom: chatID with: oldestMessageId and: chatMessageNumber]]].
+			chatMessageNumber > 0 
+				ifTrue: [self getChatHistoryFrom: chatID with: oldestMessageId and: chatMessageNumber]
+				ifFalse:[self app triggerEvent: #chatHistoryReceived with: chat]]].

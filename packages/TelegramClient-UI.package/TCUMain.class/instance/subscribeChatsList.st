@@ -6,3 +6,5 @@ subscribeChatsList
 		when: #newChatSelected send: #newChatSelected: to: self chatWindow;
 		when: #newChatSelected send: #getChatHistoryFrom: to: self;
 		when: #openNewChat send: #newChatSelected: to: self.
+		
+	self core when: #chatHistoryReceived send: #newChatSelected: to: self.
