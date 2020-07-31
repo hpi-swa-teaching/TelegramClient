@@ -1,4 +1,3 @@
-  
 name: CI
 
 on: 
@@ -16,8 +15,11 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
+        # Select platform(s)
         os: [ ubuntu-latest ]
-        smalltalk: [ Squeak64-5.2 ]
+        # Select compatible Smalltalk image(s)
+        # currently not running on Squeak64-trunk
+        smalltalk: [ Squeak64-5.3, Squeak64-5.2 ]
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2

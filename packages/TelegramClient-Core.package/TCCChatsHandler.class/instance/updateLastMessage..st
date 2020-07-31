@@ -14,6 +14,4 @@ updateLastMessage: anEvent
 				ifTrue: [chat lastMessage: 'A photo']
 				ifFalse: [chat lastMessage: 'A file']].
 			
-		self app chats
-			reSort;
-			triggerEvent: #chatsListChanged].
+		self app chats notify].

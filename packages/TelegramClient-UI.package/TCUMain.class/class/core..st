@@ -1,4 +1,4 @@
 creation
 core: aCore
 
-	Core:=aCore.
+	Core := aCore.
