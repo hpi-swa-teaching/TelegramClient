@@ -1,7 +1,7 @@
 running
 setUp
 
-	|firstChat middleChat lastChat|
+	| firstChat middleChat lastChat |
 	
 	firstChat := TCCChat new
 		id: 1;
@@ -13,12 +13,4 @@ setUp
 		id: 3;
 		order: 3.
 	
-	self chats: TCCChats new.
-	self chats
-		add: firstChat;
-		add: middleChat;
-		add: lastChat.
-		
-	
-	
-	
+	self chats: (TCCChats newFrom: {firstChat. middleChat. lastChat}).

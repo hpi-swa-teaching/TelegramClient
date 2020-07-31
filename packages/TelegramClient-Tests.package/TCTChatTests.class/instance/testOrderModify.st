@@ -8,4 +8,4 @@ testOrderModify
 	
 	chats notify.
 			
-	self assert: (chats first id == 1)	
+	self assert: (chats first id == 1).
