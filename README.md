@@ -5,10 +5,8 @@
 <p align="center">
     <a href="https://github.com/hpi-swa-teaching/TelegramClient/commits/" title="Last Commit"><img src="https://img.shields.io/github/last-commit/hpi-swa-teaching/TelegramClient?style=flat"></a>
     <a href="https://github.com/hpi-swa-teaching/TelegramClient/issues" title="Open Issues"><img src="https://img.shields.io/github/issues/hpi-swa-teaching/TelegramClient"></a>
-    <a href="https://github.com/hpi-swa-teaching/TelegramClient/issues" title="issue resolution"><img src="http://isitmaintained.com/badge/resolution/hpi-swa-teaching/TelegramClient.svg"></a>
+        <a href="https://github.com/hpi-swa-teaching/TelegramClient/actions?query=workflow%3ACI" title="Build Status - Master"><img src="https://img.shields.io/github/workflow/status/hpi-swa-teaching/telegramclient/CI/master?color=dwa&label=master&logo=dwa&logoColor=daw"></a>
     <a href="https://github.com/hpi-swa-teaching/TelegramClient/actions?query=workflow%3ACI" title="Build Status - Develop"><img src="https://img.shields.io/github/workflow/status/hpi-swa-teaching/telegramclient/CI/master?color=dwa&label=develop&logo=dwa&logoColor=daw"></a>
-    <a href="https://github.com/hpi-swa-teaching/TelegramClient/actions?query=workflow%3ACI" title="Build Status - Master"><img src="https://img.shields.io/github/workflow/status/hpi-swa-teaching/telegramclient/CI/master?color=dwa&label=master&logo=dwa&logoColor=daw"></a>
-   <a href="https://github.com/hpi-swa-teaching/TelegramClient/stargazers" title="Stars"><img src="https://img.shields.io/github/stars/hpi-swa-teaching/TelegramClient"></a>
     <a href="./LICENSE" title="License"><img src="https://img.shields.io/github/license/hpi-swa-teaching/TelegramClient"></a>
 </p>
 
