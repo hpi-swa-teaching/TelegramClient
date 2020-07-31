@@ -5,5 +5,4 @@ buttonSendPressed
 		'chatId' -> self selectedChat id.
 		'message' -> self textInputField contents}).
 
-	self messageListWindow redrawMessages.
 	self textInputField contents: ''.

@@ -9,5 +9,5 @@ addNewMessage: aMessage
 		chatID: (aMessage at: 'chat_id');
 		messageId: (aMessage at: 'id')).
 		
-	(self app chats getChat: message chatID) messages addFirst: message.
+	(self app chats getChat: message chatID) addNewMessage: message.
 	self app triggerEvent: #newMessageReceived with: message.

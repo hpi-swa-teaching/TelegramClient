@@ -9,7 +9,7 @@ chatHistoryReceived: aChatHistory
 
 		(aChatHistory at: 'messages') do: [:message |
 			((message at: 'content') at: '@type') = 'messageText' ifTrue: [
-				chat messages add: (TCCMessage new
+				chat addMessage: (TCCMessage new
 					message: (((message at: 'content') at: 'text') at: 'text');
 					chatID: chatID;
 					senderId: (message at: 'sender_user_id');

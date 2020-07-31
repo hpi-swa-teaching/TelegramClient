@@ -3,5 +3,5 @@ redrawMessages
 
 	self clearMessages.
 
-	self chat messages do: [:aMessage |
+	self chat messages reversed do: [:aMessage |
 		self addMessageAtBottom: aMessage].
