@@ -1,4 +1,4 @@
 accessing
 defaultWidth
 
-	^ 400
+	^ 500
