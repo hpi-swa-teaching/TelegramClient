@@ -1,6 +1,6 @@
-<p align="center"><img width="200" height="200" src="assets/logo.png" alt="TeleSqueak"></p>
+<p align="center"><img width="300" height="300" src="assets/logo.png" alt="TeleSqueak"></p>
 
-<h1 align="center">TeleSqueak</h1>
+<h1 align="center" style=font-size:100px>TeleSqueak</h1>
 
 <p align="center">
     <a href="https://github.com/hpi-swa-teaching/TelegramClient/commits/" title="Last Commit"><img src="https://img.shields.io/github/last-commit/hpi-swa-teaching/TelegramClient?style=flat"></a>
