@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"tdlibAlreadyInUse" : "N.S. 7/26/2020 21:46",
-		"unknownUsername" : "N.S. 7/26/2020 17:56" },
+		"invalidAuthenticationCode" : "r.s 7/31/2020 14:48",
+		"invalidPhoneNumber" : "r.s 7/31/2020 14:48",
+		"tdlibAlreadyInUse" : "r.s 7/31/2020 14:48",
+		"unknownUsername" : "r.s 7/31/2020 14:48" },
 	"instance" : {
 		 } }

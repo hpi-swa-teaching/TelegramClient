@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Core" ],
 	"commentStamp" : "js 6/13/2020 19:02",
 	"instvars" : [
 		"chatWindow",

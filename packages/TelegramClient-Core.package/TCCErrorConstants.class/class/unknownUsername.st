@@ -1,4 +1,4 @@
 messages
 unknownUsername
 
-^'Username not assigned or invalid.'
+	^ 'Username not assigned or invalid.'
