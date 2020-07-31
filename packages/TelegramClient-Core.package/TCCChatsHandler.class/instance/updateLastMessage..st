@@ -15,4 +15,3 @@ updateLastMessage: anEvent
 				ifFalse: [chat lastMessage: 'A file']].
 			
 		self app chats notify].
-	self class count incLastMessage.

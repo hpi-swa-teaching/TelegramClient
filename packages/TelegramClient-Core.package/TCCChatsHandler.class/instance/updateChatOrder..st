@@ -5,4 +5,3 @@ updateChatOrder: anEvent
 		order: (anEvent at: 'order').
 
 	self app chats notify.
-	self class count incupdate.

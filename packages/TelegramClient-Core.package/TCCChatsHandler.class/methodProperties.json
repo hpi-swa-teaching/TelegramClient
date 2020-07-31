@@ -1,9 +1,8 @@
 {
 	"class" : {
-		"count" : "js 7/31/2020 23:32",
-		"count:" : "js 7/31/2020 23:34" },
+		 },
 	"instance" : {
-		"addChat:" : "js 7/31/2020 23:33",
+		"addChat:" : "js 7/31/2020 23:48",
 		"addNewMessage:" : "js 7/31/2020 17:22",
 		"app" : "js 6/1/2020 14:44",
 		"app:" : "js 6/1/2020 14:45",
@@ -17,5 +16,5 @@
 		"openNewChat:" : "j 7/16/2020 12:04",
 		"searchChat:" : "f.w. 7/15/2020 22:53",
 		"sendMessage:to:" : "js 7/31/2020 14:39",
-		"updateChatOrder:" : "js 7/31/2020 23:33",
-		"updateLastMessage:" : "js 7/31/2020 23:39" } }
+		"updateChatOrder:" : "js 7/31/2020 23:48",
+		"updateLastMessage:" : "js 7/31/2020 23:48" } }

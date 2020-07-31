@@ -12,4 +12,3 @@ addChat: aChatEvent
 	self app chats
 		add: chat;
 		notify.
-	self class count incAddChat.
