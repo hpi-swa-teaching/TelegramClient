@@ -1,13 +1,16 @@
 {
 	"class" : {
-		"newWithText:senderId:" : "N.S. 7/26/2020 22:23" },
+		"newWithText:senderId:" : "js 7/31/2020 16:12" },
 	"instance" : {
-		"adaptColor:" : "r.s 7/31/2020 13:58",
+		"adaptColor" : "js 7/31/2020 16:13",
 		"defaultHeight" : "rs 6/17/2020 20:07",
 		"defaultMinTextLength" : "r.s 7/31/2020 14:21",
 		"defaultTextMargins" : "r.s 7/31/2020 14:21",
 		"defaultWidth" : "r.s 7/31/2020 14:19",
 		"initialize" : "r.s 7/31/2020 14:27",
-		"setText:" : "r.s 7/31/2020 14:28",
+		"isSentByMe" : "js 7/31/2020 16:18",
+		"senderID" : "js 7/31/2020 16:11",
+		"senderID:" : "js 7/31/2020 16:10",
+		"setText:" : "js 7/31/2020 15:55",
 		"text" : "rs 6/17/2020 19:48",
 		"text:" : "rs 6/17/2020 19:52" } }
