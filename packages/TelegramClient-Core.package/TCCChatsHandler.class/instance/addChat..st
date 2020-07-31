@@ -10,4 +10,5 @@ addChat: aChatEvent
 		lastMessage: ''.
 
 	self app chats
-		addLoadedChat: chat.
+		add: chat;
+		notify.

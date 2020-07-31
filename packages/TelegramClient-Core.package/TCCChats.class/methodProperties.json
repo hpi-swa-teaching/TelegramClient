@@ -2,7 +2,6 @@
 	"class" : {
 		"new" : "rs 6/6/2020 17:58" },
 	"instance" : {
-		"addLoadedChat:" : "js 7/31/2020 23:01",
 		"getChat:" : "rs 6/19/2020 17:13",
 		"initialize" : "LL 7/31/2020 15:55",
 		"notify" : "js 7/31/2020 14:47" } }
