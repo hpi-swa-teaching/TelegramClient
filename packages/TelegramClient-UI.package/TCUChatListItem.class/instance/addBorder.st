@@ -5,4 +5,4 @@ addBorder
 		width: self width;
 		color: Color black;
 		height: 1;
-		position: (self position + (0 @ self defaultHeight))).
+		position: (self position + (0 @ (self defaultHeight - 1)))).

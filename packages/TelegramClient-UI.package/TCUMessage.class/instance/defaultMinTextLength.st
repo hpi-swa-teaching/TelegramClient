@@ -1,0 +1,4 @@
+accessing
+defaultMinTextLength
+
+	^ 280
