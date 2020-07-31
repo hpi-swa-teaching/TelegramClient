@@ -1,4 +1,0 @@
-accessing
-defaultMinTextLength
-
-	^ 280

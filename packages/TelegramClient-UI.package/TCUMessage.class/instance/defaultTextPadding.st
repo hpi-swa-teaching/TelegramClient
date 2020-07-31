@@ -1,0 +1,4 @@
+accessing
+defaultTextPadding
+
+	^ 5

@@ -1,17 +1,16 @@
 {
 	"class" : {
-		"newFromTCCMessage:" : "js 7/31/2020 16:51",
-		"newWithText:senderId:" : "js 7/31/2020 16:12" },
+		"newFromTCCMessage:" : "js 7/31/2020 17:55" },
 	"instance" : {
 		"adaptColor" : "js 7/31/2020 16:13",
+		"addText" : "js 7/31/2020 18:01",
 		"defaultHeight" : "rs 6/17/2020 20:07",
-		"defaultMinTextLength" : "r.s 7/31/2020 14:21",
 		"defaultTextMargins" : "r.s 7/31/2020 14:21",
+		"defaultTextPadding" : "js 7/31/2020 17:46",
 		"defaultWidth" : "r.s 7/31/2020 14:19",
 		"initialize" : "r.s 7/31/2020 14:27",
 		"isSentByMe" : "js 7/31/2020 16:18",
 		"senderID" : "js 7/31/2020 16:11",
 		"senderID:" : "js 7/31/2020 16:10",
-		"setText:" : "js 7/31/2020 15:55",
 		"text" : "rs 6/17/2020 19:48",
 		"text:" : "rs 6/17/2020 19:52" } }

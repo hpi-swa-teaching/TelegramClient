@@ -2,9 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addMessage:senderId:" : "js 7/31/2020 16:23",
 		"addMessageAtBottom:" : "js 7/31/2020 17:00",
-		"addMessageAtTop:" : "js 7/31/2020 16:57",
 		"chat" : "js 7/31/2020 16:39",
 		"chat:" : "js 7/31/2020 16:39",
 		"clearMessages" : "js 7/31/2020 16:46",
