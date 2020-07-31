@@ -1,5 +1,5 @@
 accessing
 adaptColor: aSenderId
 
-	(aSenderId =TCUMain core loggedInUserID)
+	(aSenderId = TCUMain core loggedInUserID)
 		ifTrue: [self color: TCUDefaultValues colorCarrot].
