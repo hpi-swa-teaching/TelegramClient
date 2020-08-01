@@ -6,6 +6,7 @@
 		"chats" : "rs 6/17/2020 22:38",
 		"chats:" : "f.w. 7/15/2020 23:57",
 		"clearItems" : "rs 6/17/2020 22:39",
+		"createChatListItem:" : "js 7/31/2020 23:05",
 		"defaultWidth" : "R.S 6/1/2020 14:24",
 		"handleMouseWheel:" : "r.s 7/15/2020 15:09",
 		"initialize" : "f.w. 7/12/2020 04:29",
@@ -15,9 +16,8 @@
 		"maxHeight" : "f.w. 7/12/2020 00:10",
 		"maxHeight:" : "f.w. 7/12/2020 04:56",
 		"openNewChat:" : "f.w. 7/16/2020 00:02",
-		"redrawItems" : "js 7/31/2020 18:48",
+		"redrawItems" : "js 7/31/2020 23:06",
 		"scrollDown" : "f.w. 7/12/2020 04:14",
 		"scrollUp" : "f.w. 7/12/2020 22:06",
 		"selectedChat" : "rs 6/13/2020 08:51",
-		"selectedChat:" : "rs 6/17/2020 22:25",
-		"setToTop" : "f.w. 7/12/2020 22:15" } }
+		"selectedChat:" : "rs 6/17/2020 22:25" } }

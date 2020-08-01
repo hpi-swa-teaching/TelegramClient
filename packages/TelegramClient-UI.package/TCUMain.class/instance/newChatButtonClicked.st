@@ -10,7 +10,9 @@ newChatButtonClicked
 		extent: 200 @ 50;
 		borderColor: TCUDefaultValues colorLightBlue.
 	inputField crAction: [self core searchChat: inputField text. modal delete].
-
+	
+	self addCloseButtonTo: modal withSpacing: 5 deletes: modal.
+	
 	modal
-		addMorphCentered: inputField;
-		openCenteredInWorld.
+		addMorphCentered: inputField.
+	self addMorphCentered: modal.

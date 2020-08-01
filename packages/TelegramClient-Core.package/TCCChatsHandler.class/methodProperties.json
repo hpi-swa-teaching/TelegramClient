@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addChat:" : "js 7/31/2020 14:51",
+		"addChat:" : "js 8/1/2020 12:07",
 		"addNewMessage:" : "js 8/1/2020 17:35",
 		"app" : "js 6/1/2020 14:44",
 		"app:" : "js 6/1/2020 14:45",
@@ -10,12 +10,12 @@
 		"client" : "js 6/1/2020 14:44",
 		"defaultMessageLimit" : "js 8/1/2020 18:24",
 		"getChatHistoryFrom:with:limit:" : "js 8/1/2020 18:04",
-		"getChats" : "js 7/31/2020 14:26",
+		"getChats" : "js 7/31/2020 22:50",
 		"handleNewMessage:" : "js 7/31/2020 14:54",
 		"openNewChat:" : "j 7/16/2020 12:04",
 		"remainingMessages" : "js 8/1/2020 16:49",
 		"remainingMessages:" : "js 8/1/2020 16:50",
 		"searchChat:" : "f.w. 7/15/2020 22:53",
 		"sendMessage:to:" : "js 7/31/2020 14:39",
-		"updateChatOrder:" : "js 7/31/2020 14:46",
-		"updateLastMessage:" : "js 7/31/2020 14:52" } }
+		"updateChatOrder:" : "js 8/1/2020 12:07",
+		"updateLastMessage:" : "js 8/1/2020 12:07" } }
