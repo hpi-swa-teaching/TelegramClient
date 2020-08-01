@@ -1,0 +1,1 @@
+data class for a event sent by tdlib
