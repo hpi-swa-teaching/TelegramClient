@@ -8,4 +8,4 @@ getChatHistoryFrom: aChatID
 		ifTrue: [messageId := 0]
 		ifFalse: [messageId := chatMessages last messageId].
 
-	self chatsHandler getChatHistoryFrom: aChatID with: messageId and: self chatsHandler messageLimit.
+	self chatsHandler getChatHistoryFrom: aChatID with: messageId limit: self chatsHandler messageLimit.

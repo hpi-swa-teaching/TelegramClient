@@ -4,7 +4,7 @@ chatHistoryReceived: aChatHistory
 	| chat oldestMessageId chatID |
 
 	(aChatHistory at: 'messages') ifNotEmpty: [
-		chatID := ((aChatHistory at: 'messages') first at: 'chat_id').
+		chatID := (aChatHistory at: 'messages') first at: 'chat_id'.
 		chat := self app chats getChat: chatID.
 
 		(aChatHistory at: 'messages') do: [:message |
@@ -20,4 +20,4 @@ chatHistoryReceived: aChatHistory
 		chat messages ifNotEmpty: [
 			oldestMessageId := chat messages last messageId.
 			self remainingMessages > 0 
-				ifTrue: [self getChatHistoryFrom: chatID with: oldestMessageId and: self remainingMessages]]].
+				ifTrue: [self getChatHistoryFrom: chatID with: oldestMessageId limit: self remainingMessages]]].

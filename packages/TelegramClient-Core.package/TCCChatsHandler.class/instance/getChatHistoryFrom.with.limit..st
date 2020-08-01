@@ -1,5 +1,5 @@
 accessing
-getChatHistoryFrom: aChatID with: aMessageId and: aLimit
+getChatHistoryFrom: aChatID with: aMessageId limit: aLimit
 
 	(self app chats getChat: aChatID) ifWaitingForUpdate: [
 		self client send: (TCCRequest
