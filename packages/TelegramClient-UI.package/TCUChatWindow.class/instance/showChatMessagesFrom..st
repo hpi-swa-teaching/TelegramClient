@@ -1,5 +1,5 @@
 initialization
-showChatMessages: aMessageList from: lowestMessage
+showChatMessagesFrom: lowestMessage
 
 	| messageListReversed |
 	messageListReversed := selectedChat messages reverse.
@@ -10,3 +10,6 @@ showChatMessages: aMessageList from: lowestMessage
 
 	1 to: messageListReversed size - lowestMessage do: [: x |
 		self messageListWindow addMessage: (messageListReversed at: x) message senderId: (messageListReversed at: x) senderId].
+	
+	messageListReversed size < (lowestMessage + 10) ifTrue: [
+		self owner getChatHistoryFrom: selectedChat.].

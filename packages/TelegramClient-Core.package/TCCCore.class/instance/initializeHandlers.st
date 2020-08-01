@@ -6,4 +6,5 @@ initializeHandlers
 			app: self);
 		chatsHandler: (TCCChatsHandler new
 			app: self; 
-			messageLimit: 15).
+			messageLimit: 15;
+			blocked: false).

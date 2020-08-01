@@ -1,7 +1,7 @@
 events
 chatHistoryReceived: aChatHistory
 
-	| chat chatMessageNumber oldestMessageId chatID |
+	| chat oldestMessageId chatID |
 
 	(aChatHistory at: 'messages') ifNotEmpty: [
 		chatID := ((aChatHistory at: 'messages') first at: 'chat_id').
@@ -14,10 +14,10 @@ chatHistoryReceived: aChatHistory
 					chatID: chatID;
 					senderId: (message at: 'sender_user_id');
 					messageId: (message at: 'id'))]].
-
+		self blocked: false.	
+		self remainingMessages: self remainingMessages - (aChatHistory at: 'messages') size.
 		chat messages ifNotEmpty: [
 			oldestMessageId := chat messages last messageId.
-			chatMessageNumber := self messageLimit - chat messages size.
-			chatMessageNumber > 0 
-				ifTrue: [self getChatHistoryFrom: chatID with: oldestMessageId and: chatMessageNumber]
+			self remainingMessages > 0 
+				ifTrue: [self getChatHistoryFrom: chatID with: oldestMessageId and: self remainingMessages]
 				ifFalse:[self app triggerEvent: #chatHistoryReceived with: chat]]].

@@ -1,4 +1,4 @@
 accessing
 scrollUp
 
-	self owner showChatMessages: self messages from: self lowestVisibleMessage + 1.
+	self owner showChatMessagesFrom: self lowestVisibleMessage + 1.
