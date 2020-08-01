@@ -1,6 +1,8 @@
-as yet unclassified
+testing
 testType
 
+	| event |
+	
 	event := TCCEvent newFromTDLibEvent: (Dictionary newFrom: {'@type' -> 'authentication'. 'code' -> 200}).
 	
 	self assert: event type equals: 'authentication'.

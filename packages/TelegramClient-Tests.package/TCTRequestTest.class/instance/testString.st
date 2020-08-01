@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testString
 
 	self assert: (self request asString includesSubstring: '"@type":"test"').

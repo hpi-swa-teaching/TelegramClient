@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testNoError
 
 	self assert: (TCCEvent newFromTDLibEvent: (Dictionary newFrom: {'@type' -> 'authentication'. 'code' -> 400})) isError not.
