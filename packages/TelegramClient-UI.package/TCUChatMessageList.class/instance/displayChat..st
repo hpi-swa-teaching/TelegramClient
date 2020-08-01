@@ -2,7 +2,8 @@ accessing
 displayChat: aChat
 
 	self chat removeActionsWithReceiver: self.
-	aChat when: #newMessage send: #redrawMessages to: self.
+	aChat when: #newMessage send: #addMessages to: self.
 	self
 		chat: aChat;
-		redrawMessages.
+		lowestVisibleMessage: 0;
+		addMessages.

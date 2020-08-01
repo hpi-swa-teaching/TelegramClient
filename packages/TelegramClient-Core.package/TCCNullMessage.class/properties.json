@@ -4,14 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "f.w. 6/29/2020 17:05",
+	"commentStamp" : "js 8/1/2020 18:29",
 	"instvars" : [
-		"message",
-		"chatID",
-		"id",
-		"senderID" ],
-	"name" : "TCCMessage",
+		 ],
+	"name" : "TCCNullMessage",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TCCMessage",
 	"type" : "normal" }
