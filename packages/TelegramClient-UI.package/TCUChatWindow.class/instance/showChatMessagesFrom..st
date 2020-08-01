@@ -2,7 +2,6 @@ initialization
 showChatMessagesFrom: lowestMessage
 
 	| messageListReversed |
-	self flag: #todo.
 	messageListReversed := self selectedChat messages reversed.
 	messageListReversed removeLast.
 	self messageListWindow clearMessages.

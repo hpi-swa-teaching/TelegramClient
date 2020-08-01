@@ -1,4 +1,0 @@
-accessing
-oldestMessage
-
-	^ messages last
