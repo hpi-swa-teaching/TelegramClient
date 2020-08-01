@@ -7,13 +7,7 @@ chatHistoryReceived: aChatHistory
 		chatID := (aChatHistory at: 'messages') first at: 'chat_id'.
 		chat := self app chats getChat: chatID.
 
-		(aChatHistory at: 'messages') do: [:message |
-			((message at: 'content') at: '@type') = 'messageText' ifTrue: [
-				chat addMessage: (TCCMessage new
-					message: (((message at: 'content') at: 'text') at: 'text');
-					chatID: chatID;
-					senderId: (message at: 'sender_user_id');
-					messageId: (message at: 'id'))]].
+		(aChatHistory at: 'messages') do: [:message | chat addMessage: (TCCMessage newFromMessageEvent: message)].
 
 		chat waitingForUpdate: false.
 		self remainingMessages: self remainingMessages - (aChatHistory at: 'messages') size.

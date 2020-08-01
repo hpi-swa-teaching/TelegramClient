@@ -3,10 +3,10 @@
 		 },
 	"instance" : {
 		"addChat:" : "js 7/31/2020 14:51",
-		"addNewMessage:" : "js 8/1/2020 17:13",
+		"addNewMessage:" : "js 8/1/2020 17:35",
 		"app" : "js 6/1/2020 14:44",
 		"app:" : "js 6/1/2020 14:45",
-		"chatHistoryReceived:" : "js 8/1/2020 17:15",
+		"chatHistoryReceived:" : "js 8/1/2020 17:36",
 		"client" : "js 6/1/2020 14:44",
 		"getChatHistoryFrom:with:limit:" : "js 8/1/2020 17:10",
 		"getChats" : "js 7/31/2020 14:26",
