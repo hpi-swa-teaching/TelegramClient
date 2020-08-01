@@ -11,4 +11,4 @@ addChat: aChatEvent
 
 	self app chats
 		add: chat;
-		triggerEvent: #chatsListChanged.
+		notify.

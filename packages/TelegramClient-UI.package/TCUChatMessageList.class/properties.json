@@ -7,7 +7,7 @@
 	"commentStamp" : "rs 6/17/2020 21:32",
 	"instvars" : [
 		"messages",
-		"lowestVisibleMessage" ],
+		"chat" ],
 	"name" : "TCUChatMessageList",
 	"pools" : [
 		 ],
