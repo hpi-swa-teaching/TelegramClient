@@ -1,4 +1,6 @@
 accessing
 logout
 
-	self client send: '{"@type": "logOut"}'.
+	self client send: (TCCRequest
+		newWithType: 'logOut'
+		from: {}).

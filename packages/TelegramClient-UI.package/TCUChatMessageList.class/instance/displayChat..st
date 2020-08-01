@@ -1,5 +1,8 @@
 accessing
 displayChat: aChat
 
-	self messages do: [:aMessage | aMessage delete].
-	self messages removeAll.
+	self chat removeActionsWithReceiver: self.
+	aChat when: #newMessage send: #redrawMessages to: self.
+	self
+		chat: aChat;
+		redrawMessages.
