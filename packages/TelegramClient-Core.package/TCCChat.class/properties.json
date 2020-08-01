@@ -11,7 +11,8 @@
 		"order",
 		"id",
 		"title",
-		"lastMessage" ],
+		"lastMessage",
+		"waitingForUpdate" ],
 	"name" : "TCCChat",
 	"pools" : [
 		 ],

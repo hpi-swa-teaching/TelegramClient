@@ -15,7 +15,7 @@ chatHistoryReceived: aChatHistory
 					senderId: (message at: 'sender_user_id');
 					messageId: (message at: 'id'))]].
 
-		self blocked: false.	
+		chat waitingForUpdate: false.
 		self remainingMessages: self remainingMessages - (aChatHistory at: 'messages') size.
 		chat messages ifNotEmpty: [
 			oldestMessageId := chat messages last messageId.

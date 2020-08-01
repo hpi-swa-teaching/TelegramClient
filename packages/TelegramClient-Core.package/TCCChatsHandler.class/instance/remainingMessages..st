@@ -1,4 +1,4 @@
 accessing
-remainingMessages: anInteger
+remainingMessages: aNumber
 
-	remainingMessages := anInteger.
+	remainingMessages := aNumber.

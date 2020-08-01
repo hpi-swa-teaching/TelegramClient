@@ -1,4 +1,6 @@
 accessing
 initialize
 
-	self messages: OrderedCollection new.
+	self
+		messages: OrderedCollection new;
+		waitingForUpdate: false.

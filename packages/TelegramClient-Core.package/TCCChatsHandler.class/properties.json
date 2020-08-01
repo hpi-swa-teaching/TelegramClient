@@ -8,8 +8,7 @@
 	"instvars" : [
 		"app",
 		"messageLimit",
-		"remainingMessages",
-		"blocked" ],
+		"remainingMessages" ],
 	"name" : "TCCChatsHandler",
 	"pools" : [
 		 ],

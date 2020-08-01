@@ -1,0 +1,4 @@
+accessing
+oldestMessage
+
+	^ messages last
