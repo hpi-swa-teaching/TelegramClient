@@ -14,5 +14,5 @@ chatHistoryReceived: aChatHistory
 		chat stillRequestedMessages > 0 
 			ifTrue: [self 
 				getChatHistoryFrom: chatID
-				with: chat messages last messageId
+				with: chat messages last id
 				limit: chat stillRequestedMessages]].

@@ -6,5 +6,5 @@ newFromMessageEvent: aMessageEvent
 			ifTrue: [((aMessageEvent at: 'content') at: 'text') at: 'text']
 			ifFalse: ['message type not supported yet']);
 		chatID: (aMessageEvent at: 'chat_id');
-		senderId: (aMessageEvent at: 'sender_user_id');
-		messageId: (aMessageEvent at: 'id')
+		senderID: (aMessageEvent at: 'sender_user_id');
+		id: (aMessageEvent at: 'id')
