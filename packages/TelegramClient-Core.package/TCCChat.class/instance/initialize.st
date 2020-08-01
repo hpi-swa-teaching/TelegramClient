@@ -2,5 +2,6 @@ accessing
 initialize
 
 	self
-		messages: OrderedCollection new;
-		waitingForUpdate: false.
+		messages: (OrderedCollection newFrom: {TCCNullMessage new});
+		waitingForUpdate: false;
+		numberOfRequestedMessages: 20.

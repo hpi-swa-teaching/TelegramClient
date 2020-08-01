@@ -1,7 +1,10 @@
 accessing
 getChatHistoryFrom: aChatID with: aMessageId limit: aLimit
 
-	(self app chats getChat: aChatID) ifWaitingForUpdate: [
+	| chat |
+	
+	chat := self app chats getChat: aChatID.
+	chat ifWaitingForUpdate: [
 		self client send: (TCCRequest
 			newWithType: 'getChatHistory'
 			from: {'chat_id' -> aChatID.
@@ -10,4 +13,4 @@ getChatHistoryFrom: aChatID with: aMessageId limit: aLimit
 					'limit' -> aLimit.
 					'only_local' -> false}).
 
-		self remainingMessages: aLimit].
+		chat requestMessages: aLimit].

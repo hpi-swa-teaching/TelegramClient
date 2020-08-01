@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "js 6/13/2020 16:26",
+	"commentStamp" : "",
 	"instvars" : [
-		"app",
-		"remainingMessages" ],
-	"name" : "TCCChatsHandler",
+		 ],
+	"name" : "TCCNullMessage",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TCCMessage",
 	"type" : "normal" }

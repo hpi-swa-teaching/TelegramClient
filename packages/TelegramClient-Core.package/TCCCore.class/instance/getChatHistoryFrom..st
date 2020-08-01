@@ -1,11 +1,7 @@
 accessing
 getChatHistoryFrom: aChatID
 
-	| messageId chatMessages |
-
-	chatMessages := (self chats getChat: aChatID) messages.
-	chatMessages isEmpty
-		ifTrue: [messageId := 0]
-		ifFalse: [messageId := chatMessages last messageId].
-
-	self chatsHandler getChatHistoryFrom: aChatID with: messageId limit: self chatsHandler messageLimit.
+	self chatsHandler
+		getChatHistoryFrom: aChatID
+		with: (self chats getChat: aChatID) messages last messageId
+		limit: self chatsHandler defaultMessageLimit.

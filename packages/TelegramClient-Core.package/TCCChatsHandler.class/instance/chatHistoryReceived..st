@@ -1,7 +1,7 @@
 events
 chatHistoryReceived: aChatHistory
 
-	| chat oldestMessageId chatID |
+	| chat chatID |
 
 	(aChatHistory at: 'messages') ifNotEmpty: [
 		chatID := (aChatHistory at: 'messages') first at: 'chat_id'.
@@ -10,8 +10,9 @@ chatHistoryReceived: aChatHistory
 		(aChatHistory at: 'messages') do: [:message | chat addMessage: (TCCMessage newFromMessageEvent: message)].
 
 		chat waitingForUpdate: false.
-		self remainingMessages: self remainingMessages - (aChatHistory at: 'messages') size.
-		chat messages ifNotEmpty: [
-			oldestMessageId := chat messages last messageId.
-			self remainingMessages > 0 
-				ifTrue: [self getChatHistoryFrom: chatID with: oldestMessageId limit: self remainingMessages]]].
+		
+		chat stillRequestedMessages > 0 
+			ifTrue: [self 
+				getChatHistoryFrom: chatID
+				with: chat messages last messageId
+				limit: chat stillRequestedMessages]].
