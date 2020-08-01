@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"request" ],
+	"name" : "TCTRequestTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

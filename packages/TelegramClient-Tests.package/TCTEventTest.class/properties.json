@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"event" ],
+	"name" : "TCTEventTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
