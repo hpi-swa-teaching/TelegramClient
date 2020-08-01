@@ -5,9 +5,7 @@ newChatSelected: aChat
 	messageListReversed := aChat messages reverse.
 	self welcomeMessage hide.
 	self inputBar show.
-	aChat = self selectedChat 
-		ifTrue: [self showChatMessagesFrom: self messageListWindow lowestVisibleMessage.]
-		ifFalse: [
-			self selectedChat: aChat.
-			self showChatMessagesFrom: 0.]
-		
+	self selectedChat: aChat.
+	
+	self messageListWindow show.
+	self messageListWindow displayChat: aChat.

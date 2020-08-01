@@ -9,15 +9,15 @@ chatHistoryReceived: aChatHistory
 
 		(aChatHistory at: 'messages') do: [:message |
 			((message at: 'content') at: '@type') = 'messageText' ifTrue: [
-				chat messages add: (TCCMessage new
+				chat addMessage: (TCCMessage new
 					message: (((message at: 'content') at: 'text') at: 'text');
 					chatID: chatID;
 					senderId: (message at: 'sender_user_id');
 					messageId: (message at: 'id'))]].
+
 		self blocked: false.	
 		self remainingMessages: self remainingMessages - (aChatHistory at: 'messages') size.
 		chat messages ifNotEmpty: [
 			oldestMessageId := chat messages last messageId.
 			self remainingMessages > 0 
-				ifTrue: [self getChatHistoryFrom: chatID with: oldestMessageId and: self remainingMessages]
-				ifFalse:[self app triggerEvent: #chatHistoryReceived with: chat]]].
+				ifTrue: [self getChatHistoryFrom: chatID with: oldestMessageId and: self remainingMessages]]].
