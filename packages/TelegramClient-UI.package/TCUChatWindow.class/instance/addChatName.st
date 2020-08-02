@@ -1,4 +1,4 @@
-initialization
+drawing
 addChatName
 
 	self titleBar addMorph: (TextMorph new

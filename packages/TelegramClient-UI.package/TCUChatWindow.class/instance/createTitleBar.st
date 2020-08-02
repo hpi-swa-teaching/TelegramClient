@@ -1,4 +1,4 @@
-initialization
+drawing
 createTitleBar
 
 	self titleBar: (RectangleMorph new
