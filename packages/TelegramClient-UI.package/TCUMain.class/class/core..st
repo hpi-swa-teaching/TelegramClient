@@ -1,4 +1,4 @@
-creation
+accessing
 core: aCore
 
 	Core := aCore.

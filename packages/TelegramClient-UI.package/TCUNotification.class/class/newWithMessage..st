@@ -1,4 +1,4 @@
-creation
+instance creation
 newWithMessage: aMessage
 
 	^ self basicNew

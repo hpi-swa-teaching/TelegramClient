@@ -1,4 +1,4 @@
-initialization
+drawing
 createHeaderMorph
 
 	^ RectangleMorph new

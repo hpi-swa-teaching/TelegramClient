@@ -1,4 +1,4 @@
-accessing
+library calls
 sendPhoneNumber: aNumber
 
 	self client send: (TCCRequest

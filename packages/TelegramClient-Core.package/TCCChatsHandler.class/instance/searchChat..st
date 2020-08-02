@@ -1,4 +1,4 @@
-accessing
+library calls
 searchChat: aUsername
 
 	self client send: (TCCRequest

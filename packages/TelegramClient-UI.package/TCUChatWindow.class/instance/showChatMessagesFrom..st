@@ -1,4 +1,4 @@
-initialization
+drawing
 showChatMessagesFrom: lowestMessage
 
 	| messageListReversed |

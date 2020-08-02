@@ -1,4 +1,4 @@
-accessing
+library calls
 checkAuthenticationCode: aString
 
 	self client send: (TCCRequest

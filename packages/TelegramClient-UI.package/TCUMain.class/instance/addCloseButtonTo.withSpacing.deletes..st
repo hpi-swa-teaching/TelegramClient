@@ -1,4 +1,4 @@
-defaultValues
+drawing
 addCloseButtonTo: aMorph withSpacing: aSpacing deletes: aDeletableMorph
 
 	| closeButton |

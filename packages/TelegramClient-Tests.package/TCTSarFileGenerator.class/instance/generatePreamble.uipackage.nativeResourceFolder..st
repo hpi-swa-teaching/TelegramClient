@@ -1,17 +1,13 @@
 helpers
-generatePreamble: package uipackage: ui nativeResourceFolder: folder
+generatePreamble: corePackage uipackage: uiPackage nativeResourceFolder: aFolder
 
-	"Returns the inteded filepath for the tdlib binaries"
-^'| file destination |
-self fileInMonticelloZipVersionNamed:
-''' , package , '.mcz''.' ,'
-file := ((Smalltalk platformName) startsWith: ''Win32'')
-ifTrue: [''tdjson.dll'' ]
-ifFalse: [(anOsName startsWith: ''Mac OS'')
-ifTrue: [''libtdjson.1.6.0.dylib'' ]
-ifFalse: [''libtdjson.so.1.6.0'' ]].
-destination := FileDirectory default.			
-self fileInMonticelloZipVersionNamed:
-''' , ui , '.mcz''.
-TCUTelegram registerOpenCommand.
-(self membersMatching: (''' , folder , FileDirectory slash , ''',file)) do: [ :f | self extractMemberWithoutPath: f inDirectory: destination].' 
+	^ '
+		| file |
+		self fileInMonticelloZipVersionNamed: ''', corePackage, '.mcz''.
+		file := Smalltalk platformName caseOf: {
+			[''Win32''] -> [''tdjson.dll''].
+			[''Mac OS''] -> [''libtdjson.1.6.0.dylib''].
+			[''unix''] -> [''libtdjson.1.6.0.dylib'']}.	
+		self fileInMonticelloZipVersionNamed: ''', uiPackage, '.mcz''.
+		TCUTelegram registerInWorldMenu.
+		(self membersMatching: (''', aFolder, FileDirectory slash, ''', file)) do: [:aFile | self extractMemberWithoutPath: aFile inDirectory: FileDirectory default].' 

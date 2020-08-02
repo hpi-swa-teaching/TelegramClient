@@ -1,4 +1,4 @@
-defaultValues
+drawing
 addInputFieldTo: aMorph withSpacing: aSpacing
 
 	| inputField |

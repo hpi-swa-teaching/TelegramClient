@@ -1,11 +1,11 @@
 testing
 testOrderModify
 
-	| aChat |
+	| chat |
 
-	aChat := self chats last.
-	aChat order: 6.
+	chat := self chats first.
+	chat order: 6.
 
 	self chats notify.
 
-	self assert: (self chats first id = 1).
+	self assert: self chats last id equals: 1.

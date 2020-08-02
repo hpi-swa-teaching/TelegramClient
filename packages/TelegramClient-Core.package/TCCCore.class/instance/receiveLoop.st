@@ -1,4 +1,4 @@
-accessing
+events
 receiveLoop
 
 	[self isClientAlive] whileTrue: [

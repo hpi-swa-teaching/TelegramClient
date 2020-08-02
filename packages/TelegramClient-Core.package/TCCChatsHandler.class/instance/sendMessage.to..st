@@ -1,4 +1,4 @@
-accessing
+library calls
 sendMessage: aString to: aChatID
 
 	self client send: (TCCRequest

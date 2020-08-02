@@ -1,4 +1,4 @@
-accessing
+default values
 defaultWidth
 
 	^ 500

@@ -1,4 +1,4 @@
-accessing
+messages
 displayChat: aChat
 
 	self chat removeActionsWithReceiver: self.

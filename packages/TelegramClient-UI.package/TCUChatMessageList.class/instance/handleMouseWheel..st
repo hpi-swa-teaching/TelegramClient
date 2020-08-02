@@ -1,4 +1,4 @@
-accessing
+event handling
 handleMouseWheel: anEvent
 
 	anEvent isWheelUp ifTrue: [self scrollUp].

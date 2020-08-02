@@ -1,4 +1,4 @@
-accessing
+handlers
 getChatHistoryFrom: aChatID
 
 	self chatsHandler

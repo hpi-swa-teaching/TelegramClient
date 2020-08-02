@@ -1,4 +1,4 @@
-initialization
+accessing
 core
 
 	^ core

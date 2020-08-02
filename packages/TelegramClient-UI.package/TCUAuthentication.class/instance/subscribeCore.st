@@ -1,4 +1,4 @@
-accessing
+core communication
 subscribeCore
 
 	self core

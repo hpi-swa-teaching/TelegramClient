@@ -1,4 +1,4 @@
-accessing
+adding
 addNewMessage: aMessage
 
 	self messages add: aMessage afterIndex: 1.

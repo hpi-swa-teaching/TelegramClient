@@ -1,10 +1,10 @@
-accessing
+library calls
 getChatHistoryFrom: aChatID with: aMessageId limit: aLimit
 
 	| chat |
 	
 	chat := self app chats getChat: aChatID.
-	chat ifWaitingForUpdate: [
+	chat ifNotWaitingForUpdate: [
 		self client send: (TCCRequest
 			newWithType: 'getChatHistory'
 			from: {'chat_id' -> aChatID.

@@ -1,4 +1,4 @@
-creation
+instance creation
 newWithClient: aClient
 
 	^ self new

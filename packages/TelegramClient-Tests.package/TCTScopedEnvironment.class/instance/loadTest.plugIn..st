@@ -1,4 +1,4 @@
-initialize-release
+testing
 loadTest: aSymbol plugIn: aPlugin
 
 	self addTest: (SLTestData newFromDefault

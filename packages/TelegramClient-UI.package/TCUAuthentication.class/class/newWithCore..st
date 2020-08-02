@@ -1,4 +1,4 @@
-creation
+instance creation
 newWithCore: aCore
 
 	^ self basicNew

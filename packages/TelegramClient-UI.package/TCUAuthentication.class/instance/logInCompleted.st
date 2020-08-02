@@ -1,4 +1,4 @@
-initialization
+event handling
 logInCompleted
 
 	(TCUMain newWithCore: self core) openCenteredInWorld.

@@ -1,4 +1,4 @@
-accessing
+initialization
 startTimeOut
 
 	5 seconds wait.

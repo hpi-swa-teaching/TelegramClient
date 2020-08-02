@@ -1,4 +1,4 @@
-events
+event handling
 updateLastMessage: anEvent
 
 	| content chat |

@@ -1,4 +1,4 @@
-initialization
+drawing
 setText
 
 	self addMorph: (TextMorph new

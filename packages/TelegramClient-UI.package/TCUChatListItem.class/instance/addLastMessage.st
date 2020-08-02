@@ -1,4 +1,4 @@
-initialization
+drawing
 addLastMessage
 
 	self addMorph: (TextMorph new

@@ -1,4 +1,4 @@
-events
+event handling
 updateChatOrder: anEvent
 
 	(self app chats getChat: (anEvent at: 'chat_id'))

@@ -1,4 +1,4 @@
-initialization
+drawing
 addNewChatButtonTo: aMorph withSpacing: aSpacing
 
 	| newChatButton |

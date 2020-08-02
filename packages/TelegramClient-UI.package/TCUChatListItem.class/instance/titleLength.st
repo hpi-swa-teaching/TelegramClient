@@ -1,4 +1,4 @@
-initialization
+default values
 titleLength
 
 	^ 32

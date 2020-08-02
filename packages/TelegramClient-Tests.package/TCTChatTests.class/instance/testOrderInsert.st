@@ -2,7 +2,7 @@ testing
 testOrderInsert
 
 	self chats add: (TCCChat new
-		id: 4;
-		order: 4).
+		id: 0;
+		order: 0).
 
-	self assert: (self chats first id = 4).
+	self assert: self chats first id equals: 0.
