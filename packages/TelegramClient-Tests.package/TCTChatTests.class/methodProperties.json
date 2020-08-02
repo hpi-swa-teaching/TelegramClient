@@ -2,4 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "LL 8/2/2020 20:22" } }
+		"chat" : "LL 8/2/2020 20:25",
+		"chat:" : "LL 8/2/2020 20:26",
+		"setUp" : "LL 8/2/2020 20:35",
+		"testAddNewestMessage" : "LL 8/2/2020 20:29" } }
