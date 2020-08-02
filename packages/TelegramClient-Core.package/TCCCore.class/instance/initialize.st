@@ -2,7 +2,7 @@ initialization
 initialize
 
 	self
-		initializeClient;
+		client: TCCTeleClient newForCurrentOS;
 		initializeHandlers;
 		chats: TCCChats new;
 		loggedInUserID: 0.

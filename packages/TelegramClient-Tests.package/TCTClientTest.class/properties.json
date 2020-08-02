@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "js 6/13/2020 16:23",
+	"commentStamp" : "js 8/2/2020 12:25",
 	"instvars" : [
 		 ],
-	"name" : "TCTAbstractTeleClientFactoryMock",
+	"name" : "TCTClientTest",
 	"pools" : [
 		 ],
-	"super" : "AnObsoleteTCCAbstractTeleClientFactory",
+	"super" : "TestCase",
 	"type" : "normal" }

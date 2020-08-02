@@ -1,10 +1,6 @@
 creation
-newWithClient: anActualClient
-
-	| specificClient |
-
-	specificClient := anActualClient create.
+newWithClient: aClient
 
 	^ self new
-		specificClient: anActualClient;
-		handle: specificClient
+		specificClient: aClient;
+		handle: aClient create

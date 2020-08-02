@@ -1,4 +1,0 @@
-creation
-newForCurrentPlatform
-
-	^ self newWithClient: ''
