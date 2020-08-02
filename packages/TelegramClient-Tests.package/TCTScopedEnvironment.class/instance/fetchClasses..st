@@ -1,4 +1,4 @@
-initialize-release
+testing
 fetchClasses: aCollection
 
 	aCollection do: [ :aClass |
