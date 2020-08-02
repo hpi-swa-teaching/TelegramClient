@@ -2,10 +2,12 @@
 	"class" : {
 		"newWithText:type:" : "r.s 7/16/2020 09:07" },
 	"instance" : {
+		"addCloseButton" : "r.s 8/2/2020 19:13",
 		"defaultHeight" : "r.s 7/16/2020 09:04",
 		"defaultOffset" : "r.s 8/2/2020 18:38",
+		"defaultSpacing" : "r.s 8/2/2020 19:14",
 		"defaultWidth" : "r.s 7/16/2020 09:04",
-		"initialize" : "r.s 7/16/2020 09:36",
+		"initialize" : "r.s 8/2/2020 19:14",
 		"setColor" : "r.s 7/16/2020 09:17",
 		"setText" : "r.s 8/2/2020 18:38",
 		"text" : "r.s 7/16/2020 09:09",
