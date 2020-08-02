@@ -1,4 +1,4 @@
-initialize-release
+accessing
 systemClasses: aCollection
 
 	systemClasses := aCollection.

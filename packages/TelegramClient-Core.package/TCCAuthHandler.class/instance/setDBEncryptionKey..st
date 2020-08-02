@@ -1,4 +1,4 @@
-accessing
+library calls
 setDBEncryptionKey: aString
 
 	self client send: (TCCRequest

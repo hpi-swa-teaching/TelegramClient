@@ -1,4 +1,4 @@
-initialization
+default values
 messagePreviewLength
 
-	^ 25
+	^ 37

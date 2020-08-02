@@ -1,4 +1,4 @@
-accessing
+initialization
 initialize
 
 	super initialize.
@@ -6,7 +6,10 @@ initialize
 	self
 		width: self defaultWidth;
 		height: self defaultHeight;
-		color: TCUDefaultValues colorLightBlue;
+		color: (self isOutgoing
+			ifTrue: [TCUDefaultValues colorCarrot]
+			ifFalse: [TCUDefaultValues colorLightBlue]);
+		addText;
 		hResizing: #shrinkWrap;
 		vResizing: #shrinkWrap;
 		borderWidth: 0;

@@ -1,4 +1,4 @@
-defaultValues
+default values
 defaultWidth
 
 	^ 520

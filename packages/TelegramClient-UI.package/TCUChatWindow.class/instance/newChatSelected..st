@@ -1,13 +1,12 @@
-initialization
+event handling
 newChatSelected: aChat
-
-	| messageListReversed |
-	messageListReversed := aChat messages reverse.
+	
 	self welcomeMessage hide.
 	self inputBar show.
-	self selectedChat: aChat.
+	self titleBar delete.
+	self
+		selectedChat: aChat;
+		addTitleBar.
 
 	self messageListWindow show.
 	self messageListWindow displayChat: aChat.
-	1 to: messageListReversed size do: [: x |
-		self messageListWindow addMessage: ((messageListReversed at: x) message) senderId: (messageListReversed at: x) senderId].

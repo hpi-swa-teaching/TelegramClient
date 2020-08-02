@@ -1,4 +1,4 @@
-tests
+private
 methodsLinesDo: aBlock
 
 	self methodTestObjects do: [:aSLMethodTestObject |

@@ -1,1 +1,0 @@
-This abstract Factory creates Clients that behave like FFIClients.

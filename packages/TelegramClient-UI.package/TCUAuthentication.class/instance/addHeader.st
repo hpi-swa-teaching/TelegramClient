@@ -1,11 +1,11 @@
-initialization
+drawing
 addHeader
 
 	| header |
 	header := RectangleMorph new
 		borderWidth: 0;
 		color: TCUDefaultValues colorGray;
-		extent: self width @ 40.
+		extent: self width @ self defaultHeaderHeight.
 
 	self
 		addMorph: header;

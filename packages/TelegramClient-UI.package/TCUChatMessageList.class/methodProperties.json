@@ -2,11 +2,20 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addMessage:senderId:" : "r.s 7/31/2020 14:05",
-		"defaultMessageMargin" : "r.s 7/31/2020 14:16",
-		"displayChat:" : "r.s 7/31/2020 14:04",
-		"heightBetweenMessages" : "r.s 7/31/2020 14:16",
-		"initialize" : "rs 6/17/2020 21:33",
-		"initializeMessages:" : "N.S. 7/26/2020 22:20",
+		"addMessageAtBottom:" : "js 8/2/2020 22:03",
+		"addMessages" : "js 8/2/2020 22:16",
+		"chat" : "js 7/31/2020 16:39",
+		"chat:" : "js 7/31/2020 16:39",
+		"clearMessages" : "js 7/31/2020 16:46",
+		"core" : "js 8/2/2020 22:11",
+		"defaultMessageMargin" : "js 7/31/2020 15:50",
+		"displayChat:" : "f.w. 8/1/2020 04:53",
+		"handleMouseWheel:" : "f.w. 7/31/2020 23:53",
+		"initialize" : "js 7/31/2020 17:19",
+		"lowestVisibleMessage" : "f.w. 7/31/2020 23:55",
+		"lowestVisibleMessage:" : "f.w. 7/31/2020 23:55",
 		"messages" : "rs 6/17/2020 19:10",
-		"messages:" : "rs 6/17/2020 19:10" } }
+		"messages:" : "rs 6/17/2020 19:10",
+		"scrollDown" : "js 8/2/2020 22:17",
+		"scrollUp" : "js 8/2/2020 22:17",
+		"showChatMessagesFrom:" : "js 8/2/2020 22:18" } }

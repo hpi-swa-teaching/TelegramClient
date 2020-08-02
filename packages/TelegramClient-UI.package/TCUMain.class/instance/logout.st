@@ -1,4 +1,4 @@
-defaultValues
+core communication
 logout
 
 	self core authHandler logout.

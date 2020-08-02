@@ -1,9 +1,6 @@
-accessing
+drawing
 addTextLabel
 
-	| shortText |
-	shortText := (self text truncateTo: 25), ' ...'.
-
 	self addMorphCentered: (TextMorph new
-		contents: shortText asText;
+		contents: (self text truncateWithElipsisTo: 25) asText;
 		lock).

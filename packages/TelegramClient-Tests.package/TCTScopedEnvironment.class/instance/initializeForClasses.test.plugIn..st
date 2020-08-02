@@ -1,4 +1,4 @@
-initialize-release
+initialization
 initializeForClasses: aCollection test: aSymbol plugIn: aPlugin
 
 	super initialize.

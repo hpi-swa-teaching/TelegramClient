@@ -4,7 +4,7 @@ initializeDefaults
 	self
 		color: Color white;
 		borderColor: TCUDefaultValues colorLightBlue;
-		borderWidth: 2;
+		borderWidth: self defaultBorderWidth;
 		useRoundedCorners;
 		height: self defaultHeight;
 		width: self defaultWidth;

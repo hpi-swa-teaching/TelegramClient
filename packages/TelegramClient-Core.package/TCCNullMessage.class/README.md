@@ -1,0 +1,1 @@
+a message, that is always the lowest message in a chat

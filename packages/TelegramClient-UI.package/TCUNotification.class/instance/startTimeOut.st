@@ -1,5 +1,5 @@
-accessing
+initialization
 startTimeOut
 
-	5 seconds wait.
+	self defaultTimeOutDuration seconds wait.
 	self fadeOut.

@@ -1,7 +1,7 @@
-initialization
+event handling
 chatItemClicked: aChatListItem event: anEvent from: aSender
 
-	self items do: [:anItem | anItem deselect].
+	self deselectChats.
 
 	(aChatListItem chatID ~= self selectedChat id)
 		ifTrue: [aChatListItem select.

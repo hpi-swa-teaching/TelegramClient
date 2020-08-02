@@ -1,12 +1,13 @@
 {
 	"class" : {
-		"newWithCore:" : "N.S. 7/24/2020 10:14",
+		"initialize" : "js 8/2/2020 14:31",
+		"newWithCore:" : "js 8/2/2020 14:29",
 		"newWithTCCCore" : "rs 6/25/2020 10:16",
 		"newWithTestCore" : "r.s 7/13/2020 17:36",
-		"registerInWorldMenu" : "r.s 7/24/2020 11:41" },
+		"registerInWorldMenu" : "js 8/2/2020 14:28" },
 	"instance" : {
 		"core" : "js 5/31/2020 20:04",
 		"core:" : "js 5/31/2020 20:04",
 		"currentWindow" : "r.s 7/13/2020 17:11",
 		"currentWindow:" : "r.s 7/13/2020 17:11",
-		"initialize" : "r.s 7/13/2020 17:11" } }
+		"initialize" : "js 7/31/2020 23:22" } }

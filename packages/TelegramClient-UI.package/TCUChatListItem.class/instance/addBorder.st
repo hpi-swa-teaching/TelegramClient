@@ -1,4 +1,4 @@
-initialization
+drawing
 addBorder
 
 	self addMorph: (Morph new

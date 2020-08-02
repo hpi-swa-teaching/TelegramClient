@@ -1,4 +1,4 @@
-deletion
+submorphs-add/remove
 delete
 
 	self core client free.

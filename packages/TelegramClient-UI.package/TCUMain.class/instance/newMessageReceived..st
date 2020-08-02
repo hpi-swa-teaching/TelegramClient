@@ -1,5 +1,5 @@
-initialization
+event handling
 newMessageReceived: aMessage
 
-	(self core loggedInUserID = aMessage senderId) ifFalse: [
+	aMessage isOutgoing ifFalse: [
 		[TCUNotification newWithMessage: aMessage] fork].

@@ -1,4 +1,4 @@
-initialize-release
+initialization
 initialize: anActualClient
 
 	self specificClient: anActualClient.

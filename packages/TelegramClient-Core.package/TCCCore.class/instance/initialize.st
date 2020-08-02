@@ -2,9 +2,9 @@ initialization
 initialize
 
 	self
-		initializeClient;
+		client: TCCTeleClient newForCurrentOS;
 		initializeHandlers;
-		chats: TCCChats new;
+		chats: TCCChats newWithDefaultSorting;
 		loggedInUserID: 0.
 
 	[self receiveLoop] fork.

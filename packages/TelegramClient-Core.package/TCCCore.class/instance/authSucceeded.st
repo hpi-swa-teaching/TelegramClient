@@ -1,4 +1,4 @@
-initialization
+events
 authSucceeded
 
 	self getOwnProfile.

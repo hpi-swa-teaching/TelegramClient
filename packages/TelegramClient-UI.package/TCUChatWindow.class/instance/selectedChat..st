@@ -1,4 +1,4 @@
-initialization
+accessing
 selectedChat: aChat
 
 	selectedChat := aChat.

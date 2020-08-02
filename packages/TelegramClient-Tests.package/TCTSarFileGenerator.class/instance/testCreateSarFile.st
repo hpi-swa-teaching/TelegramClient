@@ -1,16 +1,15 @@
-sar
+testing
 testCreateSarFile
 
-	"Creates a release sar file"
-|package ui zip folder |
+	| zip tdlibFolder corePackage uiPackage |
 
-package := 'TelegramClient-Core'.
-ui := 'TelegramClient-UI'.
-folder := 'TDLib'.
-zip := ZipArchive new.
-self streamForPackage: package inZip: zip.
-self streamForPackage: ui inZip: zip.
-zip addTree: Smalltalk imagePath match: [:e | e fullName startsWith:
- Smalltalk imagePath , FileDirectory slash , folder].
-zip addString: (self generatePreamble: package uipackage: ui nativeResourceFolder: folder) as: 'install/preamble'.
-zip writeToFileNamed: 'TelegramClient.sar'.
+	corePackage := 'TelegramClient-Core'.
+	uiPackage := 'TelegramClient-UI'.
+	tdlibFolder := 'TDLib'.
+	zip := ZipArchive new.
+	self streamForPackage: corePackage inZip: zip.
+	self streamForPackage: uiPackage inZip: zip.
+	zip addTree: Smalltalk imagePath match: [:e | e fullName startsWith:
+	Smalltalk imagePath , FileDirectory slash , tdlibFolder].
+	zip addString: (self generatePreamble: corePackage uipackage: uiPackage nativeResourceFolder: tdlibFolder) as: 'install/preamble'.
+	zip writeToFileNamed: 'TelegramClient.sar'.

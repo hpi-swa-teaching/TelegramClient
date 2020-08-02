@@ -1,4 +1,4 @@
-initialization
+accessing
 chatID
 
 	^ self chat id

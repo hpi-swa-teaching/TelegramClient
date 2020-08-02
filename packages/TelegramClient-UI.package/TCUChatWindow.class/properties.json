@@ -6,11 +6,13 @@
 		 ],
 	"commentStamp" : "js 6/13/2020 19:01",
 	"instvars" : [
+		"titleBar",
 		"inputBar",
 		"selectedChat",
 		"welcomeMessage",
 		"textInputField",
-		"messageListWindow" ],
+		"messageListWindow",
+		"lowestVisibleMessage" ],
 	"name" : "TCUChatWindow",
 	"pools" : [
 		 ],

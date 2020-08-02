@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"newWithChat:andWidth:" : "rs 7/4/2020 18:47" },
+		"newWithChat:width:" : "js 7/31/2020 18:48" },
 	"instance" : {
 		"addBorder" : "r.s 7/31/2020 14:43",
-		"addLastMessage" : "r.s 7/31/2020 14:18",
-		"addTitle" : "rs 7/4/2020 19:05",
+		"addLastMessage" : "js 8/2/2020 09:58",
+		"addTitle" : "js 8/2/2020 09:58",
 		"chat" : "rs 6/17/2020 21:45",
 		"chat:" : "rs 6/17/2020 21:45",
 		"chatID" : "rs 6/17/2020 23:05",
@@ -12,6 +12,9 @@
 		"defaultHeight" : "rs 7/4/2020 18:54",
 		"deselect" : "rs 6/13/2020 09:02",
 		"initialize" : "r.s 7/31/2020 14:43",
+		"lastMessageOffset" : "r.s 7/31/2020 16:05",
 		"messageMarginTop" : "r.s 7/31/2020 14:18",
-		"messagePreviewLength" : "r.s 7/31/2020 14:17",
-		"select" : "rs 6/13/2020 08:49" } }
+		"messagePreviewLength" : "js 8/2/2020 10:06",
+		"select" : "rs 6/13/2020 08:49",
+		"titleLength" : "js 8/2/2020 10:00",
+		"titleOffset" : "r.s 7/31/2020 16:04" } }

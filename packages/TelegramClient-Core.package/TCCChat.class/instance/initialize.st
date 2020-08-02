@@ -1,4 +1,8 @@
-accessing
+initialization
 initialize
 
-	self messages: OrderedCollection new.
+	self
+		title: '';
+		messages: (OrderedCollection newFrom: {TCCNullMessage new});
+		waitingForUpdate: false;
+		numberOfRequestedMessages: self defaultNumberOfRequestedMessages.
