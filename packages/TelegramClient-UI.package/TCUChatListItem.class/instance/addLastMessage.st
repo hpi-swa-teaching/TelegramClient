@@ -6,5 +6,5 @@ addLastMessage
 		
 	self addMorph: (TextMorph new
 		contents: text asText;
-		bottomLeft: (self bottomLeft + self lastMessageOffset);
+		bottomLeft: self bottomLeft + self lastMessageOffset;
 		lock).
