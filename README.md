@@ -29,6 +29,50 @@ Alternatively, check our [release page](https://github.com/hpi-swa-teaching/Tele
 ## Running TelegramClient
 In a workspace window either execute the command `TCUTelegram newWithTCCCore` or click the Telegram entry in the Apps dropdown menu. The menu is only available if you already started the app once or installed the app via a release sar file.
 
+## Features
+<table>
+  <thead>
+    <tr>
+      <th>✨</th>
+      <th>Feature</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>🔓</td>
+      <td>Authenticate yourself in TeleSqueak via Telegram</td>
+    </tr>
+    <tr>
+      <td>✉️</td>
+      <td>Send messages to other users</td>
+    </tr>
+    <tr>
+      <td>💬</td>
+      <td>Display open Chats in a List</td>
+    </tr>
+    <tr>
+      <td>📫</td>
+      <td>Receive messages</td>
+    </tr>
+    <tr>
+      <td>🆕</td>
+      <td>Create new chats</td>
+    </tr>
+    <tr>
+      <td>🔔</td>
+      <td>Receive push notifications</td>
+    </tr>
+<tr>
+      <td>🌍</td>
+      <td>Start Telegram via WorldMenu</td>
+    </tr>
+    <tr>
+      <td>🚶</td>
+      <td>Logout</td>
+    </tr>
+  </tbody>
+</table>
+
 ## Building Tdlib
 Tdlib build instructions are available on their Github page. They also have a wonderful build instruction generator available which was the basis for our workflow . [Check it out here.](https://tdlib.github.io/td/build.html) Alternatively use the [Github Pipelines](https://github.com/hpi-swa-teaching/tdlib) we setup and modify them according to newer build instructions for successive tdlib versions. Currently we release at Tag 1.6.0.
 
