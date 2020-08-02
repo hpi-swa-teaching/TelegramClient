@@ -1,0 +1,1 @@
+a simple Headerbar for the main view with some buttons
