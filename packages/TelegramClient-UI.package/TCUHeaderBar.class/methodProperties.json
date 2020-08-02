@@ -4,10 +4,11 @@
 	"instance" : {
 		"addCloseButton" : "r.s 8/2/2020 19:02",
 		"addLogoutButton" : "r.s 8/2/2020 19:03",
-		"addNewChatButton" : "r.s 8/2/2020 19:03",
+		"addNewChatButton" : "js 8/2/2020 22:21",
 		"addTitle:" : "r.s 8/2/2020 18:52",
 		"defaultHeight" : "r.s 8/2/2020 18:59",
 		"defaultSpacing" : "r.s 8/2/2020 18:54",
 		"initialize" : "r.s 8/2/2020 19:02",
 		"main" : "r.s 8/2/2020 19:02",
-		"main:" : "r.s 8/2/2020 19:02" } }
+		"main:" : "r.s 8/2/2020 19:02",
+		"newChatButtonClicked" : "js 8/2/2020 22:22" } }

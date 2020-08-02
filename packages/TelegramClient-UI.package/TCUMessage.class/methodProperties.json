@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newFromTCCMessage:" : "js 8/1/2020 18:21" },
+		"newFromTCCMessage:" : "js 8/2/2020 22:02" },
 	"instance" : {
 		"addText" : "r.s 8/2/2020 18:41",
 		"defaultHeight" : "rs 6/17/2020 20:07",
@@ -8,8 +8,9 @@
 		"defaultMinTextLength" : "js 7/31/2020 18:03",
 		"defaultTextMargins" : "r.s 8/2/2020 18:39",
 		"defaultWidth" : "r.s 7/31/2020 14:19",
-		"initialize" : "js 7/31/2020 18:15",
-		"isSentByMe" : "js 7/31/2020 16:18",
+		"initialize" : "js 8/2/2020 22:03",
+		"isOutgoing" : "js 8/2/2020 22:02",
+		"isOutgoing:" : "js 8/2/2020 22:02",
 		"senderID" : "js 7/31/2020 16:11",
 		"senderID:" : "js 7/31/2020 16:10",
 		"text" : "rs 6/17/2020 19:48",

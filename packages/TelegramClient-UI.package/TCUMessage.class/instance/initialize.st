@@ -6,7 +6,7 @@ initialize
 	self
 		width: self defaultWidth;
 		height: self defaultHeight;
-		color: (self isSentByMe
+		color: (self isOutgoing
 			ifTrue: [TCUDefaultValues colorCarrot]
 			ifFalse: [TCUDefaultValues colorLightBlue]);
 		addText;

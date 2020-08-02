@@ -7,4 +7,4 @@ addChatsList
 		chats: self core chats).
 
 	self
-		addMorph: self chatsList.
+		addMorphBack: self chatsList.

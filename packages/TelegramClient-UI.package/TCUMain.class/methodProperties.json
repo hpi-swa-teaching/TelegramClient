@@ -1,11 +1,9 @@
 {
 	"class" : {
-		"core" : "js 7/31/2020 16:13",
-		"core:" : "js 7/31/2020 16:13",
 		"newWithCore:" : "f.w. 6/3/2020 20:31" },
 	"instance" : {
-		"addChatsList" : "r.s 8/2/2020 19:07",
-		"addHeader" : "r.s 8/2/2020 19:08",
+		"addChatsList" : "js 8/2/2020 22:05",
+		"addHeader" : "js 8/2/2020 22:05",
 		"chatWindow" : "R.S 6/1/2020 14:27",
 		"chatWindow:" : "R.S 6/1/2020 14:27",
 		"chatsList" : "R.S 6/1/2020 14:27",
@@ -21,8 +19,7 @@
 		"initialize" : "r.s 8/2/2020 19:09",
 		"initializeChatWindow" : "r.s 8/2/2020 19:09",
 		"logout" : "js 6/13/2020 18:11",
-		"newChatButtonClicked" : "r.s 8/2/2020 19:14",
-		"newChatSelected:" : "f.w. 7/16/2020 00:02",
-		"newMessageReceived:" : "js 8/1/2020 18:20",
+		"newChatSelected:" : "js 8/2/2020 22:33",
+		"newMessageReceived:" : "js 8/2/2020 22:07",
 		"sendMessage:" : "rs 6/17/2020 21:19",
 		"subscribeChatsList" : "js 7/31/2020 23:09" } }

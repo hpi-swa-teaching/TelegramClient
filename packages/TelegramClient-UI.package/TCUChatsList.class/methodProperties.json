@@ -2,13 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"chatItemClicked:event:from:" : "f.w. 6/26/2020 15:19",
+		"chatItemClicked:event:from:" : "js 8/2/2020 22:29",
 		"chats" : "rs 6/17/2020 22:38",
 		"chats:" : "f.w. 7/15/2020 23:57",
 		"clearItems" : "rs 6/17/2020 22:39",
 		"createChatListItem:" : "js 7/31/2020 23:05",
 		"defaultScrollStep" : "r.s 8/2/2020 21:24",
 		"defaultWidth" : "R.S 6/1/2020 14:24",
+		"deselectChats" : "js 8/2/2020 22:29",
 		"handleMouseWheel:" : "r.s 7/15/2020 15:09",
 		"initialize" : "f.w. 7/12/2020 04:29",
 		"initializeLayout" : "js 6/13/2020 18:49",
