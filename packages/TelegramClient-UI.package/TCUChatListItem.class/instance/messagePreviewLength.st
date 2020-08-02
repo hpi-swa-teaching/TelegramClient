@@ -1,4 +1,4 @@
 initialization
 messagePreviewLength
 
-	^ 25
+	^ 37
