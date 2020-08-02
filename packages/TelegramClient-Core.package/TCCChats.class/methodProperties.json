@@ -1,7 +1,9 @@
 {
 	"class" : {
-		"new" : "rs 6/6/2020 17:58" },
+		"defaultSortBlock" : "js 8/2/2020 13:29",
+		"new" : "js 8/2/2020 13:26",
+		"newWithDefaultSorting" : "js 8/2/2020 13:29" },
 	"instance" : {
 		"getChat:" : "rs 6/19/2020 17:13",
-		"initialize" : "LL 7/31/2020 15:55",
+		"initializea" : "js 8/2/2020 13:29",
 		"notify" : "js 7/31/2020 14:47" } }

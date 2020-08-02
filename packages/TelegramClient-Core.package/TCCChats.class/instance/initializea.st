@@ -1,0 +1,6 @@
+initialization
+initializea
+
+	super initialize.
+	
+	self sortBlock: [:aChat :anotherChat | aChat order >= anotherChat order].

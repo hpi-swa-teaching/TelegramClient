@@ -1,4 +1,4 @@
-initialize-release
+events
 notify
 
 	self

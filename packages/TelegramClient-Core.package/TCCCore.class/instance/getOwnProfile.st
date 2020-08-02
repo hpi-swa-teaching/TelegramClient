@@ -1,4 +1,4 @@
-initialization
+events
 getOwnProfile
 
 	self client send: (TCCRequest

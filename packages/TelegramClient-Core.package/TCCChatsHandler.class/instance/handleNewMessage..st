@@ -1,4 +1,4 @@
-events
+event handling
 handleNewMessage: anEvent
 
 	| message |

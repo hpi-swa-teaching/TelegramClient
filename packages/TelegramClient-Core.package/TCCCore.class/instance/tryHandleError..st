@@ -1,4 +1,4 @@
-errorhandling
+error handling
 tryHandleError: anError
 
 	(anError at: 'message') caseOf: {

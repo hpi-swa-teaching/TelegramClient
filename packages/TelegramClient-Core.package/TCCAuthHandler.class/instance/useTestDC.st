@@ -1,4 +1,4 @@
-initialize
+default values
 useTestDC
 
 	^ false

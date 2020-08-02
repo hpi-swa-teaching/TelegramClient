@@ -1,4 +1,4 @@
-events
+event handling
 chatHistoryReceived: aChatHistory
 
 	| chat chatID |
@@ -7,7 +7,7 @@ chatHistoryReceived: aChatHistory
 		chatID := (aChatHistory at: 'messages') first at: 'chat_id'.
 		chat := self app chats getChat: chatID.
 
-		(aChatHistory at: 'messages') do: [:message | chat addMessage: (TCCMessage newFromMessageEvent: message)].
+		(aChatHistory at: 'messages') do: [:message | chat addOldestMessage: (TCCMessage newFromMessageEvent: message)].
 
 		chat waitingForUpdate: false.
 		
