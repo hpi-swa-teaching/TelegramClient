@@ -8,6 +8,7 @@ testMessage
 		'chat_id' -> '1'.
 		'sender_user_id' -> '2'.
 		'id' -> '3'.
+		'is_outgoing' -> false.
 		'content' -> (Dictionary newFrom: {
 			'@type' -> 'messageText'.
 			'text' -> (Dictionary newFrom: {
