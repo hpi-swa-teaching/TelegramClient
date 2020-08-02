@@ -1,4 +1,4 @@
-accessing
+event handling
 scrollUp
 
 	self position y >= self maxHeight ifFalse:[

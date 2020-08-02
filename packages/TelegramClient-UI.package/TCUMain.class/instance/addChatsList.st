@@ -1,4 +1,4 @@
-initialization
+drawing
 addChatsList
 
 	self chatsList: (TCUChatsList new

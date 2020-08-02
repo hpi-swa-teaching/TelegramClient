@@ -1,4 +1,4 @@
-defaultValues
+drawing
 addLogoutButtonTo: aMorph withSpacing: aSpacing
 
 	| logoutButton |

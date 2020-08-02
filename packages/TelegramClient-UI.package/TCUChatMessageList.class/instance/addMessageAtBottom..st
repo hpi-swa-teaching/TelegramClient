@@ -1,4 +1,4 @@
-accessing
+messages
 addMessageAtBottom: aMessage
 
 	| newMessage |

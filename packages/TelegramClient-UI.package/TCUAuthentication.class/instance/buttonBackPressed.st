@@ -1,4 +1,4 @@
-initialization
+event handling
 buttonBackPressed
 
 	self showFirstStep.

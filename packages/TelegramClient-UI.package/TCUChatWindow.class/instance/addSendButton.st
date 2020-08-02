@@ -1,4 +1,4 @@
-initialization
+drawing
 addSendButton
 
 	self inputBar addMorph: (TCUButton new

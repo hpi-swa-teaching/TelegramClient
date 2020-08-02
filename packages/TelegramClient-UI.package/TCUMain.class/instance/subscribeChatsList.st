@@ -1,4 +1,4 @@
-initialization
+core communication
 subscribeChatsList
 
 	self chatsList

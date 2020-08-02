@@ -1,4 +1,4 @@
-initialization
+drawing
 setColor
 
 	self type = 'information' ifTrue: [self color: Color white].

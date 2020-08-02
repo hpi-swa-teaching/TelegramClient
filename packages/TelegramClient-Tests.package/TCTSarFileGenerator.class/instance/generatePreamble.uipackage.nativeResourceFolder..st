@@ -9,5 +9,5 @@ generatePreamble: corePackage uipackage: uiPackage nativeResourceFolder: aFolder
 			[''Mac OS''] -> [''libtdjson.1.6.0.dylib''].
 			[''unix''] -> [''libtdjson.1.6.0.dylib'']}.	
 		self fileInMonticelloZipVersionNamed: ''', uiPackage, '.mcz''.
-		TheWorldMenu registerOpenCommand: {''Telegram Client''. {TCUTelegram. #newWithTCCCore}. ''opens a Telegram Client''}.
+		TCUTelegram registerInWorldMenu.
 		(self membersMatching: (''', aFolder, FileDirectory slash, ''', file)) do: [:aFile | self extractMemberWithoutPath: aFile inDirectory: FileDirectory default].' 

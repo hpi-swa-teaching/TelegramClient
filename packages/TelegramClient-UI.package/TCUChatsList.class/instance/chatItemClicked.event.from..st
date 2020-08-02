@@ -1,4 +1,4 @@
-initialization
+event handling
 chatItemClicked: aChatListItem event: anEvent from: aSender
 
 	self items do: [:anItem | anItem deselect].

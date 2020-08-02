@@ -1,4 +1,4 @@
-initialization
+event handling
 buttonSendPressed
 
 	self triggerEvent: #buttonSendPressed with: (Dictionary newFrom: {

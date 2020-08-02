@@ -1,4 +1,4 @@
-creation
+instance creation
 newWithHeight: aHeight width: aWidth
 
 	^ self basicNew

@@ -1,4 +1,4 @@
-accessing
+drawing
 addTextLabel
 
 	self addMorphCentered: (TextMorph new

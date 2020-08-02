@@ -1,4 +1,4 @@
-initialization
+default values
 messageMarginTop
 
 	^ 20

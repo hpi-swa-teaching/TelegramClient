@@ -1,4 +1,4 @@
-accessing
+event handling
 handleMouseWheel: anEvent
 
 	self maxHeight: (self owner position y).

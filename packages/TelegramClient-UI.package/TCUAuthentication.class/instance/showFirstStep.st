@@ -1,4 +1,4 @@
-accessing
+drawing
 showFirstStep
 
 	self instructionLabel

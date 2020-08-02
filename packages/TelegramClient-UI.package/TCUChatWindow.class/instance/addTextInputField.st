@@ -1,4 +1,4 @@
-initialization
+drawing
 addTextInputField
 
 	self textInputField: (TextMorph new

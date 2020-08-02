@@ -1,4 +1,4 @@
-creation
+instance creation
 newWithChat: aChat width: aWidth
 
 	^ self new

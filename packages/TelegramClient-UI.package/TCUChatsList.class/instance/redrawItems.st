@@ -1,4 +1,4 @@
-accessing
+drawing
 redrawItems
 
 	self clearItems.

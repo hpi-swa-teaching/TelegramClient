@@ -1,4 +1,4 @@
-accessing
+drawing
 createChatListItem: aChat
 
 	| item |

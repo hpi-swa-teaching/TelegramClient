@@ -1,4 +1,4 @@
-initialization
+drawing
 createInputBar
 
 	self inputBar: (RectangleMorph new

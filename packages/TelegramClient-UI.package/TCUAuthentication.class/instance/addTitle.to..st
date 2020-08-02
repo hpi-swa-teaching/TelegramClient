@@ -1,4 +1,4 @@
-initialization
+drawing
 addTitle: aString to: aMorph
 
 	| titleLable font |

@@ -1,4 +1,4 @@
-accessing
+drawing
 addText
 
 	| textMorph expectedWidth |
