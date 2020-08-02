@@ -1,13 +1,16 @@
 {
 	"class" : {
-		"newWithText:senderId:" : "N.S. 7/26/2020 22:23" },
+		"newFromTCCMessage:" : "js 8/1/2020 18:21" },
 	"instance" : {
-		"adaptColor:" : "r.s 7/31/2020 13:58",
+		"addText" : "js 7/31/2020 18:42",
 		"defaultHeight" : "rs 6/17/2020 20:07",
-		"defaultMinTextLength" : "r.s 7/31/2020 14:21",
-		"defaultTextMargins" : "r.s 7/31/2020 14:21",
+		"defaultMargin" : "js 7/31/2020 18:19",
+		"defaultMinTextLength" : "js 7/31/2020 18:03",
+		"defaultTextMargins" : "js 7/31/2020 18:17",
 		"defaultWidth" : "r.s 7/31/2020 14:19",
-		"initialize" : "r.s 7/31/2020 14:27",
-		"setText:" : "r.s 7/31/2020 14:28",
+		"initialize" : "js 7/31/2020 18:15",
+		"isSentByMe" : "js 7/31/2020 16:18",
+		"senderID" : "js 7/31/2020 16:11",
+		"senderID:" : "js 7/31/2020 16:10",
 		"text" : "rs 6/17/2020 19:48",
 		"text:" : "rs 6/17/2020 19:52" } }

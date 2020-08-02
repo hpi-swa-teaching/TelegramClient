@@ -1,0 +1,4 @@
+creation
+newForCurrentPlatform
+
+	^ self newWithClient: ''

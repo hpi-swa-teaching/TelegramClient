@@ -18,7 +18,7 @@
 		"isAwaitingDBEncryptionKey" : "r.s 7/15/2020 12:17",
 		"isAwaitingPhoneNumber" : "r.s 7/15/2020 12:17",
 		"isAwaitingTDLibParams" : "r.s 7/15/2020 12:17",
-		"logout" : "r.s 7/15/2020 12:52",
+		"logout" : "js 7/31/2020 14:13",
 		"sendPhoneNumber:" : "js 6/13/2020 18:54",
 		"setDBEncryptionKey:" : "rs 6/6/2020 16:26",
 		"setTDLibParams" : "rs 6/14/2020 12:42",

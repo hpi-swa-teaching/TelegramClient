@@ -1,4 +1,4 @@
 default values
 defaultMessageMargin
 
-	^ 15
+	^ 10
