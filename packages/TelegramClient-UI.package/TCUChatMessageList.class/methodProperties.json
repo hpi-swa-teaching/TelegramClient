@@ -2,11 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addMessageAtBottom:" : "js 7/31/2020 17:00",
-		"addMessages" : "f.w. 8/1/2020 05:09",
+		"addMessageAtBottom:" : "js 8/2/2020 22:03",
+		"addMessages" : "js 8/2/2020 22:16",
 		"chat" : "js 7/31/2020 16:39",
 		"chat:" : "js 7/31/2020 16:39",
 		"clearMessages" : "js 7/31/2020 16:46",
+		"core" : "js 8/2/2020 22:11",
 		"defaultMessageMargin" : "js 7/31/2020 15:50",
 		"displayChat:" : "f.w. 8/1/2020 04:53",
 		"handleMouseWheel:" : "f.w. 7/31/2020 23:53",
@@ -15,5 +16,6 @@
 		"lowestVisibleMessage:" : "f.w. 7/31/2020 23:55",
 		"messages" : "rs 6/17/2020 19:10",
 		"messages:" : "rs 6/17/2020 19:10",
-		"scrollDown" : "f.w. 8/1/2020 02:37",
-		"scrollUp" : "f.w. 8/1/2020 02:17" } }
+		"scrollDown" : "js 8/2/2020 22:17",
+		"scrollUp" : "js 8/2/2020 22:17",
+		"showChatMessagesFrom:" : "js 8/2/2020 22:18" } }

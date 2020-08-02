@@ -6,7 +6,7 @@ addMessageAtBottom: aMessage
 
 	self messages do: [:message | message position: (message position - (0 @ (newMessage height)))].
 
-	newMessage isSentByMe
+	newMessage isOutgoing
 		ifTrue: [newMessage bottomRight: (self bottomRight - (self defaultMessageMargin @ 0))]
 		ifFalse: [newMessage bottomLeft: (self bottomLeft + (self defaultMessageMargin @ 0))].
 	self addMorph: newMessage.

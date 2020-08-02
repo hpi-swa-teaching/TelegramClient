@@ -1,4 +1,4 @@
 accessing
 message: aString
 
-	message := aString
+	message := aString.

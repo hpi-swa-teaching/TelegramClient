@@ -1,13 +1,11 @@
-drawing
-addTitle: aString to: aMorph
+initialization
+addTitle: aString 
 
-	| titleLable font |
+	| font |
 
 	font := (TextFontReference toFont: (StrikeFont familyName: 'DefaultTextStyle' size: 35)).
 
-	titleLable := TextMorph new
+	self addMorphCentered: (TextMorph new
 		contents: (aString asText addAttribute: font);
 		color: Color white;
-		lock.
-
-	aMorph addMorphCentered: titleLable.
+		lock).
