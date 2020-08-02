@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "js 8/1/2020 13:35",
+	"commentStamp" : "js 8/1/2020 13:34",
 	"instvars" : [
-		"request" ],
-	"name" : "TCTRequestTest",
+		 ],
+	"name" : "TCTEventTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
