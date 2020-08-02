@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"newFromNewChatEvent:" : "js 8/2/2020 22:26" },
 	"instance" : {
 		"addNewestMessage:" : "js 8/2/2020 12:58",
 		"addOldestMessage:" : "js 8/2/2020 12:58",

@@ -3,7 +3,8 @@ addText
 
 	| textMorph expectedWidth |
 
-	textMorph := TextMorph new contents: self text;
+	textMorph := TextMorph new 
+		contents: self text;
 		wrapFlag: true;
 		margins: self defaultTextMargins;
 		width: self defaultWidth;

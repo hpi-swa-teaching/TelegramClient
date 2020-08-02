@@ -9,6 +9,7 @@ initialize
 		borderWidth: 1;
 		borderColor: TCUDefaultValues colorLightBlue;
 		setColor;
-		useRoundedCorners.
+		useRoundedCorners;
+		addCloseButton.
 
 	self setText.

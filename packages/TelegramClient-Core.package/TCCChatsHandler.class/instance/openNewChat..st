@@ -1,5 +1,4 @@
 events
 openNewChat: aChat
 
-	self app chats triggerEvent: #openNewChat with: (TCCChat new
-		id: (aChat at: 'id')).
+	self app chats triggerEvent: #openNewChat with: (TCCChat newFromNewChatEvent: aChat).
