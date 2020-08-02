@@ -1,5 +1,5 @@
-as yet unclassified
+testing
 testAddNewestMessage
 
-	chat addNewestMessage: 'testmessage'.
-	self assert: (chat messages includes: 'testmessage').
+	self chat addNewestMessage: (TCCMessage new message: 'test').
+	self assert:self  chat messages second message equals: 'test'.

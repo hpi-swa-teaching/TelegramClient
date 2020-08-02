@@ -1,10 +1,11 @@
-as yet unclassified
+running
 setUp
 
 	self chat: TCCChat new.
-	self chat messages 
-		add: 'message1';
-		add: 'message2';
-		add: 'message3';
-		add: 'message4'.
 	
+	1 to: 5 do: [:aNumber |
+		self chat messages add: (TCCMessage new
+			message: aNumber asString;
+			chatID: aNumber * 2;
+			senderID: aNumber * 3;
+			id: aNumber * 4)].
