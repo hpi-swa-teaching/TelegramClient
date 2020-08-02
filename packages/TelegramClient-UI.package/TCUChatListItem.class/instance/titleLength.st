@@ -1,0 +1,4 @@
+initialization
+titleLength
+
+	^ 32
