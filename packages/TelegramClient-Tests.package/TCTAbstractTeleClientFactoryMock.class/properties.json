@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "js 6/13/2020 16:23",
+	"instvars" : [
+		 ],
+	"name" : "TCTAbstractTeleClientFactoryMock",
+	"pools" : [
+		 ],
+	"super" : "AnObsoleteTCCAbstractTeleClientFactory",
+	"type" : "normal" }

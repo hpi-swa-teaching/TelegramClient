@@ -11,7 +11,6 @@ addHeader
 	self
 		addMorph: header;
 		addTitle: 'Telegram' to: header;
-		addLogoutButtonTo: header withSpacing: 5;
-		addCloseButtonTo: header withSpacing: 5 deletes: self;
-		"addInputFieldTo: header withSpacing: 5;"
-		addNewChatButtonTo: header withSpacing: 5.
+		addLogoutButtonTo: header withSpacing: self defaultSpacing;
+		addCloseButtonTo: header withSpacing: self defaultSpacing deletes: self;
+		addNewChatButtonTo: header withSpacing: self defaultSpacing.

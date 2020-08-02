@@ -4,7 +4,6 @@ addInputFieldTo: aMorph withSpacing: aSpacing
 	| inputField |
 
 	inputField := TextMorph new
-		"contentsWrapped: 'search';"
 		contents: 'search';
 		borderColor: TCUDefaultValues colorLightGray;
 		color: TCUDefaultValues colorLightGray;
