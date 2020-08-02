@@ -1,0 +1,4 @@
+initialization
+defaultTitleBarHeigth
+
+	^ 50

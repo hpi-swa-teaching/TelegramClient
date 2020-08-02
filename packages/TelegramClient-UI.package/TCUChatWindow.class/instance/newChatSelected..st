@@ -1,7 +1,8 @@
-event handling
+initialization
 newChatSelected: aChat
-
+	
 	self welcomeMessage hide.
+	self addTitleBar.
 	self inputBar show.
 	self selectedChat: aChat.
 	
