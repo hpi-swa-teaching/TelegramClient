@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testChatsHandler
 
 	| chatsHandler |
@@ -6,5 +6,3 @@ testChatsHandler
 	self core chatsHandler: chatsHandler.
 	
 	self assert: (self core chatsHandler) equals: chatsHandler.
-	
-	

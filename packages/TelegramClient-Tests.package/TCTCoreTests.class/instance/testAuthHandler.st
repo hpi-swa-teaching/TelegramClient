@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testAuthHandler
 
 	| authHandler |
@@ -6,5 +6,3 @@ testAuthHandler
 	self core authHandler: authHandler.
 	
 	self assert: (self core authHandler) equals: authHandler.
-	
-	
