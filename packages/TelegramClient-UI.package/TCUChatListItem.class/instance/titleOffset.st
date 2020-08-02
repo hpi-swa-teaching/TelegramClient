@@ -1,4 +1,4 @@
 initialization
 titleOffset
 
-	^ (20 @ 20)
+	^ 20 @ 20
