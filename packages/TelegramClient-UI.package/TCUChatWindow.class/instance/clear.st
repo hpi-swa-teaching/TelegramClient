@@ -1,4 +1,4 @@
-initialization
+drawing
 clear
 
 	self titleBar delete.

@@ -1,4 +1,4 @@
-initialization
+event handling
 newChatSelected: aChat
 	
 	self welcomeMessage hide.
