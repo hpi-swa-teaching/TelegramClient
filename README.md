@@ -82,7 +82,7 @@ We include Tdlib in our project and can access it with the Squeak FFI, in turn a
 Once this project concludes there will be a need for the next group to aquire a new [API key](https://core.telegram.org/api/obtaining_api_id).
 
 ## Resources for following groups
-We have a [Discord](https://discord.gg/craraGh) server setup with a Github Webhook, notifying us on important changes to the repository. Most exchanges happened in there, making it a valueable resource for successive groups.
+We have developed a [Project-Guide](https://github.com/hpi-swa-teaching/TelegramClient/wiki) which contains the most important information to continue developing the TelegramClient. Feel free to add new information to the wiki.
 
 ## Our Group
 Group 13 of the 2020 SWT I module incuded [Rohan Sawahn](https://github.com/rohansaw), [Jonas Schmidt](https://github.com/schmidtjonas), [Frederik Wollny](https://github.com/Freddy200), [Stefan Spangenberg](https://github.com/sspangenberg), [Lukas Laskowski](https://github.com/lasklu) and [Niklas Schilli](https://github.com/Mrnikbobjeff).
