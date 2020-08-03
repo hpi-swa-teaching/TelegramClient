@@ -1,6 +1,6 @@
 name: CI-Lint
 
-on: [pull_request]
+on: [ push, pull_request ]
 
 jobs:
   build:
@@ -8,7 +8,7 @@ jobs:
     strategy:
       matrix:
         os: [ ubuntu-latest ]
-        smalltalk: [ Squeak64-5.3 ]
+        smalltalk: [ Squeak64-5.2 ]
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
