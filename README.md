@@ -8,9 +8,9 @@
         <a href="https://github.com/hpi-swa-teaching/TelegramClient/actions?query=workflow%3ACI" title="Build Status - Master"><img src="https://img.shields.io/github/workflow/status/hpi-swa-teaching/telegramclient/CI/master?color=dwa&label=master&logo=dwa&logoColor=daw"></a>
     <a href="https://github.com/hpi-swa-teaching/TelegramClient/actions?query=workflow%3ACI" title="Build Status - Develop"><img src="https://img.shields.io/github/workflow/status/hpi-swa-teaching/telegramclient/CI/master?color=dwa&label=develop&logo=dwa&logoColor=daw"></a>
     <a href="./LICENSE" title="License"><img src="https://img.shields.io/github/license/hpi-swa-teaching/TelegramClient"></a>
-    <a href='https://coveralls.io/github/hpi-swa-teaching/TelegramClient?branch=develop'><img src='https://coveralls.io/repos/github/hpi-swa-teaching/TelegramClient/badge.svg?branch=develop' alt='Coverage Status' /></a>
-</p>
-
+    <img alt="Coveralls github branch" src="https://img.shields.io/coveralls/github/hpi-swa-teaching/TelegramClient/master?label=coverage%20-%20master">
+    <img alt="Coveralls github branch" src="https://img.shields.io/coveralls/github/hpi-swa-teaching/TelegramClient/develop?label=coverage%20-%20develop">
+    
 ## Overview
 TelegramClient is a **Squeak-Client** for the widely used Telegram-Messenger. It aims to provide features such as Authentication, Contacts, Message and Media sending and a minimal, clean UI as well as as a Zen-mode and receiving messages in the background.
 
