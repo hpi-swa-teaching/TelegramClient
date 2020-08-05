@@ -74,14 +74,6 @@ In a workspace window either execute the command `TCUTelegram newWithTCCCore` or
   </tbody>
 </table>
 
-## Building Tdlib
-Tdlib build instructions are available on their Github page. They also have a wonderful build instruction generator available which was the basis for our workflow . [Check it out here.](https://tdlib.github.io/td/build.html) Alternatively use the [Github Pipelines](https://github.com/hpi-swa-teaching/tdlib) we setup and modify them according to newer build instructions for successive tdlib versions. Currently we release at Tag 1.6.0.
-
-## Notes on Tdlib
-The TelegramClient is build on the TelegramDatabseLibrary which provides access to Telegram API via a JSON-Interface.
-We include Tdlib in our project and can access it with the Squeak FFI, in turn allowing us to access the Telegram API via JSON-Interface.
-Once this project concludes there will be a need for the next group to aquire a new [API key](https://core.telegram.org/api/obtaining_api_id).
-
 ## Resources for following groups
 We have developed a [Project-Guide](https://github.com/hpi-swa-teaching/TelegramClient/wiki) which contains the most important information to continue developing the TelegramClient. Feel free to add new information to the wiki.
 
