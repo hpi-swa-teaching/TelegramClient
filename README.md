@@ -22,8 +22,8 @@ Make sure you have the current version of Squeak installed.
 * Step 2: Install the Squeak FFI Workload. To do so, open the Workspace in Squeak and execute the following command:   `(Installer repository: 'http://source.squeak.org/FFI')
 install: 'FFI-Pools';
 install: 'FFI-Kernel'.`
-* Step 3: Download the required native Binaries for your system. On Ubuntu, this should happen automatically, on Windows you have to download tdlib_windows.zip. [Windows](https://github.com/hpi-swa-teaching/tdlib), [Mac](https://github.com/hpi-swa-teaching/tdlib/actions?query=workflow%3A%22Tdlib+Max+x64+Build%22), [Ubuntu 18 lts](https://github.com/hpi-swa-teaching/tdlib/actions?query=workflow%3A%22Tdlib+Ubuntu+Build%22). For Mac and Ubuntu, select the latest successful run of the pipeline and download the single artifact produced by the respective pipeline.
-* Step 4: Place the unzipped binaries inside of your squeak image inside the 'Resource' folder.
+* Step 3: Download the required native Binaries for your system. This should happen automatically, alternatively you can download them here. On Windows you have to download tdlib_windows.zip. [Windows](https://github.com/hpi-swa-teaching/tdlib), [Mac](https://github.com/hpi-swa-teaching/tdlib/actions?query=workflow%3A%22Tdlib+Max+x64+Build%22), [Ubuntu 18 lts](https://github.com/hpi-swa-teaching/tdlib/actions?query=workflow%3A%22Tdlib+Ubuntu+Build%22). For Mac and Ubuntu, select the latest successful run of the pipeline and download the single artifact produced by the respective pipeline.
+* Step 4 (Manual download only): Place the unzipped binaries inside of your squeak image inside the 'Resource' folder.
 * Step 5 (Windows only): Install the [Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019](https://aka.ms/vs/16/release/vc_redist.x64.exe)
 
 Alternatively, check our [release page](https://github.com/hpi-swa-teaching/TelegramClient/releases) for an online installer in the form of a sar file. In that case you just have to follow steps two and five.
