@@ -31,7 +31,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: Trunk ${{ steps.current-time.outputs.formattedTime  }} 
+          tag_name: Trunk${{ steps.current-time.outputs.formattedTime  }} 
           release_name: Trunk Release ${{ steps.current-time.outputs.formattedTime  }}
           draft: false
           prerelease: true
