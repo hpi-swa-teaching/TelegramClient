@@ -1,12 +1,11 @@
 {
 	"category" : "TelegramClient-Core",
 	"classinstvars" : [
-		 ],
+		"userI" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "js 6/13/2020 16:25",
 	"instvars" : [
-		"userId",
 		"messages",
 		"order",
 		"id",

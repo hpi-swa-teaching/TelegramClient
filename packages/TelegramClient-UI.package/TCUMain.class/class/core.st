@@ -1,4 +1,0 @@
-accessing
-core
-
-	^ Core

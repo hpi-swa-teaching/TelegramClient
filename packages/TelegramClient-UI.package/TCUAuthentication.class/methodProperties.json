@@ -2,7 +2,7 @@
 	"class" : {
 		"newWithCore:" : "R.S 5/31/2020 20:16" },
 	"instance" : {
-		"addHeader" : "js 6/13/2020 19:18",
+		"addHeader" : "r.s 8/2/2020 21:29",
 		"addTitle:to:" : "N.S. 7/26/2020 15:52",
 		"buttonBack" : "rs 6/11/2020 18:53",
 		"buttonBack:" : "rs 6/11/2020 18:53",
@@ -22,6 +22,7 @@
 		"createInputField:" : "js 7/31/2020 15:18",
 		"createLabel:" : "js 6/13/2020 18:13",
 		"defaultExtent" : "R.S 5/20/2020 13:51",
+		"defaultHeaderHeight" : "r.s 8/2/2020 21:29",
 		"defaultInputWidth" : "R.S 5/20/2020 13:51",
 		"delete" : "f.w. 6/3/2020 20:51",
 		"errorLabel" : "R.S 5/20/2020 13:51",
