@@ -1,4 +1,4 @@
-<p align="center"><img width="300" height="300" src="assets/logo.png" alt="TeleSqueak"></p>
+<p align="center"><img width="300" height="300" src="assets/logo.png" alt="TelegramClient-Logo"></p>
 
 <h1 align="center" style=font-size:200px>TelegramClient</h1>
 
@@ -12,7 +12,7 @@
     <a href="./LICENSE" title="License"><img src="https://img.shields.io/github/license/hpi-swa-teaching/TelegramClient"></a>
     
 ## Overview
-TelegramClient is a **Squeak-Client** for the widely used Telegram-Messenger. It aims to provide features such as Authentication, Contacts, Message and Media sending and a minimal, clean UI as well as as a Zen-mode and receiving messages in the background.
+TelegramClient is a **Squeak-Client** for the widely used Telegram-Messenger. It aims to provide features such as Authentication, Contacts, Message and Media sending and a minimal UI as well as as a Zen-mode and receiving messages in the background.
 
 *This Project is part of the "Softwaretechnik" Lecture 2020 at the Hasso Plattner Institute.*
 
@@ -41,7 +41,7 @@ In a workspace window either execute the command `TCUTelegram newWithTCCCore` or
   <tbody>
     <tr>
       <td>🔓</td>
-      <td>Authenticate yourself in TeleSqueak via Telegram</td>
+      <td>Authenticate yourself in your Telegram-Account</td>
     </tr>
     <tr>
       <td>✉️</td>
@@ -63,7 +63,7 @@ In a workspace window either execute the command `TCUTelegram newWithTCCCore` or
       <td>🔔</td>
       <td>Receive push notifications</td>
     </tr>
-<tr>
+    <tr>
       <td>🌍</td>
       <td>Start Telegram via WorldMenu</td>
     </tr>
@@ -75,7 +75,7 @@ In a workspace window either execute the command `TCUTelegram newWithTCCCore` or
 </table>
 
 ## Resources for following groups
-We have developed a [Project-Guide](https://github.com/hpi-swa-teaching/TelegramClient/wiki) which contains the most important information to continue developing the TelegramClient. Feel free to add new information to the wiki.
+We have developed a [Project-Guide](https://github.com/hpi-swa-teaching/TelegramClient/wiki) in our wiki page, which contains the most important information to continue developing the TelegramClient. Feel free to add new information to the wiki.
 
 ## Our Group
-Group 13 of the 2020 SWT I module incuded [Rohan Sawahn](https://github.com/rohansaw), [Jonas Schmidt](https://github.com/schmidtjonas), [Frederik Wollny](https://github.com/Freddy200), [Stefan Spangenberg](https://github.com/sspangenberg), [Lukas Laskowski](https://github.com/lasklu) and [Niklas Schilli](https://github.com/Mrnikbobjeff).
+Group 13 of the 2020 SWT I module incuded [Rohan Sawahn](https://github.com/rohansaw), [Jonas Schmidt](https://github.com/schmidtjonas), [Frederik Wollny](https://github.com/Freddy200), [Stefan Spangenberg](https://github.com/sspangenberg), [Lukas Laskowski](https://github.com/lasklu) and [Niklas Schilli](https://github.com/Mrnikbobjeff). Feel free to add your names to the list!
