@@ -6,7 +6,7 @@ testCreateSarFile
 
 package := 'TelegramClient-Core'.
 ui := 'TelegramClient-UI'.
-folder := 'TDLib'.
+folder := 'TDLibResources'.
 zip := ZipArchive new.
 self streamForPackage: package inZip: zip.
 self streamForPackage: ui inZip: zip.
