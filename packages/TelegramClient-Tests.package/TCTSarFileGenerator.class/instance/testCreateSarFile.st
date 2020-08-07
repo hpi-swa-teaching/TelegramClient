@@ -9,7 +9,6 @@ testCreateSarFile
 	zip := ZipArchive new.
 	self streamForPackage: corePackage inZip: zip.
 	self streamForPackage: uiPackage inZip: zip.
-	zip addTree: Smalltalk imagePath match: [:e | e fullName startsWith:
-	Smalltalk imagePath , FileDirectory slash , tdlibFolder].
+	zip addTree: Smalltalk imagePath match: [:e | e fullName startsWith: Smalltalk imagePath, FileDirectory slash, tdlibFolder].
 	zip addString: (self generatePreamble: corePackage uipackage: uiPackage nativeResourceFolder: tdlibFolder) as: 'install/preamble'.
 	zip writeToFileNamed: 'TelegramClient.sar'.
