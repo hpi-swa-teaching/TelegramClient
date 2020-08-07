@@ -1,5 +1,5 @@
 helpers
-generatePreamble: corePackage uipackage: uiPackage nativeResourceFolder: aFolder
+generatePreamble: corePackage uipackage: uiPackage
 
 	^ '
 		self fileInMonticelloZipVersionNamed: ''', corePackage, '.mcz''.
