@@ -23,13 +23,8 @@
     </tr>
     <tr>
       <td>Features</td>
-      <td>feature/fix</td>
+      <td>feature/bugfix</td>
       <td>Always branch off HEAD of Working</td>
-    </tr>
-    <tr>
-      <td>Hotfix</td>
-      <td>hotfix-*</td>
-      <td>Always branch off Stable</td>
     </tr>
   </tbody>
 </table>
@@ -55,7 +50,6 @@ The different types of branches we may use are:
 
 * Feature branches
 * fix branches
-* Hotfix branches
 
 Each of these branches have a specific purpose and are bound to strict rules as to which branches may be their originating branch and which branches must be their merge targets. Each branch and its usage is explained below.
 
@@ -95,6 +89,8 @@ $ git push origin develop                            // push merge changes
 $ git push origin :feature/GH-id                       // deletes the remote branch
 ```
 
+> Please merge via the CLI instead of merging via Squeak. Otherwise some git-files for the CI and other services will be lost.
+
 ### Fix Branches
 
 Fix branches differ from feature branches only semantically. Fix branches will be created when there is a bug on the develop branch that should be fixed and merged into the next deployment. For that reason, a bug branch typically will not last longer than one deployment cycle. Additionally, bug branches are used to explicitly track the difference between bug development and feature development. No matter when the bug branch will be finished, it will always be merged back into `develop`.
@@ -105,15 +101,15 @@ Although likelihood will be less, during the lifespan of the bug development, th
 
 * Must branch from: `develop`
 * Must merge back into: `develop`
-* Branch naming convention: `fix/GH-<GH number>`
+* Branch naming convention: `bugfix/GH-<GH number>`
 
 #### Working with a fix branch
 
 If the branch does not exist yet, create the branch locally and then push to GitHub. A bug branch should always be 'publicly' available. That is, development should never exist in just one developer's local branch.
 
 ```
-$ git checkout -b fix/GH-id develop                     // creates a local branch for the new bug
-$ git push origin fix/GH-id                            // makes the new bug remotely available
+$ git checkout -b bugfix/GH-id develop                     // creates a local branch for the new bug
+$ git push origin bugfix/GH-id                            // makes the new bug remotely available
 ```
 
 Periodically, changes made to `develop` (if any) should be merged back into your bug branch.
@@ -126,48 +122,7 @@ When development on the bug is complete, [the Lead] should merge changes into `d
 
 ```
 $ git checkout develop                               // change to the develop branch  
-$ git merge --no-ff fix/GH-id                          // makes sure to create a commit object during merge
+$ git merge --no-ff bugfix/GH-id                          // makes sure to create a commit object during merge
 $ git push origin develop                            // push merge changes
-$ git push origin :fix/GH-id                           // deletes the remote branch
+$ git push origin :bugfix/GH-id                           // deletes the remote branch
 ```
-
-### Hotfix Branches
-
-A hotfix branch comes from the need to act immediately upon an undesired state of a live production version. Additionally, because of the urgency, a hotfix is not required to be be pushed during a scheduled deployment. Due to these requirements, a hotfix branch is always branched from a tagged `master` branch. This is done for two reasons:
-
-* Development on the `develop` branch can continue while the hotfix is being addressed.
-* A tagged `master` branch still represents what is in production. At the point in time where a hotfix is needed, there could have been multiple commits to `develop` which would then no longer represent production.
-
-`<GH number>` represents the Github issue to which Project Management will be tracked. 
-
-* Must branch from: tagged `master`
-* Must merge back into: `master` and `develop`
-* Branch naming convention: `hotfix-/GH-<GH number>`
-
-#### Working with a hotfix branch
-
-If the branch does not exist yet, create the branch locally and then push to GitHub. A hotfix branch should always be 'publicly' available. That is, development should never exist in just one developer's local branch.
-
-```
-$ git checkout -b hotfix-/GH-id master                  // creates a local branch for the new hotfix
-$ git push origin hotfix-/GH-id                         // makes the new hotfix remotely available
-```
-
-When development on the hotfix is complete, one person should merge changes into `master` and then update the tag.
-
-```
-$ git checkout master                               // change to the stable branch
-$ git merge --no-ff hotfix/GH-id                       // forces creation of commit object during merge
-$ git tag -a <tag>                                  // tags the fix
-$ git push origin master --tags                     // push tag changes
-```
-
-Merge changes into `develop` so not to lose the hotfix and then delete the remote hotfix branch.
-
-```
-$ git checkout develop                               // change to the master branch
-$ git merge --no-ff hotfix/GH-id                       // forces creation of commit object during merge
-$ git push origin develop                            // push merge changes
-$ git push origin :hotfix/GH-id                        // deletes the remote branch
-```
-
