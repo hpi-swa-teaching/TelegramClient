@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"generatePreamble:uipackage:nativeResourceFolder:" : "N.S. 8/7/2020 20:53",
+		"generatePreamble:uipackage:nativeResourceFolder:" : "js 8/7/2020 22:23",
 		"streamForPackage:inZip:" : "js 8/2/2020 13:52",
 		"testCreateSarFile" : "js 8/2/2020 13:43",
 		"versionForWorkingCopy:" : "js 8/2/2020 13:52" } }
