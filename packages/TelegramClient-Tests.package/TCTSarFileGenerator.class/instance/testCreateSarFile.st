@@ -1,11 +1,11 @@
-testing
+sar
 testCreateSarFile
 
 	| zip tdlibFolder corePackage uiPackage |
 
 	corePackage := 'TelegramClient-Core'.
 	uiPackage := 'TelegramClient-UI'.
-	tdlibFolder := 'TDLib'.
+	tdlibFolder := 'TDLibResources'.
 	zip := ZipArchive new.
 	self streamForPackage: corePackage inZip: zip.
 	self streamForPackage: uiPackage inZip: zip.
