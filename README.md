@@ -75,9 +75,15 @@ We currently only support Squeak 5.3.
 For further information or manual setup take a look in our [setup
 guide](https://github.com/hpi-swa-teaching/TelegramClient/wiki/Setup-Guide).
 
-## Resources for following groups
+## Development
+
+### Wiki
 
 The [wiki](https://github.com/hpi-swa-teaching/TelegramClient/wiki) has a lot of useful information for continuing the development of this project. Feel free to add new information to the wiki.
+
+### Releasing
+
+Pre-Releases are created automatically whenever a commit is added to the develop-branch. Releases should created before each client meeting and can simply be done by merging develop into master.
 
 ## Our Group
 
