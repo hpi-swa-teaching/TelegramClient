@@ -6,5 +6,5 @@
 		"core:" : "r.s 7/15/2020 12:39",
 		"setUp" : "r.s 7/15/2020 19:25",
 		"tearDown" : "r.s 7/15/2020 19:29",
-		"testAuthStateIsAwaitingPhoneNumber" : "r.s 7/15/2020 19:24",
+		"testAuthStateIsAwaitingPhoneNumber" : "ct 10/8/2020 01:41",
 		"testAuthStateReady" : "ct 10/8/2020 01:35" } }
