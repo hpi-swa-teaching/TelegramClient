@@ -17,7 +17,7 @@ jobs:
               tag_prefix: ''
               release_prefix: "Release"
           - if: github.ref != 'refs/heads/master'
-            smalltalk: SqueakTrunk-5.3
+            smalltalk: Squeak64-Trunk
             env:
               prerelease: ${{ true }}
               tag_prefix: 'Trunk'
