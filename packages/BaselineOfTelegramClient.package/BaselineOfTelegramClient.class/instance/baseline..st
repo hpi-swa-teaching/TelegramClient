@@ -2,7 +2,7 @@ baseline
 baseline: spec
 	<baseline>
 	
-	spec for: #common do: [Preferences disable: #showDeprecationWarnings.
+	spec for: #common do: [
 		spec
 			baseline: 'Animations' with: [
 				spec repository: 'github://hpi-swa/animations:master/repository'];
