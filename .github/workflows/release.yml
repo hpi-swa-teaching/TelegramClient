@@ -13,13 +13,13 @@ jobs:
           - if: github.ref == 'refs/heads/master'
             smalltalk: Squeak64-5.3
             env:
-              prerelease: ${{ false }}
-              tag_prefix: ${{ '' }}
+              prerelease: false
+              tag_prefix: ''
               release_prefix: "Release"
           - if: github.ref != 'refs/heads/master'
             smalltalk: Squeak64-Trunk
             env:
-              prerelease: ${{ true }}
+              prerelease: true
               tag_prefix: Trunk
               release_prefix: "Trunk Release"
 
