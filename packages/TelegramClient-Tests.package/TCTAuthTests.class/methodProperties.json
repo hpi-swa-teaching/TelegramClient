@@ -7,4 +7,4 @@
 		"setUp" : "r.s 7/15/2020 19:25",
 		"tearDown" : "r.s 7/15/2020 19:29",
 		"testAuthStateIsAwaitingPhoneNumber" : "r.s 7/15/2020 19:24",
-		"testAuthStateReady" : "r.s 7/15/2020 19:23" } }
+		"testAuthStateReady" : "ct 10/8/2020 01:35" } }
