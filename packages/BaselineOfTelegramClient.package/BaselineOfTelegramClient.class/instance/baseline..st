@@ -8,9 +8,9 @@ baseline: spec
 				spec repository: 'github://hpi-swa-teaching/SwaLint:release/packages'];
 			package: 'JSON' with: [
 				spec file: 'JSON-ul.35';
-				repository: 'http://www.squeaksource.com/JSON'];
+				repository: 'https://www.squeaksource.com/JSON'];
 			package: 'FFI-Kernel' with: [
-				spec configuration: 'FFI'].
+				spec repository: 'https://source.squeak.org/FFI'].
 		
 		spec
 			package: 'TelegramClient-Core' with: [
