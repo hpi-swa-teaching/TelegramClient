@@ -14,13 +14,13 @@ jobs:
             smalltalk: Squeak64-5.3
             env:
               prerelease: ${{ false }}
-              tag_prefix: ''
+              tag_prefix: ${{ '' }}
               release_prefix: "Release"
           - if: github.ref != 'refs/heads/master'
             smalltalk: Squeak64-Trunk
             env:
               prerelease: ${{ true }}
-              tag_prefix: 'Trunk'
+              tag_prefix: Trunk
               release_prefix: "Trunk Release"
 
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
@@ -37,14 +37,14 @@ jobs:
         with:
           format: YYYYMMDD-HH
           utcOffset: "+01:00"
-      - name: Create ${{ env.release_prefix }}
+      - name: Create Release
         id: create_release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: $${ env.tag_prefix }}${{ steps.current-time.outputs.formattedTime  }} 
-          release_name: ${{ env.release_prefix }} ${{ steps.current-time.outputs.formattedTime  }}
+          tag_name: $${ env.tag_prefix }}${{ steps.current-time.outputs.formattedTime }} 
+          release_name: ${{ env.release_prefix }} ${{ steps.current-time.outputs.formattedTime }}
           draft: false
           prerelease: ${{ env.prerelease }}
       - name: Upload Release Asset
