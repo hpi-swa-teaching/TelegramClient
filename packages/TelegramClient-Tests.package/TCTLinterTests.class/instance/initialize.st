@@ -6,5 +6,5 @@ initialize
 	self
 		classes: ((SystemNavigation default allClasses
 			select: [:aClass |
-				(aClass class category startsWith: 'TelegramClient') and: [(aClass class name startsWith: 'TCCFFIClient') not]]));
+				(aClass class category beginsWith: 'TelegramClient') and: [(aClass class name beginsWith: 'TCCFFIClient') not]]));
 		classTestObjects: (self classes collect: [:anObject | anObject as: SLTestObject]).

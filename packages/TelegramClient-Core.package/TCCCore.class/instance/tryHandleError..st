@@ -7,6 +7,6 @@ tryHandleError: anError
 		['PHONE_NUMBER_INVALID'] -> [UIManager default inform: TCCErrorConstants invalidAuthenticationCode].	
 		['PHONE_CODE_INVALID'] -> [UIManager default inform: TCCErrorConstants invalidAuthenticationCode]}
 	otherwise: [
-		((anError at: 'message') startsWith: 'Can''t lock file')
+		((anError at: 'message') beginsWith: 'Can''t lock file')
 			ifTrue: [UIManager default inform: TCCErrorConstants tdlibAlreadyInUse]
 			ifFalse: [self halt: 'An Error Occured. Check Transcript Output.']].
