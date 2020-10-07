@@ -1,9 +1,9 @@
 name: CI-Release
 on: 
   push:
-    branches: [master, develop,
-      update-baseline #debug
-      ]
+    branches: [master, develop]
+  pull_request:
+    branches: [update-baseline] #debug
 
 jobs:
   build:
