@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "N.S. 5/14/2020 11:48",
 	"instvars" : [
-		"classes" ],
+		"classes",
+		"classTestObjects" ],
 	"name" : "TCTLinterTests",
 	"pools" : [
 		 ],

@@ -1,4 +1,4 @@
 accessing
 isAuthStateClosed
 
-	^ (self authState at: '@type') = 'authorizationStateClosed' 
+	^ self authState = 'authorizationStateClosed'

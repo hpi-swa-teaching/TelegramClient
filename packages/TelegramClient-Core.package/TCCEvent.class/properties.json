@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "js 8/1/2020 13:35",
+	"instvars" : [
+		"type" ],
+	"name" : "TCCEvent",
+	"pools" : [
+		 ],
+	"super" : "Dictionary",
+	"type" : "normal" }

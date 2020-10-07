@@ -1,0 +1,17 @@
+{
+	"category" : "TelegramClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "js 6/13/2020 19:01",
+	"instvars" : [
+		"items",
+		"selectedChat",
+		"chats",
+		"maxHeight" ],
+	"name" : "TCUChatsList",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }

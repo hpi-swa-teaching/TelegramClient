@@ -1,28 +1,90 @@
-# TelegramClient
-## CI Status
-Develop: ![CI](https://github.com/hpi-swa-teaching/TelegramClient/workflows/CI/badge.svg?branch=develop)
-Master(Release): ![CI](https://github.com/hpi-swa-teaching/TelegramClient/workflows/CI/badge.svg?branch=master)
+<p align="center"><img width="300" height="300" src="assets/logo.png" alt="TelegramClient-Logo"></p>
 
-TelegramClient is a **Squeak-Client** for the widely used Telegram-Messenger. It provides features such as Authentication, Contacts, Message and Media sending and a minimal, clean UI. We also provide features such as a Zen-mode and receiving messages in the background.
+<h1 align="center" style=font-size:200px>TelegramClient</h1>
+
+<p align="center">
+    <a href="https://github.com/hpi-swa-teaching/TelegramClient/commits/" title="Last Commit"><img src="https://img.shields.io/github/last-commit/hpi-swa-teaching/TelegramClient?style=flat"></a>
+    <a href="https://github.com/hpi-swa-teaching/TelegramClient/issues" title="Open Issues"><img src="https://img.shields.io/github/issues/hpi-swa-teaching/TelegramClient"></a>
+        <a href="https://github.com/hpi-swa-teaching/TelegramClient/actions?query=workflow%3ACI" title="Build Status - Master"><img src="https://img.shields.io/github/workflow/status/hpi-swa-teaching/telegramclient/CI/master?color=dwa&label=master&logo=dwa&logoColor=daw"></a>
+    <a href="https://github.com/hpi-swa-teaching/TelegramClient/actions?query=workflow%3ACI" title="Build Status - Develop"><img src="https://img.shields.io/github/workflow/status/hpi-swa-teaching/telegramclient/CI/master?color=dwa&label=develop&logo=dwa&logoColor=daw"></a>
+    <img alt="Coveralls github branch" src="https://img.shields.io/coveralls/github/hpi-swa-teaching/TelegramClient/master?label=coverage%20-%20master">
+    <img alt="Coveralls github branch" src="https://img.shields.io/coveralls/github/hpi-swa-teaching/TelegramClient/develop?label=coverage%20-%20develop">
+    <a href="./LICENSE" title="License"><img src="https://img.shields.io/github/license/hpi-swa-teaching/TelegramClient"></a>
+
+## Overview
+
+TelegramClient is a **Squeak-Client** for the widely used Telegram-Messenger. It aims to provide features such as Authentication, Contacts, Message and Media sending and a minimal UI as well as as a Zen-mode and receiving messages in the background.
 
 *This Project is part of the "Softwaretechnik" Lecture 2020 at the Hasso Plattner Institute.*
 
-## Installation
-Make sure you have the current version of Squeak installed.
-1. Install the Squeak Git Client
-2. Install the Squeak FFI Workload
-3. Download the required native Binaries for your system. 
-  * [Windows](https://drive.google.com/open?id=14tOoIfxioIe8bn2kPxPKmCk_Eg0tSYiJ)
-  * [Mac](https://drive.google.com/open?id=1H2l_V6zkIx4t_SKQKL3MmdtvOV2haFjV)
-  * [Ubuntu 18 lts](https://drive.google.com/open?id=1CpSPcB-5MPA95fEWI-X5MxbUEZUcU3g2)
-4. Place the unzipped binaries inside of your squeak image. On Windows, place them inside the Win32 folder, on Linux and Mac Os place them inside the resources folder.
+## Features
+
+<table>
+  <thead>
+    <tr>
+      <th>✨</th>
+      <th>Feature</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>🔓</td>
+      <td>Authenticate yourself in your Telegram-Account</td>
+    </tr>
+    <tr>
+      <td>✉️</td>
+      <td>Send messages to other users</td>
+    </tr>
+    <tr>
+      <td>💬</td>
+      <td>Display open Chats in a List</td>
+    </tr>
+    <tr>
+      <td>📫</td>
+      <td>Receive messages</td>
+    </tr>
+    <tr>
+      <td>🆕</td>
+      <td>Create new chats</td>
+    </tr>
+    <tr>
+      <td>🔔</td>
+      <td>Receive push notifications</td>
+    </tr>
+    <tr>
+      <td>🌍</td>
+      <td>Start Telegram via WorldMenu</td>
+    </tr>
+    <tr>
+      <td>🚶</td>
+      <td>Logout</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Running TelegramClient
-In a workspace window execute the command
 
-## Building Tdlib
-Tdlib build instructions are available on their Github page. They also have a wonderful build instruction generator available which was the basis for our workflow . [Check it out here.](https://tdlib.github.io/td/build.html)
+We currently only support Squeak 5.3.
 
-# Notes on Tdlib
-The TelegramClient is build on the TelegramDatabseLibrary which provides access to Telegram API via a JSON-Interface.
-We include Tdlib library in our project and can access the C-Library via FFI from Squeak, giving us the possibility to access the Telegram API via JSON-Interface.
+1. Install the last compatible FFI version. For Squeak version 5.3 use `Metacello new configuration: 'FFI'; load.` to install it.
+
+2. Check our [release page](https://github.com/hpi-swa-teaching/TelegramClient/releases) for an online installer in the form of a sar file. Install this sar file in your Squeak image.
+
+3. Click the Telegram entry in the Apps WorldMenu or execute the command `TCUTelegram newWithTCCCore`. The menu is only available if you already started the app once or installed the app via a release sar file.
+
+For further information or manual setup take a look in our [setup
+guide](https://github.com/hpi-swa-teaching/TelegramClient/wiki/Setup-Guide).
+
+## Development
+
+### Wiki
+
+The [wiki](https://github.com/hpi-swa-teaching/TelegramClient/wiki) has a lot of useful information for continuing the development of this project. Feel free to add new information to the wiki.
+
+### Releasing
+
+Pre-Releases are created automatically whenever a commit is added to the develop-branch. Releases should created before each client meeting and can simply be done by merging develop into master.
+
+## Our Group
+
+Group 13 of the 2020 SWT I module included [Rohan Sawahn](https://github.com/rohansaw), [Jonas Schmidt](https://github.com/schmidtjonas), [Frederik Wollny](https://github.com/Freddy200), [Stefan Spangenberg](https://github.com/sspangenberg), [Lukas Laskowski](https://github.com/lasklu) and [Niklas Schilli](https://github.com/Mrnikbobjeff). Feel free to add your names to the list.

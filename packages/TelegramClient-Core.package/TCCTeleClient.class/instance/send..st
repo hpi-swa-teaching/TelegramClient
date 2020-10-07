@@ -1,4 +1,4 @@
-accessing
-send: aMessage
+library calls
+send: aRequest
 
-	self specificClient send: self handle with: aMessage.
+	self specificClient send: self handle with: aRequest asString.

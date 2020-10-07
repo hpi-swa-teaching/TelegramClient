@@ -1,10 +1,7 @@
-as yet unclassified
-newWithClient: anActualClient
-	
-	| specificClient |
-	
-	specificClient := anActualClient create.
-	
+instance creation
+newWithClient: aClient
+
+	aClient setLogLevel: self defaultLogLevel.
 	^ self new
-		specificClient: anActualClient;
-		handle: specificClient
+		specificClient: aClient;
+		handle: aClient create

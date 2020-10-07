@@ -1,0 +1,1 @@
+This is a low-level class, that communicates directly with tdlib.

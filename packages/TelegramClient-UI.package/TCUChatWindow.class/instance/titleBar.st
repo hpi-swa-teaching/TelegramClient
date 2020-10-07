@@ -1,0 +1,4 @@
+accessing
+titleBar
+
+	^ titleBar

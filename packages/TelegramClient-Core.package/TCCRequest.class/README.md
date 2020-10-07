@@ -1,0 +1,1 @@
+An Instance of this class represents a message to tdlib, can be build directly from a dictionary.

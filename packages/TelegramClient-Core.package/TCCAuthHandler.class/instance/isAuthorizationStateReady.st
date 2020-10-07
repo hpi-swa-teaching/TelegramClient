@@ -1,6 +1,4 @@
-initialize
+accessing
 isAuthorizationStateReady
 
-	^ (self authState at: '@type') = 'authorizationStateReady' 
-
-	
+	^ self authState = 'authorizationStateReady'

@@ -1,4 +1,5 @@
-organization
-testsmallLintTempsReadBeforeWritten     
-"Temp vars should be initialized before being written"
-self ArbitraryCodeRule: #smallLintTempsReadBeforeWritten. 
+tests
+testsmallLintTempsReadBeforeWritten
+
+	"Temp vars should be initialized before being written"
+	self arbitraryCodeRule: #smallLintTempsReadBeforeWritten.

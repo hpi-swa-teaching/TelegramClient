@@ -1,0 +1,4 @@
+accessing
+downloadUrl
+
+	^ self subclassResponsibility

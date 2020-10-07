@@ -8,5 +8,14 @@ SmalltalkCISpec {
       #directory : 'packages',
       #load : [ 'tests' ]
     }
-  ]
+  ],
+   #testing : {
+    #coverage : {
+      #packages : [ 'TelegramClient-Core.*' ]
+    },
+    #exclude : {
+      #classes : [ #TCTLinterTests ]
+    },
+    #defaultTimeout : 60
+  }
 }

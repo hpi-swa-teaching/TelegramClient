@@ -1,0 +1,18 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "f.w. 6/29/2020 17:05",
+	"instvars" : [
+		"message",
+		"chatID",
+		"id",
+		"senderID",
+		"isOutgoing" ],
+	"name" : "TCCMessage",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

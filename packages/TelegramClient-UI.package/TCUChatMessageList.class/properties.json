@@ -1,0 +1,16 @@
+{
+	"category" : "TelegramClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "rs 6/17/2020 21:32",
+	"instvars" : [
+		"messages",
+		"chat",
+		"lowestVisibleMessage" ],
+	"name" : "TCUChatMessageList",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

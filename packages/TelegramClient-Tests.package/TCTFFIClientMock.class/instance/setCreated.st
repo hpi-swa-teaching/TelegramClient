@@ -1,4 +1,4 @@
 accessing
 setCreated
 
-	created := true.
+	self created: true.

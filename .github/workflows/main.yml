@@ -1,3 +1,4 @@
+  
 name: CI
 
 on: 
@@ -15,10 +16,8 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        # Select platform(s)
-        os: [ ubuntu-latest, macos-latest ]
-        # Select compatible Smalltalk image(s)
-        smalltalk: [ Squeak64-trunk, Squeak64-5.3, Squeak64-5.2 ]
+        os: [ ubuntu-latest ]
+        smalltalk: [ Squeak64-5.2 ]
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
@@ -27,3 +26,5 @@ jobs:
           smalltalk-version: ${{ matrix.smalltalk }}
       - run: smalltalkci -s ${{ matrix.smalltalk }}
         timeout-minutes: 15
+        env:
+           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
