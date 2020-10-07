@@ -10,9 +10,7 @@ baseline: spec
 				spec file: 'JSON-ul.35';
 				repository: 'http://www.squeaksource.com/JSON'];
 			package: 'FFI-Kernel' with: [
-				spec
-					configuration: 'FFI';
-					version: '2.0'].
+				spec configuration: 'FFI'].
 		
 		spec
 			package: 'TelegramClient-Core' with: [
