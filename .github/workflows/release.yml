@@ -43,7 +43,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: $${ env.tag_prefix }}${{ steps.current-time.outputs.formattedTime }} 
+          tag_name: ${{ env.tag_prefix }}${{ steps.current-time.outputs.formattedTime }} 
           release_name: ${{ env.release_prefix }} ${{ steps.current-time.outputs.formattedTime }}
           draft: false
           prerelease: ${{ env.prerelease }}
