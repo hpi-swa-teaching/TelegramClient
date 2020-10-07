@@ -1,5 +1,5 @@
 name: CI-Release
-on: [push, pull_request] #debug
+on: [push] #debug
   #push:
   #  branches: [master, develop]
 
