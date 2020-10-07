@@ -10,7 +10,7 @@ baseline: spec
 				spec
 					className: 'ConfigurationOfFFI';
 					repository: 'http://www.squeaksource.com/MetacelloRepository';
-					versionString: #development;
+					versionString: #stable;
 					loads: #('Core')];
 			package: 'JSON' with: [
 				spec file: 'JSON-ul.35';
