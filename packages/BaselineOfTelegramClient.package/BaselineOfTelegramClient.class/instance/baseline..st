@@ -26,6 +26,6 @@ baseline: spec
 			package: 'TelegramClient-Tests' with: [
 				spec requires: #('default' 'SwaLint')].
 		spec
-			group: 'libraries' with: #('Animatons' 'FFI' 'JSON');
+			group: 'libraries' with: #('Animations' 'FFI' 'JSON');
 			group: 'default' with: #('TelegramClient-Core' 'TelegramClient-UI');
 			group: 'tests' with: #('TelegramClient-Tests')].
