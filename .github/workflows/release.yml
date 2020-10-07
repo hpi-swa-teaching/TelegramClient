@@ -15,7 +15,6 @@ jobs:
               tag_prefix: ''
           - smalltalk: Squeak64-Trunk
             env:
-              prerelease: true
               tag_prefix: Trunk
 
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
