@@ -10,18 +10,13 @@ jobs:
       matrix:
         os: [ubuntu-latest]
         include:
-          - if: github.ref == 'refs/heads/master'
-            smalltalk: Squeak64-5.3
+          - smalltalk: Squeak64-5.3
             env:
-              prerelease: false
               tag_prefix: ''
-              release_prefix: "Release"
-          - if: github.ref != 'refs/heads/master'
-            smalltalk: Squeak64-Trunk
+          - smalltalk: Squeak64-Trunk
             env:
               prerelease: true
               tag_prefix: Trunk
-              release_prefix: "Trunk Release"
 
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
@@ -44,9 +39,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ env.tag_prefix }}${{ steps.current-time.outputs.formattedTime }} 
-          release_name: ${{ env.release_prefix }} ${{ steps.current-time.outputs.formattedTime }}
+          release_name: ${{ matrix.smalltalk }} ${{ steps.current-time.outputs.formattedTime }}
           draft: false
-          prerelease: ${{ env.prerelease }}
+          prerelease: ${{ github.ref == 'refs/heads/master' }}
       - name: Upload Release Asset
         id: upload-release-asset 
         uses: actions/upload-release-asset@v1
