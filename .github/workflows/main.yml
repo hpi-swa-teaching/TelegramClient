@@ -6,6 +6,7 @@ jobs:
   build:
     runs-on: ${{ matrix.os }}
     strategy:
+      fail-fast: false
       matrix:
         os: [ ubuntu-latest ]
         smalltalk: [ Squeak64-Trunk, Squeak64-5.3, Squeak64-5.2 ]
