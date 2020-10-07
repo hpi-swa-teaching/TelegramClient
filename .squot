@@ -1,6 +1,6 @@
 OrderedDictionary {
-	'packages\/TelegramClient-Core.package' : #SquotCypressCodeSerializer,
-	'packages\/TelegramClient-Tests.package' : #SquotCypressCodeSerializer,
-	'packages\/BaselineOfTelegramClient.package' : #SquotCypressCodeSerializer,
-	'packages\/TelegramClient-UI.package' : #SquotCypressCodeSerializer
+	'packages/TelegramClient-Core.package' : #SquotCypressCodeSerializer,
+	'packages/TelegramClient-Tests.package' : #SquotCypressCodeSerializer,
+	'packages/BaselineOfTelegramClient.package' : #SquotCypressCodeSerializer,
+	'packages/TelegramClient-UI.package' : #SquotCypressCodeSerializer
 }
