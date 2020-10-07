@@ -1,16 +1,26 @@
 name: CI-Release
 on: 
   push:
-    branches:
-      - master
+    branches: [master, develop]
 
 jobs:
   build:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ ubuntu-latest ]
-        smalltalk: [ Squeak64-5.3 ]
+        os: [ubuntu-latest]
+        include:
+          - prerelease: false
+            if: github.ref == 'refs/heads/master'
+            smalltalk: [Squeak64-5.3]
+            tag_prefix: ''
+            release_prefix: 'Release'
+          - prerelease: true
+            if: github.ref != 'refs/heads/master'
+            smalltalk: [SqueakTrunk-5.3]
+            tag_prefix: 'Trunk'
+            release_prefix: 'Trunk Release'
+
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
@@ -25,16 +35,16 @@ jobs:
         with:
           format: YYYYMMDD-HH
           utcOffset: "+01:00"
-      - name: Create Release
+      - name: Create ${{ release_prefix }}
         id: create_release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ steps.current-time.outputs.formattedTime  }} 
-          release_name: Release ${{ steps.current-time.outputs.formattedTime  }}
+          tag_name: $${ tag_prefix }}${{ steps.current-time.outputs.formattedTime  }} 
+          release_name: ${{ release_prefix }} ${{ steps.current-time.outputs.formattedTime  }}
           draft: false
-          prerelease: false
+          prerelease: ${{ prerelease }}
       - name: Upload Release Asset
         id: upload-release-asset 
         uses: actions/upload-release-asset@v1
