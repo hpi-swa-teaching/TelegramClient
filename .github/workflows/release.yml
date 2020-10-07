@@ -11,17 +11,17 @@ jobs:
         os: [ubuntu-latest]
         include:
           - if: github.ref == 'refs/heads/master'
-            smalltalk: [Squeak64-5.3]
+            smalltalk: Squeak64-5.3
             env:
               prerelease: ${{ false }}
               tag_prefix: ''
-              release_prefix: 'Release'
+              release_prefix: "Release"
           - if: github.ref != 'refs/heads/master'
-            smalltalk: [SqueakTrunk-5.3]
+            smalltalk: SqueakTrunk-5.3
             env:
               prerelease: ${{ true }}
               tag_prefix: 'Trunk'
-              release_prefix: 'Trunk Release'
+              release_prefix: "Trunk Release"
 
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
