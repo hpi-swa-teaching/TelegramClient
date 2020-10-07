@@ -9,8 +9,12 @@ baseline: spec
 			package: 'JSON' with: [
 				spec file: 'JSON-ul.35';
 				repository: 'https://www.squeaksource.com/JSON'];
-			package: 'FFI-Kernel' with: [
-				spec repository: 'https://source.squeak.org/FFI'].
+			project: 'FFI' with: [
+				spec
+					className: 'ConfigurationOfFFI';
+					repository: 'http://www.squeaksource.com/MetacelloRepository';
+					versionString: #development;
+					loads: #('Core')].
 		
 		spec
 			package: 'TelegramClient-Core' with: [
