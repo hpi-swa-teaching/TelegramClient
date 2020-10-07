@@ -66,13 +66,26 @@ TelegramClient is a **Squeak-Client** for the widely used Telegram-Messenger. It
 
 We currently only support Squeak 5.3.
 
+### Option 1: Install latest version from Metacello
+
+Open a new Workspace and evaluate the following:
+
+```smalltalk
+Metacello new
+    baseline: 'TelegramClient';
+    repository: 'github://hpi-swa-teaching/TelegramClient/packages';
+    load.
+```
+
+### Option 2: Install latest release
+
 1. Install the last compatible FFI version. For Squeak version 5.3 use `Metacello new configuration: 'FFI'; load.` to install it.
 
 2. Check our [release page](https://github.com/hpi-swa-teaching/TelegramClient/releases) for an online installer in the form of a sar file. Install this sar file in your Squeak image.
 
-3. Click the Telegram entry in the Apps WorldMenu or execute the command `TCUTelegram newWithTCCCore`. The menu is only available if you already started the app once or installed the app via a release sar file.
+3. Click the Telegram entry in the Apps world menu or execute the command `TCUTelegram newWithTCCCore`. The menu is only available if you already started the app once or installed the app via a release sar file.
 
-For further information or manual setup take a look in our [setup
+For further information or manual setup, take a look in our [setup
 guide](https://github.com/hpi-swa-teaching/TelegramClient/wiki/Setup-Guide).
 
 ## Development
