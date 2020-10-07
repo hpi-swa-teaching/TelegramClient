@@ -68,7 +68,7 @@ We currently only support Squeak 5.3.
 
 1. Install the following prerequisites:
    1. **Last compatible FFI version.** For Squeak version 5.3 use `Metacello new configuration: 'FFI'; load.` to install it.
-   2. **JSON** package from [SqueakSource](http://www.squeaksource.com/@bk-et_a4bRLM1tY2/e2OIPIh6).
+   2. **JSON** package from [SqueakSource](http://www.squeaksource.com/JSON.html).
    3. **Animations** package [GitHub](https://github.com/hpi-swa/animations/).
 
 2. Check our [release page](https://github.com/hpi-swa-teaching/TelegramClient/releases) for an online installer in the form of a sar file. Install this sar file in your Squeak image.
