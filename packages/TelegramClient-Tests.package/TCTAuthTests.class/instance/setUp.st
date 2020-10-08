@@ -1,10 +1,10 @@
 running
 setUp
 
-	self timeout: 30 "seconds".
+	self timeout: 50 "seconds".
 	self core: TCTTestCore new.
-	5 seconds wait.
+	10 seconds wait.
 	self core authHandler isAuthorizationStateReady ifTrue: [self core authHandler logout.
-		5 seconds wait.
+		10 seconds wait.
 		self core: TCTTestCore new.
-		5 seconds wait].
+		10 seconds wait].

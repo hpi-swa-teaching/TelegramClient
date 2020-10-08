@@ -4,7 +4,7 @@
 	"instance" : {
 		"core" : "r.s 7/15/2020 18:46",
 		"core:" : "r.s 7/15/2020 18:46",
-		"setUp" : "ct 10/8/2020 01:52",
+		"setUp" : "ct 10/8/2020 01:59",
 		"tearDown" : "r.s 7/16/2020 16:54",
-		"testLogout" : "ct 10/7/2020 20:20",
+		"testLogout" : "ct 10/8/2020 01:59",
 		"testMessageSending" : "r.s 7/16/2020 16:53" } }
