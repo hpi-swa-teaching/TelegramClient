@@ -4,7 +4,7 @@
 	"instance" : {
 		"core" : "r.s 7/15/2020 12:39",
 		"core:" : "r.s 7/15/2020 12:39",
-		"setUp" : "ct 10/8/2020 01:52",
+		"setUp" : "ct 10/8/2020 02:00",
 		"tearDown" : "r.s 7/15/2020 19:29",
 		"testAuthStateIsAwaitingPhoneNumber" : "ct 10/8/2020 01:41",
-		"testAuthStateReady" : "ct 10/8/2020 01:50" } }
+		"testAuthStateReady" : "ct 10/8/2020 02:00" } }
