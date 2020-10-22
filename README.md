@@ -78,7 +78,10 @@ Metacello new
 
 ### Option 2 (offline installation)
 
-1. Install the last compatible FFI version. For Squeak version 5.3, use `Metacello new configuration: 'FFI'; load.` to install it.
+1. Install the following prerequisites:
+   1. **Last compatible FFI version.** For Squeak version 5.3 use `Metacello new configuration: 'FFI'; load.` to install it.
+   2. **JSON** package from [SqueakSource](http://www.squeaksource.com/JSON.html).
+   3. **Animations** package [GitHub](https://github.com/hpi-swa/animations/).
 
 2. Check our [release page](https://github.com/hpi-swa-teaching/TelegramClient/releases) for an online installer in the form of a SAR file. Install this SAR file in your Squeak image.
 
@@ -99,4 +102,4 @@ Pre-Releases are created automatically whenever a commit is added to the develop
 
 ## Our Group
 
-Group 13 of the 2020 SWT I module included [Rohan Sawahn](https://github.com/rohansaw), [Jonas Schmidt](https://github.com/schmidtjonas), [Frederik Wollny](https://github.com/Freddy200), [Stefan Spangenberg](https://github.com/sspangenberg), [Lukas Laskowski](https://github.com/lasklu) and [Niklas Schilli](https://github.com/Mrnikbobjeff). Feel free to add your names to the list.
+Group 13 of the 2020 SWT I module included [Rohan Sawahn](https://github.com/rohansaw), [Jonas Schmidt](https://github.com/schmidtjonas), [Frederik Wollny](https://github.com/Freddy200), [Stefan Spangenberg](https://github.com/sspangenberg), [Lukas Laskowski](https://github.com/lasklu), and [Niklas Schilli](https://github.com/Mrnikbobjeff). Feel free to add your names to the list.
