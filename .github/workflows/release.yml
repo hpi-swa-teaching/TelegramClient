@@ -1,7 +1,7 @@
 name: CI-Release
-on:
-  push:
-    branches: [master, develop]
+on: [push, pull_request] #debug
+  #push:
+  #  branches: [master, develop]
 
 jobs:
   build:
