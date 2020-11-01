@@ -1,6 +1,14 @@
 name: CI-Lint
 
-on: [push, pull_request]
+on: 
+  push:
+    branches:
+      - develop
+      - master
+  pull_request:
+    branches:
+      - master
+      - develop
 
 jobs:
   build:
