@@ -66,14 +66,26 @@ TelegramClient is a **Squeak-Client** for the widely used Telegram-Messenger. It
 
 We currently only support Squeak 5.3.
 
+### Option 1 (online installation)
+
+Open a Workspace and evaluate the following command in it:
+```smalltalk
+Metacello new
+	baseline: 'TelegramClient';
+	repository: 'github://hpi-swa-teaching/TelegramClient/packages';
+	load.
+```
+
+### Option 2 (offline installation)
+
 1. Install the following prerequisites:
    1. **Last compatible FFI version.** For Squeak version 5.3 use `Metacello new configuration: 'FFI'; load.` to install it.
    2. **JSON** package from [SqueakSource](http://www.squeaksource.com/JSON.html).
    3. **Animations** package [GitHub](https://github.com/hpi-swa/animations/).
 
-2. Check our [release page](https://github.com/hpi-swa-teaching/TelegramClient/releases) for an online installer in the form of a sar file. Install this sar file in your Squeak image.
+2. Check our [release page](https://github.com/hpi-swa-teaching/TelegramClient/releases) for an online installer in the form of a SAR file. Install this SAR file in your Squeak image.
 
-3. Click the Telegram entry in the Apps WorldMenu or execute the command `TCUTelegram newWithTCCCore`. The menu is only available if you already started the app once or installed the app via a release sar file.
+3. Click the Telegram entry in the Apps WorldMenu or execute the command `TCUTelegram newWithTCCCore`. The menu is only available if you already started the app once or installed the app via a release SAR file.
 
 For further information or manual setup take a look in our [setup
 guide](https://github.com/hpi-swa-teaching/TelegramClient/wiki/Setup-Guide).
@@ -90,4 +102,4 @@ Pre-Releases are created automatically whenever a commit is added to the develop
 
 ## Our Group
 
-Group 13 of the 2020 SWT I module included [Rohan Sawahn](https://github.com/rohansaw), [Jonas Schmidt](https://github.com/schmidtjonas), [Frederik Wollny](https://github.com/Freddy200), [Stefan Spangenberg](https://github.com/sspangenberg), [Lukas Laskowski](https://github.com/lasklu) and [Niklas Schilli](https://github.com/Mrnikbobjeff). Feel free to add your names to the list.
+Group 13 of the 2020 SWT I module included [Rohan Sawahn](https://github.com/rohansaw), [Jonas Schmidt](https://github.com/schmidtjonas), [Frederik Wollny](https://github.com/Freddy200), [Stefan Spangenberg](https://github.com/sspangenberg), [Lukas Laskowski](https://github.com/lasklu), and [Niklas Schilli](https://github.com/Mrnikbobjeff). Feel free to add your names to the list.

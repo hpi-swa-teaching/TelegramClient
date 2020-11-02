@@ -2,5 +2,7 @@ testing
 testAuthStateReady
 
 	self core loginWithTestData.
-	2 seconds wait.
-	self assert: self core authHandler isAuthorizationStateReady.
+	10 seconds wait.
+	self
+		assert: self core authHandler isAuthorizationStateReady
+		description: ['Expected auth state ready but was ' , self core authHandler authState]
