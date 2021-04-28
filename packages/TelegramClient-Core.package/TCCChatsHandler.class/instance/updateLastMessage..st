@@ -6,7 +6,7 @@ updateLastMessage: anEvent
 	(anEvent includesKey: 'last_message') ifTrue: [
 		content := (anEvent at: 'last_message') at: 'content'.
 		chat := self app chats getChat: (anEvent at: 'chat_id').
-		chat order: (anEvent at: 'order').
+		chat order: (anEvent at: 'positions').
 
 		(content at: '@type') = 'messageText' 
 			ifTrue: [chat lastMessage: ((content at: 'text') at: 'text')]

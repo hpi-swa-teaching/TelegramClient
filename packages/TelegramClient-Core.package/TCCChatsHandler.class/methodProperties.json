@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addChat:" : "js 8/2/2020 13:33",
+		"addChat:" : "RS 4/28/2021 18:13",
 		"addNewMessage:" : "js 8/2/2020 12:58",
 		"app" : "js 6/1/2020 14:44",
 		"app:" : "js 6/1/2020 14:45",
@@ -17,5 +17,5 @@
 		"remainingMessages:" : "js 8/1/2020 16:50",
 		"searchChat:" : "f.w. 7/15/2020 22:53",
 		"sendMessage:to:" : "js 7/31/2020 14:39",
-		"updateChatOrder:" : "js 8/1/2020 12:07",
-		"updateLastMessage:" : "js 8/2/2020 12:37" } }
+		"updateChatOrder:" : "RS 4/28/2021 18:12",
+		"updateLastMessage:" : "RS 4/28/2021 18:14" } }
