@@ -1,7 +1,7 @@
 event handling
-updateChatOrder: anEvent
+updateChatPosition: anEvent
 
 	(self app chats getChat: (anEvent at: 'chat_id'))
-		order: (anEvent at: 'chat_id').
+		order: ((anEvent at: 'position') at: 'order').
 
 	self app chats notify.
