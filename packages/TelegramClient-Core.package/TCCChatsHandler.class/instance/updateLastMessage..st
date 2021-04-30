@@ -8,6 +8,7 @@ updateLastMessage: anEvent
 		chat := self app chats getChat: (anEvent at: 'chat_id').
 		"ToDo: update order when necessary"
 		"chat order: (anEvent at: 'chat_id')."
+		(anEvent at: 'positions') size > 0 ifTrue:[(chat order: (anEvent at: 'positions')first order)].
 
 		(content at: '@type') = 'messageText' 
 			ifTrue: [chat lastMessage: ((content at: 'text') at: 'text')]
