@@ -1,6 +1,7 @@
 testing
 testMessageSending
 
+	<timeout: 40>
 	| testChatId testChatMessages |
 	
 	testChatId := self core chats first id. "Choose any available chat. The Telegram Test Data Center 'periodically wipe[s] all information stored. See TCTTestCore."

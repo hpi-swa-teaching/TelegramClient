@@ -1,6 +1,7 @@
 testing
 testAuthStateReady
 
+	<timeout: 50>
 	self core loginWithTestData.
 	10 seconds wait.
 	self
