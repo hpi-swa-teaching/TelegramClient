@@ -1,4 +1,4 @@
 events
-openNewChat: aChat
+openNewChat: aChatEvent
 
-	self app chats triggerEvent: #openNewChat with: (TCCChat newFromNewChatEvent: aChat).
+	self app chats triggerEvent: #openNewChat with: (TCCChat newFromNewChatEvent: aChatEvent).

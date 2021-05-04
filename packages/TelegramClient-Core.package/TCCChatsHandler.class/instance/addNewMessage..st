@@ -1,9 +1,9 @@
 events
 addNewMessage: aMessage
 
-	| message |
+	| chat message |
+	chat := self app chats getChat: (aMessage at: 'chat_id').
+	message := TCCMessage newFromMessageEvent: aMessage in: chat.
 
-	message := TCCMessage newFromMessageEvent: aMessage.
-
-	(self app chats getChat: message chatID) addNewestMessage: message.
+	chat addNewestMessage: message.
 	self app triggerEvent: #newMessageReceived with: message.

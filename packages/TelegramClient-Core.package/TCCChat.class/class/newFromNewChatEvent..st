@@ -1,6 +1,9 @@
 instance creation
 newFromNewChatEvent: anEvent
-
+	| chat |
+	chat := anEvent at: 'chat'.
 	^ self new
-		title: (anEvent at: 'title');
-		id: (anEvent at: 'id')
+		title: (chat at: 'title');
+		id: (chat at: 'id');
+		type: ((chat at: 'type') at: '@type');
+		order: ((chat at: 'id') asString)

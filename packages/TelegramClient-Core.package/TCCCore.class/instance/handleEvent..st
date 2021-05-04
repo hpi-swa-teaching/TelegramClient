@@ -10,8 +10,8 @@ handleEvent: anEvent
 			['updateChatPosition'] -> [self chatsHandler updateChatPosition: anEvent].
 			['updateChatLastMessage'] -> [self chatsHandler updateLastMessage: anEvent].
 			['messages'] -> [self chatsHandler chatHistoryReceived: anEvent].
-			['updateNewMessage'] -> [self chatsHandler handleNewMessage: anEvent].
-			['user'] -> [self setUserID: anEvent].
+			['updateNewMessage'] -> [self handleMessageEvent: anEvent].
+			['user'] -> [self handleUserEvent: anEvent].
 			['chat'] -> [self chatsHandler openNewChat: anEvent]}
 		otherwise: [].
 

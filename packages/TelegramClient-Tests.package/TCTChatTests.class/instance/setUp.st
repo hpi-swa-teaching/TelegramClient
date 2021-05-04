@@ -6,6 +6,6 @@ setUp
 	1 to: 5 do: [:aNumber |
 		self chat messages add: (TCCMessage new
 			message: aNumber asString;
-			chatID: aNumber * 2;
+			chat: chat;
 			senderID: aNumber * 3;
 			id: aNumber * 4)].
