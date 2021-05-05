@@ -12,7 +12,8 @@
 		"title",
 		"lastMessage",
 		"waitingForUpdate",
-		"numberOfRequestedMessages" ],
+		"numberOfRequestedMessages",
+		"canSendMessages" ],
 	"name" : "TCCChat",
 	"pools" : [
 		 ],

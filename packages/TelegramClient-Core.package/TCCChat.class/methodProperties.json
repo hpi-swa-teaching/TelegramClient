@@ -1,9 +1,11 @@
 {
 	"class" : {
-		"newFromNewChatEvent:" : "js 8/2/2020 22:26" },
+		"newFromNewChatEvent:" : "TR 5/5/2021 16:32" },
 	"instance" : {
 		"addNewestMessage:" : "js 8/2/2020 12:58",
 		"addOldestMessage:" : "js 8/2/2020 12:58",
+		"canSendMessages" : "TR 5/5/2021 16:24",
+		"canSendMessages:" : "TR 5/5/2021 16:31",
 		"defaultNumberOfRequestedMessages" : "js 8/1/2020 18:52",
 		"id" : "rs 6/7/2020 22:20",
 		"id:" : "rs 6/7/2020 22:20",
