@@ -1,4 +1,4 @@
 accessing
 downloadUrl
 
-	^ 'https://drive.google.com/uc?export=download&id=11XxwhkjWBgavhKR9SNhOjk_0hchbBb_1'
+	^ 'https://www.dropbox.com/s/mrpnqlic3vs592u/libtdjson.so.1.7.0?dl=0'
