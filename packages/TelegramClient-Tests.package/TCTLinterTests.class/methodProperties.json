@@ -33,7 +33,6 @@
 		"testsmallLintClassVariableCapitalization" : "js 6/13/2020 18:37",
 		"testsmallLintCodeCruftLeftInMethods" : "js 6/13/2020 18:37",
 		"testsmallLintCollectSelectNotUsed" : "js 6/13/2020 18:07",
-		"testsmallLintConsistencyCheck" : "js 6/13/2020 18:37",
 		"testsmallLintDefinesEqualNotHash" : "js 6/13/2020 18:37",
 		"testsmallLintEmptyExceptionHandler" : "js 6/13/2020 18:37",
 		"testsmallLintEqualNotUsed" : "js 6/13/2020 18:37",
@@ -53,4 +52,5 @@
 		"testsmallLintUnoptimizedAndOr" : "js 6/13/2020 18:39",
 		"testsmallLintUnpackagedCode" : "js 6/13/2020 18:39",
 		"testsmallLintUsesAdd" : "js 6/13/2020 18:39",
-		"testsmallLintUsesTrue" : "js 6/13/2020 18:39" } }
+		"testsmallLintUsesTrue" : "js 6/13/2020 18:39",
+		"xtestsmallLintConsistencyCheck" : "TR 5/6/2021 19:45" } }
