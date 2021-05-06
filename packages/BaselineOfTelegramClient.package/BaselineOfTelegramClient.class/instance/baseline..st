@@ -18,7 +18,7 @@ baseline: spec
 				spec file: 'JSON-ul.35';
 				repository: 'https://www.squeaksource.com/JSON'];
 			baseline: 'SwaLint' with: [
-				spec repository: 'github://hpi-swa-teaching/SwaLint:release/packages'].
+				spec repository: 'github://hpi-swa-teaching/SwaLint:develop'].
 		
 		spec
 			package: 'TelegramClient-Core' with: [
