@@ -5,4 +5,5 @@ newFromTCCMessage: aMessage
 		text: aMessage message;
 		senderID: aMessage senderID;
 		isOutgoing: aMessage isOutgoing;
+		date: aMessage date;
 		initialize

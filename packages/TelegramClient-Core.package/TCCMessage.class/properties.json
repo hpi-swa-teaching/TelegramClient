@@ -10,7 +10,8 @@
 		"chatID",
 		"id",
 		"senderID",
-		"isOutgoing" ],
+		"isOutgoing",
+		"date" ],
 	"name" : "TCCMessage",
 	"pools" : [
 		 ],

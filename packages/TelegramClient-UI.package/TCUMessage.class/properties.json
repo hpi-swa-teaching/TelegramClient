@@ -8,7 +8,8 @@
 	"instvars" : [
 		"text",
 		"senderID",
-		"isOutgoing" ],
+		"isOutgoing",
+		"date" ],
 	"name" : "TCUMessage",
 	"pools" : [
 		 ],
