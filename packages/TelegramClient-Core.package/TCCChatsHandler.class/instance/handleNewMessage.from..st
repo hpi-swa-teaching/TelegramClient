@@ -1,6 +1,7 @@
 event handling
 handleNewMessage: anEvent from: aUserEvent
 
-	| message |
+	| message user |
 	message := anEvent at: 'message'.
-	self addNewMessage: message.
+	user := TCCUser newFrom: aUserEvent. 
+	self addNewMessage: message from: user.

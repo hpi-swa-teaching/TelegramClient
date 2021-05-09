@@ -4,15 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "f.w. 6/29/2020 17:05",
+	"commentStamp" : "pk 5/9/2021 16:30",
 	"instvars" : [
-		"message",
-		"chat",
 		"id",
-		"isOutgoing",
-		"sender",
-		"senderID" ],
-	"name" : "TCCMessage",
+		"firstname",
+		"lastname",
+		"username" ],
+	"name" : "TCCUser",
 	"pools" : [
 		 ],
 	"super" : "Object",

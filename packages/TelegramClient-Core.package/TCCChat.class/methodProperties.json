@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newFromNewChatEvent:" : "js 8/2/2020 22:26" },
+		"newFromNewChatEvent:" : "pk 5/9/2021 17:20" },
 	"instance" : {
 		"addNewestMessage:" : "js 8/2/2020 12:58",
 		"addOldestMessage:" : "js 8/2/2020 12:58",
@@ -9,6 +9,7 @@
 		"id:" : "rs 6/7/2020 22:20",
 		"ifNotWaitingForUpdate:" : "js 8/2/2020 13:17",
 		"initialize" : "js 8/2/2020 17:33",
+		"isPrivate" : "pk 5/9/2021 17:19",
 		"lastMessage" : "rs 6/19/2020 17:33",
 		"lastMessage:" : "rs 6/19/2020 17:33",
 		"messages" : "R.S 6/1/2020 15:37",
@@ -22,5 +23,7 @@
 		"stillRequestedMessages" : "js 8/1/2020 18:05",
 		"title" : "rs 6/7/2020 22:24",
 		"title:" : "rs 6/7/2020 22:24",
+		"type" : "pk 5/9/2021 16:58",
+		"type:" : "pk 5/9/2021 16:58",
 		"waitingForUpdate" : "js 8/1/2020 16:59",
 		"waitingForUpdate:" : "js 8/1/2020 17:00" } }
