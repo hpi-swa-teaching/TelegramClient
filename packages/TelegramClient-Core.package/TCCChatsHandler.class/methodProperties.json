@@ -4,6 +4,7 @@
 	"instance" : {
 		"addChat:" : "RS 4/29/2021 18:56",
 		"addNewMessage:" : "pk 5/7/2021 12:42",
+		"addNewMessage:from:" : "per 5/9/2021 16:18",
 		"app" : "js 6/1/2020 14:44",
 		"app:" : "js 6/1/2020 14:45",
 		"chatHistoryReceived:" : "pk 5/7/2021 12:21",
@@ -12,6 +13,7 @@
 		"getChatHistoryFrom:with:limit:" : "js 8/2/2020 13:17",
 		"getChats" : "js 7/31/2020 22:50",
 		"handleNewMessage:" : "ct 10/7/2020 21:19",
+		"handleNewMessage:from:" : "per 5/9/2021 16:18",
 		"openNewChat:" : "js 8/2/2020 22:27",
 		"remainingMessages" : "js 8/1/2020 16:49",
 		"remainingMessages:" : "js 8/1/2020 16:50",
