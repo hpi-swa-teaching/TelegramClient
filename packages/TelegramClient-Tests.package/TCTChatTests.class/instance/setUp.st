@@ -8,4 +8,5 @@ setUp
 			message: aNumber asString;
 			chatID: aNumber * 2;
 			senderID: aNumber * 3;
-			id: aNumber * 4)].
+			id: aNumber * 4;
+			date: 1000000000 + (aNumber * 234567890))].
