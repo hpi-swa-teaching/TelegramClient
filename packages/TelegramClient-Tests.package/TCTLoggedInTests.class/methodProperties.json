@@ -4,8 +4,8 @@
 	"instance" : {
 		"core" : "r.s 7/15/2020 18:46",
 		"core:" : "r.s 7/15/2020 18:46",
-		"defaultTimeout" : "RS 5/10/2021 21:50",
-		"setUp" : "RS 5/10/2021 21:48",
+		"defaultTimeout" : "RS 5/10/2021 22:01",
+		"setUp" : "RS 5/10/2021 22:01",
 		"tearDown" : "r.s 7/16/2020 16:54",
-		"testLogout" : "RS 5/10/2021 21:48",
-		"testMessageSending" : "RS 5/10/2021 21:50" } }
+		"testLogout" : "RS 5/10/2021 22:01",
+		"testMessageSending" : "RS 5/10/2021 22:01" } }

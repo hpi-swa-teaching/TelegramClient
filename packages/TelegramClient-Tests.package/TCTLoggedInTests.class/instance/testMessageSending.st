@@ -7,7 +7,7 @@ testMessageSending
 	testChatId := (self core chats detect: [:chat | chat canSendMessages]) id.
 	
 	self core sendMessage: 'TestMessage' to: testChatId.
-	3 seconds wait.
+	10 seconds wait.
 	
 	testChatMessages := (self core chats getChat: testChatId) messages.
 	self assert: (testChatMessages contains: [:aMessage |

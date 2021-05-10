@@ -2,5 +2,5 @@ testing
 testLogout
 
 	self core authHandler logout.
-	1 seconds wait.
+	2 seconds wait.
 	self assert: self core authHandler isAuthStateClosed.
