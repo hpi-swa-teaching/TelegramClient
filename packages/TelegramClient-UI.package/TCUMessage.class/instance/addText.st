@@ -17,5 +17,4 @@ addText
 		ifTrue: [textMorph width: expectedWidth + (self defaultTextMargins x * 2)].
 
 	self
-		extent: textMorph extent + self defaultMargin;
-		addMorphCentered: textMorph.
+		addMorph: textMorph.
