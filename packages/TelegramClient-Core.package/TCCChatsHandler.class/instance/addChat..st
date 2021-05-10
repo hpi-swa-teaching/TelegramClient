@@ -7,7 +7,6 @@ addChat: aChatEvent
 		id: ((aChatEvent at: 'chat') at: 'id');
 		title: ((aChatEvent at: 'chat') at: 'title');
 		canSendMessages: (((aChatEvent at: 'chat') at: 'permissions') at: 'can_send_messages');
-		order: (((aChatEvent at: 'chat') at: 'id') asString);
 		lastMessage: ''.
 
 	self app chats
