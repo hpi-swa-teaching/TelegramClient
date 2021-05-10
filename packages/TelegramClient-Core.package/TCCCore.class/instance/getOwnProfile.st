@@ -1,6 +1,6 @@
 events
 getOwnProfile
-
+	self pendingMessages at: 'getMe' put: [:aUserEvent | self setUserID: aUserEvent].
 	self client send: (TCCRequest
 		newWithType: 'getMe'
-		from: {}).
+		from: {'@extra' -> 'getMe'}).
