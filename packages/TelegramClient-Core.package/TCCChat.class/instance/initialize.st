@@ -5,4 +5,5 @@ initialize
 		title: '';
 		messages: (OrderedCollection newFrom: {TCCNullMessage new});
 		waitingForUpdate: false;
+		positionKnown: false;
 		numberOfRequestedMessages: self defaultNumberOfRequestedMessages.

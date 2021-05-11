@@ -33,7 +33,7 @@
 		"testsmallLintClassVariableCapitalization" : "js 6/13/2020 18:37",
 		"testsmallLintCodeCruftLeftInMethods" : "js 6/13/2020 18:37",
 		"testsmallLintCollectSelectNotUsed" : "js 6/13/2020 18:07",
-		"testsmallLintConsistencyCheck" : "js 6/13/2020 18:37",
+		"testsmallLintConsistencyCheck" : "RS 5/6/2021 20:27",
 		"testsmallLintDefinesEqualNotHash" : "js 6/13/2020 18:37",
 		"testsmallLintEmptyExceptionHandler" : "js 6/13/2020 18:37",
 		"testsmallLintEqualNotUsed" : "js 6/13/2020 18:37",

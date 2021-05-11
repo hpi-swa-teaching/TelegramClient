@@ -3,10 +3,11 @@ testMessageSending
 
 	| testChatId testChatMessages |
 	
-	testChatId := self core chats first id. "Choose any available chat. The Telegram Test Data Center 'periodically wipe[s] all information stored. See TCTTestCore."
+	"Choose any available chat. The Telegram Test Data Center 'periodically wipe[s] all information stored. See TCTTestCore."
+	testChatId := (self core chats detect: [:chat | chat canSendMessages]) id.
 	
 	self core sendMessage: 'TestMessage' to: testChatId.
-	10 seconds wait.
+	15 seconds wait.
 	
 	testChatMessages := (self core chats getChat: testChatId) messages.
 	self assert: (testChatMessages contains: [:aMessage |

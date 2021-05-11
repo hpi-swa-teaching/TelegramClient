@@ -6,4 +6,4 @@ newFromNewChatEvent: anEvent
 		title: (chat at: 'title');
 		id: (chat at: 'id');
 		type: ((chat at: 'type') at: '@type');
-		order: ((chat at: 'id') asString)
+		canSendMessages: ((anEvent at: 'chatPermissions') at: 'can_send_messages')

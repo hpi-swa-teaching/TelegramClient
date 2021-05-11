@@ -2,10 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addChat:" : "pk 5/9/2021 17:09",
 		"addNewMessage:" : "pk 5/7/2021 12:42",
 		"addNewMessage:from:" : "pk 5/9/2021 16:39",
-		"app" : "js 6/1/2020 14:44",
+		"addChat:" : "RS 5/10/2021 20:08",
 		"app:" : "js 6/1/2020 14:45",
 		"chatHistoryReceived:" : "pk 5/7/2021 12:21",
 		"client" : "js 6/1/2020 14:44",
@@ -15,9 +14,8 @@
 		"handleNewMessage:" : "ct 10/7/2020 21:19",
 		"handleNewMessage:from:" : "pk 5/9/2021 16:37",
 		"openNewChat:" : "pk 5/9/2021 17:13",
-		"remainingMessages" : "js 8/1/2020 16:49",
 		"remainingMessages:" : "js 8/1/2020 16:50",
 		"searchChat:" : "f.w. 7/15/2020 22:53",
 		"sendMessage:to:" : "js 7/31/2020 14:39",
-		"updateChatPosition:" : "RS 4/29/2021 18:45",
-		"updateLastMessage:" : "RS 4/29/2021 21:15" } }
+		"updateChatPosition:" : "RS 5/10/2021 20:09",
+		"updateLastMessage:" : "RS 5/10/2021 20:41" } }

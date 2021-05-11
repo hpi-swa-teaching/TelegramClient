@@ -10,4 +10,4 @@ loginWithTestData
 	
 	self authHandler sendPhoneNumber: phoneNumber.
 	2 seconds wait.
-	self checkAuthenticationCode: (String new: 5 withAll: testX).
+	self checkAuthenticationCode: (String new: 6 withAll: testX).

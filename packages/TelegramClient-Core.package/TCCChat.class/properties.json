@@ -7,13 +7,15 @@
 	"commentStamp" : "js 6/13/2020 16:25",
 	"instvars" : [
 		"messages",
-		"order",
+		"position",
+		"positionKnown",
 		"id",
 		"title",
 		"lastMessage",
 		"waitingForUpdate",
 		"numberOfRequestedMessages",
-		"type" ],
+		"type",
+		"canSendMessages" ],
 	"name" : "TCCChat",
 	"pools" : [
 		 ],
