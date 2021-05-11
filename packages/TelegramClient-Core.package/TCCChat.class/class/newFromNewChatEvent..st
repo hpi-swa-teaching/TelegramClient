@@ -5,5 +5,7 @@ newFromNewChatEvent: anEvent
 	^ self new
 		title: (chat at: 'title');
 		id: (chat at: 'id');
+		canSendMessages: ((chat at: 'permissions') at: 'can_send_messages');
 		type: ((chat at: 'type') at: '@type');
-		canSendMessages: ((anEvent at: 'chatPermissions') at: 'can_send_messages')
+		lastMessage: '';
+		yourself
