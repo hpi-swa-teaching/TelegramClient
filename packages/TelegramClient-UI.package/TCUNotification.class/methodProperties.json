@@ -1,18 +1,22 @@
 {
 	"class" : {
-		"newWithMessage:" : "pk 5/9/2021 17:21" },
+		"newWithMessage:" : "per 5/11/2021 19:05" },
 	"instance" : {
-		"addTextLabel" : "js 8/2/2020 10:00",
+		"addContent" : "per 5/11/2021 19:07",
 		"calculatePosition" : "rs 7/5/2020 14:42",
+		"chat" : "per 5/11/2021 10:49",
+		"chat:" : "per 5/11/2021 10:49",
 		"chatID" : "rs 7/5/2020 14:31",
 		"chatID:" : "rs 7/5/2020 14:31",
 		"defaultBorderWidth" : "r.s 8/2/2020 18:37",
 		"defaultHeight" : "rs 7/5/2020 14:18",
 		"defaultOffset" : "rs 7/5/2020 14:43",
-		"defaultTimeOutDuration" : "r.s 8/2/2020 18:36",
+		"defaultTimeOutDuration" : "per 5/11/2021 18:48",
 		"defaultWidth" : "rs 7/5/2020 14:44",
-		"initialize" : "rs 7/5/2020 14:43",
-		"initializeDefaults" : "r.s 8/2/2020 18:37",
-		"startTimeOut" : "r.s 8/2/2020 18:36",
-		"text" : "rs 7/5/2020 14:28",
-		"text:" : "rs 7/5/2020 14:28" } }
+		"initialize" : "per 5/11/2021 19:08",
+		"initializeDefaults" : "per 5/11/2021 19:04",
+		"message" : "per 5/11/2021 19:05",
+		"message:" : "per 5/11/2021 19:05",
+		"sender" : "per 5/11/2021 10:45",
+		"sender:" : "per 5/11/2021 10:45",
+		"startTimeOut" : "r.s 8/2/2020 18:36" } }

@@ -6,8 +6,10 @@
 		 ],
 	"commentStamp" : "j 7/16/2020 13:26",
 	"instvars" : [
-		"text",
-		"chatID" ],
+		"message",
+		"chatID",
+		"chat",
+		"sender" ],
 	"name" : "TCUNotification",
 	"pools" : [
 		 ],

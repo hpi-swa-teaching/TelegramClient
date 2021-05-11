@@ -8,4 +8,4 @@ initializeDefaults
 		useRoundedCorners;
 		height: self defaultHeight;
 		width: self defaultWidth;
-		addTextLabel.
+		addContent.

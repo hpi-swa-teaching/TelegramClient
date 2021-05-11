@@ -7,5 +7,5 @@ initialize
 		openInWorld.
 		
 	self 
-		position: self calculatePosition;
-		startTimeOut.
+		position: self calculatePosition; 
+		startTimeOut
