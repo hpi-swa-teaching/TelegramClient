@@ -1,20 +1,13 @@
 drawing
 addText
 
-	| textMorph expectedWidth |
+	| textMorph |
 
-	textMorph := TextMorph new 
+	textMorph := self defaultTextMorph
 		contents: self text;
-		wrapFlag: true;
 		margins: self defaultTextMargins;
-		width: self defaultWidth;
-		hResizing: #rigid;
-		color: Color white;
-		lock.
-
-	expectedWidth := textMorph textStyle defaultFont widthOfString: self text.
-	(expectedWidth <= self defaultWidth)
-		ifTrue: [textMorph width: expectedWidth + (self defaultTextMargins x * 2)].
+		color: Color white.
 
 	self
+		shrinkToContentWidth: textMorph;
 		addMorph: textMorph.
