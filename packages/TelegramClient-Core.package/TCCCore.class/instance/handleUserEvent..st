@@ -1,8 +1,7 @@
 events
 handleUserEvent: anEvent
-	anEvent at: '@extra'  ifPresent: [:extra|
-		(self pendingMessages at: extra) value: anEvent. 
-	]
-	ifAbsent: [
-		self halt.
-	]
+
+	| extra |
+	extra := anEvent at: '@extra'.
+	(self pendingRequests at: extra) value: anEvent.
+	self pendingRequests removeKey: extra ifAbsent: []

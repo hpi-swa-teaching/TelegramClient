@@ -3,7 +3,7 @@ addChat: aChatEvent
 
 	| chat |
 	
-	chat := TCCChat newFromNewChatEvent: aChatEvent.
+	chat := TCCChat newFromChatEvent: aChatEvent.
 
 	self app chats
 		add: chat;

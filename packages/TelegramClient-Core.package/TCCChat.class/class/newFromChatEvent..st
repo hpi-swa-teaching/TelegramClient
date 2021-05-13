@@ -1,5 +1,5 @@
 instance creation
-newFromNewChatEvent: anEvent
+newFromChatEvent: anEvent
 
 	| chat |
 	chat := anEvent at: 'chat'.

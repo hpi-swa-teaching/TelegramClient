@@ -1,4 +1,4 @@
 accessing
-pendingMessages: aDictionary
+pendingRequests: aDictionary
 
 	pendingRequests := aDictionary

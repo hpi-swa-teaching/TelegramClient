@@ -1,4 +1,4 @@
 accessing
-pendingMessages
+pendingRequests
 
 	^ pendingRequests

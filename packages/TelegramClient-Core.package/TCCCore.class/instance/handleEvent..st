@@ -14,5 +14,4 @@ handleEvent: anEvent
 			['user'] -> [self handleUserEvent: anEvent].
 			['chat'] -> [self chatsHandler openNewChat: anEvent]}
 		otherwise: [].
-
 	update isSymbol ifTrue: [self triggerEvent: update].
