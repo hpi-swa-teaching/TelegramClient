@@ -6,4 +6,4 @@ testPositionInsert
 		position: 0;
 		positionKnown: true).
 
-	self assert: self chats first id equals: 0.
+	self assert: 0 equals: self chats first id.
