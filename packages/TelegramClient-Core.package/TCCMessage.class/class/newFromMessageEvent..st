@@ -1,5 +1,6 @@
 instance creation
 newFromMessageEvent: aMessageEvent
+
 "DEPRECATED"
 	^ self new
 		message: (((aMessageEvent at: 'content') at: '@type') = 'messageText' 

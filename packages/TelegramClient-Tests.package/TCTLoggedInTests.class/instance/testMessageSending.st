@@ -8,8 +8,7 @@ testMessageSending
 	
 	self core sendMessage: 'TestMessage' to: testChatId.
 	15 seconds wait.
-	
 	testChatMessages := (self core chats getChat: testChatId) messages.
 	self assert: (testChatMessages contains: [:aMessage |
 		(aMessage message = 'TestMessage') and:
-		(aMessage chatID = testChatId)]).
+		(aMessage chat id = testChatId)]).

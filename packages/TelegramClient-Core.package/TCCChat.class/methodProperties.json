@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newFromNewChatEvent:" : "pk 5/11/2021 10:18" },
+		"newFromNewChatEvent:" : "per 5/13/2021 08:48" },
 	"instance" : {
 		"addNewestMessage:" : "js 8/2/2020 12:58",
 		"addOldestMessage:" : "js 8/2/2020 12:58",
@@ -11,7 +11,7 @@
 		"id:" : "5/11/2021 10:09:15",
 		"ifNotWaitingForUpdate:" : "js 8/2/2020 13:17",
 		"initialize" : "RS 5/10/2021 20:06",
-		"isPrivate" : "pk 5/9/2021 17:19",
+		"isPrivate" : "per 5/13/2021 08:48",
 		"lastMessage" : "rs 6/19/2020 17:33",
 		"lastMessage:" : "5/11/2021 10:09:15",
 		"messages" : "R.S 6/1/2020 15:37",

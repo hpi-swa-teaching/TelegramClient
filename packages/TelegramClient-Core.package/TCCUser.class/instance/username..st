@@ -1,4 +1,4 @@
 accessing
-username: anObject
+username: aString
 
-	username := anObject.
+	username := aString.

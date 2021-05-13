@@ -1,3 +1,4 @@
 accessing
-message: anObject
-	message := anObject
+message: aMessage
+
+	message := aMessage

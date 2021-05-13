@@ -1,5 +1,6 @@
-as yet unclassified
+testing
 testUserConstructor
+
 	| event user |
 	event := TCCEvent newFromTDLibEvent: (JsonObject newFrom: {
 		'@type' -> 'user'.
@@ -15,4 +16,3 @@ testUserConstructor
 		and: (user username = 'testuser')
 		and: (user fullName = 'Test User')
 	)
-	

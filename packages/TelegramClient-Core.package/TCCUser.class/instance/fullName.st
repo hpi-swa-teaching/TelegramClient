@@ -1,3 +1,4 @@
-as yet unclassified
+accessing
 fullName
+
 	^ (self firstname) , ' ' , (self lastname)

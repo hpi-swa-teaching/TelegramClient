@@ -1,3 +1,4 @@
 accessing
-sender: anObject
-	sender := anObject
+sender: aUser
+
+	sender := aUser
