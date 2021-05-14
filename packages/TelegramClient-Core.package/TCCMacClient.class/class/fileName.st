@@ -1,4 +1,4 @@
 accessing
 fileName
 
-	^ 'libtdjson.1.6.0.dylib'
+	^ 'libtdjson.1.7.0.dylib'

@@ -1,4 +1,4 @@
 default values
 apiHash
 
-	^ 'a3406de8d171bb422bb6ddf3bbd800e2'
+	^ '22a541245de1dcd1edd10ddb65f08aaa'

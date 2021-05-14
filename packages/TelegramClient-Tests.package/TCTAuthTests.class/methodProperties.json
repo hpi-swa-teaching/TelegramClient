@@ -4,7 +4,8 @@
 	"instance" : {
 		"core" : "r.s 7/15/2020 12:39",
 		"core:" : "r.s 7/15/2020 12:39",
-		"setUp" : "r.s 7/15/2020 19:25",
+		"defaultTimeout" : "RS 5/10/2021 22:01",
+		"setUp" : "RS 5/10/2021 22:02",
 		"tearDown" : "r.s 7/15/2020 19:29",
-		"testAuthStateIsAwaitingPhoneNumber" : "r.s 7/15/2020 19:24",
-		"testAuthStateReady" : "r.s 7/15/2020 19:23" } }
+		"testAuthStateIsAwaitingPhoneNumber" : "RS 5/10/2021 21:50",
+		"testAuthStateReady" : "RS 5/10/2021 22:02" } }

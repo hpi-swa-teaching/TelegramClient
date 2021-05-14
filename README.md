@@ -5,8 +5,8 @@
 <p align="center">
     <a href="https://github.com/hpi-swa-teaching/TelegramClient/commits/" title="Last Commit"><img src="https://img.shields.io/github/last-commit/hpi-swa-teaching/TelegramClient?style=flat"></a>
     <a href="https://github.com/hpi-swa-teaching/TelegramClient/issues" title="Open Issues"><img src="https://img.shields.io/github/issues/hpi-swa-teaching/TelegramClient"></a>
-        <a href="https://github.com/hpi-swa-teaching/TelegramClient/actions?query=workflow%3ACI" title="Build Status - Master"><img src="https://img.shields.io/github/workflow/status/hpi-swa-teaching/telegramclient/CI/master?color=dwa&label=master&logo=dwa&logoColor=daw"></a>
-    <a href="https://github.com/hpi-swa-teaching/TelegramClient/actions?query=workflow%3ACI" title="Build Status - Develop"><img src="https://img.shields.io/github/workflow/status/hpi-swa-teaching/telegramclient/CI/master?color=dwa&label=develop&logo=dwa&logoColor=daw"></a>
+    <a href="https://github.com/hpi-swa-teaching/TelegramClient/actions?query=workflow%3ACI+branch%3Amaster" title="Build Status - Master"><img src="https://img.shields.io/github/workflow/status/hpi-swa-teaching/TelegramClient/CI/master?label=master"></a>
+    <a href="https://github.com/hpi-swa-teaching/TelegramClient/actions?query=workflow%3ACI+branch%3Adevelop" title="Build Status - Develop"><img src="https://img.shields.io/github/workflow/status/hpi-swa-teaching/telegramclient/CI/develop?label=develop"></a>
     <img alt="Coveralls github branch" src="https://img.shields.io/coveralls/github/hpi-swa-teaching/TelegramClient/master?label=coverage%20-%20master">
     <img alt="Coveralls github branch" src="https://img.shields.io/coveralls/github/hpi-swa-teaching/TelegramClient/develop?label=coverage%20-%20develop">
     <a href="./LICENSE" title="License"><img src="https://img.shields.io/github/license/hpi-swa-teaching/TelegramClient"></a>
@@ -66,11 +66,26 @@ TelegramClient is a **Squeak-Client** for the widely used Telegram-Messenger. It
 
 We currently only support Squeak 5.3.
 
-1. Install the last compatible FFI version. For Squeak version 5.3 use `Metacello new configuration: 'FFI'; load.` to install it.
+### Option 1 (online installation)
 
-2. Check our [release page](https://github.com/hpi-swa-teaching/TelegramClient/releases) for an online installer in the form of a sar file. Install this sar file in your Squeak image.
+Open a Workspace and evaluate the following command in it:
+```smalltalk
+Metacello new
+	baseline: 'TelegramClient';
+	repository: 'github://hpi-swa-teaching/TelegramClient/packages';
+	load.
+```
 
-3. Click the Telegram entry in the Apps WorldMenu or execute the command `TCUTelegram newWithTCCCore`. The menu is only available if you already started the app once or installed the app via a release sar file.
+### Option 2 (offline installation)
+
+1. Install the following prerequisites:
+   1. **Last compatible FFI version.** For Squeak version 5.3 use `Metacello new configuration: 'FFI'; load.` to install it.
+   2. **JSON** package from [SqueakSource](http://www.squeaksource.com/JSON.html).
+   3. **Animations** package [GitHub](https://github.com/hpi-swa/animations/).
+
+2. Check our [release page](https://github.com/hpi-swa-teaching/TelegramClient/releases) for an online installer in the form of a SAR file. Install this SAR file in your Squeak image.
+
+3. Click the Telegram entry in the Apps WorldMenu or execute the command `TCUTelegram newWithTCCCore`. The menu is only available if you already started the app once or installed the app via a release SAR file.
 
 For further information or manual setup take a look in our [setup
 guide](https://github.com/hpi-swa-teaching/TelegramClient/wiki/Setup-Guide).
@@ -87,4 +102,4 @@ Pre-Releases are created automatically whenever a commit is added to the develop
 
 ## Our Group
 
-Group 13 of the 2020 SWT I module included [Rohan Sawahn](https://github.com/rohansaw), [Jonas Schmidt](https://github.com/schmidtjonas), [Frederik Wollny](https://github.com/Freddy200), [Stefan Spangenberg](https://github.com/sspangenberg), [Lukas Laskowski](https://github.com/lasklu) and [Niklas Schilli](https://github.com/Mrnikbobjeff). Feel free to add your names to the list.
+Group 13 of the 2020 SWT I module included [Rohan Sawahn](https://github.com/rohansaw), [Jonas Schmidt](https://github.com/schmidtjonas), [Frederik Wollny](https://github.com/Freddy200), [Stefan Spangenberg](https://github.com/sspangenberg), [Lukas Laskowski](https://github.com/lasklu), and [Niklas Schilli](https://github.com/Mrnikbobjeff). Feel free to add your names to the list.

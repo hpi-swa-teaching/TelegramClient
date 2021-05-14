@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"apiHash" : "rs 6/14/2020 12:42",
-		"apiID" : "rs 6/14/2020 12:45",
+		"apiHash" : "TR 4/27/2021 17:11",
+		"apiID" : "TR 4/27/2021 17:10",
 		"app" : "js 6/13/2020 18:12",
 		"app:" : "js 5/28/2020 17:02",
 		"authState" : "R.S 5/18/2020 17:54",
@@ -11,7 +11,7 @@
 		"checkAuthenticationCode:" : "js 6/13/2020 18:31",
 		"client" : "js 5/28/2020 18:36",
 		"handleEvent:" : "js 8/2/2020 12:54",
-		"initialize" : "r.s 7/13/2020 18:15",
+		"initialize" : "RS 4/28/2021 18:04",
 		"isAuthStateClosed" : "r.s 7/15/2020 12:17",
 		"isAuthorizationStateReady" : "r.s 7/15/2020 12:17",
 		"isAwaitingAuthCode" : "r.s 7/15/2020 12:17",
@@ -21,5 +21,5 @@
 		"logout" : "js 7/31/2020 14:13",
 		"sendPhoneNumber:" : "js 6/13/2020 18:54",
 		"setDBEncryptionKey:" : "rs 6/6/2020 16:26",
-		"setTDLibParams" : "rs 6/14/2020 12:42",
+		"setTDLibParams" : "RS 4/28/2021 21:38",
 		"useTestDC" : "rs 6/14/2020 12:40" } }

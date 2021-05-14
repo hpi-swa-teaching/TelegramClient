@@ -1,16 +1,17 @@
 name: CI-Release
-on: 
+on:
   push:
-    branches:
-      - master
+    branches: [master, develop]
 
 jobs:
   build:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ ubuntu-latest ]
-        smalltalk: [ Squeak64-5.3 ]
+        os: [ubuntu-latest]
+        smalltalk: [Squeak64-5.3]
+    env:
+      prerelease: ${{ github.ref != 'refs/heads/master' }}
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
@@ -23,18 +24,25 @@ jobs:
         uses: 1466587594/get-current-time@v1
         id: current-time
         with:
-          format: YYYYMMDD-HH
+          format: YYYYMMDD-HHmmss
           utcOffset: "+01:00"
+      - name: Generate release name
+        uses: haya14busa/action-cond@v1
+        id: tag_prefix
+        with:
+          cond: ${{ env.prerelease }}
+          if_true: "Trunk"
+          if_false: ""
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ steps.current-time.outputs.formattedTime  }} 
-          release_name: Release ${{ steps.current-time.outputs.formattedTime  }}
+          tag_name: ${{ steps.tag_prefix.outputs.value }}${{ steps.current-time.outputs.formattedTime }} 
+          release_name: ${{ matrix.smalltalk }} ${{ steps.current-time.outputs.formattedTime }}
           draft: false
-          prerelease: false
+          prerelease: ${{ env.prerelease }}
       - name: Upload Release Asset
         id: upload-release-asset 
         uses: actions/upload-release-asset@v1

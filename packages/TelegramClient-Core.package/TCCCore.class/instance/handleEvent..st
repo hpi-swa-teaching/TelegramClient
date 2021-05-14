@@ -7,7 +7,7 @@ handleEvent: anEvent
 	anEvent type caseOf: {
 			['updateAuthorizationState'] -> [update := self authHandler handleEvent: anEvent].
 			['updateNewChat'] -> [self chatsHandler addChat: anEvent].
-			['updateChatOrder'] -> [self chatsHandler updateChatOrder: anEvent].
+			['updateChatPosition'] -> [self chatsHandler updateChatPosition: anEvent].
 			['updateChatLastMessage'] -> [self chatsHandler updateLastMessage: anEvent].
 			['messages'] -> [self chatsHandler chatHistoryReceived: anEvent].
 			['updateNewMessage'] -> [self chatsHandler handleNewMessage: anEvent].
