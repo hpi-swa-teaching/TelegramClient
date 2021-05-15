@@ -1,5 +1,6 @@
-as yet unclassified
+testing
 testExtraAPIAttribute
+
 	| callbackID event |
 	callbackID := 'this is a callback'.
 	event := nil.
