@@ -1,10 +1,6 @@
 events
 addChat: aChatEvent
 
-	| chat |
-	
-	chat := TCCChat newFromChatEvent: aChatEvent.
-
 	self app chats
-		add: chat;
+		add:  (TCCChat newFromChatEvent: aChatEvent);
 		notify.
