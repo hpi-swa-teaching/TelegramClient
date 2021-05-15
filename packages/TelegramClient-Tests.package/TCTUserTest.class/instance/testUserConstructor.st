@@ -11,8 +11,8 @@ testUserConstructor
 	}).
 	user := TCCUser newFrom: event.
 	self assert: (
-		(user firstname = 'Test')
-		and: (user lastname = 'User')
+		(user firstName = 'Test')
+		and: (user lastName = 'User')
 		and: (user username = 'testuser')
 		and: (user fullName = 'Test User')
 	)

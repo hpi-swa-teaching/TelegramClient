@@ -1,4 +1,4 @@
 accessing
 fullName
 
-	^ (self firstname) , ' ' , (self lastname)
+	^ (self firstName) , ' ' , (self lastName)

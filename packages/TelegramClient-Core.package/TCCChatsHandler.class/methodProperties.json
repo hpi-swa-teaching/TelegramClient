@@ -4,7 +4,7 @@
 	"instance" : {
 		"addChat:" : "pk 5/13/2021 12:46",
 		"addNewMessage:from:" : "pk 5/9/2021 16:39",
-		"app" : " 5/11/2021 10:09:15",
+		"app" : "5/11/2021 10:09:15",
 		"app:" : "js 6/1/2020 14:45",
 		"chatHistoryReceived:" : "pk 5/12/2021 12:35",
 		"client" : "js 6/1/2020 14:44",
@@ -13,7 +13,7 @@
 		"getChats" : "js 7/31/2020 22:50",
 		"handleNewMessage:from:" : "pk 5/9/2021 16:37",
 		"openNewChat:" : "pk 5/13/2021 12:45",
-		"remainingMessages" : " 5/11/2021 10:09:15",
+		"remainingMessages" : "5/11/2021 10:09:15",
 		"remainingMessages:" : "js 8/1/2020 16:50",
 		"searchChat:" : "f.w. 7/15/2020 22:53",
 		"sendMessage:to:" : "js 7/31/2020 14:39",

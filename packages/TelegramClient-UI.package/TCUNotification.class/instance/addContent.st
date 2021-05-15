@@ -1,15 +1,15 @@
 drawing
 addContent
 
-	self addMorph: (TextMorph new position: self topLeft +10;
+	self addMorph: (TextMorph new position: self topLeft + self defaultAuthorOffset;
 		contents: ((self sender fullName)asText addAttribute: TextEmphasis bold);
 		lock).
 	self chat isPrivate ifFalse: [
-		self addMorph: (TextMorph new position: ((self topLeft x+10) @ (self topLeft y + 30));
+		self addMorph: (TextMorph new position: (self topLeft + self defaultChatOffset);
 		contents: ((self chat title) asText);
 		lock).
 		].
-	self addMorph: (TextMorph new position: (self center - 30);
-		contents: ((self message message withNoLineLongerThan: 25) truncateWithElipsisTo:  100) asText;
-		width: 30;
+	self addMorph: (TextMorph new position: (self center + self defaulMessageOffset);
+		contents: ((self message message withNoLineLongerThan: self defaultLineLength) truncateWithElipsisTo:  self defaultMessageLength) asText;
+		width: self defaulMessageWidth;
 		lock)

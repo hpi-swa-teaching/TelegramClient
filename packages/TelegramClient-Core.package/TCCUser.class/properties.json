@@ -7,9 +7,9 @@
 	"commentStamp" : "pk 5/9/2021 16:30",
 	"instvars" : [
 		"id",
-		"firstname",
-		"lastname",
-		"username" ],
+		"username",
+		"firstName",
+		"lastName" ],
 	"name" : "TCCUser",
 	"pools" : [
 		 ],

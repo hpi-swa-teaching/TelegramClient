@@ -11,4 +11,4 @@ testMessageSending
 	testChatMessages := (self core chats getChat: testChatId) messages.
 	self assert: (testChatMessages contains: [:aMessage |
 		(aMessage message = 'TestMessage') and:
-		(aMessage chat id = testChatId)]).
+		[(aMessage chat id = testChatId)] ]).
