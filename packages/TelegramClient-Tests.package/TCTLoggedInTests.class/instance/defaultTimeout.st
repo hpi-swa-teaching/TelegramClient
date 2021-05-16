@@ -1,4 +1,4 @@
 accessing
 defaultTimeout
 
-	^ 40
+	^ 100
