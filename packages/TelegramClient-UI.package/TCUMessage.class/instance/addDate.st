@@ -5,7 +5,7 @@ addDate
 
 	textMorph := self defaultTextMorph
 		contents: self messageDateText;
-		margins: ((self defaultTextMargins rect: self defaultTextMargins) top: 0);
+		margins: self defaultDateMargins;
 		color: (self isOutgoing
 			ifTrue: [TCUDefaultValues colorPottersClay]
 			ifFalse: [TCUDefaultValues colorNileBlue]).

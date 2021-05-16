@@ -2,10 +2,11 @@
 	"class" : {
 		"newFromTCCMessage:" : "RK 5/7/2021 10:11" },
 	"instance" : {
-		"addDate" : "RK 5/12/2021 15:12",
+		"addDate" : "JB 5/16/2021 09:45",
 		"addText" : "RK 5/12/2021 15:12",
 		"date" : "RK 5/7/2021 10:11",
 		"date:" : "RK 5/7/2021 10:12",
+		"defaultDateMargins" : "JB 5/16/2021 09:45",
 		"defaultHeight" : "rs 6/17/2020 20:07",
 		"defaultMargin" : "js 7/31/2020 18:19",
 		"defaultMinTextLength" : "js 7/31/2020 18:03",
@@ -15,7 +16,7 @@
 		"initialize" : "JB 5/7/2021 11:57",
 		"isOutgoing" : "js 8/2/2020 22:02",
 		"isOutgoing:" : "js 8/2/2020 22:02",
-		"messageDateText" : "JB 5/10/2021 17:46",
+		"messageDateText" : "JB 5/16/2021 09:47",
 		"senderID" : "js 7/31/2020 16:11",
 		"senderID:" : "js 7/31/2020 16:10",
 		"shrinkToContentWidth:" : "RK 5/12/2021 15:10",
