@@ -1,4 +1,4 @@
 default values
-defaulMessageOffset
+defaultMessageOffset
 
 	^ -30 @ -30

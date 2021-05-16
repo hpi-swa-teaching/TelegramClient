@@ -1,4 +1,4 @@
 default values
-defaulMessageWidth
+defaultMessageWidth
 
 	 ^ 30
