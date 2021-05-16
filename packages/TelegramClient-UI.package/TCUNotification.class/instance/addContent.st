@@ -9,7 +9,7 @@ addContent
 		contents: ((self chat title) asText);
 		lock).
 		].
-	self addMorph: (TextMorph new position: (self center + self defaultMessageOffset);
-		contents: ((self message message withNoLineLongerThan: self defaultLineLength) truncateWithElipsisTo:  self defaultMessageLength) asText;
-		width: self defaultMessageWidth;
+	self addMorph: (TextMorph new position: (self center + self defaulMessageOffset);
+		contents: ((self message message withNoLineLongerThan: self defaultLineLength) truncateWithElipsisTo: self defaultMessageLength) asText;
+		width: self defaulMessageWidth;
 		lock)
