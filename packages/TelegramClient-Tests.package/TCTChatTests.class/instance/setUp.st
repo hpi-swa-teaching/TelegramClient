@@ -9,4 +9,4 @@ setUp
 			chatID: aNumber * 2;
 			senderID: aNumber * 3;
 			id: aNumber * 4;
-			date: (DateAndTime fromUnixTime: aNumber * 60) asSeconds)].
+			date: (DateAndTime fromUnixTime: aNumber * 60))].
