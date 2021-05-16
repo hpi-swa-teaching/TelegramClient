@@ -2,12 +2,13 @@
 	"class" : {
 		"newWithMessage:" : "per 5/13/2021 08:50" },
 	"instance" : {
-		"addContent" : "pk 5/16/2021 14:09",
+		"addContent" : "per 5/16/2021 15:20",
 		"calculatePosition" : "rs 7/5/2020 14:42",
 		"chat" : "per 5/13/2021 08:50",
 		"chat:" : "per 5/13/2021 09:21",
 		"chatID" : "rs 7/5/2020 14:31",
 		"chatID:" : "rs 7/5/2020 14:31",
+		"chatTitle" : "per 5/16/2021 15:20",
 		"defaultAuthorOffset" : "per 5/15/2021 11:57",
 		"defaultBorderWidth" : "r.s 8/2/2020 18:37",
 		"defaultChatOffset" : "per 5/15/2021 11:57",
@@ -19,10 +20,11 @@
 		"defaultOffset" : "rs 7/5/2020 14:43",
 		"defaultTimeOutDuration" : "per 5/11/2021 18:48",
 		"defaultWidth" : "rs 7/5/2020 14:44",
-		"initialize" : "per 5/12/2021 11:41",
+		"initialize" : "per 5/16/2021 15:18",
 		"initializeDefaults" : "per 5/11/2021 19:04",
 		"message" : "per 5/13/2021 08:50",
 		"message:" : "per 5/13/2021 09:21",
+		"openInWorld" : "per 5/16/2021 15:18",
 		"sender" : "per 5/13/2021 08:50",
 		"sender:" : "per 5/13/2021 09:21",
 		"startTimeOut" : "r.s 8/2/2020 18:36" } }
