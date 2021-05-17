@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"core" : "pk 5/17/2021 15:28",
+		"core:" : "pk 5/17/2021 19:19",
+		"defaultTimeout" : "pk 5/17/2021 15:35",
+		"newMessageReceived:" : "pk 5/17/2021 19:20",
+		"receivedMessage" : "pk 5/17/2021 19:15",
+		"receivedMessage:" : "pk 5/17/2021 19:15",
+		"setUp" : "pk 5/17/2021 19:19",
+		"tearDown" : "pk 5/17/2021 15:28",
+		"testMessageAuthors" : "pk 5/17/2021 19:26" } }

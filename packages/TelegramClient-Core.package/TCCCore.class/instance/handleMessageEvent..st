@@ -1,7 +1,7 @@
 events
 handleMessageEvent: anEvent
 
-	|callbackID message|
+	|callbackID message|.
 	message := anEvent at: 'message'. 
 	callbackID := (message at: 'id') asString, (message at: 'chat_id'). 
 	self pendingRequests at: callbackID put: [:aUserEvent | 
