@@ -1,4 +1,4 @@
-as yet unclassified
+events
 newMessageReceived: aMessage
 
 	self receivedMessage: aMessage

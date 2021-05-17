@@ -1,4 +1,4 @@
 accessing
-receivedMessage: anObject
+receivedMessage: aMessage
 
-	receivedMessage := anObject.
+	receivedMessage := aMessage.

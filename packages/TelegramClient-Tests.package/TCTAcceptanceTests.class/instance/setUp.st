@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 setUp
 
 	self core: TCTTestCore new.
