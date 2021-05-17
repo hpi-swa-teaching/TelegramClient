@@ -1,9 +1,12 @@
 {
 	"class" : {
-		"newFromMessageEvent:" : "js 8/2/2020 22:01" },
+		"newFromMessageEvent:" : "RK 5/7/2021 10:20",
+		"timeStampToDateAndTime:" : "JB 5/16/2021 09:42" },
 	"instance" : {
 		"chatID" : "js 7/31/2020 15:14",
 		"chatID:" : "j 7/16/2020 12:03",
+		"date" : "RK 5/7/2021 10:02",
+		"date:" : "RK 5/7/2021 10:02",
 		"id" : "js 8/1/2020 18:20",
 		"id:" : "js 8/1/2020 18:20",
 		"initialize" : "js 8/1/2020 18:18",

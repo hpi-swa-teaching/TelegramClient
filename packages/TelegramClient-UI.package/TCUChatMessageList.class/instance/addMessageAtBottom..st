@@ -3,11 +3,12 @@ addMessageAtBottom: aMessage
 
 	| newMessage |
 	newMessage := TCUMessage newFromTCCMessage: aMessage.
+	newMessage shrinkWrap.
 
-	self messages do: [:message | message position: (message position - (0 @ (newMessage height)))].
+	self messages do: [:message | message position: (message position - (0 @ (newMessage height + self defaultMessageMargin)))].
 
 	newMessage isOutgoing
-		ifTrue: [newMessage bottomRight: (self bottomRight - (self defaultMessageMargin @ 0))]
-		ifFalse: [newMessage bottomLeft: (self bottomLeft + (self defaultMessageMargin @ 0))].
+		ifTrue: [newMessage bottomRight: (self bottomRight - (self defaultMessageMargin asPoint))]
+		ifFalse: [newMessage bottomLeft: (self bottomLeft + (self defaultMessageMargin @ self defaultMessageMargin negated))].
 	self addMorph: newMessage.
 	self messages add: newMessage.

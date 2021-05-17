@@ -9,6 +9,7 @@ testMessage
 		'sender_user_id' -> '2'.
 		'id' -> '3'.
 		'is_outgoing' -> false.
+		'date' -> (DateAndTime fromUnixTime: 0) asSeconds.
 		'content' -> (Dictionary newFrom: {
 			'@type' -> 'messageText'.
 			'text' -> (Dictionary newFrom: {
@@ -16,3 +17,5 @@ testMessage
 	
 	self assert: message senderID equals: '2'.
 	self assert: message id equals: '3'.
+	self assert: message date asUTC asTime hhmm24 equals: '0000'.
+	self assert: message message equals: 'testText'.
