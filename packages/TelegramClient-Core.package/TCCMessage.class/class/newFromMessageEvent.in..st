@@ -8,4 +8,5 @@ newFromMessageEvent: aMessageEvent in: aChat
 		chat: aChat;
 		senderID: ((aMessageEvent at: 'sender') at: 'user_id');
 		id: (aMessageEvent at: 'id');
-		isOutgoing: (aMessageEvent at: 'is_outgoing')
+		isOutgoing: (aMessageEvent at: 'is_outgoing');
+		date: (self timeStampToDateAndTime: (aMessageEvent at: 'date'))

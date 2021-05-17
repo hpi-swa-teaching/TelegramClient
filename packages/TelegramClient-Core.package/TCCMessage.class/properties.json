@@ -11,7 +11,8 @@
 		"id",
 		"isOutgoing",
 		"sender",
-		"senderID" ],
+		"senderID",
+		"date" ],
 	"name" : "TCCMessage",
 	"pools" : [
 		 ],

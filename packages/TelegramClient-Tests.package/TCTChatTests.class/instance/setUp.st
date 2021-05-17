@@ -8,4 +8,5 @@ setUp
 			message: aNumber asString;
 			chat: self chat;
 			senderID: aNumber * 3;
-			id: aNumber * 4)].
+			id: aNumber * 4;
+			date: (DateAndTime fromUnixTime: aNumber * 60))].
