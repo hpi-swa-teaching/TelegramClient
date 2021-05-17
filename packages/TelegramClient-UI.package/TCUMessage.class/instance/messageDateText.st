@@ -1,4 +1,5 @@
 text conversion
 messageDateText
 
-	^ self date asTime printMinutes
+	^ (String streamContents: [
+		:aStream | self date asTime print24: true showSeconds: false on: aStream ])
