@@ -10,4 +10,3 @@ assert: aMorph looksLike: aScreenshotFilename
 	"only comparing hashes might lead to false positives"
 	screenshotHash = morphHash ifFalse: 
 			[AssertionFailure signal: 'Assertion failed']
-	
