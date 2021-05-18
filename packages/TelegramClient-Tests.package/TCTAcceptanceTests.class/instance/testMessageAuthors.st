@@ -4,10 +4,10 @@ testMessageAuthors
 	| message user chat_id notification |
 	self receivedMessage: nil.
 	chat_id := ((self core chats) first) id.
-	message := self testingMessageFrom: chat_id.
+	message := self mockMessageFrom: chat_id.
 
 	self core handleEvent: message.
-	user := self testingUserWith: 1673511834 and: ('9447669760' , chat_id).
+	user := self mockUserWith: 1673511834 and: ('9447669760' , chat_id).
 	self core handleEvent: user.
 	
 	notification := TCUNotification newWithMessage: self receivedMessage.

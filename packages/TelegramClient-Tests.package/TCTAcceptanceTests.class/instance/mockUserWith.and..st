@@ -1,5 +1,5 @@
 accessing
-testingUserWith: aUserId and: anExtra
+mockUserWith: aUserId and: anExtra
 
 	^ (TCCEvent newFromTDLibEvent: (Dictionary newFrom: {
 		'@type' -> 'user'.

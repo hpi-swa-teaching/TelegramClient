@@ -1,5 +1,5 @@
 accessing
-testingMessageFrom: aChatId
+mockMessageFrom: aChatId
 	
 	^ TCCEvent newFromTDLibEvent: (Dictionary newFrom: {
 		'@type' -> 'updateNewMessage'.

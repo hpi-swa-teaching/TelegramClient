@@ -1,5 +1,6 @@
 initialization
 chatTitle 
 
-	self chat isPrivate ifTrue: [^'']. 
-	^self chat title
+	self chat isPrivate 
+		ifTrue: [^ ''] 
+		ifFalse: [^ self chat title]
