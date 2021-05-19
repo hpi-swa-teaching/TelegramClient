@@ -5,16 +5,16 @@ mockMessageFrom: aChatId
 		'@type' -> 'updateNewMessage'.
 		'message' -> (Dictionary newFrom: {
 			'@type' -> 'message'.
-			'id' -> 9447669760.
+			'id' -> self mockMessageID.
 			'chat_id' -> aChatId.
 			'sender' -> (Dictionary newFrom: {
 				'@type' -> 'messageSenderUser'.
-				'user_id' -> 1673511834
+				'user_id' -> self mockUserID
 				}).
 			'content' -> (Dictionary newFrom: {
 				'@type' -> 'messageText'.
 				'text' -> (Dictionary newFrom: {
-					'text' -> 'Hallo'
+					'text' -> self mockMessageText
 					})
 				}).
 				'is_outgoing' -> false.

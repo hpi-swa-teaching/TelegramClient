@@ -4,14 +4,14 @@ testMessageAuthors
 	| message user chat_id notification |
 	self receivedMessage: nil.
 	chat_id := ((self core chats) first) id.
-	message := self mockMessageFrom: chat_id.
+	message := self class mockMessageFrom: chat_id.
 
 	self core handleEvent: message.
-	user := self mockUserWith: 1673511834 and: ('9447669760' , chat_id).
+	user := self class mockUserWith: (self class mockMessageID asString, chat_id).
 	self core handleEvent: user.
 	
 	notification := TCUNotification newWithMessage: self receivedMessage.
 	
-	self assert: ('Test User' = (notification sender fullName)).
+	self assert: (self class mockUserFullName = (notification sender fullName)).
 	self assert: (chat_id = (notification chat id)).
-	self assert: ('Hallo' = (notification message message))
+	self assert: (self class mockMessageText = (notification message message))

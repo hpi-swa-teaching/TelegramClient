@@ -1,0 +1,4 @@
+accessing
+mockMessageText
+
+	^ 'Hallo'
