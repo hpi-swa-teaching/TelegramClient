@@ -15,7 +15,8 @@
 		"waitingForUpdate",
 		"numberOfRequestedMessages",
 		"type",
-		"canSendMessages" ],
+		"canSendMessages",
+		"memberCount" ],
 	"name" : "TCCChat",
 	"pools" : [
 		 ],
