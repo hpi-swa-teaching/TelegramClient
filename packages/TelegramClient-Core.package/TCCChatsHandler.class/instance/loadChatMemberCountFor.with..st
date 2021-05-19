@@ -7,4 +7,4 @@ loadChatMemberCountFor: aChat with: aSupergroupId
 		'supergroup_id'->aSupergroupId.
 		'@extra'->aSupergroupId}).
 	self app pendingRequests at: aSupergroupId put: [:aSupergroupFullInfoEvent |
-		aChat memberCount: (aSupergroupFullInfoEvent at: 'member_count'). self halt]. 
+		aChat memberCount: (aSupergroupFullInfoEvent at: 'member_count').]. 

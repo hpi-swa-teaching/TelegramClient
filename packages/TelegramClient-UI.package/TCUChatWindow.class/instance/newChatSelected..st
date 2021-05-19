@@ -7,6 +7,6 @@ newChatSelected: aChat
 	self
 		selectedChat: aChat;
 		addTitleBar.
-
+		
 	self messageListWindow show.
 	self messageListWindow displayChat: aChat.

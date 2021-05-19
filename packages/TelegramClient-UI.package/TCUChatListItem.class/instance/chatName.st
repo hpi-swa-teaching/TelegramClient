@@ -1,4 +1,4 @@
 accessing
 chatName
 
-	^ (self chat title , self chat memberCount)
+	^ self chat title

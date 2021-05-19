@@ -8,5 +8,5 @@ addChat: aChatEvent
 	].
 	
 	self app chats
-		add: (TCCChat newFromChatEvent: aChatEvent);
+		add: chat; 
 		notify.
