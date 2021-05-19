@@ -1,0 +1,1 @@
+this class tests hypothesis about the API

@@ -2,4 +2,4 @@ event handling
 newMessageReceived: aMessage
 
 	aMessage isOutgoing ifFalse: [
-		[TCUNotification newWithMessage: aMessage] fork].
+		[(TCUNotification newWithMessage: aMessage) openInWorld] fork].
