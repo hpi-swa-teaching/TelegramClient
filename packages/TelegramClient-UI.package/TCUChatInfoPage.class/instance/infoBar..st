@@ -1,3 +1,4 @@
 accessing
-infoBar: anObject
-	infoBar := anObject
+infoBar: aMorph
+
+	infoBar := aMorph

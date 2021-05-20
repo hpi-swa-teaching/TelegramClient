@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "RS 5/20/2021 21:41",
 	"instvars" : [
 		"infoBar" ],
 	"name" : "TCUChatInfoPage",

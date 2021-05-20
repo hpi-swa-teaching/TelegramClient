@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newBounds:" : "RS 5/20/2021 20:38" },
+		"newBounds:" : "RS 5/20/2021 21:42" },
 	"instance" : {
 		"addBackButton" : "RS 5/20/2021 21:04",
 		"addInfoBar" : "RS 5/20/2021 21:28",
@@ -9,6 +9,6 @@
 		"createInfoBar" : "RS 5/20/2021 21:31",
 		"defaultInfoBarHeight" : "RS 5/20/2021 21:30",
 		"defaultSpacing" : "RS 5/20/2021 20:57",
-		"infoBar" : "RS 5/20/2021 19:40",
-		"infoBar:" : "RS 5/20/2021 19:40",
+		"infoBar" : "RS 5/20/2021 21:38",
+		"infoBar:" : "RS 5/20/2021 21:38",
 		"initialize" : "RS 5/20/2021 20:39" } }
