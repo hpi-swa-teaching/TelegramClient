@@ -5,4 +5,4 @@ requestUserFor: aUserId
 		[:userEvent | (self at: aUserId) resolveWith: (TCCUser newFrom: userEvent)]
 		with: (aUserId asString).
 
-	self core getUser: aUserId with: aUserId
+	self core requestUser: aUserId with: aUserId

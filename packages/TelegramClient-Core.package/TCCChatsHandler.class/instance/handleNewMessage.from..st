@@ -1,7 +1,4 @@
 event handling
-handleNewMessage: anEvent from: aUserEvent
+handleNewMessage: aMessageJSONObject from: aUser
 
-	| message user |
-	message := anEvent at: 'message'.
-	user := TCCUser newFrom: aUserEvent. 
-	self addNewMessage: message from: user.
+	self addNewMessage: aMessageJSONObject from: aUser
