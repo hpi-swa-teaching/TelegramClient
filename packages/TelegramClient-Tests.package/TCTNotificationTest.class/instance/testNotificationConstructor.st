@@ -7,6 +7,6 @@ testNotificationConstructor
 	message := TCCMessage new sender: sender; chat: chat; message: 'm'.
 	notification := TCUNotification newWithMessage: message.
 	
-	self assert: (sender = (notification sender)).
-	self assert: (chat = (notification chat)).
-	self assert: (message = (notification message))
+	self assert: sender equals: (notification sender).
+	self assert: chat equals: (notification chat).
+	self assert: message equals: (notification message)

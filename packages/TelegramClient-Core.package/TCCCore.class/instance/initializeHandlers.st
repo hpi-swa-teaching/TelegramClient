@@ -3,6 +3,6 @@ initializeHandlers
 
 	self
 		authHandler: (TCCAuthHandler new
-			app: self);
+			core: self);
 		chatsHandler: (TCCChatsHandler new
-			app: self).
+			core: self).

@@ -7,4 +7,4 @@ testGroupChat
 	message := TCCMessage new sender: sender; chat: chat.
 	notification := TCUNotification newWithMessage: message.
 	
-	self assert: ('chat' = (notification chatTitle))
+	self assert: 'chat' equals: (notification chatTitle)

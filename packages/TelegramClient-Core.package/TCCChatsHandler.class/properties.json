@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "js 6/13/2020 16:26",
 	"instvars" : [
-		"app",
-		"remainingMessages" ],
+		"remainingMessages",
+		"core" ],
 	"name" : "TCCChatsHandler",
 	"pools" : [
 		 ],

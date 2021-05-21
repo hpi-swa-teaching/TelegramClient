@@ -7,4 +7,4 @@ testPrivateChat
 	message := TCCMessage new sender: sender; chat: chat; message: 'Test'.
 	notification := TCUNotification newWithMessage: message.
 	
-	self assert: ('' = (notification chatTitle ))
+	self assert: '' equals: (notification chatTitle )

@@ -1,6 +1,6 @@
 events
 addChat: aChatEvent
 
-	self app chats
+	self core chats
 		add: (TCCChat newFromChatEvent: aChatEvent);
 		notify.

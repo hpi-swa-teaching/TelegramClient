@@ -3,4 +3,4 @@ testPositionKnown
 
 	self assert: self chat positionKnown not.
 	self chat positionKnown: true.
-	self assert: self chat positionKnown equals: true.
+	self assert: true equals: self chat positionKnown.

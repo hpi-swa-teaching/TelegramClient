@@ -5,4 +5,4 @@ testChatsHandler
 	chatsHandler := TCCChatsHandler new.
 	self core chatsHandler: chatsHandler.
 	
-	self assert: (self core chatsHandler) equals: chatsHandler.
+	self assert: chatsHandler equals: (self core chatsHandler).
