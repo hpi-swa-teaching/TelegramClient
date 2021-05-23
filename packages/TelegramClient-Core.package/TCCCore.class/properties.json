@@ -10,7 +10,8 @@
 		"authHandler",
 		"chatsHandler",
 		"chats",
-		"loggedInUserID" ],
+		"loggedInUserID",
+		"pendingRequests" ],
 	"name" : "TCCCore",
 	"pools" : [
 		 ],

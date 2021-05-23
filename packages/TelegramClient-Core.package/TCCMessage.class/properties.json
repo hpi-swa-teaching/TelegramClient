@@ -7,10 +7,11 @@
 	"commentStamp" : "f.w. 6/29/2020 17:05",
 	"instvars" : [
 		"message",
-		"chatID",
+		"chat",
 		"id",
-		"senderID",
 		"isOutgoing",
+		"sender",
+		"senderID",
 		"date" ],
 	"name" : "TCCMessage",
 	"pools" : [

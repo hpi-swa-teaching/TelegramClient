@@ -1,10 +1,12 @@
 {
 	"class" : {
-		"newFromMessageEvent:" : "RK 5/7/2021 10:20",
+		"newFromMessageEvent:in:" : "pk 5/17/2021 20:44",
+		"newFromMessageEvent:in:from:" : "pk 5/17/2021 20:44",
 		"timeStampToDateAndTime:" : "JB 5/16/2021 09:42" },
 	"instance" : {
-		"chatID" : "js 7/31/2020 15:14",
-		"chatID:" : "j 7/16/2020 12:03",
+		"chat" : "pk 5/7/2021 12:06",
+		"chat:" : "per 5/13/2021 09:20",
+		"chatID" : "pk 5/13/2021 09:48",
 		"date" : "RK 5/7/2021 10:02",
 		"date:" : "RK 5/7/2021 10:02",
 		"id" : "js 8/1/2020 18:20",
@@ -14,5 +16,7 @@
 		"isOutgoing:" : "js 8/2/2020 22:00",
 		"message" : "rs 6/29/2020 17:13",
 		"message:" : "js 8/2/2020 22:01",
-		"senderID" : "js 8/1/2020 18:21",
+		"sender" : "pk 5/9/2021 16:47",
+		"sender:" : "pk 5/9/2021 16:47",
+		"senderID" : "per 5/13/2021 08:49",
 		"senderID:" : "js 8/2/2020 22:00" } }
