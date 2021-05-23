@@ -24,5 +24,5 @@ jobs:
       - uses: actions/upload-artifact@master
         if: ${{ always() }}
         with:
-          name: Everything
-          path: /home/runner/.smalltalkCI/telegramScreenshots
+          name: Test Artifacts - ${{ matrix.smalltalk }} / ${{ matrix.os }}
+          path: /home/runner/.smalltalkCI/telegramTestResults
