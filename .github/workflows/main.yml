@@ -32,4 +32,4 @@ jobs:
         if: ${{ always() }}
         with:
           name: Test Artifacts - ${{ matrix.smalltalk }} / ${{ matrix.os }}
-          path: /home/runner/.smalltalkCI/telegramTestResults
+          path: /home/runner/.smalltalkCI/_builds/telegramTestResults
