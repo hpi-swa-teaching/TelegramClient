@@ -1,0 +1,27 @@
+name: CI-Screenshot demo
+on:
+  push:
+    branches: [master, develop, feature/*, screenshots]
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ ubuntu-latest ]
+        smalltalk: [ Squeak64-Trunk, Squeak64-5.3, Squeak64-5.2 ]
+    name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: hpi-swa/setup-smalltalkCI@v1
+        with:
+          smalltalk-version: ${{ matrix.smalltalk }}
+      - run: smalltalkci -s ${{ matrix.smalltalk }}
+        timeout-minutes: 15
+        env:
+           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/upload-artifact@master
+        with:
+          name: Everything
+          path: /home/runner/.smalltalkCI
