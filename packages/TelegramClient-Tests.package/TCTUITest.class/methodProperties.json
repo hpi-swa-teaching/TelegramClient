@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"defaultTestResultPath" : "RS 5/23/2021 17:12" },
+	"instance" : {
+		"assert:looksLike:" : "RS 5/23/2021 16:32",
+		"assertReading:in:" : "RS 5/23/2021 16:31",
+		"assertSeeing:in:" : "RS 5/23/2021 16:19",
+		"computeHashOf:" : "RS 5/23/2021 16:19",
+		"forceSaveScreenshotOf:as:in:" : "RS 5/23/2021 17:39",
+		"takeScreenshotOf:" : "RS 5/23/2021 16:19",
+		"testMessageUI" : "RS 5/23/2021 17:39" } }
