@@ -25,4 +25,4 @@ jobs:
         if: ${{ always() }}
         with:
           name: Everything
-          path: /home/runner/.smalltalkCI
+          path: /home/runner/.smalltalkCI/telegramScreenshots
