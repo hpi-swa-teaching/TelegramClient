@@ -28,3 +28,8 @@ jobs:
         timeout-minutes: 15
         env:
            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/upload-artifact@master
+        if: ${{ always() }}
+        with:
+          name: Test Artifacts (${{ matrix.smalltalk }} (${{ matrix.os }}))
+          path: /home/runner/.smalltalkCI/_builds/telegramTestResults
