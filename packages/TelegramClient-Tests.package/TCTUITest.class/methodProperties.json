@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:looksLike:" : "RS 5/23/2021 16:32",
+		"assertReading:in:" : "RS 5/23/2021 16:31",
+		"assertSeeing:in:" : "RS 5/23/2021 16:19",
+		"computeHashOf:" : "RS 5/23/2021 16:19",
+		"saveScreenshotOf:as:" : "RS 5/23/2021 16:20",
+		"takeScreenshotOf:" : "RS 5/23/2021 16:19" } }

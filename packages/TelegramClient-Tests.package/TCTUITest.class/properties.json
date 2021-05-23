@@ -7,8 +7,8 @@
 	"commentStamp" : "RK 5/18/2021 11:36",
 	"instvars" : [
 		 ],
-	"name" : "TCTUITestingHelper",
+	"name" : "TCTUITest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }
