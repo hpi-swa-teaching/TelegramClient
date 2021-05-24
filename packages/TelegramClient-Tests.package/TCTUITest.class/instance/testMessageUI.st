@@ -2,7 +2,7 @@ testing
 testMessageUI
 
 	| message messageMorph |
-	message := TCCMessage newFromMessageEvent: (TCTMocks mockMessageJsonFrom: TCTMocks mockChatID) in: TCCNullChat new.
+	message := TCTMocks mockMessage.
 	messageMorph := TCUMessage newFromTCCMessage: message.
 	
 	self forceSaveScreenshotOf: messageMorph as: 'testMessageUI' in: self class defaultTestResultPath.

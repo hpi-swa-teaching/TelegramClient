@@ -10,5 +10,5 @@
 	"name" : "TCTUITest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "MTFTestCase",
 	"type" : "normal" }
