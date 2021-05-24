@@ -7,5 +7,4 @@ assert: aMorph looksLike: aScreenshotFilename
 	morphHash := self computeHashOf: (self takeScreenshotOf: aMorph).
 	
 	"only comparing hashes might lead to false positives"
-	screenshotHash = morphHash ifFalse: 
-			[AssertionFailure signal: 'Assertion failed']
+	self assert: screenshotHash equals: morphHash.

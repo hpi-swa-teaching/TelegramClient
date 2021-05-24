@@ -7,4 +7,4 @@ assertReading: aString in: aSuperMorph
 				and: [submorph visible]
 					and: [submorph text asString includesSubstring: aString]]
 		ifAbsent: 
-			[AssertionFailure signal: 'Assertion failed']
+			[AssertionFailure signal: 'No Text ' , aString , ' found in ' , aSuperMorph class asString]

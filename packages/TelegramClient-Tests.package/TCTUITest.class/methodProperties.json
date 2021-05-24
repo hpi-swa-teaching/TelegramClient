@@ -1,11 +1,14 @@
 {
 	"class" : {
+		"defaultScreenshotBackgroundColor" : "JB 5/24/2021 16:21",
+		"defaultScreenshotDepth" : "JB 5/24/2021 16:20",
 		"defaultTestResultPath" : "RS 5/23/2021 17:12" },
 	"instance" : {
-		"assert:looksLike:" : "RS 5/23/2021 16:32",
-		"assertReading:in:" : "RS 5/23/2021 16:31",
-		"assertSeeing:in:" : "RS 5/23/2021 16:19",
+		"assert:looksLike:" : "JB 5/24/2021 16:17",
+		"assertReading:in:" : "JB 5/24/2021 16:26",
+		"assertSeeing:in:" : "JB 5/24/2021 16:25",
 		"computeHashOf:" : "RS 5/23/2021 16:19",
+		"expectedFailures" : "JB 5/24/2021 16:13",
 		"forceSaveScreenshotOf:as:in:" : "RS 5/23/2021 17:39",
-		"takeScreenshotOf:" : "RS 5/23/2021 16:19",
+		"takeScreenshotOf:" : "JB 5/24/2021 16:21",
 		"testMessageUI" : "RS 5/23/2021 18:27" } }

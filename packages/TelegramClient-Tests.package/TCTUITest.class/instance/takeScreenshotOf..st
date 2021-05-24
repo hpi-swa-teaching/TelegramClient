@@ -1,4 +1,4 @@
 image handling
 takeScreenshotOf: aMorph
 	
-	^ aMorph imageForm: 32 backgroundColor: Color black forRectangle: aMorph bounds
+	^ aMorph imageForm: self class defaultScreenshotDepth backgroundColor: self class defaultScreenshotBackgroundColor forRectangle: aMorph bounds
