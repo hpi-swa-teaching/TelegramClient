@@ -17,7 +17,7 @@ baseline: spec
 			package: 'JSON' with: [
 				spec file: 'JSON-ul.35';
 				repository: 'https://www.squeaksource.com/JSON'];
-			package: 'MorphicTestingFramework' with: [
+			baseline: 'MorphicTestingFramework' with: [
 				spec repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages'];
 			baseline: 'SwaLint' with: [
 				spec repository: 'github://hpi-swa-teaching/SwaLint:develop/packages'].
