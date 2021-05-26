@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Screenshots" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TCTMorphWrapper",
+	"pools" : [
+		 ],
+	"super" : "MTFMorphWrapper",
+	"type" : "normal" }

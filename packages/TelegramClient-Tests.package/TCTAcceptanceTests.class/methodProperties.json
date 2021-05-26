@@ -4,11 +4,13 @@
 	"instance" : {
 		"core" : "pk 5/17/2021 15:28",
 		"core:" : "pk 5/17/2021 19:19",
-		"defaultTimeout" : "pk 5/17/2021 15:35",
+		"defaultTimeout" : "RS 5/26/2021 14:08",
 		"newMessageReceived:" : "pk 5/17/2021 19:20",
 		"receivedMessage" : "pk 5/17/2021 19:15",
 		"receivedMessage:" : "pk 5/17/2021 19:32",
 		"setUp" : "pk 5/17/2021 19:19",
 		"tearDown" : "JB 5/24/2021 18:22",
-		"testCanOpenChatInfoPage" : "JB 5/24/2021 18:30",
+		"testCanCloseChatInfoPage" : "RS 5/26/2021 14:30",
+		"testCanOpenChatInfoPage" : "RS 5/26/2021 14:29",
+		"testChatInfoPageIsHidden" : "RS 5/26/2021 14:29",
 		"testMessageAuthors" : "JB 5/24/2021 16:18" } }
