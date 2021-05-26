@@ -1,9 +1,7 @@
-accessing
-mockMessageFrom: aChatId
+message
+mockMessageJsonFrom: aChatId
 	
-	^ TCCEvent newFromTDLibEvent: (Dictionary newFrom: {
-		'@type' -> 'updateNewMessage'.
-		'message' -> (Dictionary newFrom: {
+	^ (Dictionary newFrom: {
 			'@type' -> 'message'.
 			'id' -> self mockMessageID.
 			'chat_id' -> aChatId.
@@ -20,4 +18,3 @@ mockMessageFrom: aChatId
 				'is_outgoing' -> false.
 				'date' -> 1621267079
 			})
-		})
