@@ -1,10 +1,10 @@
 image handling
-forceSaveScreenshotOf: aMorph as: aString in: anotherString
+forceSaveScreenshotOf: aMorph as: aFileName in: aDirName
 
 	| imageForm directory |
 	imageForm := self takeScreenshotOf: aMorph.
-	directory := FileDirectory default directoryNamed: anotherString.
+	directory := FileDirectory default directoryNamed: aDirName.
 	directory assureExistence.
 	
-	directory deleteFileNamed: aString , '.png'.
-	imageForm writePNGfileNamed: (directory fullNameFor: aString , '.png').
+	directory deleteFileNamed: aFileName , '.png'.
+	imageForm writePNGfileNamed: (directory fullNameFor: aFileName , '.png').
