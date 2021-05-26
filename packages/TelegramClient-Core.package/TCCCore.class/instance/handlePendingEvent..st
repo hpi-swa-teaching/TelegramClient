@@ -1,5 +1,5 @@
-events
-handleSupergroupFullInfoEvent: anEvent
+accessing
+handlePendingEvent: anEvent
 	
 	| extra |
 	extra := anEvent at: '@extra'.
