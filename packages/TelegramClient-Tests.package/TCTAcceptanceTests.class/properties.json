@@ -11,5 +11,5 @@
 	"name" : "TCTAcceptanceTests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "TCTUITest",
 	"type" : "normal" }
