@@ -13,4 +13,4 @@ createTitleBar
 		vResizing: #shrinkWrap;
 		cellInset: 12).
 	
-	self titleBar on: #mouseUp send: #showInfoPage to: self.
+	self titleBar on: #mouseDown send: #showInfoPage to: self.
