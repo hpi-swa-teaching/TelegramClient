@@ -1,4 +1,4 @@
-user
+chat
 mockGroupChat
 
 	| chat |
