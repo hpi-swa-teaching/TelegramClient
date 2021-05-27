@@ -8,4 +8,3 @@ testCanOpenChatInfoPage
 	(self subject createWrapperFor: titleBar) click.
 	
 	self assert: (self subject findByClass: TCUChatInfoPage) visible.
-	

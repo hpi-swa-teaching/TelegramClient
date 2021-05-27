@@ -10,7 +10,7 @@
 		"receivedMessage:" : "pk 5/17/2021 19:32",
 		"setUp" : "pk 5/17/2021 19:19",
 		"tearDown" : "JB 5/24/2021 18:22",
-		"testCanCloseChatInfoPage" : "RS 5/26/2021 14:30",
-		"testCanOpenChatInfoPage" : "RS 5/26/2021 14:29",
-		"testChatInfoPageIsHidden" : "RS 5/26/2021 14:29",
-		"testMessageAuthors" : "JB 5/24/2021 16:18" } }
+		"testCanCloseChatInfoPage" : "JB 5/27/2021 09:09",
+		"testCanOpenChatInfoPage" : "JB 5/27/2021 09:17",
+		"testChatInfoPageIsHidden" : "JB 5/27/2021 09:17",
+		"testMessageAuthors" : "JB 5/27/2021 09:17" } }

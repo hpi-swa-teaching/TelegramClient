@@ -6,6 +6,7 @@ addBackButton
 	backButton := TCUButton new
 		text: 'Back';
 		on: #mouseDown send: #buttonBackPressed to: self;
+		name: 'infoBackButton';
 		yourself.
 	
 	self infoBar addMorph: backButton.
