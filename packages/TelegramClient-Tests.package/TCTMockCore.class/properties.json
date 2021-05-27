@@ -3,12 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Screenshots" ],
-	"commentStamp" : "RK 5/18/2021 11:36",
+		 ],
+	"commentStamp" : "per 5/27/2021 19:16",
 	"instvars" : [
-		"app" ],
-	"name" : "TCTUITest",
+		 ],
+	"name" : "TCTMockCore",
 	"pools" : [
 		 ],
-	"super" : "MTFTestCase",
+	"super" : "TCCCore",
 	"type" : "normal" }
