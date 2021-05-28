@@ -2,4 +2,4 @@ running
 setUp
 
 	self core: TCTNoTDLibCore new.
-	self core chats add: (TCCChat new id: self class mockChatID)
+	self core chats add: (TCCChat new id: TCTMocks mockChatID)

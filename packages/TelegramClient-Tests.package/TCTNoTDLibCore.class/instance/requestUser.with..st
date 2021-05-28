@@ -1,4 +1,4 @@
-as yet unclassified
+events
 requestUser: aUserId with: aCallbackID
 
 	^ self
