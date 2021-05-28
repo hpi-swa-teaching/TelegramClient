@@ -1,15 +1,6 @@
 {
 	"class" : {
-		"mockChatID" : "pk 5/21/2021 10:16",
-		"mockMessageFrom:" : "pk 5/19/2021 11:45",
-		"mockMessageID" : "pk 5/19/2021 11:36",
-		"mockMessageText" : "pk 5/19/2021 11:38",
-		"mockUserFirstName" : "pk 5/19/2021 11:38",
-		"mockUserFullName" : "pk 5/19/2021 11:49",
-		"mockUserID" : "pk 5/19/2021 11:34",
-		"mockUserLastName" : "pk 5/19/2021 11:38",
-		"mockUserWith:" : "pk 5/21/2021 10:24",
-		"mockUsername" : "pk 5/19/2021 11:39" },
+		 },
 	"instance" : {
 		"core" : "pk 5/17/2021 15:28",
 		"core:" : "pk 5/17/2021 19:19",
@@ -21,4 +12,4 @@
 		"receivedMessage:" : "pk 5/17/2021 19:32",
 		"setUp" : "pk 5/21/2021 10:31",
 		"tearDown" : "pk 5/17/2021 15:28",
-		"testMessageAuthors" : "pk 5/21/2021 10:32" } }
+		"testMessageAuthors" : "JB 5/24/2021 16:18" } }

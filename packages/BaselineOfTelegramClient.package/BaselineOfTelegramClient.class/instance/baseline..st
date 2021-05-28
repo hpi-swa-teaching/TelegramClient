@@ -17,6 +17,8 @@ baseline: spec
 			package: 'JSON' with: [
 				spec file: 'JSON-ul.35';
 				repository: 'https://www.squeaksource.com/JSON'];
+			baseline: 'MorphicTestingFramework' with: [
+				spec repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages'];
 			baseline: 'SwaLint' with: [
 				spec repository: 'github://hpi-swa-teaching/SwaLint:develop/packages'].
 		
@@ -26,7 +28,7 @@ baseline: spec
 			package: 'TelegramClient-UI' with: [
 				spec requires: #('libraries')];
 			package: 'TelegramClient-Tests' with: [
-				spec requires: #('default' 'SwaLint')].
+				spec requires: #('default' 'SwaLint' 'MorphicTestingFramework')].
 		spec
 			group: 'libraries' with: #('Animations' 'FFI' 'JSON');
 			group: 'default' with: #('TelegramClient-Core' 'TelegramClient-UI');

@@ -3,15 +3,15 @@ testMessageAuthors
 
 	| message user notification |
 	self receivedMessage: nil.
-	message := self class mockMessageFrom: self class mockChatID.
+	message := TCTMocks mockMessageEventFrom: TCTMocks mockChatID.
 
 	self core handleEvent: message.
 	2 seconds wait.
-	user := self class mockUserWith: self class mockUserID.
+	user := TCTMocks mockUserWith: TCTMocks mockUserID asString.
 	self core handleEvent: user.
 	1 second wait.
 	notification := TCUNotification newWithMessage: self receivedMessage.
 	
-	self assert: (self class mockUserFullName = (notification sender fullName)).
-	self assert: (self class mockChatID = (notification chat id)).
-	self assert: (self class mockMessageText = (notification message message))
+	self assert: (TCTMocks mockUserFullName = (notification sender fullName)).
+	self assert: (TCTMocks mockChatID = (notification chat id)).
+	self assert: (TCTMocks mockMessageText = (notification message message))
