@@ -103,3 +103,5 @@ Pre-Releases are created automatically whenever a commit is added to the develop
 ## Our Group
 
 Group 13 of the 2020 SWT I module included [Rohan Sawahn](https://github.com/rohansaw), [Jonas Schmidt](https://github.com/schmidtjonas), [Frederik Wollny](https://github.com/Freddy200), [Stefan Spangenberg](https://github.com/sspangenberg), [Lukas Laskowski](https://github.com/lasklu), and [Niklas Schilli](https://github.com/Mrnikbobjeff). Feel free to add your names to the list.
+
+## This branch is just for finding a CI bug. DO NOT MERGE!
