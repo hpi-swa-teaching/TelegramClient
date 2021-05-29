@@ -1,6 +1,6 @@
 drawing
 addChatTitle
 
-	self titleBar addMorph: (TextMorph new
+	self titleBar addMorphBack: (TextMorph new
 		contents: self selectedChat title asText;
 		lock).

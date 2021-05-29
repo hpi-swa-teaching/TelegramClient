@@ -1,7 +1,7 @@
 drawing
 createTitleBar
 
-	self titleBar: (RectangleMorph new
+	self titleBar: (AlignmentMorph newRow
 		borderWidth: 0;
 		color: TCUDefaultValues colorLightGray;
 		width: self width;
@@ -10,6 +10,7 @@ createTitleBar
 		layoutPolicy: TableLayout new;
 		listDirection: #leftToRight;
 		layoutInset: 2;
+		hResizing: #spaceFill;
 		vResizing: #shrinkWrap;
 		cellInset: 12).
 	
