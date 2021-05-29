@@ -8,4 +8,3 @@ shrinkToContent
 	self width: newWidth + (self layoutInset * 2).
 	
 	self height: (self submorphs detectSum: [:textMorph | textMorph height]) + (self layoutInset * 2 + (self submorphs size - 1 * self cellGap)).
-	
