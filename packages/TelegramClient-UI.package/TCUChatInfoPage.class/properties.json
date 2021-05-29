@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "RS 5/20/2021 21:41",
 	"instvars" : [
-		"infoBar" ],
+		"infoBar",
+		"contentWrapper",
+		"description",
+		"chat" ],
 	"name" : "TCUChatInfoPage",
 	"pools" : [
 		 ],

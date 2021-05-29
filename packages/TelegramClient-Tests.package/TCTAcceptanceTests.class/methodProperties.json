@@ -13,4 +13,6 @@
 		"testCanCloseChatInfoPage" : "RS 5/28/2021 10:55",
 		"testCanOpenChatInfoPage" : "RS 5/28/2021 10:50",
 		"testChatInfoPageIsHidden" : "RS 5/28/2021 10:51",
-		"testMessageAuthors" : "JB 5/27/2021 09:54" } }
+		"testDoesDisplayGroupDescription" : "RS 5/29/2021 18:41",
+		"testMessageAuthors" : "JB 5/27/2021 09:54",
+		"testPrivateChatHasNoDescription" : "RS 5/29/2021 18:42" } }
