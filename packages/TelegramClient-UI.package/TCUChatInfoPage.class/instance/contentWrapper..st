@@ -1,3 +1,4 @@
 accessing
-contentWrapper: anObject
-	contentWrapper := anObject
+contentWrapper: aMorph
+
+	contentWrapper := aMorph

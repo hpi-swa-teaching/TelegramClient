@@ -1,3 +1,4 @@
 accessing
-chat: anObject
-	chat := anObject
+chat: aChat
+
+	chat := aChat

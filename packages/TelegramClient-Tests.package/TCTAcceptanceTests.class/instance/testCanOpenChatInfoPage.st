@@ -3,7 +3,6 @@ testCanOpenChatInfoPage
 
 	| titleBar |
 	self wantsToTest: (TCUMain newWithCore: self core).
-	self slowTestBy: 1000.
 			
 	(self subject findByClass: TCUChatListItem) click.
 	titleBar := (self subject findByClass: TCUChatWindow) morphs collect: [:chatWindow | chatWindow titleBar].

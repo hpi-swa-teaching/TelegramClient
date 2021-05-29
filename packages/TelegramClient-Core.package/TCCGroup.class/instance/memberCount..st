@@ -1,3 +1,4 @@
 accessing
-memberCount: anObject
-	memberCount := anObject
+memberCount: aNumber
+
+	memberCount := aNumber

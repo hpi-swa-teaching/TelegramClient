@@ -6,6 +6,7 @@ loadSuperGroupInfoFor: aChat with: aSupergroupId
 		from: {
 		'supergroup_id'->aSupergroupId.
 		'@extra'->aSupergroupId}).
+	
 	self app pendingRequests at: aSupergroupId put: [:aSupergroupFullInfoEvent |
 		aChat
 			memberCount: (aSupergroupFullInfoEvent at: 'member_count');
