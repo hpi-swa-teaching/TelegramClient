@@ -14,4 +14,4 @@ testMessageAuthors
 	
 	self assert: (TCTMocks mockUserFullName = (notification sender fullName)).
 	self assert: (chat_id = (notification chat id)).
-	self assert: (TCTMocks mockMessageText = (notification message message))
+	self assert: (TCTMocks mockMessageText = (notification message message)).
