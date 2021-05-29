@@ -1,3 +1,4 @@
 accessing
-description: anObject
-	description := anObject
+description: aMorph
+
+	description := aMorph
