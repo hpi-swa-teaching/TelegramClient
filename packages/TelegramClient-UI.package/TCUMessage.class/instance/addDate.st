@@ -1,15 +1,7 @@
 drawing
 addDate
 
-	| textMorph |
-
-	textMorph := self defaultTextMorph
+	self addMorphBack: (self defaultTextMorph
 		contents: self messageDateText;
-		margins: self defaultDateMargins;
-		color: (self isOutgoing
-			ifTrue: [TCUDefaultValues colorPottersClay]
-			ifFalse: [TCUDefaultValues colorNileBlue]).
-
-	self
-		shrinkToContentWidth: textMorph;
-		addMorphBack: textMorph.
+		color: self dateColor;
+		yourself).
