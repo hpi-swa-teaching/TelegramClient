@@ -6,6 +6,8 @@ baseline: spec
 		spec
 			baseline: 'Animations' with: [
 				spec repository: 'github://hpi-swa/animations:master/repository'];
+			baseline: 'Vivide' with: [
+				spec repository: 'github://hpi-swa/vivide:master/repository'];
 			project: 'FFI' with: [
 				spec
 					className: 'ConfigurationOfFFI';
