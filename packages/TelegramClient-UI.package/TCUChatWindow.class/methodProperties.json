@@ -2,7 +2,6 @@
 	"class" : {
 		"newWithHeight:width:" : "RS 5/20/2021 21:18" },
 	"instance" : {
-		"addChatName" : "TR 5/21/2021 15:34",
 		"addChatTitle" : "RS 5/20/2021 18:31",
 		"addHiddenInfoPage" : "RS 5/20/2021 21:50",
 		"addInputBar" : "js 6/13/2020 17:59",
@@ -10,7 +9,7 @@
 		"addMessageWindow" : "f.w. 8/1/2020 02:37",
 		"addSendButton" : "js 6/13/2020 18:46",
 		"addTextInputField" : "js 8/2/2020 23:19",
-		"addTitleBar" : "TR 5/21/2021 15:36",
+		"addTitleBar" : "per 5/30/2021 10:46",
 		"addWelcomeMessage" : "N.S. 7/26/2020 15:57",
 		"buttonSendPressed" : "js 8/2/2020 23:19",
 		"clear" : "RS 5/20/2021 21:13",
