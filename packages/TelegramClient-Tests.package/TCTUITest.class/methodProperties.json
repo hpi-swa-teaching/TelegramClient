@@ -15,7 +15,7 @@
 		"expectedFailures" : "JB 5/24/2021 16:13",
 		"findByTextContent:in:" : "TR 5/30/2021 18:01",
 		"forceSaveScreenshotOf:as:in:" : "RS 5/26/2021 13:29",
-		"setUp" : "per 5/27/2021 19:17",
+		"setUp" : "TR 5/30/2021 22:05",
 		"takeScreenshotOf:" : "JB 5/24/2021 16:21",
 		"tearDown" : "JB 5/24/2021 17:42",
 		"testChatMemberCount" : "TR 5/30/2021 18:07",
