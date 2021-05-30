@@ -16,7 +16,9 @@
 		"numberOfRequestedMessages",
 		"type",
 		"canSendMessages",
-		"memberCount" ],
+		"memberCount",
+		"members",
+		"groupId" ],
 	"name" : "TCCChat",
 	"pools" : [
 		 ],
