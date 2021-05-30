@@ -1,13 +1,4 @@
 asserting
-assertNotReading: aString in: aSuperMorph
+assertNotReading: aString in: aMorphWrapper
 	
-	"TODO: How to negate assertions?"
-	aSuperMorph findDeepSubmorphThat: 
-		[:submorph |
-			(submorph isKindOf: TextMorph)
-				and: [submorph visible]
-					and: [submorph text asString includesSubstring: aString]]
-		ifAbsent: 
-			[^nil].
-	
-	AssertionFailure signal: 'Text ' , aString , ' found in ' , aSuperMorph class asString
+	self assert: (self findByTextContent: aString in: aMorphWrapper) morphs isEmpty.
