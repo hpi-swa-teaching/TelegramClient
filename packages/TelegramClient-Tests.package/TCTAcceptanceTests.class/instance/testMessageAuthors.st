@@ -12,7 +12,7 @@ testMessageAuthors
 
 	overrideCore handleEvent: message.
 	2 seconds wait.
-	user := TCTMocks mockUserWith: TCTMocks mockUserID asString.
+	user := TCTMocks mockUserEvent.
 	overrideCore handleEvent: user.
 	1 second wait.
 	notification := TCUNotification newWithMessage: self receivedMessage.

@@ -1,5 +1,5 @@
 running
 setUp
 
-	self core: TCTTestCore new.
+	self core: TCTNoTDLibCore new.
 	self users: self core users.

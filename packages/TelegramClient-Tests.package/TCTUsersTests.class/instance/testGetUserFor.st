@@ -2,7 +2,7 @@ testing
 testGetUserFor
 
 	| user |
-	user := UndefinedObject.
+	user := nil.
 	[user := self users getUserFor: TCTMocks mockUserID.] fork.
 	1 seconds wait.
 
