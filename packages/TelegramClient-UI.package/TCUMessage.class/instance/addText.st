@@ -1,13 +1,8 @@
 drawing
 addText
 
-	| textMorph |
-
-	textMorph := self defaultTextMorph
+	self addMorph: (self defaultTextMorph
 		contents: self text;
-		margins: self defaultTextMargins;
-		color: Color white.
-
-	self
-		shrinkToContentWidth: textMorph;
-		addMorph: textMorph.
+		color: Color white;
+		margins: self defaultMargins;
+		yourself).

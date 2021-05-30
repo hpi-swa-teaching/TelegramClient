@@ -3,7 +3,6 @@ addMessageAtBottom: aMessage
 
 	| newMessage |
 	newMessage := TCUMessage newFromTCCMessage: aMessage.
-	newMessage shrinkWrap.
 
 	self messages do: [:message | message position: (message position - (0 @ (newMessage height + self defaultMessageMargin)))].
 

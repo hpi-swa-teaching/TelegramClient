@@ -6,4 +6,4 @@ testMessageUI
 	messageMorph := TCUMessage newFromTCCMessage: message.
 	
 	self forceSaveScreenshotOf: messageMorph as: 'testMessageUI' in: self class defaultTestResultPath.
-	self assert: 134349208 equals: (self computeHashOf: (self takeScreenshotOf: messageMorph)).
+	self assert: 116327780 equals: (self computeHashOf: (self takeScreenshotOf: messageMorph)).
