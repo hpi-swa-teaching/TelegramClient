@@ -1,4 +1,4 @@
 default values
-defaultCellGap
+defaultBottomMargin
 
 	^ 3
