@@ -1,9 +1,7 @@
 events
 handleMessageEvent: anEvent
 
-	|callbackID message|
-	message := anEvent at: 'message'. 
-	callbackID := (message at: 'id') asString, (message at: 'chat_id'). 
-	self pendingRequests at: callbackID put: [:aUserEvent | 
-		self chatsHandler handleNewMessage: anEvent from: aUserEvent]. 
-	self getUser: ((message at: 'sender') at: 'user_id') with: callbackID
+	| message userID |
+	message := anEvent at: 'message'.
+	userID := (message at: 'sender') at: 'user_id'.
+	[self chatsHandler handleNewMessage: message from: (self users getUserFor: userID)] fork

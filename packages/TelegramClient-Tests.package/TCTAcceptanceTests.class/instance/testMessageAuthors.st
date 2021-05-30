@@ -1,17 +1,22 @@
 testing
 testMessageAuthors
 
-	| message user chat_id notification |
-	self receivedMessage: nil.
-	chat_id := ((self core chats) first) id.
-	message := TCTMocks mockMessageEventFrom: chat_id.
-
-	self core handleEvent: message.
-	user := TCTMocks mockUserWith: (TCTMocks mockMessageID asString, chat_id).
-	self core handleEvent: user.
+	| message user notification overrideCore |
+	"Fake core because some other tests need a working one"
+	overrideCore := TCTNoTDLibCore new.
+	overrideCore chats add: (TCCChat new id: TCTMocks mockChatID).
+	overrideCore when: #newMessageReceived send: #newMessageReceived: to: self.
 	
+	self receivedMessage: nil.
+	message := TCTMocks mockMessageEventFrom: TCTMocks mockChatID.
+
+	overrideCore handleEvent: message.
+	2 seconds wait.
+	user := TCTMocks mockUserEvent.
+	overrideCore handleEvent: user.
+	1 second wait.
 	notification := TCUNotification newWithMessage: self receivedMessage.
 	
-	self assert: (TCTMocks mockUserFullName = (notification sender fullName)).
-	self assert: (chat_id = (notification chat id)).
-	self assert: (TCTMocks mockMessageText = (notification message message)).
+	self assert: (TCTMocks mockUserFullName) equals: (notification sender fullName).
+	self assert: (TCTMocks mockChatID) equals: (notification chat id).
+	self assert: (TCTMocks mockMessageText) equals: (notification message message)
