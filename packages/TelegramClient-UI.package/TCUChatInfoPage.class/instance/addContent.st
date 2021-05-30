@@ -5,4 +5,4 @@ addContent
 		createContentWrapper;
 		addMorph: self contentWrapper.
 	
-	self chat isGroup ifTrue: [self addDescription].
+	self chat isGroup ifTrue: [self addUserList; addDescription].

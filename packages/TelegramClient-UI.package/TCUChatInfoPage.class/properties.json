@@ -9,7 +9,8 @@
 		"infoBar",
 		"contentWrapper",
 		"description",
-		"chat" ],
+		"chat",
+		"userList" ],
 	"name" : "TCUChatInfoPage",
 	"pools" : [
 		 ],
