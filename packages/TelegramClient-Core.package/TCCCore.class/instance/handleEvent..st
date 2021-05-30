@@ -13,6 +13,7 @@ handleEvent: anEvent
 			['updateNewMessage'] -> [self handleMessageEvent: anEvent].
 			['user'] -> [self handlePendingEvent: anEvent].
 			['supergroupFullInfo'] -> [self handlePendingEvent: anEvent].
+			['chatMembers'] -> [self handlePendingEvent: anEvent].
 			['basicGroupFullInfo'] -> [self handlePendingEvent: anEvent].
 			['chat'] -> [self chatsHandler openNewChat: anEvent]}
 		otherwise: [].
