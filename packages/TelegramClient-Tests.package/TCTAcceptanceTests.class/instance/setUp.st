@@ -1,5 +1,8 @@
 running
 setUp
 
-	self core: TCTNoTDLibCore new.
-	self core chats add: (TCCChat new id: TCTMocks mockChatID)
+	self core: TCTTestCore new.
+	20 seconds wait.
+	self core authHandler isAuthorizationStateReady ifFalse: [
+		self core loginWithTestData.
+		20 seconds wait].

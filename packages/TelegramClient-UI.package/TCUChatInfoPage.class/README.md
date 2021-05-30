@@ -1,0 +1,1 @@
+a view to display information about a single chat

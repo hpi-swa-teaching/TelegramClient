@@ -1,0 +1,4 @@
+drawing
+buttonBackPressed
+
+	self hide
