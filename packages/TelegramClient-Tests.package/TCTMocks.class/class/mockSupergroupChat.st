@@ -3,7 +3,8 @@ mockSupergroupChat
 
 	| chat |
 	chat := TCCChat new. 
-	chat id: 3; 
+	chat 
+		id: 3; 
 		title: 'SupergroupMockChat'; 
 		type: 'chatTypeSupergroup'; 
 		lastMessage: 'lastSupergroupMessage'; 
