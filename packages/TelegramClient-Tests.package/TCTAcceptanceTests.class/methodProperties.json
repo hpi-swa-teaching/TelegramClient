@@ -15,4 +15,6 @@
 		"testChatInfoPageIsHidden" : "RS 5/28/2021 10:51",
 		"mockMessageFrom:" : "5/21/2021 10:06:54",
 		"mockUserWith:and:" : "5/21/2021 10:06:54",
-		"testMessageAuthors" : "JB 5/24/2021 16:18" } }
+		"testMessageAuthors" : "JB 5/24/2021 16:18",
+		"testDoesDisplayGroupDescription" : "RS 5/29/2021 18:54",
+		"testPrivateChatHasNoDescription" : "RS 5/29/2021 18:42" } }
