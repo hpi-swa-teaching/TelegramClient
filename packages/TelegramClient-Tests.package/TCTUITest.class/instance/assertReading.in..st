@@ -1,10 +1,4 @@
 asserting
-assertReading: aString in: aSuperMorph
+assertReading: aString in: aMorphWrapper
 	
-	aSuperMorph findDeepSubmorphThat: 
-		[:submorph |
-			(submorph isKindOf: TextMorph)
-				and: [submorph visible]
-					and: [submorph text asString includesSubstring: aString]]
-		ifAbsent: 
-			[AssertionFailure signal: 'No Text ' , aString , ' found in ' , aSuperMorph class asString]
+	self assert: (self findByTextContent: aString in: aMorphWrapper) morphs notEmpty.
