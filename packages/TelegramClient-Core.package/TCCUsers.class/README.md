@@ -1,0 +1,1 @@
+Cache of Users allowing for synchronous access.

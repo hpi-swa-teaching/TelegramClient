@@ -7,5 +7,5 @@ mockUserWith: anExtra
 		'first_name' -> self mockUserFirstName.
 		'last_name' -> self mockUserLastName.
 		'username' -> self mockUsername.
-		'@extra' -> anExtra
+		'@extra' -> (anExtra asString)
 	}))

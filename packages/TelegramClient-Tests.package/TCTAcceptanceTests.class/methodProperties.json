@@ -13,4 +13,6 @@
 		"testCanCloseChatInfoPage" : "RS 5/28/2021 10:55",
 		"testCanOpenChatInfoPage" : "RS 5/28/2021 10:50",
 		"testChatInfoPageIsHidden" : "RS 5/28/2021 10:51",
-		"testMessageAuthors" : "JB 5/27/2021 09:54" } }
+		"mockMessageFrom:" : "5/21/2021 10:06:54",
+		"mockUserWith:and:" : "5/21/2021 10:06:54",
+		"testMessageAuthors" : "JB 5/24/2021 16:18" } }
