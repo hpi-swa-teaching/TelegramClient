@@ -12,6 +12,6 @@ testMessageAuthors
 	
 	notification := TCUNotification newWithMessage: self receivedMessage.
 	
-	self assert: (notification sender fullName) equals: (self class mockUserFullName).
+	self assert: (self class mockUserFullName) equals: (notification sender fullName).
 	self assert: chat_id equals: (notification chat id).
-	self assert: (notification message message) equals: self class mockMessageText
+	self assert: self class mockMessageText equals: (notification message message).
