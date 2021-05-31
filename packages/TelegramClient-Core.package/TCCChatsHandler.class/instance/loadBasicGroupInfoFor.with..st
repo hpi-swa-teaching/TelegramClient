@@ -7,7 +7,7 @@ loadBasicGroupInfoFor: aChat with: aBasicGroupId
 		'basic_group_id'->aBasicGroupId.
 		'@extra'->aBasicGroupId}).
 	
-	self app pendingRequests at: aBasicGroupId put: [:aBasicGroupFullInfoEvent |
+	self app pendingRequests at: aBasicGroupId asString put: [:aBasicGroupFullInfoEvent |
 		aChat
 			memberCount: ((aBasicGroupFullInfoEvent at: 'members') size);
 			description: (aBasicGroupFullInfoEvent at: 'description').].

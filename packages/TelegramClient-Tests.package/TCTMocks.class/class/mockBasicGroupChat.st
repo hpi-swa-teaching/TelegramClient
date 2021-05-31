@@ -1,7 +1,7 @@
 chat
 mockBasicGroupChat
 
-	^ TCCChat new
+	^ TCCGroup new
 		id: 2;
 		title: 'GroupMockChat'; 
 		type: 'chatTypeBasicGroup'; 

@@ -1,7 +1,7 @@
 chat
 mockSupergroupChat
 
-	^ TCCChat new
+	^ TCCGroup new
 		id: 3;
 		title: 'SupergroupMockChat'; 
 		type: 'chatTypeSupergroup'; 
