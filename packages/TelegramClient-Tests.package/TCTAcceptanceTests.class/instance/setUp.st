@@ -1,8 +1,7 @@
 running
 setUp
 
-	self core: TCTTestCore new.
-	20 seconds wait.
-	self core authHandler isAuthorizationStateReady ifFalse: [
-		self core loginWithTestData.
-		20 seconds wait].
+	core := TCTNoTDLibCore new.
+	core chats: TCTMocks mockChats. 
+	self app: (TCUMain newWithCore: core). 
+	self wantsToTest: self app.

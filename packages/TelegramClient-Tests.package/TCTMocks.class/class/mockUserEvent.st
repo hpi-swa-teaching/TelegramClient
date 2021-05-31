@@ -1,5 +1,5 @@
 user
-mockUserWith: anExtra
+mockUserEvent
 
 	^ (TCCEvent newFromTDLibEvent: (Dictionary newFrom: {
 		'@type' -> 'user'.
@@ -7,5 +7,5 @@ mockUserWith: anExtra
 		'first_name' -> self mockUserFirstName.
 		'last_name' -> self mockUserLastName.
 		'username' -> self mockUsername.
-		'@extra' -> anExtra
+		'@extra' -> (self mockUserID asString)
 	}))

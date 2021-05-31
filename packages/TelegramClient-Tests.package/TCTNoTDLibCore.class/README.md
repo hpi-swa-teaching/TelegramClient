@@ -1,0 +1,1 @@
+A TCTNoTDLibCore is a TCCCore without a client. It cannot make requests and has to be fed every event.

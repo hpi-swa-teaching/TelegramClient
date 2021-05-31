@@ -1,0 +1,2 @@
+initialization
+getChatHistoryFrom: aChatID
