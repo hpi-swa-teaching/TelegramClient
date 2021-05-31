@@ -7,6 +7,7 @@
 	"commentStamp" : "pk 5/17/2021 19:32",
 	"instvars" : [
 		"core",
+		"app",
 		"receivedMessage" ],
 	"name" : "TCTAcceptanceTests",
 	"pools" : [
