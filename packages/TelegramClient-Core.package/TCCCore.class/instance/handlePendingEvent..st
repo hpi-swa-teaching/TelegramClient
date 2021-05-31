@@ -1,6 +1,6 @@
-events
-handleUserEvent: anEvent
-
+event handling
+handlePendingEvent: anEvent
+	
 	| extra |
 	extra := (anEvent at: '@extra') asString.
 	(self pendingRequests at: extra) value: anEvent.

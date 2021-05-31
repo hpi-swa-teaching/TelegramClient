@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"getChatHistoryFrom:" : "TR 5/30/2021 22:04",
+		"getChatHistoryFrom:with:limit:" : "TR 5/30/2021 22:01",
 		"initialize" : "pk 5/30/2021 20:52",
 		"initializeHandlers" : "pk 5/21/2021 09:46",
 		"requestUser:with:" : "pk 5/21/2021 10:18" } }
