@@ -16,8 +16,8 @@
 		"testCanOpenChatInfoPage" : "JB 5/31/2021 09:50",
 		"testChatInfoPageIsHidden" : "JB 5/31/2021 09:49",
 		"testChatMemberCount" : "RS 5/31/2021 07:35",
-		"testDoesDisplayGroupDescription" : "JB 5/31/2021 10:21",
+		"testDoesDisplayGroupDescription" : "JB 5/31/2021 15:10",
 		"testMessageAuthors" : "RS 5/31/2021 07:41",
 		"testMessageUI" : "RS 5/31/2021 07:36",
 		"testNotificationContainsMessage" : "RS 5/31/2021 07:36",
-		"testPrivateChatHasNoDescription" : "RS 5/29/2021 18:42" } }
+		"testPrivateChatHasNoDescription" : "JB 5/31/2021 10:28" } }
