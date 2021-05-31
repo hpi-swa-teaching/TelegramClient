@@ -1,4 +1,4 @@
-initialization
+accessing
 isPrivate
 
 	^ (self type = 'chatTypePrivate')

@@ -1,7 +1,7 @@
 {
 	"category" : "TelegramClient-Core",
 	"classinstvars" : [
-		"userI" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "js 6/13/2020 16:25",
@@ -15,8 +15,7 @@
 		"waitingForUpdate",
 		"numberOfRequestedMessages",
 		"type",
-		"canSendMessages",
-		"memberCount" ],
+		"canSendMessages" ],
 	"name" : "TCCChat",
 	"pools" : [
 		 ],

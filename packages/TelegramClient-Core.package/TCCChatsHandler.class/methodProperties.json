@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addChat:" : "TR 5/30/2021 13:15",
+		"addChat:" : "JB 5/31/2021 15:05",
 		"addNewMessage:from:" : "pk 5/17/2021 19:10",
 		"app" : "5/11/2021 10:09:15",
 		"app:" : "pk 5/17/2021 19:11",
@@ -12,8 +12,8 @@
 		"getChatHistoryFrom:with:limit:" : "js 8/2/2020 13:17",
 		"getChats" : "js 7/31/2020 22:50",
 		"handleNewMessage:from:" : "pk 5/17/2021 18:28",
-		"loadBasicGroupChatMemberCountFor:with:" : "per 5/26/2021 14:03",
-		"loadSuperGroupChatMemberCountFor:with:" : "per 5/26/2021 14:03",
+		"loadBasicGroupInfoFor:with:" : "JB 5/31/2021 15:09",
+		"loadSuperGroupInfoFor:with:" : "JB 5/31/2021 15:10",
 		"openNewChat:" : "pk 5/13/2021 12:45",
 		"remainingMessages" : "5/11/2021 10:09:15",
 		"remainingMessages:" : "js 8/1/2020 16:50",

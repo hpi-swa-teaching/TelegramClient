@@ -2,8 +2,7 @@ drawing
 addHiddenInfoPage
 
 	self
-		infoPage: ((TCUChatInfoPage newBounds: self bounds)
-			yourself);
+		infoPage: (TCUChatInfoPage newFor: self selectedChat withBounds: self bounds);
 		addMorphFront: self infoPage.
-	
+
 	self infoPage hide.
