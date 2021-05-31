@@ -1,6 +1,8 @@
 private
 arbitraryCodeRule: aRule plugIn: aPlugIn
+
 	| failures failingTestObjects result |
+
 	failingTestObjects := OrderedCollection new.
 	failures := ((SLTestRunner new environment: (self environmentFor: aPlugIn withRule: aRule))
 		runOnTests: {aRule}
