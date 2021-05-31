@@ -12,12 +12,8 @@
 		"assertReading:in:" : "TR 5/30/2021 18:05",
 		"assertSeeing:in:" : "JB 5/24/2021 16:25",
 		"computeHashOf:" : "RS 5/23/2021 16:19",
-		"expectedFailures" : "JB 5/24/2021 16:13",
 		"findByTextContent:in:" : "TR 5/30/2021 18:01",
 		"forceSaveScreenshotOf:as:in:" : "RS 5/26/2021 13:29",
 		"setUp" : "TR 5/30/2021 22:05",
 		"takeScreenshotOf:" : "JB 5/24/2021 16:21",
-		"tearDown" : "JB 5/24/2021 17:42",
-		"testChatMemberCount" : "TR 5/30/2021 18:07",
-		"testMessageUI" : "JB 5/24/2021 17:58",
-		"testNotificationContainsMessage" : "JB 5/24/2021 17:59" } }
+		"tearDown" : "JB 5/24/2021 17:42" } }

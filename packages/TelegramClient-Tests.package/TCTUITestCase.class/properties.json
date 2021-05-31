@@ -7,7 +7,7 @@
 	"commentStamp" : "RK 5/18/2021 11:36",
 	"instvars" : [
 		"app" ],
-	"name" : "TCTUITest",
+	"name" : "TCTUITestCase",
 	"pools" : [
 		 ],
 	"super" : "MTFTestCase",
