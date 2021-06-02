@@ -1,4 +1,0 @@
-chat
-mockChatID
-
-	^ 1

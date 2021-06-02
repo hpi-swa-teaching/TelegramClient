@@ -1,4 +1,0 @@
-accessing
-chat
-
-	^ chat
