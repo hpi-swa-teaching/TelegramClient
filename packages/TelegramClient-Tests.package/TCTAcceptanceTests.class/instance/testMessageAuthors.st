@@ -1,17 +1,19 @@
 testing
 testMessageAuthors
 
-	| message user chat_id notification |
+	| message user notification |
+	self core when: #newMessageReceived send: #newMessageReceived: to: self.
+	
 	self receivedMessage: nil.
-	chat_id := ((self core chats) first) id.
-	message := self class mockMessageFrom: chat_id.
+	message := TCTMocks mockMessageEventFrom: TCTMocks mockChatID.
 
 	self core handleEvent: message.
-	user := self class mockUserWith: (self class mockMessageID asString, chat_id).
+	2 seconds wait.
+	user := TCTMocks mockUserEvent.
 	self core handleEvent: user.
-	
+	1 second wait.
 	notification := TCUNotification newWithMessage: self receivedMessage.
 	
-	self assert: (self class mockUserFullName) equals: (notification sender fullName).
-	self assert: chat_id equals: (notification chat id).
-	self assert: self class mockMessageText equals: (notification message message).
+	self assert: (TCTMocks mockUserFullName) equals: (notification sender fullName).
+	self assert: (TCTMocks mockChatID) equals: (notification chat id).
+	self assert: (TCTMocks mockMessageText) equals: (notification message message)

@@ -6,6 +6,7 @@ initialize
 		initializeHandlers;
 		chats: TCCChats newWithDefaultSorting;
 		loggedInUserID: 0; 
-		pendingRequests: Dictionary new. 
+		pendingRequests: Dictionary new;
+		users: (TCCUsers new core: self).
 
 	[self receiveLoop] fork.

@@ -4,4 +4,6 @@ addTitleBar
 	self
 		createTitleBar;
 		addMorph: self titleBar;
-		addChatName.
+		addChatTitle.
+	self titleBar addVariableTransparentSpacer.
+	self selectedChat isGroup ifTrue: [self addMemberCount.]
