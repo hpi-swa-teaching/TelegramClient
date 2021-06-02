@@ -10,6 +10,6 @@ addChat: aChatEvent
 		self loadBasicGroupInfoFor: chat with: (((aChatEvent at: 'chat') at: 'type') at: 'basic_group_id').
 	].
 
-	self app chats
+	self core chats
 		add: chat; 
 		notify.

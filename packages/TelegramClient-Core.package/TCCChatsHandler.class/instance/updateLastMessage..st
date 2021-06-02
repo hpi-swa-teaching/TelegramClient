@@ -5,7 +5,7 @@ updateLastMessage: anEvent
 
 	(anEvent includesKey: 'last_message') ifTrue: [
 		content := (anEvent at: 'last_message') at: 'content'.
-		chat := self app chats getChat: (anEvent at: 'chat_id').
+		chat := self core chats getChat: (anEvent at: 'chat_id').
 		
 		(anEvent at: 'positions') notEmpty
 			ifTrue: [chat position:
@@ -17,4 +17,4 @@ updateLastMessage: anEvent
 			ifTrue: [chat lastMessage: ((content at: 'text') at: 'text')]
 			ifFalse: [chat lastMessage: 'message type not supported yet'].
 
-		self app chats notify].
+		self core chats notify].

@@ -1,4 +1,4 @@
 testing
 testType
 
-	self assert: (self request at: '@type') equals: 'test'.
+	self assert: 'test' equals: (self request at: '@type').
