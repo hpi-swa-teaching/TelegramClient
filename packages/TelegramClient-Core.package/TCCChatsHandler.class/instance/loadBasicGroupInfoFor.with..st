@@ -7,7 +7,7 @@ loadBasicGroupInfoFor: aChat with: aBasicGroupId
 			'basic_group_id'->aBasicGroupId.
 			'@extra'->aBasicGroupId}).
 	
-	self app
+	self core
 		registerCallback: [:aBasicGroupFullInfoEvent |
 			aChat
 				memberCount: (aBasicGroupFullInfoEvent at: 'members') size;
