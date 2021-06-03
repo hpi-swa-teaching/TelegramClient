@@ -2,7 +2,7 @@ testing
 testClientDestroysHandle
 
 	| aClient aMock |
-	aMock := TCTFFIClientMock new.
+	aMock := TCTCMockFFIClient new.
 	aClient := TCCTeleClient newWithClient: aMock.
 	aClient free.
 
