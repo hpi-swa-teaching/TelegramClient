@@ -1,0 +1,15 @@
+{
+	"category" : "TelegramClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "per 6/3/2021 17:49",
+	"instvars" : [
+		"content",
+		"loadButton" ],
+	"name" : "TCUUserList",
+	"pools" : [
+		 ],
+	"super" : "ScrollPane",
+	"type" : "normal" }
