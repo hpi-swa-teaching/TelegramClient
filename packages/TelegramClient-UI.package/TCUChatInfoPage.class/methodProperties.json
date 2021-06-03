@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"newBounds:" : "RS 5/20/2021 21:42",
-		"newFor:withBounds:" : " 5/30/2021 18:48:16" },
+		"newFor:withBounds:" : "5/30/2021 18:48:16" },
 	"instance" : {
 		"addBackButton" : "JB 5/27/2021 09:08",
 		"addContent" : "per 5/30/2021 19:07",
@@ -9,7 +9,7 @@
 		"addDescriptionText" : "per 5/30/2021 18:52",
 		"addInfoBar" : "RS 5/20/2021 21:28",
 		"addInfoText" : "RS 5/20/2021 21:22",
-		"addUserList" : "per 5/30/2021 19:47",
+		"addUserList" : "per 6/2/2021 11:13",
 		"buttonBackPressed" : "RS 5/20/2021 19:48",
 		"chat" : "RS 5/29/2021 18:46",
 		"chat:" : "RS 5/29/2021 18:46",
@@ -29,6 +29,4 @@
 		"description:" : "RS 5/29/2021 18:47",
 		"infoBar" : "RS 5/20/2021 21:38",
 		"infoBar:" : "RS 5/20/2021 21:38",
-		"initialize" : "RS 5/20/2021 20:39",
-		"userList" : "per 5/30/2021 19:04",
-		"userList:" : "per 5/30/2021 19:04" } }
+		"initialize" : "RS 5/20/2021 20:39" } }

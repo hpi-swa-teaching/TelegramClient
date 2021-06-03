@@ -2,7 +2,7 @@ chat
 mockBasicGroupChat
 
 	| chat |
-	chat := TCCChat new. 
+	chat := TCCGroup new. 
 	chat id: 2; 
 		title: 'GroupMockChat'; 
 		type: 'chatTypeBasicGroup'; 

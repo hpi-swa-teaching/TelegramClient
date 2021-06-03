@@ -8,6 +8,5 @@ mockPrivateChat
 		title: 'PrivateMockChat'; 
 		lastMessage: 'lastPrivateMessage'; 
 		type: 'chatTypePrivate'; 
-		canSendMessages: true; 
-		memberCount: nil. 
+		canSendMessages: true.
 	^chat 

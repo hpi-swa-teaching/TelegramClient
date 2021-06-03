@@ -2,7 +2,7 @@ chat
 mockSupergroupChat
 
 	| chat |
-	chat := TCCChat new. 
+	chat := TCCGroup new. 
 	chat id: 3; 
 		title: 'SupergroupMockChat'; 
 		type: 'chatTypeSupergroup'; 
