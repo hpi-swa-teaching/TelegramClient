@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClientTests-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "per 5/15/2021 12:18",
+	"instvars" : [
+		"core" ],
+	"name" : "TCTAPITests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"core" : "r.s 7/15/2020 18:46",
+		"core:" : "r.s 7/15/2020 18:46",
+		"defaultTimeout" : "pk 5/19/2021 13:07",
+		"setUp" : "RS 5/10/2021 22:05",
+		"tearDown" : "r.s 7/16/2020 16:54",
+		"testLogout" : "RS 5/17/2021 18:42",
+		"testMessageSending" : "pk 5/19/2021 13:07" } }

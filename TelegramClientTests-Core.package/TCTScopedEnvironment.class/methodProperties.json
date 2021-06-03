@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"newFor:test:plugIn:" : "js 6/13/2020 16:40" },
+	"instance" : {
+		"fetchClasses:" : "js 6/13/2020 18:39",
+		"initializeForClasses:test:plugIn:" : "js 6/13/2020 18:23",
+		"loadTest:plugIn:" : "js 6/13/2020 19:18",
+		"systemClasses:" : "js 6/13/2020 17:49" } }
