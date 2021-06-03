@@ -1,3 +1,4 @@
 accessing
-groupId: anObject
-	groupId := anObject
+groupId: anInteger
+
+	groupId := anInteger
