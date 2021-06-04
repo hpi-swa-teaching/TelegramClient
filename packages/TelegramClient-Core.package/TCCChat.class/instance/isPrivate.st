@@ -1,4 +1,4 @@
 accessing
 isPrivate
 
-	^ (self type = 'chatTypePrivate')
+	self subclassResponsibility

@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "RS 5/29/2021 18:45",
+	"commentStamp" : "per 6/4/2021 14:36",
 	"instvars" : [
-		"description",
-		"memberCount" ],
-	"name" : "TCCGroup",
+		 ],
+	"name" : "TCCBasicGroupChat",
 	"pools" : [
 		 ],
-	"super" : "TCCChat",
+	"super" : "TCCGroupChat",
 	"type" : "normal" }

@@ -3,11 +3,10 @@ newFromChatEvent: anEvent
 
 	| type chat |
 	type := ((anEvent at: 'chat') at: 'type') at: '@type'.
+	type caseOf: {
+		['chatTypeSupergroup']->[chat := TCCSuperGroupChat new].
+		['chatTypeBasicGroup']->[chat := TCCBasicGroupChat new].
+		['chatTypePrivate']->[chat := TCCPrivateChat new].
+	}.
 	
-	((type = 'chatTypeSupergroup') or: (type = 'chatTypeBasicGroup'))
-		ifTrue: [chat := TCCGroup new]
-		ifFalse: [chat := self new].
-
-	^ chat
-		initializeFromChatEvent: anEvent;
-		yourself
+	^ chat initializeFromChatEvent: anEvent; yourself

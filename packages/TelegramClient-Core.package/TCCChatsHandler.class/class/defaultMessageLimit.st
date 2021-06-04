@@ -1,4 +1,4 @@
-default values
+defaults
 defaultMessageLimit
 
 	^ 20

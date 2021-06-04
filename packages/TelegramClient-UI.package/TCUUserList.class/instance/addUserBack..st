@@ -1,4 +1,4 @@
 adding
 addUserBack: aUser
 
-	self content addMorphBack: (TextMorph new contents: aUser fullName; lock; width: self width)
+	self content addMorphBack: (TextMorph new contents: aUser fullName; lock)

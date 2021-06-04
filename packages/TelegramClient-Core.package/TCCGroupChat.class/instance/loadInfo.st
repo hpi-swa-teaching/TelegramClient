@@ -1,4 +1,4 @@
-accessing
-isGroup
+initialization
+loadInfo
 
 	self subclassResponsibility
