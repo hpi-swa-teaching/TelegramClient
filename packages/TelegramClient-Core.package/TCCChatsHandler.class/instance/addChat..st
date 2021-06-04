@@ -1,6 +1,6 @@
 events
 addChat: aChatEvent
-	
+
 	| chat | 
 	chat := TCCChat newFromChatEvent: aChatEvent.
 	(chat type = 'chatTypeSupergroup') ifTrue: [

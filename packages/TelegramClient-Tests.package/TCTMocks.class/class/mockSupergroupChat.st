@@ -7,4 +7,5 @@ mockSupergroupChat
 		type: 'chatTypeSupergroup'; 
 		lastMessage: 'lastSupergroupMessage'; 
 		canSendMessages: true; 
-		memberCount: 8972981
+		memberCount: 8972981; 
+		muted: false

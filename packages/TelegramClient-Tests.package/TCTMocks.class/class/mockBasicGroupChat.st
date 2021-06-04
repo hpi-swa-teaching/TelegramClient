@@ -7,4 +7,5 @@ mockBasicGroupChat
 		type: 'chatTypeBasicGroup'; 
 		lastMessage: 'lastBasicGroupMessage'; 
 		canSendMessages: true; 
-		memberCount: 5
+		memberCount: 5; 
+		muted: false
