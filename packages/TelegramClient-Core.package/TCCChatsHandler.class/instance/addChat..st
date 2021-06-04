@@ -3,8 +3,8 @@ addChat: aChatEvent
 	
 	| chat |
 	chat := (TCCChat newFromChatEvent: aChatEvent).
-	chat core: self app. 
+	chat core: self core. 
 	
-	self app chats
+	self core chats
 			add: chat;
 			notify.
