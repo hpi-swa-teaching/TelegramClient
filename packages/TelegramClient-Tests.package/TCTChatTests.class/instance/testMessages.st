@@ -6,4 +6,4 @@ testMessages
 	collection := OrderedCollection newFrom: {TCCMessage new. TCCMessage new}.
 
 	self chat messages: collection.
-	self assert: self chat messages equals: collection.
+	self assert: collection equals: self chat messages.

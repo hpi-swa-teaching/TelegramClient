@@ -5,7 +5,7 @@ chatHistoryReceived: aChatHistory
 
 	(aChatHistory at: 'messages') ifNotEmpty: [
 		chatID := (aChatHistory at: 'messages') first at: 'chat_id'.
-		chat := self app chats getChat: chatID.
+		chat := self core chats getChat: chatID.
 
 		(aChatHistory at: 'messages') do: [:message | chat addOldestMessage: (TCCMessage newFromMessageEvent: message in: chat)].
 

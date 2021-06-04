@@ -4,14 +4,7 @@
 	"instance" : {
 		"core" : "RK 5/19/2021 10:29",
 		"core:" : "RK 5/19/2021 10:29",
-		"extra" : "RK 5/19/2021 10:38",
-		"mockUserEvent" : "RK 5/19/2021 10:24",
-		"setUp" : "pk 5/21/2021 09:13",
-		"tearDown" : "RK 5/19/2021 10:36",
-		"testGetUserFor" : "RK 5/19/2021 11:09",
-		"userFirstName" : "RK 5/19/2021 10:23",
-		"userId" : "RK 5/19/2021 10:22",
-		"userLastName" : "RK 5/19/2021 10:23",
-		"username" : "RK 5/19/2021 10:22",
+		"setUp" : "pk 5/30/2021 21:11",
+		"testGetUserFor" : "pk 5/30/2021 21:11",
 		"users" : "RK 5/19/2021 10:29",
 		"users:" : "RK 5/19/2021 10:30" } }

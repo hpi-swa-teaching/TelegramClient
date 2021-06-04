@@ -1,4 +1,4 @@
 accessing
 client
 
-	^ self app client
+	^ self core client

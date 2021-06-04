@@ -3,6 +3,6 @@ newFor: aChat withBounds: bounds
 
 	^ (super newBounds: bounds)
 		chat: aChat;
-		addContent;
 		addInfoBar;
+		addContent;
 		yourself

@@ -5,4 +5,4 @@ testAuthHandler
 	authHandler := TCCAuthHandler new.
 	self core authHandler: authHandler.
 	
-	self assert: (self core authHandler) equals: authHandler.
+	self assert: authHandler equals: (self core authHandler).

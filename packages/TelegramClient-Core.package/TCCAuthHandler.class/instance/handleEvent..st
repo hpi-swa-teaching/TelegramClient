@@ -8,4 +8,4 @@ handleEvent: anEvent
 	self isAwaitingDBEncryptionKey ifTrue: [self setDBEncryptionKey: ''].
 	self isAwaitingPhoneNumber ifTrue: [^ #awaitPhoneNumber].
 	self isAwaitingAuthCode ifTrue: [^ #awaitAuthCode].
-	self isAuthorizationStateReady ifTrue: [^ self app authSucceeded].
+	self isAuthorizationStateReady ifTrue: [^ self core authSucceeded].

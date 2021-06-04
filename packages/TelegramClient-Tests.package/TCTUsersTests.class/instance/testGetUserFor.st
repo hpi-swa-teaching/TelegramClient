@@ -2,14 +2,14 @@ testing
 testGetUserFor
 
 	| user |
-	user := UndefinedObject.
-	[user := self users getUserFor: self userId.] fork.
+	user := nil.
+	[user := self users getUserFor: TCTMocks mockUserID.] fork.
 	1 seconds wait.
 
-	self core handleEvent: self mockUserEvent.
+	self core handleEvent: TCTMocks mockUserEvent.
 	1 seconds wait.
 	
-	self assert: self userId equals: user id.
-	self assert: self userFirstName equals: user firstName.
-	self assert: self userLastName equals: user lastName.
-	self assert: self username equals: user username.
+	self assert: TCTMocks mockUserID equals: user id.
+	self assert: TCTMocks mockUserFirstName equals: user firstName.
+	self assert: TCTMocks mockUserLastName equals: user lastName.
+	self assert: TCTMocks mockUsername equals: user username.

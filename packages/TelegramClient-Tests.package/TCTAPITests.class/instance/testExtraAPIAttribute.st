@@ -7,4 +7,4 @@ testExtraAPIAttribute
 	self core pendingRequests at: callbackID put: [:anEvent | event := anEvent].
 	self core client send: (TCCRequest newWithType: 'getMe' from: {'@extra' -> callbackID}).
 	10 seconds wait.
-	self assert: (callbackID = (event at: '@extra'))
+	self assert: callbackID equals: (event at: '@extra')

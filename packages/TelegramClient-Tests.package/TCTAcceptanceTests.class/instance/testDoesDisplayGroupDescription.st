@@ -13,4 +13,4 @@ testDoesDisplayGroupDescription
 	titleBar := (self subject findByClass: TCUChatWindow) morphs collect: [:chatWindow | chatWindow titleBar].
 	(self subject createWrapperFor: titleBar) click.
 	
-	(self assertReading: groupChat description in: (self subject findByClass: TCUChatInfoPage) morphs anyOne).
+	self assertReading: groupChat description in: (self subject findByClass: TCUChatInfoPage).

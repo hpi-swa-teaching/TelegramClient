@@ -1,4 +1,4 @@
 testing
 testMessagesSize
 
-	self assert: self chat numberOfMessages equals: 5.
+	self assert: 5 equals: self chat numberOfMessages.

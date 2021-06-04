@@ -6,8 +6,6 @@ baseline: spec
 		spec
 			baseline: 'Animations' with: [
 				spec repository: 'github://hpi-swa/animations:master/repository'];
-			baseline: 'Vivide' with: [
-				spec repository: 'github://hpi-swa/vivide:master/repository'];
 			project: 'FFI' with: [
 				spec
 					className: 'ConfigurationOfFFI';
@@ -32,6 +30,6 @@ baseline: spec
 			package: 'TelegramClient-Tests' with: [
 				spec requires: #('default' 'SwaLint' 'MorphicTestingFramework')].
 		spec
-			group: 'libraries' with: #('Animations' 'Vivide' 'FFI' 'JSON');
+			group: 'libraries' with: #('Animations' 'FFI' 'JSON');
 			group: 'default' with: #('TelegramClient-Core' 'TelegramClient-UI');
 			group: 'tests' with: #('TelegramClient-Tests')].
