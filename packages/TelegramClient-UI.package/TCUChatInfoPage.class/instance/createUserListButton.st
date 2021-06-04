@@ -2,7 +2,7 @@ drawing
 createUserListButton
 
 	^ TCUButton new
-		text: 'load more users';
+		text: 'show more...';
 		on: #mouseDown send: #loadMoreUsers to: self;
 		name: 'userLoadButton';
 		yourself

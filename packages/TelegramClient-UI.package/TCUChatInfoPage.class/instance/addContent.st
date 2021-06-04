@@ -1,5 +1,6 @@
 drawing
 addContent
+
 	self
 		createContentWrapper;
 		addMorphFront: self contentWrapper.
