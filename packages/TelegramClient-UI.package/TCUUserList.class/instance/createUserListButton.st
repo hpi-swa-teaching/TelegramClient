@@ -1,8 +1,8 @@
-drawing
+initialization
 createUserListButton
 
 	^ TCUButton new
 		text: 'show more...';
-		on: #mouseDown send: #loadMoreUsers to: self;
+		on: #mouseDown send: #loadMoreMembers to: self chat;
 		name: 'userLoadButton';
 		yourself

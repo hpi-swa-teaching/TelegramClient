@@ -7,3 +7,8 @@ initialize
 			listDirection: #topToBottom;
 			color: Color white).
 	self scroller addMorph: self content. 
+	
+	self chat members do: [:aUser| 
+		self addUserBack: aUser. 
+	].
+	self chat isSuperGroup ifTrue: [self addButton: self createUserListButton]. 
