@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAuthStateIsAwaitingPhoneNumber" : "TR 6/5/2021 16:58",
-		"testAuthStateReady" : "TR 6/5/2021 16:50" } }
+		"testCanLogIn" : "RS 6/5/2021 17:55",
+		"testCanLogOut" : "RS 6/5/2021 17:52",
+		"testMessageSending" : "RS 6/5/2021 17:43" } }
