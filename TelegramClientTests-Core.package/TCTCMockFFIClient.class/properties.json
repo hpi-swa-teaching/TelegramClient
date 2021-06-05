@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "r.s 7/15/2020 19:22",
+	"commentStamp" : "js 6/13/2020 16:23",
 	"instvars" : [
-		"core" ],
-	"name" : "TCTAuthTests",
+		"created",
+		"freed" ],
+	"name" : "TCTCMockFFIClient",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "TCCFFIClient",
 	"type" : "normal" }

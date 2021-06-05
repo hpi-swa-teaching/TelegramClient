@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
+		"handlePendingEvent:" : "per 5/26/2021 14:02",
 		"initializeHandlers" : "pk 5/17/2021 18:35",
 		"loginWithTestData" : "RS 5/26/2021 13:57" } }
