@@ -1,15 +1,13 @@
 testing
 testPrivateChatHasNoDescription
 
-	| titleBar groupChat chatInfoPage |
-	self wantsToTest: (TCUMain newWithCore: self core).
+	| groupChat chatInfoPage |
 	
 	self waitUntil: [self core chats anySatisfy: [:c | c isPrivate]].
 	groupChat := (self core chats detect: [:chat | chat isPrivate]).
 	
-	(self subject findByCriteria: [ :morph | (morph respondsTo: #chatID) and: [morph chatID = groupChat id]]) click.
-	titleBar := (self subject findByClass: TCUChatWindow) morphs collect: [:chatWindow | chatWindow titleBar].
-	(self subject createWrapperFor: titleBar) click.
+	self openChatWithId: groupChat id.
+	self openInfoPageInChatWindow.
 
 	chatInfoPage := (self subject findByClass: TCUChatInfoPage) morphs anyOne.
 	self forceSaveScreenshotOf: chatInfoPage as: 'testPrivateChatHasNoDescription' in: self class defaultTestResultPath.

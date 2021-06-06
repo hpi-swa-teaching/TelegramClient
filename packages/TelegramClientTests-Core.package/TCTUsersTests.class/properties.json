@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "RK 5/19/2021 10:18",
 	"instvars" : [
-		"users",
-		"core" ],
+		 ],
 	"name" : "TCTUsersTests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "TCTCNoTdlibTestCase",
 	"type" : "normal" }

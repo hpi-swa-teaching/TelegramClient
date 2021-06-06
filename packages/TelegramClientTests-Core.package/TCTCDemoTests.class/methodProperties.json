@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"core" : "RS 6/3/2021 12:01",
-		"core:" : "RS 6/3/2021 12:01",
-		"setUp" : "RS 6/3/2021 12:07",
-		"testAuthStateReady" : "RS 6/3/2021 12:06",
-		"testChatsExisting" : "RS 6/3/2021 11:58" } }
