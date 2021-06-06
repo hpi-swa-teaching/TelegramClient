@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "TR 6/2/2021 15:34",
+	"commentStamp" : "TR 6/2/2021 15:35",
 	"instvars" : [
-		"receivedMessage" ],
-	"name" : "TCTUMiscellaneousTest",
+		 ],
+	"name" : "TCTUChatInfoPageTests",
 	"pools" : [
 		 ],
 	"super" : "TCTUTestCase",

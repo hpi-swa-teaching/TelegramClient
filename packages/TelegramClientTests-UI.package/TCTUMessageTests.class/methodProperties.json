@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"expectedSqueak5_2Failures" : "RS 6/6/2021 15:43",
+		"testMessageColorsDifferentForIncomingOutgoing" : "RS 6/6/2021 15:41",
+		"testMessageContainsDate" : "RS 6/6/2021 15:35",
+		"testMessageContainsMessageText" : "RS 6/6/2021 15:30",
+		"testMessageShrinksCorrectly" : "RS 6/6/2021 15:43" } }

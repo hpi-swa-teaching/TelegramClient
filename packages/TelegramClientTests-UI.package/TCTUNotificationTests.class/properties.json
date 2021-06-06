@@ -7,7 +7,7 @@
 	"commentStamp" : "TR 6/2/2021 15:33",
 	"instvars" : [
 		"receivedMessage" ],
-	"name" : "TCTUNotificationTest",
+	"name" : "TCTUNotificationTests",
 	"pools" : [
 		 ],
 	"super" : "TCTUTestCase",

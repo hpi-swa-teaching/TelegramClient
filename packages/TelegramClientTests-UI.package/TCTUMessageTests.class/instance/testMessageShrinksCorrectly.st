@@ -1,5 +1,5 @@
-testing
-testMessageUI
+as yet unclassified
+testMessageShrinksCorrectly
 
 	| message messageMorph |
 	message := TCTMocks mockMessage.
