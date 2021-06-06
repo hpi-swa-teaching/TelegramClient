@@ -1,4 +1,0 @@
-message
-mockMessageText
-
-	^ 'Hallo'
