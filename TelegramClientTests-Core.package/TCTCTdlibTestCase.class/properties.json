@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "r.s 7/15/2020 19:22",
+	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "TCTCAuthTests",
+		"sharedResource" ],
+	"name" : "TCTCTdlibTestCase",
 	"pools" : [
 		 ],
-	"super" : "TCTCTdlibTestCase",
+	"super" : "TestCase",
 	"type" : "normal" }

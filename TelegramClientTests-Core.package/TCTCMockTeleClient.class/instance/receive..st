@@ -3,4 +3,4 @@ receive: aTimeoutNumber
 
 	^ responseQueue
 		ifEmpty: [nil]
-		ifNotEmpty: [self responseQueue removeFirst] 
+		ifNotEmpty: [self responseQueue removeFirst]

@@ -2,10 +2,17 @@
 	"class" : {
 		"authorizationStateReadyEvent" : "RS 6/3/2021 12:05" },
 	"instance" : {
+		"addExtraAttribute:to:" : "RS 6/6/2021 12:29",
+		"appendResponsesToRequest:" : "RS 6/6/2021 12:33",
 		"execute:" : "RS 6/3/2021 11:49",
-		"initialize" : "RS 6/3/2021 12:05",
+		"initialize" : "RS 6/6/2021 12:21",
 		"isAlive" : "RS 6/3/2021 12:09",
-		"receive:" : "RS 6/3/2021 11:47",
+		"logIn" : "RS 6/6/2021 11:27",
+		"onRequestType:respond:" : "RS 6/6/2021 12:20",
+		"onRequestType:respondAll:" : "RS 6/6/2021 12:22",
+		"receive:" : "RS 6/6/2021 11:23",
+		"requestResponses" : "RS 6/6/2021 12:21",
+		"requestResponses:" : "RS 6/6/2021 12:21",
 		"responseQueue" : "RS 6/3/2021 12:01",
 		"responseQueue:" : "RS 6/3/2021 12:01",
-		"send:" : "RS 6/3/2021 11:49" } }
+		"send:" : "RS 6/6/2021 12:38" } }

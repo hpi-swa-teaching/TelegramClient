@@ -8,7 +8,8 @@
 	"instvars" : [
 		"created",
 		"freed",
-		"responseQueue" ],
+		"responseQueue",
+		"requestResponses" ],
 	"name" : "TCTCMockTeleClient",
 	"pools" : [
 		 ],

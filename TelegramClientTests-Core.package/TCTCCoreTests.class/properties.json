@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "r.s 7/15/2020 19:22",
+	"commentStamp" : "js 8/2/2020 22:47",
 	"instvars" : [
-		 ],
-	"name" : "TCTCAuthTests",
+		"receivedMessage" ],
+	"name" : "TCTCCoreTests",
 	"pools" : [
 		 ],
-	"super" : "TCTCTdlibTestCase",
+	"super" : "TCTCNoTdlibTestCase",
 	"type" : "normal" }

@@ -16,6 +16,7 @@
 		"expectedSqueak5_2Failures" : "TR 6/2/2021 15:13",
 		"findByTextContent:in:" : "RS 5/31/2021 07:55",
 		"forceSaveScreenshotOf:as:in:" : "RS 5/26/2021 13:29",
-		"setUp" : "TR 6/2/2021 15:17",
+		"setUp" : "RS 6/6/2021 13:08",
 		"takeScreenshotOf:" : "JB 5/24/2021 16:21",
-		"tearDown" : "JB 5/24/2021 17:42" } }
+		"tearDown" : "JB 5/24/2021 17:42",
+		"waitUntil:" : "RS 6/6/2021 13:00" } }

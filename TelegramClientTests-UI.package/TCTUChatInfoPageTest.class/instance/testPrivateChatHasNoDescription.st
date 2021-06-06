@@ -4,8 +4,7 @@ testPrivateChatHasNoDescription
 	| titleBar groupChat chatInfoPage |
 	self wantsToTest: (TCUMain newWithCore: self core).
 	
-	[self core chats anySatisfy: [:c | c isPrivate]]
-		whileFalse: [6 seconds wait.].
+	self waitUntil: [self core chats anySatisfy: [:c | c isPrivate]].
 	groupChat := (self core chats detect: [:chat | chat isPrivate]).
 	
 	(self subject findByCriteria: [ :morph | (morph respondsTo: #chatID) and: [morph chatID = groupChat id]]) click.

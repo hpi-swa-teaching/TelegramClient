@@ -2,19 +2,10 @@ testing
 testMessage
 
 	| message |
-	message := TCCMessage newFromMessageEvent: (TCCEvent newFromTDLibEvent: (Dictionary newFrom: {
-		'@type' -> 'message'.
-		'chat_id' -> '1'.
-		'sender' -> (Dictionary newFrom: {'user_id' -> '2'}).
-		'id' -> '3'.
-		'is_outgoing' -> false.
-		'date' -> (DateAndTime fromUnixTime: 0) asSeconds.
-		'content' -> (Dictionary newFrom: {
-			'@type' -> 'messageText'.
-			'text' -> (Dictionary newFrom: {
-				'text' -> 'testText'})})})) in: self chat.
-	self assert: '2' equals: message senderID.
-	self assert: '3' equals: message id.
-	self assert: '0000' equals: message date asUTC asTime hhmm24.
-	self assert: 'testText' equals: message message.
-	self assert: message chatID equals: (self chat id)
+	message := TCCMessage newFromMessageEvent: (TCTMocks mockMessageJsonFrom: self chat id) in: self chat.
+				
+	self assert: TCTMocks mockUser id equals: message senderID.
+	self assert: TCTMocks mockMessageID equals: message id.
+	self assert: TCTMocks mockMessageText equals: message message.
+	self assert: '1557' equals: message date asUTC asTime hhmm24.
+	self assert: self chat id equals: message chatID.

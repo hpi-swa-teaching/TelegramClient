@@ -1,16 +1,10 @@
 testing
 testUserConstructor
 
-	| event user |
-	event := TCCEvent newFromTDLibEvent: (JsonObject newFrom: {
-		'@type' -> 'user'.
-		'id' -> '1'.
-		'first_name' -> 'Test'.
-		'last_name' -> 'User'.
-		'username' -> 'testuser'
-	}).
-	user := TCCUser newFrom: event.
-	self assert: 'Test' equals: user firstName. 
-	self assert: 'User' equals: user lastName. 
-	self assert: 'testuser' equals: user username. 
-	self assert: 'Test User' equals: user fullName. 
+	| user |
+	user := TCCUser newFrom: TCTMocks mockUserEvent.
+	
+	self assert: TCTMocks mockUser firstName equals: user firstName. 
+	self assert: TCTMocks mockUser lastName equals: user lastName. 
+	self assert: TCTMocks mockUser username equals: user username. 
+	self assert: TCTMocks mockUser fullName equals: user fullName. 
