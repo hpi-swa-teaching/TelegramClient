@@ -4,8 +4,7 @@
 	"instance" : {
 		"core" : "TR 6/5/2021 16:25",
 		"core:" : "TR 6/5/2021 16:25",
-		"ensureAwaitingPhoneNumber" : "RS 6/5/2021 17:58",
 		"ensureLoggedIn" : "RS 6/5/2021 17:58",
 		"ensureLoggedOut" : "RS 6/5/2021 17:53",
-		"setUp" : "RS 6/5/2021 17:58",
-		"tearDown" : "TR 6/5/2021 16:26" } }
+		"setUp" : "RS 6/6/2021 10:44",
+		"tearDown" : "RS 6/6/2021 10:46" } }

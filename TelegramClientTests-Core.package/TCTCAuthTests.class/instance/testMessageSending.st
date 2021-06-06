@@ -4,8 +4,7 @@ testMessageSending
 	| testChatId testChatMessages |
 	
 	"Choose any writable chat. The Telegram Test Data Center 'periodically wipe[s] all information stored. See TCTTestCore."
-	[self sharedCore chats anySatisfy: [:c | c canSendMessages]]
-		whileFalse: [6 seconds wait.].
+	self waitUntil: [self sharedCore chats anySatisfy: [:c | c canSendMessages]].
 	testChatId := (self sharedCore chats detect: [:chat | chat canSendMessages]) id.
 	
 	self sharedCore sendMessage: 'TestMessage' to: testChatId.
