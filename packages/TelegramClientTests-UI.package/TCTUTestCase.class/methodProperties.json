@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"defaultExtent" : "JB 5/24/2021 16:54",
+		"defaultScreenshotBackgroundColor" : "JB 5/24/2021 16:21",
+		"defaultScreenshotDepth" : "JB 5/24/2021 16:20",
+		"defaultTestResultPath" : "RS 5/23/2021 17:12" },
+	"instance" : {
+		"assert:looksLike:" : "JB 5/24/2021 16:17",
+		"assertNotReading:in:" : "RS 5/31/2021 07:54",
+		"assertReading:in:" : "TR 5/30/2021 18:05",
+		"assertSeeing:in:" : "JB 5/24/2021 16:25",
+		"computeHashOf:" : "RS 5/23/2021 16:19",
+		"core" : "TR 6/2/2021 15:09",
+		"core:" : "TR 6/2/2021 15:10",
+		"expectedFailures" : "TR 6/2/2021 15:19",
+		"expectedSqueak5_2Failures" : "TR 6/2/2021 15:13",
+		"findByTextContent:in:" : "RS 5/31/2021 07:55",
+		"forceSaveScreenshotOf:as:in:" : "RS 5/26/2021 13:29",
+		"setUp" : "RS 6/6/2021 13:08",
+		"takeScreenshotOf:" : "JB 5/24/2021 16:21",
+		"tearDown" : "JB 5/24/2021 17:42",
+		"waitUntil:" : "RS 6/6/2021 13:00" } }

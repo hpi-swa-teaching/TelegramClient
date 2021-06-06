@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"getChatHistoryFrom:" : "TR 5/30/2021 22:04",
+		"initialize" : "pk 5/30/2021 20:52",
+		"initializeHandlers" : "TR 6/2/2021 14:03",
+		"requestUser:with:" : "pk 5/21/2021 10:18" } }

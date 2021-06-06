@@ -1,0 +1,1 @@
+This mock client behaves like a normal FFIClient and can be used for testing.

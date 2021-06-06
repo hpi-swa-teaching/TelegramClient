@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"defaultTimeout" : "RS 6/5/2021 17:41",
+		"setUp" : "TR 6/5/2021 16:53",
+		"sharedCore" : "TR 6/5/2021 16:52",
+		"sharedResource" : "TR 6/5/2021 16:52",
+		"sharedResource:" : "TR 6/5/2021 16:52",
+		"waitUntil:" : "RS 6/6/2021 10:49" } }
