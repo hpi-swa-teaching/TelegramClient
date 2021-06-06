@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClientTests-Misc",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TR 6/2/2021 14:55",
+	"instvars" : [
+		 ],
+	"name" : "TCTMocks",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

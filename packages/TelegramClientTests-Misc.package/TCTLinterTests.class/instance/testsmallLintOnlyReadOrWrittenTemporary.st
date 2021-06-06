@@ -1,0 +1,4 @@
+tests
+testsmallLintOnlyReadOrWrittenTemporary
+
+	self arbitraryCodeRule: #smallLintOnlyReadOrWrittenTemporary.

@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClientTests-Misc",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "N.S. 7/22/2020 17:56",
+	"instvars" : [
+		 ],
+	"name" : "TCTSarFileGenerator",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

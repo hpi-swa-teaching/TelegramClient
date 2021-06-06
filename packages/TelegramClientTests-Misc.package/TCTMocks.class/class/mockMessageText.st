@@ -1,0 +1,4 @@
+message
+mockMessageText
+
+	^ 'Hallo'

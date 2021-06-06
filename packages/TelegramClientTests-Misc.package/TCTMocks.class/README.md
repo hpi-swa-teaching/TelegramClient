@@ -1,0 +1,1 @@
+Provides a set of hardcoded json event objects.
