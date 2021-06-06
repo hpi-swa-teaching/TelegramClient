@@ -1,1 +1,0 @@
-A TCTUMockCore is a TCCCore without a client. It uses hardcoded TCC objects without making requests.

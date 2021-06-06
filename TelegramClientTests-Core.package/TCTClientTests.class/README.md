@@ -1,1 +1,0 @@
-tests FFIClients and TeleClient

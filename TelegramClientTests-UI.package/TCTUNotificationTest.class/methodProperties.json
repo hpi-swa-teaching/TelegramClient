@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"testNotificationConstructor" : "RS 6/6/2021 13:09",
-		"testNotificationContainsMessage" : "RS 6/6/2021 13:11",
-		"testNotificationContainsSender" : "RS 6/6/2021 13:11",
-		"testNotificationHidesPrivateChatTitle" : "RS 6/6/2021 13:08",
-		"testNotificationShowsGroupChatTitle" : "RS 6/6/2021 13:08" } }

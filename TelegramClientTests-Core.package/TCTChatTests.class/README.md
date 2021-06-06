@@ -1,1 +1,0 @@
-This Class tests the behavoir of TCCChat and TCCChats
