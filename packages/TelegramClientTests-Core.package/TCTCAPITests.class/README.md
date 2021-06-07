@@ -1,0 +1,1 @@
+Tests that features work with the real tdlib API as expected
