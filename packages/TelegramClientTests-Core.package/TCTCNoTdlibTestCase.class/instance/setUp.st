@@ -1,4 +1,4 @@
 running
 setUp
 	
-	self core: (TCCCore newWithTeleClient: TCTCMockTeleClient new).
+	self core: (TCCCore newWithTeleClient: TCTMMockTeleClient new).

@@ -1,5 +1,5 @@
 {
-	"category" : "TelegramClientTests-Core",
+	"category" : "TelegramClientTests-Misc",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -10,7 +10,7 @@
 		"freed",
 		"responseQueue",
 		"requestResponses" ],
-	"name" : "TCTCMockTeleClient",
+	"name" : "TCTMMockTeleClient",
 	"pools" : [
 		 ],
 	"super" : "TCCTeleClient",
