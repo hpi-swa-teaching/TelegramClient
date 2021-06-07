@@ -1,4 +1,4 @@
-as yet unclassified
+event handling
 logIn
 
-	responseQueue add: self class authorizationStateReadyEvent.
+	self responseQueue add: self class authorizationStateReadyEvent.

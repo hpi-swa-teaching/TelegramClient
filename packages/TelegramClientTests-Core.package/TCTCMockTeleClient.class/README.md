@@ -1,0 +1,1 @@
+A TCTCMockTeleClient is a TeleClient that simulates a connection to tdlib. You can manually register events on request types by using onRequestType:respond:.

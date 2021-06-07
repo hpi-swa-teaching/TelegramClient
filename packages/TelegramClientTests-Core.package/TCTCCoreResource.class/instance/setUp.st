@@ -1,6 +1,6 @@
-as yet unclassified
+running
 setUp
 	
-	self core: TCTTestCore new.
+	self core: TCTCTestCore new.
 	3 seconds wait.
 	self ensureLoggedIn.

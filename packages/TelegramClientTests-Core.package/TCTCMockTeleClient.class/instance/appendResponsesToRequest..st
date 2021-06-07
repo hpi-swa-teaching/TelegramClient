@@ -1,4 +1,4 @@
-as yet unclassified
+event handling
 appendResponsesToRequest: aRequest
 
 	| responses |

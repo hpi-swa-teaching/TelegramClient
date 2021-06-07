@@ -1,4 +1,4 @@
-as yet unclassified
+navigating
 openAnyChat
 
 	(self subject findByClass: TCUChatListItem) click.

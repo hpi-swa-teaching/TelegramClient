@@ -1,3 +1,4 @@
 accessing
-core: anObject
-	core := anObject
+core: aCore
+
+	core := aCore

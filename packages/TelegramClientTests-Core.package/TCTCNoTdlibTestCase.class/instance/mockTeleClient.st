@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 mockTeleClient
 
 	^ self core client

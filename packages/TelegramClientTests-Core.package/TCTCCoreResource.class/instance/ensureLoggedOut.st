@@ -1,4 +1,4 @@
-as yet unclassified
+controlling
 ensureLoggedOut
 	
 	self core authHandler isAuthStateClosed ifFalse: [

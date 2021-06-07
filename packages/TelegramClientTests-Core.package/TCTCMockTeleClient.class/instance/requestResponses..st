@@ -1,3 +1,4 @@
 accessing
-requestResponses: anObject
-	requestResponses := anObject
+requestResponses: aDictionary
+
+	requestResponses := aDictionary

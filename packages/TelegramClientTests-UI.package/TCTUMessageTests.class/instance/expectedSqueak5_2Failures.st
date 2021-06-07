@@ -1,4 +1,4 @@
-as yet unclassified
+failures
 expectedSqueak5_2Failures
 
 	^ #(#testMessageShrinksCorrectly)

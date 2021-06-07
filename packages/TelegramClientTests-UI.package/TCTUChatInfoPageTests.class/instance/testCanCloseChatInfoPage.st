@@ -1,7 +1,6 @@
 testing
 testCanCloseChatInfoPage
 
-	
 	self openAnyChat.
 	self openInfoPageInChatWindow.
 	

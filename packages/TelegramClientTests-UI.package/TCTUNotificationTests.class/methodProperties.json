@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"testNotificationConstructor" : "RS 6/6/2021 13:09",
-		"testNotificationContainsMessage" : "RS 6/6/2021 13:11",
-		"testNotificationContainsSender" : "RS 6/6/2021 13:11",
-		"testNotificationHidesPrivateChatTitle" : "RS 6/6/2021 13:08",
-		"testNotificationShowsGroupChatTitle" : "RS 6/6/2021 13:08" } }
+		"testNotificationContainsMessage" : "JB 6/7/2021 09:28",
+		"testNotificationContainsSender" : "JB 6/7/2021 09:28",
+		"testNotificationHidesPrivateChatTitle" : "JB 6/7/2021 09:28",
+		"testNotificationShowsGroupChatTitle" : "JB 6/7/2021 09:29" } }

@@ -1,8 +1,9 @@
-as yet unclassified
+testing
 testMessageShrinksCorrectly
 
 	| message messageMorph |
-	message := TCTMocks mockMessage.
+
+	message := TCTMMocks mockMessage.
 	messageMorph := TCUMessage newFromTCCMessage: message.
 	
 	self forceSaveScreenshotOf: messageMorph as: 'testMessageUI' in: self class defaultTestResultPath.

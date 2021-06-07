@@ -1,6 +1,6 @@
-as yet unclassified
+library calls
 receive: aTimeoutNumber
 
-	^ responseQueue
+	^ self responseQueue
 		ifEmpty: [nil]
 		ifNotEmpty: [self responseQueue removeFirst]

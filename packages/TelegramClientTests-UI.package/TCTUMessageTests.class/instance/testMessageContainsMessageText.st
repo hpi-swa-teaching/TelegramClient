@@ -1,5 +1,5 @@
-as yet unclassified
+testing
 testMessageContainsMessageText
 
-	self wantsToTest: (TCUMessage newFromTCCMessage: TCTMocks mockMessage).
-	self assertReading: TCTMocks mockMessageText in: self subject.
+	self wantsToTest: (TCUMessage newFromTCCMessage: TCTMMocks mockMessage).
+	self assertReading: TCTMMocks mockMessageText in: self subject.

@@ -2,5 +2,5 @@ running
 setUp
 
 	self core: TCTUMockCore new.
-	self core chats: TCTMocks mockChats.
+	self core chats: TCTMMocks mockChats.
 	self wantsToTest: (TCUMain newWithCore: self core).

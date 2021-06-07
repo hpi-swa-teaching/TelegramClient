@@ -1,6 +1,6 @@
 initialization
 initializeHandlers
 
-	self
-		chatsHandler: (TCCChatsHandler new
-			core: self).
+	self chatsHandler: (TCCChatsHandler new
+		core: self;
+		yourself).

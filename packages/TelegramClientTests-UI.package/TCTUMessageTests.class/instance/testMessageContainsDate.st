@@ -1,9 +1,9 @@
-as yet unclassified
+testing
 testMessageContainsDate
 
 	| message |
 	
-	message := TCTMocks mockMessage.
+	message := TCTMMocks mockMessage.
 	message date: message date asUTC.
 	
 	self wantsToTest: (TCUMessage newFromTCCMessage: message).

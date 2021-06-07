@@ -1,3 +1,4 @@
 accessing
-responseQueue: anObject
-	responseQueue := anObject
+responseQueue: aLinkedList
+
+	responseQueue := aLinkedList
