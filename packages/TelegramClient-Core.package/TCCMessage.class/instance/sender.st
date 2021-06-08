@@ -1,4 +1,6 @@
 accessing
 sender
 
-	^ sender
+	^ self core users getUserFor: self senderID
+
+	

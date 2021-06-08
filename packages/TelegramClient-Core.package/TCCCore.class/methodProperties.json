@@ -16,7 +16,7 @@
 		"getChatHistoryFrom:" : "js 8/1/2020 18:19",
 		"getOwnProfile" : "pk 5/13/2021 09:44",
 		"handleEvent:" : "per 5/26/2021 14:04",
-		"handleMessageEvent:" : "pk 5/19/2021 11:29",
+		"handleMessageEvent:" : "pk 6/8/2021 09:44",
 		"handlePendingEvent:" : "per 5/26/2021 14:03",
 		"initialize" : "RS 6/3/2021 11:54",
 		"initializeHandlers" : "per 5/21/2021 16:55",
@@ -33,6 +33,6 @@
 		"sendPhoneNumber:" : "js 6/13/2020 15:35",
 		"setUserID:" : "per 5/13/2021 08:22",
 		"tryHandleError:" : "pk 5/7/2021 12:23",
-		"update" : "RS 6/3/2021 12:09",
+		"update" : "pk 6/8/2021 09:22",
 		"users" : "RK 5/19/2021 09:56",
 		"users:" : "RK 5/19/2021 09:56" } }
