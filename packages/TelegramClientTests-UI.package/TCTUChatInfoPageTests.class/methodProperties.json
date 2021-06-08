@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"expectedSqueak5_2Failures" : "TR 6/2/2021 15:14",
+		"openAnyChat" : "RS 6/6/2021 15:49",
+		"openChatWithId:" : "RS 6/6/2021 15:48",
+		"openInfoPageInChatWindow" : "RS 6/6/2021 15:48",
+		"testCanCloseChatInfoPage" : "JB 6/7/2021 09:30",
+		"testCanOpenChatInfoPage" : "RS 6/6/2021 15:50",
+		"testChatInfoPageIsHidden" : "RS 6/6/2021 15:50",
+		"testDoesDisplayGroupDescription" : "RS 6/6/2021 15:48",
+		"testPrivateChatHasNoDescription" : "RS 6/6/2021 15:51" } }

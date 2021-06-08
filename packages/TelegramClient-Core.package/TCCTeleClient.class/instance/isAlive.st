@@ -1,4 +1,4 @@
 accessing
 isAlive
 
-	^ self specificClient isNil not
+	^ self specificClient notNil

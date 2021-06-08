@@ -1,8 +1,8 @@
 initialization
 initialize
 
+	self client ifNil: [self client: TCCTeleClient newForCurrentOS].
 	self
-		client: TCCTeleClient newForCurrentOS;
 		initializeHandlers;
 		chats: TCCChats newWithDefaultSorting;
 		loggedInUserID: 0; 

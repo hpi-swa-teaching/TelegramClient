@@ -11,10 +11,10 @@ SmalltalkCISpec {
   ],
    #testing : {
     #coverage : {
-      #packages : [ 'TelegramClient-Core.*' ]
+      #packages : [ 'TelegramClient-Core.*', 'TelegramClient-UI.*' ]
     },
     #exclude : {
-      #classes : [ #TCTLinterTests ]
+      #classes : [ #TCTMLinterTests ]
     },
     #defaultTimeout : 60
   }

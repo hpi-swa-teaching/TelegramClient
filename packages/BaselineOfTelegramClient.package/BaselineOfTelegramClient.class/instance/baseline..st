@@ -27,9 +27,13 @@ baseline: spec
 				spec requires: #('libraries')];
 			package: 'TelegramClient-UI' with: [
 				spec requires: #('libraries')];
-			package: 'TelegramClient-Tests' with: [
-				spec requires: #('default' 'SwaLint' 'MorphicTestingFramework')].
+			package: 'TelegramClientTests-Misc' with: [
+				spec requires: #('default' 'SwaLint')];
+			package: 'TelegramClientTests-UI' with: [
+				spec requires: #('default' 'MorphicTestingFramework')];
+			package: 'TelegramClientTests-Core' with: [
+				spec requires: #('default')].
 		spec
 			group: 'libraries' with: #('Animations' 'FFI' 'JSON');
 			group: 'default' with: #('TelegramClient-Core' 'TelegramClient-UI');
-			group: 'tests' with: #('TelegramClient-Tests')].
+			group: 'tests' with: #('TelegramClientTests-Misc' 'TelegramClientTests-UI' 'TelegramClientTests-Core')].

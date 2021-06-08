@@ -1,5 +1,5 @@
 submorphs-add/remove
 delete
 
-	self core client free.
+	self core freeClient.
 	super delete.
