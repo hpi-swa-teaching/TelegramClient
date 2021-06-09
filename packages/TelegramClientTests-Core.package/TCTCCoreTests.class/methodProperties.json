@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"mockMessageFrom:" : " 6/9/2021 14:11:10",
+		"mockUserWith:and:" : " 6/9/2021 14:11:10",
 		"newMessageReceived:" : "pk 5/17/2021 19:20",
 		"receivedMessage" : "TR 6/2/2021 15:46",
 		"receivedMessage:" : "TR 6/2/2021 15:47",

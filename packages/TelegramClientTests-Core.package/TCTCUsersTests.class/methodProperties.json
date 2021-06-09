@@ -2,4 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testGetUserFor" : "JB 6/7/2021 09:28" } }
+		"extra" : " 6/9/2021 14:11:10",
+		"mockUserEvent" : " 6/9/2021 14:11:10",
+		"tearDown" : " 6/9/2021 14:11:10",
+		"testGetUserFor" : "JB 6/7/2021 09:28",
+		"userFirstName" : " 6/9/2021 14:11:10",
+		"userId" : " 6/9/2021 14:11:10",
+		"userLastName" : " 6/9/2021 14:11:10",
+		"username" : " 6/9/2021 14:11:10" } }
