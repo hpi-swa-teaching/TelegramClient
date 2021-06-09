@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"core" : "JB 6/7/2021 09:09",
+		"core:" : "JB 6/7/2021 09:09",
+		"ensureLoggedIn" : "RS 6/5/2021 17:58",
+		"ensureLoggedOut" : "RS 6/5/2021 17:53",
+		"setUp" : "JB 6/7/2021 09:27",
+		"tearDown" : "JB 6/7/2021 11:18" } }

@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"newWithTeleClient:" : "RS 6/3/2021 12:08" },
 	"instance" : {
 		"authHandler" : "R.S 5/20/2020 16:10",
 		"authHandler:" : "R.S 5/20/2020 16:10",
@@ -32,6 +32,6 @@
 		"sendPhoneNumber:" : "js 6/13/2020 15:35",
 		"setUserID:" : "per 5/13/2021 08:22",
 		"tryHandleError:" : "pk 5/7/2021 12:23",
-		"update" : "RS 4/28/2021 18:03",
+		"update" : "RS 6/3/2021 12:09",
 		"users" : "RK 5/19/2021 09:56",
 		"users:" : "RK 5/19/2021 09:56" } }

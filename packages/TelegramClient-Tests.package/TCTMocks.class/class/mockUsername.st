@@ -1,4 +1,0 @@
-user
-mockUsername
-
-	^ 'username'

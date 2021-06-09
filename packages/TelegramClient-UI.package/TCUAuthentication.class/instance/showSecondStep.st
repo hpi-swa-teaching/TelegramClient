@@ -6,10 +6,10 @@ showSecondStep
 	self buttonVerify show.
 
 	self instructionLabel
-		contents: 'Enter the code your recieved on your phone';
+		contents: 'Enter the code your received on your phone';
 		center: self center.
 
 	self inputField
-		contents: ' ';
+		contents: '';
 		crAction: [self buttonVerifyPressed].
 	self errorLabel hide.

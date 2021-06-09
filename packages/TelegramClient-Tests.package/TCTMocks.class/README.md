@@ -1,1 +1,0 @@
-Provides a set of hardcoded values and methods to create mock objects
