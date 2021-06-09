@@ -1,4 +1,4 @@
 accessing
-isSupergroup
+isSuperGroup
 
 	^false 

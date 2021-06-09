@@ -11,4 +11,4 @@ initialize
 	self chat members do: [:aUser| 
 		self addUserBack: aUser. 
 	].
-	self chat isSuperGroup ifTrue: [self addButton: self createUserListButton]. 
+	self chat canLoadMoreMembers ifTrue: [self addButton: self createUserListButton]. 

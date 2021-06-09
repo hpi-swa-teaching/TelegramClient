@@ -1,0 +1,3 @@
+accessing
+allMembersLoaded
+	^ allMembersLoaded

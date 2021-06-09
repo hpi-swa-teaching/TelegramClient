@@ -1,4 +1,0 @@
-accessing
-isPrivate
-
-	^ false
