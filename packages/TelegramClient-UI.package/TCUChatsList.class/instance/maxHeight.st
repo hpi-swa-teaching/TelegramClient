@@ -1,4 +1,4 @@
 accessing
 maxHeight
 
-	^maxHeight
+	^ maxHeight

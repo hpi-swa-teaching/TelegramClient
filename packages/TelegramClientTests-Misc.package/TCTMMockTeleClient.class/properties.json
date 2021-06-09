@@ -1,0 +1,17 @@
+{
+	"category" : "TelegramClientTests-Misc",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JB 6/7/2021 09:35",
+	"instvars" : [
+		"created",
+		"freed",
+		"responseQueue",
+		"requestResponses" ],
+	"name" : "TCTMMockTeleClient",
+	"pools" : [
+		 ],
+	"super" : "TCCTeleClient",
+	"type" : "normal" }
