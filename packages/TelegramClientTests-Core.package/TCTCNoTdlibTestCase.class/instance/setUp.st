@@ -1,4 +1,4 @@
-running
+as yet unclassified
 setUp
 	
-	self core: (TCCCore newWithTeleClient: TCTMMockTeleClient new).
+	self core: (TCCCore newWithTeleClient: (TCTCMockTeleClient new)).

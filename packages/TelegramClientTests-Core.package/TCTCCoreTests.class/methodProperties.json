@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"mockMessageFrom:" : " 6/9/2021 14:11:10",
-		"mockUserWith:and:" : " 6/9/2021 14:11:10",
+		"mockMessageFrom:" : "6/9/2021 14:11:10",
+		"mockUserWith:and:" : "6/9/2021 14:11:10",
 		"newMessageReceived:" : "pk 5/17/2021 19:20",
 		"receivedMessage" : "TR 6/2/2021 15:46",
 		"receivedMessage:" : "TR 6/2/2021 15:47",
@@ -12,5 +12,5 @@
 		"testCallback" : "per 5/21/2021 16:28",
 		"testChatsHandler" : "per 5/21/2021 16:28",
 		"testErrorConstants" : "js 8/2/2020 21:23",
-		"testLoggedInUserID" : "JB 6/7/2021 09:28",
-		"testMessageTriggersUserRequest" : "JB 6/7/2021 09:28" } }
+		"testLoggedInUserID" : "RS 6/6/2021 12:38",
+		"testMessageTriggersUserRequest" : "RS 6/6/2021 13:07" } }

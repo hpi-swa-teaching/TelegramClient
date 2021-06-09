@@ -3,4 +3,6 @@
 		 },
 	"instance" : {
 		"testCanLogIn" : "RS 6/5/2021 17:55",
-		"testCanLogOut" : "RS 6/5/2021 17:52" } }
+		"testCanLogOut" : "RS 6/5/2021 17:52",
+		"testExtraAPIAttribute" : "RS 6/6/2021 10:50",
+		"testMessageSending" : "RS 6/6/2021 10:54" } }

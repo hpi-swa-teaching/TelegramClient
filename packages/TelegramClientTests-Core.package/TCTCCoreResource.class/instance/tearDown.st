@@ -1,4 +1,4 @@
-running
+as yet unclassified
 tearDown
 
-	self core freeClient.
+	self core client specificClient isNil ifFalse: [self core client free].
