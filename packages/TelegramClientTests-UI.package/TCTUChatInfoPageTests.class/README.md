@@ -1,1 +1,1 @@
-This class tests a TCTUChatInfoPageTest.
+This class tests a TCUChatInfoPage.
