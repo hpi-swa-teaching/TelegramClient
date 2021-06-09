@@ -3,7 +3,7 @@ testNotificationConstructor
 
 	| chat message sender notification |
 	
-	chat := TCCChat new type: 'chatTypePrivate'; title: 'chat'.
+	chat := TCCPrivateChat new type: 'chatTypePrivate'; title: 'chat'.
 	sender := TCCUser new firstName: 'Test'; lastName: 'User'.
 	message := TCCMessage new sender: sender; chat: chat; message: 'm'.
 	notification := TCUNotification newWithMessage: message.

@@ -1,8 +1,6 @@
 running
 setUp
 
-	| core | 
-	core := TCTMockCore basicNew initializeHandlers.
-	core chats: TCTMocks mockChats. 
-	self app: (TCUMain newWithCore: core). 
-	self wantsToTest: self app. 
+	self core: (TCTUMockCore newWithTeleClient: TCTMMockTeleClient new).
+	self core chats: TCTMMocks mockChats.
+	self wantsToTest: (TCUMain newWithCore: self core).

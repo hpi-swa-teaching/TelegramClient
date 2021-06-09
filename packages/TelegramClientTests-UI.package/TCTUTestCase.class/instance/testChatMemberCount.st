@@ -6,8 +6,8 @@ testChatMemberCount
 			(MTFMorphWrapper newWith: {chatListItem}) click.
 			chatListItem chat isPrivate 
 				ifTrue: [
-					self assertNotReading: 'Members: ' in: self app chatWindow.
+					self assertNotReading: 'Members: ' in: (self wrap: (self subject chatWindow)).
 				] ifFalse: [
-					self assertReading: ('Members: ', chatListItem chat memberCount asString) in: self app chatWindow.
+					self assertReading: ('Members: ', chatListItem chat memberCount asString) in: (self wrap:(self subject chatWindow)).
 				]
 		]
