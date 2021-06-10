@@ -1,16 +1,8 @@
 user
 mockUsers
 
-	^ OrderedCollection newFrom: {
-		TCCUser new
-		firstName: 'Paul';
-		lastName: 'Panter';
-		username: 'paulp';
-		id: 1673511834
+	^ TCCUsers newFrom: {
+		self mockUser1 id -> (Promise new resolveWith: (self mockUser1))
 		.
-		TCCUser new
-		firstName: 'Tom';
-		lastName: 'Tiger';
-		username: 'tomt';
-		id: 1634653456
+		self mockUser2 id -> (Promise new resolveWith: (self mockUser2))
 	}

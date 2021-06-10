@@ -1,7 +1,7 @@
 testing
 testLoggedInUserID
 
-	self mockTeleClient onRequestType: 'getMe' respond: TCTMMocks mockUserJson.
+	self mockTeleClient onRequestType: 'getMe' respond: TCTMMocks mockUserJson1.
 	self mockTeleClient logIn.
 	
 	1 seconds wait.
