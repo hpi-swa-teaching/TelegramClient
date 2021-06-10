@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testLastMessageVisible
 
 	1 to: self core chats size do: [:index | 
