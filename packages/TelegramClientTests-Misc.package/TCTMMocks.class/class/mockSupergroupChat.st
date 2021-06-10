@@ -8,4 +8,6 @@ mockSupergroupChat
 		lastMessage: 'lastSupergroupMessage'; 
 		canSendMessages: true; 
 		memberCount: 8972981;
-		description: 'a very great super group description $$123'
+		description: 'a very great super group description $$123';
+		positionKnown: true;
+		position: 3.

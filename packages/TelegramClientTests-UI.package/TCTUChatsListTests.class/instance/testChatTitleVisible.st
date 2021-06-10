@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testChatTitleVisible
 
 	1 to: self core chats size do: [:index | 

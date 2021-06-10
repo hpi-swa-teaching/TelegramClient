@@ -8,4 +8,6 @@ mockBasicGroupChat
 		lastMessage: 'lastBasicGroupMessage'; 
 		canSendMessages: true; 
 		memberCount: 5;
-		description: 'basic group description'
+		description: 'basic group description';
+		positionKnown: true;
+		position: 1. 
