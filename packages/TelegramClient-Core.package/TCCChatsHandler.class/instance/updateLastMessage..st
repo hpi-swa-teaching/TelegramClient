@@ -13,7 +13,7 @@ updateLastMessage: anEvent
 					detect: [:e | ((e at: 'list') at: '@type') = 'chatListMain'])
 				at: 'order')].
 
-		(content at: '@type') = 'messageText' 
+		(content at: '@type') = 'messageText'
 			ifTrue: [chat lastMessage: ((content at: 'text') at: 'text')]
 			ifFalse: [chat lastMessage: 'message type not supported yet'].
 
