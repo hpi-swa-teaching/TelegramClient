@@ -1,4 +1,4 @@
 default values
-titleOffset
+defaultTitleOffset
 
 	^ 20 @ 20

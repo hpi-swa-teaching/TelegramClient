@@ -1,4 +1,4 @@
 accessing
 calculatePosition
 
-	^ self currentWorld bottomRight - (self defaultWidth @ self defaultHeight) - (self defaultOffset)
+	^ self currentWorld bottomRight - (self class defaultWidth @ self class defaultHeight) - (self class defaultOffset)
