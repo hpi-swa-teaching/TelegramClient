@@ -1,7 +1,7 @@
 events
 addChat: aChatEvent
 	
-	| chat | 
+	| chat |
 	chat := TCCChat newFromChatEvent: aChatEvent.
 	(chat type = 'chatTypeSupergroup') ifTrue: [
 		self loadSuperGroupInfoFor: chat with: (((aChatEvent at: 'chat') at: 'type') at: 'supergroup_id').
@@ -11,5 +11,5 @@ addChat: aChatEvent
 	].
 
 	self core chats
-		add: chat; 
+		add: chat;
 		notify.

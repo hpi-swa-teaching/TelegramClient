@@ -1,10 +1,8 @@
 chat
 mockChats
 
-	|chats|
-	chats := TCCChats newWithDefaultSorting. 
-	chats
+	^ TCCChats newWithDefaultSorting
 		add: self mockBasicGroupChat;
 		add: self mockPrivateChat;
-		add: self mockSupergroupChat.
-	^chats
+		add: self mockSupergroupChat;
+		yourself

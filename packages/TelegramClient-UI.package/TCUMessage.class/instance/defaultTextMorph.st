@@ -1,7 +1,7 @@
 default values
 defaultTextMorph
 
-	^ TextMorph new 
+	^ TextMorph new
 		wrapFlag: true;
 		lock;
 		yourself

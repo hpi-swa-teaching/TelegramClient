@@ -1,8 +1,8 @@
 initialization
 openInWorld
 
-	super openInWorld. 
-		
-	self 
-		position: self calculatePosition; 
+	super openInWorld.
+
+	self
+		position: self calculatePosition;
 		startTimeOut
