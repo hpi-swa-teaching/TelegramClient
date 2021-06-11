@@ -1,20 +1,19 @@
 testing
-testMessageTriggersUserRequest
+testMessageSenderTriggersUserRequest
 
-	| message user |
+	| messageEvent userJson |
 	self core when: #newMessageReceived send: #newMessageReceived: to: self.
 	self core chats add: TCTMMocks mockPrivateChat.
 	
 	self receivedMessage: nil.
-	message := TCTMMocks mockMessageEventFrom: TCTMMocks mockPrivateChat id.
+	messageEvent := TCTMMocks mockMessageEventFrom: TCTMMocks mockPrivateChat id.
 
-	self core handleEvent: message.
+	self core handleEvent: messageEvent.
 	1 seconds wait.
 	
-	user := TCTMMocks mockUserEvent.
-	self core handleEvent: user.
-	1 seconds wait.
-	
+	userJson := TCTMMocks mockUserJson.
+	self core client onRequestType: 'getUser' respond: userJson.
+
 	self assert: self receivedMessage notNil.
 	self assert: (TCTMMocks mockUser fullName) equals: (self receivedMessage sender fullName).
 	self assert: (TCTMMocks mockPrivateChat id) equals: (self receivedMessage chat id).
