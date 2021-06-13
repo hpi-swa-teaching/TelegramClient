@@ -5,7 +5,7 @@ addHeader
 	header := RectangleMorph new
 		borderWidth: 0;
 		color: TCUDefaultValues colorGray;
-		extent: self width @ self defaultHeaderHeight.
+		extent: self width @ self class defaultHeaderHeight.
 
 	self
 		addMorph: header;

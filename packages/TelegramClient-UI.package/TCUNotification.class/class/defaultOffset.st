@@ -1,4 +1,4 @@
 default values
 defaultOffset
 
-	^ (20 @ 20)
+	^ 20 @ 20

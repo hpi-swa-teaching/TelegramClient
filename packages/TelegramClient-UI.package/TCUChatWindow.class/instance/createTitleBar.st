@@ -5,7 +5,7 @@ createTitleBar
 		borderWidth: 0;
 		color: TCUDefaultValues colorLightGray;
 		width: self width;
-		height: self defaultTitleBarHeigth;
+		height: self class defaultTitleBarHeigth;
 		topLeft: self topLeft;
 		layoutPolicy: TableLayout new;
 		listDirection: #leftToRight;

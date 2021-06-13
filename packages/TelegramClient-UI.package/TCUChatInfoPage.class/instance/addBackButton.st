@@ -10,4 +10,4 @@ addBackButton
 		yourself.
 
 	self infoBar addMorph: backButton.
-	backButton position: (self infoBar left + self defaultSpacing) @ (self infoBar top + self defaultSpacing).
+	backButton position: (self infoBar left + self class defaultSpacing) @ (self infoBar top + self class defaultSpacing).

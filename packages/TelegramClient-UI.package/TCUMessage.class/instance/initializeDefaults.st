@@ -2,11 +2,11 @@ initialization
 initializeDefaults
 
 	self
-		width: self defaultWidth;
-		height: self defaultHeight;
+		width: self class defaultWidth;
+		height: self class defaultHeight;
 		layoutPolicy: TableLayout new;
 		cellPositioning: #topLeft;
-		layoutInset: self defaultLayoutInset;
+		layoutInset: self class defaultLayoutInset;
 		color: self messageColor;
 		hResizing: #shrinkWrap;
 		vResizing: #shrinkWrap;

@@ -1,16 +1,16 @@
 {
 	"class" : {
+		"defaultNumberOfRequestedMessages" : "js 8/1/2020 18:52",
 		"newFromChatEvent:" : "JB 5/31/2021 16:21" },
 	"instance" : {
 		"addNewestMessage:" : "js 8/2/2020 12:58",
 		"addOldestMessage:" : "js 8/2/2020 12:58",
 		"canSendMessages" : "5/11/2021 10:09:15",
 		"canSendMessages:" : "TR 5/5/2021 16:31",
-		"defaultNumberOfRequestedMessages" : "js 8/1/2020 18:52",
 		"id" : "rs 6/7/2020 22:20",
 		"id:" : "5/11/2021 10:09:15",
 		"ifNotWaitingForUpdate:" : "js 8/2/2020 13:17",
-		"initialize" : "per 5/26/2021 14:02",
+		"initialize" : "JB 6/11/2021 18:31",
 		"initializeFromChatEvent:" : "JB 5/31/2021 16:19",
 		"isGroup" : "RS 5/29/2021 18:12",
 		"isPrivate" : "per 5/13/2021 08:48",

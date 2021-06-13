@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"defaultMessageLimit" : "js 8/1/2020 18:24" },
 	"instance" : {
 		"addChat:" : "JB 6/4/2021 21:34",
 		"addNewMessage:" : "pk 6/8/2021 09:31",
@@ -8,7 +8,6 @@
 		"client" : "per 5/21/2021 16:55",
 		"core" : "per 5/21/2021 16:55",
 		"core:" : "per 5/21/2021 16:55",
-		"defaultMessageLimit" : "js 8/1/2020 18:24",
 		"getChatHistoryFrom:with:limit:" : "per 5/21/2021 16:55",
 		"getChats" : "js 7/31/2020 22:50",
 		"handleNewMessage:" : "pk 6/8/2021 09:32",

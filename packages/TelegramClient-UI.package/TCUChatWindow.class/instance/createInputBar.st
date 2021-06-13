@@ -5,7 +5,7 @@ createInputBar
 		borderWidth: 0;
 		color: TCUDefaultValues colorLightGray;
 		width: self width;
-		height: self defaultInputfieldHeight;
+		height: self class defaultInputfieldHeight;
 		bottomLeft: (self bottomLeft);
 		layoutPolicy: TableLayout new;
 		listDirection: #leftToRight;

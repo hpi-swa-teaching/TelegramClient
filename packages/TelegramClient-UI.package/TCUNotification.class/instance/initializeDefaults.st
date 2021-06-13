@@ -4,8 +4,8 @@ initializeDefaults
 	self
 		color: Color white;
 		borderColor: TCUDefaultValues colorLightBlue;
-		borderWidth: self defaultBorderWidth;
+		borderWidth: self class defaultBorderWidth;
 		useRoundedCorners;
-		height: self defaultHeight;
-		width: self defaultWidth;
+		height: self class defaultHeight;
+		width: self class defaultWidth;
 		addContent.

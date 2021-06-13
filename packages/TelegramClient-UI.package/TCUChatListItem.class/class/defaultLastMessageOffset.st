@@ -1,4 +1,4 @@
 default values
-lastMessageOffset
+defaultLastMessageOffset
 
 	^ 20 @ -12

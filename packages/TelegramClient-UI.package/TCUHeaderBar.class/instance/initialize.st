@@ -6,7 +6,7 @@ initialize
 	self
 		borderWidth: 0;
 		color: TCUDefaultValues colorGray;
-		extent: self main width @ self defaultHeight.
+		extent: self main width @ self class defaultHeight.
 
 	self
 		addTitle: 'Telegram';

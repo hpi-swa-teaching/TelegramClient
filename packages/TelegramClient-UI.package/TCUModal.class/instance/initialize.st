@@ -4,8 +4,8 @@ initialize
 	super initialize.
 
 	self
-		width: self defaultWidth;
-		height: self defaultHeight;
+		width: self class defaultWidth;
+		height: self class defaultHeight;
 		borderWidth: 1;
 		borderColor: TCUDefaultValues colorLightBlue;
 		setColor;
