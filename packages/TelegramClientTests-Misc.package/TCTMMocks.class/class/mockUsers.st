@@ -6,4 +6,4 @@ mockUsers
 	promise resolveWith: (TCCUser newFrom: self mockUserEvent).
 	users := TCCUsers new.
 	users at: self mockUser id put: promise.
-	^	users
+	^ users
