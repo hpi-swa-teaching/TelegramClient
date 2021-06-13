@@ -47,7 +47,7 @@
 		"testsmallLintModifiesCollection" : "js 6/13/2020 18:38",
 		"testsmallLintOnlyReadOrWrittenTemporary" : "js 6/13/2020 19:21",
 		"testsmallLintReturnsBooleanAndOther" : "js 6/13/2020 18:38",
-		"testsmallLintSendsUnknownMessageToGlobal" : "js 6/13/2020 18:38",
+		"testsmallLintSendsUnknownMessageToGlobal" : "pk 6/13/2021 11:07",
 		"testsmallLintSizeCheck" : "js 6/13/2020 18:38",
 		"testsmallLintStringConcatenation" : "js 6/13/2020 18:38",
 		"testsmallLintTempVarOverridesInstVar" : "js 6/13/2020 18:38",
