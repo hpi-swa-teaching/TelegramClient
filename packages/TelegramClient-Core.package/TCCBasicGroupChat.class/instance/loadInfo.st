@@ -1,5 +1,5 @@
 loading
-loadInfo 
+loadInfo
 
 	self core client send: (TCCRequest
 		newWithType: 'getBasicGroupFullInfo'

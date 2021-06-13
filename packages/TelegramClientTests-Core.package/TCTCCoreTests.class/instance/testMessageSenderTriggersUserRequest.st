@@ -11,7 +11,7 @@ testMessageSenderTriggersUserRequest
 	self core handleEvent: messageEvent.
 	1 seconds wait.
 	
-	userJson := TCTMMocks mockUserJson.
+	userJson := TCTMMocks mockUserJson1.
 	self core client onRequestType: 'getUser' respond: userJson.
 
 	self assert: self receivedMessage notNil.

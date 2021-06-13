@@ -1,5 +1,5 @@
 testing
 testSupergroupChatHasUserList
 
-	self openAnyChatWith: #isSuperGroup. 
+	self openAnyChatWith: #isSuperGroup.
 	self partialTestChatList

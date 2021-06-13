@@ -2,5 +2,5 @@ core
 mockCore
 
 	^ (TCCCore newWithTeleClient: TCTMMockTeleClient new)
-		users: self mockUsers;
+		users: self mockUserPromises;
 		yourself

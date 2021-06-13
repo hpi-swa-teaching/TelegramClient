@@ -1,7 +1,7 @@
 accessing
-loadInfoIfNotLoaded 
+loadInfoIfNotLoaded
 
 	self infoLoaded ifFalse: [
 		self loadInfo.
-		self infoLoaded: true. 
+		self infoLoaded: true.
 	]
