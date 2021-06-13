@@ -1,4 +1,4 @@
-as yet unclassified
+running
 ensureLoggedIn
 	
 	self core client isAlive ifFalse: [ self setUp. ].

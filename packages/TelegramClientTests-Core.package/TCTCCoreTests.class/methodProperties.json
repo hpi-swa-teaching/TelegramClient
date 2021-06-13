@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"newMessageReceived:" : "pk 5/17/2021 19:20",
-		"partialGroupMembersTestFor:" : "per 6/10/2021 20:46",
+		"partialGroupMembersTestFor:" : "TR 6/13/2021 15:19",
 		"receivedMessage" : "TR 6/2/2021 15:46",
 		"receivedMessage:" : "TR 6/2/2021 15:47",
 		"testAuthConstants" : "js 8/2/2020 22:54",
@@ -12,6 +12,6 @@
 		"testCallback" : "per 5/21/2021 16:28",
 		"testChatsHandler" : "per 5/21/2021 16:28",
 		"testErrorConstants" : "js 8/2/2020 21:23",
-		"testLoggedInUserID" : "per 6/10/2021 19:30",
-		"testMessageTriggersUserRequest" : "TR 6/9/2021 16:24",
+		"testLoggedInUserID" : "TR 6/13/2021 14:48",
+		"testMessageTriggersUserRequest" : "TR 6/13/2021 14:48",
 		"testSuperGroupMembers" : "per 6/10/2021 20:53" } }

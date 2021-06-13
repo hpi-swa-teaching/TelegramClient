@@ -16,6 +16,6 @@ testMessageTriggersUserRequest
 	1 seconds wait.
 	
 	self assert: self receivedMessage notNil.
-	self assert: (TCTMMocks mockUser fullName) equals: (self receivedMessage sender fullName).
+	self assert: (TCTMMocks mockUser1 fullName) equals: (self receivedMessage sender fullName).
 	self assert: (TCTMMocks mockPrivateChat id) equals: (self receivedMessage chat id).
 	self assert: (TCTMMocks mockMessageText) equals: (self receivedMessage message)

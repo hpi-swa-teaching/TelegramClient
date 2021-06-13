@@ -1,7 +1,7 @@
 chat
 mockBasicGroupChat
 
-	^ self mockUnloadedSuperGroupChat
+	^ self mockUnloadedBasicGroupChat
 		memberCount: self mockUsers size;
 		description: 'basic group description';
 		members: self mockUsers;

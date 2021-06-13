@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"mockBasicGroupChat" : "per 6/10/2021 20:49",
+		"mockBasicGroupChat" : "TR 6/13/2021 14:45",
 		"mockBasicGroupFullInfoJson" : "per 6/10/2021 19:41",
 		"mockChats" : "TR 5/27/2021 19:55",
 		"mockMembers" : "per 6/10/2021 19:45",
@@ -15,11 +15,12 @@
 		"mockSupergroupMembersJson" : "per 6/10/2021 20:53",
 		"mockUnloadedBasicGroupChat" : "per 6/10/2021 19:24",
 		"mockUnloadedSuperGroupChat" : "per 6/10/2021 20:49",
-		"mockUser1" : "per 6/10/2021 19:29",
+		"mockUser1" : "TR 6/13/2021 15:03",
 		"mockUser2" : "per 6/10/2021 19:31",
 		"mockUserEvent" : "per 6/10/2021 19:30",
 		"mockUserJson1" : "per 6/10/2021 19:43",
 		"mockUserJson2" : "per 6/10/2021 19:29",
-		"mockUsers" : "per 6/10/2021 19:48" },
+		"mockUserPromises" : "TR 6/13/2021 15:14",
+		"mockUsers" : "TR 6/13/2021 15:15" },
 	"instance" : {
 		 } }
