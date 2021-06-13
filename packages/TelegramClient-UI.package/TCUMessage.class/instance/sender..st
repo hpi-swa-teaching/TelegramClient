@@ -1,4 +1,4 @@
 accessing
 sender: aUser
 
-	sender := aUser.
+	sender := aUser
