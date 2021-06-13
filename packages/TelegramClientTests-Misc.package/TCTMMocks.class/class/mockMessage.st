@@ -1,4 +1,4 @@
 message
 mockMessage
 
-	^ TCCMessage newFromMessageEvent: (self mockMessageJsonFrom: self mockPrivateChat id) in: self mockPrivateChat with: self mockCore
+	^ self mockMessageWith: self mockCore
