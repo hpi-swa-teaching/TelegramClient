@@ -3,4 +3,5 @@
 		 },
 	"instance" : {
 		"testExtraAPIAttribute" : "RS 6/6/2021 10:50",
-		"testMessageSending" : "RS 6/6/2021 10:54" } }
+		"testMessageSending" : "RS 6/6/2021 10:54",
+		"testPositionIsUpdatedAfterInitialChatLoading" : "RS 6/13/2021 13:03" } }

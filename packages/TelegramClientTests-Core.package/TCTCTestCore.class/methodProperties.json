@@ -2,5 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"eventLog" : "RS 6/13/2021 12:31",
+		"eventLog:" : "RS 6/13/2021 12:32",
+		"handleEvent:" : "RS 6/13/2021 12:34",
+		"initialize" : "RS 6/13/2021 12:47",
 		"initializeHandlers" : "JB 6/7/2021 09:27",
-		"loginWithTestData" : "RS 5/26/2021 13:57" } }
+		"loginWithTestData" : "RS 5/26/2021 13:57",
+		"receiveOrderOfEventSatisfying:" : "RS 6/13/2021 13:02" } }
