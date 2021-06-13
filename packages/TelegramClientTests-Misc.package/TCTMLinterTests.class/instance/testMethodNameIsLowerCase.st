@@ -1,4 +1,9 @@
 tests
 testMethodNameIsLowerCase
 
-	self methodsLinesDo: [:lines | self assert: lines first first isLowercase].
+	self methodsLinesDo: [:lines |
+		| firstChar |
+		firstChar := lines first first.
+		firstChar isLetter
+			ifTrue: [self assert: firstChar isLowercase]
+		].
