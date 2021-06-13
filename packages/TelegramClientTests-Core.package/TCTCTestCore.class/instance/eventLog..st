@@ -1,4 +1,4 @@
 accessing
-eventLog: aCollection
+eventLog: anOrderedCollection
 
-	eventLog := aCollection
+	eventLog := anOrderedCollection

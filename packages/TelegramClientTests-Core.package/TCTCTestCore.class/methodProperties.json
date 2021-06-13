@@ -2,15 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"chronologicCounter" : "RS 6/13/2021 16:10",
-		"chronologicCounter:" : "RS 6/13/2021 16:10",
-		"chronologicalPositionOf:" : "RS 6/13/2021 16:21",
-		"eventChronologicalPositions" : "RS 6/13/2021 16:16",
-		"eventChronologicalPositions:" : "RS 6/13/2021 16:16",
+		"chronologicalPositionOf:" : "RS 6/13/2021 17:05",
 		"eventLog" : "RS 6/13/2021 12:31",
-		"eventLog:" : "RS 6/13/2021 16:14",
-		"handleEvent:" : "RS 6/13/2021 16:16",
-		"initialize" : "RS 6/13/2021 16:23",
+		"eventLog:" : "RS 6/13/2021 12:32",
+		"handleEvent:" : "RS 6/13/2021 12:34",
+		"initialize" : "RS 6/13/2021 12:47",
 		"initializeHandlers" : "JB 6/7/2021 09:27",
-		"loggedEventsSatisfying:" : "RS 6/13/2021 16:17",
+		"loggedEventsSatisfying:" : "RS 6/13/2021 17:06",
 		"loginWithTestData" : "RS 5/26/2021 13:57" } }
