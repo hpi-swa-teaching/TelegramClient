@@ -6,7 +6,7 @@ loadSuperGroupInfoFor: aChat with: aSupergroupId
 		from: {
 			'supergroup_id'->aSupergroupId.
 			'@extra'->aSupergroupId}).
-	
+
 	self core
 		registerCallback: [:aSupergroupFullInfoEvent |
 			aChat

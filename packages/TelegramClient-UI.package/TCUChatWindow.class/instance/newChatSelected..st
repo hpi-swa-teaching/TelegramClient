@@ -1,6 +1,6 @@
 event handling
 newChatSelected: aChat
-	
+
 	self welcomeMessage hide.
 	self inputBar show.
 	self titleBar delete.

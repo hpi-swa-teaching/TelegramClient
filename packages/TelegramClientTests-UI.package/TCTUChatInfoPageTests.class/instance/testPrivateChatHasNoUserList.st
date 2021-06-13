@@ -2,7 +2,7 @@ testing
 testPrivateChatHasNoUserList
 
 	| chatInfoPage |
-	
+
 	self openAnyChatWith: #isPrivate.
 	self openInfoPageInChatWindow.
 

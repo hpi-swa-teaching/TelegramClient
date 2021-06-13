@@ -1,6 +1,6 @@
 testing
 testChatMemberCount
-	
+
 	((self subject findByClass: TCUChatListItem)morphs) do: [
 		:chatListItem | | chatWindowWrapper |
 			chatWindowWrapper := self subject findByClass: TCUChatWindow.

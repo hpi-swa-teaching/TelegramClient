@@ -6,7 +6,7 @@ loadBasicGroupInfoFor: aChat with: aBasicGroupId
 		from: {
 			'basic_group_id'->aBasicGroupId.
 			'@extra'->aBasicGroupId}).
-	
+
 	self core
 		registerCallback: [:aBasicGroupFullInfoEvent |
 			aChat

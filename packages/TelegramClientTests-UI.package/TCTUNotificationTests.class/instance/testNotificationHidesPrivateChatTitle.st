@@ -2,7 +2,7 @@ testing
 testNotificationHidesPrivateChatTitle
 
 	| chat message |
-	
+
 	chat := TCTMMocks mockPrivateChat.
 	message := TCCMessage new
 		chat: chat;

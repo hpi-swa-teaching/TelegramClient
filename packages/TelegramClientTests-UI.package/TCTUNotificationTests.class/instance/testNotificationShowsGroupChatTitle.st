@@ -2,7 +2,7 @@ testing
 testNotificationShowsGroupChatTitle
 
 	| chat message |
-	
+
 	chat := TCTMMocks mockBasicGroupChat.
 	message := TCCMessage new
 		chat: chat;

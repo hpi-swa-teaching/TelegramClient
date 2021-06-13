@@ -3,6 +3,6 @@ testBasicGroupMembers
 
 	| basicGroupChat |
 	self mockTeleClient onRequestType: 'getBasicGroupFullInfo' respond: TCTMMocks mockBasicGroupFullInfoJson.
-	basicGroupChat := TCTMMocks mockUnloadedBasicGroupChat. 
-	
+	basicGroupChat := TCTMMocks mockUnloadedBasicGroupChat.
+
 	self partialGroupMembersTestFor: basicGroupChat

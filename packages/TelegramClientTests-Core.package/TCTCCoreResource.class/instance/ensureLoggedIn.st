@@ -1,8 +1,8 @@
 running
 ensureLoggedIn
-	
+
 	self core client isAlive ifFalse: [ self setUp. ].
-	
+
 	self core authHandler isAuthorizationStateReady ifFalse: [
 		self core loginWithTestData.
 		[self core authHandler isAuthorizationStateReady]

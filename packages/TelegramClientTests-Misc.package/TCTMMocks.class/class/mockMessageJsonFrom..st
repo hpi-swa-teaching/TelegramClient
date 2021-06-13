@@ -1,6 +1,6 @@
 message
 mockMessageJsonFrom: aChatId
-	
+
 	^ (JsonObject newFrom: {
 			'@type' -> 'message'.
 			'id' -> self mockMessageID.

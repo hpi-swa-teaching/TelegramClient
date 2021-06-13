@@ -1,6 +1,6 @@
 name: CI-Lint
 
-on: 
+on:
   push:
     branches:
       - develop

@@ -8,5 +8,5 @@ newFromChatEvent: anEvent
 		['chatTypeBasicGroup']->[chat := TCCBasicGroupChat new].
 		['chatTypePrivate']->[chat := TCCPrivateChat new].
 	}.
-	
+
 	^ chat initializeFromChatEvent: anEvent; yourself
