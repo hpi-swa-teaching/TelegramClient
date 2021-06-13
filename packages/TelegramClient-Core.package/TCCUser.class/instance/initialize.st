@@ -5,4 +5,4 @@ initialize
 		username: ''; 
 		firstName: ''; 
 		lastName: ''; 
-		id: -1
+		id: -1.
