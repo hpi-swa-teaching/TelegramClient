@@ -5,7 +5,7 @@ initialize
 	self
 		initializeHandlers;
 		chats: TCCChats newWithDefaultSorting;
-		loggedInUserID: 0; 
+		loggedInUserID: 0;
 		pendingRequests: Dictionary new;
 		users: (TCCUsers new core: self).
 

@@ -18,7 +18,7 @@
 		"handleEvent:" : "per 5/26/2021 14:04",
 		"handleMessageEvent:" : "pk 6/11/2021 10:20",
 		"handlePendingEvent:" : "per 5/26/2021 14:03",
-		"initialize" : "RS 6/3/2021 11:54",
+		"initialize" : "JB 6/10/2021 22:29",
 		"initializeHandlers" : "per 5/21/2021 16:55",
 		"isClientAlive" : "js 5/28/2020 17:18",
 		"loggedInUserID" : "rs 7/5/2020 14:48",
@@ -32,7 +32,7 @@
 		"sendMessage:to:" : "rs 6/13/2020 15:26",
 		"sendPhoneNumber:" : "js 6/13/2020 15:35",
 		"setUserID:" : "per 5/13/2021 08:22",
-		"tryHandleError:" : "pk 5/7/2021 12:23",
+		"tryHandleError:" : "JB 6/4/2021 17:28",
 		"update" : "pk 6/8/2021 09:22",
 		"users" : "RK 5/19/2021 09:56",
 		"users:" : "pk 6/13/2021 10:09" } }

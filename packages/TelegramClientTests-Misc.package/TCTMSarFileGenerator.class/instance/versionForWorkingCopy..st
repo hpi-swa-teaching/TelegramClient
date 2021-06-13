@@ -6,7 +6,7 @@ versionForWorkingCopy: aWorkingCopy
 	version := ''.
 	[version := aWorkingCopy newVersion]
 		on: MCVersionNameAndMessageRequest
-		do: [:anObject | 
+		do: [:anObject |
 			anObject patchBlock value.
 			anObject resume: (Array with: anObject suggestedName with: '' with: Set new)].
 	^ version

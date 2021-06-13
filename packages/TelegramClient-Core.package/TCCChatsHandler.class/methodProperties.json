@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addChat:" : "per 5/21/2021 16:55",
+		"addChat:" : "JB 6/4/2021 21:34",
 		"addNewMessage:" : "pk 6/8/2021 09:31",
-		"chatHistoryReceived:" : "pk 6/8/2021 09:26",
+		"chatHistoryReceived:" : "JB 6/4/2021 21:35",
 		"client" : "per 5/21/2021 16:55",
 		"core" : "per 5/21/2021 16:55",
 		"core:" : "per 5/21/2021 16:55",
@@ -20,4 +20,4 @@
 		"searchChat:" : "f.w. 7/15/2020 22:53",
 		"sendMessage:to:" : "js 7/31/2020 14:39",
 		"updateChatPosition:" : "per 5/21/2021 16:55",
-		"updateLastMessage:" : "per 5/21/2021 16:55" } }
+		"updateLastMessage:" : "JB 6/4/2021 21:36" } }
