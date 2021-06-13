@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "RS 6/13/2021 13:04",
 	"instvars" : [
-		"eventLog" ],
+		"eventLog",
+		"eventChronologicalPositions",
+		"chronologicCounter" ],
 	"name" : "TCTCTestCore",
 	"pools" : [
 		 ],
