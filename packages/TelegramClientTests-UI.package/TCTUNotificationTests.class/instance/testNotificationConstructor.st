@@ -1,13 +1,16 @@
 testing
 testNotificationConstructor
 
-	| chat message sender notification |
+	| chat message notification |
 	
-	chat := TCCPrivateChat new type: 'chatTypePrivate'; title: 'chat'.
-	sender := TCCUser new firstName: 'Test'; lastName: 'User'.
-	message := TCCMessage new sender: sender; chat: chat; message: 'm'.
+	chat := TCTMMocks mockPrivateChat.
+	message := TCCMessage new
+		chat: chat;
+		core: self core;
+		senderID: TCTMMocks mockUser id;
+		message: 'm'.
 	notification := TCUNotification newWithMessage: message.
 	
-	self assert: sender equals: notification sender.
+	self assert: TCTMMocks mockUser equals: notification sender.
 	self assert: chat equals: notification chat.
 	self assert: message equals: notification message.

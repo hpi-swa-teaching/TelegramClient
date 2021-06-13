@@ -1,4 +1,4 @@
 failures
-expectedSqueak5_2Failures 
+expectedSqueak5_2Failures
 
 	^ #()
