@@ -21,7 +21,7 @@
 		"testInstanceVarAccess" : "js 6/13/2020 16:54",
 		"testLongMethods" : "JB 6/10/2021 22:45",
 		"testMethodHasEmptyLine" : "j 7/16/2020 12:29",
-		"testMethodNameIsLowerCase" : "pk 6/13/2021 10:36",
+		"testMethodNameIsLowerCase" : "JB 6/13/2021 10:53",
 		"testMethodNoEmptyLineAtEnd" : "j 7/16/2020 12:32",
 		"testMethodNoTrailingWhitespaces" : "JB 6/10/2021 22:45",
 		"testMethodNoTwoWhitespacesNextToEachOther" : "js 6/13/2020 18:56",

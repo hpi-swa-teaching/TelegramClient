@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testNotificationConstructor" : "pk 6/13/2021 10:17",
+		"testNotificationConstructor" : "JB 6/13/2021 10:50",
 		"testNotificationContainsMessage" : "pk 6/11/2021 10:23",
 		"testNotificationContainsSender" : "pk 6/11/2021 10:28",
-		"testNotificationHidesPrivateChatTitle" : "pk 6/13/2021 10:15",
-		"testNotificationShowsGroupChatTitle" : "pk 6/13/2021 10:14" } }
+		"testNotificationHidesPrivateChatTitle" : "JB 6/13/2021 10:50",
+		"testNotificationShowsGroupChatTitle" : "JB 6/13/2021 10:51" } }

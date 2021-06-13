@@ -4,9 +4,9 @@ testNotificationHidesPrivateChatTitle
 	| chat message |
 	
 	chat := TCTMMocks mockPrivateChat.
-	message := TCCMessage new 
-		chat: chat; 
-		core: self core; 
+	message := TCCMessage new
+		chat: chat;
+		core: self core;
 		senderID: TCTMMocks mockUser id.
 
 	self wantsToTest: (TCUNotification newWithMessage: message).

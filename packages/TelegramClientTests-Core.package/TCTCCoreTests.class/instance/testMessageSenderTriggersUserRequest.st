@@ -15,6 +15,6 @@ testMessageSenderTriggersUserRequest
 	self core client onRequestType: 'getUser' respond: userJson.
 
 	self assert: self receivedMessage notNil.
-	self assert: (TCTMMocks mockUser fullName) equals: (self receivedMessage sender fullName).
-	self assert: (TCTMMocks mockPrivateChat id) equals: (self receivedMessage chat id).
-	self assert: (TCTMMocks mockMessageText) equals: (self receivedMessage message)
+	self assert: TCTMMocks mockUser fullName equals: self receivedMessage sender fullName.
+	self assert: TCTMMocks mockPrivateChat id equals: self receivedMessage chat id.
+	self assert: TCTMMocks mockMessageText equals: self receivedMessage message.
