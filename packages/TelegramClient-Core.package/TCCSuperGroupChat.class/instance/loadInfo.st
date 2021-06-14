@@ -1,4 +1,6 @@
 loading
 loadInfo
 
-	self loadGeneralInfo; loadMembers.
+	self
+		loadGeneralInfo;
+		loadMembers.
