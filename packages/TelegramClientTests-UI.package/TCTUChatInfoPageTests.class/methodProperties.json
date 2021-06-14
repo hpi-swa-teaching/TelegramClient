@@ -13,6 +13,6 @@
 		"testCanOpenChatInfoPage" : "RS 6/6/2021 15:50",
 		"testChatInfoPageIsHidden" : "RS 6/6/2021 15:50",
 		"testDoesDisplayGroupDescription" : "RS 6/6/2021 15:48",
-		"testPrivateChatHasNoDescription" : "RS 6/6/2021 15:51",
+		"testPrivateChatHasNoDescription" : "pk 6/14/2021 13:42",
 		"testPrivateChatHasNoUserList" : "TR 6/13/2021 15:52",
 		"testSupergroupChatHasUserList" : "TR 6/13/2021 15:52" } }
