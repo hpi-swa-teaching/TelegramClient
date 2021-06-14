@@ -1,7 +1,8 @@
 loading
 loadMembers
 
-	self core client send: (TCCRequest
+	self
+		core client send: (TCCRequest
 		newWithType: 'getSupergroupMembers'
 		from: {
 		'supergroup_id'->self groupId.
