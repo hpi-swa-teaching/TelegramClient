@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"defaultExtent" : "R.S 6/1/2020 14:27",
 		"newWithCore:" : "f.w. 6/3/2020 20:31" },
 	"instance" : {
 		"addChatsList" : "js 8/2/2020 22:05",
@@ -10,13 +11,11 @@
 		"chatsList:" : "R.S 6/1/2020 14:27",
 		"core" : "js 6/13/2020 18:51",
 		"core:" : "r.s 8/2/2020 19:18",
-		"defaultExtent" : "R.S 6/1/2020 14:27",
-		"defaultSpacing" : "r.s 8/2/2020 18:44",
 		"delete" : "JB 6/7/2021 11:18",
 		"getChatHistoryFrom:" : "j 7/16/2020 12:05",
 		"header" : "r.s 8/2/2020 19:07",
 		"header:" : "r.s 8/2/2020 19:08",
-		"initialize" : "r.s 8/2/2020 19:09",
+		"initialize" : "JB 6/11/2021 18:29",
 		"initializeChatWindow" : "r.s 8/2/2020 19:09",
 		"logout" : "js 6/13/2020 18:11",
 		"newChatSelected:" : "js 8/2/2020 22:33",

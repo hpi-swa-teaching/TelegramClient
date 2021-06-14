@@ -5,6 +5,6 @@ createInfoBar
 		borderWidth: 0;
 		color: Color white;
 		width: self width;
-		height: self defaultInfoBarHeight;
+		height: self class defaultInfoBarHeight;
 		topLeft: self topLeft;
 		yourself).

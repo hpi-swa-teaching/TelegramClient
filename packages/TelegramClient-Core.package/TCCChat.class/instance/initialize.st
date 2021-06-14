@@ -7,4 +7,4 @@ initialize
 		waitingForUpdate: false;
 		positionKnown: false;
 		infoLoaded: false;
-		numberOfRequestedMessages: self defaultNumberOfRequestedMessages.
+		numberOfRequestedMessages: self class defaultNumberOfRequestedMessages.

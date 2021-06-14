@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 	self
-		extent: self defaultExtent;
+		extent: self class defaultExtent;
 		borderWidth: 0;
 		addHeader;
 		chatWindow: TCUChatWindow new;

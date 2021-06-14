@@ -4,7 +4,7 @@ initialize
 	super initialize.
 	self
 		subscribeCore;
-		extent: self defaultExtent;
+		extent: self class defaultExtent;
 		color: Color white;
 		borderWidth: 1;
 		borderColor: TCUDefaultValues colorGray;

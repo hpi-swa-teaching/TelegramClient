@@ -1,14 +1,13 @@
 {
 	"class" : {
-		 },
+		"defaultMessageMargin" : "js 7/31/2020 15:50" },
 	"instance" : {
-		"addMessageAtBottom:" : "JB 5/29/2021 20:42",
+		"addMessageAtBottom:" : "JB 6/11/2021 18:25",
 		"addMessages" : "js 8/2/2020 22:16",
 		"chat" : "js 7/31/2020 16:39",
 		"chat:" : "js 7/31/2020 16:39",
 		"clearMessages" : "js 7/31/2020 16:46",
 		"core" : "js 8/2/2020 22:11",
-		"defaultMessageMargin" : "js 7/31/2020 15:50",
 		"displayChat:" : "f.w. 8/1/2020 04:53",
 		"handleMouseWheel:" : "f.w. 7/31/2020 23:53",
 		"initialize" : "js 7/31/2020 17:19",

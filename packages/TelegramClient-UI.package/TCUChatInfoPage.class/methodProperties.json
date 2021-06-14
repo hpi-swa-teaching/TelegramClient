@@ -1,8 +1,13 @@
 {
 	"class" : {
+		"defaultContentInset" : "RS 5/29/2021 18:32",
+		"defaultContentLayoutInset" : "RS 5/29/2021 18:49",
+		"defaultContentWidthPercentage" : "RS 5/29/2021 18:49",
+		"defaultInfoBarHeight" : "RS 5/20/2021 21:30",
+		"defaultSpacing" : "RS 5/20/2021 20:57",
 		"newFor:withBounds:" : "RS 5/29/2021 18:05" },
 	"instance" : {
-		"addBackButton" : "JB 6/4/2021 16:42",
+		"addBackButton" : "JB 6/11/2021 15:31",
 		"addContent" : "RS 5/29/2021 18:12",
 		"addDescription" : "RS 5/29/2021 18:00",
 		"addDescriptionText" : "JB 5/31/2021 15:05",

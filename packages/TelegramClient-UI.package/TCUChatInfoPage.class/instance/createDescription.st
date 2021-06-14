@@ -8,6 +8,6 @@ createDescription
 		listDirection: #topToBottom;
 		hResizing: #spaceFill;
 		vResizing: #shrinkWrap;
-		cellInset: self defaultContentInset;
+		cellInset: self class defaultContentInset;
 		useRoundedCorners;
 		yourself).

@@ -1,4 +1,4 @@
 default values
-titleLength
+defaultTitleLength
 
 	^ 32

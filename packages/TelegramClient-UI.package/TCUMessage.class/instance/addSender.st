@@ -1,8 +1,8 @@
 drawing
 addSender
-
-	self addMorphFront: (self defaultTextMorph
+	
+	self addMorphFront: (self class defaultTextMorph
 		contents: self sender fullName;
 		color: self dateColor;
-		margins: self defaultMargins;
+		margins: self class defaultMargins;
 		yourself).

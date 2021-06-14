@@ -17,6 +17,7 @@
 		"methodsLinesDo:excludeClasses:" : "JB 6/10/2021 22:45",
 		"testAssertOrder" : "JB 6/10/2021 22:44",
 		"testCorrectClassPrefix" : "JB 6/7/2021 09:25",
+		"testDefaultValuesOnClassSide" : "JB 6/11/2021 15:28",
 		"testIfTrueReturnsRule" : "js 6/13/2020 18:35",
 		"testInstanceVarAccess" : "js 6/13/2020 16:54",
 		"testLongMethods" : "JB 6/10/2021 22:45",
