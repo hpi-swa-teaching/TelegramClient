@@ -1,11 +1,7 @@
 {
 	"class" : {
-<<<<<<< HEAD
-		"newFromChatEvent:" : "per 6/4/2021 15:07" },
-=======
 		"defaultNumberOfRequestedMessages" : "js 8/1/2020 18:52",
 		"newFromChatEvent:" : "JB 5/31/2021 16:21" },
->>>>>>> develop
 	"instance" : {
 		"addNewestMessage:" : "js 8/2/2020 12:58",
 		"addOldestMessage:" : "js 8/2/2020 12:58",
@@ -46,3 +42,4 @@
 		"type:" : "5/11/2021 10:09:15",
 		"waitingForUpdate" : "5/11/2021 10:09:15",
 		"waitingForUpdate:" : "js 8/1/2020 17:00" } }
+
