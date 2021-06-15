@@ -2,6 +2,6 @@ initialization
 initialize
 
 	super initialize.
-	self 
+	self
 		description: '';
 		members: OrderedCollection new.

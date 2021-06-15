@@ -1,0 +1,4 @@
+accessing
+loadInfo
+
+	self subclassResponsibility
