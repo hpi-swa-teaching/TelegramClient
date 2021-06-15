@@ -1,4 +1,0 @@
-events
-receiveLoop
-
-	^ self

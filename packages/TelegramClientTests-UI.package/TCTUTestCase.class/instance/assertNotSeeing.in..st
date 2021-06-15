@@ -1,4 +1,6 @@
 asserting
 assertNotSeeing: aMorphClassName in: aSuperMorph
 
-	self assert: (self seeing: aMorphClassName in: aSuperMorph) not.
+	self
+		deny: (self seeing: aMorphClassName in: aSuperMorph)
+		description: 'Morph ' , aMorphClassName asString , ' found in ' , aSuperMorph class asString.

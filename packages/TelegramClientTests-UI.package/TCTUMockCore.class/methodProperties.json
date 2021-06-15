@@ -4,8 +4,6 @@
 	"instance" : {
 		"checkAuthenticationCode:" : "JB 6/7/2021 11:52",
 		"getChatHistoryFrom:" : "TR 5/30/2021 22:04",
-		"initialize" : "TR 6/13/2021 16:01",
 		"initializeHandlers" : "JB 6/7/2021 09:19",
-		"receiveLoop" : "6/9/2021 14:15:31",
 		"requestUser:with:" : "pk 5/21/2021 10:18",
 		"sendPhoneNumber:" : "JB 6/7/2021 12:04" } }
