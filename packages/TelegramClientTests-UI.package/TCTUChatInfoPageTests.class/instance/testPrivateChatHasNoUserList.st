@@ -7,4 +7,4 @@ testPrivateChatHasNoUserList
 	self openInfoPageInChatWindow.
 
 	chatInfoPage := (self subject findByClass: TCUChatInfoPage) morphs anyOne.
-	self assert: (self seeing: TCUUserList in: chatInfoPage) not
+	self deny: (self seeing: TCUUserList in: chatInfoPage).

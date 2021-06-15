@@ -1,4 +1,4 @@
 loading
 loadMoreMembers
 
-	(self members size < self memberCount) ifTrue: [self loadMembers].
+	self canLoadMoreMembers ifTrue: [self loadMembers].

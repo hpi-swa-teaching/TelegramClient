@@ -1,4 +1,4 @@
 accessing
-groupId: anInteger
+groupId: aNumber
 
-	groupId := anInteger
+	groupId := aNumber

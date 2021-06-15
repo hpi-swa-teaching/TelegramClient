@@ -1,4 +1,5 @@
-adding
+drawing
 addUserBack: aUser
 
-	self content addMorphBack: (TextMorph new contents: aUser fullName; lock)
+	self content addMorphBack: (TextMorph new contents: aUser fullName;
+		lock).

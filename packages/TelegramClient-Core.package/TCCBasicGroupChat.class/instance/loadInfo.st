@@ -6,9 +6,9 @@ loadInfo
 		from: {
 		'basic_group_id'->self groupId.
 		'@extra'->self groupId}).
-	self core pendingRequests at: self groupId asString put: [:aBasicGroupFullInfoEvent |
+	self core registerCallback: [:aBasicGroupFullInfoEvent |
 		self
-			memberCount: ((aBasicGroupFullInfoEvent at: 'members') size);
+			memberCount: (aBasicGroupFullInfoEvent at: 'members') size;
 			description: (aBasicGroupFullInfoEvent at: 'description').
 		self addMembersFrom: (aBasicGroupFullInfoEvent at: 'members').
-		]
+		] with: self groupId asString

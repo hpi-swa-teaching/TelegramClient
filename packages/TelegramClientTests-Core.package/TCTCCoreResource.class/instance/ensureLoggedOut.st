@@ -1,4 +1,4 @@
-running
+controlling
 ensureLoggedOut
 
 	self core authHandler isAuthStateClosed ifFalse: [

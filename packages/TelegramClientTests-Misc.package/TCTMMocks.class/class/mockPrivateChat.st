@@ -7,4 +7,5 @@ mockPrivateChat
 		type: 'chatTypePrivate';
 		lastMessage: 'lastPrivateMessage';
 		canSendMessages: true;
-		infoLoaded: true
+		infoLoaded: true;
+		yourself

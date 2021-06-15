@@ -7,4 +7,5 @@ mockUnloadedBasicGroupChat
 		title: 'GroupMockChat';
 		type: 'chatTypeBasicGroup';
 		lastMessage: 'lastBasicGroupMessage';
-		canSendMessages: true
+		canSendMessages: true;
+		yourself

@@ -6,4 +6,5 @@ mockUnloadedSuperGroupChat
 		title: 'SupergroupMockChat';
 		type: 'chatTypeSupergroup';
 		lastMessage: 'lastSupergroupMessage';
-		canSendMessages: true
+		canSendMessages: true;
+		yourself

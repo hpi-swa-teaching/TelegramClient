@@ -1,4 +1,4 @@
-running
+controlling
 setUp
 
 	self core: TCTCTestCore new.

@@ -1,4 +1,4 @@
 accessing
 isGroup
 
-	^false
+	^ false

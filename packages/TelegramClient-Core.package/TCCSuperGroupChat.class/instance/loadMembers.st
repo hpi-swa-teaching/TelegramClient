@@ -8,8 +8,8 @@ loadMembers
 		'supergroup_id'->self groupId.
 		'offset'->self members size.
 		'limit'->self class defaultLimit.
-		'@extra'->('#',self groupId)}).
+		'@extra'->('#', self groupId)}).
 
-	self core pendingRequests at: ('#',self groupId asString) put: [:aSupergroupMembersEvent |
+	self core registerCallback: [:aSupergroupMembersEvent |
 		self addMembersFrom: (aSupergroupMembersEvent at: 'members').
-		].
+		] with: ('#', self groupId asString).
