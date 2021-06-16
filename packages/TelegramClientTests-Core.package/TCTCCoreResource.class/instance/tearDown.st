@@ -1,4 +1,4 @@
-running
+controlling
 tearDown
 
-	self core freeClient.
+	self core freeClient

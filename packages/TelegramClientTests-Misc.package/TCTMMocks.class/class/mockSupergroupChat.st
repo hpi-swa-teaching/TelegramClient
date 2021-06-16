@@ -1,11 +1,9 @@
 chat
 mockSupergroupChat
 
-	^ TCCGroup new
-		id: 3;
-		title: 'SupergroupMockChat';
-		type: 'chatTypeSupergroup';
-		lastMessage: 'lastSupergroupMessage';
-		canSendMessages: true;
-		memberCount: 8972981;
-		description: 'a very great super group description $$123'
+	^ self mockUnloadedSuperGroupChat
+		memberCount: self mockUsers size;
+		description: 'a very great super group description $$123';
+		members: self mockUsers;
+		infoLoaded: true;
+		yourself

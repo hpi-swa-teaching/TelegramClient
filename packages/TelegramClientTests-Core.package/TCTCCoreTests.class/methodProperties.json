@@ -3,12 +3,15 @@
 		 },
 	"instance" : {
 		"newMessageReceived:" : "pk 5/17/2021 19:20",
+		"partialGroupMembersTestFor:" : "TR 6/13/2021 15:19",
 		"receivedMessage" : "TR 6/2/2021 15:46",
 		"receivedMessage:" : "TR 6/2/2021 15:47",
 		"testAuthConstants" : "js 8/2/2020 22:54",
 		"testAuthHandler" : "per 5/21/2021 16:28",
+		"testBasicGroupMembers" : "per 6/10/2021 20:47",
 		"testCallback" : "per 5/21/2021 16:28",
 		"testChatsHandler" : "per 5/21/2021 16:28",
 		"testErrorConstants" : "js 8/2/2020 21:23",
-		"testLoggedInUserID" : "JB 6/7/2021 09:28",
-		"testMessageSenderTriggersUserRequest" : "JB 6/13/2021 10:49" } }
+		"testLoggedInUserID" : "TR 6/13/2021 14:48",
+		"testMessageSenderTriggersUserRequest" : "TR 6/13/2021 15:50",
+		"testSuperGroupMembers" : "per 6/10/2021 20:53" } }

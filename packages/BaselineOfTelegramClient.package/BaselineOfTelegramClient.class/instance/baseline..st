@@ -1,7 +1,7 @@
 baseline
 baseline: spec
 	<baseline>
-	
+
 	spec for: #common do: [
 		spec
 			baseline: 'Animations' with: [
@@ -21,7 +21,7 @@ baseline: spec
 				spec repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages'];
 			baseline: 'SwaLint' with: [
 				spec repository: 'github://hpi-swa-teaching/SwaLint:develop/packages'].
-		
+
 		spec
 			package: 'TelegramClient-Core' with: [
 				spec requires: #('libraries')];

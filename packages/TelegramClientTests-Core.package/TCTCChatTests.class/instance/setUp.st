@@ -4,7 +4,7 @@ setUp
 	self chat: (TCCChat new
 		id: 1337;
 		yourself).
-	
+
 	1 to: 5 do: [:aNumber |
 		self chat messages add: (TCCMessage new
 			message: aNumber asString;

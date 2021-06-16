@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"core" : "JB 6/7/2021 09:09",
-		"core:" : "JB 6/7/2021 09:09",
+		"core" : "TR 6/13/2021 15:03",
+		"core:" : "TR 6/13/2021 14:53",
 		"ensureLoggedIn" : "RS 6/5/2021 17:58",
 		"ensureLoggedOut" : "RS 6/5/2021 17:53",
-		"setUp" : "JB 6/7/2021 09:27",
-		"tearDown" : "JB 6/7/2021 11:18" } }
+		"setUp" : "per 6/10/2021 20:58",
+		"tearDown" : "per 6/15/2021 08:17" } }

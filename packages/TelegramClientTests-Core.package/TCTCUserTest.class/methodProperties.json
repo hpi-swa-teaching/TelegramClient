@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testUserConstructor" : "JB 6/10/2021 22:44",
-		"testUserEquality" : "pk 6/13/2021 11:12",
-		"testUserHash" : "pk 6/13/2021 11:13",
-		"testUserInequality" : "pk 6/13/2021 11:13" } }
+		"testUserConstructor" : "TR 6/13/2021 14:47",
+		"testUserEquality" : "TR 6/13/2021 15:50",
+		"testUserHash" : "TR 6/13/2021 15:49",
+		"testUserInequality" : "TR 6/13/2021 15:49" } }

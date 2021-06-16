@@ -1,15 +1,14 @@
-events
-loadSuperGroupInfoFor: aChat with: aSupergroupId
+loading
+loadGeneralInfo
 
-	self client send: (TCCRequest
+	self core client send: (TCCRequest
 		newWithType: 'getSupergroupFullInfo'
-		from: {
-			'supergroup_id'->aSupergroupId.
-			'@extra'->aSupergroupId}).
-	
+		from: {'supergroup_id'->self groupId.
+			'@extra'->self groupId}).
+
 	self core
 		registerCallback: [:aSupergroupFullInfoEvent |
-			aChat
+			self
 				memberCount: (aSupergroupFullInfoEvent at: 'member_count');
 				description: (aSupergroupFullInfoEvent at: 'description').]
-		with: aSupergroupId.
+		with: self groupId.

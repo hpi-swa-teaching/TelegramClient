@@ -1,0 +1,1 @@
+A TCCBasicGroupChat represents a Telegram BasicGroup with up to 200 members

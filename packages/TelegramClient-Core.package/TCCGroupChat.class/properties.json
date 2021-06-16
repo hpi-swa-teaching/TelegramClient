@@ -1,0 +1,17 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "RS 5/29/2021 18:45",
+	"instvars" : [
+		"description",
+		"memberCount",
+		"members",
+		"groupId" ],
+	"name" : "TCCGroupChat",
+	"pools" : [
+		 ],
+	"super" : "TCCChat",
+	"type" : "normal" }

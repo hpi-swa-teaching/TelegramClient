@@ -83,7 +83,7 @@ $ git merge develop                                  // merges changes from mast
 When development on the feature is complete, reviewers should merge changes into `develop` and then make sure the remote branch is deleted.
 
 ```
-$ git checkout develop                               // change to the develop branch  
+$ git checkout develop                               // change to the develop branch
 $ git merge --no-ff feature/GH-id                      // makes sure to create a commit object during merge
 $ git push origin develop                            // push merge changes
 $ git push origin :feature/GH-id                       // deletes the remote branch
@@ -97,7 +97,7 @@ Fix branches differ from feature branches only semantically. Fix branches will b
 
 Although likelihood will be less, during the lifespan of the bug development, the lead should watch the `develop` branch (network tool or branch tool in GitHub) to see if there have been commits since the bug was branched. Any and all changes to `develop` should be merged into the bug before merging back to `develop`; this can be done at various times during the project or at the end, but time to handle merge conflicts should be accounted for.
 
-`<tbd number>` represents the Basecamp project to which Project Management will be tracked. 
+`<tbd number>` represents the Basecamp project to which Project Management will be tracked.
 
 * Must branch from: `develop`
 * Must merge back into: `develop`
@@ -121,7 +121,7 @@ $ git merge develop                                  // merges changes from deve
 When development on the bug is complete, [the Lead] should merge changes into `develop` and then make sure the remote branch is deleted.
 
 ```
-$ git checkout develop                               // change to the develop branch  
+$ git checkout develop                               // change to the develop branch
 $ git merge --no-ff bugfix/GH-id                          // makes sure to create a commit object during merge
 $ git push origin develop                            // push merge changes
 $ git push origin :bugfix/GH-id                           // deletes the remote branch

@@ -1,6 +1,6 @@
 controlling
 ensureLoggedOut
-	
+
 	self core authHandler isAuthStateClosed ifFalse: [
 		self core authHandler logout.
 		[self core authHandler isAuthStateClosed]

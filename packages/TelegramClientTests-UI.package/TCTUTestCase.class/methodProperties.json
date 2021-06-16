@@ -7,8 +7,9 @@
 	"instance" : {
 		"assert:looksLike:" : "JB 5/24/2021 16:17",
 		"assertNotReading:in:" : "RS 5/31/2021 07:54",
-		"assertReading:in:" : "TR 5/30/2021 18:05",
-		"assertSeeing:in:" : "JB 6/10/2021 22:46",
+		"assertNotSeeing:in:" : "TR 6/15/2021 16:49",
+		"assertReading:in:" : "TR 6/9/2021 14:55",
+		"assertSeeing:in:" : "TR 6/15/2021 16:47",
 		"computeHashOf:" : "RS 5/23/2021 16:19",
 		"core" : "TR 6/2/2021 15:09",
 		"core:" : "TR 6/2/2021 15:10",
@@ -16,7 +17,8 @@
 		"expectedSqueak5_2Failures" : "JB 6/10/2021 22:49",
 		"findByTextContent:in:" : "RS 5/31/2021 07:55",
 		"forceSaveScreenshotOf:as:in:" : "RS 5/26/2021 13:29",
-		"setUp" : "pk 6/11/2021 10:22",
+		"seeing:in:" : "per 6/15/2021 09:29",
+		"setUp" : "TR 6/13/2021 15:39",
 		"takeScreenshotOf:" : "JB 5/24/2021 16:21",
 		"tearDown" : "JB 5/24/2021 17:42",
 		"waitUntil:" : "RS 6/6/2021 13:00" } }

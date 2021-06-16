@@ -2,7 +2,7 @@ helpers
 streamForPackage: aPackage inZip: aZip
 
 	| mczStream workingCopy version |
-	
+
 	mczStream := RWBinaryOrTextStream on: (String new: 10000).
 	workingCopy := MCWorkingCopy forPackage: (MCPackage new name: aPackage).
 	version := self versionForWorkingCopy: workingCopy.

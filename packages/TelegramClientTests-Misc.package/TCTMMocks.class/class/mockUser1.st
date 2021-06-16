@@ -1,5 +1,5 @@
 user
-mockUser
+mockUser1
 
 	^ TCCUser new
 		firstName: 'Test';
