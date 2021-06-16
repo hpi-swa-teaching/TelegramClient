@@ -2,7 +2,7 @@ library calls
 getChatHistoryFrom: aChatID with: aMessageId limit: aLimit
 
 	| chat |
-	
+
 	chat := self core chats getChat: aChatID.
 	chat ifNotWaitingForUpdate: [
 		self client send: (TCCRequest

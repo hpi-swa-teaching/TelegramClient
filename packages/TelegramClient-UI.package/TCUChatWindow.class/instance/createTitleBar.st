@@ -5,7 +5,7 @@ createTitleBar
 		borderWidth: 0;
 		color: TCUDefaultValues colorLightGray;
 		width: self width;
-		height: self defaultTitleBarHeigth;
+		height: self class defaultTitleBarHeigth;
 		topLeft: self topLeft;
 		layoutPolicy: TableLayout new;
 		listDirection: #leftToRight;
@@ -13,5 +13,5 @@ createTitleBar
 		hResizing: #spaceFill;
 		vResizing: #shrinkWrap;
 		cellInset: 12).
-	
+
 	self titleBar on: #mouseDown send: #showInfoPage to: self.

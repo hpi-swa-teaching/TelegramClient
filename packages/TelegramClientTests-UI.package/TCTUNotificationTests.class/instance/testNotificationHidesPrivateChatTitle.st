@@ -1,11 +1,13 @@
 testing
 testNotificationHidesPrivateChatTitle
 
-	| chat message sender |
-	
+	| chat message |
+
 	chat := TCTMMocks mockPrivateChat.
-	sender := TCCUser new.
-	message := TCCMessage new sender: sender; chat: chat.
+	message := TCCMessage new
+		chat: chat;
+		core: self core;
+		senderID: TCTMMocks mockUser1 id.
 
 	self wantsToTest: (TCUNotification newWithMessage: message).
 	self assertNotReading: TCTMMocks mockPrivateChat title in: self subject.

@@ -1,5 +1,7 @@
 {
 	"category" : "TelegramClientTests-UI",
+	"category" : "TelegramClientTests-Core",
+	"category" : "TelegramClientTests-UI",
 	"classinstvars" : [
 		 ],
 	"classvars" : [

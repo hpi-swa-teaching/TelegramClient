@@ -6,4 +6,5 @@ initialize
 		messages: (OrderedCollection newFrom: {TCCNullMessage new});
 		waitingForUpdate: false;
 		positionKnown: false;
-		numberOfRequestedMessages: self defaultNumberOfRequestedMessages.
+		infoLoaded: false;
+		numberOfRequestedMessages: self class defaultNumberOfRequestedMessages.

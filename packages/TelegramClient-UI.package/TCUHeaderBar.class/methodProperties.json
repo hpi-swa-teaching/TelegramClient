@@ -1,14 +1,14 @@
 {
 	"class" : {
-		"newForMain:" : "js 8/2/2020 22:34" },
-	"instance" : {
-		"addCloseButton" : "r.s 8/2/2020 19:02",
-		"addLogoutButton" : "r.s 8/2/2020 19:03",
-		"addNewChatButton" : "js 8/2/2020 22:21",
-		"addTitle:" : "r.s 8/2/2020 18:52",
 		"defaultHeight" : "r.s 8/2/2020 18:59",
 		"defaultSpacing" : "r.s 8/2/2020 18:54",
-		"initialize" : "r.s 8/2/2020 19:02",
+		"newForMain:" : "js 8/2/2020 22:34" },
+	"instance" : {
+		"addCloseButton" : "JB 6/11/2021 18:32",
+		"addLogoutButton" : "JB 6/11/2021 18:32",
+		"addNewChatButton" : "JB 6/11/2021 18:33",
+		"addTitle:" : "JB 6/4/2021 21:00",
+		"initialize" : "JB 6/11/2021 18:32",
 		"main" : "r.s 8/2/2020 19:02",
 		"main:" : "r.s 8/2/2020 19:02",
 		"newChatButtonClicked" : "js 8/2/2020 22:22" } }

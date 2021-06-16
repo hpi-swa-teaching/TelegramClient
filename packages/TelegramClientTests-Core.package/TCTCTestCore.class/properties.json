@@ -1,12 +1,18 @@
 {
 	"category" : "TelegramClientTests-Core",
+	"category" : "TelegramClientTests-UI",
+	"category" : "TelegramClientTests-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "rs 6/14/2020 12:57",
+	"commentStamp" : "TR 6/2/2021 14:55",
 	"instvars" : [
 		 ],
+	"name" : "TCTUMockCore",
+	"commentStamp" : "RS 6/13/2021 13:04",
+	"instvars" : [
+		"eventLog" ],
 	"name" : "TCTCTestCore",
 	"pools" : [
 		 ],

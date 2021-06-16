@@ -1,4 +1,4 @@
-default values
+drawing
 maxContentWidth
 
-	^ self defaultWidth - (self layoutInset * 2)
+	^ self class defaultWidth - (self layoutInset * 2)

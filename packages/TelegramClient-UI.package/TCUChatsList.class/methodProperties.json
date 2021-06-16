@@ -1,18 +1,17 @@
 {
 	"class" : {
-		 },
+		"defaultScrollStep" : "r.s 8/2/2020 21:24",
+		"defaultWidth" : "R.S 6/1/2020 14:24" },
 	"instance" : {
 		"chatItemClicked:event:from:" : "js 8/2/2020 22:29",
 		"chats" : "rs 6/17/2020 22:38",
 		"chats:" : "f.w. 7/15/2020 23:57",
 		"clearItems" : "rs 6/17/2020 22:39",
 		"createChatListItem:" : "js 7/31/2020 23:05",
-		"defaultScrollStep" : "r.s 8/2/2020 21:24",
-		"defaultWidth" : "R.S 6/1/2020 14:24",
 		"deselectChats" : "js 8/2/2020 22:29",
 		"getChat:" : "per 5/13/2021 08:41",
 		"handleMouseWheel:" : "JB 6/7/2021 12:22",
-		"initialize" : "f.w. 7/12/2020 04:29",
+		"initialize" : "JB 6/11/2021 18:31",
 		"initializeLayout" : "js 6/13/2020 18:49",
 		"items" : "js 6/13/2020 14:14",
 		"items:" : "js 6/13/2020 19:09",
@@ -20,7 +19,7 @@
 		"maxHeight:" : "f.w. 7/12/2020 04:56",
 		"openNewChat:" : "f.w. 7/16/2020 00:02",
 		"redrawItems" : "js 8/2/2020 13:31",
-		"scrollDown" : "r.s 8/2/2020 21:24",
-		"scrollUp" : "r.s 8/2/2020 21:24",
+		"scrollDown" : "JB 6/11/2021 18:30",
+		"scrollUp" : "JB 6/11/2021 18:30",
 		"selectedChat" : "rs 6/13/2020 08:51",
 		"selectedChat:" : "rs 6/17/2020 22:25" } }

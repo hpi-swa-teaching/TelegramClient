@@ -1,11 +1,14 @@
 instance creation
 newFromChatEvent: anEvent
 
-	| type |
+	| type chat |
 	type := ((anEvent at: 'chat') at: 'type') at: '@type'.
-	
-	^ (((type = 'chatTypeSupergroup') or: (type = 'chatTypeBasicGroup'))
-		ifTrue: [TCCGroup new]
-		ifFalse: [self new])
-			initializeFromChatEvent: anEvent;
-			yourself
+	type caseOf: {
+		['chatTypeSupergroup']->[chat := TCCSuperGroupChat new].
+		['chatTypeBasicGroup']->[chat := TCCBasicGroupChat new].
+		['chatTypePrivate']->[chat := TCCPrivateChat new].
+	}.
+
+	^ chat
+		initializeFromChatEvent: anEvent;
+		yourself

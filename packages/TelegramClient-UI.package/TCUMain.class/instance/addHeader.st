@@ -1,6 +1,6 @@
 drawing
 addHeader
-	
-	self 
+
+	self
 		header: (TCUHeaderBar newForMain: self);
 		addMorph: self header.

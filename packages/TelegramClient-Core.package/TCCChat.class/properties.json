@@ -16,7 +16,9 @@
 		"numberOfRequestedMessages",
 		"type",
 		"canSendMessages",
-		"muted" ],
+		"muted",
+		"core",
+		"infoLoaded" ],
 	"name" : "TCCChat",
 	"pools" : [
 		 ],

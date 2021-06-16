@@ -3,7 +3,8 @@
 		 },
 	"instance" : {
 		"expectedSqueak5_2Failures" : "RS 6/6/2021 15:43",
-		"testMessageColorsDifferentForIncomingOutgoing" : "JB 6/7/2021 09:42",
-		"testMessageContainsDate" : "JB 6/7/2021 09:28",
-		"testMessageContainsMessageText" : "JB 6/7/2021 09:28",
-		"testMessageShrinksCorrectly" : "RS 6/7/2021 10:49" } }
+		"testMessageColorsDifferentForIncomingOutgoing" : "pk 6/11/2021 10:28",
+		"testMessageContainsDate" : "pk 6/11/2021 10:28",
+		"testMessageContainsMessageSender" : "TR 6/13/2021 15:46",
+		"testMessageContainsMessageText" : "pk 6/11/2021 10:28",
+		"testMessageShrinksCorrectly" : "pk 6/13/2021 11:04" } }

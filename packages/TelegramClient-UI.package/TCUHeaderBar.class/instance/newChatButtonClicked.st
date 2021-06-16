@@ -12,7 +12,7 @@ newChatButtonClicked
 	inputField crAction: [
 		self main core searchChat: inputField text.
 		modal delete].
-	
+
 	modal
 		addMorphCentered: inputField.
 	self main addMorphCentered: modal.

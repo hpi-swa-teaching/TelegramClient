@@ -9,7 +9,8 @@
 		"text",
 		"senderID",
 		"isOutgoing",
-		"date" ],
+		"date",
+		"sender" ],
 	"name" : "TCUMessage",
 	"pools" : [
 		 ],

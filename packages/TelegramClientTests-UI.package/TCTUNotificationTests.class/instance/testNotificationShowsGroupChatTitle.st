@@ -1,11 +1,13 @@
 testing
 testNotificationShowsGroupChatTitle
 
-	| chat message sender |
-	
+	| chat message |
+
 	chat := TCTMMocks mockBasicGroupChat.
-	sender := TCCUser new.
-	message := TCCMessage new sender: sender; chat: chat.
+	message := TCCMessage new
+		chat: chat;
+		core: self core;
+		senderID: TCTMMocks mockUser1 id.
 
 	self wantsToTest: (TCUNotification newWithMessage: message).
 	self assertReading: TCTMMocks mockBasicGroupChat title in: self subject.

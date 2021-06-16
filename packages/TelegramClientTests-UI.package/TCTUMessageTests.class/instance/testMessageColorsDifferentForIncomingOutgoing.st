@@ -5,7 +5,6 @@ testMessageColorsDifferentForIncomingOutgoing
 
 	outgoingMessage := TCTMMocks mockMessage.
 	incomingMessage := TCTMMocks mockMessage.
-	
 	outgoingMessage isOutgoing: true.
 	incomingMessage isOutgoing: false.
 

@@ -7,4 +7,5 @@ initialize
 		initializeDefaults;
 		addText;
 		addDate;
+		addSender;
 		shrinkToContent.

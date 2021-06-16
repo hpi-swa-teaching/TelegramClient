@@ -3,8 +3,8 @@ testUserConstructor
 
 	| user |
 	user := TCCUser newFrom: TCTMMocks mockUserEvent.
-	
-	self assert: TCTMMocks mockUser firstName equals: user firstName. 
-	self assert: TCTMMocks mockUser lastName equals: user lastName. 
-	self assert: TCTMMocks mockUser username equals: user username. 
-	self assert: TCTMMocks mockUser fullName equals: user fullName. 
+
+	self assert: TCTMMocks mockUser1 firstName equals: user firstName.
+	self assert: TCTMMocks mockUser1 lastName equals: user lastName.
+	self assert: TCTMMocks mockUser1 username equals: user username.
+	self assert: TCTMMocks mockUser1 fullName equals: user fullName.

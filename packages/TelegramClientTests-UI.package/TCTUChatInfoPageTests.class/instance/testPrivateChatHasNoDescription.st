@@ -2,10 +2,10 @@ testing
 testPrivateChatHasNoDescription
 
 	| groupChat chatInfoPage |
-	
+
 	self waitUntil: [self core chats anySatisfy: [:c | c isPrivate]].
 	groupChat := (self core chats detect: [:chat | chat isPrivate]).
-	
+
 	self openChatWithId: groupChat id.
 	self openInfoPageInChatWindow.
 

@@ -1,5 +1,5 @@
 initialization
-addTitle: aString 
+addTitle: aString
 
 	| font |
 

@@ -1,11 +1,12 @@
 testing
 testChatMemberCount
-	
+
 	((self subject findByClass: TCUChatListItem)morphs) do: [
 		:chatListItem | | chatWindowWrapper |
 			chatWindowWrapper := self subject findByClass: TCUChatWindow.
 			(MTFMorphWrapper newWith: {chatListItem}) click.
-			chatListItem chat isPrivate 
+			0.1 seconds wait.
+			chatListItem chat isPrivate
 				ifTrue: [
 					self assertNotReading: 'Members: ' in: chatWindowWrapper.
 				] ifFalse: [

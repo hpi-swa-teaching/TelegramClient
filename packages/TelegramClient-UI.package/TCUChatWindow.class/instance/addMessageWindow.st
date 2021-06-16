@@ -3,7 +3,7 @@ addMessageWindow
 
 	self
 		messageListWindow: (TCUChatMessageList new
-			height: self height - self defaultInputfieldHeight;
+			height: self height - self class defaultInputfieldHeight;
 			width: self width;
 			color: Color white;
 			lowestVisibleMessage: 0;
