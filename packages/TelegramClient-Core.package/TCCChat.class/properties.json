@@ -17,7 +17,8 @@
 		"type",
 		"canSendMessages",
 		"core",
-		"infoLoaded" ],
+		"infoLoaded",
+		"muted" ],
 	"name" : "TCCChat",
 	"pools" : [
 		 ],
