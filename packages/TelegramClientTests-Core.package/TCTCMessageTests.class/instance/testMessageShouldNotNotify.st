@@ -1,10 +1,7 @@
 testing
 testMessageShouldNotNotify
 
- 	| chat message |
-
- 	chat := TCCChat newFromChatEvent: TCTMMocks mockMutedChatEvent.
-
- 	message := TCCMessage newFromMessageEvent: (TCTMMocks mockMessageJsonFrom: chat id) in: chat with: self core.
-
- 	self assert: false equals: message shouldNotify.
+ 	| chat |
+	
+ 	chat := TCCChat newFromChatEvent: (TCTMMocks mockChatEventMutedFor: 42).
+ 	self assert: false equals: ((TCTMMocks mockMessageFor: chat) shouldNotify).

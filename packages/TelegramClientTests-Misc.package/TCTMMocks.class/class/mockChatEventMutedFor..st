@@ -1,5 +1,5 @@
 chat event
-mockUnmutedChatEvent
+mockChatEventMutedFor: aNumber
 
  	^ (JsonObject newFrom: {
  			'@type' -> 'chat'.
@@ -14,7 +14,7 @@ mockUnmutedChatEvent
  					'@type' -> 'can_send_messages'
  				}).
  				'notification_settings' -> (JsonObject newFrom: {
- 					'mute_for' -> 0
+ 					'mute_for' -> aNumber
  				}).
  			})
  		})

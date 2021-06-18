@@ -8,4 +8,5 @@ mockPrivateChat
 		lastMessage: 'lastPrivateMessage';
 		canSendMessages: true;
 		infoLoaded: true;
+		muted: false;
 		yourself
