@@ -1,4 +1,4 @@
 accessing
 positionKnown: aBoolean
 
-	positionKnown := aBoolean
+	positionKnown := aBoolean 
