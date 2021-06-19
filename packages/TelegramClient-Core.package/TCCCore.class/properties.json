@@ -12,7 +12,8 @@
 		"users",
 		"chats",
 		"loggedInUserID",
-		"pendingRequests" ],
+		"pendingRequests",
+		"callbackCounter" ],
 	"name" : "TCCCore",
 	"pools" : [
 		 ],
