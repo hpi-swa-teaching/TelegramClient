@@ -3,4 +3,6 @@ addUserBack: aUser
 
 	self content addMorphBack: (TextMorph new
 		contents: aUser fullName;
-		lock).
+		autoFit: false; 
+		width: self width;
+		lock; yourself).
