@@ -1,5 +1,5 @@
 event handling
 newMessageReceived: aMessage
 
-	aMessage isOutgoing ifFalse: [
+	aMessage shouldNotify ifTrue: [
 		[(TCUNotification newWithMessage: aMessage) openInWorld] fork].
