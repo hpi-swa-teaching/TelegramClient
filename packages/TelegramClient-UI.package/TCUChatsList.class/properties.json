@@ -9,9 +9,9 @@
 		"items",
 		"selectedChat",
 		"chats",
-		"maxHeight" ],
+		"content" ],
 	"name" : "TCUChatsList",
 	"pools" : [
 		 ],
-	"super" : "RectangleMorph",
+	"super" : "ScrollPane",
 	"type" : "normal" }
