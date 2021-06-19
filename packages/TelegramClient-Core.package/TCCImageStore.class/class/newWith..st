@@ -1,6 +1,6 @@
 instance creation
 newWith: aCore
 	
-	^ self new 
+	^ self new
 		core: aCore;
 		yourself

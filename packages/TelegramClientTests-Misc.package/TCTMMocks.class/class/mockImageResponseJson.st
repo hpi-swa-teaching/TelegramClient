@@ -1,5 +1,6 @@
 image
 mockImageResponseJson
+	"@linter-ignore"
 
 	^ JsonObject newFrom: {
 		'@type'->'file'.
@@ -19,7 +20,7 @@ mockImageResponseJson
 		'remote'->(JsonObject newFrom: {
 			'@type'->'remoteFile'.
 			'id'->self mockImageId asString.
-			'is_uploading_active'->false. 
+			'is_uploading_active'->false.
 			'is_uploading_completed'->true.
 			'unique_id'->self mockImageId asString.
 			'uploaded_size'->64403.

@@ -1,5 +1,4 @@
 image
 mockImagePath
 
-	^ FileDirectory default fullNameFor: 'mockImage.png'.
-	
+	^ FileDirectory default fullNameFor: 'mockImage.png'

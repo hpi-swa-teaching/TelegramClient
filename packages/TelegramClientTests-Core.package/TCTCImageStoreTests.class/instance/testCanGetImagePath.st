@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testCanGetImagePath
 
 	self mockTeleClient onRequestType: 'downloadFile' respond: TCTMMocks mockImageResponseJson.
