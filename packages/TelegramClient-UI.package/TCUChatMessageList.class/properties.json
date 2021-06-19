@@ -6,11 +6,12 @@
 		 ],
 	"commentStamp" : "rs 6/17/2020 21:32",
 	"instvars" : [
+		"content",
 		"messages",
 		"chat",
 		"lowestVisibleMessage" ],
 	"name" : "TCUChatMessageList",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "ScrollPane",
 	"type" : "normal" }

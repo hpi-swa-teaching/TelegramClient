@@ -4,6 +4,7 @@ initialize
 	super initialize.
 
 	self
+		initializeContent;
+		borderWidth: 0;
 		chat: TCCNullChat new;
-		clipSubmorphs: true;
 		messages: OrderedCollection new.
