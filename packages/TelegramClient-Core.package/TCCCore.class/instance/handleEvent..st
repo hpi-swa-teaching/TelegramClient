@@ -4,6 +4,7 @@ handleEvent: anEvent
 	| update |
 	update := nil.
 	anEvent isError ifTrue: [self tryHandleError: anEvent].
+	anEvent hasExtra ifTrue: [self handlePendingEvent: anEvent. ^ self].
 	anEvent type caseOf: {
 			['updateAuthorizationState'] -> [update := self authHandler handleEvent: anEvent].
 			['updateNewChat'] -> [self chatsHandler addChat: anEvent].
@@ -11,12 +12,7 @@ handleEvent: anEvent
 			['updateChatLastMessage'] -> [self chatsHandler updateLastMessage: anEvent].
 			['messages'] -> [self chatsHandler chatHistoryReceived: anEvent].
 			['updateNewMessage'] -> [self handleMessageEvent: anEvent].
-			['user'] -> [self handlePendingEvent: anEvent].
-			['supergroupFullInfo'] -> [self handlePendingEvent: anEvent].
-			['chatMembers'] -> [self handlePendingEvent: anEvent].
-			['basicGroupFullInfo'] -> [self handlePendingEvent: anEvent].
 			['chat'] -> [self chatsHandler openNewChat: anEvent].
-			['file'] -> [self handlePendingEvent: anEvent].
 		}
 		otherwise: [].
 	update isSymbol ifTrue: [self triggerEvent: update].
