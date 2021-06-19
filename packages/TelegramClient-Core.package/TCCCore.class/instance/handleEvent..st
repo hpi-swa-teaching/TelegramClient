@@ -15,6 +15,8 @@ handleEvent: anEvent
 			['supergroupFullInfo'] -> [self handlePendingEvent: anEvent].
 			['chatMembers'] -> [self handlePendingEvent: anEvent].
 			['basicGroupFullInfo'] -> [self handlePendingEvent: anEvent].
-			['chat'] -> [self chatsHandler openNewChat: anEvent]}
+			['chat'] -> [self chatsHandler openNewChat: anEvent].
+			['file'] -> [self handlePendingEvent: anEvent].
+		}
 		otherwise: [].
 	update isSymbol ifTrue: [self triggerEvent: update].

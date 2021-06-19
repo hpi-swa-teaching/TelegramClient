@@ -1,0 +1,4 @@
+image
+mockImageId
+
+	^ 1
