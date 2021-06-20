@@ -1,4 +1,4 @@
-drawing
-shrinkToContent
+initialization
+addContent
 
 	self subclassResponsibility.

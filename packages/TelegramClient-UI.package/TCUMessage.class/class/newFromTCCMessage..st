@@ -1,10 +1,10 @@
 instance creation
-newFromTCCMessage: aMessage
+newFromTCCMessage: aTCCMessage
 
-	^ self basicNew
-		text: aMessage message;
-		senderID: aMessage senderID;
-		isOutgoing: aMessage isOutgoing;
-		date: aMessage date;
-		sender: aMessage sender;
-		initialize
+	^ (aTCCMessage class caseOf: {
+		[TCCTextMessage] -> [TCUTextMessage].
+		[TCCPhotoMessage] -> [TCUPhotoMessage].
+	} otherwise: [TCUTextMessage])
+	basicNew
+	messageModel: aTCCMessage;
+	initialize

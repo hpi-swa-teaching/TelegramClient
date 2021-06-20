@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "f.w. 6/29/2020 17:05",
 	"instvars" : [
-		"message",
 		"chat",
 		"id",
 		"isOutgoing",

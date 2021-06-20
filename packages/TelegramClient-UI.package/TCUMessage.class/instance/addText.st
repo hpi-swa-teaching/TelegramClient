@@ -1,4 +1,4 @@
-drawing
+accessing
 addText
 
 	self addMorph: (self class defaultTextMorph

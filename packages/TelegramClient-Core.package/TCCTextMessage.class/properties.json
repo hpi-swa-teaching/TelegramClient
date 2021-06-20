@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"text" ],
+	"name" : "TCCTextMessage",
+	"pools" : [
+		 ],
+	"super" : "TCCMessage",
+	"type" : "normal" }

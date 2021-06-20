@@ -13,8 +13,11 @@ updateLastMessage: anEvent
 					detect: [:e | ((e at: 'list') at: '@type') = 'chatListMain'])
 				at: 'order')].
 
-		(content at: '@type') = 'messageText'
-			ifTrue: [chat lastMessage: ((content at: 'text') at: 'text')]
-			ifFalse: [chat lastMessage: 'message type not supported yet'].
+		
+		(content at: '@type') caseOf: {
+			['messageText'] -> [chat lastMessage: ((content at: 'text') at: 'text')] .
+			['messagePhoto'] -> [chat lastMessage: 'Photo']
+		}
+	    otherwise: [chat lastMessage: TCCNotSupportedMessage infoText].
 
 		self core chats notify].

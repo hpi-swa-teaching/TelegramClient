@@ -1,0 +1,17 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"caption",
+		"fileId",
+		"width",
+		"height" ],
+	"name" : "TCCPhotoMessage",
+	"pools" : [
+		 ],
+	"super" : "TCCMessage",
+	"type" : "normal" }

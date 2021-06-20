@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "rs 6/17/2020 21:31",
+	"commentStamp" : "",
 	"instvars" : [
-		"messageModel" ],
-	"name" : "TCUMessage",
+		 ],
+	"name" : "TCUPhotoMessage",
 	"pools" : [
 		 ],
-	"super" : "RectangleMorph",
+	"super" : "TCUMessage",
 	"type" : "normal" }

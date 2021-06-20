@@ -1,4 +1,4 @@
-drawing
-shrinkToContent
+accessing
+asText
 
 	self subclassResponsibility.
