@@ -8,8 +8,7 @@
 	"instvars" : [
 		"content",
 		"messages",
-		"chat",
-		"lowestVisibleMessage" ],
+		"chat" ],
 	"name" : "TCUChatMessageList",
 	"pools" : [
 		 ],

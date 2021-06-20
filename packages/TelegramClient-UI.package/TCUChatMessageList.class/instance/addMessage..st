@@ -1,5 +1,5 @@
 messages
-addMessageAtBottom: aMessage
+addMessage: aMessage
 
 	| newMessage |
 	newMessage := TCUMessage newFromTCCMessage: aMessage.
