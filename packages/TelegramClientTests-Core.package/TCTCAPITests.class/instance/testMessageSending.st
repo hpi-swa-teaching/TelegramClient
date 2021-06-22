@@ -11,5 +11,5 @@ testMessageSending
 	5 seconds wait.
 	testChatMessages := (self sharedCore chats getChat: testChatId) messages.
 	self assert: (testChatMessages contains: [:aMessage |
-		(aMessage message = 'TestMessage') and:
+		(aMessage asText = 'TestMessage') and:
 		[(aMessage chat id = testChatId)] ]).

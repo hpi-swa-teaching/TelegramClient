@@ -4,11 +4,11 @@ testNotificationConstructor
 	| chat message notification |
 
 	chat := TCTMMocks mockPrivateChat.
-	message := TCCMessage new
+	message := TCCTextMessage new
 		chat: chat;
 		core: self core;
 		senderID: TCTMMocks mockUser1 id;
-		message: 'm'.
+		text: 'm'.
 	notification := TCUNotification newWithMessage: message.
 
 	self assert: TCTMMocks mockUser1 equals: notification sender.
