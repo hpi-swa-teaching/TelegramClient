@@ -10,6 +10,7 @@
 		"authHandler",
 		"chatsHandler",
 		"users",
+		"imageStore",
 		"chats",
 		"loggedInUserID",
 		"pendingRequests",
