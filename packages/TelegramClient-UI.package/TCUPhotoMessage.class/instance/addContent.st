@@ -1,4 +1,5 @@
 as yet unclassified
 addContent
 
-	self addText.
+	self addPhoto.
+	self messageModel hasCaption ifTrue: [self addText].

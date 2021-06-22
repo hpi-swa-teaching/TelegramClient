@@ -1,7 +1,7 @@
 accessing
 addText
 
-	self addMorph: (self class defaultTextMorph
+	self addMorphBack: (self class defaultTextMorph
 		contents: self text;
 		color: Color white;
 		margins: self class defaultMargins;
