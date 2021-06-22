@@ -5,6 +5,11 @@
 		"mockChatEventMutedFor:" : "per 6/18/2021 09:20",
 		"mockChats" : "TR 5/27/2021 19:55",
 		"mockCore" : "TR 6/13/2021 15:45",
+		"mockImageData" : "pk 6/19/2021 18:18",
+		"mockImageForm" : "pk 6/19/2021 18:10",
+		"mockImageId" : "pk 6/19/2021 17:22",
+		"mockImagePath" : "pk 6/19/2021 18:06",
+		"mockImageResponseJson" : "pk 6/19/2021 18:21",
 		"mockMembers" : "per 6/15/2021 08:25",
 		"mockMessage" : "per 6/10/2021 19:30",
 		"mockMessageDate" : "RS 6/6/2021 11:42",
@@ -26,6 +31,7 @@
 		"mockUserJson1" : "per 6/10/2021 19:43",
 		"mockUserJson2" : "per 6/10/2021 19:29",
 		"mockUserPromises" : "per 6/15/2021 09:21",
-		"mockUsers" : "TR 6/13/2021 15:15" },
+		"mockUsers" : "TR 6/13/2021 15:15",
+		"writeMockImage" : "pk 6/19/2021 17:36" },
 	"instance" : {
 		 } }

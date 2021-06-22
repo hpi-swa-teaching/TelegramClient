@@ -4,11 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "js 8/1/2020 13:35",
+	"commentStamp" : "pk 6/19/2021 16:13",
 	"instvars" : [
-		"type",
-		"extra" ],
-	"name" : "TCCEvent",
+		"core" ],
+	"name" : "TCCImageStore",
 	"pools" : [
 		 ],
 	"super" : "Dictionary",
