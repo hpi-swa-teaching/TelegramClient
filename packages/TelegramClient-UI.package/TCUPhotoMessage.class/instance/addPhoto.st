@@ -7,5 +7,5 @@ addPhoto
 	(photoForm height > self class maxHeight) ifTrue: [
 		photoForm := photoForm scaledToHeight: self class maxHeight.
 	].
-	self addMorphBack: 	photoForm asMorph.
+	self addMorphBack: photoForm asMorph.
 	
