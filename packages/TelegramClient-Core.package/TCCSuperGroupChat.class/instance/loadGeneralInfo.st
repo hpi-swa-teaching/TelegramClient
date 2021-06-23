@@ -1,14 +1,11 @@
 loading
 loadGeneralInfo
 	
-	| callbackID |
-	callbackID := self core
+	| callbackId |
+	callbackId := self core
 		registerCallback: [:aSupergroupFullInfoEvent |
 			self
 				memberCount: (aSupergroupFullInfoEvent at: 'member_count');
 				description: (aSupergroupFullInfoEvent at: 'description')].
 			
-	self core send: (TCCRequest
-		newWithType: 'getSupergroupFullInfo'
-		from: {'supergroup_id'->self groupId.
-			'@extra'->callbackID}).
+	self core send: (TCCRequest newGetSuperGroupFullInfo: self groupId with: callbackId).

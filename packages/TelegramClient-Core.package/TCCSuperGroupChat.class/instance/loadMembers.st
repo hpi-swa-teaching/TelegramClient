@@ -6,9 +6,9 @@ loadMembers
 		registerCallback: [:aSupergroupMembersEvent |
 			self addMembersFrom: (aSupergroupMembersEvent at: 'members')].
 	
-	self core send: (TCCRequest
-		newWithType: 'getSupergroupMembers'
-		from: {'supergroup_id'->self groupId.
-			'offset'->self members size.
-			'limit'->self class defaultLimit.
-			'@extra'->callbackID}).
+	self core send: (
+		TCCRequest newGetSuperGroupMembers: self groupId
+			with: self members size
+			with: 'limit'->self class defaultLimit
+			with: callbackID
+	).

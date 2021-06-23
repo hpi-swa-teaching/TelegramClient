@@ -1,6 +1,4 @@
 library calls
 checkAuthenticationCode: aString
 
-	self core send: (TCCRequest
-		newWithType: 'checkAuthenticationCode'
-		from: {'code' -> aString}).
+	self core send: (TCCRequest newCheckAuthenticationCode: aString).
