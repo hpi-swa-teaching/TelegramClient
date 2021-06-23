@@ -6,4 +6,4 @@ requestUserFor: aUserId with: aPromise
 		registerCallback:
 			[:userEvent | aPromise resolveWith: (TCCUser newFrom: userEvent)].
 
-	self core requestUser: aUserId with: callbackID
+	self core requestUser: aUserId with: callbackID.

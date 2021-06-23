@@ -7,7 +7,7 @@ initialize
 		chats: TCCChats newWithDefaultSorting;
 		loggedInUserID: 0;
 		pendingRequests: Dictionary new;
-		users: (TCCUsers newWith: self);
+		users: (TCCUserStore newWith: self);
 		imageStore: (TCCImageStore newWith: self);
 		callbackCounter: 0.
 

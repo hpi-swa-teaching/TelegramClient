@@ -7,7 +7,7 @@
 	"commentStamp" : "RK 5/19/2021 10:18",
 	"instvars" : [
 		 ],
-	"name" : "TCTCUsersTests",
+	"name" : "TCTCUserStoreTests",
 	"pools" : [
 		 ],
 	"super" : "TCTCNoTdlibTestCase",

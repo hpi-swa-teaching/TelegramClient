@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"setUp" : "pk 6/19/2021 17:37",
+		"testCachesRequests" : "RS 6/23/2021 15:51",
 		"testCanGetImageForm" : "pk 6/19/2021 17:02",
 		"testCanGetImagePath" : "pk 6/19/2021 17:24",
 		"testDidCreateFile" : "pk 6/19/2021 17:35" } }
