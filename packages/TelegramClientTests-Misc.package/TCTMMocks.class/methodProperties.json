@@ -4,7 +4,7 @@
 		"mockBasicGroupFullInfoJson" : "per 6/10/2021 19:41",
 		"mockChatEventMutedFor:" : "per 6/18/2021 09:20",
 		"mockChats" : "TR 5/27/2021 19:55",
-		"mockCore" : "TR 6/13/2021 15:45",
+		"mockCore" : "RS 6/23/2021 16:00",
 		"mockImageData" : "pk 6/19/2021 18:18",
 		"mockImageForm" : "pk 6/19/2021 18:10",
 		"mockImageId" : "pk 6/19/2021 17:22",
@@ -30,7 +30,7 @@
 		"mockUserEvent" : "per 6/10/2021 19:30",
 		"mockUserJson1" : "per 6/10/2021 19:43",
 		"mockUserJson2" : "per 6/10/2021 19:29",
-		"mockUserPromises" : "per 6/15/2021 09:21",
+		"mockUserStore" : "RS 6/23/2021 16:00",
 		"mockUsers" : "TR 6/13/2021 15:15",
 		"writeMockImage" : "pk 6/19/2021 17:36" },
 	"instance" : {
