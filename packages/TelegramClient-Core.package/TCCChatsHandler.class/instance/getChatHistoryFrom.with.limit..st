@@ -5,7 +5,7 @@ getChatHistoryFrom: aChatID with: aMessageId limit: aLimit
 
 	chat := self core chats getChat: aChatID.
 	chat ifNotWaitingForUpdate: [
-		self client send: (TCCRequest
+		self core send: (TCCRequest
 			newWithType: 'getChatHistory'
 			from: {'chat_id' -> aChatID.
 					'from_message_id' -> aMessageId.

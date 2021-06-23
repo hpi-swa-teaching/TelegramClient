@@ -1,7 +1,7 @@
 events
 requestUser: aUserId with: aCallbackID
 
-	self client send: (TCCRequest
+	self send: (TCCRequest
 		newWithType: 'getUser'
 		from: {
 		'user_id'->aUserId.

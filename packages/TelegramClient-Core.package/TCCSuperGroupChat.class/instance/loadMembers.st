@@ -6,7 +6,7 @@ loadMembers
 		registerCallback: [:aSupergroupMembersEvent |
 			self addMembersFrom: (aSupergroupMembersEvent at: 'members')].
 	
-	self core client send: (TCCRequest
+	self core send: (TCCRequest
 		newWithType: 'getSupergroupMembers'
 		from: {'supergroup_id'->self groupId.
 			'offset'->self members size.

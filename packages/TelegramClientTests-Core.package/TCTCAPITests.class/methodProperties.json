@@ -3,6 +3,6 @@
 		 },
 	"instance" : {
 		"testCanRequestUser" : "RS 6/23/2021 15:49",
-		"testExtraAPIAttribute" : "RS 6/6/2021 10:50",
+		"testExtraAPIAttribute" : "RS 6/23/2021 16:26",
 		"testMessageSending" : "RS 6/6/2021 10:54",
 		"testPositionIsUpdatedAfterInitialChatLoading" : "RS 6/13/2021 17:02" } }

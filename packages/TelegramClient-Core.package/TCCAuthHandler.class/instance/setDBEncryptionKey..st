@@ -1,6 +1,6 @@
 library calls
 setDBEncryptionKey: aString
 
-	self client send: (TCCRequest
+	self core send: (TCCRequest
 		newWithType: 'checkDatabaseEncryptionKey'
 		from: {'encryption_key' -> aString}).

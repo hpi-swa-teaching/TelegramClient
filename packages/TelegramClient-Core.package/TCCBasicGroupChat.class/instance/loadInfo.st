@@ -8,7 +8,7 @@ loadInfo
 			description: (aBasicGroupFullInfoEvent at: 'description');
 			addMembersFrom: (aBasicGroupFullInfoEvent at: 'members').
 		].
-	self core client send: (TCCRequest
+	self core send: (TCCRequest
 		newWithType: 'getBasicGroupFullInfo'
 		from: {
 		'basic_group_id'->self groupId.

@@ -1,7 +1,7 @@
 library calls
 getChats
 
-	self client send: (TCCRequest
+	self core send: (TCCRequest
 		newWithType: 'getChats'
 		from: {
 			'limit' -> 1000.

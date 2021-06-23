@@ -8,7 +8,7 @@ loadGeneralInfo
 				memberCount: (aSupergroupFullInfoEvent at: 'member_count');
 				description: (aSupergroupFullInfoEvent at: 'description')].
 			
-	self core client send: (TCCRequest
+	self core send: (TCCRequest
 		newWithType: 'getSupergroupFullInfo'
 		from: {'supergroup_id'->self groupId.
 			'@extra'->callbackID}).
