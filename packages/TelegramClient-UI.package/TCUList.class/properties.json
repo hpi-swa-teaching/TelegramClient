@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "rs 6/17/2020 21:32",
+	"commentStamp" : "",
 	"instvars" : [
-		"messages",
-		"chat" ],
-	"name" : "TCUChatMessageList",
+		 ],
+	"name" : "TCUList",
 	"pools" : [
 		 ],
-	"super" : "TCUList",
+	"super" : "ScrollPane",
 	"type" : "normal" }
