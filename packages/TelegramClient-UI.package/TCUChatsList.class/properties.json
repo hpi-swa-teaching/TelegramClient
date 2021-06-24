@@ -8,8 +8,7 @@
 	"instvars" : [
 		"items",
 		"selectedChat",
-		"chats",
-		"content" ],
+		"chats" ],
 	"name" : "TCUChatsList",
 	"pools" : [
 		 ],

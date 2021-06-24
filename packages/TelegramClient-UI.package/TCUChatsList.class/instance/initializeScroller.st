@@ -1,7 +1,6 @@
 initialization
 initializeScroller
 
-	self content: (Morph new
+	self scroller
 		layoutPolicy: TableLayout new;
-		listDirection: #topToBottom).
-	self scroller addMorph: self content.
+		listDirection: #topToBottom.

@@ -1,8 +1,8 @@
 initialization
 initializeScroller
 
-	self content: (Morph new
+	self scroller
 		layoutPolicy: TableLayout new;
 		listDirection: #topToBottom;
-		color: Color white).
-	self scroller addMorph: self content.
+		cellPositioning: #bottomLeft;
+		color: Color white.

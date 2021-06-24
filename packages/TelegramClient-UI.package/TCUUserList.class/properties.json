@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "per 6/3/2021 17:49",
 	"instvars" : [
-		"content",
 		"loadButton",
 		"chat" ],
 	"name" : "TCUUserList",
