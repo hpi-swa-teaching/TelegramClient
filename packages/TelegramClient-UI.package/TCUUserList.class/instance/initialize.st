@@ -2,6 +2,6 @@ initialization
 initialize
 
 	super initialize.
-	self initializeContent.
+	self initializeScroller.
 	self loadButton: self createUserListButton.
 	self addUsers.

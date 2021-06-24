@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 	self
-		initializeContent;
+		initializeScroller;
 		width: self class defaultWidth;
 		color: Color white;
 		borderWidth: 0;

@@ -4,7 +4,8 @@ initialize
 	super initialize.
 
 	self
-		initializeContent;
+		initializeScroller;
 		borderWidth: 0;
 		chat: TCCNullChat new;
-		messages: OrderedCollection new.
+		messages: OrderedCollection new;
+		alwaysShowVScrollBar.

@@ -1,4 +1,4 @@
 accessing
-messages: anOrderedList
+messages: anOrderedCollection
 
-	messages := anOrderedList.
+	messages := anOrderedCollection.
