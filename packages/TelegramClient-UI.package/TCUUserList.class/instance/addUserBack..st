@@ -5,4 +5,5 @@ addUserBack: aUser
 		contents: aUser fullName;
 		autoFit: false; 
 		hResizing: #spaceFill;
-		lock; yourself).
+		lock; 
+		yourself).

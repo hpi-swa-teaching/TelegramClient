@@ -11,5 +11,5 @@
 	"name" : "TCUUserList",
 	"pools" : [
 		 ],
-	"super" : "ScrollPane",
+	"super" : "TCUList",
 	"type" : "normal" }

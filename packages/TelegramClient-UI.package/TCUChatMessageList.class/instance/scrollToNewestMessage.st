@@ -1,4 +1,4 @@
 accessing
 scrollToNewestMessage
 
-	self messages notEmpty ifTrue: [self scrollToShow: self messages last].
+	self items notEmpty ifTrue: [self scrollToShow: self items last].

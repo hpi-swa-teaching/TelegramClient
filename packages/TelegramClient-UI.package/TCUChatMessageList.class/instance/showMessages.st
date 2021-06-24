@@ -2,6 +2,6 @@ accessing
 showMessages
 
 	self
-		clearMessages;
+		clearItems;
 		addMessages;
 		scrollToNewestMessage.
