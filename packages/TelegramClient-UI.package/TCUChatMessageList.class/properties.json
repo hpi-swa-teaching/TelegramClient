@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "rs 6/17/2020 21:32",
 	"instvars" : [
-		"chat" ],
+		"chat",
+		"loaded" ],
 	"name" : "TCUChatMessageList",
 	"pools" : [
 		 ],

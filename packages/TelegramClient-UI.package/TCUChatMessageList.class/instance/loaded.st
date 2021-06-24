@@ -1,0 +1,3 @@
+accessing
+loaded
+	^ loaded
