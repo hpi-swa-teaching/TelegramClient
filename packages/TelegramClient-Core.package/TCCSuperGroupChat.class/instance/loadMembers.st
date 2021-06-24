@@ -7,8 +7,8 @@ loadMembers
 			self addMembersFrom: (aSupergroupMembersEvent at: 'members')].
 	
 	self core send: (
-		TCCRequest newGetSuperGroupMembers: self groupId
+		TCCRequest newGetSuperGroupMembersOf: self groupId
 			with: self members size
-			with: 'limit'->self class defaultLimit
+			until: self class defaultLimit
 			with: callbackID
 	).

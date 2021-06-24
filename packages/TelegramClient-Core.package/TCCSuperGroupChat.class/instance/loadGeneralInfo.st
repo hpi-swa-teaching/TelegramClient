@@ -8,4 +8,4 @@ loadGeneralInfo
 				memberCount: (aSupergroupFullInfoEvent at: 'member_count');
 				description: (aSupergroupFullInfoEvent at: 'description')].
 			
-	self core send: (TCCRequest newGetSuperGroupFullInfo: self groupId with: callbackId).
+	self core send: (TCCRequest newGetSuperGroupFullInfoOf: self groupId with: callbackId).

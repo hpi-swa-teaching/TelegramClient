@@ -1,5 +1,5 @@
 instance creation
-newGetSuperGroupMembers: aGroupId with: anOffset with: aLimit with: anExtraString
+newGetSuperGroupMembersOf: aGroupId with: anOffset until: aLimit with: anExtraString
 
 	^ TCCRequest
 		newWithType: 'getSupergroupMembers'
