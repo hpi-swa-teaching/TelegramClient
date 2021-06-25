@@ -11,4 +11,4 @@ initialize
 		imageStore: (TCCImageStore newWith: self);
 		callbackCounter: 0.
 
-	[self receiveLoop] fork.
+	[self receiveLoop] forkAt: Processor userBackgroundPriority.
