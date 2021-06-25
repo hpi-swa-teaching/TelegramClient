@@ -1,4 +1,4 @@
-message
+message - json
 mockPhotoMessageJsonFrom: aChatId
 
 	^ (JsonObject newFrom: {
@@ -42,5 +42,5 @@ mockPhotoMessageJsonFrom: aChatId
 				}).
 			}).
 			'is_outgoing' -> false.
-			'date' -> self mockMessageDate
+			'date' -> self mockMessageTimestamp
 		})

@@ -2,5 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testMessageHasTextRepresentation" : "RK 6/25/2021 15:05",
 		"testMessageShouldNotNotify" : "per 6/18/2021 09:28",
-		"testMessageShouldNotify" : "per 6/18/2021 09:28" } }
+		"testMessageShouldNotify" : "per 6/18/2021 09:28",
+		"testNotSupportedMessageTypeIdentifiedCorrectly" : "RK 6/25/2021 14:52",
+		"testPhotoMessageTypeIdentifiedCorrectly" : "RK 6/25/2021 14:51",
+		"testTextMessageTypeIdentifiedCorrectly" : "RK 6/25/2021 14:52" } }

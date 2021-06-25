@@ -1,5 +1,5 @@
 message - json
-mockMessageJsonFrom: aChatId
+mockAudioMessageJsonFrom: aChatId
 
 	^ (JsonObject newFrom: {
 			'@type' -> 'message'.
@@ -8,13 +8,10 @@ mockMessageJsonFrom: aChatId
 			'sender' -> (JsonObject newFrom: {
 				'@type' -> 'messageSenderUser'.
 				'user_id' -> self mockUser1 id
-				}).
+			}).
 			'content' -> (JsonObject newFrom: {
-				'@type' -> 'messageText'.
-				'text' -> (JsonObject newFrom: {
-					'text' -> self mockMessageText
-					})
-				}).
-				'is_outgoing' -> false.
-				'date' -> self mockMessageTimestamp
-			})
+				'@type' -> 'messageAudio'.
+			}).
+			'is_outgoing' -> false.
+			'date' -> self mockMessageTimestamp
+		})
