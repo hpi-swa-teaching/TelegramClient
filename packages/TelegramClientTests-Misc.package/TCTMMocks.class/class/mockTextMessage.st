@@ -8,4 +8,4 @@ mockTextMessage
 		isOutgoing: false;
 		date: self mockMessageDate;
 		id: self mockMessageID;
-		text: self mockMessageText
+		text: self mockText

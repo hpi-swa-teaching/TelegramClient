@@ -17,4 +17,4 @@ testMessageSenderTriggersUserRequest
 	self assert: self receivedMessage notNil.
 	self assert: TCTMMocks mockUser1 fullName equals: self receivedMessage sender fullName.
 	self assert: TCTMMocks mockPrivateChat id equals: self receivedMessage chat id.
-	self assert: TCTMMocks mockMessageText equals: self receivedMessage asText.
+	self assert: TCTMMocks mockText equals: self receivedMessage asText.

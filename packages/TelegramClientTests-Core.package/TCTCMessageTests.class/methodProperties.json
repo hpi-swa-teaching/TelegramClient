@@ -2,9 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testMessageHasTextRepresentation" : "RK 6/25/2021 15:05",
+		"testMessageCorrectlyConstructedFromJson" : "TR 6/25/2021 21:08",
+		"testMessageHasTextRepresentation" : "TR 6/25/2021 21:15",
 		"testMessageShouldNotNotify" : "per 6/18/2021 09:28",
 		"testMessageShouldNotify" : "per 6/18/2021 09:28",
-		"testNotSupportedMessageTypeIdentifiedCorrectly" : "RK 6/25/2021 14:52",
-		"testPhotoMessageTypeIdentifiedCorrectly" : "RK 6/25/2021 14:51",
-		"testTextMessageTypeIdentifiedCorrectly" : "RK 6/25/2021 14:52" } }
+		"testNotSupportedMessageTypeIdentifiedCorrectly" : "TR 6/25/2021 21:20",
+		"testPhotoMessageCorrectlyConstructedFromJson" : "TR 6/25/2021 21:15",
+		"testPhotoMessageTypeIdentifiedCorrectly" : "TR 6/25/2021 21:20",
+		"testTextMessageCorrectlyConstructedFromJson" : "TR 6/25/2021 21:20",
+		"testTextMessageTypeIdentifiedCorrectly" : "TR 6/25/2021 21:20" } }

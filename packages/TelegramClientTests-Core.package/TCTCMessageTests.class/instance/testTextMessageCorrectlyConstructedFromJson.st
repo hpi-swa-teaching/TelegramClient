@@ -1,5 +1,5 @@
 testing
-testTextMessageTypeIdentifiedCorrectly
+testTextMessageCorrectlyConstructedFromJson
 
 	| textMessageEvent chat textMessage |
 
@@ -7,7 +7,7 @@ testTextMessageTypeIdentifiedCorrectly
 	textMessageEvent := TCTMMocks mockMessageJsonFrom: chat id.
 	textMessage := TCCMessage newFromMessageEvent: textMessageEvent in: chat with: self core.
 	
-	self assert: TCCTextMessage equals: textMessage class.
+	self assert: TCTMMocks mockText equals: textMessage text.
 
 	
 

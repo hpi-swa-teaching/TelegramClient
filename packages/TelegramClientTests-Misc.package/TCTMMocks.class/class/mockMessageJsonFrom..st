@@ -1,20 +1,5 @@
 message - json
 mockMessageJsonFrom: aChatId
+"Use this mock if you don't care about the specific type of a message"
 
-	^ (JsonObject newFrom: {
-			'@type' -> 'message'.
-			'id' -> self mockMessageID.
-			'chat_id' -> aChatId.
-			'sender' -> (JsonObject newFrom: {
-				'@type' -> 'messageSenderUser'.
-				'user_id' -> self mockUser1 id
-				}).
-			'content' -> (JsonObject newFrom: {
-				'@type' -> 'messageText'.
-				'text' -> (JsonObject newFrom: {
-					'text' -> self mockMessageText
-					})
-				}).
-				'is_outgoing' -> false.
-				'date' -> self mockMessageTimestamp
-			})
+	^ self mockTextMessageJsonFrom: aChatId

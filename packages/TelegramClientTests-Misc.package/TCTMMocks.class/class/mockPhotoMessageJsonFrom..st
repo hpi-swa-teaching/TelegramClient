@@ -12,7 +12,7 @@ mockPhotoMessageJsonFrom: aChatId
 			'content' -> (JsonObject newFrom: {
 				'@type' -> 'messagePhoto'.
 				'caption' -> (JsonObject newFrom: {
-					'text' -> 'this is a photo caption'
+					'text' -> self mockText
 				}).
 				
 				'photo' -> (JsonObject newFrom: {
