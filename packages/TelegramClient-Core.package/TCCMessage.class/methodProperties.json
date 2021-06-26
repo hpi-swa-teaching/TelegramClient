@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newFromMessageEvent:in:with:" : "TR 6/20/2021 10:31",
+		"newFromMessageEvent:in:with:" : "RK 6/26/2021 11:19",
 		"timeStampToDateAndTime:" : "JB 5/16/2021 09:42" },
 	"instance" : {
 		"asText" : "TR 6/20/2021 10:13",
@@ -19,4 +19,5 @@
 		"sender" : "pk 6/11/2021 10:21",
 		"senderID" : "per 5/13/2021 08:49",
 		"senderID:" : "js 8/2/2020 22:00",
-		"shouldNotify" : "per 6/16/2021 17:35" } }
+		"shouldNotify" : "per 6/16/2021 17:35",
+		"snippet" : "RK 6/26/2021 11:19" } }
