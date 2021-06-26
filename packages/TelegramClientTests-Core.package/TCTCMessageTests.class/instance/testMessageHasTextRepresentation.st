@@ -5,7 +5,7 @@ testMessageHasTextRepresentation
 
 	textMessage := (TCTMMocks mockTextMessageWith: self core) asText.
 	photoMessage := (TCTMMocks mockPhotoMessageWith: self core) asText.
-	notSupportedMessage := TCTMMocks mockNotSupportedMessage asText.
+	notSupportedMessage := (TCTMMocks mockPhotoMessageWith: self core) asText.
 
 	self assert: TCTMMocks mockText equals: textMessage.
 	self assert: TCTMMocks mockText equals: photoMessage.
