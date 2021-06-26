@@ -8,8 +8,8 @@ setTDLibParams
 			'use_message_database' -> true.
 			'use_secret_chats' -> true.
 			'use_test_dc' -> self useTestDC.
-			'api_id' -> self apiID.
-			'api_hash' -> self apiHash.
+			'api_id' -> self class defaultApiID.
+			'api_hash' -> self class defaultApiHash.
 			'system_language_code' -> 'en'.
 			'device_model' -> 'Desktop'.
 			'system_version' -> self client specificClient type.
