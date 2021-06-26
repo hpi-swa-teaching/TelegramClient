@@ -1,4 +1,10 @@
 failures
 expectedSqueak5_2Failures
 
-	^ #(#testMessageShrinksCorrectly)
+	^ #(
+		#testMessageShrinksCorrectly
+		#testTextAndPhotoScaleCorrectlyLongCaption
+		#testTextAndPhotoScaleCorrectlyLongUserName
+		#testTextAndPhotoScaleCorrectlyNoCaption
+		#testTextAndPhotoScaleCorrectlyShortCaption
+	)

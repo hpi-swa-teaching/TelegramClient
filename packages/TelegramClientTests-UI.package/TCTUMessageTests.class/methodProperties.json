@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"expectedSqueak5_2Failures" : "RS 6/6/2021 15:43",
+		"expectedSqueak5_2Failures" : "tom.richter 6/26/2021 21:26",
 		"handleScreenShotTestFor:with:usedBy:" : "RK 6/26/2021 10:15",
 		"setUp" : "RK 6/26/2021 09:32",
 		"testMessageColorsDifferentForIncomingOutgoing" : "tom.richter 6/26/2021 17:23",
