@@ -3,8 +3,8 @@ testMessageColorsDifferentForIncomingOutgoing
 
 	| incomingMessage outgoingMessage |
 
-	outgoingMessage := TCTMMocks mockMessage.
-	incomingMessage := TCTMMocks mockMessage.
+	outgoingMessage := TCTMMocks mockMessageWith: self core.
+	incomingMessage := TCTMMocks mockMessageWith: self core.
 
 	outgoingMessage isOutgoing: true.
 	incomingMessage isOutgoing: false.
