@@ -1,4 +1,4 @@
-drawing
+constructing
 shrinkToContent
 
 	| maxWidth |

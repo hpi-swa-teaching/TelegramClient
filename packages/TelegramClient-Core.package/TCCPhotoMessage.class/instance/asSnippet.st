@@ -1,9 +1,8 @@
 accessing
-snippet
+asSnippet
 
 	self hasCaption ifTrue: [
-		^ 'Photo: ', caption
+		^ 'Photo: ', self caption
 	] ifFalse: [
 		^ 'Photo'
 	]
-	

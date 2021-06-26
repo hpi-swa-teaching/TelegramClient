@@ -13,6 +13,6 @@ updateLastMessage: anEvent
 					detect: [:e | ((e at: 'list') at: '@type') = 'chatListMain'])
 				at: 'order')].
 		
-		chat lastMessage: (TCCMessage newFromMessageEvent: messageJson in: chat with: self core) snippet.
+		chat lastMessage: (TCCMessage newFromMessageEvent: messageJson in: chat with: self core) asSnippet.
 
 		self core chats notify].

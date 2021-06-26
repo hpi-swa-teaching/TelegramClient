@@ -1,5 +1,6 @@
 message - json
 mockPhotoMessageJsonFrom: aChatId
+	"@linter-ignore"
 
 	^ (JsonObject newFrom: {
 			'@type' -> 'message'.
@@ -14,7 +15,6 @@ mockPhotoMessageJsonFrom: aChatId
 				'caption' -> (JsonObject newFrom: {
 					'text' -> self mockText
 				}).
-				
 				'photo' -> (JsonObject newFrom: {
 					'sizes' -> {
 						(JsonObject newFrom: {
@@ -23,14 +23,14 @@ mockPhotoMessageJsonFrom: aChatId
 								'id' -> 1
 							}).
 							'width' -> 100.
-						}). 
+						}).
 						(JsonObject newFrom: {
 							'height' -> 100.
 							'photo' -> (JsonObject newFrom: {
 								'id' -> 2
 							}).
 							'width' -> 200.
-						}). 
+						}).
 						(JsonObject newFrom: {
 							'height' -> 200.
 							'photo' -> (JsonObject newFrom: {

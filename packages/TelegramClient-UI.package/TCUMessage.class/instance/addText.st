@@ -1,4 +1,4 @@
-accessing
+constructing
 addText
 
 	self addMorphBack: (self class defaultTextMorph

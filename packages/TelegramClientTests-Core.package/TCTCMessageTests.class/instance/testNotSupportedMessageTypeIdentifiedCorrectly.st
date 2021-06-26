@@ -8,5 +8,3 @@ testNotSupportedMessageTypeIdentifiedCorrectly
 	notSupportedMessage := TCCMessage newFromMessageEvent: notSupportedMessageEvent in: chat with: self core.
 
 	self assert: TCCNotSupportedMessage equals: notSupportedMessage class.
-	
-

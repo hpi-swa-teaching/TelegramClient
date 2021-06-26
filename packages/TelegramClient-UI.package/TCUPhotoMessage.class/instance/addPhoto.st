@@ -1,4 +1,4 @@
-as yet unclassified
+constructing
 addPhoto
 
 	| photoForm |
@@ -8,4 +8,3 @@ addPhoto
 		photoForm := photoForm scaledToHeight: self class maxHeight.
 	].
 	self addMorphBack: photoForm asMorph.
-	

@@ -1,4 +1,4 @@
 converting
-snippet
+asSnippet
 
 	^ self class infoText

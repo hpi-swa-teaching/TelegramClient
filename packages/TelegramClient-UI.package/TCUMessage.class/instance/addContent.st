@@ -1,4 +1,4 @@
-initialization
+constructing
 addContent
 
 	self subclassResponsibility.

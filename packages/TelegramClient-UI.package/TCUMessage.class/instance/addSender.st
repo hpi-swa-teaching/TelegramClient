@@ -1,4 +1,4 @@
-drawing
+constructing
 addSender
 	
 	self addMorphBack: (self class defaultTextMorph

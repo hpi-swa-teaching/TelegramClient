@@ -1,4 +1,4 @@
-drawing
+constructing
 addDate
 
 	self addMorphBack: (self class defaultTextMorph
