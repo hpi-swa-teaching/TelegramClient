@@ -3,7 +3,7 @@ testMessageShrinksCorrectly
 
 	| message messageMorph |
 
-	message := TCTMMocks mockMessage.
+	message := TCTMMocks mockMessageWith: self core.
 	messageMorph := TCUMessage newFromTCCMessage: message.
 
 	self forceSaveScreenshotOf: messageMorph as: 'testMessageShrinksCorrectly' in: self class defaultTestResultPath.
