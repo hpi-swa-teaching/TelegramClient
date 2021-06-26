@@ -15,7 +15,7 @@ testTextAndPhotoScaleCorrectly
 	photoMessage4 := TCTMMocks mockPhotoMessageWith: self core.
 	photoMessage4 senderID: TCTMMocks mockUser2 id.
 
-	self handleScreenShotTestFor: photoMessage1 with: 1234 usedBy: 'testTextAndPhotoScaleCorrectly_longCaption'.
+	self handleScreenShotTestFor: photoMessage1 with: 45364912 usedBy: 'testTextAndPhotoScaleCorrectly_longCaption'.
 	self handleScreenShotTestFor: photoMessage2 with: 1234 usedBy: 'testTextAndPhotoScaleCorrectly_shortCaption'.
 	self handleScreenShotTestFor: photoMessage3 with: 1234 usedBy: 'testTextAndPhotoScaleCorrectly_noCaption'.
 	self handleScreenShotTestFor: photoMessage4 with: 1234 usedBy: 'testTextAndPhotoScaleCorrectly_longUserName'.
