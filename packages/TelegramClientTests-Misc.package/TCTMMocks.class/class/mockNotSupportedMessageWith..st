@@ -1,11 +1,10 @@
 message
-mockTextMessage
+mockNotSupportedMessageWith: aCore
 
-	^ TCCTextMessage new
+	^ TCCNotSupportedMessage new
 		chat: self mockPrivateChat;
-		core: self mockCore;
+		core: aCore;
 		senderID: self mockUser1 id;
 		isOutgoing: false;
 		date: self mockMessageDate;
-		id: self mockMessageID;
-		text: self mockText
+		id: self mockMessageID

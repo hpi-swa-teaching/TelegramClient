@@ -5,9 +5,9 @@
 		"expectedSqueak5_2Failures" : "RS 6/6/2021 15:43",
 		"handleScreenShotTestFor:with:usedBy:" : "RK 6/26/2021 10:15",
 		"setUp" : "RK 6/26/2021 09:32",
-		"testMessageColorsDifferentForIncomingOutgoing" : "RK 6/26/2021 10:16",
-		"testMessageContainsDate" : "RK 6/26/2021 10:15",
-		"testMessageContainsMessageSender" : "RK 6/26/2021 10:15",
-		"testMessageContainsMessageText" : "RK 6/26/2021 10:18",
-		"testMessageShrinksCorrectly" : "RK 6/26/2021 10:15",
-		"testTextAndPhotoScaleCorrectly" : "RK 6/26/2021 10:05" } }
+		"testMessageColorsDifferentForIncomingOutgoing" : "tom.richter 6/26/2021 17:23",
+		"testMessageContainsDate" : "tom.richter 6/26/2021 17:23",
+		"testMessageContainsMessageSender" : "tom.richter 6/26/2021 17:23",
+		"testMessageContainsMessageText" : "tom.richter 6/26/2021 17:25",
+		"testMessageShrinksCorrectly" : "tom.richter 6/26/2021 17:22",
+		"testTextAndPhotoScaleCorrectly" : "tom.richter 6/26/2021 17:22" } }

@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"testMessageCorrectlyConstructedFromJson" : "RK 6/26/2021 11:33",
-		"testMessageHasTextRepresentation" : "RK 6/26/2021 11:33",
+		"testMessageHasTextRepresentation" : "tom.richter 6/26/2021 17:19",
 		"testMessageShouldNotNotify" : "per 6/18/2021 09:28",
 		"testMessageShouldNotify" : "per 6/18/2021 09:28",
 		"testNotSupportedMessageTypeIdentifiedCorrectly" : "RK 6/26/2021 11:34",

@@ -3,7 +3,7 @@ testMessageContainsDate
 
 	| message |
 
-	message := TCTMMocks mockTextMessage.
+	message := (TCTMMocks mockTextMessageWith: self core).
 	message date: message date asUTC.
 
 	self wantsToTest: (TCUMessage newFrom: message).

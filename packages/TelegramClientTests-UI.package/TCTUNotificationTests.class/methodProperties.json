@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testMutedNotificationNotVisible" : "RK 6/26/2021 09:11",
+		"testMutedNotificationNotVisible" : "tom.richter 6/26/2021 17:22",
 		"testNotificationConstructor" : "TR 6/22/2021 09:50",
-		"testNotificationContainsMessage" : "RK 6/26/2021 09:12",
-		"testNotificationContainsSender" : "RK 6/26/2021 09:12",
+		"testNotificationContainsMessage" : "tom.richter 6/26/2021 17:22",
+		"testNotificationContainsSender" : "tom.richter 6/26/2021 17:21",
 		"testNotificationHidesPrivateChatTitle" : "TR 6/22/2021 09:53",
 		"testNotificationShowsGroupChatTitle" : "TR 6/22/2021 09:54",
-		"testUnmutedNotificationVisible" : "RK 6/26/2021 09:12" } }
+		"testUnmutedNotificationVisible" : "tom.richter 6/26/2021 17:19" } }

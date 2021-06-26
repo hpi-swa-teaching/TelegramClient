@@ -1,9 +1,9 @@
 message
-mockPhotoMessage
+mockPhotoMessageWith: aCore
 
 	^ TCCPhotoMessage new
 		chat: self mockPrivateChat;
-		core: self mockCore;
+		core: aCore;
 		senderID: self mockUser1 id;
 		isOutgoing: false;
 		date: self mockMessageDate;
