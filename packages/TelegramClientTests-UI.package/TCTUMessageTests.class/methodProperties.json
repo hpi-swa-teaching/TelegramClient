@@ -3,8 +3,11 @@
 		 },
 	"instance" : {
 		"expectedSqueak5_2Failures" : "RS 6/6/2021 15:43",
-		"testMessageColorsDifferentForIncomingOutgoing" : "pk 6/11/2021 10:28",
-		"testMessageContainsDate" : "pk 6/11/2021 10:28",
-		"testMessageContainsMessageSender" : "TR 6/13/2021 15:46",
-		"testMessageContainsMessageText" : "TR 6/25/2021 21:16",
-		"testMessageShrinksCorrectly" : "pk 6/13/2021 11:04" } }
+		"handleScreenShotTestFor:with:usedBy:" : "RK 6/26/2021 10:15",
+		"setUp" : "RK 6/26/2021 09:32",
+		"testMessageColorsDifferentForIncomingOutgoing" : "RK 6/26/2021 10:16",
+		"testMessageContainsDate" : "RK 6/26/2021 10:15",
+		"testMessageContainsMessageSender" : "RK 6/26/2021 10:15",
+		"testMessageContainsMessageText" : "RK 6/26/2021 10:18",
+		"testMessageShrinksCorrectly" : "RK 6/26/2021 10:15",
+		"testTextAndPhotoScaleCorrectly" : "RK 6/26/2021 10:05" } }

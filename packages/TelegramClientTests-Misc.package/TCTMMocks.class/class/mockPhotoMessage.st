@@ -11,4 +11,4 @@ mockPhotoMessage
 		caption: self mockText;
 		width: 521;
 		height: 265;
-		fileId: 3
+		fileId: self mockImageId

@@ -1,10 +1,10 @@
 instance creation
-newFromTCCMessage: aTCCMessage
+newFrom: aCoreMessage
 
-	^ (aTCCMessage class caseOf: {
+	^ (aCoreMessage class caseOf: {
 		[TCCTextMessage] -> [TCUTextMessage].
 		[TCCPhotoMessage] -> [TCUPhotoMessage].
 	} otherwise: [TCUTextMessage])
 	basicNew
-	messageModel: aTCCMessage;
+	messageModel: aCoreMessage;
 	initialize
