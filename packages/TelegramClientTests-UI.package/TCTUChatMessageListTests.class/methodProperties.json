@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"fillWithMessages" : "JB 6/26/2021 09:57",
+		"setUp" : "JB 6/26/2021 09:58",
+		"testAddingOldMessagesDoesNotScroll" : "JB 6/26/2021 09:58",
+		"testDisplayedChatReceivesMessages" : "JB 6/26/2021 10:03" } }
