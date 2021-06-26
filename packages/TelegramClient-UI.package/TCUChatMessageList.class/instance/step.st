@@ -1,5 +1,6 @@
 accessing
-step 
+step
 
-	self loaded ifTrue: [self scroller offset y < 50 ifTrue: [self core getChatHistoryFrom: self chat id]]
-	
+	self isLoadingHistory ifTrue:
+		[self scroller offset y < self class defaultScrollOffsetBeforeLoading
+			ifTrue: [self core getChatHistoryFrom: self chat id]].

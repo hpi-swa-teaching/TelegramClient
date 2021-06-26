@@ -3,7 +3,7 @@ addUserBack: aUser
 
 	self scroller addMorphBack: (TextMorph new
 		contents: aUser fullName;
-		autoFit: false; 
+		autoFit: false;
 		hResizing: #spaceFill;
-		lock; 
+		lock;
 		yourself).

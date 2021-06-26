@@ -1,9 +1,9 @@
 messages
 messageWrapper
 
-	^ Morph new 
+	^ Morph new
 		width: self scroller width;
 		cellInset: self class defaultMessageMargin;
-		color: Color transparent; 
+		color: Color transparent;
 		layoutPolicy: TableLayout new;
 		yourself

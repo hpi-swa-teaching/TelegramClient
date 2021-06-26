@@ -1,4 +1,4 @@
 messages
-core 
+core
 
 	^ self owner core

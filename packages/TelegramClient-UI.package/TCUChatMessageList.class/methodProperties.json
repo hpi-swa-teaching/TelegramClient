@@ -1,20 +1,20 @@
 {
 	"class" : {
-		"defaultMessageMargin" : "per 6/20/2021 11:51" },
+		"defaultMessageMargin" : "per 6/20/2021 11:51",
+		"defaultScrollOffsetBeforeLoading" : "JB 6/26/2021 10:15" },
 	"instance" : {
 		"addBottom:" : "per 6/24/2021 23:13",
 		"addMessages" : "per 6/24/2021 23:20",
-		"addTop:" : "per 6/24/2021 23:13",
+		"addTop:" : "JB 6/26/2021 10:21",
 		"chat" : "js 7/31/2020 16:39",
 		"chat:" : "js 7/31/2020 16:39",
-		"core" : "per 6/24/2021 23:24",
-		"displayChat:" : "per 6/24/2021 23:29",
-		"initialize" : "per 6/24/2021 23:29",
-		"loaded" : "per 6/24/2021 23:29",
-		"loaded:" : "per 6/24/2021 23:29",
-		"messageWrapper" : "per 6/24/2021 22:04",
-		"mouseWheel:" : "per 6/24/2021 23:23",
+		"core" : "JB 6/26/2021 10:22",
+		"displayChat:" : "JB 6/26/2021 10:17",
+		"initialize" : "JB 6/26/2021 10:17",
+		"isLoadingHistory" : "JB 6/26/2021 10:16",
+		"isLoadingHistory:" : "JB 6/26/2021 10:16",
+		"messageWrapper" : "JB 6/26/2021 10:22",
 		"scrollToNewestMessage" : "per 6/24/2021 23:14",
 		"showMessages" : "per 6/24/2021 23:12",
-		"step" : "per 6/24/2021 23:28",
-		"wrapperFor:" : "per 6/24/2021 22:05" } }
+		"step" : "JB 6/26/2021 10:22",
+		"wrapperFor:" : "JB 6/26/2021 10:23" } }

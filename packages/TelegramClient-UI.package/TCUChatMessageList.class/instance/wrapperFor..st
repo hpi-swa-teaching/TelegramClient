@@ -6,10 +6,9 @@ wrapperFor: aTCUMessage
 		height: aTCUMessage height;
 		yourself.
 	
-	aTCUMessage isOutgoing 
+	aTCUMessage isOutgoing
 		ifTrue: [ wrapper listDirection: #rightToLeft ]
 		ifFalse: [ wrapper listDirection: #leftToRight ].
 	
-	wrapper addMorph: aTCUMessage. 
+	wrapper addMorph: aTCUMessage.
 	^ wrapper
-	

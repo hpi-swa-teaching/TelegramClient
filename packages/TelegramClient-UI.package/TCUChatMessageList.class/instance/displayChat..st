@@ -7,4 +7,4 @@ displayChat: aChat
 	self
 		chat: aChat;
 		showMessages;
-		loaded: true.
+		isLoadingHistory: true.
