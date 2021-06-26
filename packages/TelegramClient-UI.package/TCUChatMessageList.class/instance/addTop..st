@@ -7,5 +7,5 @@ addTop: aMessage
 	self items addFirst: wrapper.
 	
 	self vScrollBar maximumValue = self vScrollBar value
-		ifTrue: [self scrollToShow: self items last].
+		ifTrue: [self scrollToNewestMessage].
 	self scrollBy: 0@(wrapper height negated).
