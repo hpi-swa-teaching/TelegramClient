@@ -1,5 +1,5 @@
 tests
-testMethodNotTooManyEmptyLines
+testMethodNoConsecutiveEmptyLines
 
 	self methodsLinesDo: [:lines |
 		1 to: lines size -1 do: [:index |

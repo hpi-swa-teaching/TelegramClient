@@ -1,4 +1,4 @@
 accessing
 isAlive
 
-	^ true
+	^ self freed not
