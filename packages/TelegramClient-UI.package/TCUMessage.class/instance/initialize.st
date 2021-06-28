@@ -5,7 +5,7 @@ initialize
 
 	self
 		initializeDefaults;
-		addText;
-		addDate;
 		addSender;
+		addContent;
+		addDate;
 		shrinkToContent.

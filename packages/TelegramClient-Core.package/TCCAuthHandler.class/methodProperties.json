@@ -1,13 +1,11 @@
 {
 	"class" : {
-		 },
+		"defaultApiHash" : "JB 6/26/2021 17:24",
+		"defaultApiID" : "JB 6/26/2021 17:23" },
 	"instance" : {
-		"apiHash" : "TR 4/27/2021 17:11",
-		"apiID" : "TR 4/27/2021 17:10",
 		"authState" : "R.S 5/18/2020 17:54",
 		"authState:" : "R.S 5/18/2020 17:54",
-		"checkAuthenticationCode:" : "js 6/13/2020 18:31",
-		"client" : "per 5/21/2021 16:55",
+		"checkAuthenticationCode:" : "RS 6/23/2021 16:35",
 		"core" : "per 5/21/2021 16:57",
 		"core:" : "per 5/21/2021 16:57",
 		"handleEvent:" : "JB 6/7/2021 11:15",
@@ -18,8 +16,8 @@
 		"isAwaitingDBEncryptionKey" : "r.s 7/15/2020 12:17",
 		"isAwaitingPhoneNumber" : "r.s 7/15/2020 12:17",
 		"isAwaitingTDLibParams" : "r.s 7/15/2020 12:17",
-		"logout" : "js 7/31/2020 14:13",
-		"sendPhoneNumber:" : "js 6/13/2020 18:54",
-		"setDBEncryptionKey:" : "rs 6/6/2020 16:26",
-		"setTDLibParams" : "RS 4/28/2021 21:38",
+		"logout" : "RS 6/23/2021 16:33",
+		"sendPhoneNumber:" : "RS 6/23/2021 16:34",
+		"setDBEncryptionKey:" : "RS 6/23/2021 16:35",
+		"setTDLibParams" : "JB 6/28/2021 10:14",
 		"useTestDC" : "rs 6/14/2020 12:40" } }

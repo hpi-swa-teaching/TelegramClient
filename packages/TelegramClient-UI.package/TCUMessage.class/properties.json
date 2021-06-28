@@ -4,13 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "rs 6/17/2020 21:31",
+	"commentStamp" : "RK 6/26/2021 11:39",
 	"instvars" : [
-		"text",
-		"senderID",
-		"isOutgoing",
-		"date",
-		"sender" ],
+		"messageModel" ],
 	"name" : "TCUMessage",
 	"pools" : [
 		 ],

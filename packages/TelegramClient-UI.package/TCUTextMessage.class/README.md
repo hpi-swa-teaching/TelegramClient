@@ -1,0 +1,1 @@
+a single text message displayed in a TCUMessageList

@@ -6,8 +6,8 @@ setUp
 		yourself).
 
 	1 to: 5 do: [:aNumber |
-		self chat messages add: (TCCMessage new
-			message: aNumber asString;
+		self chat messages add: (TCCTextMessage new
+			text: aNumber asString;
 			chat: self chat;
 			senderID: aNumber * 3;
 			id: aNumber * 4;

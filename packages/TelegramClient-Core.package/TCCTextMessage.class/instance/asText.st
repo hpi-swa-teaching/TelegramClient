@@ -1,0 +1,4 @@
+accessing
+asText
+
+	^ self text

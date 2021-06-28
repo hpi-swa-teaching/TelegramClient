@@ -1,4 +1,4 @@
 accessing
 text
 
-	^ text
+	^ self messageModel asText

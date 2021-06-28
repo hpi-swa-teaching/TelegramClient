@@ -1,0 +1,4 @@
+message
+mockPhotoWidth
+
+	^ 521

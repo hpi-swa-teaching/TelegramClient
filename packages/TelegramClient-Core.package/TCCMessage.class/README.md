@@ -1,1 +1,1 @@
-represantation of a single text message in a chat
+super-dataclass for messages of all types

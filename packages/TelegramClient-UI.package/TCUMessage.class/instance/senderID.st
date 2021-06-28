@@ -1,4 +1,4 @@
 accessing
 senderID
 
-	^ senderID
+	^ self messageModel senderID

@@ -2,7 +2,7 @@ testing
 testUnmutedNotificationVisible
 
 	| message |
-	message := TCTMMocks mockMessage.
+	message := TCTMMocks mockTextMessageWith: self core.
 	message chat: TCTMMocks mockPrivateChat.
 	TCUMain basicNew newMessageReceived: message.
 	1 seconds wait.

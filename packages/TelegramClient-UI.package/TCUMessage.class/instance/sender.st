@@ -1,4 +1,4 @@
 accessing
 sender
 
-	^ sender
+	^ self messageModel sender

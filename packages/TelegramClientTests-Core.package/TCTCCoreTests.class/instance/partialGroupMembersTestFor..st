@@ -1,7 +1,7 @@
 testing
 partialGroupMembersTestFor: aChat
 
-	self core users: TCTMMocks mockUserPromises.
+	self core users: TCTMMocks mockUserStore.
 	aChat core: self core.
 	aChat loadInfo.
 	1 seconds wait.

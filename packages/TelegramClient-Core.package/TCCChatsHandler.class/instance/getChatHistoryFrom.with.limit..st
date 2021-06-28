@@ -1,16 +1,10 @@
 library calls
-getChatHistoryFrom: aChatID with: aMessageId limit: aLimit
+getChatHistoryFrom: aChatId with: aMessageId limit: aLimit
 
 	| chat |
 
-	chat := self core chats getChat: aChatID.
+	chat := self core chats getChat: aChatId.
 	chat ifNotWaitingForUpdate: [
-		self client send: (TCCRequest
-			newWithType: 'getChatHistory'
-			from: {'chat_id' -> aChatID.
-					'from_message_id' -> aMessageId.
-					'offset' -> 0.
-					'limit' -> aLimit.
-					'only_local' -> false}).
-
-		chat requestMessages: aLimit].
+		self core send: (TCCRequest newGetChatHistoryOf: aChatId from: aMessageId until: aLimit).
+		chat requestMessages: aLimit
+	].

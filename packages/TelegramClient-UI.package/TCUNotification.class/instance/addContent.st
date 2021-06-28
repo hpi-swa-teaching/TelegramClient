@@ -8,6 +8,6 @@ addContent
 	contents: ((self chatTitle) asText);
 	lock).
 	self addMorph: (TextMorph new position: (self center + self class defaultMessageOffset);
-		contents: ((self message message withNoLineLongerThan: self class defaultLineLength) truncateWithElipsisTo: self class defaultMessageLength) asText;
+		contents: ((self message asText withNoLineLongerThan: self class defaultLineLength) truncateWithElipsisTo: self class defaultMessageLength) asText;
 		width: self class defaultMessageWidth;
 		lock)

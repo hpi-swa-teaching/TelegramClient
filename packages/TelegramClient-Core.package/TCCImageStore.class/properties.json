@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pk 6/19/2021 16:13",
+	"instvars" : [
+		"core" ],
+	"name" : "TCCImageStore",
+	"pools" : [
+		 ],
+	"super" : "Dictionary",
+	"type" : "normal" }
