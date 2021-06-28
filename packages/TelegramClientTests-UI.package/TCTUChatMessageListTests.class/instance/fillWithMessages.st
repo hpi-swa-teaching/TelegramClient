@@ -1,4 +1,4 @@
-testing
+running
 fillWithMessages
 
 	self subject addAtBottom: ((TCTMMocks mockMessageWith: self core) message: 'First message').

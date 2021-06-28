@@ -8,4 +8,4 @@ addAtTop: aMessage
 	
 	self vScrollBar maximumValue = self vScrollBar value
 		ifTrue: [self scrollToNewestMessage].
-	self scrollBy: 0@(wrapper height negated).
+	self scrollBy: 0 @ (wrapper height negated).
