@@ -2,7 +2,7 @@ messages
 addAtTop: aMessage
 
 	| wrapper |
-	wrapper := self wrapperFor: (TCUMessage newFromTCCMessage: aMessage).
+	wrapper := self wrapperFor: (TCUMessage newFrom: aMessage).
 	self scroller addMorphFront: wrapper.
 	self items addFirst: wrapper.
 	
