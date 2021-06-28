@@ -1,4 +1,4 @@
-events
+event handling
 handleEvent: anEvent
 
 	| update |

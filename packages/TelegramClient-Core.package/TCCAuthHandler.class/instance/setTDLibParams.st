@@ -1,7 +1,7 @@
 library calls
 setTDLibParams
 
- 	self client send: (TCCRequest
+ 	self core send: (TCCRequest
 		newWithType: 'setTdlibParameters'
 		from: {'parameters' -> (Dictionary newFrom: {
 			'database_directory' -> (FileDirectory default fullName , '/tdlib').
@@ -12,6 +12,6 @@ setTDLibParams
 			'api_hash' -> self apiHash.
 			'system_language_code' -> 'en'.
 			'device_model' -> 'Desktop'.
-			'system_version' -> self client specificClient type.
+			'system_version' -> self core client specificClient type.
 			'application_version' -> '1.0'.
 			'enable_storage_optimizer' -> true})}).
