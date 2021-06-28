@@ -3,6 +3,6 @@ testDisplayedChatReceivesNewMessage
 
 	| newMessage |
 
-	newMessage := (TCTMMocks mockMessageWith: self core) message: 'New message'.
+	newMessage := (TCTMMocks mockTextMessageWith: self core) text: 'New message'.
 	self subject chat addNewestMessage: newMessage.
-	self assertReading: newMessage message inMorph: self subject scroller submorphs last.
+	self assertReading: newMessage asText inMorph: self subject scroller submorphs last.

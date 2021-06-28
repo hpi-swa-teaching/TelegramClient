@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"fillWithMessages" : "JB 6/28/2021 09:48",
+		"fillWithMessages" : "per 6/28/2021 16:22",
 		"setUp" : "JB 6/28/2021 09:50",
-		"testAddingOldMessagesDoesNotScroll" : "JB 6/28/2021 10:02",
-		"testDisplayedChatLoadsOldMessage" : "JB 6/28/2021 09:53",
-		"testDisplayedChatReceivesNewMessage" : "JB 6/28/2021 09:55" } }
+		"testAddingOldMessagesDoesNotScroll" : "per 6/28/2021 16:23",
+		"testDisplayedChatLoadsOldMessage" : "per 6/28/2021 16:23",
+		"testDisplayedChatReceivesNewMessage" : "per 6/28/2021 16:23" } }
