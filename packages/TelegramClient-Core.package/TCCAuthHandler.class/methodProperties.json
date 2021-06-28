@@ -1,9 +1,8 @@
 {
 	"class" : {
-		 },
+		"defaultApiHash" : "JB 6/26/2021 17:24",
+		"defaultApiID" : "JB 6/26/2021 17:23" },
 	"instance" : {
-		"apiHash" : "TR 4/27/2021 17:11",
-		"apiID" : "TR 4/27/2021 17:10",
 		"authState" : "R.S 5/18/2020 17:54",
 		"authState:" : "R.S 5/18/2020 17:54",
 		"checkAuthenticationCode:" : "RS 6/23/2021 16:35",
@@ -20,5 +19,5 @@
 		"logout" : "RS 6/23/2021 16:33",
 		"sendPhoneNumber:" : "RS 6/23/2021 16:34",
 		"setDBEncryptionKey:" : "RS 6/23/2021 16:35",
-		"setTDLibParams" : "RS 6/23/2021 16:15",
+		"setTDLibParams" : "JB 6/28/2021 10:14",
 		"useTestDC" : "rs 6/14/2020 12:40" } }
