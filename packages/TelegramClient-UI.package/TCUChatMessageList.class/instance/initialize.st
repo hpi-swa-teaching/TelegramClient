@@ -5,5 +5,5 @@ initialize
 
 	self
 		chat: TCCNullChat new;
-		clipSubmorphs: true;
-		messages: OrderedCollection new.
+		alwaysShowVScrollBar;
+		isLoadingHistory: false.

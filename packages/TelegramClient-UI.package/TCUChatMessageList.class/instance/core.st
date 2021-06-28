@@ -1,4 +1,4 @@
-event handling
+accessing
 core
 
 	^ self owner core

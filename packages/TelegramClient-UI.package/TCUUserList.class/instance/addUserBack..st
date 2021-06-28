@@ -1,6 +1,9 @@
 drawing
 addUserBack: aUser
 
-	self content addMorphBack: (TextMorph new
+	self scroller addMorphBack: (TextMorph new
 		contents: aUser fullName;
-		lock).
+		autoFit: false;
+		hResizing: #spaceFill;
+		lock;
+		yourself).

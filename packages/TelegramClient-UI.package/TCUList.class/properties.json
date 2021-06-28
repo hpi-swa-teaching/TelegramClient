@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "per 6/3/2021 17:49",
+	"commentStamp" : "JB 6/26/2021 10:20",
 	"instvars" : [
-		"loadButton",
-		"chat" ],
-	"name" : "TCUUserList",
+		"items" ],
+	"name" : "TCUList",
 	"pools" : [
 		 ],
-	"super" : "TCUList",
+	"super" : "ScrollPane",
 	"type" : "normal" }

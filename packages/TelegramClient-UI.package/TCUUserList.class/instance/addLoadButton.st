@@ -1,4 +1,4 @@
 drawing
 addLoadButton
 
-	self content addMorphBack: self loadButton.
+	self scroller addMorphBack: self loadButton.
