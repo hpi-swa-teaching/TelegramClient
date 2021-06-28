@@ -1,4 +1,4 @@
-messages
+accessing
 core
 
 	^ self owner core

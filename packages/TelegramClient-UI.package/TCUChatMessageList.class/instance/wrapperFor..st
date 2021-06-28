@@ -2,7 +2,8 @@ messages
 wrapperFor: aTCUMessage
 	
 	| wrapper |
-	wrapper := self messageWrapper
+	wrapper := self class defaultMessageWrapper
+		width: self scroller width;
 		height: aTCUMessage height;
 		yourself.
 	

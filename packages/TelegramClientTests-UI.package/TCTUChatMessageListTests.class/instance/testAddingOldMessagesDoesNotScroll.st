@@ -1,14 +1,15 @@
 testing
 testAddingOldMessagesDoesNotScroll
 
-	| offset loadedMessage secondTCUMessage |
+	| loadedMessage secondTCUMessage currentOffset previousOffset |
 
-	self fillWithMessages.
 	secondTCUMessage := self subject scroller submorphs second.
 	self subject scrollToShow: secondTCUMessage.
 	
 	loadedMessage := TCTMMocks mockMessage message: 'Loaded Message'.
-	self subject addTop: loadedMessage.
-	offset := self subject vScrollBar value.
+	self subject addAtTop: loadedMessage.
+
+	previousOffset := self subject vScrollBar value.
 	self subject scrollToShow: secondTCUMessage.
-	self assert: offset equals: self subject vScrollBar value.
+	currentOffset := self subject vScrollBar value.
+	self assert: previousOffset equals: currentOffset.

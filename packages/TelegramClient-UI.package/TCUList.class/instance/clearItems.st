@@ -1,4 +1,4 @@
-accessing
+drawing
 clearItems
 
 	self items do: [:anItem | anItem delete].

@@ -1,5 +1,5 @@
-initialization
-addTop: aMessage
+messages
+addAtTop: aMessage
 
 	| wrapper |
 	wrapper := self wrapperFor: (TCUMessage newFromTCCMessage: aMessage).

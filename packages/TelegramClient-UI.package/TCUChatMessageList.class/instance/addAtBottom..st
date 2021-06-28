@@ -1,5 +1,5 @@
-accessing
-addBottom: aMessage
+messages
+addAtBottom: aMessage
 
 	| wrapper |
 	wrapper := self wrapperFor: (TCUMessage newFromTCCMessage: aMessage).

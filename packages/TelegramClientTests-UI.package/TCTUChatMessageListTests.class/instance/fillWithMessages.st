@@ -1,6 +1,6 @@
 testing
 fillWithMessages
 
-	self subject addBottom: (TCTMMocks mockMessage message: 'First message').
-	self subject addBottom: (TCTMMocks mockMessage message: 'Second message').
-	self subject addBottom: (TCTMMocks mockMessage message: 'Third message').
+	self subject addAtBottom: ((TCTMMocks mockMessageWith: self core) message: 'First message').
+	self subject addAtBottom: ((TCTMMocks mockMessageWith: self core) message: 'Second message').
+	self subject addAtBottom: ((TCTMMocks mockMessageWith: self core) message: 'Third message').
