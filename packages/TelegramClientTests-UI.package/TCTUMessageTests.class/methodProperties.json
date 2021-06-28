@@ -2,9 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"expectedSqueak5_2Failures" : "RS 6/6/2021 15:43",
-		"testMessageColorsDifferentForIncomingOutgoing" : "RS 6/25/2021 13:04",
-		"testMessageContainsDate" : "RS 6/25/2021 13:04",
-		"testMessageContainsMessageSender" : "RS 6/25/2021 13:04",
-		"testMessageContainsMessageText" : "RS 6/25/2021 13:04",
-		"testMessageShrinksCorrectly" : "RS 6/25/2021 13:04" } }
+		"expectedSqueak5_2Failures" : "tom.richter 6/26/2021 21:26",
+		"handleScreenShotTestFor:with:usedBy:" : "RK 6/26/2021 10:15",
+		"setUp" : "RK 6/26/2021 09:32",
+		"testMessageColorsDifferentForIncomingOutgoing" : "tom.richter 6/26/2021 17:23",
+		"testMessageContainsDate" : "tom.richter 6/26/2021 17:23",
+		"testMessageContainsMessageSender" : "tom.richter 6/26/2021 17:23",
+		"testMessageContainsMessageText" : "tom.richter 6/26/2021 17:25",
+		"testMessageShrinksCorrectly" : "tom.richter 6/26/2021 21:04",
+		"testTextAndPhotoScaleCorrectlyLongCaption" : "tom.richter 6/26/2021 21:15",
+		"testTextAndPhotoScaleCorrectlyLongUserName" : "tom.richter 6/26/2021 21:22",
+		"testTextAndPhotoScaleCorrectlyNoCaption" : "tom.richter 6/26/2021 21:22",
+		"testTextAndPhotoScaleCorrectlyShortCaption" : "tom.richter 6/26/2021 21:16" } }

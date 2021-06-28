@@ -1,4 +1,4 @@
 accessing
 isOutgoing
 
-	^ isOutgoing
+	^ self messageModel isOutgoing

@@ -1,0 +1,4 @@
+accessing
+asSnippet
+
+	^ self text

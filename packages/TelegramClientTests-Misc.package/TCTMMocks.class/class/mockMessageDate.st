@@ -1,4 +1,4 @@
 message
 mockMessageDate
 
-	^ 1621267079
+	^ DateAndTime fromUnixTime: self mockMessageTimestamp

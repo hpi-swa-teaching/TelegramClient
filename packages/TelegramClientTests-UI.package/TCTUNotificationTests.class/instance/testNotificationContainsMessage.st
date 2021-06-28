@@ -1,5 +1,5 @@
 testing
 testNotificationContainsMessage
 
-	self wantsToTest: (TCUNotification newWithMessage: (TCTMMocks mockMessageWith: self core)).
-	self assertReading: TCTMMocks mockMessageText in: self subject.
+	self wantsToTest: (TCUNotification newWithMessage: (TCTMMocks mockTextMessageWith: self core)).
+	self assertReading: TCTMMocks mockText in: self subject.

@@ -2,7 +2,7 @@ messages
 addMessageAtBottom: aMessage
 
 	| newMessage |
-	newMessage := TCUMessage newFromTCCMessage: aMessage.
+	newMessage := TCUMessage newFrom: aMessage.
 
 	self messages do: [:message | message position: (message position - (0 @ (newMessage height + self class defaultMessageMargin)))].
 

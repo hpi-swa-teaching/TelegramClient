@@ -1,1 +1,1 @@
-a single message displayed in a TCUMessageList
+class with basic building instructions for the different message types

@@ -4,9 +4,8 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "f.w. 6/29/2020 17:05",
+	"commentStamp" : "RK 6/26/2021 11:36",
 	"instvars" : [
-		"message",
 		"chat",
 		"id",
 		"isOutgoing",

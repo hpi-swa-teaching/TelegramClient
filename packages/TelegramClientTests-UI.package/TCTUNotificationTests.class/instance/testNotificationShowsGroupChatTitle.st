@@ -4,7 +4,8 @@ testNotificationShowsGroupChatTitle
 	| chat message |
 
 	chat := TCTMMocks mockBasicGroupChat.
-	message := TCCMessage new
+	message := TCCTextMessage new
+		text: 'test';
 		chat: chat;
 		core: self core;
 		senderID: TCTMMocks mockUser1 id.

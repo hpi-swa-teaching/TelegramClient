@@ -1,4 +1,4 @@
 accessing
 date
 
-	^ date
+	^ self messageModel date
