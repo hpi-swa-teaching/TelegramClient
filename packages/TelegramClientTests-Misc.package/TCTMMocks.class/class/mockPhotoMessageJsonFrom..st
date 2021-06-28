@@ -32,11 +32,11 @@ mockPhotoMessageJsonFrom: aChatId
 							'width' -> 200.
 						}).
 						(JsonObject newFrom: {
-							'height' -> 200.
+							'height' -> self mockPhotoHeight.
 							'photo' -> (JsonObject newFrom: {
-								'id' -> 3
+								'id' -> self mockPhotoId
 							}).
-							'width' -> 400.
+							'width' -> self mockPhotoWidth.
 						}).
 					}.
 				}).

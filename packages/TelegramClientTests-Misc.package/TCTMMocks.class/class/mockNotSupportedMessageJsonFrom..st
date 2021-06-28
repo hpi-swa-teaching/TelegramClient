@@ -1,5 +1,5 @@
 message - json
-mockAudioMessageJsonFrom: aChatId
+mockNotSupportedMessageJsonFrom: aChatId
 
 	^ (JsonObject newFrom: {
 			'@type' -> 'message'.
@@ -10,7 +10,7 @@ mockAudioMessageJsonFrom: aChatId
 				'user_id' -> self mockUser1 id
 			}).
 			'content' -> (JsonObject newFrom: {
-				'@type' -> 'messageAudio'.
+				'@type' -> 'messageOfSomeTypeThatDoesNotExistInTelegram'.
 			}).
 			'is_outgoing' -> false.
 			'date' -> self mockMessageTimestamp

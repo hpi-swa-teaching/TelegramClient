@@ -9,6 +9,6 @@ testPhotoMessageCorrectlyConstructedFromJson
 
 	self assert: TCTMMocks mockText equals: photoMessage caption.
 	self assert: photoMessage hasCaption.
-	self assert: 3 equals: photoMessage fileId.
-	self assert: 200 equals: photoMessage height.
-	self assert: 400 equals: photoMessage width.
+	self assert: TCTMMocks mockPhotoId equals: photoMessage fileId.
+	self assert: TCTMMocks mockPhotoHeight equals: photoMessage height.
+	self assert: TCTMMocks mockPhotoWidth equals: photoMessage width.

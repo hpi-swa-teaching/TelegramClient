@@ -9,6 +9,6 @@ mockPhotoMessageWith: aCore
 		date: self mockMessageDate;
 		id: self mockMessageID;
 		caption: self mockText;
-		width: 521;
-		height: 265;
+		width: self mockPhotoWidth;
+		height: self mockPhotoHeight;
 		fileId: self mockImageId
