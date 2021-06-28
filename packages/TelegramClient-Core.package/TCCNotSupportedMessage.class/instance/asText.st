@@ -1,4 +1,4 @@
-converting
+accessing
 asText
 
 	^ self class infoText

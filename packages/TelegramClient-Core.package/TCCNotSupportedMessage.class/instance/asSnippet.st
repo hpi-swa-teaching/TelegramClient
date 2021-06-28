@@ -1,4 +1,4 @@
-converting
+accessing
 asSnippet
 
 	^ self class infoText

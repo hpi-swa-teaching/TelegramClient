@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 infoText
 
 	^ 'Message type not supported yet'
