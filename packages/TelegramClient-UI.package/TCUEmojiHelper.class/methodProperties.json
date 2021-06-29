@@ -1,6 +1,9 @@
 {
 	"class" : {
 		"decodeIntegers:" : "pk 6/29/2021 10:47",
-		"enrichString:" : "pk 6/29/2021 10:49" },
+		"decompose:" : "RK 6/29/2021 11:21",
+		"embedEmojisInto:" : "RK 6/29/2021 11:21",
+		"enrichString:" : "pk 6/29/2021 10:49",
+		"morphFor:" : "RK 6/29/2021 11:11" },
 	"instance" : {
 		 } }
