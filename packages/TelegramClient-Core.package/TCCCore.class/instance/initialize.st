@@ -11,4 +11,6 @@ initialize
 		imageStore: (TCCImageStore newWith: self);
 		callbackCounter: 0.
 
-	[self receiveLoop] forkAt: Processor userBackgroundPriority.
+	"Mac users report serious slowdowns when receiveLoop is running at lower priority"
+	"So we have to rely on just the delay"
+	[self receiveLoop] fork.
