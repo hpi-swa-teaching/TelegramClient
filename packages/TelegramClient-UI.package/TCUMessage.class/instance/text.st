@@ -1,4 +1,4 @@
 accessing
 text
 
-	^ self messageModel asText
+	^ TCUEmojiHelper enrichString: self messageModel asText
