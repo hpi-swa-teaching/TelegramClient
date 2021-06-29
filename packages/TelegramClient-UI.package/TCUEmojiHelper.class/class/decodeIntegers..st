@@ -1,6 +1,9 @@
 utility
 decodeIntegers: anIntegerArray
 
+	"simple decoding from UTF-16 to Unicode-Codepoints"
+	"https://stackoverflow.com/questions/43564445/how-to-map-unicode-codepoints-from-an-utf-16-file-using-c"
+
 	| c1 c2 index points |
 	points := OrderedCollection new.
 
