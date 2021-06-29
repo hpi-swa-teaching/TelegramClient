@@ -10,9 +10,6 @@ downloadArchive
 			nextPutAll: response content.
 		intermediatePath := FileDirectory default / 'emoji.zip'].
 	archive := ZipArchive new readFrom: intermediatePath fullName.
-	archive extractAllTo: 
-		((FileDirectory default directoryNamed: self defaultFolderName) 
-			assureExistence; 
-			yourself).
+	archive extractAllTo: self defaultDirectory.
 	archive close.
 	intermediatePath delete.
