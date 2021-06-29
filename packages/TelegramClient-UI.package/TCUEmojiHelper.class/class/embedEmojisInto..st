@@ -7,7 +7,7 @@ embedEmojisInto: aString
 			Text new 
 		into: [:aggregatedText :codePoint | 
 			(codePoint > 255) ifTrue: [
-				aggregatedText , (Text string: Character startOfHeader asString attribute: (TextAnchor new anchoredMorph: (self morphFor: codePoint))).
+				aggregatedText , (Text string: Character startOfHeader asString attribute: (TextAnchor new anchoredMorph: (self formFor: codePoint))).
 			] ifFalse: [
 				aggregatedText , ((Character value: codePoint) asText).
 			]

@@ -11,7 +11,7 @@ downloadArchive
 		intermediatePath := FileDirectory default / 'emoji.zip'].
 	archive := ZipArchive new readFrom: intermediatePath fullName.
 	archive extractAllTo: 
-		((FileDirectory default directoryNamed: 'emoji') 
+		((FileDirectory default directoryNamed: self defaultFolderName) 
 			assureExistence; 
 			yourself).
 	archive close.

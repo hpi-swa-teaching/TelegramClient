@@ -1,0 +1,4 @@
+utility
+defaultFolderName
+
+	^ 'emojis'
