@@ -1,8 +1,8 @@
 utility
-formFor: aCodePoint
+formFor: aString
 
 	 | fileName form |
-	fileName := aCodePoint printStringHex , '.png'.
+	fileName := aString , '.png'.
 	
 	(self defaultDirectory
 		fileExists: fileName) 

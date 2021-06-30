@@ -1,13 +1,18 @@
 {
 	"class" : {
-		"add:to:" : "pk 6/30/2021 14:24",
-		"addSingle:to:" : "pk 6/30/2021 14:24",
+		"add:to:" : "pk 6/30/2021 14:31",
+		"addSingle:to:" : "pk 6/30/2021 15:08",
 		"createUnicodeRunsFrom:" : "pk 6/30/2021 14:23",
+		"decodeUnicodeRun:" : "pk 6/30/2021 15:10",
 		"defaultDirectory" : "RK 6/29/2021 11:57",
 		"defaultFolderName" : "RK 6/29/2021 11:44",
 		"downloadArchive" : "RK 6/29/2021 11:57",
 		"downloadUrl" : "RK 6/29/2021 11:30",
-		"embedEmojisInto:" : "pk 6/30/2021 14:17",
-		"formFor:" : "RK 6/29/2021 12:20" },
+		"embedEmojisInto:" : "pk 6/30/2021 15:10",
+		"emojiExists:" : "pk 6/30/2021 14:56",
+		"findLongestRun:" : "pk 6/30/2021 15:10",
+		"formFor:" : "pk 6/30/2021 14:38",
+		"joinRun:" : "pk 6/30/2021 14:58",
+		"textFor:" : "pk 6/30/2021 14:45" },
 	"instance" : {
 		 } }
