@@ -1,14 +1,16 @@
 utility
 embedEmojisInto: aString
 
-	| decodedString |
-	decodedString := self decodeIntegers: (self decompose: aString).
-	^ decodedString inject: 
+	| reencoded runs |
+	self halt.
+	reencoded := (aString convertToEncoding: 'UTF-16') convertFromEncoding: 'UTF-16'.
+	runs := self createUnicodeRunsFrom: reencoded.
+	^ reencoded inject: 
 			Text new 
-		into: [:aggregatedText :codePoint | 
-			(codePoint > 255) ifTrue: [
-				aggregatedText , (Text string: Character startOfHeader asString attribute: (TextAnchor new anchoredMorph: (self formFor: codePoint))).
+		into: [:aggregatedText :char | 
+			(char codePoint > 255) ifTrue: [
+				aggregatedText , (Text string: Character startOfHeader asString attribute: (TextAnchor new anchoredMorph: (self formFor: char codePoint))).
 			] ifFalse: [
-				aggregatedText , ((Character value: codePoint) asText).
+				aggregatedText , ((Character value: char codePoint) asText).
 			]
 		].

@@ -1,12 +1,13 @@
 {
 	"class" : {
-		"decodeIntegers:" : "RK 6/29/2021 11:29",
-		"decompose:" : "RK 6/29/2021 11:21",
+		"add:to:" : "pk 6/30/2021 14:24",
+		"addSingle:to:" : "pk 6/30/2021 14:24",
+		"createUnicodeRunsFrom:" : "pk 6/30/2021 14:23",
 		"defaultDirectory" : "RK 6/29/2021 11:57",
 		"defaultFolderName" : "RK 6/29/2021 11:44",
 		"downloadArchive" : "RK 6/29/2021 11:57",
 		"downloadUrl" : "RK 6/29/2021 11:30",
-		"embedEmojisInto:" : "RK 6/29/2021 11:46",
+		"embedEmojisInto:" : "pk 6/30/2021 14:17",
 		"formFor:" : "RK 6/29/2021 12:20" },
 	"instance" : {
 		 } }
