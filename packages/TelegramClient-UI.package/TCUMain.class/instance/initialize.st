@@ -11,4 +11,4 @@ initialize
 		initializeChatWindow;
 		subscribeChatsList;
 		clipSubmorphs: true.
-	(TCUEmojiHelper areEmojisPresent) ifFalse: TCUEmojiHelper promptDownload.
+	(TCUEmojiHelper areEmojisPresent) ifFalse: [TCUEmojiHelper promptDownload].
