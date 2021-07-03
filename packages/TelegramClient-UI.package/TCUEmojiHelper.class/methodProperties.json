@@ -2,6 +2,7 @@
 	"class" : {
 		"add:to:" : "pk 6/30/2021 14:31",
 		"addSingle:to:" : "pk 6/30/2021 15:08",
+		"areEmojisPresent" : "pk 7/3/2021 11:02",
 		"createUnicodeRunsFrom:" : "pk 6/30/2021 14:23",
 		"decodeUnicodeRun:" : "pk 6/30/2021 15:10",
 		"defaultDirectory" : "RK 6/29/2021 11:57",
@@ -15,6 +16,7 @@
 		"findLongestRun:" : "pk 6/30/2021 15:10",
 		"formFor:" : "pk 7/3/2021 09:43",
 		"joinRun:" : "pk 6/30/2021 14:58",
+		"promptDownload" : "pk 7/3/2021 11:05",
 		"removeOptionalCharacters" : "pk 7/3/2021 10:55",
 		"removeOptionalCharactersFrom:" : "pk 7/3/2021 10:57",
 		"textFor:" : "pk 6/30/2021 14:45" },
