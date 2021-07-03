@@ -5,13 +5,5 @@ removeOptionalCharactersFrom: aFileName
 	optional := OrderedCollection newFrom: {'FE0F'}.
 	
 	codes :=(aFileName subStrings: '.') first subStrings: '-'.
-	codesCollection := codes inject: (OrderedCollection new) into: [ :newCodes :code |
-		(optional includes: code)  ifTrue: [
-			newCodes
-		] ifFalse: [
-			newCodes
-				add: code;
-				yourself
-		]	
-	].
+	codesCollection := codes asOrderedCollection removeAllSuchThat: [:code | optional includes: code].
 	^ (self joinRun: codesCollection) , self defaultFileExtension.
