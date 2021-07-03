@@ -1,0 +1,4 @@
+default values
+defaultFileExtension
+
+	^ '.png'

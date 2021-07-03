@@ -1,4 +1,4 @@
-utility
+downloading
 downloadArchive
 
 	| intermediatePath archive response |

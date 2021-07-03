@@ -1,4 +1,4 @@
-utility
+default values
 defaultFolderName
 
 	^ 'emojis'

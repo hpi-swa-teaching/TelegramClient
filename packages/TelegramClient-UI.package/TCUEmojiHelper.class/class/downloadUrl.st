@@ -1,4 +1,4 @@
-utility
+downloading
 downloadUrl
 
 	"Credits to OpenEmoji (https://openmoji.org)"

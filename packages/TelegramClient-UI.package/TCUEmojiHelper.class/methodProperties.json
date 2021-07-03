@@ -5,14 +5,17 @@
 		"createUnicodeRunsFrom:" : "pk 6/30/2021 14:23",
 		"decodeUnicodeRun:" : "pk 6/30/2021 15:10",
 		"defaultDirectory" : "RK 6/29/2021 11:57",
+		"defaultFileExtension" : "pk 7/3/2021 09:42",
 		"defaultFolderName" : "RK 6/29/2021 11:44",
 		"downloadArchive" : "RK 6/29/2021 11:57",
 		"downloadUrl" : "RK 6/29/2021 11:30",
 		"embedEmojisInto:" : "pk 6/30/2021 15:10",
 		"emojiExists:" : "pk 6/30/2021 14:56",
 		"findLongestRun:" : "pk 6/30/2021 15:10",
-		"formFor:" : "pk 6/30/2021 14:38",
+		"formFor:" : "pk 7/3/2021 09:43",
 		"joinRun:" : "pk 6/30/2021 14:58",
+		"removeOptionalCharacters" : "pk 7/3/2021 10:22",
+		"removeOptionalCharactersFrom:" : "pk 7/3/2021 10:30",
 		"textFor:" : "pk 6/30/2021 14:45" },
 	"instance" : {
 		 } }
