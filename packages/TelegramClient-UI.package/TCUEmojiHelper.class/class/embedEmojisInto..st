@@ -8,6 +8,7 @@ embedEmojisInto: aString
 	^ runs inject: Text new 
 		into: [:aggregatedText :runOrChar | 
 			(runOrChar species = OrderedCollection) ifTrue: [
+				runOrChar := self removeOptionalCharactersFrom: runOrChar.
 				aggregatedText , (self decodeUnicodeRun: runOrChar)
 			] ifFalse: [
 				aggregatedText , runOrChar asText.

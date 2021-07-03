@@ -1,9 +1,8 @@
 downloading
-removeOptionalCharactersFrom: aFileName
+removeOptionalCharactersFrom: aCollection
 
-	| optional codes codesCollection |
+	| optional |
 	optional := OrderedCollection newFrom: {'FE0F'}.
 	
-	codes :=(aFileName subStrings: '.') first subStrings: '-'.
-	codesCollection := codes asOrderedCollection removeAllSuchThat: [:code | optional includes: code].
-	^ (self joinRun: codesCollection) , self defaultFileExtension.
+	^ aCollection removeAllSuchThat: [:code | optional includes: code]
+
