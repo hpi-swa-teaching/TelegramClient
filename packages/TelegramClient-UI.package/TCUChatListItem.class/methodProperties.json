@@ -3,12 +3,12 @@
 		"defaultHeight" : "rs 7/4/2020 18:54",
 		"defaultLastMessageOffset" : "JB 6/11/2021 15:17",
 		"defaultMessagePreviewLength" : "JB 6/11/2021 15:17",
-		"defaultTitleLength" : "JB 6/11/2021 15:18",
+		"defaultTitleLength" : "RK 7/4/2021 13:30",
 		"defaultTitleOffset" : "JB 6/11/2021 15:18",
 		"newWithChat:width:" : "js 7/31/2020 18:48" },
 	"instance" : {
 		"addBorder" : "JB 6/11/2021 18:35",
-		"addLastMessage" : "JB 6/11/2021 15:18",
+		"addLastMessage" : "RK 7/4/2021 13:35",
 		"addTitle" : "JB 6/11/2021 15:18",
 		"chat" : "rs 6/17/2020 21:45",
 		"chat:" : "rs 6/17/2020 21:45",
@@ -16,4 +16,5 @@
 		"chatName" : "rs 6/17/2020 21:45",
 		"deselect" : "rs 6/13/2020 09:02",
 		"initialize" : "r.s 7/31/2020 14:43",
+		"lastMessage" : "RK 7/4/2021 13:34",
 		"select" : "TR 6/13/2021 16:02" } }
