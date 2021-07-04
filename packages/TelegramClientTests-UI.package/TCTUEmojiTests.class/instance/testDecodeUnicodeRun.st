@@ -6,4 +6,4 @@ testDecodeUnicodeRun
 	morph := text asMorph.
 
 	self forceSaveScreenshotOf: morph as: 'testDecodeUnicodeRun' in: self class defaultTestResultPath.
-	self assert: 231947180 equals: (self computeHashOf: (self takeScreenshotOf: morph)).
+	self assert: 151142536 equals: (self computeHashOf: (self takeScreenshotOf: morph)).
