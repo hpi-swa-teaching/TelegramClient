@@ -1,6 +1,6 @@
 emojis
 mockUnicodeRun1
 	
-	^ self mockSingleEmojiUnicodeRun 
+	^ self mockSingleEmojiUnicodeRun
 		add: '1F602';
 		yourself

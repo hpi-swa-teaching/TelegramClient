@@ -1,8 +1,8 @@
-default values
+downloading
 assureEmojis
 
 	self areEmojisPresent ifFalse: [
-		self 
+		self
 			downloadArchive;
 			removeOptionalCharacters
 	].

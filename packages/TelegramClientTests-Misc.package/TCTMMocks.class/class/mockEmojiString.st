@@ -6,4 +6,3 @@ mockEmojiString
 	^ self mockEmojiStringValues inject: '' into: [:all :value |
 			all , (Character value: value)
 		]
-	

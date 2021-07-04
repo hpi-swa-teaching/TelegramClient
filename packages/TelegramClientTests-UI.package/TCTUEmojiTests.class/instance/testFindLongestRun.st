@@ -1,6 +1,7 @@
-as yet unclassified
+testing
 testFindLongestRun
 
-	self assert: 3 equals: (TCUEmojiHelper findLongestRun: TCTMMocks mockUnicodeRun1).
+	| result |
 
-	
+	result := TCUEmojiHelper findLongestRun: TCTMMocks mockUnicodeRun1.
+	self assert: 3 equals: result.

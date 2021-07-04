@@ -1,4 +1,7 @@
-as yet unclassified
+testing
 testEmojiExists
 
-	self assert: true equals: (TCUEmojiHelper emojiExists:  '1F3F3-200D-1F308').
+	| result |
+	
+	result := TCUEmojiHelper emojiExists: '1F3F3-200D-1F308'.
+	self assert: true equals: result.

@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testFormFor
 
 	self assert: 180029188 equals: (self computeHashOf: (TCUEmojiHelper formFor: '1F3F3-200D-1F308')).

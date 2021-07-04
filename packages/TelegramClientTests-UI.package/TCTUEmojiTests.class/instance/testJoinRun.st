@@ -1,4 +1,7 @@
-as yet unclassified
+testing
 testJoinRun
 
-	self assert: '1F3F3-200D-1F308' equals: (TCUEmojiHelper joinRun: TCTMMocks mockSingleEmojiUnicodeRun).
+	| result |
+	
+	result := TCUEmojiHelper joinRun: TCTMMocks mockSingleEmojiUnicodeRun.
+	self assert: '1F3F3-200D-1F308' equals: result.

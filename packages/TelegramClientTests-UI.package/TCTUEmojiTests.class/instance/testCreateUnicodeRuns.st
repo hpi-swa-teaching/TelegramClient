@@ -1,7 +1,7 @@
-as yet unclassified
+testing
 testCreateUnicodeRuns
 
-	| expectedRuns |
+	| expectedRuns result |
 	expectedRuns := OrderedCollection new
 		add: $A;
 		add: TCTMMocks mockUnicodeRun1;
@@ -9,4 +9,5 @@ testCreateUnicodeRuns
 		add: TCTMMocks mockUnicodeRun2;
 		yourself.
 	
-	self assert: expectedRuns equals: (TCUEmojiHelper createUnicodeRunsFrom: TCTMMocks mockEmojiString).
+	result := TCUEmojiHelper createUnicodeRunsFrom: TCTMMocks mockEmojiString.
+	self assert: expectedRuns equals: result.

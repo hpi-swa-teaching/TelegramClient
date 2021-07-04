@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testDecodeUnicodeRun
 
 	| text morph |
