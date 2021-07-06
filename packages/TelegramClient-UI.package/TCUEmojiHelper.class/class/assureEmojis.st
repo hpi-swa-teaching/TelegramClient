@@ -4,5 +4,6 @@ assureEmojis
 	self areEmojisPresent ifFalse: [
 		self
 			downloadArchive;
-			removeOptionalCharacters
+			removeOptionalCharacters;
+			addCanary.
 	].

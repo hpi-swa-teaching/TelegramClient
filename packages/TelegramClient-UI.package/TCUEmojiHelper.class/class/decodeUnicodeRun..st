@@ -6,6 +6,6 @@ decodeUnicodeRun: aCollection
 	(runLength > 0) ifTrue: [
 		^ (self textFor: (self joinRun: (aCollection first: runLength))) ,
 			(self decodeUnicodeRun: (aCollection allButFirst: runLength))
-		] ifFalse: [
-			^ Text new
-		]
+	] ifFalse: [
+		^ Text new
+	]

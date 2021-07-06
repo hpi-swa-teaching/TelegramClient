@@ -1,4 +1,4 @@
-utility
+downloading
 areEmojisPresent
 
-	^ FileDirectory default directoryExists: self defaultFolderName
+	^ self defaultDirectory fileExists: self defaultCanaryName

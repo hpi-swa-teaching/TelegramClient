@@ -1,11 +1,8 @@
 unicode matching
 addSingle: aHexString to: aCollection
 	
-	(aCollection notEmpty and: [aCollection last species = OrderedCollection]) ifTrue: [
-		aCollection last add: aHexString.
-	] ifFalse: [
-		aCollection add: (OrderedCollection new
-			add: aHexString;
-			yourself).
+	(aCollection isEmpty or: [aCollection last isCharacter]) ifTrue: [
+		aCollection add: OrderedCollection new
 	].
+	aCollection last add: aHexString.
 	^ aCollection
