@@ -107,4 +107,4 @@ Group 13 of the 2020 SWT I module included [Rohan Sawahn](https://github.com/roh
 ## Acknowledgements
 This project uses assets from https://openmoji.org/ for Emoji support. These are downloaded when the client starts for the first time and not hosted in this repository.
 Each file is resized before being displayed and filenames are stripped of certain Unicode units after download. The contents of the files is not changed.
-OpenMoji is published under the Creative Commons Share Alike License 4.0 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/#). Their project is also hosted on [GitHub](https://github.com/hfg-gmuend/openmoji)
+OpenMoji is published under the Creative Commons Share Alike License 4.0 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/#). Their project is also hosted on [GitHub](https://github.com/hfg-gmuend/openmoji).
