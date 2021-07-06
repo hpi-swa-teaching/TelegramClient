@@ -5,5 +5,5 @@ add: aCharacter to: aRunCollection
 		aRunCollection add: aCharacter.
 	] ifFalse: [
 		self addSingle: aCharacter codePoint printStringHex to: aRunCollection.
-	]. 
+	].
 	^ aRunCollection
