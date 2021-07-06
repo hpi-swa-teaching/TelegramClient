@@ -7,4 +7,4 @@ findLongestRun: aCollection
 	(aCollection size < 2 or: [self emojiExists: (self joinRun: aCollection)]) ifTrue: [
 		^ aCollection size
 	].
-	^ self findLongestRun: aCollection allButLast.
+	^ self findLongestRun: aCollection allButLast

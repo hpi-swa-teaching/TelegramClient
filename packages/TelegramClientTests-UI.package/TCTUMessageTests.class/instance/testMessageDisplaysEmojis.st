@@ -8,4 +8,4 @@ testMessageDisplaysEmojis
 	messageMorph := TCUMessage newFrom: message.
 	
 	self forceSaveScreenshotOf: messageMorph as: 'testMessageDisplaysEmojis' in: self class defaultTestResultPath.
-	self assert: 50948999 equals: (self computeHashOf: (self takeScreenshotOf: messageMorph)).
+	self assert: 214134281 equals: (self computeHashOf: (self takeScreenshotOf: messageMorph)).

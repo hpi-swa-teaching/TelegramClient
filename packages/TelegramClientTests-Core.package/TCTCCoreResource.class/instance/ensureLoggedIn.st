@@ -7,6 +7,5 @@ ensureLoggedIn
 		self core loginWithTestData.
 		[self core authHandler isAuthorizationStateReady]
 			whileFalse: [1 seconds wait].
-		" todo: ensureReceivedAtLeastChat"
 		3 seconds wait.
 	].
