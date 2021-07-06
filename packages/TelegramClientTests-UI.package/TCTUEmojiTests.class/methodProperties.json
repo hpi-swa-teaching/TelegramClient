@@ -2,8 +2,6 @@
 	"class" : {
 		"defaultScreenshotBackgroundColor" : "pk 7/4/2021 15:17" },
 	"instance" : {
-		"defaultTimeout" : "RK 7/4/2021 13:55",
-		"setUp" : "RK 7/4/2021 14:05",
 		"testCreateUnicodeRuns" : "RK 7/4/2021 15:33",
 		"testDecodeUnicodeRun" : "pk 7/4/2021 15:17",
 		"testEmbedEmojisInto" : "pk 7/4/2021 15:17",
