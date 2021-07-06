@@ -2,6 +2,7 @@
 	"class" : {
 		"defaultScreenshotBackgroundColor" : "pk 7/4/2021 15:17" },
 	"instance" : {
+		"expectedSqueak5_2Failures" : "pk 7/6/2021 12:28",
 		"testCreateUnicodeRuns" : "RK 7/4/2021 15:33",
 		"testDecodeUnicodeRun" : "RK 7/6/2021 11:04",
 		"testEmbedEmojisInto" : "RK 7/6/2021 11:05",
