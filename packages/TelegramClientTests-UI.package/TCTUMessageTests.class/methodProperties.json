@@ -9,6 +9,7 @@
 		"testMessageContainsDate" : "tom.richter 6/26/2021 17:23",
 		"testMessageContainsMessageSender" : "tom.richter 6/26/2021 17:23",
 		"testMessageContainsMessageText" : "tom.richter 6/26/2021 17:25",
+		"testMessageDisplaysEmojis" : "pk 7/6/2021 09:33",
 		"testMessageShrinksCorrectly" : "tom.richter 6/26/2021 21:04",
 		"testTextAndPhotoScaleCorrectlyLongCaption" : "tom.richter 6/26/2021 21:15",
 		"testTextAndPhotoScaleCorrectlyLongUserName" : "tom.richter 6/26/2021 21:22",
