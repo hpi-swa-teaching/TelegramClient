@@ -10,5 +10,5 @@ newChatSelected: aChat
 		addTitleBar;
 		addHiddenInfoPage.
 
-	self messageListWindow show.
-	self messageListWindow displayChat: aChat.
+	self chatMessageList show.
+	self chatMessageList displayChat: aChat.

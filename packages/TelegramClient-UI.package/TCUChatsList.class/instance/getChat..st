@@ -1,4 +1,4 @@
 accessing
 getChat: aChatID
 
-	^self chats getChat: aChatID
+	^ self chats getChat: aChatID
