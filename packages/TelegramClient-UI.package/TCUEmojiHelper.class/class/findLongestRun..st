@@ -1,12 +1,10 @@
 utility
 findLongestRun: aCollection
 
-	(aCollection size < 2) ifTrue: [
+	(aCollection size > 10) ifTrue: [
+		^ self findLongestRun: (aCollection first: 10)
+	].
+	(aCollection size < 2 or: [self emojiExists: (self joinRun: aCollection)]) ifTrue: [
 		^ aCollection size
-	] ifFalse: [
-		(self emojiExists: (self joinRun: aCollection)) ifTrue: [
-			^ aCollection size
-		] ifFalse: [
-			^ self findLongestRun: aCollection allButLast
-		]
-	]
+	].
+	^ self findLongestRun: aCollection allButLast.
