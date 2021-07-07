@@ -1,5 +1,5 @@
 message - json
-mockPhotoMessageJsonFrom: aChatId
+mockPhotoMessageJsonWith: aChatId
 	"@linter-ignore"
 
 	^ (JsonObject newFrom: {

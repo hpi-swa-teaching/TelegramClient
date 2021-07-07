@@ -6,7 +6,7 @@ testMessageSenderTriggersUserRequest
 	self core chats add: TCTMMocks mockPrivateChat.
 
 	self receivedMessage: nil.
-	messageEvent := TCTMMocks mockMessageEventFrom: TCTMMocks mockPrivateChat id.
+	messageEvent := TCTMMocks mockMessageEventWith: TCTMMocks mockPrivateChat id.
 
 	self core handleEvent: messageEvent.
 	1 seconds wait.

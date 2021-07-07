@@ -4,7 +4,7 @@ testPhotoMessageCorrectlyConstructedFromJson
 	| photoMessageEvent chat photoMessage |
 
  	chat := TCTMMocks mockPrivateChat.
-	photoMessageEvent := TCTMMocks mockPhotoMessageJsonFrom: chat id.
+	photoMessageEvent := TCTMMocks mockPhotoMessageJsonWith: chat id.
 	photoMessage := TCCMessage newFromMessageEvent: photoMessageEvent in: chat with: self core.
 
 	self assert: TCTMMocks mockText equals: photoMessage caption.

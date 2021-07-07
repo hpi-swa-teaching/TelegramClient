@@ -8,4 +8,5 @@ mockUnloadedBasicGroupChat
 		type: 'chatTypeBasicGroup';
 		lastMessage: 'lastBasicGroupMessage';
 		canSendMessages: true;
+		muted: false;
 		yourself

@@ -7,4 +7,5 @@ mockUnloadedSuperGroupChat
 		type: 'chatTypeSupergroup';
 		lastMessage: 'lastSupergroupMessage';
 		canSendMessages: true;
+		muted: false;
 		yourself

@@ -1,9 +1,9 @@
 message - json
-mockTextMessageJsonFrom: aChatId
+mockTextMessageJsonWith: aChatId and: aMessageId and: aMessageString
 
 	^ (JsonObject newFrom: {
 			'@type' -> 'message'.
-			'id' -> self mockMessageID.
+			'id' -> aMessageId.
 			'chat_id' -> aChatId.
 			'sender' -> (JsonObject newFrom: {
 				'@type' -> 'messageSenderUser'.
@@ -12,7 +12,7 @@ mockTextMessageJsonFrom: aChatId
 			'content' -> (JsonObject newFrom: {
 				'@type' -> 'messageText'.
 				'text' -> (JsonObject newFrom: {
-					'text' -> self mockText
+					'text' -> aMessageString
 					})
 				}).
 				'is_outgoing' -> false.
