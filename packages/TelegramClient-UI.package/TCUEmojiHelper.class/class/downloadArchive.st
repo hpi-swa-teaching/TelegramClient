@@ -7,8 +7,8 @@ downloadArchive
 		response := WebClient httpGet: self downloadUrl.
 		stream
 			binary;
-			nextPutAll: response content.
-		intermediatePath := FileDirectory default / 'emoji.zip'].
+			nextPutAll: response content].
+	self defaultDirectory assureExistence.
 	(ZipArchive new readFrom: intermediatePath fullName)
 		extractAllTo: self defaultDirectory;
 		close.

@@ -1,9 +1,8 @@
 downloading
-assureEmojis
+ensureEmojisPresent
 
 	self areEmojisPresent ifFalse: [
 		self
 			downloadArchive;
-			removeOptionalCharacters;
-			addCanary.
+			removeOptionalCharacters.
 	].

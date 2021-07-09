@@ -7,11 +7,11 @@ embedEmojisInto: aString
 	runs := self createUnicodeRunsFrom: reencoded.
 	^ runs inject: Text new
 		into: [:aggregatedText :runOrChar |
-			(runOrChar species = OrderedCollection) ifTrue: [
-				| run |
-				run := self removeOptionalCharactersFrom: runOrChar.
-				aggregatedText , (self decodeUnicodeRun: run)
-			] ifFalse: [
-				aggregatedText , runOrChar asText.
+			(runOrChar isCollection) ifTrue: [
+					| run |
+					run := self removeOptionalCharactersFrom: runOrChar.
+					aggregatedText , (self decodeUnicodeRun: run)
+				] ifFalse: [
+					aggregatedText , runOrChar asText.
+				]
 			]
-		]

@@ -8,7 +8,7 @@
 		"newWithChat:width:" : "js 7/31/2020 18:48" },
 	"instance" : {
 		"addBorder" : "JB 6/11/2021 18:35",
-		"addLastMessage" : "RK 7/4/2021 13:35",
+		"addLastMessage" : "RK 7/9/2021 10:34",
 		"addTitle" : "JB 6/11/2021 15:18",
 		"chat" : "rs 6/17/2020 21:45",
 		"chat:" : "rs 6/17/2020 21:45",
@@ -16,5 +16,5 @@
 		"chatName" : "rs 6/17/2020 21:45",
 		"deselect" : "rs 6/13/2020 09:02",
 		"initialize" : "r.s 7/31/2020 14:43",
-		"lastMessage" : "RK 7/4/2021 15:44",
+		"lastMessageText" : "RK 7/9/2021 16:07",
 		"select" : "TR 6/13/2021 16:02" } }
