@@ -1,7 +1,7 @@
 emojis
 mockUnicodeRuns
 
-	^  OrderedCollection new
+	^ OrderedCollection new
 		add: $A;
 		add: TCTMMocks mockUnicodeRun1;
 		add: $C;

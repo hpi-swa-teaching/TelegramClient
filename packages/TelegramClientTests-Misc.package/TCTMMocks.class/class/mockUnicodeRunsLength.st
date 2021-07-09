@@ -1,4 +1,4 @@
 emojis
 mockUnicodeRunsLength
 
-	^  3
+	^ 3
