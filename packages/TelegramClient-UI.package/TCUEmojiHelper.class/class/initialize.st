@@ -1,5 +1,4 @@
-downloading
+class initialization
 initialize
 
-	super initialize.
 	self filenames: OrderedCollection new.
