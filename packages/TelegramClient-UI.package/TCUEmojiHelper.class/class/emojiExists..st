@@ -1,4 +1,4 @@
 utility
 emojiExists: aString
 
-	^ self defaultDirectory fileExists: (aString , '.png')
+	^ self filenames includes: (aString , '.png')
