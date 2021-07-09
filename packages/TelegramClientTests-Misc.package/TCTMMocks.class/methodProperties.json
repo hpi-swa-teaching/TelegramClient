@@ -11,6 +11,7 @@
 		"mockImageId" : "pk 6/19/2021 17:22",
 		"mockImagePath" : "pk 6/19/2021 18:06",
 		"mockImageResponseJson" : "pk 6/19/2021 18:21",
+		"mockInvalidEmoji" : "pk 7/9/2021 16:08",
 		"mockMembers" : "per 6/15/2021 08:25",
 		"mockMessageDate" : "TR 6/25/2021 21:07",
 		"mockMessageEventFrom:" : "RS 5/23/2021 17:56",
@@ -34,6 +35,8 @@
 		"mockTextMessageWith:" : "tom.richter 6/26/2021 17:21",
 		"mockUnicodeRun1" : "RK 7/4/2021 15:48",
 		"mockUnicodeRun2" : "pk 7/4/2021 15:08",
+		"mockUnicodeRuns" : "pk 7/9/2021 16:17",
+		"mockUnicodeRunsLength" : "pk 7/9/2021 16:20",
 		"mockUnloadedBasicGroupChat" : "per 6/15/2021 09:16",
 		"mockUnloadedSuperGroupChat" : "per 6/15/2021 09:16",
 		"mockUser1" : "TR 6/13/2021 15:03",
@@ -43,6 +46,7 @@
 		"mockUserJson2" : "per 6/10/2021 19:29",
 		"mockUserStore" : "RS 6/23/2021 16:00",
 		"mockUsers" : "TR 6/13/2021 15:15",
+		"mockValidEmoji" : "pk 7/9/2021 16:07",
 		"writeMockImage" : "pk 6/19/2021 17:36" },
 	"instance" : {
 		 } }

@@ -1,6 +1,4 @@
 default values
 defaultDirectory
 
-	^ (FileDirectory default directoryNamed: self defaultFolderName)
-			assureExistence;
-			yourself
+	^ FileDirectory default directoryNamed: self defaultFolderName

@@ -1,0 +1,4 @@
+emojis
+mockUnicodeRunsLength
+
+	^  3
