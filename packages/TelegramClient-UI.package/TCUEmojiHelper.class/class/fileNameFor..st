@@ -1,7 +1,7 @@
 utility
 fileNameFor: anEmoji
 
-	^ (anEmoji 
+	^ (anEmoji
 		inject: String new
-		into: [:name :unit | name , unit , '-']) 
+		into: [:name :unit | name , unit , '-'])
 		allButLast

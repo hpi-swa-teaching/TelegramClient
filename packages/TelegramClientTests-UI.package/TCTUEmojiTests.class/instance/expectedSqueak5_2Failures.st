@@ -2,6 +2,6 @@ failures
 expectedSqueak5_2Failures
 
 	^ #(
-		#testDecodeCharsAndEmojis
+		#testTextFrom
 		#testEmbedEmojisInto
 	)

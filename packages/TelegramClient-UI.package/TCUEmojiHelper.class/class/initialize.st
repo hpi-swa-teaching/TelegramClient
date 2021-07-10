@@ -1,6 +1,6 @@
 class initialization
 initialize
 
-	self 
+	self
 		fileNames: OrderedCollection new;
 		loadFileNames.

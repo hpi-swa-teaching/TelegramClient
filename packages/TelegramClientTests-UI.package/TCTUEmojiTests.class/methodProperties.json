@@ -2,13 +2,13 @@
 	"class" : {
 		"defaultScreenshotBackgroundColor" : "pk 7/4/2021 15:17" },
 	"instance" : {
-		"expectedSqueak5_2Failures" : "pk 7/10/2021 15:16",
-		"testDecodeCharsAndEmojis" : "pk 7/10/2021 15:30",
+		"expectedSqueak5_2Failures" : "pk 7/10/2021 16:30",
 		"testEmbedEmojisInto" : "RK 7/6/2021 11:05",
 		"testEmojiDoesNotExist" : "pk 7/9/2021 16:18",
 		"testEmojiExists" : "pk 7/9/2021 16:07",
 		"testEmojisArePresent" : "pk 7/9/2021 16:10",
+		"testFileNameFor" : "pk 7/10/2021 16:31",
 		"testFindFirstEmojiLength" : "pk 7/10/2021 15:59",
 		"testFormFor" : "pk 7/9/2021 16:09",
-		"testJoinEmoji" : "pk 7/10/2021 16:14",
-		"testSplitCharsAndEmojis" : "pk 7/10/2021 15:23" } }
+		"testSplitCharsAndEmojis" : "pk 7/10/2021 15:23",
+		"testTextFrom" : "pk 7/10/2021 16:30" } }

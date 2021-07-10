@@ -1,5 +1,5 @@
 testing
-testJoinEmoji
+testFileNameFor
 
 	self
 		assert: TCTMMocks mockValidEmoji
