@@ -3,4 +3,4 @@ testJoinEmoji
 
 	self
 		assert: TCTMMocks mockValidEmoji
-		equals: (TCUEmojiHelper joinEmoji: TCTMMocks mockSingleEmojiSequence).
+		equals: (TCUEmojiHelper fileNameFor: TCTMMocks mockSingleEmojiSequence).

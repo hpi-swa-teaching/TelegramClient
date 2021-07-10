@@ -1,5 +1,5 @@
 downloading
 promptDownload
 
-	UIManager default inform: 'Emojis are not present on your computer. Click Ok to download now.'.
+	UIManager default inform: 'Emojis are not present in this image. They will be downloaded now.'.
 	self assureEmojis.

@@ -2,7 +2,7 @@ utility
 formFor: aString
 
 	| fileName form |
-	fileName := aString , self defaultFileExtension.
+	fileName := aString , self defaultEmojiFileExtension.
 	
 	(self defaultDirectory
 		fileExists: fileName)

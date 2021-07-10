@@ -1,4 +1,4 @@
 downloading
-explodeFileName: aString
+splitFileName: aString
 
 	^ ((aString subStrings: '.') first subStrings: '-') asOrderedCollection
