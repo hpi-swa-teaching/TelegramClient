@@ -1,4 +1,4 @@
 class initialization
 initialize
 
-	self filenames: OrderedCollection new.
+	self filenames: self loadFileNames.
