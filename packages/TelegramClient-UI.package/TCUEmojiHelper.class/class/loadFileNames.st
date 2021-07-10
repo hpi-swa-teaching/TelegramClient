@@ -1,4 +1,4 @@
 downloading
 loadFileNames
 
-	self filenames: self defaultDirectory fileNames
+	self fileNames: self defaultDirectory fileNames

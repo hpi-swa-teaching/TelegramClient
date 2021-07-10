@@ -1,7 +1,7 @@
 {
 	"category" : "TelegramClient-UI",
 	"classinstvars" : [
-		"filenames" ],
+		"fileNames" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "pk 7/3/2021 11:16",

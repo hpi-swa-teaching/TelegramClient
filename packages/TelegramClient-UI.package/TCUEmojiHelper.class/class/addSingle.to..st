@@ -1,8 +1,8 @@
 unicode matching
-addSingle: aHexString to: aCollection
+addSingle: aHexString to: aCharAndEmojisCollection
 	
-	(aCollection isEmpty or: [aCollection last isCharacter]) ifTrue: [
-		aCollection add: OrderedCollection new
+	(aCharAndEmojisCollection isEmpty or: [aCharAndEmojisCollection last isCharacter]) ifTrue: [
+		aCharAndEmojisCollection add: OrderedCollection new
 	].
-	aCollection last add: aHexString.
-	^ aCollection
+	aCharAndEmojisCollection last add: aHexString.
+	^ aCharAndEmojisCollection

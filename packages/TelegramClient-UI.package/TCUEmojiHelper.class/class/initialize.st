@@ -2,5 +2,5 @@ class initialization
 initialize
 
 	self 
-		filenames: OrderedCollection new;
+		fileNames: OrderedCollection new;
 		loadFileNames.

@@ -1,9 +1,9 @@
 unicode matching
-add: aCharacter to: aRunCollection
+add: aCharacter to: aCharsAndEmojisCollection
 
 	(aCharacter isOctetCharacter) ifTrue: [
-		aRunCollection add: aCharacter.
+		aCharsAndEmojisCollection add: aCharacter.
 	] ifFalse: [
-		self addSingle: aCharacter codePoint printStringHex to: aRunCollection.
+		self addSingle: aCharacter codePoint printStringHex to: aCharsAndEmojisCollection.
 	].
-	^ aRunCollection
+	^ aCharsAndEmojisCollection

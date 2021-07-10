@@ -1,17 +1,15 @@
 utility
 embedEmojisInto: aString
 
-	| reencoded runs |
+	| reencoded charsAndEmojis |
 	
 	reencoded := (aString convertToEncoding: 'UTF-16') convertFromEncoding: 'UTF-16'.
-	runs := self createUnicodeRunsFrom: reencoded.
-	^ runs inject: Text new
-		into: [:aggregatedText :runOrChar |
-			(runOrChar species = OrderedCollection) ifTrue: [
-				| run |
-				run := self removeOptionalCharactersFrom: runOrChar.
-				aggregatedText , (self decodeUnicodeRun: run)
+	charsAndEmojis := self splitCharsAndEmojisIn: reencoded.
+	^ charsAndEmojis inject: Text new
+		into: [:aggregatedText :charOrEmojis |
+			(charOrEmojis isCharacter) ifTrue: [
+				aggregatedText , charOrEmojis asText.
 			] ifFalse: [
-				aggregatedText , runOrChar asText.
+				aggregatedText , (self textFrom: (self removeOptionalCharactersFrom: charOrEmojis))
 			]
 		]
