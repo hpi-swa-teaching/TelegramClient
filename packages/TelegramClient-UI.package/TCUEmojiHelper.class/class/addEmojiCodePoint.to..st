@@ -1,5 +1,5 @@
 unicode matching
-addSingle: aHexString to: aCharAndEmojisCollection
+addEmojiCodePoint: aHexString to: aCharAndEmojisCollection
 	
 	(aCharAndEmojisCollection isEmpty or: [aCharAndEmojisCollection last isCharacter]) ifTrue: [
 		aCharAndEmojisCollection add: OrderedCollection new

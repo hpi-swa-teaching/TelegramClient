@@ -1,10 +1,8 @@
 utility
 embedEmojisInto: aString
 
-	| reencoded charsAndEmojis |
-	
-	reencoded := (aString convertToEncoding: 'UTF-16') convertFromEncoding: 'UTF-16'.
-	charsAndEmojis := self splitCharsAndEmojisIn: reencoded.
+	| charsAndEmojis |
+	charsAndEmojis := self splitCharsAndEmojisIn: (self reencodeString: aString).
 	^ charsAndEmojis
 		inject: Text new
 		into: [:aggregatedText :charOrEmojis |

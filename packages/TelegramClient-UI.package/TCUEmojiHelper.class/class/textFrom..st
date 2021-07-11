@@ -1,11 +1,11 @@
 utility
 textFrom: anEmojiSequence
 
-	| runLength |
-	runLength := self findFirstEmojiLengthIn: anEmojiSequence.
-	(runLength > 0) ifTrue: [
-		^ (self textFor: (self fileNameFor: (anEmojiSequence first: runLength))) ,
-			(self textFrom: (anEmojiSequence allButFirst: runLength))
+	| emojiLength |
+	emojiLength := self findFirstEmojiLengthIn: anEmojiSequence.
+	(emojiLength > 0) ifTrue: [
+		^ (self textFor: (self fileNameFor: (anEmojiSequence first: emojiLength))) ,
+			(self textFrom: (anEmojiSequence allButFirst: emojiLength))
 	] ifFalse: [
 		^ Text new
 	]
