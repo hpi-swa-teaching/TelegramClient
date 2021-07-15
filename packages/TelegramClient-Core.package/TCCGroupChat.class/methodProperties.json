@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addMembersFrom:" : "per 6/15/2021 08:37",
+		"addMembersFrom:" : "per 7/15/2021 12:55",
 		"canLoadMoreMembers" : "per 6/15/2021 08:37",
 		"description" : "RS 5/29/2021 18:44",
 		"description:" : "RS 5/29/2021 18:44",
@@ -10,6 +10,8 @@
 		"groupId:" : "per 6/15/2021 08:38",
 		"initialize" : "per 6/15/2021 09:44",
 		"isBasicGroup" : "per 6/15/2021 08:41",
+		"isChannel" : "per 7/15/2021 13:28",
+		"isChannel:" : "per 7/15/2021 13:28",
 		"isGroup" : "RS 5/29/2021 18:13",
 		"isPrivate" : "RS 5/29/2021 17:38",
 		"isSuperGroup" : "per 6/15/2021 08:42",

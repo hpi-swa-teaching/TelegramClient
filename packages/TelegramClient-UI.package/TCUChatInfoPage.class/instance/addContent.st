@@ -5,7 +5,9 @@ addContent
 		createContentWrapper;
 		addMorphFront: self contentWrapper.
 	self chat isGroup ifTrue: [
-		self
-			addUserList;
-			addDescription
+		self addDescription.
+		self chat isChannel ifFalse: [
+			self addUserList.
+		]
 	].
+	
