@@ -1,7 +1,7 @@
 utility
 findLongestRun: aCollection
 
-	(aCollection size > self currentLargestEmojiSize) ifTrue: [
+	aCollection size > self currentLargestEmojiSize ifTrue: [
 			^ self findLongestRun: (aCollection first: self currentLargestEmojiSize)
 		].
 	(aCollection size < 2 or: [self emojiExists: (self joinRun: aCollection)]) ifTrue: [
