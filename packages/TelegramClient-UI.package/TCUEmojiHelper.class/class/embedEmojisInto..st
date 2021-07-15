@@ -5,7 +5,7 @@ embedEmojisInto: aString
 	"Convert UTF-16 to Unicode"
 	reencoded := (aString convertToEncoding: 'UTF-16') convertFromEncoding: 'UTF-16'.
 	
-	"runs are squences of elements with the same property, see RunArray"
+	"runs are sequences of elements with the same property, see RunArray"
 	runs := self createUnicodeRunsFrom: reencoded.
 	^ runs inject: Text new
 		into: [:aggregatedText :runOrChar |
