@@ -5,4 +5,3 @@ loadInfo
 	self isChannel ifFalse: [
 		self loadMembers.
 	].
-		

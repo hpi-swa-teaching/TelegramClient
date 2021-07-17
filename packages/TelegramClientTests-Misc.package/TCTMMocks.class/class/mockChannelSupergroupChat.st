@@ -5,4 +5,4 @@ mockChannelSupergroupChat
 		id: 4;
 		isChannel: true;
 		title: 'aChannel';
-		yourself.
+		yourself
