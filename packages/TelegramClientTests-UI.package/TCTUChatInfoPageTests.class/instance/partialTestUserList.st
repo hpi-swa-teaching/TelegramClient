@@ -1,5 +1,5 @@
 testing
-partialTestChatList
+partialTestUserList
 
 	| chatInfoPage |
 	self openInfoPageInChatWindow.

@@ -4,16 +4,16 @@
 	"instance" : {
 		"expectedSqueak5_2Failures" : "TR 6/2/2021 15:14",
 		"openAnyChat" : "RS 6/6/2021 15:49",
-		"openAnyChatWith:" : "per 6/15/2021 09:18",
+		"openAnyChatThatSatisfies:" : "tom.richter 7/17/2021 17:12",
 		"openChatWithId:" : "RS 6/6/2021 15:48",
 		"openInfoPageInChatWindow" : "RS 6/6/2021 15:48",
-		"partialTestChatList" : "per 6/15/2021 09:23",
-		"testBasicGroupChatHasUserList" : "per 6/15/2021 09:23",
+		"partialTestUserList" : "tom.richter 7/17/2021 17:13",
+		"testBasicGroupChatHasUserList" : "tom.richter 7/17/2021 17:13",
 		"testCanCloseChatInfoPage" : "JB 6/7/2021 09:30",
 		"testCanOpenChatInfoPage" : "RS 6/6/2021 15:50",
 		"testChatInfoPageIsHidden" : "RS 6/6/2021 15:50",
 		"testDoesDisplayGroupDescription" : "RS 6/6/2021 15:48",
 		"testPrivateChatHasNoDescription" : "per 6/15/2021 11:00",
-		"testPrivateChatHasNoUserList" : "TR 6/15/2021 16:44",
-		"testSupergroupChatHasUserList" : "per 6/15/2021 09:23",
-		"testUserListNotVisibleInChannelChatInfoPage" : "per 7/17/2021 16:34" } }
+		"testPrivateChatHasNoUserList" : "tom.richter 7/17/2021 17:12",
+		"testSupergroupChatHasUserList" : "tom.richter 7/17/2021 17:13",
+		"testUserListNotVisibleInChannelChatInfoPage" : "tom.richter 7/17/2021 17:12" } }
