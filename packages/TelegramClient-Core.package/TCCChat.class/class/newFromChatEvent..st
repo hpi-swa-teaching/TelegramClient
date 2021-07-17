@@ -2,6 +2,7 @@ instance creation
 newFromChatEvent: anEvent
 
 	| type chat |
+	self halt.
 	type := (anEvent at: 'type') at: '@type'.
 	type caseOf: {
 		['chatTypeSupergroup']->[chat := TCCSuperGroupChat new].
