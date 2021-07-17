@@ -3,6 +3,6 @@ splitCharsAndEmojisIn: aString
 
 	^ aString
 		inject: OrderedCollection new
-		into: [:charsAndEmojis :char |
+		into: [ :charsAndEmojis :char |
 			self add: char to: charsAndEmojis.
 		]

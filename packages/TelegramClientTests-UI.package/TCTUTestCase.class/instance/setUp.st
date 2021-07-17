@@ -4,5 +4,5 @@ setUp
 	self core: (TCTUMockCore newWithTeleClient: TCTMMockTeleClient new).
 	self core chats: TCTMMocks mockChats.
 	self core users: TCTMMocks mockUserStore.
-	TCUEmojiHelper ensureEmojisPresent.
+	TCUEmojiHelper ensureEmojisArePresent.
 	self wantsToTest: (TCUMain newWithCore: self core).

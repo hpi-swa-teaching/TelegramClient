@@ -1,12 +1,12 @@
 downloading
-ensureEmojisPresent
+ensureEmojisArePresent
 
 	self areEmojisPresent ifFalse: [
 		'Downloading Emojis'
 			displayProgressAt: Display center
 			from: 0
 			to: 2
-			during: [: bar |
+			during: [ :bar |
 					self downloadArchive.
 					bar value: 1.
 					self removeOptionalCharacters.
