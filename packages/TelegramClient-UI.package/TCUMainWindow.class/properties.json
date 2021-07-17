@@ -10,7 +10,7 @@
 		"chatsList",
 		"core",
 		"header" ],
-	"name" : "TCUMain",
+	"name" : "TCUMainWindow",
 	"pools" : [
 		 ],
 	"super" : "RectangleMorph",

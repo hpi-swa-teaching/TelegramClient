@@ -13,7 +13,7 @@
 		"instructionLabel",
 		"core",
 		"buttonBack" ],
-	"name" : "TCUAuthentication",
+	"name" : "TCUAuthenticationWindow",
 	"pools" : [
 		 ],
 	"super" : "RectangleMorph",

@@ -2,4 +2,6 @@ submorphs-add/remove
 delete
 
 	self core freeClient.
-	super delete.
+	self
+		deleteMorph;
+		triggerEvent: #delete.
