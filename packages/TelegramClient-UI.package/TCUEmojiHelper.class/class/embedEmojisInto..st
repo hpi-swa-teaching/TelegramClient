@@ -7,8 +7,8 @@ embedEmojisInto: aString
 		inject: Text new
 		into: [:aggregatedText :charOrEmojis |
 			(charOrEmojis isCharacter) ifTrue: [
-				aggregatedText , charOrEmojis asText.
-			] ifFalse: [
-				aggregatedText , (self textFrom: (self removeOptionalCharactersFrom: charOrEmojis))
+					aggregatedText , charOrEmojis asText.
+				] ifFalse: [
+					aggregatedText , (self textFrom: (self removeOptionalCharactersFrom: charOrEmojis))
+				]
 			]
-		]

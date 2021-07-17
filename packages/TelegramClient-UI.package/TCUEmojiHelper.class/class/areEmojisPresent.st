@@ -1,4 +1,6 @@
 downloading
 areEmojisPresent
 
-	^ self defaultDirectory fileExists: self defaultCanaryName
+	^ self defaultDirectory exists
+		and: [self defaultDirectory hasFiles]
+		and: [self defaultDirectory fileNames size > self defaultMinimumEmojiAmount]

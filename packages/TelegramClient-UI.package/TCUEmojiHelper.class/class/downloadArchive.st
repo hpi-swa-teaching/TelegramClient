@@ -9,6 +9,7 @@ downloadArchive
 			binary;
 			nextPutAll: response content.
 		intermediatePath := FileDirectory default / 'emoji.zip'].
+	self defaultDirectory assureExistence.
 	(ZipArchive new readFrom: intermediatePath fullName)
 		extractAllTo: self defaultDirectory;
 		close.

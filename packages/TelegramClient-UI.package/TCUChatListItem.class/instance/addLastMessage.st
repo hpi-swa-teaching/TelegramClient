@@ -2,6 +2,6 @@ drawing
 addLastMessage
 
 	self addMorph: (TextMorph new
-		contents: self lastMessage;
+		contents: self lastMessageText;
 		bottomLeft: self bottomLeft + self class defaultLastMessageOffset;
 		lock).
