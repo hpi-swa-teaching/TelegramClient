@@ -17,7 +17,7 @@
 		"defaultWidth" : "rs 7/5/2020 14:44",
 		"newWithMessage:" : "JB 6/4/2021 21:48" },
 	"instance" : {
-		"addChatTitle" : "RK 7/17/2021 11:30",
+		"addChatTitle" : "pk 7/17/2021 12:03",
 		"addSender" : "RK 7/17/2021 11:31",
 		"addText" : "RK 7/17/2021 11:40",
 		"calculatePosition" : "JB 6/13/2021 16:29",
@@ -25,7 +25,7 @@
 		"chat:" : "per 5/13/2021 09:21",
 		"chatID" : "rs 7/5/2020 14:31",
 		"chatID:" : "rs 7/5/2020 14:31",
-		"chatTitle" : "JB 6/4/2021 21:51",
+		"chatTitle" : "pk 7/17/2021 12:04",
 		"initialize" : "RK 7/17/2021 11:25",
 		"initializeDefaults" : "RK 7/17/2021 11:20",
 		"message" : "per 5/13/2021 08:50",
@@ -35,4 +35,4 @@
 		"sender" : "per 5/13/2021 08:50",
 		"sender:" : "per 5/13/2021 09:21",
 		"shrinkToContent" : "pk 7/17/2021 11:59",
-		"startTimeOut" : "RK 7/17/2021 11:49" } }
+		"startTimeOut" : "pk 7/17/2021 12:00" } }
