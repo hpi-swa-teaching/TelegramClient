@@ -9,8 +9,7 @@
 		"description",
 		"memberCount",
 		"members",
-		"groupId",
-		"isChannel" ],
+		"groupId" ],
 	"name" : "TCCGroupChat",
 	"pools" : [
 		 ],

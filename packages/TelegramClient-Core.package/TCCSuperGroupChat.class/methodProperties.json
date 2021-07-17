@@ -2,8 +2,7 @@
 	"class" : {
 		"defaultLimit" : "per 6/15/2021 08:51" },
 	"instance" : {
-		"initializeAsChannel" : "per 7/15/2021 13:11",
-		"initializeFromChatEvent:" : "per 7/15/2021 12:59",
+		"initializeFromChatEvent:" : "per 7/15/2021 15:02",
 		"isSuperGroup" : "per 6/15/2021 08:41",
 		"loadGeneralInfo" : "RS 6/24/2021 09:22",
 		"loadInfo" : "per 7/15/2021 12:49",
