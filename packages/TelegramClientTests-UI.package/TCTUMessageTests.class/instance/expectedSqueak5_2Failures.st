@@ -7,4 +7,5 @@ expectedSqueak5_2Failures
 		#testTextAndPhotoScaleCorrectlyLongUserName
 		#testTextAndPhotoScaleCorrectlyNoCaption
 		#testTextAndPhotoScaleCorrectlyShortCaption
+		#testMessageDisplaysEmojis
 	)

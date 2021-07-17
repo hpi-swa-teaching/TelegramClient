@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-UI",
+	"classinstvars" : [
+		"fileNames" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pk 7/3/2021 11:16",
+	"instvars" : [
+		 ],
+	"name" : "TCUEmojiHelper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
