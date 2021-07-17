@@ -1,5 +1,5 @@
 initialization
 startTimeOut
 
-	"self class defaultTimeOutDuration seconds wait.
-	self fadeOutThen: [self abandon]."
+	self class defaultTimeOutDuration seconds wait.
+	self fadeOutThen: [self abandon].
