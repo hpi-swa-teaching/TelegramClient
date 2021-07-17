@@ -2,10 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"expectedSqueak5_2Failures" : "pk 7/6/2021 12:26",
 		"testMutedNotificationNotVisible" : "tom.richter 6/26/2021 17:22",
 		"testNotificationConstructor" : "TR 6/22/2021 09:50",
 		"testNotificationContainsMessage" : "tom.richter 6/26/2021 17:22",
 		"testNotificationContainsSender" : "tom.richter 6/26/2021 17:21",
+		"testNotificationDisplaysEmojis" : "RK 7/6/2021 11:03",
 		"testNotificationHidesPrivateChatTitle" : "TR 6/22/2021 09:53",
 		"testNotificationShowsGroupChatTitle" : "TR 6/22/2021 09:54",
 		"testUnmutedNotificationVisible" : "tom.richter 6/26/2021 17:19" } }

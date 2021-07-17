@@ -7,8 +7,7 @@ downloadArchive
 		response := WebClient httpGet: self downloadUrl.
 		stream
 			binary;
-			nextPutAll: response content.
-		intermediatePath := FileDirectory default / 'archive.zip'].
+			nextPutAll: response content].
 	archive := ZipArchive new readFrom: intermediatePath fullName.
 	archive extractAllTo: FileDirectory default.
 	archive close.
