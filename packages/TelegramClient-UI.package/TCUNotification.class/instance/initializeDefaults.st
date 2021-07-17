@@ -8,4 +8,6 @@ initializeDefaults
 		useRoundedCorners;
 		height: self class defaultHeight;
 		width: self class defaultWidth;
-		addContent.
+		layoutPolicy: TableLayout new;
+		cellPositioning: #topLeft;
+		layoutInset: self class defaultLayoutInset.
