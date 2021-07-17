@@ -1,4 +1,4 @@
 default values
 defaultMinimumEmojiAmount
 
-	^ 100
+	^ 3678
