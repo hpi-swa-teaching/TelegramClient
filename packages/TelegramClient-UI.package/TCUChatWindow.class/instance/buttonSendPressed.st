@@ -1,8 +1,9 @@
 event handling
 buttonSendPressed
 
-	self triggerEvent: #buttonSendPressed with: (Dictionary newFrom: {
-		'chatId' -> self selectedChat id.
-		'message' -> self textInputField contents}).
+	| messageString |
+	
+	messageString := self textInputField contents withBlanksTrimmed.
+	messageString isEmpty ifFalse: [self selectedChat sendMessage: messageString].
 
 	self textInputField contents: ''.

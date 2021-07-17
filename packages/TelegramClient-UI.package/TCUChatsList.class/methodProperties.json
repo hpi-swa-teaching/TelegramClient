@@ -2,16 +2,16 @@
 	"class" : {
 		"defaultWidth" : "per 6/24/2021 23:03" },
 	"instance" : {
-		"chatItemClicked:event:from:" : "RS 7/17/2021 11:32",
+		"chatItemClicked:event:from:" : "RS 7/17/2021 12:14",
 		"chats" : "rs 6/17/2020 22:38",
 		"chats:" : "f.w. 7/15/2020 23:57",
 		"createChatListItem:" : "js 7/31/2020 23:05",
-		"deselectChats" : "RS 7/17/2021 11:32",
+		"deselectChats" : "RS 7/17/2021 12:11",
 		"getChat:" : "per 5/13/2021 08:41",
 		"indicateKeyboardFocus" : "per 6/19/2021 13:49",
 		"initialize" : "per 6/24/2021 23:08",
 		"openNewChat:" : "RS 7/17/2021 11:35",
 		"redrawItems" : "per 6/24/2021 22:40",
-		"select:" : "RS 7/17/2021 11:49",
+		"select:" : "RS 7/17/2021 12:13",
 		"selectedChat" : "rs 6/13/2020 08:51",
 		"selectedChat:" : "RS 7/17/2021 10:57" } }
