@@ -2,6 +2,6 @@ failures
 expectedSqueak5_2Failures
 
 	^ #(
-		#testNotificationDisplaysEmojis.
+		#testNotificationDisplaysEmojis
 		#testNotificationClipsLongMessage
 	)
