@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"defaultNumberOfRequestedMessages" : "js 8/1/2020 18:52",
-		"newFromChatEvent:" : "TR 6/15/2021 16:51" },
+		"newFromChatEvent:" : "RS 7/17/2021 10:52" },
 	"instance" : {
 		"addNewestMessage:" : "js 8/2/2020 12:58",
 		"addOldestMessage:" : "JB 6/28/2021 09:31",
@@ -15,7 +15,7 @@
 		"infoLoaded" : "per 6/4/2021 15:59",
 		"infoLoaded:" : "per 6/4/2021 15:51",
 		"initialize" : "per 6/4/2021 15:49",
-		"initializeFromChatEvent:" : "per 6/16/2021 17:51",
+		"initializeFromChatEvent:" : "RS 7/17/2021 10:52",
 		"isBasicGroup" : "per 6/15/2021 08:08",
 		"isGroup" : "per 6/4/2021 14:42",
 		"isPrivate" : "per 6/4/2021 14:42",

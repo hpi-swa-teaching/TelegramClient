@@ -1,7 +1,8 @@
 event handling
 newChatSelected: aChat
 
+	self halt.
 	self chatsList
 		deselectChats;
-		selectedChat: TCCNullChat new.
+		selectedChat: aChat.
 	self chatWindow newChatSelected: aChat.

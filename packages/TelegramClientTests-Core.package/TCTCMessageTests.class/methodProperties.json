@@ -4,8 +4,8 @@
 	"instance" : {
 		"testMessageCorrectlyConstructedFromJson" : "RK 6/26/2021 11:33",
 		"testMessageHasTextRepresentation" : "tom.richter 6/26/2021 21:06",
-		"testMessageShouldNotNotify" : "per 6/18/2021 09:28",
-		"testMessageShouldNotify" : "per 6/18/2021 09:28",
+		"testMessageShouldNotNotify" : "RS 7/17/2021 10:53",
+		"testMessageShouldNotify" : "RS 7/17/2021 10:53",
 		"testNotSupportedMessageTypeIdentifiedCorrectly" : "tom.richter 6/28/2021 13:54",
 		"testPhotoMessageCorrectlyConstructedFromJson" : "tom.richter 6/28/2021 15:05",
 		"testPhotoMessageTypeIdentifiedCorrectly" : "RK 6/26/2021 11:34",
