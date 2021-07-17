@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newFromMessageEvent:in:with:" : "tom.richter 6/28/2021 13:46",
+		"newFromMessageEvent:in:with:" : "per 7/15/2021 13:29",
 		"timeStampToDateAndTime:" : "JB 5/16/2021 09:42" },
 	"instance" : {
 		"asSnippet" : "tom.richter 6/28/2021 15:05",
@@ -17,7 +17,8 @@
 		"initialize" : "TR 6/20/2021 10:32",
 		"isOutgoing" : "js 8/2/2020 22:00",
 		"isOutgoing:" : "js 8/2/2020 22:00",
-		"sender" : "pk 6/11/2021 10:21",
+		"sender" : "per 7/15/2021 12:55",
 		"senderID" : "per 5/13/2021 08:49",
 		"senderID:" : "js 8/2/2020 22:00",
+		"senderName" : "per 7/15/2021 13:21",
 		"shouldNotify" : "per 6/16/2021 17:35" } }

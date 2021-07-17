@@ -7,11 +7,11 @@ testCachesRequests
 
 	self mockTeleClient onRequestType: 'getUser' respond: TCTMMocks mockUserJson1.
 
-	[user1 := self core users getUserFor: TCTMMocks mockUser1 id.] fork.
+	[user1 := self core userStore getUserFor: TCTMMocks mockUser1 id.] fork.
 	1 seconds wait.
 	
 	self assert: user1 notNil.
-	[user2 := self core users getUserFor: TCTMMocks mockUser1 id.] fork.
+	[user2 := self core userStore getUserFor: TCTMMocks mockUser1 id.] fork.
 	1 seconds wait.
 
 	self assert: user1 == user2.

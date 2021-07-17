@@ -1,5 +1,5 @@
 testing
 testBasicGroupChatHasUserList
 
-	self openAnyChatWith: #isBasicGroup.
-	self partialTestChatList.
+	self openAnyChatThatSatisfies: [ :aChat | aChat isBasicGroup].
+	self partialTestUserList.

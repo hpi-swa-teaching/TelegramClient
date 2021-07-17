@@ -1,5 +1,5 @@
 testing
 testSupergroupChatHasUserList
 
-	self openAnyChatWith: #isSuperGroup.
-	self partialTestChatList.
+	self openAnyChatThatSatisfies: [ :aChat | aChat isSuperGroup and: [aChat isChannel not]].
+	self partialTestUserList.
