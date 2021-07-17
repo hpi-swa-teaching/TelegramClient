@@ -1,4 +1,4 @@
-initialization
+loading
 loadInfo
 
 	self subclassResponsibility

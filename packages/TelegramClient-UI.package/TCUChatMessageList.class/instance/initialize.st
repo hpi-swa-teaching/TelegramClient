@@ -5,5 +5,4 @@ initialize
 
 	self
 		chat: TCCNullChat new;
-		alwaysShowVScrollBar;
-		isLoadingHistory: false.
+		alwaysShowVScrollBar.

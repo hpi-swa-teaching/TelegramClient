@@ -12,7 +12,6 @@
 		"core" : "js 6/13/2020 18:51",
 		"core:" : "r.s 8/2/2020 19:18",
 		"delete" : "JB 6/7/2021 11:18",
-		"getChatHistoryFrom:" : "RS 7/17/2021 10:34",
 		"header" : "r.s 8/2/2020 19:07",
 		"header:" : "r.s 8/2/2020 19:08",
 		"initialize" : "pk 7/6/2021 10:10",
@@ -20,4 +19,4 @@
 		"logout" : "js 6/13/2020 18:11",
 		"newMessageReceived:" : "per 6/16/2021 17:36",
 		"sendMessage:" : "rs 6/17/2020 21:19",
-		"subscribeChatsList" : "RS 7/17/2021 11:36" } }
+		"subscribeChatsList" : "RS 7/17/2021 11:48" } }
