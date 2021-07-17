@@ -1,4 +1,4 @@
-events
+event handling
 openNewChat: aChat
 
-	self select: (self items detect: [:anItem | anItem chat id = aChat id]).
+	self selectChat: (self items detect: [:anItem | anItem chat id = aChat id]).

@@ -5,6 +5,6 @@ chatItemClicked: aChatListItem event: anEvent from: aSender
 		ifTrue: [
 			self
 				deselectChats;
-				select: aChatListItem.]
+				selectChat: aChatListItem.]
 		ifFalse: [
 			self deselectChats.].

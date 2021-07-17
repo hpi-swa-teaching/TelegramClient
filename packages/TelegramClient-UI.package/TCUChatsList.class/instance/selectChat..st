@@ -1,5 +1,5 @@
 event handling
-select: aChatListItem
+selectChat: aChatListItem
 
 	aChatListItem select.
 	self
