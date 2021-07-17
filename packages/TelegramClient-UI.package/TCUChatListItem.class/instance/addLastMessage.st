@@ -2,6 +2,6 @@ drawing
 addLastMessage
 
 	self addMorph: (TextMorph new
-		contents: (self chat lastMessage condensedIntoOneLine truncateWithElipsisTo: self class defaultMessagePreviewLength) asText;
+		contents: self lastMessageText;
 		bottomLeft: self bottomLeft + self class defaultLastMessageOffset;
 		lock).
