@@ -3,6 +3,7 @@ initialize
 
 	super initialize.
 
+	self scroller width: self class defaultWidth.
 	self
-		chat: TCCNullChat new;
-		alwaysShowVScrollBar.
+		alwaysShowVScrollBar;
+		displayChat: TCCNullChat new.
