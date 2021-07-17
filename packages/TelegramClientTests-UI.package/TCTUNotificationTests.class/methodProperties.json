@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"expectedSqueak5_2Failures" : "pk 7/6/2021 12:26",
+		"expectedSqueak5_2Failures" : "pk 7/17/2021 12:24",
 		"testMutedNotificationNotVisible" : "tom.richter 6/26/2021 17:22",
 		"testNotificationClipsLongMessage" : "pk 7/17/2021 12:21",
 		"testNotificationConstructor" : "TR 6/22/2021 09:50",
