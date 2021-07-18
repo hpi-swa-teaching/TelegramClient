@@ -1,4 +1,4 @@
 chat
 mockChatsFor: aCore
 
-	^ self mockChats collect: [:aChat | aChat core: aCore. aChat]
+	^ self mockChats do: [:aChat | aChat core: aCore. aChat]
