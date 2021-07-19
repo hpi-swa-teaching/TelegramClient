@@ -1,4 +1,4 @@
-accessing
+loading
 loadInfoIfNotLoaded
 
 	self infoLoaded ifFalse: [

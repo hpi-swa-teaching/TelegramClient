@@ -1,4 +1,4 @@
-accessing
+loading
 loadInfo
 
 	self subclassResponsibility

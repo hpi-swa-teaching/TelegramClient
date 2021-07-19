@@ -11,5 +11,5 @@
 	"name" : "TCUTelegram",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Morph",
 	"type" : "normal" }

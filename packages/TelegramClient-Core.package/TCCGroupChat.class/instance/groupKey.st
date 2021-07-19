@@ -1,0 +1,4 @@
+accessing
+groupKey
+
+	self subclassResponsibility.
