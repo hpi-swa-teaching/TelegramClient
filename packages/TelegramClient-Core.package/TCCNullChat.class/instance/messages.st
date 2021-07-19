@@ -1,4 +1,4 @@
 accessing
 messages
 
-	^ (OrderedCollection newFrom: {TCCNullMessage new})
+	^ {TCCNullMessage new} asOrderedCollection

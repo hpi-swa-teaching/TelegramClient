@@ -7,4 +7,4 @@ chatHistoryReceived: aChatHistory
 	self waitingForUpdate: false.
 
 	self stillRequestedMessages > 0
-		ifTrue: [self loadChatHistory.]
+		ifTrue: [self loadChatHistory.].
