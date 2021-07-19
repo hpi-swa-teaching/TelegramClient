@@ -2,5 +2,5 @@ drawing
 openCurrentWindow
 
 	self
-		bounds: (self currentWindow extent center: self center);
+		bounds: (Rectangle center: self center extent: self currentWindow extent);
 		addMorphCentered: self currentWindow.
