@@ -3,7 +3,7 @@ buttonSendPressed
 
 	| messageString |
 	
-	messageString := self textInputField contents withBlanksTrimmed.
+	messageString := self textInputField contents asString withBlanksTrimmed.
 	messageString ifNotEmpty: [self selectedChat sendMessage: messageString].
 
 	self textInputField contents: ''.
