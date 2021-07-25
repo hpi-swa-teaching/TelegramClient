@@ -1,4 +1,4 @@
 accessing
-userStore: aDictionary
+userStore: aUserStore
 
-	userStore := aDictionary.
+	userStore := aUserStore.

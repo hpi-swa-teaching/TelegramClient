@@ -3,7 +3,7 @@ testPrivateChatHasNoUserList
 
 	| chatInfoPage |
 
-	self openAnyChatThatSatisfies: [ :aChat | aChat isPrivate].
+	self openAnyChatSatisfying: [ :aChat | aChat isPrivate].
 	self openInfoPageInChatWindow.
 
 	chatInfoPage := (self subject findByClass: TCUChatInfoPage) morphs anyOne.

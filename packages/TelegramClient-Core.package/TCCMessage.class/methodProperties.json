@@ -1,7 +1,7 @@
 {
 	"class" : {
-		"newFromMessageEvent:in:with:" : "tom.richter 7/25/2021 11:46",
-		"newMessageWith:" : "tom.richter 7/25/2021 11:45",
+		"newFromMessageEvent:in:with:" : "tr 7/25/2021 17:58",
+		"newMessageWith:" : "tr 7/25/2021 17:59",
 		"timeStampToDateAndTime:" : "JB 5/16/2021 09:42" },
 	"instance" : {
 		"asSnippet" : "tom.richter 6/28/2021 15:05",
@@ -18,7 +18,7 @@
 		"initialize" : "TR 6/20/2021 10:32",
 		"isOutgoing" : "js 8/2/2020 22:00",
 		"isOutgoing:" : "js 8/2/2020 22:00",
-		"senderName" : "tom.richter 7/25/2021 11:19",
+		"senderName" : "tr 7/25/2021 18:00",
 		"senderType" : "tom.richter 7/25/2021 10:42",
 		"senderType:" : "tom.richter 7/25/2021 10:42",
 		"shouldNotify" : "per 6/16/2021 17:35",

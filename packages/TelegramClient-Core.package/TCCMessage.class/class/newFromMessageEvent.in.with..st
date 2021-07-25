@@ -17,4 +17,4 @@ newFromMessageEvent: aMessageEvent in: aChat with: aCore
 		message userId: ((aMessageEvent at: 'sender') at: 'user_id').
 	].
 
-	 ^ message
+	^ message

@@ -1,5 +1,5 @@
 navigating
-openAnyChatThatSatisfies: aClosure
+openAnyChatSatisfying: aClosure
 
 	| chat |
 
