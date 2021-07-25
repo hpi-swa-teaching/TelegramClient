@@ -2,7 +2,7 @@
 	"class" : {
 		"mockBasicGroupChat" : "per 6/15/2021 09:16",
 		"mockBasicGroupFullInfoJson" : "per 6/10/2021 19:41",
-		"mockChannelSupergroupChat" : "tom.richter 7/25/2021 11:29",
+		"mockChannelSupergroupChat" : "per 7/25/2021 12:33",
 		"mockChatEventMutedFor:" : "per 6/18/2021 09:20",
 		"mockChats" : "TR 5/27/2021 19:55",
 		"mockChatsFor:" : "JB 7/18/2021 13:15",
@@ -42,6 +42,7 @@
 		"mockTextMessageWith:" : "tom.richter 7/25/2021 11:21",
 		"mockUnloadedBasicGroupChat" : "per 7/15/2021 15:07",
 		"mockUnloadedSuperGroupChat" : "tom.richter 7/25/2021 10:16",
+		"mockUpdateNewMessageJsonEventFrom:" : " 7/25/2021 12:12:21",
 		"mockUser1" : "TR 6/13/2021 15:03",
 		"mockUser2" : "RK 6/26/2021 10:05",
 		"mockUserEvent" : "per 6/10/2021 19:30",
