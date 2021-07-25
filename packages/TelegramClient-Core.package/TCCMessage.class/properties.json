@@ -9,9 +9,10 @@
 		"chat",
 		"id",
 		"isOutgoing",
-		"senderID",
 		"date",
-		"core" ],
+		"core",
+		"senderType",
+		"userId" ],
 	"name" : "TCCMessage",
 	"pools" : [
 		 ],
