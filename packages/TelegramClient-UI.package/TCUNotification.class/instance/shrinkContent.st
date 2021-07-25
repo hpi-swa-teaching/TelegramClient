@@ -1,5 +1,5 @@
 drawing
-shrinkToContent
+shrinkContent
 
 	self submorphsDo: [ :submorph |
 		submorph

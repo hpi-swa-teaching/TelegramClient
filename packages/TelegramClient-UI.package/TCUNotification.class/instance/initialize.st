@@ -7,4 +7,4 @@ initialize
 		addChatTitle;
 		addSender;
 		addText;
-		shrinkToContent.
+		shrinkContent.
