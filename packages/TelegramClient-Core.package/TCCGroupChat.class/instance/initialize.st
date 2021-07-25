@@ -4,5 +4,4 @@ initialize
 	super initialize.
 	self
 		description: '';
-		members: OrderedCollection new;
-		isChannel: false.
+		members: OrderedCollection new.

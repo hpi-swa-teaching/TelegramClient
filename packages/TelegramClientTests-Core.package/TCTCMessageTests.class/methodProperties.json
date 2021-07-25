@@ -2,14 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testMessageCorrectlyConstructedFromJson" : "RK 6/26/2021 11:33",
+		"testMessageCorrectlyConstructedFromJson" : "tom.richter 7/25/2021 11:26",
 		"testMessageHasTextRepresentation" : "tom.richter 6/26/2021 21:06",
 		"testMessageShouldNotNotify" : "per 6/18/2021 09:28",
 		"testMessageShouldNotify" : "per 6/18/2021 09:28",
 		"testNotSupportedMessageTypeIdentifiedCorrectly" : "tom.richter 6/28/2021 13:54",
 		"testPhotoMessageCorrectlyConstructedFromJson" : "tom.richter 6/28/2021 15:05",
 		"testPhotoMessageTypeIdentifiedCorrectly" : "RK 6/26/2021 11:34",
-		"testSenderNameInChannelMessage" : "per 7/17/2021 16:02",
+		"testSenderNameInChannelMessage" : "tom.richter 7/25/2021 11:36",
 		"testSenderNameInNonChannelMessage" : "per 7/17/2021 16:13",
 		"testTextMessageCorrectlyConstructedFromJson" : "RK 6/26/2021 11:34",
 		"testTextMessageTypeIdentifiedCorrectly" : "RK 6/26/2021 11:34" } }

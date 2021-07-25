@@ -1,8 +1,7 @@
 accessing
 senderName
 
-	self chat isChannel ifTrue: [
-		^ self chat title
-	] ifFalse: [
-		^ self sender fullName
-	].
+	^ ((self senderType) caseOf: {
+		[#messageSenderChat] -> [self chat title].
+		[#messageSenderUser] -> [(self core userStore getUserFor: self userId) fullName].
+	} otherwise: ['Unsupported sender type'])

@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"newFromMessageEvent:in:with:" : "per 7/15/2021 13:29",
+		"newFromMessageEvent:in:with:" : "tom.richter 7/25/2021 11:46",
+		"newMessageWith:" : "tom.richter 7/25/2021 11:45",
 		"timeStampToDateAndTime:" : "JB 5/16/2021 09:42" },
 	"instance" : {
 		"asSnippet" : "tom.richter 6/28/2021 15:05",
@@ -17,8 +18,9 @@
 		"initialize" : "TR 6/20/2021 10:32",
 		"isOutgoing" : "js 8/2/2020 22:00",
 		"isOutgoing:" : "js 8/2/2020 22:00",
-		"sender" : "per 7/15/2021 12:55",
-		"senderID" : "per 5/13/2021 08:49",
-		"senderID:" : "js 8/2/2020 22:00",
-		"senderName" : "per 7/15/2021 13:21",
-		"shouldNotify" : "per 6/16/2021 17:35" } }
+		"senderName" : "tom.richter 7/25/2021 11:19",
+		"senderType" : "tom.richter 7/25/2021 10:42",
+		"senderType:" : "tom.richter 7/25/2021 10:42",
+		"shouldNotify" : "per 6/16/2021 17:35",
+		"userId" : "tom.richter 7/25/2021 11:17",
+		"userId:" : "tom.richter 7/25/2021 11:17" } }

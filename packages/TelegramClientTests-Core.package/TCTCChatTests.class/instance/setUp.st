@@ -9,6 +9,6 @@ setUp
 		self chat messages add: (TCCTextMessage new
 			text: aNumber asString;
 			chat: self chat;
-			senderID: aNumber * 3;
+			userId: aNumber * 3;
 			id: aNumber * 4;
 			date: (DateAndTime fromUnixTime: aNumber * 60))].

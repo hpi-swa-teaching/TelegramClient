@@ -1,12 +1,12 @@
 message - json
-mockTextMessageJsonFrom: aChatId
+mockTextMessageJsonFrom: aChatId with: aSenderType
 
 	^ (JsonObject newFrom: {
 			'@type' -> 'message'.
 			'id' -> self mockMessageID.
 			'chat_id' -> aChatId.
 			'sender' -> (JsonObject newFrom: {
-				'@type' -> 'messageSenderUser'.
+				'@type' -> aSenderType.
 				'user_id' -> self mockUser1 id
 				}).
 			'content' -> (JsonObject newFrom: {
