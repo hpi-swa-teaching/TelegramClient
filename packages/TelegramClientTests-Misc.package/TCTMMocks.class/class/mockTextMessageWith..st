@@ -6,6 +6,7 @@ mockTextMessageWith: aCore
 		core: aCore;
 		userId: self mockUser1 id;
 		isOutgoing: false;
+		senderType: #messageSenderUser;
 		date: self mockMessageDate;
 		id: self mockMessageID;
 		text: self mockText
