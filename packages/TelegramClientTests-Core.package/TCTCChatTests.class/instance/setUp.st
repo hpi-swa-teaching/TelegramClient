@@ -1,8 +1,11 @@
 running
 setUp
 
+	super setUp.
+	
 	self chat: (TCCChat new
 		id: 1337;
+		core: self core;
 		yourself).
 
 	1 to: 5 do: [:aNumber |
