@@ -6,5 +6,4 @@ displayChat: aChat
 	aChat when: #loadedMessage send: #addAtTop: to: self.
 	self
 		chat: aChat;
-		showMessages;
-		isLoadingHistory: true.
+		showMessages.
