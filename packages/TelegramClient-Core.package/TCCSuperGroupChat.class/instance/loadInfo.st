@@ -1,6 +1,7 @@
 loading
 loadInfo
 
-	self
-		loadGeneralInfo;
-		loadMembers.
+	self loadGeneralInfo.
+	self isChannel ifFalse: [
+		self loadMembers.
+	].

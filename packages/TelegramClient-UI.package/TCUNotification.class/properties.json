@@ -8,8 +8,7 @@
 	"instvars" : [
 		"message",
 		"chatID",
-		"chat",
-		"sender" ],
+		"chat" ],
 	"name" : "TCUNotification",
 	"pools" : [
 		 ],

@@ -1,20 +1,20 @@
 instance creation
 newFromMessageEvent: aMessageEvent in: aChat with: aCore
 
-	| content message|
+	| message|
 
-	content := aMessageEvent at: 'content'.
-	message := ((content at: '@type') caseOf: {
-		['messageText'] -> [TCCTextMessage newFrom: content].
-		['messagePhoto'] -> [TCCPhotoMessage newFrom: content].
-	} otherwise: [TCCNotSupportedMessage new]).
+	message := self newMessageWith: (aMessageEvent at: 'content').
 
 	message
 		chat: aChat;
-		senderID: ((aMessageEvent at: 'sender') at: 'user_id');
+		senderType: ((aMessageEvent at: 'sender') at: '@type') asSymbol;
 		id: (aMessageEvent at: 'id');
 		isOutgoing: (aMessageEvent at: 'is_outgoing');
 		date: (self timeStampToDateAndTime: (aMessageEvent at: 'date'));
 		core: aCore.
+	
+	(message senderType = #messageSenderUser) ifTrue:[
+		message userId: ((aMessageEvent at: 'sender') at: 'user_id').
+	].
 
 	^ message

@@ -1,5 +1,5 @@
 running
 setUp
-
+	
 	super setUp.
-	self wantsToTest: (TCUAuthentication newWithCore: self core).
+	self wantsToTest: (TCUTelegram newWithCore: self core).

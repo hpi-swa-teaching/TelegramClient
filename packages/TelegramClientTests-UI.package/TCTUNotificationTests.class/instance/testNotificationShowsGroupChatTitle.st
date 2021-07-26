@@ -8,7 +8,7 @@ testNotificationShowsGroupChatTitle
 		text: 'test';
 		chat: chat;
 		core: self core;
-		senderID: TCTMMocks mockUser1 id.
+		userId: TCTMMocks mockUser1 id.
 
 	self wantsToTest: (TCUNotification newWithMessage: message).
 	self assertReading: TCTMMocks mockBasicGroupChat title in: self subject.

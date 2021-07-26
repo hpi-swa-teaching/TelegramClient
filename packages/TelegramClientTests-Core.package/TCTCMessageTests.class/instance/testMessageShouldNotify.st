@@ -3,5 +3,5 @@ testMessageShouldNotify
 
  	| chat |
 
- 	chat := TCCChat newFromChatEvent: (TCTMMocks mockChatEventMutedFor: 0).
- 	self assert: true equals: ((TCTMMocks mockMessageIn: chat with: self core) shouldNotify).
+ 	chat := TCCChat newFromChatEvent: ((TCTMMocks mockChatEventMutedFor: 0) at: 'chat').
+ 	self assert: ((TCTMMocks mockMessageIn: chat with: self core) shouldNotify).
