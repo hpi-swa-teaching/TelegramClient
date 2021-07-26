@@ -3,4 +3,8 @@ initialize
 
 	super initialize.
 	self
-		initializeDefaults
+		initializeDefaults;
+		addChatTitle;
+		addSender;
+		addText;
+		shrinkContent.

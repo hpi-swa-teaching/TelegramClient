@@ -8,4 +8,4 @@ testNotificationDisplaysEmojis
 	notification := TCUNotification newWithMessage: message.
 	
 	self forceSaveScreenshotOf: notification as: 'testNotificationDisplaysEmojis' in: self class defaultTestResultPath.
-	self assert: 2189898 equals: (self computeHashOf: (self takeScreenshotOf: notification)).
+	self assert: 249874410 equals: (self computeHashOf: (self takeScreenshotOf: notification)).

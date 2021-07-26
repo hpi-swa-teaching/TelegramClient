@@ -105,6 +105,7 @@ Pre-Releases are created automatically whenever a commit is added to the develop
 Group 13 of the 2020 SWT I module included [Rohan Sawahn](https://github.com/rohansaw), [Jonas Schmidt](https://github.com/schmidtjonas), [Frederik Wollny](https://github.com/Freddy200), [Stefan Spangenberg](https://github.com/sspangenberg), [Lukas Laskowski](https://github.com/lasklu), and [Niklas Schilli](https://github.com/Mrnikbobjeff). Feel free to add your names to the list.
 
 ## Acknowledgements
+
 This project uses assets from https://openmoji.org/ for Emoji support. These are downloaded when the client starts for the first time and not hosted in this repository.
 Each file is resized before being displayed and filenames are stripped of certain Unicode units after download. The contents of the files is not changed.
 OpenMoji is published under the Creative Commons Share Alike License 4.0 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/#). Their project is also hosted on [GitHub](https://github.com/hfg-gmuend/openmoji).
