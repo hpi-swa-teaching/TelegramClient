@@ -18,9 +18,8 @@
 		"newWithMessage:" : "tom.richter 7/25/2021 11:10" },
 	"instance" : {
 		"addChatTitle" : "pk 7/17/2021 12:10",
-		"addSender" : "pk 7/17/2021 12:11",
+		"addSender" : "RK 7/26/2021 13:04",
 		"addText" : "RK 7/17/2021 11:40",
-		"addContent" : "tom.richter 7/25/2021 11:11",
 		"calculatePosition" : "JB 6/13/2021 16:29",
 		"chat" : "per 5/13/2021 08:50",
 		"chat:" : "per 5/13/2021 09:21",
@@ -33,7 +32,5 @@
 		"message:" : "per 5/13/2021 09:21",
 		"messageText" : "RK 7/17/2021 11:49",
 		"openInWorld" : "JB 6/4/2021 21:52",
-		"sender" : "per 5/13/2021 08:50",
-		"sender:" : "per 5/13/2021 09:21",
 		"shrinkContent" : "RK 7/25/2021 11:03",
 		"startTimeOut" : "pk 7/17/2021 12:00" } }
