@@ -10,5 +10,5 @@
 	"name" : "TCTCTestAuthHandler",
 	"pools" : [
 		 ],
-	"super" : "TCCAuthHandler",
+	"super" : "TCCAuthenticationHandler",
 	"type" : "normal" }

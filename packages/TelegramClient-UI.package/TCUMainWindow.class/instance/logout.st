@@ -1,5 +1,5 @@
 core communication
 logout
 
-	self core authHandler logout.
+	self core authenticationHandler logout.
 	self triggerEvent: #loggedOut.

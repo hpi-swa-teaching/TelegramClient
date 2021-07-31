@@ -7,7 +7,7 @@
 	"commentStamp" : "r.s 7/15/2020 19:22",
 	"instvars" : [
 		 ],
-	"name" : "TCTCAuthTests",
+	"name" : "TCTCAuthenticationTests",
 	"pools" : [
 		 ],
 	"super" : "TCTCTdlibTestCase",

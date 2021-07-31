@@ -8,7 +8,7 @@
 	"instvars" : [
 		"authState",
 		"core" ],
-	"name" : "TCCAuthHandler",
+	"name" : "TCCAuthenticationHandler",
 	"pools" : [
 		 ],
 	"super" : "Object",

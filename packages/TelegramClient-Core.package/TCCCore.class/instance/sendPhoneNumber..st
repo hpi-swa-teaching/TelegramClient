@@ -1,4 +1,4 @@
 handlers
 sendPhoneNumber: aString
 
-	self authHandler sendPhoneNumber: aString.
+	self authenticationHandler sendPhoneNumber: aString.
