@@ -10,5 +10,5 @@
 	"name" : "TCTCChatTests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "TCTCNoTdlibTestCase",
 	"type" : "normal" }

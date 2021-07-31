@@ -5,4 +5,5 @@ mockChats
 		add: self mockBasicGroupChat;
 		add: self mockPrivateChat;
 		add: self mockSupergroupChat;
+		add: self mockChannelSupergroupChat;
 		yourself

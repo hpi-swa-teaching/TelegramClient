@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClientTests-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JB 7/19/2021 12:42",
+	"instvars" : [
+		 ],
+	"name" : "TCTUChatWindowTests",
+	"pools" : [
+		 ],
+	"super" : "TCTUTestCase",
+	"type" : "normal" }
