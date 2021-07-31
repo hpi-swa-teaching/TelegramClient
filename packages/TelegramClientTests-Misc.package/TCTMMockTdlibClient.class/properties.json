@@ -9,8 +9,8 @@
 		"freed",
 		"responseQueue",
 		"requestResponses" ],
-	"name" : "TCTMMockTeleClient",
+	"name" : "TCTMMockTdlibClient",
 	"pools" : [
 		 ],
-	"super" : "TCCTeleClient",
+	"super" : "TCCTdlibClient",
 	"type" : "normal" }

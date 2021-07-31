@@ -8,7 +8,7 @@
 	"instvars" : [
 		"handle",
 		"specificClient" ],
-	"name" : "TCCTeleClient",
+	"name" : "TCCTdlibClient",
 	"pools" : [
 		 ],
 	"super" : "Object",
