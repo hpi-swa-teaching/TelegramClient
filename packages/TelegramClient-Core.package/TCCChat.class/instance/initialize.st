@@ -3,7 +3,7 @@ initialize
 
 	self
 		title: '';
-		messages: (OrderedCollection newFrom: {TCCNullMessage new});
+		messages: (OrderedCollection new);
 		waitingForUpdate: false;
 		positionKnown: false;
 		infoLoaded: false;

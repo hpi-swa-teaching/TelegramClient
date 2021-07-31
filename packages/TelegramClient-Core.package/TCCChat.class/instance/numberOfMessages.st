@@ -1,4 +1,4 @@
 accessing
 numberOfMessages
 
-	^ self messages size - 1
+	^ self messages size
