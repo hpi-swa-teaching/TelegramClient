@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testCanRequestUser" : "RS 6/23/2021 15:49",
+		"testCanRequestUser" : "RS 7/31/2021 17:03",
 		"testExtraAPIAttribute" : "RS 6/6/2021 10:50",
 		"testMessageSending" : "RS 7/17/2021 11:59",
 		"testPositionIsUpdatedAfterInitialChatLoading" : "RS 6/13/2021 17:02" } }

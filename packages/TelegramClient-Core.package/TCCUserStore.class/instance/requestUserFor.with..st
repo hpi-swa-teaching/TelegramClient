@@ -1,9 +1,9 @@
 utility
 requestUserFor: aUserId with: aPromise
 
-	| callbackID |
-	callbackID := self core
+	| callbackId |
+	callbackId := self core
 		registerCallback:
 			[:userEvent | aPromise resolveWith: (TCCUser newFrom: userEvent)].
 
-	self core requestUser: aUserId with: callbackID.
+	self sendUserRequestFor: aUserId with: callbackId.
