@@ -2,7 +2,7 @@ loading
 loadInfo
 
 	self core
-		send: (TCCRequest newGetBasicGroupFullInfoOf: self groupId with: 'this should work')
+		send: (TCCRequest newGetBasicGroupFullInfoOf: self groupId)
 		thenDo: [:aBasicGroupFullInfoEvent |
 			self
 				memberCount: (aBasicGroupFullInfoEvent at: 'members') size;

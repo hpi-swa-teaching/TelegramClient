@@ -2,7 +2,7 @@
 	"class" : {
 		"newCheckAuthenticationCode:" : "RS 6/23/2021 16:35",
 		"newCheckDatabaseEncryptionKey:" : "RS 6/23/2021 16:35",
-		"newGetBasicGroupFullInfoOf:with:" : "JB 8/1/2021 11:27",
+		"newGetBasicGroupFullInfoOf:" : "JB 8/1/2021 18:17",
 		"newGetChatHistoryOf:from:until:" : "RS 6/24/2021 09:20",
 		"newGetChats" : "RS 6/23/2021 16:37",
 		"newGetMe" : "JB 8/1/2021 11:34",
