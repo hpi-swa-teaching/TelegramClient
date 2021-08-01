@@ -1,16 +1,12 @@
 testing
 testCanRequestUser
 
-	| callbackId user |
+	| user userPromise |
 	
-	user := nil.
-	
-	callbackId := self sharedCore
-		registerCallback:
-			[:userEvent | user := TCCUser newFrom: userEvent].
-
-	self sharedCore userStore sendUserRequestFor: self sharedCore loggedInUserID with: callbackId.
-	1 second wait.
+	userPromise := Promise new.
+	self sharedCore userStore requestUserFor: self sharedCore loggedInUserID with: userPromise.
+	userPromise wait.
+	user := userPromise value.
 		
 	self assert: user notNil.
 	self assert: self sharedCore loggedInUserID equals: user id.

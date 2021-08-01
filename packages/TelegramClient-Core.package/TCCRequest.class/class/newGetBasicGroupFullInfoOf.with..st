@@ -5,5 +5,5 @@ newGetBasicGroupFullInfoOf: aGroupId with: anExtraString
 		newWithType: 'getBasicGroupFullInfo'
 		from: {
 			'basic_group_id' -> aGroupId.
-			'@extra'-> anExtraString
+			'@extra' -> anExtraString
 		}

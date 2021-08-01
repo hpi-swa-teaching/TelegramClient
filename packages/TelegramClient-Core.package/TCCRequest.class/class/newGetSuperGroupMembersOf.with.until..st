@@ -1,5 +1,5 @@
 instance creation
-newGetSuperGroupMembersOf: aGroupId with: anOffset until: aLimit with: anExtraString
+newGetSuperGroupMembersOf: aGroupId with: anOffset until: aLimit
 
 	^ TCCRequest
 		newWithType: 'getSupergroupMembers'
@@ -7,5 +7,4 @@ newGetSuperGroupMembersOf: aGroupId with: anOffset until: aLimit with: anExtraSt
 			'supergroup_id'-> aGroupId.
 			'offset'-> anOffset.
 			'limit'-> aLimit.
-			'@extra'-> anExtraString
 		}

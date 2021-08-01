@@ -1,5 +1,5 @@
 instance creation
-newRequestFile: aFileId with: anExtraString
+newRequestFile: aFileId
 
 	^ TCCRequest
 		newWithType: 'downloadFile'
@@ -9,5 +9,4 @@ newRequestFile: aFileId with: anExtraString
 			'offset'->0.
 			'limit'->0.
 			'synchronous' -> true.
-			'@extra'-> anExtraString
 		}
