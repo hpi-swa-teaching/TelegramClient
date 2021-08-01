@@ -1,4 +1,4 @@
 accessing
 chats: aCollection
 
-	chats := aCollection.
+	chats := aCollection

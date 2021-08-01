@@ -3,8 +3,8 @@
 		 },
 	"instance" : {
 		"fillWithMessages" : "per 6/28/2021 16:22",
-		"setUp" : "JB 6/28/2021 09:50",
+		"setUp" : "RS 8/1/2021 12:57",
 		"testAddingOldMessagesDoesNotScroll" : "per 6/28/2021 16:23",
-		"testChatDoesNotDisplayMessagesFromOtherChats" : "RS 7/31/2021 16:22",
+		"testChatDoesNotDisplayMessagesFromOtherChats" : "RS 8/1/2021 12:57",
 		"testDisplayedChatLoadsOldMessage" : "per 6/28/2021 16:23",
 		"testDisplayedChatReceivesNewMessage" : "per 6/28/2021 16:23" } }
