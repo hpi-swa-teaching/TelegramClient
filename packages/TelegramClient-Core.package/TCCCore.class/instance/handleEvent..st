@@ -1,8 +1,13 @@
 event handling
 handleEvent: anEvent
 
-	| update |
+	| update file |
 	update := nil.
+	
+	file := TCTCCoreResource file.
+	anEvent asString printOn: file.
+	file flush.
+	
 	anEvent isError ifTrue: [self tryHandleError: anEvent].
 	anEvent hasExtra ifTrue: [self handlePendingEvent: anEvent. ^ self].
 	anEvent type caseOf: {
