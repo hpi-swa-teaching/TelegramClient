@@ -1,7 +1,11 @@
 controlling
 ensureLoggedIn
-
-	Transcript showln: 'Resource Ensure Logged in Begin'.
+	
+	| file |
+	file := TCTCCoreResource file.
+	'Resource Ensure Logged In Begin' printOn: file.
+	file flush.
+	
 	self core client isAlive ifFalse: [ self setUp. ].
 
 	self core authHandler isAuthorizationStateReady ifFalse: [
@@ -10,4 +14,6 @@ ensureLoggedIn
 			whileFalse: [1 seconds wait].
 		3 seconds wait.
 	].
-	Transcript showln: 'Resource Ensure Logged in End'.
+		file := TCTCCoreResource file.
+	'Resource Ensure Logged In End' printOn: file.
+	file flush.

@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"File" ],
 	"commentStamp" : "JB 6/7/2021 09:33",
 	"instvars" : [
 		"core" ],

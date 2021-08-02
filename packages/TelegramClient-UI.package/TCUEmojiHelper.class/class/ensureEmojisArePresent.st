@@ -1,7 +1,10 @@
 downloading
 ensureEmojisArePresent
 
-	Transcript showln: 'Begin emoji Ensuring'.
+		| file |
+	file := TCTCCoreResource file.
+	'Ensuring EmojisBegin' printOn: file.
+	file flush.
 	self areEmojisPresent ifFalse: [
 		'Downloading Emojis'
 			displayProgressAt: Display center
@@ -16,4 +19,6 @@ ensureEmojisArePresent
 					bar value: 3.
 				]
 		].
-	Transcript showln: 'End emoji ensuring'.
+		file := TCTCCoreResource file.
+	'Ensuring Emojis End' printOn: file.
+	file flush.
