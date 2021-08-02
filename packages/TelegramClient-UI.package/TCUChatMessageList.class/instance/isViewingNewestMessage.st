@@ -1,4 +1,4 @@
 messages
-wasViewingNewestMessage
+isViewingNewestMessage
 
 	^ self vScrollBar maximumValue = self vScrollBar value

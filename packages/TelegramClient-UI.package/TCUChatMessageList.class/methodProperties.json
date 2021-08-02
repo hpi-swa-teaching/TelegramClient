@@ -5,8 +5,8 @@
 		"defaultScrollOffsetBeforeLoading" : "JB 6/26/2021 10:15",
 		"defaultWidth" : "RS 7/17/2021 17:39" },
 	"instance" : {
-		"addAtBottom:" : "JB 8/1/2021 18:13",
-		"addAtTop:" : "JB 8/1/2021 18:12",
+		"addAtBottom:" : "RS 8/2/2021 15:37",
+		"addAtTop:" : "RS 8/2/2021 15:37",
 		"addMessages" : "RS 7/17/2021 17:40",
 		"chat" : "js 7/31/2020 16:39",
 		"chat:" : "js 7/31/2020 16:39",
@@ -14,8 +14,8 @@
 		"displayChat:" : "RS 7/17/2021 11:54",
 		"initialize" : "RS 7/17/2021 17:40",
 		"isFromCurrentChat:" : "RS 7/1/2021 09:00",
+		"isViewingNewestMessage" : "RS 8/2/2021 15:37",
 		"scrollToNewestMessage" : "per 6/24/2021 23:14",
 		"showMessages" : "RS 7/17/2021 17:34",
 		"step" : "JB 7/19/2021 12:12",
-		"wasViewingNewestMessage" : "JB 8/1/2021 18:23",
 		"wrapperFor:" : "RS 7/17/2021 17:31" } }

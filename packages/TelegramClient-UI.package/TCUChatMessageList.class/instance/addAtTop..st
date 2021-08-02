@@ -8,6 +8,6 @@ addAtTop: aMessage
 	self scroller addMorphFront: wrapper.
 	self items addFirst: wrapper.
 	
-	self wasViewingNewestMessage
+	self isViewingNewestMessage
 		ifTrue: [self scrollToNewestMessage].
 	self scrollBy: 0 @ (wrapper height negated).

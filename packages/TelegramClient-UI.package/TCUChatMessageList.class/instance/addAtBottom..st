@@ -5,7 +5,7 @@ addAtBottom: aMessage
 	
 	(self isFromCurrentChat: aMessage)
 		ifFalse: [ ^ self ].
-	wasViewingNewestMessage := self wasViewingNewestMessage.
+	wasViewingNewestMessage := self isViewingNewestMessage.
 	wrapper := self wrapperFor: (TCUMessage newFrom: aMessage).
 	self scroller addMorphBack: wrapper.
 	self items addLast: wrapper.
