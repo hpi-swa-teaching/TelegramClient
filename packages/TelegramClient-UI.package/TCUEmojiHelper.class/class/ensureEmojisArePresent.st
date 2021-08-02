@@ -1,6 +1,7 @@
 downloading
 ensureEmojisArePresent
 
+	Transcript showln: 'Begin emoji Ensuring'.
 	self areEmojisPresent ifFalse: [
 		'Downloading Emojis'
 			displayProgressAt: Display center
@@ -15,3 +16,4 @@ ensureEmojisArePresent
 					bar value: 3.
 				]
 		].
+	Transcript showln: 'End emoji ensuring'.
