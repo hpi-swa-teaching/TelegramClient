@@ -9,5 +9,5 @@ loginWithTestData
 	phoneNumber := '99966' , testX , testYYYY.
 
 	self authHandler sendPhoneNumber: phoneNumber.
-	self authHandler isAwaitingAuthCode whileFalse: [1 second wait.].
+	[self authHandler isAwaitingAuthCode] whileFalse: [1 second wait.].
 	self checkAuthenticationCode: (String new: 6 withAll: testX).
