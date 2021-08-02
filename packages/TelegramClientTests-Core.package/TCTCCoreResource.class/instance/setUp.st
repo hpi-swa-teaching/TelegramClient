@@ -2,5 +2,5 @@ controlling
 setUp
 
 	self core: TCTCTestCore new.
-	3 seconds wait.
+	[self core authHandler isAwaitingPhoneNumber] whileFalse: [1 second wait.].
 	self ensureLoggedIn.
