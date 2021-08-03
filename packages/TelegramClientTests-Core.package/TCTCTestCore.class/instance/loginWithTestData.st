@@ -8,6 +8,6 @@ loginWithTestData
 	testYYYY := '1234'. "((1 to: 4) collect: [:i | ($0 to: $9) atRandom]) join"
 	phoneNumber := '99966' , testX , testYYYY.
 
-	self authenticationHandler sendPhoneNumber: phoneNumber.
-	2 seconds wait.
+	self authHandler sendPhoneNumber: phoneNumber.
+	[self authHandler isAwaitingAuthCode] whileFalse: [1 second wait.].
 	self checkAuthenticationCode: (String new: 6 withAll: testX).

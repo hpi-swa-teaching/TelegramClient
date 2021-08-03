@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"authorizationStateReadyEvent" : "RS 6/3/2021 12:05" },
+	"instance" : {
+		"addExtraAttribute:to:" : "RS 6/6/2021 12:29",
+		"appendResponsesToRequest:" : "RS 6/6/2021 12:33",
+		"execute:" : "RS 6/3/2021 11:49",
+		"free" : "RS 6/25/2021 12:30",
+		"freed" : "RS 6/25/2021 12:28",
+		"freed:" : "RS 6/25/2021 12:28",
+		"initialize" : "RS 6/25/2021 12:28",
+		"isAlive" : "RS 6/25/2021 12:33",
+		"logIn" : "JB 6/7/2021 09:13",
+		"onRequestType:respond:" : "RS 6/6/2021 12:20",
+		"onRequestType:respondAll:" : "RS 6/6/2021 12:22",
+		"receive:" : "JB 6/7/2021 09:13",
+		"requestResponses" : "JB 6/7/2021 09:12",
+		"requestResponses:" : "JB 6/7/2021 09:12",
+		"responseQueue" : "JB 6/7/2021 09:12",
+		"responseQueue:" : "JB 6/7/2021 09:12",
+		"send:" : "JB 6/7/2021 09:30" } }
