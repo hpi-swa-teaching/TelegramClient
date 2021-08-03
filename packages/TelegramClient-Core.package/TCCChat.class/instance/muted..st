@@ -1,4 +1,4 @@
 accessing
 muted: aBoolean
 
-	muted := aBoolean
+	muted := aBoolean.

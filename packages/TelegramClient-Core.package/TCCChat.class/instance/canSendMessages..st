@@ -1,4 +1,4 @@
 accessing
 canSendMessages: aBoolean
 
-	canSendMessages := aBoolean
+	canSendMessages := aBoolean.

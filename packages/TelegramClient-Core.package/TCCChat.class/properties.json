@@ -13,7 +13,6 @@
 		"lastMessage",
 		"waitingForUpdate",
 		"numberOfRequestedMessages",
-		"type",
 		"canSendMessages",
 		"core",
 		"infoLoaded",
