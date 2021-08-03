@@ -6,5 +6,6 @@ testPrivateChatHasNoUserList
 	self openAnyChatSatisfying: [ :aChat | aChat isPrivate].
 	self openInfoPageInChatWindow.
 
-	chatInfoPage := (self subject findByClass: TCUChatInfoPage) morphs anyOne.
-	self assertNotSeeing: TCUUserList in: chatInfoPage.
+	chatInfoPage := self subject findByClass: TCUChatInfoPage.
+
+	self assert: (chatInfoPage findByClass: TCUUserList) morphs isEmpty.
