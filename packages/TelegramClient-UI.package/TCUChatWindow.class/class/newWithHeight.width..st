@@ -6,5 +6,5 @@ newWithHeight: aHeight width: aWidth
 		width: aWidth;
 		addWelcomeMessage;
 		addInputBar;
-		addMessageWindow;
+		addChatMessageList;
 		addHiddenInfoPage
