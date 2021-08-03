@@ -2,5 +2,5 @@ controlling
 setUp
 
 	self core: TCTCTestCore new.
-	3 seconds wait.
+	[self isCoreReadyForSetup] whileFalse: [1 second wait.].
 	self ensureLoggedIn.
