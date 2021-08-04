@@ -1,4 +1,4 @@
-drawing
+initialization
 addUserBack: aUser
 
 	self scroller addMorphBack: (TextMorph new

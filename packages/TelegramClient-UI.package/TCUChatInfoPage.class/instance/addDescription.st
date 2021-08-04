@@ -3,4 +3,7 @@ addDescription
 
 	self createDescription.
 	self contentWrapper addMorph: self description.
-	self addDescriptionText.
+	[
+		[self chat description isEmpty] whileTrue: [100 milliSeconds wait].
+		self addDescriptionText.
+	] fork.

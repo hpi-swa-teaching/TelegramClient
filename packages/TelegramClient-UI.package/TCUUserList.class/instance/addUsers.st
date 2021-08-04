@@ -1,7 +1,8 @@
 initialization
 addUsers
 
-	self chat members do: [:aUser|
+	self scroller removeAllMorphs.
+	self chat members asSet do: [:aUser|
 		self addUserBack: aUser.
 	].
 	self chat canLoadMoreMembers ifTrue: [self addLoadButton].
