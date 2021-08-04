@@ -1,4 +1,4 @@
 accessing
-position: aNumber
+position: aStringOrNumber
 
-	position := aNumber.
+	position := aStringOrNumber asNumber

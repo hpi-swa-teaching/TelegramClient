@@ -1,4 +1,4 @@
 accessing
-lastMessage: aMessage
+lastMessage: aString
 
-	lastMessage := aMessage.
+	lastMessage := aString.
