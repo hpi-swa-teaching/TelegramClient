@@ -1,4 +1,4 @@
 accessing
-infoBar: aMorph
+infoBar: aRectangleMorph
 
-	infoBar := aMorph
+	infoBar := aRectangleMorph

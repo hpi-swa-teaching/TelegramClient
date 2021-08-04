@@ -1,4 +1,4 @@
 accessing
-messageModel: aTCCMessage
+messageModel: aCoreMessage
 
-	messageModel := aTCCMessage
+	messageModel := aCoreMessage
