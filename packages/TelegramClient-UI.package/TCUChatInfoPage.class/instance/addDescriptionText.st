@@ -5,4 +5,5 @@ addDescriptionText
 		contents: self chat description;
 		wrapFlag: true;
 		hResizing: #spaceFill;
-		lock).
+		lock;
+		yourself).

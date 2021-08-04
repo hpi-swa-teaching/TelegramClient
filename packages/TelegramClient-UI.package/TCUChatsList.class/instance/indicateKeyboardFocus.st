@@ -1,4 +1,4 @@
-initialization
+testing
 indicateKeyboardFocus
 
 	^ false

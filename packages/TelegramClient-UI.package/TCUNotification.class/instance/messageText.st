@@ -1,4 +1,4 @@
 accessing
 messageText
 
-	^ TCUEmojiHelper embedEmojisInto: self message asText
+	^ TCUEmojiHelper embedEmojisInto: self messageModel asText

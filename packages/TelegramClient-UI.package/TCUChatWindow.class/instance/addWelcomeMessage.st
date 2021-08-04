@@ -4,5 +4,6 @@ addWelcomeMessage
 	self
 		welcomeMessage: (TextMorph new
 			contents: 'Welcome!' asText;
-			lock);
+			lock;
+			yourself);
 		addMorphCentered: self welcomeMessage.

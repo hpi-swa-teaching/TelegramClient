@@ -6,5 +6,6 @@ createButtonVerify
 			text: 'Verify';
 			center: self inputField center + (70 @ 50);
 			on: #mouseDown send: #buttonVerifyPressed to: self;
-			hide);
+			hide;
+			yourself);
 		addMorph: self buttonVerify.

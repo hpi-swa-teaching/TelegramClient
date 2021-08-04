@@ -3,6 +3,7 @@ createLabel: aString
 
 	self instructionLabel: (TextMorph new
 		contents: aString asText;
-		lock).
+		lock;
+		yourself).
 
 	^ self instructionLabel

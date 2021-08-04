@@ -12,4 +12,5 @@ createInputBar
 		layoutInset: 2;
 		vResizing: #shrinkWrap;
 		cellInset: 12;
-		hide).
+		hide;
+		yourself).
