@@ -12,8 +12,6 @@
 		"core" : "TR 6/2/2021 15:09",
 		"core:" : "TR 6/2/2021 15:10",
 		"defaultTimeout" : "RK 7/4/2021 13:55",
-		"expectedFailures" : "TR 6/2/2021 15:19",
-		"expectedSqueak5_2Failures" : "JB 6/10/2021 22:49",
 		"findByTextContent:in:" : "RS 5/31/2021 07:55",
 		"forceSaveScreenshotOf:as:in:" : "RS 5/26/2021 13:29",
 		"openAnyChat" : "JB 7/18/2021 12:22",
