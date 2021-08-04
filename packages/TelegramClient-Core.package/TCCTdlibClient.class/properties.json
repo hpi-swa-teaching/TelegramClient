@@ -1,0 +1,15 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "js 6/13/2020 16:37",
+	"instvars" : [
+		"handle",
+		"specificClient" ],
+	"name" : "TCCTdlibClient",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

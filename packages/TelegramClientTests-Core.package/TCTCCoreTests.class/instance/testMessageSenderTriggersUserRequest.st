@@ -3,7 +3,7 @@ testMessageSenderTriggersUserRequest
 
 	| messageEvent userJson |
 	self core when: #newMessageReceived send: #newMessageReceived: to: self.
-	self core chats add: TCTMMocks mockPrivateChat.
+	self core chatsHandler chats add: TCTMMocks mockPrivateChat.
 
 	self receivedMessage: nil.
 	messageEvent := TCTMMocks mockMessageEventFrom: TCTMMocks mockPrivateChat id.

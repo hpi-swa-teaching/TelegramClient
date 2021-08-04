@@ -1,4 +1,4 @@
 controlling
 isCoreReadyForSetup
 
-	^ self core authHandler isAwaitingPhoneNumber or: [self core authHandler isAuthorizationStateReady]
+	^ self core authenticationHandler isAwaitingPhoneNumber or: [self core authenticationHandler isAuthorizationStateReady]

@@ -6,7 +6,7 @@ handleEvent: anEvent
 	anEvent isError ifTrue: [self tryHandleError: anEvent].
 	anEvent hasExtra ifTrue: [self handlePendingEvent: anEvent. ^ self].
 	anEvent type caseOf: {
-			['updateAuthorizationState'] -> [update := self authHandler handleEvent: anEvent].
+			['updateAuthorizationState'] -> [update := self authenticationHandler handleEvent: anEvent].
 			['updateNewChat'] -> [self chatsHandler addChat: anEvent].
 			['updateChatPosition'] -> [self chatsHandler updateChatPosition: anEvent].
 			['updateChatLastMessage'] -> [self chatsHandler updateLastMessage: anEvent].

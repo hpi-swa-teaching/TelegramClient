@@ -3,7 +3,7 @@ testClientDestroysHandle
 
 	| aClient aMock |
 	aMock := TCTCMockFFIClient new.
-	aClient := TCCTeleClient newWithClient: aMock.
+	aClient := TCCTdlibClient newWithClient: aMock.
 	aClient free.
 
 	self assert: aClient isAlive not.
