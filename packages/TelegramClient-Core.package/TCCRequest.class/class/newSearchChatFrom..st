@@ -1,6 +1,6 @@
 instance creation
-newSearchChatFrom: aUsername
+newSearchChatFrom: aString
 
 	^ TCCRequest
 		newWithType: 'searchPublicChat'
-		from: {'username' -> aUsername}
+		from: {'username' -> aString}

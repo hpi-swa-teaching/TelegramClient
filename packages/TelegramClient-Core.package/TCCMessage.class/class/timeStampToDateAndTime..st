@@ -1,4 +1,4 @@
 json conversion
-timeStampToDateAndTime: aUnixTimestamp
+timeStampToDateAndTime: anInteger
 
-	^ (DateAndTime fromUnixTime: aUnixTimestamp) asLocal
+	^ (DateAndTime fromUnixTime: anInteger) asLocal

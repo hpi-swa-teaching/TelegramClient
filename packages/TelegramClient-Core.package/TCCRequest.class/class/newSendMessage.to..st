@@ -1,10 +1,10 @@
 instance creation
-newSendMessage: aString to: aChatId
+newSendMessage: aString to: aNumber
 
 	^ TCCRequest
 		newWithType: 'sendMessage'
 		from: {
-			'chat_id' -> aChatId.
+			'chat_id' -> aNumber.
 			'input_message_content' -> (Dictionary newFrom: {
 				'@type' -> 'inputMessageText'.
 				'text' -> (Dictionary newFrom: {

@@ -1,9 +1,9 @@
 instance creation
-newUser: aUserId with: anExtraString
+newUser: aNumber with: aString
 
 	^ TCCRequest
 		newWithType: 'getUser'
 		from: {
-			'user_id'-> aUserId.
-			'@extra'-> anExtraString
+			'user_id'-> aNumber.
+			'@extra'-> aString
 		}

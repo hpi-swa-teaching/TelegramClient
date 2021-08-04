@@ -1,6 +1,6 @@
 instance creation
-newGetMeWith: anExtraString
+newGetMeWith: aString
 
 	^ TCCRequest
 		newWithType: 'getMe'
-		from: {'@extra' -> anExtraString}
+		from: {'@extra' -> aString}

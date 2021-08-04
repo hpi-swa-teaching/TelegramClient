@@ -1,8 +1,8 @@
 instance creation
-newFrom: aUserEvent
+newFrom: anEvent
 
 	^ self new
-		id: (aUserEvent at: 'id');
-		firstName: (aUserEvent at: 'first_name');
-		lastName: (aUserEvent at: 'last_name');
-		username: (aUserEvent at: 'username')
+		id: (anEvent at: 'id');
+		firstName: (anEvent at: 'first_name');
+		lastName: (anEvent at: 'last_name');
+		username: (anEvent at: 'username')

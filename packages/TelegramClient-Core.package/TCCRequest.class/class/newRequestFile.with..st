@@ -1,13 +1,13 @@
 instance creation
-newRequestFile: aFileId with: anExtraString
+newRequestFile: aNumber with: aString
 
 	^ TCCRequest
 		newWithType: 'downloadFile'
 		from: {
-			'file_id'->aFileId.
+			'file_id'->aNumber.
 			'priority'->32.
 			'offset'->0.
 			'limit'->0.
 			'synchronous' -> true.
-			'@extra'-> anExtraString
+			'@extra'-> aString
 		}

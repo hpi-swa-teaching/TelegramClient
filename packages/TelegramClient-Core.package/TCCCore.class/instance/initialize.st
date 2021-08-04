@@ -1,7 +1,7 @@
 initialization
 initialize
 
-	self client ifNil: [self client: TCCTeleClient newForCurrentOS].
+	self client ifNil: [self client: TCCTeleClient newForCurrentOs].
 	self
 		initializeHandlers;
 		chats: TCCChats newWithDefaultSorting;
