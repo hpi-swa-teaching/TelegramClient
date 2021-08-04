@@ -1,7 +1,7 @@
 messages
-addAtBottom: aMessage
+addAtBottom: aCoreMessage
 
 	| wrapper |
-	wrapper := self wrapperFor: (TCUMessage newFrom: aMessage).
+	wrapper := self wrapperFor: (TCUMessage newFrom: aCoreMessage).
 	self scroller addMorphBack: wrapper.
 	self items addLast: wrapper.

@@ -1,4 +1,4 @@
 menu
 registerInWorldMenu
 
-	TheWorldMenu registerOpenCommand: {'Telegram'. {TCUTelegram. #newWithTCCCore}. 'opens a Telegram Client'}.
+	TheWorldMenu registerOpenCommand: {'Telegram'. {TCUTelegram. #newWithCore}. 'opens a Telegram Client'}.

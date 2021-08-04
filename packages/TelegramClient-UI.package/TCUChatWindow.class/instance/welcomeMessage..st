@@ -1,4 +1,4 @@
 accessing
-welcomeMessage: aMorph
+welcomeMessage: aTextMorph
 
-	welcomeMessage := aMorph.
+	welcomeMessage := aTextMorph.

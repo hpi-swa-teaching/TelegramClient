@@ -1,15 +1,15 @@
 messages
-wrapperFor: aTCUMessage
+wrapperFor: aMessage
 	
 	| wrapper |
 	wrapper := self class defaultMessageWrapper
 		width: self scroller width;
-		height: aTCUMessage height;
+		height: aMessage height;
 		yourself.
 	
-	aTCUMessage isOutgoing
+	aMessage isOutgoing
 		ifTrue: [ wrapper listDirection: #rightToLeft ]
 		ifFalse: [ wrapper listDirection: #leftToRight ].
 	
-	wrapper addMorph: aTCUMessage.
+	wrapper addMorph: aMessage.
 	^ wrapper

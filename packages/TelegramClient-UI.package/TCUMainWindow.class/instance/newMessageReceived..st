@@ -1,5 +1,5 @@
 event handling
-newMessageReceived: aMessage
+newMessageReceived: aCoreMessage
 
-	aMessage shouldNotify ifTrue: [
-		[(TCUNotification newWithMessage: aMessage) openInWorld] fork].
+	aCoreMessage shouldNotify ifTrue: [
+		[(TCUNotification newWithMessage: aCoreMessage) openInWorld] fork].

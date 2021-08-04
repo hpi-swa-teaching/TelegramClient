@@ -1,4 +1,4 @@
 accessing
-message: aMessage
+message: aCoreMessage
 
-	message := aMessage
+	message := aCoreMessage

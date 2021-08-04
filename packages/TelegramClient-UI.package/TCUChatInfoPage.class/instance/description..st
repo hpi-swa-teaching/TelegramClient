@@ -1,4 +1,4 @@
 accessing
-description: aMorph
+description: aRectangleMorph
 
-	description := aMorph
+	description := aRectangleMorph

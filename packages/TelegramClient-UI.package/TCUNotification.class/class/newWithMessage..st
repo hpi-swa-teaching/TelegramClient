@@ -1,7 +1,7 @@
 instance creation
-newWithMessage: aMessage
+newWithMessage: aCoreMessage
 
 	^ self basicNew
-		chat: aMessage chat;
-		message: aMessage;
+		chat: aCoreMessage chat;
+		message: aCoreMessage;
 		initialize

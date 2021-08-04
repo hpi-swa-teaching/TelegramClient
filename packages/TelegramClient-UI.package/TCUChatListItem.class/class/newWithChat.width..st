@@ -1,9 +1,9 @@
 instance creation
-newWithChat: aChat width: aWidth
+newWithChat: aChat width: aNumber
 
 	^ self new
 		chat: aChat;
-		width: aWidth;
+		width: aNumber;
 		addTitle;
 		addLastMessage;
 		addBorder;

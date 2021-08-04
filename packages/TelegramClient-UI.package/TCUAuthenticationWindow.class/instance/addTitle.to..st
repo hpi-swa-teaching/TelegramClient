@@ -1,5 +1,5 @@
 drawing
-addTitle: aString to: aMorph
+addTitle: aString to: aRectangleMorph
 
 	| titleLable font |
 	font := (TextFontReference toFont: (StrikeFont familyName: 'DefaultTextStyle' size: 35)).
@@ -8,4 +8,4 @@ addTitle: aString to: aMorph
 		color: Color white;
 		lock.
 
-	aMorph addMorphCentered: titleLable.
+	aRectangleMorph addMorphCentered: titleLable.

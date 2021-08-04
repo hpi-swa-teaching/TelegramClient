@@ -1,4 +1,4 @@
 accessing
-instructionLabel: aLabel
+instructionLabel: aTextMorph
 
-	instructionLabel := aLabel.
+	instructionLabel := aTextMorph.

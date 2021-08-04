@@ -1,4 +1,4 @@
 accessing
-errorLabel: aMorph
+errorLabel: aTextMorph
 
-	errorLabel := aMorph.
+	errorLabel := aTextMorph.

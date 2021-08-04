@@ -1,16 +1,16 @@
 {
 	"class" : {
 		"initialize" : "js 8/2/2020 14:31",
+		"newWithCore" : "RK 8/4/2021 11:28",
 		"newWithCore:" : "js 8/2/2020 14:29",
-		"newWithTCCCore" : "rs 6/25/2020 10:16",
-		"registerInWorldMenu" : "js 8/2/2020 14:28" },
+		"registerInWorldMenu" : "RK 8/4/2021 11:28" },
 	"instance" : {
 		"addAuthenticationWindow" : "RS 7/17/2021 12:47",
 		"addMainWindow" : "RS 7/17/2021 12:47",
 		"core" : "js 5/31/2020 20:04",
 		"core:" : "js 5/31/2020 20:04",
 		"currentWindow" : "r.s 7/13/2020 17:11",
-		"currentWindow:" : "r.s 7/13/2020 17:11",
+		"currentWindow:" : "RK 8/4/2021 11:26",
 		"initialize" : "JB 7/19/2021 12:26",
 		"logInCompleted" : "RS 7/17/2021 12:30",
 		"loggedOut" : "RS 7/17/2021 12:25",
