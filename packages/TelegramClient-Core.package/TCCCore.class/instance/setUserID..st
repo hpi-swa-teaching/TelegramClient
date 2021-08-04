@@ -1,4 +1,4 @@
 accessing
-setUserID: anUser
+setUserID: aUser
 
-	self loggedInUserID = 0 ifTrue: [self loggedInUserID: (anUser at: 'id')].
+	self loggedInUserID = 0 ifTrue: [self loggedInUserID: (aUser at: 'id')].

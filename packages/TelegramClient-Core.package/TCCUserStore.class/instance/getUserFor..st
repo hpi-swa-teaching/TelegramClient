@@ -1,10 +1,10 @@
 accessing
-getUserFor: aUserId
+getUserFor: aNumber
 
 	| promise |
-	promise := self at: aUserId ifAbsent:
-		[self at: aUserId put: Promise new.
-		self requestUserFor: aUserId with: (self at: aUserId).
- 		self at: aUserId].
+	promise := self at: aNumber ifAbsent:
+		[self at: aNumber put: Promise new.
+		self requestUserFor: aNumber with: (self at: aNumber).
+ 		self at: aNumber].
 	promise wait.
-	^ (promise value)
+	^ promise value

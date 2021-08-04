@@ -1,9 +1,9 @@
 utility
-requestImageFor: anImageId with: aPromise
+requestImageFor: aNumber with: aPromise
 
 	| callbackID |
 	callbackID := self core
 		registerCallback:
 			[:imageEvent | aPromise resolveWith: (self class extractPathFrom: imageEvent)].
 
-	self core requestFile: anImageId with: callbackID
+	self core requestFile: aNumber with: callbackID

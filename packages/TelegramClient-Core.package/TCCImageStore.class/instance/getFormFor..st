@@ -1,10 +1,10 @@
 accessing
-getFormFor: anImageId
+getFormFor: aNumber
 
 	| promise |
-	promise := self at: anImageId ifAbsent:
-		[self at: anImageId put: Promise new.
-		self requestImageFor: anImageId with: (self at: anImageId).
- 		self at: anImageId].
+	promise := self at: aNumber ifAbsent:
+		[self at: aNumber put: Promise new.
+		self requestImageFor: aNumber with: (self at: aNumber).
+ 		self at: aNumber].
 	promise wait.
 	^ self class imageFormFrom: promise value

@@ -1,4 +1,4 @@
 library calls
-sendPhoneNumber: aNumber
+sendPhoneNumber: aString
 
-	self core send: (TCCRequest newSendPhoneNumber: aNumber).
+	self core send: (TCCRequest newSendPhoneNumber: aString).

@@ -1,4 +1,4 @@
 event handling
-handleNewMessage: aMessageJSONObject
+handleNewMessage: aJsonObject
 
-	self addNewMessage: aMessageJSONObject
+	self addNewMessage: aJsonObject

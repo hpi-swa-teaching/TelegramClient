@@ -1,4 +1,4 @@
 accessing
-client: aClient
+client: aTeleClient
 
-	client := aClient.
+	client := aTeleClient.

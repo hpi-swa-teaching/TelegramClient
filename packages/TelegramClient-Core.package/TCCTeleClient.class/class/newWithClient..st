@@ -1,7 +1,7 @@
 instance creation
-newWithClient: aClient
+newWithClient: anFfiClient
 
-	aClient setLogLevel: self defaultLogLevel.
+	anFfiClient setLogLevel: self defaultLogLevel.
 	^ self new
-		specificClient: aClient;
-		handle: aClient create
+		specificClient: anFfiClient;
+		handle: anFfiClient create

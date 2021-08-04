@@ -1,4 +1,4 @@
 accessing
-specificClient: aClient
+specificClient: anFfiClient
 
-	specificClient := aClient.
+	specificClient := anFfiClient.

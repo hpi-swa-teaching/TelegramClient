@@ -1,4 +1,4 @@
 events
-requestUser: aUserId with: aCallbackId
+requestUser: aNumber with: aString
 
-	self send: (TCCRequest newUser: aUserId with: aCallbackId)
+	self send: (TCCRequest newUser: aNumber with: aString)
