@@ -1,11 +1,11 @@
 testing
-partialGroupMembersTestFor: aChat
+partialGroupMembersTestFor: aCoreChat
 
 	self core userStore: TCTMMocks mockUserStore.
-	aChat core: self core.
-	aChat loadInfo.
+	aCoreChat core: self core.
+	aCoreChat loadInfo.
 	1 seconds wait.
-	self assert: (aChat members allSatisfy: [:member |
+	self assert: (aCoreChat members allSatisfy: [:member |
 		((TCTMMocks mockUser1 id = member id) or: [TCTMMocks mockUser2 id = member id]).
 		]).
-	self assert: 2 equals: aChat members size.
+	self assert: 2 equals: aCoreChat members size.

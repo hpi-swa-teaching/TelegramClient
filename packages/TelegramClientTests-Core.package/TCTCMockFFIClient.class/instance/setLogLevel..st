@@ -1,4 +1,4 @@
 external calls
-setLogLevel: aLogLevel
+setLogLevel: aNumber
 
 	"avoid making call to library"

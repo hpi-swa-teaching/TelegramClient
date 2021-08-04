@@ -1,4 +1,4 @@
 accessing
-chats: aTCCChats
+chats: aCoreChats
 
-	chats := aTCCChats.
+	chats := aCoreChats.

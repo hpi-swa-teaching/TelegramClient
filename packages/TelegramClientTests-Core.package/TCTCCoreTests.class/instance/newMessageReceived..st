@@ -1,4 +1,4 @@
 testing
-newMessageReceived: aMessage
+newMessageReceived: aCoreMessage
 
-	self receivedMessage: aMessage
+	self receivedMessage: aCoreMessage

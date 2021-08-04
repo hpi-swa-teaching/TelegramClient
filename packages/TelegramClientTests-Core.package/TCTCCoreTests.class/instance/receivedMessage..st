@@ -1,4 +1,4 @@
 accessing
-receivedMessage: aMessage
+receivedMessage: aCoreMessage
 
-	receivedMessage := aMessage
+	receivedMessage := aCoreMessage
