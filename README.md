@@ -82,6 +82,7 @@ Metacello new
    1. **Last compatible FFI version.** For Squeak version 5.3 use `Metacello new configuration: 'FFI'; load.` to install it.
    2. **JSON** package from [SqueakSource](http://www.squeaksource.com/JSON.html).
    3. **Animations** package [GitHub](https://github.com/hpi-swa/animations/).
+   4. **MTF** package from [GitHub](https://github.com/hpi-swa-teaching/Morphic-Testing-Framework)
 
 2. Check our [release page](https://github.com/hpi-swa-teaching/TelegramClient/releases) for an online installer in the form of a SAR file. Install this SAR file in your Squeak image.
 
@@ -101,6 +102,8 @@ The [wiki](https://github.com/hpi-swa-teaching/TelegramClient/wiki) has a lot of
 Pre-Releases are created automatically whenever a commit is added to the develop-branch. Releases should created before each client meeting and can simply be done by merging develop into master.
 
 ## Our Group
+
+Group 18 of the 2021 SWT I module included [Romeo Sommerfeld](https://github.com/rsommerfeld), [Raphael Kunert](https://github.com/Storyxx), [Jannis Berndt](https://github.com/jb3rndt), [Philipp Keese](https://github.com/phkeese), [Tom Richter](https://github.com/tom-richter), and [Paul Ermler](https://github.com/permler).
 
 Group 13 of the 2020 SWT I module included [Rohan Sawahn](https://github.com/rohansaw), [Jonas Schmidt](https://github.com/schmidtjonas), [Frederik Wollny](https://github.com/Freddy200), [Stefan Spangenberg](https://github.com/sspangenberg), [Lukas Laskowski](https://github.com/lasklu), and [Niklas Schilli](https://github.com/Mrnikbobjeff). Feel free to add your names to the list.
 
