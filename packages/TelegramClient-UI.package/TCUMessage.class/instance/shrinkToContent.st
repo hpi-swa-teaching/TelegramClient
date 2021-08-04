@@ -8,4 +8,4 @@ shrinkToContent
 	
 	self width: maxWidth + (self layoutInset * 2).
 
-	self height: (self submorphs detectSum: [:textMorph | textMorph height]) + (self layoutInset * 2 + (self submorphs size - 1 * self class defaultBottomMargin)).
+	self height: (self submorphs detectSum: [:textMorph | textMorph height]) + (self layoutInset * 2 + ((self submorphs size - 1) * self class defaultBottomMargin)).

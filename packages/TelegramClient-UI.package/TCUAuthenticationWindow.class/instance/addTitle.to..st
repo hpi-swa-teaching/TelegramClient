@@ -6,6 +6,7 @@ addTitle: aString to: aRectangleMorph
 	titleLable := TextMorph new
 		contents: (aString asText addAttribute: font);
 		color: Color white;
-		lock.
+		lock;
+		yourself.
 
 	aRectangleMorph addMorphCentered: titleLable.

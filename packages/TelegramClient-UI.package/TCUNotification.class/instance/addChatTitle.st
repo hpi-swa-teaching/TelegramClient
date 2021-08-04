@@ -6,5 +6,7 @@ addChatTitle
 			(self class defaultTextMorph
 				position: self topLeft + self class defaultChatOffset;
 				contents: self chatTitle asText;
-				hResizing: #spaceFill).
+				hResizing: #spaceFill;
+				yourself
+			).
 		]

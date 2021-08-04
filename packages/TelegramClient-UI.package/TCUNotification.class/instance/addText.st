@@ -6,4 +6,5 @@ addText
 			position: self center + self class defaultMessageOffset;
 			contents: self messageText;
 			vResizing: #rigid;
-			hResizing: #rigid).
+			hResizing: #rigid;
+			yourself).

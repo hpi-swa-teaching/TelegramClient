@@ -6,5 +6,6 @@ createButtonBack
 			text: 'Back';
 			center: self inputField center + ((-100) @ 50);
 			hide;
-			on: #mouseDown send: #buttonBackPressed to: self);
+			on: #mouseDown send: #buttonBackPressed to: self;
+			yourself);
 		addMorph: self buttonBack.

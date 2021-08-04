@@ -3,5 +3,5 @@ newWithMessage: aCoreMessage
 
 	^ self basicNew
 		chat: aCoreMessage chat;
-		message: aCoreMessage;
+		messageModel: aCoreMessage;
 		initialize
