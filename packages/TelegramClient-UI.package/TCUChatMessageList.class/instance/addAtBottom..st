@@ -1,13 +1,13 @@
 messages
 addAtBottom: aMessage
 
-	| wrapper wasViewingNewestMessage |
+	| wrapper wasFullyScrolledDown |
 	
 	(self isFromCurrentChat: aMessage)
 		ifFalse: [ ^ self ].
-	wasViewingNewestMessage := self fullyScrolledDown.
+	wasFullyScrolledDown := self isFullyScrolledDown.
 	wrapper := self wrapperFor: (TCUMessage newFrom: aMessage).
 	self scroller addMorphBack: wrapper.
 	self items addLast: wrapper.
-	wasViewingNewestMessage
+	wasFullyScrolledDown
 		ifTrue: [ self scrollToNewestMessage ]

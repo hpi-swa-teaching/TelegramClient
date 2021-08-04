@@ -1,4 +1,4 @@
 messages
-fullyScrolledDown
+isFullyScrolledDown
 
 	^ self vScrollBar maximumValue = self vScrollBar value
