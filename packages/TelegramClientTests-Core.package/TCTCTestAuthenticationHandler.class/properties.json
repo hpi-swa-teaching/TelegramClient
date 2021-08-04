@@ -7,7 +7,7 @@
 	"commentStamp" : "rs 6/14/2020 12:57",
 	"instvars" : [
 		 ],
-	"name" : "TCTCTestAuthHandler",
+	"name" : "TCTCTestAuthenticationHandler",
 	"pools" : [
 		 ],
 	"super" : "TCCAuthenticationHandler",
