@@ -103,7 +103,7 @@ Pre-Releases are created automatically whenever a commit is added to the develop
 
 ## Our Group
 
-Group 18 of the 2021 SWT I module included [Romeo Sommerfeld](https://github.com/rsommerfeld), [Raphael Kunert](https://github.com/Storyxx), [Jannis Berndt](https://github.com/jb3rndt), [Philipp Keese](https://github.com/phkeese), [Tom Richter](https://github.com/tom-richter), and [Paul Ermler](https://github.com/permler).
+Group 2 of the 2021 SWT I module included [Romeo Sommerfeld](https://github.com/rsommerfeld), [Raphael Kunert](https://github.com/Storyxx), [Jannis Berndt](https://github.com/jb3rndt), [Philipp Keese](https://github.com/phkeese), [Tom Richter](https://github.com/tom-richter), and [Paul Ermler](https://github.com/permler).
 
 Group 13 of the 2020 SWT I module included [Rohan Sawahn](https://github.com/rohansaw), [Jonas Schmidt](https://github.com/schmidtjonas), [Frederik Wollny](https://github.com/Freddy200), [Stefan Spangenberg](https://github.com/sspangenberg), [Lukas Laskowski](https://github.com/lasklu), and [Niklas Schilli](https://github.com/Mrnikbobjeff). Feel free to add your names to the list.
 
