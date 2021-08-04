@@ -3,9 +3,9 @@ ensureLoggedIn
 
 	self core client isAlive ifFalse: [ self setUp. ].
 
-	self core authHandler isAuthorizationStateReady ifFalse: [
+	self core authenticationHandler isAuthorizationStateReady ifFalse: [
 		self core loginWithTestData.
-		[self core authHandler isAuthorizationStateReady]
+		[self core authenticationHandler isAuthorizationStateReady]
 			whileFalse: [1 seconds wait].
 		3 seconds wait.
 	].

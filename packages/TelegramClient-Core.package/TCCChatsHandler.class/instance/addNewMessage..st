@@ -2,7 +2,7 @@ events
 addNewMessage: aMessageJSONObject
 
 	| chat message |
-	chat := self core chats getChat: (aMessageJSONObject at: 'chat_id').
+	chat := self chats getChat: (aMessageJSONObject at: 'chat_id').
 	message := TCCMessage newFromMessageEvent: aMessageJSONObject in: chat with: self core.
 
 	chat addNewestMessage: message.

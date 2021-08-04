@@ -5,4 +5,4 @@ chatHistoryReceived: aChatHistory
 	
 	(aChatHistory at: 'messages') ifNotEmpty: [
 		chatID := (aChatHistory at: 'messages') first at: 'chat_id'.
-		(self core chats getChat: chatID) chatHistoryReceived: aChatHistory].
+		(self chats getChat: chatID) chatHistoryReceived: aChatHistory].

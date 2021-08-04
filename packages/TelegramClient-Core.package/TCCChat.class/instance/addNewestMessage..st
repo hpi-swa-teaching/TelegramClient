@@ -1,5 +1,5 @@
 adding
 addNewestMessage: aMessage
 
-	self messages add: aMessage afterIndex: 1.
+	self messages addFirst: aMessage.
 	self triggerEvent: #newMessage with: aMessage.

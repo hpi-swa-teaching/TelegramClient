@@ -1,4 +1,4 @@
 handlers
 checkAuthenticationCode: aString
 
-	self authHandler checkAuthenticationCode: aString.
+	self authenticationHandler checkAuthenticationCode: aString.

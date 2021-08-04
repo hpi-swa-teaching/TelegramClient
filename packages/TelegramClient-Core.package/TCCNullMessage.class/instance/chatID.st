@@ -1,4 +1,0 @@
-accessing
-chatID
-
-	^ 0

@@ -1,8 +1,8 @@
 controlling
 ensureLoggedOut
 
-	self core authHandler isAuthStateClosed ifFalse: [
-		self core authHandler logout.
-		[self core authHandler isAuthStateClosed]
+	self core authenticationHandler isAuthStateClosed ifFalse: [
+		self core authenticationHandler logout.
+		[self core authenticationHandler isAuthStateClosed]
 			whileFalse: [1 seconds wait].
 	]
