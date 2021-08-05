@@ -1,4 +1,4 @@
 accessing
 downloadUrl
 
-	^ 'https://drive.google.com/uc?export=download&id=1MzMNvtY1Nc3Qu0oec-iviIhzOY7qr4x7'
+	^ 'https://github.com/hpi-swa-teaching/tdlib/releases/download/v1.7.0/libtdjson.1.7.0.dylib'
