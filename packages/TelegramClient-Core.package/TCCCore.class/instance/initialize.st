@@ -4,7 +4,6 @@ initialize
 	self client ifNil: [self client: TCCTeleClient newForCurrentOs].
 	self
 		initializeHandlers;
-		chats: TCCChats newWithDefaultSorting;
 		loggedInUserID: 0;
 		pendingRequests: Dictionary new;
 		userStore: (TCCUserStore newWith: self);

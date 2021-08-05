@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"defaultLastMessageId" : "JB 8/4/2021 00:10",
 		"defaultMessageLimit" : "RS 7/17/2021 11:45",
 		"defaultNumberOfRequestedMessages" : "js 8/1/2020 18:52",
 		"newFromChatEvent:" : "RS 7/17/2021 17:07" },
@@ -16,8 +17,8 @@
 		"ifNotWaitingForUpdate:" : "js 8/2/2020 13:17",
 		"infoLoaded" : "per 6/4/2021 15:59",
 		"infoLoaded:" : "per 6/4/2021 15:51",
-		"initialize" : "per 7/17/2021 15:51",
-		"initializeFromChatEvent:" : "per 6/16/2021 17:51",
+		"initialize" : "RS 7/31/2021 16:34",
+		"initializeFromChatEvent:" : "JB 8/4/2021 00:21",
 		"isBasicGroup" : "per 6/15/2021 08:08",
 		"isChannel" : "per 7/17/2021 15:51",
 		"isChannel:" : "per 7/17/2021 15:50",
@@ -32,8 +33,8 @@
 		"messages" : "R.S 6/1/2020 15:37",
 		"messages:" : "5/11/2021 10:09:15",
 		"muted" : "per 6/16/2021 17:34",
-		"muted:" : "per 6/16/2021 17:35",
-		"numberOfMessages" : "js 8/1/2020 18:04",
+		"muted:" : "JB 8/4/2021 00:07",
+		"numberOfMessages" : "RS 7/31/2021 15:19",
 		"numberOfRequestedMessages" : "js 8/1/2020 17:43",
 		"numberOfRequestedMessages:" : "5/11/2021 10:09:15",
 		"position" : "RS 5/10/2021 21:11",
@@ -45,7 +46,5 @@
 		"stillRequestedMessages" : "js 8/1/2020 18:05",
 		"title" : "rs 6/7/2020 22:24",
 		"title:" : "5/11/2021 10:09:15",
-		"type" : "pk 5/9/2021 16:58",
-		"type:" : "5/11/2021 10:09:15",
 		"waitingForUpdate" : "5/11/2021 10:09:15",
 		"waitingForUpdate:" : "js 8/1/2020 17:00" } }

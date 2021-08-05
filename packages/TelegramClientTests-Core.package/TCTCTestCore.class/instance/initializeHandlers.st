@@ -2,5 +2,9 @@ initialization
 initializeHandlers
 
 	self
-		authHandler: (TCTCTestAuthHandler new core: self);
-		chatsHandler: (TCCChatsHandler new core: self).
+		authenticationHandler: (TCTCTestAuthenticationHandler new
+			core: self;
+			yourself);
+		chatsHandler: (TCCChatsHandler new
+			core: self;
+			yourself).

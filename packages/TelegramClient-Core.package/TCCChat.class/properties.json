@@ -8,13 +8,11 @@
 	"instvars" : [
 		"messages",
 		"position",
-		"positionKnown",
 		"id",
 		"title",
 		"lastMessage",
 		"waitingForUpdate",
 		"numberOfRequestedMessages",
-		"type",
 		"canSendMessages",
 		"core",
 		"infoLoaded",

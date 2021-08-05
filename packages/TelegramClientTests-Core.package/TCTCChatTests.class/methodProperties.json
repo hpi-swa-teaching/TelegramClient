@@ -5,7 +5,7 @@
 		"chat" : "LL 8/2/2020 20:25",
 		"chat:" : "pk 8/4/2021 18:34",
 		"setUp" : "tom.richter 7/25/2021 11:24",
-		"testAddNewestMessage" : "TR 6/22/2021 09:49",
+		"testAddNewestMessage" : "RS 7/31/2021 15:45",
 		"testAddOldestMessage" : "TR 6/22/2021 09:49",
 		"testId" : "pk 8/4/2021 18:36",
 		"testLastMessage" : "per 5/21/2021 16:31",
@@ -16,7 +16,6 @@
 		"testNullMessage" : "js 8/2/2020 21:41",
 		"testNullMessages" : "js 8/2/2020 21:17",
 		"testPosition" : "per 5/21/2021 16:30",
-		"testPositionKnown" : "per 5/21/2021 16:30",
 		"testStillRequestedMessages" : "per 5/21/2021 16:29",
 		"testTitle" : "per 5/21/2021 16:29",
 		"testWaitingForUpdate" : "js 8/2/2020 20:58" } }

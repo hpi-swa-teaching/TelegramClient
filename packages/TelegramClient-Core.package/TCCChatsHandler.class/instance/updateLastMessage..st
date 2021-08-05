@@ -5,7 +5,7 @@ updateLastMessage: anEvent
 
 	(anEvent includesKey: 'last_message') ifTrue: [
 		messageJson := anEvent at: 'last_message'.
-		chat := self core chats getChat: (anEvent at: 'chat_id').
+		chat := self chats getChat: (anEvent at: 'chat_id').
 
 		(anEvent at: 'positions') notEmpty
 			ifTrue: [chat position:

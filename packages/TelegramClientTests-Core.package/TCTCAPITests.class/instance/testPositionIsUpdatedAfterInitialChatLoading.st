@@ -3,7 +3,7 @@ testPositionIsUpdatedAfterInitialChatLoading
 
 	| testChat newChatEvent updatePositionEvent |
 
-	testChat := self sharedCore chats first.
+	testChat := self sharedCore chatsHandler chats first.
 	self assert: testChat positionKnown.
 	
 	newChatEvent := (self sharedCore loggedEventsSatisfying:

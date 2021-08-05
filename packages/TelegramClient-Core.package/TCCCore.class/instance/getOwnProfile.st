@@ -1,7 +1,6 @@
 events
 getOwnProfile
 
-	| callbackId |
-	
-	callbackId := self registerCallback: [:aUserEvent | self setUserID: aUserEvent].
-	self send: (TCCRequest newGetMeWith: callbackId).
+	self
+		send: TCCRequest newGetMe
+		thenDo: [:aUserEvent | self setUserID: aUserEvent].

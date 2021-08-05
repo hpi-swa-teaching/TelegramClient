@@ -4,7 +4,7 @@ testSortingUnknownPositions
 	| chat |
 
 	chat := self chats last.
-	chat positionKnown: false.
+	chat position: nil.
 
 	self chats notify.
 
