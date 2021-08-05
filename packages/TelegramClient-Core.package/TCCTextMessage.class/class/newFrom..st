@@ -1,6 +1,6 @@
 instance creation
-newFrom: aMessageContent
+newFrom: aJsonObject
 
 	^ self new
-		text: ((aMessageContent at: 'text') at: 'text');
+		text: ((aJsonObject at: 'text') at: 'text');
 		yourself
