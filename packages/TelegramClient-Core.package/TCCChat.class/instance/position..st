@@ -1,4 +1,4 @@
 accessing
 position: aStringOrNumber
 
-	position := aStringOrNumber asNumber
+	position := aStringOrNumber ifNotNil: [aStringOrNumber asNumber]
