@@ -1,4 +1,4 @@
 navigating
-openChatWithId: anID
+openChatWithId: anId
 
-	(self subject findByCriteria: [ :morph | (morph respondsTo: #chatID) and: [morph chatID = anID]]) click.
+	(self subject findByCriteria: [ :morph | (morph respondsTo: #chatId) and: [morph chatId = anId]]) click.

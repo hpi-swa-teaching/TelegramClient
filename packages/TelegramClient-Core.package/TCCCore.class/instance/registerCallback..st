@@ -1,8 +1,8 @@
 utility
 registerCallback: aClosure
 
-	| callbackID |
+	| callbackId |
 	
-	callbackID := self generateCallbackId.
-	self pendingRequests at: callbackID put: aClosure.
-	^ callbackID
+	callbackId := self generateCallbackId.
+	self pendingRequests at: callbackId put: aClosure.
+	^ callbackId

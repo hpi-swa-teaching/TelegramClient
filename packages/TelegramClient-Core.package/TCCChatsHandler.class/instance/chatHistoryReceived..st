@@ -1,8 +1,8 @@
 event handling
 chatHistoryReceived: anEvent
 
-	| chatID |
+	| chatId |
 	
 	(anEvent at: 'messages') ifNotEmpty: [
-		chatID := (anEvent at: 'messages') first at: 'chat_id'.
-		(self chats getChat: chatID) chatHistoryReceived: anEvent].
+		chatId := (anEvent at: 'messages') first at: 'chat_id'.
+		(self chats getChat: chatId) chatHistoryReceived: anEvent].
