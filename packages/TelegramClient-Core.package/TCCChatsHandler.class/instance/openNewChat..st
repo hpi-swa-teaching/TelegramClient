@@ -1,8 +1,8 @@
 events
-openNewChat: aChatEvent
+openNewChat: anEvent
 
 	| newChat |
-	newChat := TCCChat newFromChatEvent: aChatEvent.
+	newChat := TCCChat newFromChatEvent: anEvent.
 	(self chats hasChat: newChat id)
 		ifFalse: [self chats add: newChat.]
 		ifTrue: [newChat := self core chats getChat: newChat id.].

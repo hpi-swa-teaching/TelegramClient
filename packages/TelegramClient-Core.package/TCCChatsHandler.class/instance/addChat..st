@@ -1,8 +1,8 @@
 events
-addChat: aChatEvent
+addChat: anEvent
 
 	| chat |
-	chat := TCCChat newFromChatEvent: (aChatEvent at: 'chat').
+	chat := TCCChat newFromChatEvent: (anEvent at: 'chat').
 	chat core: self core.
 
 	self chats add: chat.

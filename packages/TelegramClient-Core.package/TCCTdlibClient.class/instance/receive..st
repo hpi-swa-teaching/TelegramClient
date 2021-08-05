@@ -1,8 +1,8 @@
 library calls
-receive: aTimeoutNumber
+receive: aTimeout
 
 	| event |
 
-	event := self specificClient receive: self handle with: aTimeoutNumber.
+	event := self specificClient receive: self handle with: aTimeout.
 	event ifNil: [^ nil].
 	^ Json new readFromString: event

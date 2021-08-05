@@ -1,9 +1,9 @@
 events
-addNewMessage: aMessageJSONObject
+addNewMessage: aJsonObject
 
 	| chat message |
-	chat := self chats getChat: (aMessageJSONObject at: 'chat_id').
-	message := TCCMessage newFromMessageEvent: aMessageJSONObject in: chat with: self core.
+	chat := self chats getChat: (aJsonObject at: 'chat_id').
+	message := TCCMessage newFromMessageEvent: aJsonObject in: chat with: self core.
 
 	chat addNewestMessage: message.
 	self core triggerEvent: #newMessageReceived with: message.
