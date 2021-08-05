@@ -1,9 +1,8 @@
 instance creation
-newGetBasicGroupFullInfoOf: aNumber with: aString
+newGetBasicGroupFullInfoOf: aGroupId
 
 	^ TCCRequest
 		newWithType: 'getBasicGroupFullInfo'
 		from: {
-			'basic_group_id' -> aNumber.
-			'@extra'-> aString
+			'basic_group_id' -> aGroupId.
 		}

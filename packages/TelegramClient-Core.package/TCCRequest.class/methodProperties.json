@@ -2,18 +2,17 @@
 	"class" : {
 		"newCheckAuthenticationCode:" : "RS 6/23/2021 16:35",
 		"newCheckDatabaseEncryptionKey:" : "RS 6/23/2021 16:35",
-		"newGetBasicGroupFullInfoOf:with:" : "pk 8/4/2021 15:09",
+		"newGetBasicGroupFullInfoOf:" : "pk 8/5/2021 13:17",
 		"newGetChatHistoryOf:from:until:" : "RS 6/24/2021 09:20",
 		"newGetChats" : "RS 6/23/2021 16:37",
-		"newGetMeWith:" : "pk 8/4/2021 15:11",
-		"newGetSuperGroupFullInfoOf:with:" : "pk 8/4/2021 15:11",
-		"newGetSuperGroupMembersOf:with:until:with:" : "pk 8/4/2021 15:11",
+		"newGetMe" : " 8/5/2021 13:07:46",
+		"newGetSuperGroupMembersOf:with:until:" : " 8/5/2021 13:07:46",
 		"newLogOut" : "RS 6/23/2021 16:33",
-		"newRequestFile:with:" : "pk 8/4/2021 15:12",
+		"newRequestFile:" : " 8/5/2021 13:07:46",
 		"newSearchChatFrom:" : "pk 8/4/2021 15:12",
 		"newSendMessage:to:" : "pk 8/4/2021 15:12",
 		"newSendPhoneNumber:" : "RS 6/23/2021 16:34",
-		"newUser:with:" : "pk 8/4/2021 15:13",
+		"newUser:" : " 8/5/2021 13:07:46",
 		"newWithType:from:" : "rs 6/6/2020 16:21" },
 	"instance" : {
 		"asString" : "js 8/1/2020 12:16" } }

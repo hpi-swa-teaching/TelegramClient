@@ -15,5 +15,5 @@ updateLastMessage: anEvent
 		
 		chat lastMessage: (TCCMessage newFromMessageEvent: messageJson in: chat with: self core) asSnippet.
 
-		self core chats notify.
+		self chats notify.
 	].

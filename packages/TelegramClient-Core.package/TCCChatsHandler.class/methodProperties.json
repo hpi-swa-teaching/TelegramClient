@@ -5,11 +5,14 @@
 		"addChat:" : "pk 8/4/2021 12:21",
 		"addNewMessage:" : "pk 8/4/2021 12:21",
 		"chatHistoryReceived:" : "pk 8/4/2021 12:17",
+		"chats" : " 8/5/2021 13:07:46",
+		"chats:" : " 8/5/2021 13:07:46",
 		"core" : "6/4/2021 16:24:10",
 		"core:" : "6/4/2021 16:24:10",
 		"getChats" : "RS 6/23/2021 16:38",
 		"handleNewMessage:" : "pk 8/4/2021 12:21",
+		"initialize" : " 8/5/2021 13:07:46",
 		"openNewChat:" : "pk 8/4/2021 12:17",
 		"searchChat:" : "pk 8/4/2021 12:21",
 		"updateChatPosition:" : "pk 8/4/2021 11:19",
-		"updateLastMessage:" : "pk 8/4/2021 12:18" } }
+		"updateLastMessage:" : "pk 8/5/2021 13:16" } }

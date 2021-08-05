@@ -1,7 +1,7 @@
 initialization
 initialize
 
-	self client ifNil: [self client: TCCTeleClient newForCurrentOs].
+	self client ifNil: [self client: TCCTdlibClient newForCurrentOs].
 	self
 		initializeHandlers;
 		loggedInUserID: 0;
