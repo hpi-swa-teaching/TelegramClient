@@ -1,5 +1,5 @@
 library calls
-setTDLibParams
+setTdlibParams
 
  	self core send: (TCCRequest
 		newWithType: 'setTdlibParameters'

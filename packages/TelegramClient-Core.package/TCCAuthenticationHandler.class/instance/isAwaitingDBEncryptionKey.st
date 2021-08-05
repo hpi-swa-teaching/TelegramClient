@@ -1,4 +1,4 @@
 accessing
-isAwaitingDBEncryptionKey
+isAwaitingDbEncryptionKey
 
 	^ self authState = 'authorizationStateWaitEncryptionKey'

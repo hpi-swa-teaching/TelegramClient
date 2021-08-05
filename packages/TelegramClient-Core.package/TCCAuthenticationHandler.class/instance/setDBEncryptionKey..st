@@ -1,4 +1,4 @@
 library calls
-setDBEncryptionKey: aString
+setDbEncryptionKey: aString
 
 	self core send: (TCCRequest newCheckDatabaseEncryptionKey: aString).
