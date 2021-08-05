@@ -4,7 +4,7 @@
 	"instance" : {
 		"addChat:" : "pk 8/4/2021 12:21",
 		"addNewMessage:" : "RK 8/5/2021 13:52",
-		"chatHistoryReceived:" : "RK 8/5/2021 17:31",
+		"chatHistoryReceived:" : "RK 8/5/2021 17:50",
 		"chats" : "8/5/2021 13:07:46",
 		"chats:" : "8/5/2021 13:07:46",
 		"core" : "6/4/2021 16:24:10",
@@ -12,7 +12,7 @@
 		"getChats" : "RS 6/23/2021 16:38",
 		"handleNewMessage:" : "pk 8/4/2021 12:21",
 		"initialize" : "8/5/2021 13:07:46",
-		"openNewChat:" : "pk 8/4/2021 12:17",
+		"openNewChat:" : "RK 8/5/2021 17:51",
 		"searchChat:" : "pk 8/4/2021 12:21",
 		"updateChatPosition:" : "pk 8/4/2021 11:19",
 		"updateLastMessage:" : "pk 8/5/2021 13:16" } }

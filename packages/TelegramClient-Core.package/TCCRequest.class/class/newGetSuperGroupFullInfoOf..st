@@ -2,7 +2,7 @@ instance creation
 newGetSuperGroupFullInfoOf: aGroupId
 
 	^ TCCRequest
-		newWithType: 'getSuperGroupFullInfo'
+		newWithType: 'getSupergroupFullInfo'
 		from: {
 			'supergroup_id'-> aGroupId.
 		}

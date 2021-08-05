@@ -2,7 +2,7 @@ instance creation
 newGetBasicGroupFullInfoOf: aGroupId
 
 	^ TCCRequest
-		newWithType: 'getBasicGroupFullInfo'
+		newWithType: 'getBasicgroupFullInfo'
 		from: {
 			'basic_group_id' -> aGroupId.
 		}

@@ -5,5 +5,5 @@ requestImageFor: aNumber with: aPromise
 	"https://core.telegram.org/tdlib/docs/classtd_1_1td__api_1_1download_file.html"
 
 	self core
-		send: (TCCRequest newRequestFile: anImageId)
+		send: (TCCRequest newRequestFile: aNumber)
 		thenDo: [:imageEvent | aPromise resolveWith: (self class extractPathFrom: imageEvent)].

@@ -2,11 +2,11 @@
 	"class" : {
 		"newCheckAuthenticationCode:" : "RS 6/23/2021 16:35",
 		"newCheckDatabaseEncryptionKey:" : "RS 6/23/2021 16:35",
-		"newGetBasicGroupFullInfoOf:" : "pk 8/5/2021 13:17",
+		"newGetBasicGroupFullInfoOf:" : "RK 8/5/2021 17:53",
 		"newGetChatHistoryOf:from:until:" : "RS 6/24/2021 09:20",
 		"newGetChats" : "RS 6/23/2021 16:37",
 		"newGetMe" : "8/5/2021 13:07:46",
-		"newGetSuperGroupFullInfoOf:" : "RK 8/5/2021 13:37",
+		"newGetSuperGroupFullInfoOf:" : "RK 8/5/2021 17:53",
 		"newGetSuperGroupMembersOf:with:until:" : "8/5/2021 13:07:46",
 		"newLogOut" : "RS 6/23/2021 16:33",
 		"newRequestFile:" : "8/5/2021 13:07:46",
