@@ -3,6 +3,6 @@ registerCallback: aClosure
 
 	| callbackID |
 	
-	callbackID := self generateCallbackID.
+	callbackID := self generateCallbackId.
 	self pendingRequests at: callbackID put: aClosure.
 	^ callbackID

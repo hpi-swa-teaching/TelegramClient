@@ -1,4 +1,4 @@
 testing
 testError
 
-	self assert: (TCCEvent newFromTDLibEvent: (Dictionary newFrom: {'@type' -> 'error'. 'code' -> 400})) isError.
+	self assert: (TCCEvent newFromTdlibEvent: (Dictionary newFrom: {'@type' -> 'error'. 'code' -> 400})) isError.

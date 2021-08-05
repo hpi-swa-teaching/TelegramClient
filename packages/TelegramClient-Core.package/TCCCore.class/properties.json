@@ -10,7 +10,7 @@
 		"authenticationHandler",
 		"chatsHandler",
 		"imageStore",
-		"loggedInUserID",
+		"loggedInUserId",
 		"pendingRequests",
 		"callbackCounter",
 		"userStore" ],

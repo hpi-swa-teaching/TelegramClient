@@ -1,5 +1,5 @@
 instance creation
-newFromTDLibEvent: anEvent
+newFromTdlibEvent: anEvent
 
 	^ (self newFrom: anEvent)
 		type: (anEvent at: '@type');

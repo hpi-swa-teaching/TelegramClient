@@ -1,4 +1,4 @@
 user
 mockUserEvent
 
-	^ TCCEvent newFromTDLibEvent: self mockUserJson1
+	^ TCCEvent newFromTdlibEvent: self mockUserJson1

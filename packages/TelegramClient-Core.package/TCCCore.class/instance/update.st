@@ -5,5 +5,5 @@ update
 
 	event := self client receive: 0.05.
 	event ifNotNil: [
-		[self handleEvent: (TCCEvent newFromTDLibEvent: event)] fork
+		[self handleEvent: (TCCEvent newFromTdlibEvent: event)] fork
 	].

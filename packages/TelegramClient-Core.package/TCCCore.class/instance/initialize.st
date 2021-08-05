@@ -1,10 +1,10 @@
 initialization
 initialize
 
-	self client ifNil: [self client: TCCTdlibClient newForCurrentOS].
+	self client ifNil: [self client: TCCTdlibClient newForCurrentOs].
 	self
 		initializeHandlers;
-		loggedInUserID: 0;
+		loggedInUserId: 0;
 		pendingRequests: Dictionary new;
 		userStore: (TCCUserStore newWith: self);
 		imageStore: (TCCImageStore newWith: self);

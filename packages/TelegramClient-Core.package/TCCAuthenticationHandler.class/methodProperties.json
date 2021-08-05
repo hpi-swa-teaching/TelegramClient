@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"defaultApiHash" : "JB 6/26/2021 17:24",
-		"defaultApiID" : "JB 6/26/2021 17:23" },
+		"defaultApiId" : "pk 8/5/2021 17:08" },
 	"instance" : {
 		"authState" : "R.S 5/18/2020 17:54",
 		"authState:" : "R.S 5/18/2020 17:54",
@@ -19,5 +19,5 @@
 		"logout" : "RS 6/23/2021 16:33",
 		"sendPhoneNumber:" : "RS 6/23/2021 16:34",
 		"setDBEncryptionKey:" : "RS 6/23/2021 16:35",
-		"setTDLibParams" : "JB 6/28/2021 10:14",
+		"setTDLibParams" : "pk 8/5/2021 17:08",
 		"useTestDC" : "rs 6/14/2020 12:40" } }
