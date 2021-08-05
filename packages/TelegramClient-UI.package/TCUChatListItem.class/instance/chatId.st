@@ -1,4 +1,4 @@
 accessing
-chatID
+chatId
 
 	^ self chat id

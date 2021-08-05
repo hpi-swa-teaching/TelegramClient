@@ -8,4 +8,4 @@ testMessage
 	self assert: TCTMMocks mockMessageID equals: message id.
 	self assert: TCTMMocks mockText equals: message asText.
 	self assert: '1557' equals: message date asUTC asTime hhmm24.
-	self assert: self chat id equals: message chatID.
+	self assert: self chat id equals: message chatId.
