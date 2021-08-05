@@ -1,4 +1,4 @@
 accessing
 downloadUrl
 
-	^ 'https://github.com/tom-richter/tdlib/releases/download/linux-latest/libtdjson.so.1.7.0'
+	^ 'https://github.com/hpi-swa-teaching/tdlib/releases/download/v1.7.0/libtdjson.so.1.7.0'
