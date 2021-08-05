@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "TR 6/2/2021 15:33",
 	"instvars" : [
-		"receivedMessage" ],
+		 ],
 	"name" : "TCTUNotificationTests",
 	"pools" : [
 		 ],

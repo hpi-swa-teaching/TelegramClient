@@ -29,7 +29,7 @@
 		"testMethodNoTwoWhitespacesNextToEachOther" : "js 6/13/2020 18:56",
 		"testMethodParamsHaveMeaningfulNames" : "RS 6/6/2021 11:58",
 		"testNoClassComments" : "js 6/13/2020 17:09",
-		"testNoDotAfterReturn" : "js 6/13/2020 18:09",
+		"testNoDotAfterReturn" : "pk 8/5/2021 21:31",
 		"testNoUnclassifiedMethods" : "js 6/13/2020 18:06",
 		"testNoUnconditionalRecursion" : "js 6/13/2020 11:44",
 		"testSmallLintContains" : "js 6/13/2020 18:36",
