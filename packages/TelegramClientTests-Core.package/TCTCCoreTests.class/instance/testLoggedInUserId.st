@@ -6,4 +6,4 @@ testLoggedInUserId
 
 	1 seconds wait.
 
-	self assert: TCTMMocks mockUser1 id equals: (self core loggedInUserID).
+	self assert: TCTMMocks mockUser1 id equals: (self core loggedInUserId).

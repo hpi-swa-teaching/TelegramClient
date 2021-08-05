@@ -10,10 +10,10 @@
 		"authenticationHandler",
 		"chatsHandler",
 		"imageStore",
-		"loggedInUserID",
 		"pendingRequests",
 		"callbackCounter",
-		"userStore" ],
+		"userStore",
+		"loggedInUserId" ],
 	"name" : "TCCCore",
 	"pools" : [
 		 ],

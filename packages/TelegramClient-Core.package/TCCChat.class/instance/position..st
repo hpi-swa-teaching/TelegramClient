@@ -1,6 +1,6 @@
 accessing
 position: aStringOrNumber
 
-	aStringOrNumber 
+	aStringOrNumber
 		ifNil: [ position := 0. ]
 		ifNotNil: [ position := aStringOrNumber asNumber. ].

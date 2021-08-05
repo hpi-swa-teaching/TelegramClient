@@ -8,5 +8,5 @@ mockTextMessageWith: aCore
 		isOutgoing: false;
 		senderType: #messageSenderUser;
 		date: self mockMessageDate;
-		id: self mockMessageID;
+		id: self mockMessageId;
 		text: self mockText

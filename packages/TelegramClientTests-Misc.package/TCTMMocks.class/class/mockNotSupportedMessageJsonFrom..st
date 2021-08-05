@@ -3,7 +3,7 @@ mockNotSupportedMessageJsonFrom: aChatId
 
 	^ (JsonObject newFrom: {
 			'@type' -> 'message'.
-			'id' -> self mockMessageID.
+			'id' -> self mockMessageId.
 			'chat_id' -> aChatId.
 			'sender' -> (JsonObject newFrom: {
 				'@type' -> 'messageSenderUser'.

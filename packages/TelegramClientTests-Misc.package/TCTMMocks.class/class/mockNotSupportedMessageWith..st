@@ -7,4 +7,4 @@ mockNotSupportedMessageWith: aCore
 		userId: self mockUser1 id;
 		isOutgoing: false;
 		date: self mockMessageDate;
-		id: self mockMessageID
+		id: self mockMessageId

@@ -1,4 +1,4 @@
 events
-requestUser: aUserId with: aCallbackID
+requestUser: aUserId with: aCallbackId
 
 	^ self

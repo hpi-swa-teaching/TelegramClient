@@ -8,7 +8,7 @@ mockPhotoMessageWith: aCore
 		isOutgoing: false;
 		senderType: #messageSenderUser;
 		date: self mockMessageDate;
-		id: self mockMessageID;
+		id: self mockMessageId;
 		caption: self mockText;
 		width: self mockPhotoWidth;
 		height: self mockPhotoHeight;

@@ -1,5 +1,5 @@
 utility
-generateCallbackID
+generateCallbackId
 
 	^ self hash asString ,
 		':' , self callbackCounterPreIncrement asString ,
