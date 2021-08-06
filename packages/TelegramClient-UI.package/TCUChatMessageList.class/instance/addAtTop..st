@@ -1,10 +1,10 @@
 messages
-addAtTop: aMessage
+addAtTop: aCoreMessage
 
 	| wrapper |
-	(self isFromCurrentChat: aMessage) ifFalse: [^ self].
+	(self isFromCurrentChat: aCoreMessage) ifFalse: [^ self].
 	
-	wrapper := self wrapperFor: (TCUMessage newFrom: aMessage).
+	wrapper := self wrapperFor: (TCUMessage newFrom: aCoreMessage).
 	self scroller addMorphFront: wrapper.
 	self items addFirst: wrapper.
 	

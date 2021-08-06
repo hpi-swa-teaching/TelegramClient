@@ -1,4 +1,4 @@
 instance creation
-newWithTCCCore
+newWithCore
 
 	^ self newWithCore: TCCCore new

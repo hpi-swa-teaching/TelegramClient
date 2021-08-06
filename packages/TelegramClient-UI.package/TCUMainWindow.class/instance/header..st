@@ -1,4 +1,4 @@
 accessing
-header: anHeader
+header: aHeaderBar
 
-	header := anHeader.
+	header := aHeaderBar.

@@ -1,7 +1,7 @@
 instance creation
-newMessageWith: aContent
+newMessageWith: aJsonObject
 
-	^ (aContent at: '@type') caseOf: {
-		['messageText'] -> [TCCTextMessage newFrom: aContent].
-		['messagePhoto'] -> [TCCPhotoMessage newFrom: aContent].
+	^ (aJsonObject at: '@type') caseOf: {
+		['messageText'] -> [TCCTextMessage newFrom: aJsonObject].
+		['messagePhoto'] -> [TCCPhotoMessage newFrom: aJsonObject].
 	} otherwise: [TCCNotSupportedMessage new]

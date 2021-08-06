@@ -1,4 +1,4 @@
 accessing
-isAwaitingTDLibParams
+isAwaitingTdlibParams
 
 	^ self authState = 'authorizationStateWaitTdlibParameters'

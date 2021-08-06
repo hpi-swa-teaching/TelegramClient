@@ -1,4 +1,4 @@
 messages
 isFromCurrentChat: aMessage
 
-	^ aMessage chatID = self chat id
+	^ aMessage chatId = self chat id

@@ -1,4 +1,4 @@
 accessing
-loadButton: aButtonMorph
+loadButton: aButton
 
-	loadButton := aButtonMorph
+	loadButton := aButton

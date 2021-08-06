@@ -1,4 +1,4 @@
 accessing
-hasChat: anID
+hasChat: aNumber
 
-	^ self anySatisfy: [:aChat | aChat id = anID]
+	^ self anySatisfy: [:aChat | aChat id = aNumber]

@@ -1,4 +1,4 @@
-instance creation
+default values
 defaultLayoutInset
 
 	^ 5

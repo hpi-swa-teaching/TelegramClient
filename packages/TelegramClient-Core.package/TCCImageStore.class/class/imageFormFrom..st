@@ -1,4 +1,4 @@
 utility
-imageFormFrom: aPath
+imageFormFrom: aString
 
-	^ Form fromFileNamed: aPath
+	^ Form fromFileNamed: aString

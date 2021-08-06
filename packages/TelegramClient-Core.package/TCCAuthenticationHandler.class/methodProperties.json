@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"defaultApiHash" : "JB 6/26/2021 17:24",
-		"defaultApiID" : "JB 6/26/2021 17:23" },
+		"defaultApiId" : "pk 8/5/2021 17:08" },
 	"instance" : {
 		"authState" : "R.S 5/18/2020 17:54",
 		"authState:" : "R.S 5/18/2020 17:54",
@@ -13,11 +13,11 @@
 		"isAuthStateClosed" : "r.s 7/15/2020 12:17",
 		"isAuthorizationStateReady" : "r.s 7/15/2020 12:17",
 		"isAwaitingAuthCode" : "r.s 7/15/2020 12:17",
-		"isAwaitingDBEncryptionKey" : "r.s 7/15/2020 12:17",
+		"isAwaitingDbEncryptionKey" : "8/5/2021 21:14:18",
 		"isAwaitingPhoneNumber" : "r.s 7/15/2020 12:17",
-		"isAwaitingTDLibParams" : "r.s 7/15/2020 12:17",
+		"isAwaitingTdlibParams" : "8/5/2021 21:14:18",
 		"logout" : "RS 6/23/2021 16:33",
 		"sendPhoneNumber:" : "RS 6/23/2021 16:34",
-		"setDBEncryptionKey:" : "RS 6/23/2021 16:35",
-		"setTDLibParams" : "JB 6/28/2021 10:14",
+		"setDbEncryptionKey:" : "8/5/2021 21:14:18",
+		"setTdlibParams" : "8/5/2021 21:14:18",
 		"useTestDC" : "rs 6/14/2020 12:40" } }

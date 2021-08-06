@@ -1,4 +1,4 @@
 accessing
-contentWrapper: aMorph
+contentWrapper: aRectangleMorph
 
-	contentWrapper := aMorph
+	contentWrapper := aRectangleMorph

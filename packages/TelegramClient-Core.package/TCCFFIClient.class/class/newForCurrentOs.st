@@ -1,5 +1,5 @@
 accessing
-newForCurrentOS
+newForCurrentOs
 
 	^ Smalltalk platformName caseOf: {
 		['Win32'] -> [TCCWindowsClient new].

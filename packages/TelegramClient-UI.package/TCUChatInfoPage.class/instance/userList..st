@@ -1,4 +1,4 @@
 accessing
-userList: aTCUUserList
+userList: aUserList
 
-	userList := aTCUUserList
+	userList := aUserList

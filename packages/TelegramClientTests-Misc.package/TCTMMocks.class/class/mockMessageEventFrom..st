@@ -1,7 +1,7 @@
 message
 mockMessageEventFrom: aChatId
 
-	^ TCCEvent newFromTDLibEvent: (Dictionary newFrom: {
+	^ TCCEvent newFromTdlibEvent: (Dictionary newFrom: {
 		'@type' -> 'updateNewMessage'.
 		'message' -> (self mockMessageJsonFrom: aChatId).
 		})

@@ -1,11 +1,11 @@
 instance creation
-newFrom: aMessageContent
+newFrom: aJsonObject
 
 	| photoData |
-	photoData := ((aMessageContent at: 'photo') at: 'sizes') last.
+	photoData := ((aJsonObject at: 'photo') at: 'sizes') last.
 
 	^ self new
-		caption: ((aMessageContent at: 'caption') at: 'text');
+		caption: ((aJsonObject at: 'caption') at: 'text');
 		fileId: ((photoData at: 'photo') at: 'id');
 		width: (photoData at: 'width');
 		height: (photoData at: 'height');

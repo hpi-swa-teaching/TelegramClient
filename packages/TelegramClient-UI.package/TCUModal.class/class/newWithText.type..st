@@ -1,7 +1,7 @@
 instance creation
-newWithText: aString type: aType
+newWithText: aString type: anotherString
 
 	^ self basicNew
 		text: aString;
-		type: aType;
+		type: anotherString;
 		initialize

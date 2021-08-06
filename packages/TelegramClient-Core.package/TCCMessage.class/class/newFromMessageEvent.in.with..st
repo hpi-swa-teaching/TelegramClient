@@ -1,20 +1,20 @@
 instance creation
-newFromMessageEvent: aMessageEvent in: aChat with: aCore
+newFromMessageEvent: anEvent in: aChat with: aCore
 
 	| message|
 
-	message := self newMessageWith: (aMessageEvent at: 'content').
+	message := self newMessageWith: (anEvent at: 'content').
 
 	message
 		chat: aChat;
-		senderType: ((aMessageEvent at: 'sender') at: '@type') asSymbol;
-		id: (aMessageEvent at: 'id');
-		isOutgoing: (aMessageEvent at: 'is_outgoing');
-		date: (self timeStampToDateAndTime: (aMessageEvent at: 'date'));
+		senderType: ((anEvent at: 'sender') at: '@type') asSymbol;
+		id: (anEvent at: 'id');
+		isOutgoing: (anEvent at: 'is_outgoing');
+		date: (self timeStampToDateAndTime: (anEvent at: 'date'));
 		core: aCore.
 	
 	(message senderType = #messageSenderUser) ifTrue:[
-		message userId: ((aMessageEvent at: 'sender') at: 'user_id').
+		message userId: ((anEvent at: 'sender') at: 'user_id').
 	].
 
 	^ message

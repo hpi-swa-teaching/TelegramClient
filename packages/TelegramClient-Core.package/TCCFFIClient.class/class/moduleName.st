@@ -1,12 +1,13 @@
 accessing
 moduleName
 
-	| filePath response |
+	| filePath |
 
 	filePath := FileDirectory default / self fileName.
 
 	filePath exists ifFalse: [
-		FileStream fileNamed: filePath fullName do: [:stream |
+		FileStream fileNamed: filePath fullName do: [:stream | 
+			| response |
 			response := WebClient httpGet: self downloadUrl.
 			stream
 				binary;

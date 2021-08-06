@@ -1,7 +1,7 @@
 instance creation
-newFor: aChat withBounds: bounds
+newFor: aChat withBounds: aRectangle
 
-	^ (super newBounds: bounds)
+	^ (super newBounds: aRectangle)
 		chat: aChat;
 		addInfoBar;
 		addContent;

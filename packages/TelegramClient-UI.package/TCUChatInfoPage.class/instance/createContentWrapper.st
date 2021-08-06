@@ -12,4 +12,5 @@ createContentWrapper
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;
 		layoutInset: self class defaultContentLayoutInset;
-		cellInset: self class defaultContentInset).
+		cellInset: self class defaultContentInset;
+		yourself).

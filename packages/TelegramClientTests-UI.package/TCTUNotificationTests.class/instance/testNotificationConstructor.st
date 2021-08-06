@@ -12,4 +12,4 @@ testNotificationConstructor
 	notification := TCUNotification newWithMessage: message.
 
 	self assert: chat equals: notification chat.
-	self assert: message equals: notification message.
+	self assert: message equals: notification messageModel.

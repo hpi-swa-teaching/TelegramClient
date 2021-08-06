@@ -1,4 +1,4 @@
 library calls
-searchChat: aUsername
+searchChat: aString
 
-	self core send: (TCCRequest newSearchChatFrom: aUsername).
+	self core send: (TCCRequest newSearchChatFrom: aString).

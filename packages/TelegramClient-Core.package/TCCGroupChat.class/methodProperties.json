@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addMembersFrom:" : "per 7/15/2021 12:55",
+		"addMembersFrom:" : "pk 8/5/2021 16:36",
 		"canLoadMoreMembers" : "per 6/15/2021 08:37",
 		"description" : "RS 5/29/2021 18:44",
 		"description:" : "RS 5/29/2021 18:44",
@@ -10,13 +10,10 @@
 		"groupId:" : "per 6/15/2021 08:38",
 		"groupKey" : "7/25/2021 12:12:21",
 		"initialize" : "tom.richter 7/25/2021 10:09",
-		"initializeFromChatEvent:" : "tr 8/4/2021 13:37",
-		"isBasicGroup" : "per 6/15/2021 08:41",
+		"initializeFromChatEvent:" : "pk 8/5/2021 15:48",
 		"isGroup" : "RS 5/29/2021 18:13",
 		"isPrivate" : "RS 5/29/2021 17:38",
-		"isSuperGroup" : "per 6/15/2021 08:42",
-		"loadInfo" : "JB 7/19/2021 12:33",
 		"memberCount" : "RS 5/29/2021 18:44",
 		"memberCount:" : "RS 5/29/2021 18:44",
 		"members" : "per 6/3/2021 12:02",
-		"members:" : "per 6/15/2021 08:49" } }
+		"members:" : "pk 8/5/2021 16:36" } }

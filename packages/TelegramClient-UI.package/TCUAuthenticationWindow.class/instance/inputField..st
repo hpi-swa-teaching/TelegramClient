@@ -1,4 +1,4 @@
 accessing
-inputField: aMorph
+inputField: aTextMorph
 
-	inputField := aMorph.
+	inputField := aTextMorph.

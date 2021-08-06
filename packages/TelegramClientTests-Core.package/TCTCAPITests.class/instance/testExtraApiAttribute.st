@@ -1,5 +1,5 @@
 testing
-testExtraAPIAttribute
+testExtraApiAttribute
 
 	| callbackId event |
 	callbackId := 'this is a callback'.

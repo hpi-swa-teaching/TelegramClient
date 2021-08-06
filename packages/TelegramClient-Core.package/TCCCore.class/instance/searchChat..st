@@ -1,4 +1,4 @@
 handlers
-searchChat: aUsername
+searchChat: aString
 
-	self chatsHandler searchChat: aUsername.
+	self chatsHandler searchChat: aString.

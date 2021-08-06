@@ -1,5 +1,5 @@
 testing
-testCallbackID
+testCallbackId
 	
 	| block id1 id2 |
 	block := [:anEvent | nil].
