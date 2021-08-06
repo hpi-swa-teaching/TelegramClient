@@ -8,4 +8,4 @@ testSortingUnknownPositions
 
 	self chats notify.
 
-	self assert: 3 equals: self chats first id.
+	self assert: chat id equals: self chats last id.

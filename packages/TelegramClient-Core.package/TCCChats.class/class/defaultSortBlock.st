@@ -1,10 +1,10 @@
 instance creation
 defaultSortBlock
 
-	"sort chats of unknown position last"
+	"sort chats of unknown position last, higher position means more higher priority"
 	^ [:aChat :someOtherChat |
-		(aChat positionKnown not
-			and: [someOtherChat positionKnown])
+		(aChat positionKnown
+			and: [someOtherChat positionKnown not])
 				or: [ aChat positionKnown
 					and: [someOtherChat positionKnown]
-					and: [aChat position <= someOtherChat position]]]
+					and: [aChat position > someOtherChat position]]]
