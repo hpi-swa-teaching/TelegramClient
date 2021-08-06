@@ -4,8 +4,9 @@ testPositionModify
 	| chat |
 
 	chat := self chats first.
+	self deny: chat id = self chats last id.
+	
 	chat position: 6.
-
 	self chats notify.
 
-	self assert: 1 equals: self chats last id.
+	self assert: chat id equals: self chats last id.

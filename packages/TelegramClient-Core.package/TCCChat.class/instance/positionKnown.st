@@ -1,4 +1,4 @@
 accessing
 positionKnown
 
-	^ self position notNil
+	^ (self position = self class defaultUnknownPosition) not

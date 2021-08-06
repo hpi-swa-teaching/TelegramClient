@@ -4,8 +4,12 @@ testSortingUnknownPositions
 	| chat |
 
 	chat := self chats last.
-	chat position: -1.
+	
+	self deny: chat id = self chats first id.
+	self assert: chat positionKnown.
 
+	chat position: TCCChat defaultUnknownPosition.
 	self chats notify.
 
-	self assert: 3 equals: self chats first id.
+	self assert: chat id equals: self chats first id.
+	self deny: chat positionKnown.

@@ -7,4 +7,5 @@ initialize
 		waitingForUpdate: false;
 		infoLoaded: false;
 		isChannel: false;
+		position: self class defaultUnknownPosition;
 		numberOfRequestedMessages: self class defaultNumberOfRequestedMessages.
