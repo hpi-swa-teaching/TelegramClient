@@ -6,4 +6,4 @@ generatePreamble: corePackage uipackage: uiPackage nativeResourceFolder: aFolder
 		self fileInMonticelloZipVersionNamed: ''', uiPackage, '.mcz''.
 		TCUTelegram registerInWorldMenu.
 		self zip members do: [:aFile | self extractMemberWithoutPath: aFile inDirectory: FileDirectory default].
-		TCCFFIClient newForCurrentOS class moduleName.'
+		TCCFFIClient newForCurrentOs class moduleName.'
