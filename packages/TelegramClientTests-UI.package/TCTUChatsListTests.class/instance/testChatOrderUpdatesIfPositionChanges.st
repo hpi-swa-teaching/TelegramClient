@@ -2,8 +2,8 @@ testing
 testChatOrderUpdatesIfPositionChanges
 
 	| chat |
-	chat := self core chats last.
-	chat position: self core chats first position - 1.
-	self core chats notify.
-	
-	self assert: chat id equals: self subject chatsList chats first id.
+	chat := self core chatsHandler chats last.
+	chat position: 0.
+	self core chatsHandler chats notify.
+
+	self assert: chat id equals: self subject chatsList scroller submorphs first chatID.
