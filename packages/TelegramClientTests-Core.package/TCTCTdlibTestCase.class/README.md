@@ -1,1 +1,0 @@
-A TCTCTdlibTestCase is a TestCase with a real Core that communicates with the tdlib.
