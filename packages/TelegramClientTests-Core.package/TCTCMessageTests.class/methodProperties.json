@@ -4,9 +4,9 @@
 	"instance" : {
 		"testMessageCorrectlyConstructedFromJson" : "rgw 5/12/2022 14:54",
 		"testMessageHasTextRepresentation" : "tom.richter 6/26/2021 21:06",
-		"testMessageIsReply" : "rgw 5/12/2022 15:42",
-		"testMessageReplySnippetTruncates" : "rgw 5/12/2022 16:15",
-		"testMessageReplyText" : "rgw 5/12/2022 15:41",
+		"testMessageIsReply" : "rgw 5/12/2022 16:40",
+		"testMessageReplySnippetTruncates" : "rgw 5/12/2022 16:39",
+		"testMessageReplyText" : "rgw 5/12/2022 16:42",
 		"testMessageShouldNotNotify" : "RS 7/17/2021 10:53",
 		"testMessageShouldNotify" : "RS 7/17/2021 10:53",
 		"testMessageWithMessageSenderChatCorrectlyConstructedFromJson" : "tr 7/25/2021 22:39",

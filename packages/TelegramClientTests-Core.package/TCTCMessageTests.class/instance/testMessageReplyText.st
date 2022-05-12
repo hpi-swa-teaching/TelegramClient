@@ -3,12 +3,12 @@ testMessageReplyText
 
 	| chat replyMessage originalMessage |
 	chat := TCTMMocks mockPrivateChat.
-	originalMessage := TCTMMocks mockTextMessageWith: self core inChat: chat. 
+	originalMessage := TCTMMocks mockTextMessageWith: self core inChat: chat.
 	replyMessage := TCTMMocks mockTextReplyMessageWith: self core inChat: chat.
 	chat addNewestMessage: replyMessage.
-	
-	self assert: replyMessage replyText equals: TCCNotLoadedMessage infoText.
-	
+
+	self assert: TCCNotLoadedMessage infoText equals: replyMessage replyText.
+
 	chat addNewestMessage: originalMessage.
-		
+
 	self assert: replyMessage replyText equals: originalMessage asReplySnippet.

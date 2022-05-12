@@ -5,7 +5,7 @@ initialize
 
 	self initializeDefaults.
 	
-	messageModel isReply ifTrue: [self addReplySnippet].
+	self messageModel isReply ifTrue: [self addReplySnippet].
 	
 	self
 		addSender;
