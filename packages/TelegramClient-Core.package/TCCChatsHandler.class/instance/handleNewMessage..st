@@ -1,7 +1,4 @@
 event handling
-handleNewMessage: anEvent
+handleNewMessage: aJsonObject
 
-	| message |
-	
-	message := anEvent at: 'message'.
-	self addNewMessage: message.
+	self addNewMessage: aJsonObject

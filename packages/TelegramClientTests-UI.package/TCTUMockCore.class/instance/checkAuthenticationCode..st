@@ -1,0 +1,2 @@
+handlers
+checkAuthenticationCode: aString

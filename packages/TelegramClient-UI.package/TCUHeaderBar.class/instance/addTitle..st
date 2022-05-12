@@ -1,5 +1,5 @@
 initialization
-addTitle: aString 
+addTitle: aString
 
 	| font |
 
@@ -8,4 +8,5 @@ addTitle: aString
 	self addMorphCentered: (TextMorph new
 		contents: (aString asText addAttribute: font);
 		color: Color white;
-		lock).
+		lock;
+		yourself).

@@ -1,4 +1,7 @@
 event handling
 select
 
-	self color: TCUDefaultValues colorLightBlue.
+	self chat
+		loadInfoIfNotLoaded;
+		loadChatHistory.
+	self color: self class defaultSelectColor.

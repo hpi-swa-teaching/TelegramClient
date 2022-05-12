@@ -1,0 +1,1 @@
+Creates a TestApp using Telegram TestDatabase Service and saves all received events in-order in a log.

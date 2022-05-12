@@ -4,4 +4,5 @@ clear
 	self titleBar delete.
 	self inputBar hide.
 	self welcomeMessage show.
-	self messageListWindow hide.
+	self chatMessageList hide.
+	self infoPage hide.

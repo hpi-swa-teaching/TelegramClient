@@ -1,4 +1,4 @@
 accessing
-client: aClient
+client: aTdlibClient
 
-	client := aClient.
+	client := aTdlibClient.

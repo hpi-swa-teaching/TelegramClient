@@ -1,6 +1,6 @@
 events
 getOwnProfile
 
-	self client send: (TCCRequest
-		newWithType: 'getMe'
-		from: {}).
+	self
+		send: TCCRequest newGetMe
+		thenDo: [:aUserEvent | self setUserId: aUserEvent].

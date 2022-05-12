@@ -39,17 +39,17 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ steps.tag_prefix.outputs.value }}${{ steps.current-time.outputs.formattedTime }} 
+          tag_name: ${{ steps.tag_prefix.outputs.value }}${{ steps.current-time.outputs.formattedTime }}
           release_name: ${{ matrix.smalltalk }} ${{ steps.current-time.outputs.formattedTime }}
           draft: false
           prerelease: ${{ env.prerelease }}
       - name: Upload Release Asset
-        id: upload-release-asset 
+        id: upload-release-asset
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
+          upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps
           asset_path: /home/runner/.smalltalkCI/_builds/TelegramClient.sar
           asset_name: TelegramClient.sar
           asset_content_type: application/zip

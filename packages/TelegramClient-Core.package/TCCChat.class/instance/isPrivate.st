@@ -1,0 +1,4 @@
+accessing
+isPrivate
+
+	self subclassResponsibility

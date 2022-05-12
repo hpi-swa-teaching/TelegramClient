@@ -1,0 +1,14 @@
+testing
+testEnteringCodeOpensTelegram
+
+	| inputField authenticationWindow |
+	authenticationWindow := self subject currentWindow.
+	authenticationWindow
+		showFirstStep;
+		showSecondStep.
+	inputField := (self subject findByClass: TextMorph) findByCriteria: [:textMorph | textMorph isLocked not].
+	inputField sendKeys: '934505'.
+	self assertReading: '934505' in: self subject.
+	authenticationWindow logInCompleted.
+
+	self deny: self subject currentWindow = authenticationWindow.

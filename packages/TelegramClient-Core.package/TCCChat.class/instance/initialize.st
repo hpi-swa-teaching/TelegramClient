@@ -3,6 +3,9 @@ initialize
 
 	self
 		title: '';
-		messages: (OrderedCollection newFrom: {TCCNullMessage new});
+		messages: (OrderedCollection new);
 		waitingForUpdate: false;
-		numberOfRequestedMessages: self defaultNumberOfRequestedMessages.
+		infoLoaded: false;
+		isChannel: false;
+		position: self class defaultUnknownPosition;
+		numberOfRequestedMessages: self class defaultNumberOfRequestedMessages.

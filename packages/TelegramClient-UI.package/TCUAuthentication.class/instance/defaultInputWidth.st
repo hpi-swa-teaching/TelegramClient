@@ -1,4 +1,0 @@
-defaultValues
-defaultInputWidth
-
-	^ 150

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"defaultLimit" : "per 6/15/2021 08:51" },
+	"instance" : {
+		"groupKey" : "7/25/2021 12:12:21",
+		"initializeFromChatEvent:" : "RS 7/31/2021 15:36",
+		"isSuperGroup" : "per 6/15/2021 08:41",
+		"loadGeneralInfo" : "JB 8/1/2021 11:32",
+		"loadInfo" : "tom.richter 7/17/2021 16:48",
+		"loadMembers" : "JB 8/1/2021 11:32",
+		"loadMoreMembers" : "per 6/15/2021 08:15" } }

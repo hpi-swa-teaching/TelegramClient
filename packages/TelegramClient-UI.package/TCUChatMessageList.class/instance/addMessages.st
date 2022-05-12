@@ -1,4 +1,7 @@
 messages
 addMessages
 
-	self showChatMessagesFrom: self lowestVisibleMessage.
+	self chat messages reversed
+		collect: [:message | self addAtBottom: message]
+		from: 1
+		to: self chat numberOfMessages.

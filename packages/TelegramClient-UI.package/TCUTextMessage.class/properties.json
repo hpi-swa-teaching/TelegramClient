@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "RK 6/26/2021 11:39",
+	"instvars" : [
+		 ],
+	"name" : "TCUTextMessage",
+	"pools" : [
+		 ],
+	"super" : "TCUMessage",
+	"type" : "normal" }

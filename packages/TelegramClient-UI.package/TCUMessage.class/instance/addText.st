@@ -1,21 +1,9 @@
-drawing
+constructing
 addText
 
-	| textMorph expectedWidth |
-
-	textMorph := TextMorph new 
+	self addMorphBack: (self class defaultTextMorph
 		contents: self text;
-		wrapFlag: true;
-		margins: self defaultTextMargins;
-		width: self defaultWidth;
-		hResizing: #rigid;
+		hResizing: #spaceFill;
 		color: Color white;
-		lock.
-
-	expectedWidth := textMorph textStyle defaultFont widthOfString: self text.
-	(expectedWidth <= self defaultWidth)
-		ifTrue: [textMorph width: expectedWidth + (self defaultTextMargins x * 2)].
-
-	self
-		extent: textMorph extent + self defaultMargin;
-		addMorphCentered: textMorph.
+		margins: self class defaultMargins;
+		yourself).

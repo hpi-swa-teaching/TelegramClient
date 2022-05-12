@@ -1,4 +1,0 @@
-defaultValues
-defaultHeaderHeight
-
-	^ 40

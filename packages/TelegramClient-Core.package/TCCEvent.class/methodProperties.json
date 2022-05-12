@@ -1,7 +1,10 @@
 {
 	"class" : {
-		"newFromTDLibEvent:" : "js 8/1/2020 12:07" },
+		"newFromTdlibEvent:" : "pk 8/5/2021 17:09" },
 	"instance" : {
+		"extra" : "pk 6/19/2021 18:05",
+		"extra:" : "pk 6/19/2021 17:39",
+		"hasExtra" : "pk 6/19/2021 17:39",
 		"isError" : "js 8/1/2020 12:32",
 		"type" : "js 7/31/2020 22:28",
 		"type:" : "js 7/31/2020 22:28" } }

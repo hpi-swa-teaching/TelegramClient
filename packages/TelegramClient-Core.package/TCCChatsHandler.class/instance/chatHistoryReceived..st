@@ -1,18 +1,8 @@
 event handling
-chatHistoryReceived: aChatHistory
+chatHistoryReceived: anEvent
 
-	| chat chatID |
-
-	(aChatHistory at: 'messages') ifNotEmpty: [
-		chatID := (aChatHistory at: 'messages') first at: 'chat_id'.
-		chat := self app chats getChat: chatID.
-
-		(aChatHistory at: 'messages') do: [:message | chat addOldestMessage: (TCCMessage newFromMessageEvent: message)].
-
-		chat waitingForUpdate: false.
-		
-		chat stillRequestedMessages > 0 
-			ifTrue: [self 
-				getChatHistoryFrom: chatID
-				with: chat messages last id
-				limit: chat stillRequestedMessages]].
+	| chatId |
+	
+	(anEvent at: 'messages') ifNotEmpty: [
+		chatId := (anEvent at: 'messages') first at: 'chat_id'.
+		(self chats getChat: chatId) chatHistoryReceived: anEvent].

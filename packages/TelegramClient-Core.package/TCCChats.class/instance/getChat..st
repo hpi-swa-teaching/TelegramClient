@@ -1,4 +1,4 @@
 accessing
-getChat: anID
+getChat: aNumber
 
-	^ self detect: [:aChat | aChat id = anID]
+	^ self detect: [:aChat | aChat id = aNumber]

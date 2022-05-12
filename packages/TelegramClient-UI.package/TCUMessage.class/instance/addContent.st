@@ -1,0 +1,4 @@
+constructing
+addContent
+
+	self subclassResponsibility.

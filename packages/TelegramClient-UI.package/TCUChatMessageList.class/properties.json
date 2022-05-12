@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "rs 6/17/2020 21:32",
 	"instvars" : [
-		"messages",
-		"chat",
-		"lowestVisibleMessage" ],
+		"chat" ],
 	"name" : "TCUChatMessageList",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "TCUList",
 	"type" : "normal" }

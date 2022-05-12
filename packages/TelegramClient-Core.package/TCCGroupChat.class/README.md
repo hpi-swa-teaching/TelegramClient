@@ -1,0 +1,1 @@
+representing a Telegram superGroup or basicGroup

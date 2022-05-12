@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClientTests-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "per 6/16/2021 17:38",
+	"instvars" : [
+		 ],
+	"name" : "TCTCMessageTests",
+	"pools" : [
+		 ],
+	"super" : "TCTCNoTdlibTestCase",
+	"type" : "normal" }

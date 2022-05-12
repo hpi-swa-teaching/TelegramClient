@@ -1,15 +1,18 @@
 event handling
 updateLastMessage: anEvent
 
-	| content chat |
+	| chat messageJson |
 
 	(anEvent includesKey: 'last_message') ifTrue: [
-		content := (anEvent at: 'last_message') at: 'content'.
-		chat := self app chats getChat: (anEvent at: 'chat_id').
-		chat order: (anEvent at: 'order').
+		messageJson := anEvent at: 'last_message'.
+		chat := self chats getChat: (anEvent at: 'chat_id').
 
-		(content at: '@type') = 'messageText' 
-			ifTrue: [chat lastMessage: ((content at: 'text') at: 'text')]
-			ifFalse: [chat lastMessage: 'message type not supported yet'].
+		(anEvent at: 'positions') notEmpty
+			ifTrue: [chat position:
+				(((anEvent at: 'positions')
+					detect: [:e | ((e at: 'list') at: '@type') = 'chatListMain'])
+				at: 'order')].
+		
+		chat lastMessage: (TCCMessage newFromMessageEvent: messageJson in: chat with: self core) asSnippet.
 
-		self app chats notify].
+		self chats notify].

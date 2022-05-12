@@ -1,0 +1,4 @@
+accessing
+isGroup
+
+	self subclassResponsibility

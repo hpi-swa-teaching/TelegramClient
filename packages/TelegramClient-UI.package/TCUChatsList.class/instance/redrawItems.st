@@ -6,4 +6,4 @@ redrawItems
 	self items: (self chats collect: [:aChat |
 		self createChatListItem: aChat]).
 
-	self items do: [:anItem | self addMorph: anItem].
+	self items do: [:anItem | self scroller addMorphBack: anItem].

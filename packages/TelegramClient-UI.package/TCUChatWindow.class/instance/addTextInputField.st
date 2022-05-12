@@ -5,7 +5,8 @@ addTextInputField
 		borderWidth: 2;
 		borderColor: TCUDefaultValues colorLightBlue;
 		contentsWrapped: '' asText;
-		extent: ((self inputBar width - 200) @ self defaultInputfieldHeight);
-		crAction: [self buttonSendPressed]).
+		extent: ((self inputBar width - 200) @ self class defaultInputfieldHeight);
+		crAction: [self buttonSendPressed];
+		yourself).
 
 	self inputBar addMorph: self textInputField.

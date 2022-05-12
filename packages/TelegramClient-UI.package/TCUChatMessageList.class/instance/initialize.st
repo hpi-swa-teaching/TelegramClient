@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 
+	self scroller width: self class defaultWidth.
 	self
-		chat: TCCNullChat new;
-		clipSubmorphs: true;
-		messages: OrderedCollection new.
+		alwaysShowVScrollBar;
+		displayChat: TCCNullChat new.

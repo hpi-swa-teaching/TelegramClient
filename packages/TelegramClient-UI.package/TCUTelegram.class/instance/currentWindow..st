@@ -1,4 +1,4 @@
 accessing
-currentWindow: aMorph
+currentWindow: anAuthenticationOrMainWindow
 
-	currentWindow := aMorph.
+	currentWindow := anAuthenticationOrMainWindow.

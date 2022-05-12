@@ -2,6 +2,7 @@ drawing
 addTitle
 
 	self addMorph: (TextMorph new
-		position: self topLeft + self titleOffset;
-		contents: ((self chatName condensedIntoOneLine truncateWithElipsisTo: self titleLength) asText addAttribute: TextEmphasis bold);
-		lock).
+		position: self topLeft + self class defaultTitleOffset;
+		contents: ((self chatName condensedIntoOneLine truncateWithElipsisTo: self class defaultTitleLength) asText addAttribute: TextEmphasis bold);
+		lock;
+		yourself).

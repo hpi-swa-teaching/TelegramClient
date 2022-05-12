@@ -1,0 +1,17 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pk 5/9/2021 16:30",
+	"instvars" : [
+		"id",
+		"username",
+		"firstName",
+		"lastName" ],
+	"name" : "TCCUser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

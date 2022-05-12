@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"generatePreamble:uipackage:nativeResourceFolder:" : "pk 8/6/2021 19:10",
+		"streamForPackage:inZip:" : "js 8/2/2020 13:52",
+		"testCreateSarFile" : "ct 10/7/2020 19:32",
+		"versionForWorkingCopy:" : "JB 6/10/2021 22:47" } }

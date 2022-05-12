@@ -1,14 +1,8 @@
 events
-addChat: aChatEvent
+addChat: anEvent
 
 	| chat |
+	chat := TCCChat newFromChatEvent: (anEvent at: 'chat').
+	chat core: self core.
 
-	chat := TCCChat new
-		id: ((aChatEvent at: 'chat') at: 'id');
-		title: ((aChatEvent at: 'chat') at: 'title');
-		order: ((aChatEvent at: 'chat') at: 'order');
-		lastMessage: ''.
-
-	self app chats
-		add: chat;
-		notify.
+	self chats add: chat.

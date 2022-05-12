@@ -1,6 +1,4 @@
 library calls
-searchChat: aUsername
+searchChat: aString
 
-	self client send: (TCCRequest
-		newWithType: 'searchPublicChat'
-		from: {'username' -> aUsername}).
+	self core send: (TCCRequest newSearchChatFrom: aString).

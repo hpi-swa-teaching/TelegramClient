@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"newMessageReceived:" : "pk 5/17/2021 19:20",
+		"partialGroupMembersTestFor:" : "per 7/15/2021 15:06",
+		"receivedMessage" : "TR 6/2/2021 15:46",
+		"receivedMessage:" : "TR 6/2/2021 15:47",
+		"testAuthenticationConstants" : "pk 8/5/2021 17:08",
+		"testAuthenticationHandler" : "RS 7/31/2021 15:58",
+		"testBasicGroupMembers" : "per 6/10/2021 20:47",
+		"testCallback" : "pk 8/5/2021 17:09",
+		"testCallbackId" : "pk 8/5/2021 17:13",
+		"testChatsHandler" : "per 5/21/2021 16:28",
+		"testErrorConstants" : "js 8/2/2020 21:23",
+		"testLoggedInUserId" : "pk 8/5/2021 17:13",
+		"testMessageSenderTriggersUserRequest" : "RS 8/1/2021 12:56",
+		"testSuperGroupMembers" : "per 6/10/2021 20:53" } }

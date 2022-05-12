@@ -7,10 +7,13 @@
 	"commentStamp" : "js 6/13/2020 16:24",
 	"instvars" : [
 		"client",
-		"authHandler",
+		"authenticationHandler",
 		"chatsHandler",
-		"chats",
-		"loggedInUserID" ],
+		"imageStore",
+		"loggedInUserId",
+		"pendingRequests",
+		"callbackCounter",
+		"userStore" ],
 	"name" : "TCCCore",
 	"pools" : [
 		 ],

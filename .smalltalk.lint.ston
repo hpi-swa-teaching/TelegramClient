@@ -12,6 +12,6 @@ SmalltalkCISpec {
     'scripts/preLoading.st'
   ],
   #testing : {
-    #classes : [ #TCTLinterTests ]
+    #classes : [ #TCTMLinterTests ]
   }
 }

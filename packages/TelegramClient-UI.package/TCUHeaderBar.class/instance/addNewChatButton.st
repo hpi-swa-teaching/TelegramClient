@@ -5,9 +5,10 @@ addNewChatButton
 
 	newChatButton := (TCUButton new
 	 	text: '+ Chat';
-		on: #mouseUp send: #newChatButtonClicked to: self).
-		
+		on: #mouseUp send: #newChatButtonClicked to: self;
+		yourself).
+
 	newChatButton text color: Color white.
-	newChatButton position: (self main position x + newChatButton width + (4 * self defaultSpacing)) @ self defaultSpacing.
+	newChatButton position: (self main position x + newChatButton width + (4 * self class defaultSpacing)) @ self class defaultSpacing.
 
 	self addMorph: newChatButton.

@@ -1,10 +1,10 @@
 instance creation
 newWithHeight: aHeight width: aWidth
 
-	^ self basicNew
-		initialize;
+	^ self new
 		height: aHeight;
 		width: aWidth;
 		addWelcomeMessage;
 		addInputBar;
-		addMessageWindow
+		addChatMessageList;
+		addHiddenInfoPage

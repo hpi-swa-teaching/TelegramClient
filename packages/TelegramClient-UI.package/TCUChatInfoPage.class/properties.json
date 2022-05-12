@@ -1,0 +1,18 @@
+{
+	"category" : "TelegramClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "RS 5/20/2021 21:41",
+	"instvars" : [
+		"infoBar",
+		"contentWrapper",
+		"description",
+		"chat",
+		"userList" ],
+	"name" : "TCUChatInfoPage",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }

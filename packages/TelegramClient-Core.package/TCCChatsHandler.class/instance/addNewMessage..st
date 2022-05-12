@@ -1,9 +1,9 @@
 events
-addNewMessage: aMessage
+addNewMessage: aJsonObject
 
-	| message |
+	| chat message |
+	chat := self chats getChat: (aJsonObject at: 'chat_id').
+	message := TCCMessage newFromMessageEvent: aJsonObject in: chat with: self core.
 
-	message := TCCMessage newFromMessageEvent: aMessage.
-
-	(self app chats getChat: message chatID) addNewestMessage: message.
-	self app triggerEvent: #newMessageReceived with: message.
+	chat addNewestMessage: message.
+	self core triggerEvent: #newMessageReceived with: message.
