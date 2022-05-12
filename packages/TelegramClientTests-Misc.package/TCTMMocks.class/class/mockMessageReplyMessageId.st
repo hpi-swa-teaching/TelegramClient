@@ -1,0 +1,4 @@
+message
+mockMessageReplyMessageId
+
+	^ 42

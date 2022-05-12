@@ -1,8 +1,8 @@
 message
-mockTextMessageWith: aCore
+mockTextMessageWith: aCore inChat: aChat
 
 	^ TCCTextMessage new
-		chat: self mockPrivateChat;
+		chat: aChat;
 		core: aCore;
 		userId: self mockUser1 id;
 		isOutgoing: false;

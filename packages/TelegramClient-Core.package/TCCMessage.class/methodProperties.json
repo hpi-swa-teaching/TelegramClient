@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newFromMessageEvent:in:with:" : "rgw 5/12/2022 13:40",
+		"newFromMessageEvent:in:with:" : "rgw 5/12/2022 14:07",
 		"newMessageWith:" : "pk 8/5/2021 16:53",
 		"timeStampToDateAndTime:" : "JB 5/16/2021 09:42" },
 	"instance" : {
@@ -17,6 +17,7 @@
 		"id:" : "pk 8/4/2021 11:41",
 		"isOutgoing" : "js 8/2/2020 22:00",
 		"isOutgoing:" : "pk 8/4/2021 11:42",
+		"replyText" : "rgw 5/12/2022 14:57",
 		"replyToMessageId" : "rgw 5/12/2022 13:43",
 		"replyToMessageId:" : "rgw 5/12/2022 13:43",
 		"senderName" : "tr 7/25/2021 18:00",

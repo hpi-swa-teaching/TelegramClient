@@ -11,4 +11,4 @@ testMessageCorrectlyConstructedFromJson
 	self assert: TCTMMocks mockMessageDate equals: message date.
 	self assert: false equals: message isOutgoing.
 	self assert: TCTMMocks mockUser1 id equals: message userId.
-	self assert: TCTMMocks mockMessageReplyToMessageId equals: message replyToMessageId
+	self assert: TCTMMocks mockMessageReplyMessageId equals: message replyToMessageId

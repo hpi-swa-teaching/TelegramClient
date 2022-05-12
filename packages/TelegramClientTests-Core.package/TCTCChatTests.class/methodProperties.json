@@ -7,6 +7,7 @@
 		"setUp" : "tom.richter 7/25/2021 11:24",
 		"testAddNewestMessage" : "RS 7/31/2021 15:45",
 		"testAddOldestMessage" : "TR 6/22/2021 09:49",
+		"testGetMessageById" : "rgw 5/12/2022 14:41",
 		"testId" : "pk 8/5/2021 17:13",
 		"testLastMessage" : "per 5/21/2021 16:31",
 		"testMessage" : "pk 8/5/2021 17:06",
