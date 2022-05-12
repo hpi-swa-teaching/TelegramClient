@@ -1,5 +1,5 @@
 drawing
-dateColor
+secondaryColor
 
 	^ self isOutgoing
 			ifTrue: [TCUDefaultValues colorPottersClay]
