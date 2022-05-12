@@ -7,4 +7,4 @@ testGetMessageById
 	self assert: message asText equals: '4'.
 	
 	message := self chat getMessageById: 17.
-	self assert: message asText equals: 'Message not loaded'.
+	self assert: message asReplySnippet equals: 'Message not loaded'.

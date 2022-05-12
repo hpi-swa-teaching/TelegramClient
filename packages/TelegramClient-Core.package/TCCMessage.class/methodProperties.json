@@ -4,6 +4,7 @@
 		"newMessageWith:" : "pk 8/5/2021 16:53",
 		"timeStampToDateAndTime:" : "JB 5/16/2021 09:42" },
 	"instance" : {
+		"asReplySnippet" : "rgw 5/12/2022 15:34",
 		"asSnippet" : "tom.richter 6/28/2021 15:05",
 		"asText" : "TR 6/20/2021 10:13",
 		"chat" : "pk 5/7/2021 12:06",
@@ -17,7 +18,8 @@
 		"id:" : "pk 8/4/2021 11:41",
 		"isOutgoing" : "js 8/2/2020 22:00",
 		"isOutgoing:" : "pk 8/4/2021 11:42",
-		"replyText" : "rgw 5/12/2022 14:57",
+		"isReply" : "rgw 5/12/2022 15:40",
+		"replyText" : "rgw 5/12/2022 15:35",
 		"replyToMessageId" : "rgw 5/12/2022 13:43",
 		"replyToMessageId:" : "rgw 5/12/2022 13:43",
 		"senderName" : "tr 7/25/2021 18:00",

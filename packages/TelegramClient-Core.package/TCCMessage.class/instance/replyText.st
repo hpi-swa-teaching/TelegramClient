@@ -1,4 +1,7 @@
 accessing
 replyText
 
-	^ (self chat getMessageById: self replyToMessageId) asText
+	| message |
+	message := self chat getMessageById: self replyToMessageId.
+
+	^ message asReplySnippet

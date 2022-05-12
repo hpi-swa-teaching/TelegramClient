@@ -1,4 +1,4 @@
 accessing
-asText
-
+asReplySnippet
+	
 	^ self class infoText

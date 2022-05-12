@@ -7,8 +7,8 @@ testMessageReplyText
 	replyMessage := TCTMMocks mockTextReplyMessageWith: self core inChat: chat.
 	chat addNewestMessage: replyMessage.
 	
-	self assert: (replyMessage replyText) equals: TCCNotLoadedMessage infoText.
+	self assert: replyMessage replyText equals: TCCNotLoadedMessage infoText.
 	
 	chat addNewestMessage: originalMessage.
 		
-	self assert: (replyMessage replyText) equals: (originalMessage asText).
+	self assert: replyMessage replyText equals: originalMessage asReplySnippet.

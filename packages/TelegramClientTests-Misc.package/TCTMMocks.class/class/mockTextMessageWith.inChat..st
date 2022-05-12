@@ -10,4 +10,4 @@ mockTextMessageWith: aCore inChat: aChat
 		date: self mockMessageDate;
 		id: self mockMessageId;
 		text: self mockText;
-		replyToMessageId: self mockMessageReplyMessageId
+		replyToMessageId: 0
