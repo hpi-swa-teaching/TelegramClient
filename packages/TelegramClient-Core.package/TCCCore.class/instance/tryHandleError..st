@@ -1,7 +1,9 @@
 error handling
 tryHandleError: anError
 
+	Transcript show: (anError at: 'message').
 	(anError at: 'message') caseOf: {
+		['Have no rights to send a message'] -> [UIManager default inform: TCCErrorConstants unauthorizedMessage].
 		['USERNAME_NOT_OCCUPIED'] -> [UIManager default inform: TCCErrorConstants unknownUsername].
 		['USERNAME_INVALID'] -> [UIManager default inform: TCCErrorConstants unknownUsername].
 		['PHONE_NUMBER_INVALID'] -> [UIManager default inform: TCCErrorConstants invalidAuthenticationCode].
