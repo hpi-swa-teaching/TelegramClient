@@ -12,7 +12,8 @@
 		"date",
 		"core",
 		"senderType",
-		"userId" ],
+		"userId",
+		"replyToMessageId" ],
 	"name" : "TCCMessage",
 	"pools" : [
 		 ],

@@ -3,8 +3,11 @@ initialize
 
 	super initialize.
 
+	self initializeDefaults.
+	
+	self messageModel isReply ifTrue: [self addReplySnippet].
+	
 	self
-		initializeDefaults;
 		addSender;
 		addContent;
 		addDate;

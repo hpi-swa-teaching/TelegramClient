@@ -16,5 +16,6 @@ mockTextMessageJsonFrom: aChatId with: aSenderType
 					})
 				}).
 				'is_outgoing' -> false.
+				'reply_to_message_id' -> 42.
 				'date' -> self mockMessageTimestamp
 			})

@@ -1,13 +1,13 @@
 message
-mockTextMessageWith: aCore
+mockTextReplyMessageWith: aCore inChat: aChat
 
 	^ TCCTextMessage new
-		chat: self mockPrivateChat;
+		chat: aChat;
 		core: aCore;
 		userId: self mockUser1 id;
 		isOutgoing: false;
 		senderType: #messageSenderUser;
 		date: self mockMessageDate;
-		id: self mockMessageId;
+		id: self mockMessageReplyMessageId;
 		text: self mockText;
-		replyToMessageId: 0
+		replyToMessageId: self mockMessageId
