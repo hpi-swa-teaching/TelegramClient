@@ -17,7 +17,8 @@
 		"core",
 		"infoLoaded",
 		"muted",
-		"isChannel" ],
+		"isChannel",
+		"selectedReplyToMessageId" ],
 	"name" : "TCCChat",
 	"pools" : [
 		 ],
