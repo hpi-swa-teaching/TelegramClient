@@ -2,6 +2,9 @@ event handling
 newChatSelected: aChat
 
 	self welcomeMessage hide.
+	self inputBar submorphsDo: #abandon.
+	self addSendButton.
+	self addTextInputField.
 	self inputBar show.
 	self titleBar delete.
 	self infoPage delete.
