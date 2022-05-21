@@ -2,7 +2,7 @@ testing
 testEnteringPhoneNumberAsksForCode
 
 	| inputField |
-	self subject currentWindow showFirstStep.
+	self subject currentWindow showPhoneNumberStep.
 	inputField := (self subject findByClass: TextMorph) findByCriteria: [:textMorph | textMorph isLocked not].
 	inputField sendKeys: '+49 934 505'.
 	self assertReading: '+49 934 505' in: self subject.
