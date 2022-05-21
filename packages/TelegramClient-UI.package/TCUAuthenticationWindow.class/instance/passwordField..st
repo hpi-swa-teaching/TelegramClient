@@ -1,3 +1,4 @@
 accessing
-passwordField: anObject
-	passwordField := anObject
+passwordField: aTextMorph
+
+	passwordField := aTextMorph
