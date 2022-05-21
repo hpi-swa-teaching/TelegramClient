@@ -1,4 +1,4 @@
 event handling
-buttonVerifyPressed
+buttonVerifyAuthCodePressed
 
 	self core checkAuthenticationCode: self inputField text.

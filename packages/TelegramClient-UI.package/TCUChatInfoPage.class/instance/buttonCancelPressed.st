@@ -1,0 +1,4 @@
+drawing
+buttonCancelPressed
+
+	self hide

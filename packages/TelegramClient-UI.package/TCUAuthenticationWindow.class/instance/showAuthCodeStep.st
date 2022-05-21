@@ -1,15 +1,16 @@
 drawing
-showSecondStep
+showAuthCodeStep
 
 	self buttonNext hide.
-	self buttonBack show.
-	self buttonVerify show.
-
+	self buttonCancel show.
+	self buttonVerifyAuthCode show.
+	
 	self instructionLabel
 		contents: 'Enter the code your received on your phone';
 		center: self center.
 
 	self inputField
 		contents: '';
-		crAction: [self buttonVerifyPressed].
+		show;
+		crAction: [self buttonVerifyAuthCodePressed].
 	self errorLabel hide.

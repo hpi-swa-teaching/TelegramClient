@@ -1,9 +1,9 @@
 initialization
-createInputField: aString
+createInputField
 
 	self
 		inputField: (TextMorph new
-			contentsWrapped: aString asText;
+			contentsWrapped: '';
 			extent: self class defaultInputWidth @ 50;
 			borderColor: TCUDefaultValues colorGray;
 			borderWidth: 1;

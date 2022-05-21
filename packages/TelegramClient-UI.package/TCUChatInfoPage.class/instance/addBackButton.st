@@ -5,7 +5,7 @@ addBackButton
 
 	backButton := TCUButton new
 		text: 'Back';
-		on: #mouseDown send: #buttonBackPressed to: self;
+		on: #mouseDown send: #buttonCancelPressed to: self;
 		name: 'infoBackButton';
 		yourself.
 
