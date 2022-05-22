@@ -6,6 +6,7 @@
 		"defaultTestResultPath" : "RS 5/23/2021 17:12" },
 	"instance" : {
 		"assertNotReading:in:" : "RS 5/31/2021 07:54",
+		"assertNotReading:inMorph:" : "JS 5/22/2022 19:17",
 		"assertReading:in:" : "TR 6/9/2021 14:55",
 		"assertReading:inMorph:" : "JB 6/26/2021 10:02",
 		"computeHashOf:" : "RS 5/23/2021 16:19",
