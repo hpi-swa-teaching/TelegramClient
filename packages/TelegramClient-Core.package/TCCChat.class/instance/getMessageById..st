@@ -1,4 +1,6 @@
 accessing
 getMessageById: aNumber
 
-	^ self messageDictionary at: aNumber ifAbsent: TCCNotLoadedMessage new
+	^ self messageDictionary at: aNumber ifAbsent: [
+		self requestMessage: aNumber.
+		^TCCNotLoadedMessage new]

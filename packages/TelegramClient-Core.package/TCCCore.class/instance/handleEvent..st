@@ -13,6 +13,7 @@ handleEvent: anEvent
 			['messages'] -> [self chatsHandler chatHistoryReceived: anEvent].
 			['updateNewMessage'] -> [self handleMessageEvent: anEvent].
 			['chat'] -> [self chatsHandler openNewChat: anEvent].
+			['message'] -> [self chatsHandler answeredMessageReceived: anEvent.].
 		}
 		otherwise: [].
 	update isSymbol ifTrue: [self triggerEvent: update].
