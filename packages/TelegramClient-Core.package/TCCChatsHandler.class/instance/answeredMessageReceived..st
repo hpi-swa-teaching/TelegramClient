@@ -6,4 +6,3 @@ answeredMessageReceived: aJsonObject
 	message := TCCMessage newFromMessageEvent: aJsonObject in: chat with: self core.
 
 	chat addAnsweredMessage: message.
-	self core triggerEvent: #answeredMessageReceived with: message.

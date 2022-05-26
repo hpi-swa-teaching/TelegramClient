@@ -9,7 +9,7 @@
 		"testMessageReplyText" : "rgw 5/12/2022 16:42",
 		"testMessageShouldNotNotify" : "RS 7/17/2021 10:53",
 		"testMessageShouldNotify" : "RS 7/17/2021 10:53",
-		"testMessageWithMessageSenderChatCorrectlyConstructedFromJson" : "tr 7/25/2021 22:39",
+		"testMessageWithMessageSenderChatCorrectlyConstructedFromJson" : "JS 5/26/2022 15:32",
 		"testNotSupportedMessageTypeIdentifiedCorrectly" : "tom.richter 6/28/2021 13:54",
 		"testPhotoMessageCorrectlyConstructedFromJson" : "tom.richter 6/28/2021 15:05",
 		"testPhotoMessageTypeIdentifiedCorrectly" : "RK 6/26/2021 11:34",
