@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "js 6/13/2020 16:25",
 	"instvars" : [
-		"messages",
 		"position",
 		"id",
 		"title",
@@ -17,7 +16,9 @@
 		"core",
 		"infoLoaded",
 		"muted",
-		"isChannel" ],
+		"isChannel",
+		"messageIds",
+		"messageDictionary" ],
 	"name" : "TCCChat",
 	"pools" : [
 		 ],

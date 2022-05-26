@@ -3,7 +3,8 @@ initialize
 
 	self
 		title: '';
-		messages: (OrderedCollection new);
+		messageIds: OrderedCollection new;
+		messageDictionary: Dictionary new;
 		waitingForUpdate: false;
 		infoLoaded: false;
 		isChannel: false;

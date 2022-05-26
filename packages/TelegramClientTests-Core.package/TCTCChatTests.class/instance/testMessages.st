@@ -1,9 +1,18 @@
 testing
 testMessages
 
-	| collection |
+	| message1 message2 messageIds messages |
+	
+	message1 := TCCMessage new id: 1.
+	message2 := TCCMessage new id: 2.
+	messageIds := OrderedCollection newFrom: {message1 id. message2 id}.
+	messages := OrderedCollection newFrom: {message1. message2}.
 
-	collection := OrderedCollection newFrom: {TCCMessage new. TCCMessage new}.
+	self chat messageIds: messageIds.
+	self chat messageDictionary at: message1 id put: message1.
+	self chat messageDictionary at: message2 id put: message2.
 
-	self chat messages: collection.
-	self assert: collection equals: self chat messages.
+	self assert: messageIds equals: self chat messageIds.
+	self assert: message1 equals: (self chat messageDictionary at: message1 id).
+	self assert: message2 equals: (self chat messageDictionary at: message2 id).
+	self assert: messages equals: self chat messages
