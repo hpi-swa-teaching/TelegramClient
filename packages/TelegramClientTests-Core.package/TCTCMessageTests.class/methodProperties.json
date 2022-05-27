@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testMessageCorrectlyConstructedFromJson" : "rgw 5/12/2022 14:54",
+		"testMessageCorrectlyConstructedFromJson" : "JS 5/27/2022 19:30",
 		"testMessageHasTextRepresentation" : "tom.richter 6/26/2021 21:06",
 		"testMessageIsReply" : "rgw 5/12/2022 16:40",
 		"testMessageReplySnippetTruncates" : "rgw 5/12/2022 16:39",
