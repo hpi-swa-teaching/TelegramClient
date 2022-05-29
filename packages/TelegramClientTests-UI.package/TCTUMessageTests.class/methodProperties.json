@@ -11,6 +11,7 @@
 		"testMessageContainsMessageText" : "tom.richter 6/26/2021 17:25",
 		"testMessageDisplaysEmojis" : "RK 7/6/2021 11:04",
 		"testMessageShrinksCorrectly" : "tom.richter 6/26/2021 21:04",
+		"testMouseDownOnMessage" : "JS 5/22/2022 18:54",
 		"testTextAndPhotoScaleCorrectlyLongCaption" : "rgw 5/12/2022 16:30",
 		"testTextAndPhotoScaleCorrectlyLongUserName" : "rgw 5/12/2022 16:30",
 		"testTextAndPhotoScaleCorrectlyNoCaption" : "rgw 5/12/2022 16:31",

@@ -9,6 +9,8 @@ createInputBar
 		bottomLeft: (self bottomLeft);
 		layoutPolicy: TableLayout new;
 		listDirection: #leftToRight;
+		wrapDirection: #topToBottom;
+		wrapCentering: #topLeft;
 		layoutInset: 2;
 		vResizing: #shrinkWrap;
 		cellInset: 12;
