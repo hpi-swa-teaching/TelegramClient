@@ -1,6 +1,7 @@
 running
 setUp
 
+	| message |
 	super setUp.
 	
 	self chat: (TCCChat new
@@ -9,9 +10,11 @@ setUp
 		yourself).
 
 	1 to: 5 do: [:aNumber |
-		self chat messages add: (TCCTextMessage new
+		message := (TCCTextMessage new
 			text: aNumber asString;
 			chat: self chat;
 			userId: aNumber * 3;
 			id: aNumber * 4;
-			date: (DateAndTime fromUnixTime: aNumber * 60))].
+			date: (DateAndTime fromUnixTime: aNumber * 60)).
+		self chat messageIds add: message id.
+		self chat messageDictionary at: message id put: message]

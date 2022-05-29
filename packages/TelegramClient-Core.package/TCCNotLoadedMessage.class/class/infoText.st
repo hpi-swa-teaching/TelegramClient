@@ -1,4 +1,4 @@
 accessing
 infoText
 
-	^ 'Message not loaded'
+	^ 'Message not loaded' , String cr

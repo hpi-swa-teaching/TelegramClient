@@ -1,6 +1,6 @@
 accessing
 getMessageById: aNumber
 
-	^ self messages
-		detect: [:aMessage | aMessage id = aNumber]
-		ifNone: TCCNotLoadedMessage new
+	^ self messageDictionary at: aNumber ifAbsent: [
+		self requestMessage: aNumber.
+		^TCCNotLoadedMessage new]
