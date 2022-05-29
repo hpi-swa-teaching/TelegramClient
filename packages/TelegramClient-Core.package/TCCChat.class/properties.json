@@ -18,7 +18,8 @@
 		"muted",
 		"isChannel",
 		"messageIds",
-		"messageDictionary" ],
+		"messageDictionary",
+		"selectedReplyToMessageId" ],
 	"name" : "TCCChat",
 	"pools" : [
 		 ],

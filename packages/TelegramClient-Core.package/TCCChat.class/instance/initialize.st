@@ -9,4 +9,5 @@ initialize
 		infoLoaded: false;
 		isChannel: false;
 		position: self class defaultUnknownPosition;
-		numberOfRequestedMessages: self class defaultNumberOfRequestedMessages.
+		numberOfRequestedMessages: self class defaultNumberOfRequestedMessages;
+		selectedReplyToMessageId: self class defaultSelectedReplyToMessageId.
