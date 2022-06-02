@@ -1,4 +1,4 @@
 default values
-defaultImageWidth
+defaultPhotoSize
 
 	^ self defaultHeight
