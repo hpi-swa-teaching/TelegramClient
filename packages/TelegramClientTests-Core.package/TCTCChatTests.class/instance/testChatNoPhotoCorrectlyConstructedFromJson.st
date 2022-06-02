@@ -10,4 +10,3 @@ testChatNoPhotoCorrectlyConstructedFromJson
 	self assert: true equals: mockChat canSendMessages.
 	self assert: false equals: mockChat muted.
 	self assert: false equals: mockChat hasPhoto.
-	

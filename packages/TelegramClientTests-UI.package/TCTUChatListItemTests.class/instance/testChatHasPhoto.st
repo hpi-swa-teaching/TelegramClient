@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testChatHasPhoto
 
 	self core client onRequestType: 'downloadFile' respond: TCTMMocks mockImageResponseJson.
