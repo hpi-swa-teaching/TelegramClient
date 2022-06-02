@@ -4,6 +4,7 @@
 		"defaultImageWidth" : "rgw 6/2/2022 15:26",
 		"defaultLastMessageOffset" : "rgw 6/2/2022 15:28",
 		"defaultMessagePreviewLength" : "rgw 6/2/2022 15:32",
+		"defaultPhoto" : "rgw 6/2/2022 16:26",
 		"defaultPhotoSize" : "rgw 6/2/2022 15:27",
 		"defaultSelectColor" : "JB 7/19/2021 12:11",
 		"defaultTitleLength" : "RK 7/4/2021 13:30",
@@ -12,7 +13,7 @@
 	"instance" : {
 		"addBorder" : "RK 8/4/2021 12:05",
 		"addLastMessage" : "RK 8/4/2021 12:06",
-		"addPhoto" : "rgw 6/2/2022 15:27",
+		"addPhoto" : "rgw 6/2/2022 16:27",
 		"addTitle" : "RK 8/4/2021 12:06",
 		"chat" : "rs 6/17/2020 21:45",
 		"chat:" : "rs 6/17/2020 21:45",

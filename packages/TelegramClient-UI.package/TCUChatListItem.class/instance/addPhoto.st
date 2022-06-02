@@ -9,4 +9,6 @@ addPhoto
 			morph position: self position.
 			self addMorphBack: morph.
 		]
+	] ifFalse: [
+		self addMorphBack: self class defaultPhoto asMorph.
 	]
