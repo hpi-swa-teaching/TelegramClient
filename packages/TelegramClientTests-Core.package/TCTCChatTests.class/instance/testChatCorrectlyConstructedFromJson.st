@@ -9,4 +9,4 @@ testChatCorrectlyConstructedFromJson
 	self assert: TCTMMocks mockBasicGroupChat id equals: mockChat id.
 	self assert: true equals: mockChat canSendMessages.
 	self assert: false equals: mockChat muted.
-	self assert: TCTMMocks mockChatPhotoId equals: mockChat photoId.
+	self assert: TCTMMocks mockImageId equals: mockChat photoId.
