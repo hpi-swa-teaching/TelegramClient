@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testChatHasPhoto" : "rgw 6/2/2022 12:20",
 		"testChatOrderUpdatesIfPositionChanges" : "pk 8/6/2021 18:57",
 		"testChatTitleVisible" : "JB 8/6/2021 15:52",
 		"testLastMessageVisible" : "JB 8/6/2021 15:52" } }
