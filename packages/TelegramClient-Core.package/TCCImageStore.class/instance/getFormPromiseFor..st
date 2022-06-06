@@ -7,4 +7,4 @@ getFormPromiseFor: anImageId
 		self requestImageFor: anImageId with: (self at: anImageId).
  		self at: anImageId
 	].
-	^ promise >>= [:aPath | self class imageFormFrom: promise value]
+	^ promise >>= [:aPath | self class imageFormFrom: aPath]
