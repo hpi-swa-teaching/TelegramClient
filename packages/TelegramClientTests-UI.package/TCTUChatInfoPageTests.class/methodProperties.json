@@ -11,7 +11,7 @@
 		"testCanOpenChatInfoPage" : "RS 6/6/2021 15:50",
 		"testChatInfoPageIsHidden" : "RS 6/6/2021 15:50",
 		"testDoesDisplayGroupDescription" : "RS 8/1/2021 12:56",
-		"testPrivateChatHasNoDescription" : "RS 8/1/2021 12:57",
+		"testPrivateChatHasNoDescription" : "rgw 6/6/2022 18:11",
 		"testPrivateChatHasNoUserList" : "RK 8/2/2021 18:39",
 		"testSupergroupChatHasUserList" : "tr 7/25/2021 18:08",
 		"testUserListNotVisibleInChannelChatInfoPage" : "RK 8/2/2021 18:39" } }
