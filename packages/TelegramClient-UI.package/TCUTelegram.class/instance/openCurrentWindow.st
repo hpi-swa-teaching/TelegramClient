@@ -3,4 +3,6 @@ openCurrentWindow
 
 	self
 		bounds: (Rectangle center: self center extent: self currentWindow extent);
-		addMorphCentered: self currentWindow.
+		position: Display extent - self extent // 2; 
+		addMorphCentered: self currentWindow. 
+		

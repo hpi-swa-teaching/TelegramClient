@@ -1,8 +1,9 @@
 initialization
 initialize
 
-	super initialize.
+	super initialize. 
 	self
-		openCenteredInWorld;
+		openCenteredInWorld; 
+		setLabel: 'TelegramClient';
 		color: Color white;
-		addAuthenticationWindow.
+		addAuthenticationWindow. 
