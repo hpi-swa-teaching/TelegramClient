@@ -11,5 +11,4 @@ initialize
 		addSender;
 		addContent;
 		addDate;
-		addProfilePhoto;
-		shrinkToContent.
+		shrinkToContent
