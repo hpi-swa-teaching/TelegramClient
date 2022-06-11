@@ -5,6 +5,7 @@
 		"expectedSqueak5_2Failures" : "pk 7/6/2021 12:25",
 		"handleScreenShotTestFor:with:usedBy:" : "RK 6/26/2021 10:15",
 		"setUp" : "rgw 6/6/2022 18:42",
+		"testGroupMessageContainsPhoto" : "JS 6/11/2022 09:21",
 		"testMessageColorsDifferentForIncomingOutgoing" : "tom.richter 6/26/2021 17:23",
 		"testMessageContainsDate" : "tom.richter 6/26/2021 17:23",
 		"testMessageContainsMessageSender" : "tom.richter 6/26/2021 17:23",

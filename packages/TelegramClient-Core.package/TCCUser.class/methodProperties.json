@@ -1,16 +1,19 @@
 {
 	"class" : {
-		"newFrom:" : "pk 8/5/2021 16:59" },
+		"newFrom:" : "JS 6/11/2022 09:41" },
 	"instance" : {
 		"=" : "pk 6/13/2021 12:52",
 		"firstName" : "per 5/15/2021 12:03",
 		"firstName:" : "pk 8/4/2021 11:57",
 		"fullName" : "JB 6/13/2021 10:28",
+		"hasPhoto" : "JS 6/11/2022 09:32",
 		"hash" : "JB 6/13/2021 14:01",
 		"id" : "pk 5/9/2021 16:33",
 		"id:" : "pk 8/4/2021 11:56",
 		"initialize" : "JB 6/13/2021 10:52",
 		"lastName" : "per 5/15/2021 12:03",
 		"lastName:" : "pk 8/4/2021 11:58",
+		"photoId" : "JS 6/11/2022 09:26",
+		"photoId:" : "JS 6/11/2022 09:26",
 		"username" : "pk 5/9/2021 16:33",
 		"username:" : "pk 8/4/2021 12:04" } }
