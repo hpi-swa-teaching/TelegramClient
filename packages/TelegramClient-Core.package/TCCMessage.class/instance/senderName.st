@@ -3,5 +3,5 @@ senderName
 
 	^ (self senderType) caseOf: {
 		[#messageSenderChat] -> [self chat title].
-		[#messageSenderUser] -> [(self core userStore getUserFor: self userId) fullName].
+		[#messageSenderUser] -> [self senderUser fullName].
 	} otherwise: ['Unsupported sender type']

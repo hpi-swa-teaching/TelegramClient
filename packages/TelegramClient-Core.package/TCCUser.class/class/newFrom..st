@@ -8,8 +8,6 @@ newFrom: anEvent
 		lastName: (anEvent at: 'last_name');
 		username: (anEvent at: 'username').
 		
-	(anEvent at: 'photo') ifNotNil: [
-		user photoId: (((anEvent at: 'photo') at: 'small') at: 'id').
-	].
+	anEvent at: 'profile_photo' ifPresent: [:profilePhoto | user photoId: ((profilePhoto at: 'small') at: 'id')] ifAbsent: [].
 
 	^ user

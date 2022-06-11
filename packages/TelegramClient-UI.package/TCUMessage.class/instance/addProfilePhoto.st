@@ -1,9 +1,9 @@
-drawing
-addPhoto
+constructing
+addProfilePhoto
 
 	| promise morph |
-	self chat hasPhoto ifTrue: [
-		promise := self chat core imageStore getFormPromiseFor: self chat photoId.
+	self messageModel senderUser hasPhoto ifTrue: [
+		promise := self messageModel core imageStore getFormPromiseFor: self messageModel senderUser photoId.
 		promise >>= [:aForm |
 			morph := (aForm scaledToSize: self class defaultPhotoSize) asMorph.
 			morph position: self position.
