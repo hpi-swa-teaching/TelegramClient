@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newFromMessage: aMessage withWidth: aNumber
 
 	^ (self basicNew)
@@ -7,4 +7,3 @@ newFromMessage: aMessage withWidth: aNumber
 		width: aNumber;
 		height: aMessage height;
 		yourself
-

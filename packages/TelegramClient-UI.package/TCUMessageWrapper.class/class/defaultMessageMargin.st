@@ -1,4 +1,4 @@
-as yet unclassified
+default values
 defaultMessageMargin
 
 	^ 5

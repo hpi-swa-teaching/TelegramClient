@@ -8,7 +8,7 @@ mockUserJson1
 			'last_name' -> self mockUser1 lastName.
 			'username' -> self mockUser1 username.
 			'@extra' -> self mockUser1 id asString.
-			'photo' -> (JsonObject newFrom: {
+			'profile_photo' -> (JsonObject newFrom: {
 				'@type' -> 'profilePhoto'.
 				'small' -> (JsonObject newFrom: {
 				'@type' -> 'file'.
