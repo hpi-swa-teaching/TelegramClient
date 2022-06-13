@@ -2,7 +2,7 @@ drawing
 addPhoto
 
 	| promise morph |
-	self chat hasPhoto ifTrue: [
+	(self chat hasPhoto and: [TCUTelegram devMode not]) ifTrue: [
 		promise := self chat core imageStore getFormPromiseFor: self chat photoId.
 		promise >>= [:aForm |
 			morph := (aForm scaledToSize: self class defaultPhotoSize) asMorph.
