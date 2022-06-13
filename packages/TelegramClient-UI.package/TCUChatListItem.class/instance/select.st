@@ -4,4 +4,5 @@ select
 	self chat
 		loadInfoIfNotLoaded;
 		loadChatHistory.
-	self color: self class defaultSelectColor.
+	self color: self class defaultSelectColor; 
+		isSelected: true. 

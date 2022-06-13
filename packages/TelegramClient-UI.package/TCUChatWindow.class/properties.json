@@ -11,7 +11,8 @@
 		"inputBar",
 		"selectedChat",
 		"welcomeMessage",
-		"textInputField" ],
+		"textInputField",
+		"sendButton" ],
 	"name" : "TCUChatWindow",
 	"pools" : [
 		 ],

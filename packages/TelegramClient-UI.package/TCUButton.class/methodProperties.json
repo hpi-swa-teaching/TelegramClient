@@ -1,7 +1,14 @@
 {
 	"class" : {
-		 },
+		"hoverStateConstant" : "ek 6/11/2022 16:35" },
 	"instance" : {
+		"activateButton" : "ek 6/12/2022 11:11",
+		"handlesMouseOver:" : "ek 6/11/2022 16:22",
 		"initialize" : "per 6/15/2021 09:07",
+		"makeDarker" : "ek 6/12/2022 12:14",
+		"makeLighter" : "ek 6/12/2022 12:14",
+		"mouseDown:" : "ek 6/12/2022 12:14",
+		"mouseEnter:" : "ek 6/12/2022 12:14",
+		"mouseLeave:" : "ek 6/12/2022 12:14",
 		"text" : "R.S 5/20/2020 13:56",
 		"text:" : "RK 8/4/2021 12:05" } }

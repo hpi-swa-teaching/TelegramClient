@@ -7,3 +7,4 @@ buttonSendPressed
 	messageString ifNotEmpty: [self selectedChat sendMessage: messageString].
 
 	self textInputField contents: ''.
+	self sendButton makeLighter. 

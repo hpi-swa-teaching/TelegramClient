@@ -1,4 +1,5 @@
 event handling
 deselect
 
-	self color: Color white.
+	self color: Color white; 
+		isSelected: false. 

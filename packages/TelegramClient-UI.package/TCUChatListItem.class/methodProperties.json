@@ -15,7 +15,12 @@
 		"chat:" : "rs 6/17/2020 21:45",
 		"chatId" : "8/5/2021 21:14:18",
 		"chatName" : "rs 6/17/2020 21:45",
-		"deselect" : "rs 6/13/2020 09:02",
-		"initialize" : "r.s 7/31/2020 14:43",
+		"deselect" : "ek 6/12/2022 12:17",
+		"handlesMouseOver:" : "ek 6/12/2022 12:22",
+		"initialize" : "ek 6/12/2022 12:17",
+		"isSelected" : "ek 6/12/2022 12:16",
+		"isSelected:" : "ek 6/12/2022 12:16",
 		"lastMessageText" : "RK 7/9/2021 16:07",
-		"select" : "JB 7/19/2021 12:12" } }
+		"mouseEnter:" : "ek 6/12/2022 12:21",
+		"mouseLeave:" : "ek 6/12/2022 12:21",
+		"select" : "ek 6/12/2022 12:17" } }

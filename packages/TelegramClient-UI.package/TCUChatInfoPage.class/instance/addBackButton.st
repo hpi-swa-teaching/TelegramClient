@@ -5,9 +5,10 @@ addBackButton
 
 	backButton := TCUButton new
 		text: 'Back';
-		on: #mouseDown send: #buttonCancelPressed to: self;
+		on: #mouseUp send: #buttonCancelPressed to: self;
 		name: 'infoBackButton';
 		yourself.
 
 	self infoBar addMorph: backButton.
 	backButton position: (self infoBar left + self class defaultSpacing) @ (self infoBar top + self class defaultSpacing).
+	self backButton: backButton. 
