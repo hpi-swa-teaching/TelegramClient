@@ -1,3 +1,4 @@
 accessing
-completionMessage: anObject
-	completionMessage := anObject
+completionMessage: aMessage
+
+	completionMessage := aMessage

@@ -6,7 +6,5 @@ testHandleMessageRequestAlreadyLoaded
 	messageRequest := TCCMessageRequest new messageId: 4;
 											completionReceiver: receiver;
 											completionMessage: #call:.
-											
-	self chat handleMessageRequest: messageRequest.																		
+	self chat handleMessageRequest: messageRequest.
 	self assert: receiver isCalled.
-	

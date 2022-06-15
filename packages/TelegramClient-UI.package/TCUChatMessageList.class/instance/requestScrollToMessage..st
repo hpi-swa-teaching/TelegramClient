@@ -7,4 +7,3 @@ requestScrollToMessage: aMessageId
 													completionMessage: #scrollToMessage:;
 													yourself.
 	self chat handleMessageRequest: messageRequest
-	

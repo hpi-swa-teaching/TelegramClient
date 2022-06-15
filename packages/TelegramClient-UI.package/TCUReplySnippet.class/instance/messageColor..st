@@ -1,3 +1,4 @@
 accessing
-messageColor: anObject
-	messageColor := anObject
+messageColor: aColor
+
+	messageColor := aColor

@@ -1,5 +1,6 @@
 message - json
 mockChatHistoryJsonContainingMessageId: aMessageId inChat: aChatId
+
 	| messages |
 	messages := OrderedCollection newFrom: {(self mockTextMessageJsonFrom: aChatId replyingTo: aMessageId with: 1)}.
 	

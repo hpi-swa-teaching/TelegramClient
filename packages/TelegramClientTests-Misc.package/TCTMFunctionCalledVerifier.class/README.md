@@ -1,0 +1,1 @@
+Helps you to verify if a function was called on an instance of this class.

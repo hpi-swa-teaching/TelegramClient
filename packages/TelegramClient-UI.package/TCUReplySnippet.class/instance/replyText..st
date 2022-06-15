@@ -1,3 +1,4 @@
 accessing
-replyText: anObject
-	replyText := anObject
+replyText: aString
+
+	replyText := aString

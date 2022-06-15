@@ -1,3 +1,4 @@
 accessing
-isCalled: anObject
-	isCalled := anObject
+isCalled: aBoolean
+
+	isCalled := aBoolean

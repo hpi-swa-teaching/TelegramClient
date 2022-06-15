@@ -1,3 +1,4 @@
 accessing
-completionReceiver: anObject
-	completionReceiver := anObject
+completionReceiver: aReceiver
+
+	completionReceiver := aReceiver

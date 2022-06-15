@@ -1,3 +1,4 @@
 accessing
-requestedMessages: anObject
-	requestedMessages := anObject
+requestedMessages: aList
+
+	requestedMessages := aList

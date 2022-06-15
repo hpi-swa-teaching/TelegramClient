@@ -1,3 +1,4 @@
 accessing
-messageId: anObject
-	messageId := anObject
+messageId: aNumber
+
+	messageId := aNumber
