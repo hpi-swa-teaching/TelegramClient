@@ -6,7 +6,7 @@
 		"testMessageHasTextRepresentation" : "tom.richter 6/26/2021 21:06",
 		"testMessageIsReply" : "rgw 5/12/2022 16:40",
 		"testMessageReplySnippetTruncates" : "rgw 5/12/2022 16:39",
-		"testMessageReplyText" : "JS 5/27/2022 19:27",
+		"testMessageReplyText" : "LR 6/5/2022 11:14",
 		"testMessageShouldNotNotify" : "RS 7/17/2021 10:53",
 		"testMessageShouldNotify" : "RS 7/17/2021 10:53",
 		"testMessageWithMessageSenderChatCorrectlyConstructedFromJson" : "JS 5/26/2022 15:32",

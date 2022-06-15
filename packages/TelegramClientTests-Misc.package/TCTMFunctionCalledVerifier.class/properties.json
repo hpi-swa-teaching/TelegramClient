@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClientTests-Misc",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"isCalled" ],
+	"name" : "TCTMFunctionCalledVerifier",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

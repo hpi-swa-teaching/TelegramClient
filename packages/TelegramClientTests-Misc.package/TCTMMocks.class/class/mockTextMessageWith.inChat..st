@@ -1,13 +1,4 @@
 message
 mockTextMessageWith: aCore inChat: aChat
 
-	^ TCCTextMessage new
-		chat: aChat;
-		core: aCore;
-		userId: self mockUser1 id;
-		isOutgoing: false;
-		senderType: #messageSenderUser;
-		date: self mockMessageDate;
-		id: self mockMessageId;
-		text: self mockText;
-		replyToMessageId: 0
+	^ self mockTextMessageWith: aCore with: self mockMessageId replyTo: 0 in: aChat
