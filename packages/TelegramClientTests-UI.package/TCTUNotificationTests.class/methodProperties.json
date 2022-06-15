@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"expectedSqueak5_2Failures" : "pk 7/17/2021 12:33",
+		"testMutedNotificationNotVisible" : "tom.richter 6/26/2021 17:22",
+		"testNotificationClipsLongMessage" : "pk 7/17/2021 12:21",
+		"testNotificationConstructor" : "pk 8/5/2021 16:06",
+		"testNotificationContainsMessage" : "tom.richter 6/26/2021 17:22",
+		"testNotificationContainsSender" : "tom.richter 6/26/2021 17:21",
+		"testNotificationDisplaysEmojis" : "pk 7/17/2021 12:06",
+		"testNotificationHidesPrivateChatTitle" : "TR 6/22/2021 09:53",
+		"testNotificationShowsGroupChatTitle" : "TR 6/22/2021 09:54",
+		"testUnmutedNotificationVisible" : "tom.richter 6/26/2021 17:19" } }

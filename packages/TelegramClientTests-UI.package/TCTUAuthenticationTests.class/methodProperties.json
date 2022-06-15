@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "RS 7/17/2021 12:56",
+		"testEnteringCodeOpensTelegram" : "aka 5/21/2022 13:02",
+		"testEnteringPasswordOpensTelegram" : "aka 5/21/2022 14:01",
+		"testEnteringPhoneNumberAsksForCode" : "aka 5/21/2022 13:29",
+		"testPressCancelOnAuthCode" : "aka 5/21/2022 13:51",
+		"testPressCancelOnAuthPassword" : "aka 5/21/2022 13:50",
+		"testTelegramOpensAuthentication" : "RS 7/17/2021 12:55" } }
