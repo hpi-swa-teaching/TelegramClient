@@ -10,4 +10,5 @@ initialize
 		isChannel: false;
 		position: self class defaultUnknownPosition;
 		numberOfRequestedMessages: self class defaultNumberOfRequestedMessages;
-		selectedReplyToMessageId: self class defaultSelectedReplyToMessageId.
+		selectedReplyToMessageId: self class defaultSelectedReplyToMessageId;
+		requestedMessages: OrderedCollection new.

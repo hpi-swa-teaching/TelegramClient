@@ -1,10 +1,12 @@
 messages
 addAtTop: aCoreMessage
 
-	| wrapper |
+	| wrapper messageItem |
 	(self isFromCurrentChat: aCoreMessage) ifFalse: [^ self].
 	
-	wrapper := self wrapperFor: (TCUMessage newFrom: aCoreMessage).
+	messageItem := TCUMessage newFrom: aCoreMessage.
+	messageItem when: #requestScroll send: #requestScrollToMessage: to: self with: (aCoreMessage replyToMessageId).
+	wrapper := self wrapperFor: messageItem.
 	self scroller addMorphFront: wrapper.
 	self items addFirst: wrapper.
 	

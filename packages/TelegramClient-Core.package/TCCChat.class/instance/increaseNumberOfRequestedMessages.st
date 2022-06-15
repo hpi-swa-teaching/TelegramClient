@@ -1,0 +1,4 @@
+loading
+increaseNumberOfRequestedMessages
+
+	self numberOfRequestedMessages: self numberOfRequestedMessages + self class defaultMessageLimit.

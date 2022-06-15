@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"newWith:coloredIn:" : "LR 6/11/2022 12:48" },
+	"instance" : {
+		"initialize" : "LR 6/11/2022 12:47",
+		"messageColor" : "LR 6/5/2022 10:09",
+		"messageColor:" : "LR 6/5/2022 10:09",
+		"mouseDown:" : "LR 6/15/2022 11:02",
+		"replyText" : "LR 6/5/2022 11:06",
+		"replyText:" : "LR 6/5/2022 09:43" } }

@@ -19,7 +19,8 @@
 		"isChannel",
 		"messageIds",
 		"messageDictionary",
-		"selectedReplyToMessageId" ],
+		"selectedReplyToMessageId",
+		"requestedMessages" ],
 	"name" : "TCCChat",
 	"pools" : [
 		 ],

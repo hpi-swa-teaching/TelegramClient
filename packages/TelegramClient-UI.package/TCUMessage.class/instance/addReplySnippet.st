@@ -1,11 +1,12 @@
 constructing
 addReplySnippet
 
-	self addMorphBack: (self class defaultTextMorph
-		contents: self messageModel replyText;
-		hResizing: #spaceFill;
-		color: TCUDefaultValues colorLightGray;
-		yourself).
+	| replySnippet |
+	
+	replySnippet := TCUReplySnippet newWith: (self messageModel replyText) coloredIn: self messageColor.
+	replySnippet when: #requestScroll send: #triggerRequestScroll to: self.
+	
+	self addMorph: (replySnippet).
 	self addMorphBack: (RectangleMorph new
 		color: self messageColor;
 		borderWidth: 0;
