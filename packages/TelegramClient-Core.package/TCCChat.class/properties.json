@@ -20,7 +20,8 @@
 		"messageIds",
 		"messageDictionary",
 		"selectedReplyToMessageId",
-		"requestedMessages" ],
+		"requestedMessages",
+    "photoId"],
 	"name" : "TCCChat",
 	"pools" : [
 		 ],

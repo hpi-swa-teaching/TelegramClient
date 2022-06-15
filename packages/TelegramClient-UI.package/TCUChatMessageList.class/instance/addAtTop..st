@@ -6,7 +6,7 @@ addAtTop: aCoreMessage
 	
 	messageItem := TCUMessage newFrom: aCoreMessage.
 	messageItem when: #requestScroll send: #requestScrollToMessage: to: self with: (aCoreMessage replyToMessageId).
-	wrapper := self wrapperFor: messageItem.
+	wrapper := TCUMessageWrapper newFromMessage: messageItem withWidth: self scroller width.
 	self scroller addMorphFront: wrapper.
 	self items addFirst: wrapper.
 	

@@ -7,7 +7,7 @@ newFromMessageEvent: anEvent in: aChat with: aCore
 
 	message
 		chat: aChat;
-		senderType: ((anEvent at: 'sender') at: '@type') asSymbol;
+		senderType: ((anEvent at: 'sender_id') at: '@type') asSymbol;
 		id: (anEvent at: 'id');
 		isOutgoing: (anEvent at: 'is_outgoing');
 		date: (self timeStampToDateAndTime: (anEvent at: 'date'));
@@ -15,7 +15,7 @@ newFromMessageEvent: anEvent in: aChat with: aCore
 		core: aCore.
 	
 	(message senderType = #messageSenderUser) ifTrue:[
-		message userId: ((anEvent at: 'sender') at: 'user_id').
+		message userId: ((anEvent at: 'sender_id') at: 'user_id').
 	].
 
 	^ message

@@ -1,4 +1,4 @@
 accessing
 fileName
 
-	^ 'libtdjson.so.1.7.0'
+	^ 'libtdjson.so.1.8.0'

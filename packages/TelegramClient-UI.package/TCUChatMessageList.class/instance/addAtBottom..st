@@ -8,7 +8,7 @@ addAtBottom: aCoreMessage
 	wasFullyScrolledDown := self isFullyScrolledDown.
 	messageItem := TCUMessage newFrom: aCoreMessage.
 	messageItem when: #requestScroll send: #requestScrollToMessage: to: self with: (aCoreMessage replyToMessageId).
-	wrapper := self wrapperFor: messageItem.
+	wrapper := TCUMessageWrapper newFromMessage: messageItem withWidth: self scroller width.
 	self scroller addMorphBack: wrapper.
 	self items addLast: wrapper.
 	wasFullyScrolledDown

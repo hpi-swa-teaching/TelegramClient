@@ -1,9 +1,7 @@
 {
 	"class" : {
-		"defaultMessageMargin" : "per 6/20/2021 11:51",
-		"defaultMessageWrapper" : "JB 6/28/2021 09:58",
 		"defaultScrollOffsetBeforeLoading" : "JB 6/26/2021 10:15",
-		"defaultWidth" : "RS 7/17/2021 17:39" },
+		"defaultWidth" : "rgw 6/2/2022 15:39" },
 	"instance" : {
 		"addAtBottom:" : "LR 6/11/2022 10:45",
 		"addAtTop:" : "LR 6/11/2022 11:00",
@@ -19,5 +17,4 @@
 		"scrollToMessage:" : "aka 6/15/2022 12:01",
 		"scrollToNewestMessage" : "per 6/24/2021 23:14",
 		"showMessages" : "RS 7/17/2021 17:34",
-		"step" : "JB 7/19/2021 12:12",
-		"wrapperFor:" : "RK 8/4/2021 10:57" } }
+		"step" : "JB 7/19/2021 12:12" } }
