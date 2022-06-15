@@ -6,4 +6,5 @@ mockUser1
 		lastName: 'User';
 		username: 'username';
 		id: 1673511834;
+		photoId: self mockImageId;
 		yourself

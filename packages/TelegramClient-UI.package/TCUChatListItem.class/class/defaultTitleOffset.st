@@ -1,4 +1,4 @@
 default values
 defaultTitleOffset
 
-	^ 20 @ 20
+	^ (15 @ 15) + (self defaultPhotoSize @ 0)
