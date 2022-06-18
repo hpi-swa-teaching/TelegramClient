@@ -9,4 +9,4 @@ mockUpdateChatPositionEventForPinnedChatWithId: aNumber
 				'is_pinned' -> true.
 				'order' -> '314159'.
  			}).
-		}).
+		})
