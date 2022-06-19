@@ -1,4 +1,4 @@
-as yet unclassified
-titleBarEntered 
+event handling
+titleBarEntered
 
-	self titleBar color: Color veryVeryLightGray. 
+	self titleBar color: Color veryVeryLightGray.

@@ -1,4 +1,4 @@
-as yet unclassified
-mouseEnter: anEvent 
+event handling
+mouseEnter: anEvent
 
-	self isSelected ifFalse: [self color: TCUDefaultValues colorLightGray.].  
+	self isSelected ifFalse: [self color: TCUDefaultValues colorLightGray.].

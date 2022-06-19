@@ -1,4 +1,4 @@
-as yet unclassified
-handlesMouseOver: anEvent 
+event handling
+handlesMouseOver: anEvent
 
-	^ true 
+	^ true

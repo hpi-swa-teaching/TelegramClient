@@ -7,5 +7,5 @@ initialize
 		color: Color white;
 		height: self class defaultHeight;
 		borderWidth: 0;
-		clipSubmorphs: true; 
-		isSelected: false. 
+		clipSubmorphs: true;
+		isSelected: false.

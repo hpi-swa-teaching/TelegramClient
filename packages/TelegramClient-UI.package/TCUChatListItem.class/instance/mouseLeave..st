@@ -1,4 +1,4 @@
-as yet unclassified
-mouseLeave: anEvent 
+event handling
+mouseLeave: anEvent
 
-	self isSelected ifFalse: [self color:  Color white.]. 
+	self isSelected ifFalse: [self color: Color white.].

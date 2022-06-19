@@ -1,4 +1,4 @@
-as yet unclassified
-hoverStateConstant 
+constants
+hoverStateConstant
 
-	^ 0.85
+	^ 0.8

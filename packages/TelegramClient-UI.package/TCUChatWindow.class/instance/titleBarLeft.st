@@ -1,4 +1,4 @@
-as yet unclassified
+event handling
 titleBarLeft
 
-	self titleBar color: TCUDefaultValues colorLightGray. 
+	self titleBar color: TCUDefaultValues colorLightGray.

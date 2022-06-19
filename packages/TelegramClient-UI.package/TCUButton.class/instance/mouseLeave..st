@@ -1,4 +1,4 @@
-as yet unclassified
-mouseLeave: anEvent 
+event handling
+mouseLeave: anEvent
 
-	self makeLighter. 
+	self makeLighter.

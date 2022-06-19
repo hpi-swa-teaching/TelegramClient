@@ -1,4 +1,4 @@
-as yet unclassified
-mouseEnter: anEvent 
-	
-	self makeDarker. 
+event handling
+mouseEnter: anEvent
+
+	self makeDarker.

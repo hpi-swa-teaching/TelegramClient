@@ -1,3 +1,4 @@
 accessing
-sendButton: anObject
-	sendButton := anObject
+sendButton: aTelegramButton
+
+	sendButton := aTelegramButton
