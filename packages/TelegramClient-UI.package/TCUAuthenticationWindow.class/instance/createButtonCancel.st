@@ -6,6 +6,6 @@ createButtonCancel
 			text: 'Cancel';
 			center: self inputField center + ((-100) @ 50);
 			hide;
-			on: #mouseDown send: #buttonCancelPressed to: self;
+			on: #mouseUp send: #buttonCancelPressed to: self;
 			yourself);
 		addMorph: self buttonCancel.
