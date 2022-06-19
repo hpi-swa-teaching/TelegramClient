@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addChat:" : "pk 8/5/2021 16:36",
+		"addChat:" : "js 6/18/2022 09:27",
 		"addNewMessage:" : "pk 8/5/2021 16:37",
 		"answeredMessageReceived:" : "JS 5/26/2022 15:58",
 		"chatHistoryReceived:" : "pk 8/5/2021 16:37",
@@ -15,5 +15,5 @@
 		"initialize" : "RS 8/1/2021 12:51",
 		"openNewChat:" : "pk 8/5/2021 16:38",
 		"searchChat:" : "pk 8/5/2021 16:38",
-		"updateChatPosition:" : "RS 8/1/2021 12:55",
+		"updateChatPosition:" : "js 6/18/2022 11:04",
 		"updateLastMessage:" : "RS 8/1/2021 12:55" } }
