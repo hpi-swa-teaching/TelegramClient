@@ -7,4 +7,5 @@ newWithChat: aChat width: aNumber
 		addTitle;
 		addLastMessage;
 		addBorder;
+		addPhoto;
 		yourself

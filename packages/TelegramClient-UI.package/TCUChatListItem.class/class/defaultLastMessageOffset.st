@@ -1,4 +1,4 @@
 default values
 defaultLastMessageOffset
 
-	^ 20 @ -12
+	^ (15 @ -17) + (self defaultPhotoSize @ 0)

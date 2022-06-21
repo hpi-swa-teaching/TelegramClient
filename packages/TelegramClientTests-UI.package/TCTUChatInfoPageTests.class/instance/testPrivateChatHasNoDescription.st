@@ -11,4 +11,4 @@ testPrivateChatHasNoDescription
 
 	chatInfoPage := (self subject findByClass: TCUChatInfoPage) morphs anyOne.
 	self forceSaveScreenshotOf: chatInfoPage as: 'testPrivateChatHasNoDescription' in: self class defaultTestResultPath.
-	self assert: 236496437 equals: (self computeHashOf: (self takeScreenshotOf: chatInfoPage)).
+	self assert: 225928729 equals: (self computeHashOf: (self takeScreenshotOf: chatInfoPage)).

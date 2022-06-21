@@ -1,4 +1,4 @@
 default values
 defaultMessagePreviewLength
 
-	^ 37
+	^ 30
