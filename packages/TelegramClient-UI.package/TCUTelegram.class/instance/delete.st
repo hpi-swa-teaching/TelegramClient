@@ -1,5 +1,5 @@
 initialization
-delete 
+delete
 
-	self core freeClient . 
-	super delete. 
+	self core freeClient.
+	super delete.
