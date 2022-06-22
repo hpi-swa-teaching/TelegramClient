@@ -5,7 +5,7 @@ mockTextMessageJsonFrom: aChatId with: aSenderType replyingTo: aMessageId
 			'@type' -> 'message'.
 			'id' -> self mockMessageId.
 			'chat_id' -> aChatId.
-			'sender' -> (JsonObject newFrom: {
+			'sender_id' -> (JsonObject newFrom: {
 				'@type' -> aSenderType asString.
 				'user_id' -> self mockUser1 id
 				}).

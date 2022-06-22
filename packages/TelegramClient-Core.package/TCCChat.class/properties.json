@@ -19,7 +19,9 @@
 		"isChannel",
 		"messageIds",
 		"messageDictionary",
-		"selectedReplyToMessageId" ],
+		"selectedReplyToMessageId",
+		"photoId",
+		"isPinned" ],
 	"name" : "TCCChat",
 	"pools" : [
 		 ],

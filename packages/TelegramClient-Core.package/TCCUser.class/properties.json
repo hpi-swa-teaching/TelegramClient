@@ -9,7 +9,8 @@
 		"id",
 		"username",
 		"firstName",
-		"lastName" ],
+		"lastName",
+		"photoId" ],
 	"name" : "TCCUser",
 	"pools" : [
 		 ],

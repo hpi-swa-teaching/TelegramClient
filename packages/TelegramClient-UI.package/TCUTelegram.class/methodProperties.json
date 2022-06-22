@@ -1,17 +1,21 @@
 {
 	"class" : {
+		"devMode" : "js 6/13/2022 18:15",
 		"initialize" : "js 8/2/2020 14:31",
 		"newWithCore" : "8/5/2021 15:40:50",
 		"newWithCore:" : "js 8/2/2020 14:29",
 		"registerInWorldMenu" : "js 8/2/2020 14:28" },
 	"instance" : {
 		"addAuthenticationWindow" : "RS 7/17/2021 12:47",
-		"addMainWindow" : "RS 7/17/2021 12:47",
+		"addMainWindow" : "ek 6/1/2022 12:24",
+		"collapseOrExpand" : "js 6/21/2022 11:24",
 		"core" : "js 5/31/2020 20:04",
 		"core:" : "js 5/31/2020 20:04",
 		"currentWindow" : "r.s 7/13/2020 17:11",
 		"currentWindow:" : "r.s 7/13/2020 17:11",
-		"initialize" : "RS 7/31/2021 15:17",
+		"delete" : "js 6/21/2022 11:26",
+		"expandToFullScreen" : "js 6/21/2022 11:27",
+		"initialize" : "js 6/21/2022 11:29",
 		"logInCompleted" : "RS 7/17/2021 12:30",
 		"loggedOut" : "RS 7/17/2021 12:25",
-		"openCurrentWindow" : "JB 7/19/2021 16:37" } }
+		"openCurrentWindow" : "js 6/21/2022 11:31" } }

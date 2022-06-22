@@ -3,6 +3,7 @@ mockPrivateChat
 
 	^ TCCPrivateChat new
 		id: 1;
+		photoId: self mockImageId;
 		title: 'PrivateMockChat';
 		lastMessage: 'lastPrivateMessage';
 		canSendMessages: true;

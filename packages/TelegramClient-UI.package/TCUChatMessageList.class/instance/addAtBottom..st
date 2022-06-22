@@ -6,7 +6,7 @@ addAtBottom: aCoreMessage
 	(self isFromCurrentChat: aCoreMessage)
 		ifFalse: [ ^ self ].
 	wasFullyScrolledDown := self isFullyScrolledDown.
-	wrapper := self wrapperFor: (TCUMessage newFrom: aCoreMessage).
+	wrapper := TCUMessageWrapper newFromMessage: (TCUMessage newFrom: aCoreMessage) withWidth: self scroller width.
 	self scroller addMorphBack: wrapper.
 	self items addLast: wrapper.
 	wasFullyScrolledDown

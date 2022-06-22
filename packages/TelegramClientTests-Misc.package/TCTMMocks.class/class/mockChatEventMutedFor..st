@@ -11,7 +11,8 @@ mockChatEventMutedFor: aNumber
  					'basic_group_id' -> self mockBasicGroupChat id.
  				}).
  				'permissions' -> (JsonObject newFrom: {
- 					'@type' -> 'can_send_messages'
+ 					'@type' -> 'chatPermissions'.
+					'can_send_messages' -> true.
  				}).
  				'notification_settings' -> (JsonObject newFrom: {
  					'mute_for' -> aNumber
