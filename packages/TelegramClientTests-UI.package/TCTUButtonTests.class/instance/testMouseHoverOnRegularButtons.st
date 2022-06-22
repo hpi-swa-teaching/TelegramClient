@@ -6,4 +6,6 @@ testMouseHoverOnRegularButtons
 	button := TCUButton new.
 	normalColor := button color.
 	button mouseEnter: EventMorph new.
-	self assert: normalColor ~~ button color.
+	self deny: normalColor = button color.
+	button mouseLeave: EventMorph new.
+	self assert: normalColor = button color.
