@@ -6,6 +6,6 @@ createButtonNext
 			text: 'Next';
 			center: self inputField center + (100 @ 50);
 			hide;
-			on: #mouseDown send: #buttonNextPressed to: self;
+			on: #mouseUp send: #buttonNextPressed to: self;
 			yourself);
 		addMorph: self buttonNext.
