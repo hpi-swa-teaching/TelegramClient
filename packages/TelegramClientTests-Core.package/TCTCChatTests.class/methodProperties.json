@@ -8,7 +8,7 @@
 		"testAddAnsweredMessage" : "JS 5/26/2022 15:05",
 		"testAddNewestMessage" : "RS 7/31/2021 15:45",
 		"testAddOldestMessage" : "TR 6/22/2021 09:49",
-		"testChatCorrectlyConstructedFromJson" : "rgw 6/2/2022 16:17",
+		"testChatCorrectlyConstructedFromJson" : "js 6/18/2022 10:46",
 		"testChatNoPhotoCorrectlyConstructedFromJson" : "rgw 6/2/2022 16:17",
 		"testGetMessageById" : "JS 5/27/2022 19:32",
 		"testHandleMessageRequest" : "aka 6/15/2022 11:54",

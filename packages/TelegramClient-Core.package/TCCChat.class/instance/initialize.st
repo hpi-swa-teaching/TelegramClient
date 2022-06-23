@@ -11,4 +11,5 @@ initialize
 		position: self class defaultUnknownPosition;
 		numberOfRequestedMessages: self class defaultNumberOfRequestedMessages;
 		selectedReplyToMessageId: self class defaultSelectedReplyToMessageId;
-		requestedMessages: OrderedCollection new.
+		requestedMessages: OrderedCollection new;
+		isPinned: false.

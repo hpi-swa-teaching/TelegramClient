@@ -1,0 +1,1 @@
+Test hover and pressed behavior of buttonlike objects.

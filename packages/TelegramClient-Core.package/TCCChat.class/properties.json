@@ -21,7 +21,8 @@
 		"messageDictionary",
 		"selectedReplyToMessageId",
 		"requestedMessages",
-    "photoId"],
+    "photoId",
+    "isPinned"],
 	"name" : "TCCChat",
 	"pools" : [
 		 ],

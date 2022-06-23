@@ -16,3 +16,5 @@ createTitleBar
 		yourself).
 
 	self titleBar on: #mouseDown send: #showInfoPage to: self.
+	self titleBar on: #mouseEnter send: #titleBarEntered to: self.
+	self titleBar on: #mouseLeave send: #titleBarLeft to: self.

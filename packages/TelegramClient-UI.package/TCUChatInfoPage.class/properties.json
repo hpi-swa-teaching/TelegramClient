@@ -10,7 +10,8 @@
 		"contentWrapper",
 		"description",
 		"chat",
-		"userList" ],
+		"userList",
+		"backButton" ],
 	"name" : "TCUChatInfoPage",
 	"pools" : [
 		 ],
