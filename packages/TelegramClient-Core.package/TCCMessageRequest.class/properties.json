@@ -1,0 +1,16 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "aka 6/15/2022 12:07",
+	"instvars" : [
+		"messageId",
+		"completionReceiver",
+		"completionMessage" ],
+	"name" : "TCCMessageRequest",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

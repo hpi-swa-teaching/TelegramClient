@@ -2,9 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"fillWithMessages" : "per 6/28/2021 16:22",
+		"fillWithMessages" : "LR 6/15/2022 11:30",
 		"setUp" : "RS 8/1/2021 12:57",
 		"testAddingOldMessagesDoesNotScroll" : "per 6/28/2021 16:23",
 		"testChatDoesNotDisplayMessagesFromOtherChats" : "RS 8/1/2021 12:57",
 		"testDisplayedChatLoadsOldMessage" : "per 6/28/2021 16:23",
-		"testDisplayedChatReceivesNewMessage" : "per 6/28/2021 16:23" } }
+		"testDisplayedChatReceivesNewMessage" : "per 6/28/2021 16:23",
+		"testScrollToReferencedMessage" : "aka 6/15/2022 12:28" } }

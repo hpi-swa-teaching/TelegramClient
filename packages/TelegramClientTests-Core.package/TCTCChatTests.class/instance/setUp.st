@@ -8,6 +8,7 @@ setUp
 		id: 1337;
 		core: self core;
 		yourself).
+	self core chatsHandler chats add: self chat.
 
 	1 to: 5 do: [:aNumber |
 		message := (TCCTextMessage new
