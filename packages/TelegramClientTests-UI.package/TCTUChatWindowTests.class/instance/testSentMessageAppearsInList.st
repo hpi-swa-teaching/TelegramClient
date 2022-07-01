@@ -7,5 +7,5 @@ testSentMessageAppearsInList
 	self assertReading: TCTMMocks mockText in: self subject.
 	self sendButton click.
 	0.5 seconds wait.
-	self deny: (('*', TCTMMocks mockText, '*') match: (self messageInputField text string)).
+	self deny: (self messageInputField text contains: TCTMMocks mockText).
 	self assertReading: TCTMMocks mockText in: self subject.
