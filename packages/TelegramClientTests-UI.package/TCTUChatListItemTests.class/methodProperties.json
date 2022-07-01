@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "rgw 6/2/2022 16:10",
-		"testChatHasPhoto" : "JS 6/11/2022 09:44",
-		"testChatIsNotPinned" : "js 6/18/2022 11:02",
-		"testChatIsPinned" : "js 6/18/2022 11:02",
-		"testChatWithoutPhotoHasDefaultPhoto" : "rgw 6/2/2022 16:41" } }
+		"setUp" : "js 6/30/2022 16:10",
+		"testChatHasPhoto" : "js 6/30/2022 16:01",
+		"testChatIsNotPinned" : "js 6/30/2022 16:10",
+		"testChatIsPinned" : "js 6/30/2022 16:10",
+		"testChatWithoutPhotoHasDefaultPhoto" : "js 6/30/2022 16:10" } }
