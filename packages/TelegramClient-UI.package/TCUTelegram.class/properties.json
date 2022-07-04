@@ -11,5 +11,5 @@
 	"name" : "TCUTelegram",
 	"pools" : [
 		 ],
-	"super" : "SystemWindow",
+	"super" : "Morph",
 	"type" : "normal" }

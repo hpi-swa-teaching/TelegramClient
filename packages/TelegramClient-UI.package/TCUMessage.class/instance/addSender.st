@@ -6,4 +6,5 @@ addSender
 		hResizing: #spaceFill;
 		color: self secondaryColor;
 		margins: self class defaultMargins;
+		lock;
 		yourself).

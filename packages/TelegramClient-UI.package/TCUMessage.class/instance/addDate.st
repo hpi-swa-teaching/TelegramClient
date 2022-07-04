@@ -5,4 +5,5 @@ addDate
 		contents: self messageDateText;
 		hResizing: #spaceFill;
 		color: self secondaryColor;
+		lock;
 		yourself).
