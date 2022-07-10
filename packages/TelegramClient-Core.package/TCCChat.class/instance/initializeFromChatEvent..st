@@ -6,7 +6,7 @@ initializeFromChatEvent: anEvent
 		id: (anEvent at: 'id');
 		canSendMessages: ((anEvent at: 'permissions') at: 'can_send_messages');
 		muted: ((anEvent at: 'notification_settings') at: 'mute_for') > 0;
-		lastMessage: '';
+		lastMessageSnippet: '';
 		isPinned: false.
 
 	(anEvent at: 'photo') ifNotNil: [

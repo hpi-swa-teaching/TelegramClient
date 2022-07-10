@@ -5,7 +5,7 @@ mockPrivateChat
 		id: 1;
 		photoId: self mockImageId;
 		title: 'PrivateMockChat';
-		lastMessage: 'lastPrivateMessage';
+		lastMessageSnippet: 'lastPrivateMessage';
 		canSendMessages: true;
 		infoLoaded: true;
 		muted: false;

@@ -3,6 +3,6 @@ testLastMessageVisible
 
 	1 to: self core chatsHandler chats size do: [:index |
 		self
-			assertReading: (self core chatsHandler chats at: index) lastMessage
+			assertReading: (self core chatsHandler chats at: index) lastMessageSnippet
 			in: (self subject createWrapperFor: {self subject chatsList items at: index}).
 	].
