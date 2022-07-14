@@ -1,0 +1,4 @@
+accessing
+lastMessageText
+
+	^ lastMessageText

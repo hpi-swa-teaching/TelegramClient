@@ -12,7 +12,7 @@
 		"newWithChat:width:" : "rgw 6/2/2022 15:18" },
 	"instance" : {
 		"addBorder" : "RK 8/4/2021 12:05",
-		"addLastMessage" : "RK 8/4/2021 12:06",
+		"addLastMessage" : "LR 7/14/2022 11:35",
 		"addPhoto" : "js 6/13/2022 18:09",
 		"addTitle" : "js 6/18/2022 10:55",
 		"chat" : "rs 6/17/2020 21:45",
@@ -24,7 +24,8 @@
 		"initialize" : "ek 6/19/2022 18:48",
 		"isSelected" : "ek 6/19/2022 18:49",
 		"isSelected:" : "ek 6/19/2022 18:49",
-		"lastMessageText" : "RK 7/9/2021 16:07",
+		"lastMessageText" : "LR 7/14/2022 11:38",
+		"lastUserName" : "LR 7/14/2022 11:55",
 		"mouseEnter:" : "ek 6/19/2022 18:49",
 		"mouseLeave:" : "ek 6/19/2022 18:55",
 		"select" : "ek 6/19/2022 18:49" } }
