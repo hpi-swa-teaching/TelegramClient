@@ -2,6 +2,7 @@
 	"class" : {
 		"newWith:coloredIn:" : "LR 6/11/2022 12:48" },
 	"instance" : {
+		"handlesMouseDown:" : "js 7/14/2022 16:42",
 		"initialize" : "aka 6/15/2022 11:58",
 		"messageColor" : "aka 6/15/2022 11:50",
 		"messageColor:" : "aka 6/15/2022 11:50",
