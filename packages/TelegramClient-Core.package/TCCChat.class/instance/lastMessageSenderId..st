@@ -1,4 +1,4 @@
 accessing
-lastMessageSenderId: anObject
+lastMessageSenderId: aNumber
 
-	lastMessageSenderId := anObject
+	lastMessageSenderId := aNumber

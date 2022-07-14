@@ -3,7 +3,6 @@ updateLastMessage: anEvent
 
 	| chat messageJson lastMessage |
 	
-
 	(anEvent includesKey: 'last_message') ifTrue: [
 		messageJson := anEvent at: 'last_message'.
 		chat := self chats getChat: (anEvent at: 'chat_id').
