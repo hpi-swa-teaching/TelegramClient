@@ -1,0 +1,1 @@
+class with a very abstract of a message
