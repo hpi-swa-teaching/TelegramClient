@@ -1,5 +1,5 @@
 message
-mockTextMessageWith: aCore withDate: aUnixDate
+mockTextMessageWith: aCore withDate: aDateAndTime
 
 	"DateAndTime fromUnixTime:"
-	^ (TCTMMocks mockTextMessageWith: aCore) date: (DateAndTime fromUnixTime: aUnixDate)
+	^ (TCTMMocks mockTextMessageWith: aCore) date: aDateAndTime
