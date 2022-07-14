@@ -5,6 +5,6 @@ testPhotoMessageTypeIdentifiedCorrectly
 
  	chat := TCTMMocks mockPrivateChat.
 	photoMessageEvent := TCTMMocks mockPhotoMessageJsonFrom: chat id.
-	photoMessage := TCCMessage newFromMessageEvent: photoMessageEvent in: chat with: self core.
+	photoMessage := TCCUserMessage newFromMessageEvent: photoMessageEvent in: chat with: self core.
 
 	self assert: TCCPhotoMessage equals: photoMessage class.

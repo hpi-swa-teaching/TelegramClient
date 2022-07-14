@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "RK 6/26/2021 11:40",
+	"commentStamp" : "RK 6/26/2021 11:39",
 	"instvars" : [
 		 ],
-	"name" : "TCUPhotoMessage",
+	"name" : "TCUUserMessage",
 	"pools" : [
 		 ],
-	"super" : "TCUUserMessage",
+	"super" : "TCUMessage",
 	"type" : "normal" }

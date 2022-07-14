@@ -1,1 +1,0 @@
-class with basic building instructions for the different message types

@@ -1,1 +1,0 @@
-super-dataclass for messages of all types

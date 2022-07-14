@@ -13,5 +13,5 @@
 	"name" : "TCCPhotoMessage",
 	"pools" : [
 		 ],
-	"super" : "TCCMessage",
+	"super" : "TCCUserMessage",
 	"type" : "normal" }
