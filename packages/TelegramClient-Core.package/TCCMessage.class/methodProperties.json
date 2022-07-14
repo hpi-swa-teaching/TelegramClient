@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"maxReplySnippetSize" : "rgw 5/12/2022 16:05",
-		"newFromMessageEvent:in:with:" : "rgw 6/2/2022 09:01",
+		"newFromMessageEvent:in:with:" : "aka 7/14/2022 13:49",
 		"newMessageWith:" : "pk 8/5/2021 16:53",
 		"timeStampToDateAndTime:" : "JB 5/16/2021 09:42" },
 	"instance" : {
@@ -17,6 +17,11 @@
 		"date:" : "pk 8/4/2021 11:40",
 		"id" : "js 8/1/2020 18:20",
 		"id:" : "pk 8/4/2021 11:41",
+		"initialize" : "aka 7/14/2022 15:12",
+		"isFirstMessageOfDay" : "aka 7/14/2022 13:25",
+		"isFirstMessageOfDay:" : "aka 7/14/2022 13:25",
+		"isLastMessageOfDay" : "aka 7/14/2022 14:20",
+		"isLastMessageOfDay:" : "aka 7/14/2022 14:20",
 		"isOutgoing" : "js 8/2/2020 22:00",
 		"isOutgoing:" : "pk 8/4/2021 11:42",
 		"isReply" : "rgw 5/12/2022 15:40",

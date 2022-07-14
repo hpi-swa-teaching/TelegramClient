@@ -1,4 +1,4 @@
 defaults
-defaultMargin 
+defaultMargin
 
 	^ 20

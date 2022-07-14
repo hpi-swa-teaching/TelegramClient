@@ -13,7 +13,9 @@
 		"core",
 		"senderType",
 		"userId",
-		"replyToMessageId" ],
+		"replyToMessageId",
+		"isFirstMessageOfDay",
+		"isLastMessageOfDay" ],
 	"name" : "TCCMessage",
 	"pools" : [
 		 ],
