@@ -10,6 +10,6 @@ downloadArchive
 			nextPutAll: response content.
 		intermediatePath := FileDirectory default / 'archive.zip'.].
 	archive := ZipArchive new readFrom: intermediatePath fullName.
-	archive extractAllTo: FileDirectory default.
+	archive extractAllTo: FileDirectory default / self directoryName.
 	archive close.
 	intermediatePath delete.
