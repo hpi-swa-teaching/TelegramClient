@@ -1,4 +1,4 @@
 accessing
 directoryName
 
-	^ 'tdjson' , self tdlibVersion
+	^ 'tdlib' , self tdlibVersion
