@@ -3,6 +3,7 @@ downloadArchive
 
 	| intermediatePath archive response |
 	intermediatePath := FileDirectory default / 'archive.zip'.
+	intermediatePath exists ifTrue: [intermediatePath delete].
 	FileStream fileNamed: intermediatePath fullName do: [:stream |
 		response := WebClient httpGet: self downloadUrl.
 		stream
