@@ -1,4 +1,4 @@
 accessing
-fileName
+libraryFilePath
 
 	^ self subclassResponsibility
