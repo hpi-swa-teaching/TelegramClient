@@ -1,1 +1,1 @@
-class with a very abstract of a message
+abstract class for all types of messages that can be shown in a chat

@@ -1,1 +1,1 @@
-class with basic building instructions for the different message types
+class with basic building instructions for the different message that are created by a user

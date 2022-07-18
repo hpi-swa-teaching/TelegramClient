@@ -1,1 +1,1 @@
-class with a very abstract of a message
+super-dataclass for messages of all types
