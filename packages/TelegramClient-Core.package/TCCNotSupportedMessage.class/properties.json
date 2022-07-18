@@ -10,5 +10,5 @@
 	"name" : "TCCNotSupportedMessage",
 	"pools" : [
 		 ],
-	"super" : "TCCMessage",
+	"super" : "TCCUserMessage",
 	"type" : "normal" }

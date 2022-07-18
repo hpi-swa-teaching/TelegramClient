@@ -1,1 +1,1 @@
-class with basic building instructions for the different message types
+abstract class for all types of messages that can be shown in a chat
