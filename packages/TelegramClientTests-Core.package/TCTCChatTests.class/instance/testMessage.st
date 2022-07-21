@@ -2,7 +2,7 @@ testing
 testMessage
 
 	| message |
-	message := TCCMessage newFromMessageEvent: (TCTMMocks mockMessageJsonFrom: self chat id) in: self chat with: nil.
+	message := TCCUserMessage newFromMessageEvent: (TCTMMocks mockMessageJsonFrom: self chat id) in: self chat with: nil.
 
 	self assert: TCTMMocks mockUser1 id equals: message userId.
 	self assert: TCTMMocks mockMessageId equals: message id.

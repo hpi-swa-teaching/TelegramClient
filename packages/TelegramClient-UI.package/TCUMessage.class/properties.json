@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "RK 6/26/2021 11:39",
+	"commentStamp" : "js 7/18/2022 07:47",
 	"instvars" : [
 		"messageModel" ],
 	"name" : "TCUMessage",
