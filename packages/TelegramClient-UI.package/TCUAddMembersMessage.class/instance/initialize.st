@@ -5,6 +5,7 @@ initialize
 	super initialize.
 	
 	textMorph := (TextMorph new
+		lock;
 		contents: self messageModel asText;
 		color: Color white;
 		left: self class defaultLayoutInset;
