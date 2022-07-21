@@ -13,7 +13,7 @@ updateLastMessage: anEvent
 					detect: [:e | ((e at: 'list') at: '@type') = 'chatListMain'])
 				at: 'order')].
 		
-		lastMessage := (TCCMessage newFromMessageEvent: messageJson in: chat with: self core).
+		lastMessage := (TCCUserMessage newFromMessageEvent: messageJson in: chat with: self core).
 		chat lastMessageText: lastMessage asSnippet.
 		chat lastMessageSenderName: lastMessage senderName.
 		chat lastMessageSenderId: lastMessage userId.
