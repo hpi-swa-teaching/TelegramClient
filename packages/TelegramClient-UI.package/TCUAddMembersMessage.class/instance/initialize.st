@@ -13,7 +13,7 @@ initialize
 	self
 		color: Color gray;
 		addMorph: textMorph;
-		borderWidth: 2;
+		borderWidth: self class defaultBorderWidth;
 		borderColor: Color transparent;
 		useRoundedCorners;
 		width: textMorph width + (2*self class defaultLayoutInset);
