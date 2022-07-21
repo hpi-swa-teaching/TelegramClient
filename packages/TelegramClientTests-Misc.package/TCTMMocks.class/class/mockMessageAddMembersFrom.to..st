@@ -1,5 +1,5 @@
 message - json
-mockMessageAddMembersFrom: aList to: aChatId 
+mockMessageAddMembersFrom: aList to: aChatId
 
 	^ (JsonObject newFrom: {
 			'@type' -> 'message'.

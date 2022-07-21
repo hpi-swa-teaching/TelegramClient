@@ -1,7 +1,7 @@
-as yet unclassified
+accessing
 asText
 
 	| names |
 	
-	names := self members collect: [:aUserId |  (self core userStore getUserFor: aUserId) fullName].
+	names := self members collect: [:aUserId | (self core userStore getUserFor: aUserId) fullName].
 	^ 'Added: ' , (names joinSeparatedBy: ', ')
