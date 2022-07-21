@@ -1,15 +1,23 @@
 messages
 addAtTop: aCoreMessage
 
-	| wrapper messageItem |
+	| messageItem |
 	(self isFromCurrentChat: aCoreMessage) ifFalse: [^ self].
 	
 	messageItem := TCUUserMessage newFrom: aCoreMessage.
 	messageItem when: #requestScroll send: #requestScrollToMessage: to: self with: (aCoreMessage replyToMessageId).
-	wrapper := TCUMessageWrapper newFromMessage: messageItem withWidth: self scroller width.
-	self scroller addMorphFront: wrapper.
-	self items addFirst: wrapper.
+	messageItem isUserMessage 
+		ifTrue: [messageItem := TCUMessageWrapper newFromMessage: messageItem withWidth: self scroller width.]
+		ifFalse: [messageItem := RectangleMorph new
+				color: Color transparent;
+				borderWidth: 0;
+				width: self scroller width;
+				height: messageItem height;
+				addMorphCentered: messageItem;
+				yourself].
+	self scroller addMorphFront: messageItem.
+	self items addFirst: messageItem.
 	
 	self isFullyScrolledDown
 		ifTrue: [self scrollToNewestMessage].
-	self scrollBy: 0 @ (wrapper height negated).
+	self scrollBy: 0 @ (messageItem height negated).

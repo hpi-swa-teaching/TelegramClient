@@ -1,0 +1,4 @@
+accessing
+isUserMessage
+
+	^ false
