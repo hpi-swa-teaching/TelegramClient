@@ -1,7 +1,6 @@
 drawing
 scrollToMessage: aMessageId
 
-	| messageItem messageIndex |
-	messageIndex := self chat messageIds reversed indexOf: aMessageId.
-	messageItem := self items at: messageIndex.
+	| messageItem |
+	messageItem := self items detect: [:item | ((item isKindOf: TCUMessageWrapper)) and: [item messageId = aMessageId]].
 	self scrollToShow: messageItem

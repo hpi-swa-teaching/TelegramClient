@@ -1,0 +1,1 @@
+class for automatic generated info messages.

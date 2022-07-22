@@ -1,8 +1,13 @@
 messages
 addAtTop: aCoreMessage
 
-	| messageItem |
+	| messageItem lastMessage |
 	(self isFromCurrentChat: aCoreMessage) ifFalse: [^ self].
+	
+	(aCoreMessage isLastMessageOfDay and: self items isEmpty not) ifTrue: [
+		lastMessage := self items first message messageModel.
+		self addTopDayDividerForDate: lastMessage date asDate
+	].
 	
 	messageItem := self createMessageItemFrom: aCoreMessage.
 	self scroller addMorphFront: messageItem.
