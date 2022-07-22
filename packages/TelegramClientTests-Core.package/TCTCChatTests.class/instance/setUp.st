@@ -17,5 +17,4 @@ setUp
 			userId: aNumber * 3;
 			id: aNumber * 4;
 			date: (DateAndTime fromUnixTime: aNumber * 60)).
-		self chat messageIds add: message id.
-		self chat messageDictionary at: message id put: message]
+		self chat addNewestMessage: message.]

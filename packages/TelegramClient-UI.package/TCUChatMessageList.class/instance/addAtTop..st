@@ -1,8 +1,13 @@
 messages
 addAtTop: aCoreMessage
 
-	| wrapper messageItem |
+	| wrapper messageItem lastMessage |
 	(self isFromCurrentChat: aCoreMessage) ifFalse: [^ self].
+	
+	(aCoreMessage isLastMessageOfDay and: self items isEmpty not) ifTrue: [
+		lastMessage := self items first message messageModel.
+		self addTopDayDividerForDate: (lastMessage date asDate)
+	].
 	
 	messageItem := TCUUserMessage newFrom: aCoreMessage.
 	messageItem when: #requestScroll send: #requestScrollToMessage: to: self with: (aCoreMessage replyToMessageId).
