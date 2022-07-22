@@ -1,8 +1,9 @@
 {
 	"class" : {
-		"defaultMargin" : "aka 7/14/2022 15:15",
+		"defaultBorderWidth" : "rgw 7/22/2022 15:44",
+		"defaultLayoutInset" : "rgw 7/22/2022 15:45",
 		"newFromDate:" : "aka 7/14/2022 15:14" },
 	"instance" : {
 		"content" : "aka 7/10/2022 12:37",
 		"content:" : "aka 7/10/2022 12:37",
-		"initialize" : "aka 7/14/2022 15:16" } }
+		"initialize" : "rgw 7/22/2022 15:46" } }
