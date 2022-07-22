@@ -2,7 +2,7 @@ stepping and presenter
 createDayDividerForDate: aDate
 
 	| messageItem |
-	messageItem := TCUInfoMessage newFromDate: aDate.
+	messageItem := TCUDayDividerMessage newFromDate: aDate.
 	^ RectangleMorph new
 		color: Color transparent;
 		width: self scroller width;
