@@ -3,6 +3,7 @@ downloadArchive
 
 	| intermediatePath archive response |
 	intermediatePath := FileDirectory default / 'archive.zip'.
+	intermediatePath exists ifTrue: [intermediatePath delete].
 	FileStream fileNamed: intermediatePath fullName do: [:stream |
 		response := WebClient httpGet: self downloadUrl.
 		stream
@@ -10,6 +11,6 @@ downloadArchive
 			nextPutAll: response content.
 		intermediatePath := FileDirectory default / 'archive.zip'.].
 	archive := ZipArchive new readFrom: intermediatePath fullName.
-	archive extractAllTo: FileDirectory default.
+	archive extractAllTo: FileDirectory default / self directoryName.
 	archive close.
 	intermediatePath delete.

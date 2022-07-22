@@ -4,18 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "RK 6/26/2021 11:36",
+	"commentStamp" : "js 7/18/2022 07:50",
 	"instvars" : [
 		"chat",
 		"id",
-		"isOutgoing",
 		"date",
-		"core",
-		"senderType",
-		"userId",
-		"replyToMessageId",
-		"isFirstMessageOfDay",
-		"isLastMessageOfDay" ],
+		"core" ],
 	"name" : "TCCMessage",
 	"pools" : [
 		 ],

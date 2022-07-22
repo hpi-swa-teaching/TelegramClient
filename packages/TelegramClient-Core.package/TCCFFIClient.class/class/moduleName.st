@@ -3,7 +3,7 @@ moduleName
 
 	| filePath |
 
-	filePath := FileDirectory default / self fileName.
+	filePath := self libraryFilePath.
 
 	filePath exists ifFalse: [
 		FileStream fileNamed: filePath fullName do: [:stream | 

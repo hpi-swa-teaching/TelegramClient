@@ -6,4 +6,6 @@
 		"testChatHasPhoto" : "js 6/30/2022 16:01",
 		"testChatIsNotPinned" : "js 6/30/2022 16:10",
 		"testChatIsPinned" : "js 6/30/2022 16:10",
+		"testChatLastSenderNameIsLoggedInUser" : "LR 7/16/2022 12:31",
+		"testChatLastSenderNameIsNotLoggedInUser" : "LR 7/16/2022 12:36",
 		"testChatWithoutPhotoHasDefaultPhoto" : "js 6/30/2022 16:10" } }

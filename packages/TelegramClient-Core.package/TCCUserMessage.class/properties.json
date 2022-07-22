@@ -1,0 +1,17 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "js 7/18/2022 07:50",
+	"instvars" : [
+		"isOutgoing",
+		"senderType",
+		"userId",
+		"replyToMessageId" ],
+	"name" : "TCCUserMessage",
+	"pools" : [
+		 ],
+	"super" : "TCCMessage",
+	"type" : "normal" }

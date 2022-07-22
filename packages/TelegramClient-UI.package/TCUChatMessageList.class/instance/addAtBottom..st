@@ -9,7 +9,7 @@ addAtBottom: aCoreMessage
 	(aCoreMessage isFirstMessageOfDay) ifTrue: [self addBottomDayDividerForDate: aCoreMessage date asDate].
 	
 	wasFullyScrolledDown := self isFullyScrolledDown.
-	messageItem := TCUMessage newFrom: aCoreMessage.
+	messageItem := TCUUserMessage newFrom: aCoreMessage.
 	messageItem when: #requestScroll send: #requestScrollToMessage: to: self with: (aCoreMessage replyToMessageId).
 	wrapper := TCUMessageWrapper newFromMessage: messageItem withWidth: self scroller width.
 	self scroller addMorphBack: wrapper.

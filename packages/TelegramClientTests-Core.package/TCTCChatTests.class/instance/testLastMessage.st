@@ -1,5 +1,5 @@
 testing
 testLastMessage
 
-	self chat lastMessageSnippet: 'test'.
-	self assert: 'test' equals: self chat lastMessageSnippet.
+	self chat lastMessageText: 'test'.
+	self assert: 'test' equals: self chat lastMessageText.
