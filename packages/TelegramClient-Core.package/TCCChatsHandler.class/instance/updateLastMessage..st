@@ -1,8 +1,8 @@
 event handling
 updateLastMessage: anEvent
 
-	| chat messageJson |
-
+	| chat messageJson lastMessage |
+	
 	(anEvent includesKey: 'last_message') ifTrue: [
 		messageJson := anEvent at: 'last_message'.
 		chat := self chats getChat: (anEvent at: 'chat_id').
@@ -13,6 +13,8 @@ updateLastMessage: anEvent
 					detect: [:e | ((e at: 'list') at: '@type') = 'chatListMain'])
 				at: 'order')].
 		
-		chat lastMessage: (TCCUserMessage newFromMessageEvent: messageJson in: chat with: self core) asSnippet.
-
+		lastMessage := (TCCUserMessage newFromMessageEvent: messageJson in: chat with: self core).
+		chat lastMessageText: lastMessage asSnippet.
+		chat lastMessageSenderName: lastMessage senderName.
+		chat lastMessageSenderId: lastMessage userId.
 		self chats notify].
