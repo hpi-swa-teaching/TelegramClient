@@ -1,19 +1,21 @@
 initialization
 initialize
-
+	
 	| textMorph |
 	super initialize.
-
-	textMorph := TextMorph new
-		contents: self content;
+	
+	textMorph := (TextMorph new
+		lock;
+		contents: self messageModel asText;
+		color: Color white;
 		left: self class defaultLayoutInset;
 		top: self class defaultLayoutInset;
-		color: Color white;
-		lock.
-	self color: Color gray;
+		yourself).
+	self
+		color: Color gray;
 		addMorph: textMorph;
-		useRoundedCorners;
 		borderWidth: self class defaultBorderWidth;
 		borderColor: Color transparent;
+		useRoundedCorners;
 		width: textMorph width + (2*self class defaultLayoutInset);
 		height: textMorph height + (2*self class defaultLayoutInset).

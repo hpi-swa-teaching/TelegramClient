@@ -1,4 +1,4 @@
 accessing
 asText
 
-	self subclassResponsibility.
+	^ self subclassResponsibility

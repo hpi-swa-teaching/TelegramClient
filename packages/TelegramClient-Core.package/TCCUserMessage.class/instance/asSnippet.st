@@ -1,4 +1,4 @@
 accessing
 asSnippet
 
-	self subclassResponsibility.
+	^ self subclassResponsibility
