@@ -1,4 +1,0 @@
-accessing
-lastMessage
-
-	^ lastMessage

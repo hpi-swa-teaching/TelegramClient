@@ -5,6 +5,8 @@ mockUnloadedSuperGroupChat
 		id: 3;
 		photoId: self mockImageId;
 		title: 'SupergroupMockChat';
-		lastMessage: 'lastSupergroupMessage';
+		lastMessageText: 'lastSupergroupMessage';
+		lastMessageSenderId: 1673511834;
+		lastMessageSenderName: 'Test User';
 		canSendMessages: true;
 		yourself

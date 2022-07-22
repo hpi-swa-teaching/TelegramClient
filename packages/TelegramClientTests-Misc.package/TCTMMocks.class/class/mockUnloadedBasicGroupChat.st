@@ -5,6 +5,8 @@ mockUnloadedBasicGroupChat
 		id: -2;
 		groupId: 2;
 		title: 'GroupMockChat';
-		lastMessage: 'lastBasicGroupMessage';
+		lastMessageText: 'lastBasicGroupMessage';
+		lastMessageSenderId: 1673511834;
+		lastMessageSenderName: 'Test User';
 		canSendMessages: true;
 		yourself
