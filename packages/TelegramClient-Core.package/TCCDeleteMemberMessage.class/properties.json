@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LR 7/23/2022 10:54",
+	"instvars" : [
+		"member" ],
+	"name" : "TCCDeleteMemberMessage",
+	"pools" : [
+		 ],
+	"super" : "TCCUserMessage",
+	"type" : "normal" }
