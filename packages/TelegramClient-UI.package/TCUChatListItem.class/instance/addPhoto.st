@@ -2,7 +2,6 @@ drawing
 addPhoto
 
 	| promise morph |
-	TCUTelegram devMode ifTrue: [^ self].
 	self chat hasPhoto ifTrue: [
 		promise := self chat core imageStore getFormPromiseFor: self chat photoId.
 		promise >>= [:aForm |
