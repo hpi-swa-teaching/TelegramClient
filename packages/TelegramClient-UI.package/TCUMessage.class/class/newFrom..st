@@ -5,6 +5,7 @@ newFrom: aCoreMessage
 			[TCCTextMessage] -> [TCUTextMessage].
 			[TCCPhotoMessage] -> [TCUPhotoMessage].
 			[TCCAddMembersMessage] -> [TCUInfoMessage].
+			[TCCDeleteMemberMessage] -> [TCUInfoMessage].
 		} otherwise: [TCUTextMessage])
 		basicNew
 		messageModel: aCoreMessage;

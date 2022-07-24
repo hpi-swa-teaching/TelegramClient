@@ -7,6 +7,8 @@
 		"setUp" : "rgw 6/6/2022 18:42",
 		"testAddMembersMessage" : "rgw 7/21/2022 16:02",
 		"testAddMembersMessageIsNotUserMessage" : "rgw 7/21/2022 16:01",
+		"testDeleteMemberMessage" : "LR 7/23/2022 11:01",
+		"testDeleteMemberMessageIsNotUserMessage" : "LR 7/23/2022 11:02",
 		"testMessageBetweenRequestsAnsweredMessage" : "LR 5/29/2022 17:34",
 		"testMessageColorsDifferentForIncomingOutgoing" : "tom.richter 6/26/2021 17:23",
 		"testMessageContainsDate" : "tom.richter 6/26/2021 17:23",

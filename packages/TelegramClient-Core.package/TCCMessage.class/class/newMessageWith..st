@@ -5,4 +5,5 @@ newMessageWith: aJsonObject
 		['messageText'] -> [TCCTextMessage newFrom: aJsonObject].
 		['messagePhoto'] -> [TCCPhotoMessage newFrom: aJsonObject].
 		['messageChatAddMembers'] -> [TCCAddMembersMessage newFrom: aJsonObject].
+		['messageChatDeleteMember'] -> [TCCDeleteMemberMessage newFrom: aJsonObject].
 	} otherwise: [TCCNotSupportedMessage new]
