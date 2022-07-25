@@ -1,4 +1,4 @@
 stepping and presenter
 stepTime
 
-	^ 50
+	^ 500
