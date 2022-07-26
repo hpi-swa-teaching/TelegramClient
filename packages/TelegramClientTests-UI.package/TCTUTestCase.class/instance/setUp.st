@@ -7,3 +7,4 @@ setUp
 	self core client onRequestType: 'downloadFile' respond: TCTMMocks mockImageResponseJson.
 	TCUEmojiHelper ensureEmojisArePresent.
 	self wantsToTest: (TCUMainWindow newWithCore: self core).
+	(self subject findByClass: TCUChatsList) step
