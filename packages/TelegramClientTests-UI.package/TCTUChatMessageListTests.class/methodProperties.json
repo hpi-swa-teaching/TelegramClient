@@ -11,4 +11,5 @@
 		"testDisplayedChatLoadsOldMessage" : "per 6/28/2021 16:23",
 		"testDisplayedChatReceivesNewMessage" : "per 6/28/2021 16:23",
 		"testDoNotShowDateDivider" : "js 7/31/2022 19:11",
-		"testScrollToReferencedMessage" : "aka 6/15/2022 12:28" } }
+		"testItemsHaveMessageId" : "js 7/31/2022 20:15",
+		"testScrollToReferencedMessage" : "js 7/31/2022 19:54" } }
