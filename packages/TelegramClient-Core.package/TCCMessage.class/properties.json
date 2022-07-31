@@ -11,7 +11,11 @@
 		"date",
 		"core",
 		"isFirstMessageOfDay",
-		"isLastMessageOfDay" ],
+		"isLastMessageOfDay",
+		"isOutgoing",
+		"senderType",
+		"userId",
+		"replyToMessageId" ],
 	"name" : "TCCMessage",
 	"pools" : [
 		 ],

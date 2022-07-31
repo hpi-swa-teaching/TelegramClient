@@ -1,1 +1,1 @@
-super-dataclass for messages of all types
+super-dataclass for messages that can be created by users
