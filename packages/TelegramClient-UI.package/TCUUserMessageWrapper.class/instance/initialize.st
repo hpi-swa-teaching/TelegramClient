@@ -7,6 +7,7 @@ initialize
 		color: Color transparent;
 		layoutPolicy: TableLayout new;
 		cellPositioning: #bottomCenter;
+		borderWidth: 0;
 		yourself.
 		
 	self message isOutgoing

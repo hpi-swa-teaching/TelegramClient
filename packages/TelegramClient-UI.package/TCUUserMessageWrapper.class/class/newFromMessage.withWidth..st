@@ -6,5 +6,4 @@ newFromMessage: aMessage withWidth: aNumber
 		initialize;
 		width: aNumber;
 		height: aMessage height;
-		addMorphCentered: aMessage;
 		yourself

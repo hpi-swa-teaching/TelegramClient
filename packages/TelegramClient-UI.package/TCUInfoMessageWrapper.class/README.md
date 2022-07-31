@@ -1,0 +1,1 @@
+wraps TCUInfoMessage to align it in the center of chatMessageList

@@ -1,11 +1,8 @@
 {
 	"class" : {
-		"defaultMessageMargin" : "rgw 7/21/2022 14:41",
-		"defaultPhotoSize" : "JS 6/11/2022 11:32",
-		"newFromMessage:withWidth:" : "JS 6/11/2022 11:53" },
+		"defaultMessageMargin" : "js 7/31/2022 09:58",
+		"newFromMessage:withWidth:" : "js 7/31/2022 10:44" },
 	"instance" : {
-		"addProfilePhoto" : "rgw 7/24/2022 14:48",
-		"initialize" : "JS 6/11/2022 11:40",
-		"message" : "JS 6/11/2022 11:12",
-		"message:" : "JS 6/11/2022 11:13",
-		"messageId" : "aka 7/22/2022 09:30" } }
+		"message" : "js 7/31/2022 09:56",
+		"message:" : "js 7/31/2022 09:57",
+		"messageId" : "js 7/31/2022 10:41" } }
