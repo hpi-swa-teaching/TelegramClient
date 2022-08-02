@@ -1,7 +1,13 @@
 {
 	"class" : {
-		"newMessageWith:" : "LR 7/23/2022 10:44" },
+		"maxReplySnippetSize" : "LR 8/2/2022 13:59",
+		"newFromMessageEvent:in:with:" : "LR 8/2/2022 13:59",
+		"newMessageWith:" : "LR 7/23/2022 10:44",
+		"timeStampToDateAndTime:" : "LR 8/2/2022 13:59" },
 	"instance" : {
+		"asReplySnippet" : "LR 8/2/2022 13:56",
+		"asSnippet" : "LR 8/2/2022 13:56",
+		"asText" : "LR 8/2/2022 13:56",
 		"chat" : "aka 7/14/2022 16:41",
 		"chat:" : "aka 7/14/2022 16:41",
 		"chatId" : "aka 7/14/2022 16:41",
@@ -15,4 +21,17 @@
 		"isFirstMessageOfDay" : "7/22/2022 10:40:18",
 		"isFirstMessageOfDay:" : "7/22/2022 10:40:18",
 		"isLastMessageOfDay" : "7/22/2022 10:40:18",
-		"isLastMessageOfDay:" : "7/22/2022 10:40:18" } }
+		"isLastMessageOfDay:" : "7/22/2022 10:40:18",
+		"isOutgoing" : "LR 8/2/2022 13:57",
+		"isOutgoing:" : "LR 8/2/2022 13:57",
+		"isReply" : "LR 8/2/2022 13:57",
+		"replyText" : "LR 8/2/2022 13:57",
+		"replyToMessageId" : "LR 8/2/2022 13:57",
+		"replyToMessageId:" : "LR 8/2/2022 13:57",
+		"senderName" : "LR 8/2/2022 13:57",
+		"senderType" : "LR 8/2/2022 13:58",
+		"senderType:" : "LR 8/2/2022 13:58",
+		"senderUser" : "LR 8/2/2022 13:58",
+		"shouldNotify" : "LR 8/2/2022 13:58",
+		"userId" : "LR 8/2/2022 13:58",
+		"userId:" : "LR 8/2/2022 13:58" } }

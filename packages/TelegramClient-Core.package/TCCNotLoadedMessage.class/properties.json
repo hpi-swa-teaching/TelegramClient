@@ -10,5 +10,5 @@
 	"name" : "TCCNotLoadedMessage",
 	"pools" : [
 		 ],
-	"super" : "TCCUserMessage",
+	"super" : "TCCMessage",
 	"type" : "normal" }

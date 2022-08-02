@@ -5,7 +5,7 @@ testMessageCorrectlyConstructedFromJson
 
  	chat := TCTMMocks mockPrivateChat.
 	messageEvent := TCTMMocks mockMessageJsonFrom: chat id.
-	message := TCCUserMessage newFromMessageEvent: messageEvent in: chat with: self core.
+	message := TCCMessage newFromMessageEvent: messageEvent in: chat with: self core.
 
 	self assert: TCTMMocks mockMessageId equals: message id.
 	self assert: TCTMMocks mockMessageDate equals: message date.

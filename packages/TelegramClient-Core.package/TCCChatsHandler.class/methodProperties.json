@@ -3,8 +3,8 @@
 		 },
 	"instance" : {
 		"addChat:" : "js 6/18/2022 09:27",
-		"addNewMessage:" : "aka 7/14/2022 16:38",
-		"answeredMessageReceived:" : "aka 7/14/2022 16:38",
+		"addNewMessage:" : "LR 8/2/2022 14:00",
+		"answeredMessageReceived:" : "LR 8/2/2022 14:01",
 		"chatHistoryReceived:" : "pk 8/5/2021 16:37",
 		"chats" : "RS 8/1/2021 12:50",
 		"chats:" : "RS 8/1/2021 12:51",
@@ -16,4 +16,4 @@
 		"openNewChat:" : "pk 8/5/2021 16:38",
 		"searchChat:" : "pk 8/5/2021 16:38",
 		"updateChatPosition:" : "js 6/18/2022 11:04",
-		"updateLastMessage:" : "aka 7/14/2022 16:38" } }
+		"updateLastMessage:" : "LR 8/2/2022 14:01" } }
