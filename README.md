@@ -71,6 +71,14 @@ TelegramClient is a **Squeak-Client** for the widely used Telegram-Messenger. It
       <td>ℹ</td>
       <td>Show group description and members</td>
     </tr>
+    <tr>
+      <td>↩</td>
+      <td>Reference an old message</td>
+    </tr>
+    <tr>
+      <td>🖼</td>
+      <td>Show profile pictures</td>
+    </tr>
   </tbody>
 </table>
 
