@@ -2,6 +2,7 @@ adding
 addNewestMessage: aMessage
 
 	| newDate oldDate |
+	self messageIds ifEmpty: [^ self loadChatHistory].
 	newDate := aMessage date asDate.
 	oldDate := self lastMessageDate asDate.
 	(newDate > oldDate) ifTrue: [
