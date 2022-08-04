@@ -1,0 +1,1 @@
+wraps TCUDayDividerMessage to align it in the center of chatMessageList

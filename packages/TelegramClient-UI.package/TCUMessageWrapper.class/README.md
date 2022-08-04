@@ -1,1 +1,1 @@
-wraps TCUMessage to add profile photo in group chats and align the message depending on senderType
+abstract class to wrap a message to use it in chatMessageList 

@@ -6,7 +6,7 @@ testDoNotShowDateDivider
 	newDate := 1376462360. "14.8.13"
 	oldMessage := TCTMMocks mockTextMessageWith: self core withUnixDate: oldDate.
 	newMessage := TCTMMocks mockTextMessageWith: self core withUnixDate: newDate.
-	self core chatsHandler chats first addNewestMessage: oldMessage.
-	self core chatsHandler chats first addNewestMessage: newMessage.
+	self subject chat addNewestMessage: oldMessage.
+	self subject chat addNewestMessage: newMessage.
 	
 	self assertNotReading: '8/15/2013' in: self subject.

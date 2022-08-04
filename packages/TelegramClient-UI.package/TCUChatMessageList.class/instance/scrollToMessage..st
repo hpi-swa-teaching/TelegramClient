@@ -2,5 +2,5 @@ drawing
 scrollToMessage: aMessageId
 
 	| messageItem |
-	messageItem := self items detect: [:item | ((item isKindOf: TCUMessageWrapper)) and: [item messageId = aMessageId]].
+	messageItem := self items detect: [:item | item messageId = aMessageId].
 	self scrollToShow: messageItem

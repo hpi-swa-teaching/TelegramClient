@@ -1,4 +1,4 @@
 accessing
 chat: aChat
 
-	chat := aChat.
+	chat := aChat

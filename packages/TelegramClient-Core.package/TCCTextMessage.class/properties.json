@@ -10,5 +10,5 @@
 	"name" : "TCCTextMessage",
 	"pools" : [
 		 ],
-	"super" : "TCCUserMessage",
+	"super" : "TCCMessage",
 	"type" : "normal" }

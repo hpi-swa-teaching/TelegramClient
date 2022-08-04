@@ -1,4 +1,4 @@
 accessing
-isFirstMessageOfDay: aBool
+isFirstMessageOfDay: aBoolean
 
-	isFirstMessageOfDay := aBool
+	isFirstMessageOfDay := aBoolean

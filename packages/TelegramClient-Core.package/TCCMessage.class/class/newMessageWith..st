@@ -1,4 +1,4 @@
-instance creation
+json conversion
 newMessageWith: aJsonObject
 
 	^ (aJsonObject at: '@type') caseOf: {

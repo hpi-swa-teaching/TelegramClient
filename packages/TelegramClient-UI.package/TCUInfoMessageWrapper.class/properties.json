@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "js 7/31/2022 10:36",
+	"instvars" : [
+		 ],
+	"name" : "TCUInfoMessageWrapper",
+	"pools" : [
+		 ],
+	"super" : "TCUMessageWrapper",
+	"type" : "normal" }

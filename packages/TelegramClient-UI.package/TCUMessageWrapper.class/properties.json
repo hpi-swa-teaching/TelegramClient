@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JS 6/11/2022 11:50",
+	"commentStamp" : "js 7/31/2022 10:35",
 	"instvars" : [
 		"message" ],
 	"name" : "TCUMessageWrapper",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "RectangleMorph",
 	"type" : "normal" }
