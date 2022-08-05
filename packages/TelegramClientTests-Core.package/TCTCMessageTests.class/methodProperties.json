@@ -8,7 +8,7 @@
 		"testMessageHasTextRepresentation" : "tom.richter 6/26/2021 21:06",
 		"testMessageIsReply" : "rgw 5/12/2022 16:40",
 		"testMessageReplySnippetTruncates" : "js 7/31/2022 10:29",
-		"testMessageReplyText" : "LR 6/5/2022 11:14",
+		"testMessageReplyText" : "rgw 8/5/2022 09:44",
 		"testMessageShouldNotNotify" : "RS 7/17/2021 10:53",
 		"testMessageShouldNotify" : "RS 7/17/2021 10:53",
 		"testMessageWithMessageSenderChatCorrectlyConstructedFromJson" : "js 7/31/2022 10:29",

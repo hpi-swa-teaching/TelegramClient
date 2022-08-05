@@ -1,4 +1,8 @@
 accessing
 messages
 
-	^ self messageIds collect: [:aNumber | self messageDictionary at: aNumber]
+	^ self messageIds collect: [:aNumber |
+		(self messageDictionary at: aNumber)
+			wait;
+			value
+		]
