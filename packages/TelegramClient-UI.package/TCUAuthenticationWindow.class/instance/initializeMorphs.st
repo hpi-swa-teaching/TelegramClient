@@ -2,8 +2,10 @@ initialization
 initializeMorphs
 
 	self
-		createInputField: '+49';
+		createInputField;
 		createButtonNext;
 		createErrorLabel: '';
-		createButtonBack;
-		createButtonVerify.
+		createButtonCancel;
+		createButtonVerifyAuthCode;
+		createButtonVerifyAuthPassword;
+		createPasswordField.

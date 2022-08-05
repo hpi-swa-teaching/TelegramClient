@@ -1,9 +1,10 @@
 {
 	"class" : {
 		"downloadUrl" : "r.s 7/13/2020 17:05",
-		"fileName" : "r.s 7/13/2020 17:05",
-		"moduleName" : "pk 8/5/2021 21:31",
-		"newForCurrentOs" : "pk 8/5/2021 17:09" },
+		"libraryFilePath" : "rgw 7/16/2022 17:57",
+		"moduleName" : "rgw 7/16/2022 17:58",
+		"newForCurrentOs" : "pk 8/5/2021 17:09",
+		"tdlibVersion" : "rgw 7/16/2022 17:36" },
 	"instance" : {
 		"create" : "js 6/13/2020 12:53",
 		"free:" : "js 6/13/2020 18:33",

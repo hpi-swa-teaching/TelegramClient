@@ -1,0 +1,4 @@
+constants
+maxReplySnippetSize
+	
+	^ 25

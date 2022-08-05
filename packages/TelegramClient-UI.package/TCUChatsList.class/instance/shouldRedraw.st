@@ -1,0 +1,4 @@
+accessing
+shouldRedraw
+
+	^ shouldRedraw

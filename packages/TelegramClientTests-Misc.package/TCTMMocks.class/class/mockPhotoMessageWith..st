@@ -2,7 +2,7 @@ message
 mockPhotoMessageWith: aCore
 
 	^ TCCPhotoMessage new
-		chat: self mockPrivateChat;
+		chat: (self mockPrivateChat core: aCore);
 		core: aCore;
 		userId: self mockUser1 id;
 		isOutgoing: false;
@@ -12,4 +12,5 @@ mockPhotoMessageWith: aCore
 		caption: self mockText;
 		width: self mockPhotoWidth;
 		height: self mockPhotoHeight;
-		fileId: self mockImageId
+		fileId: self mockImageId;
+		replyToMessageId: 0

@@ -1,0 +1,1 @@
+Represents a message where members are added to a group.

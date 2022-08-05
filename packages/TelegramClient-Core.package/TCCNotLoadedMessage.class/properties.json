@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TCCNotLoadedMessage",
+	"pools" : [
+		 ],
+	"super" : "TCCMessage",
+	"type" : "normal" }

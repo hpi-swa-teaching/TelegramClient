@@ -1,0 +1,1 @@
+UI message element showing information such as 'added XYZ'

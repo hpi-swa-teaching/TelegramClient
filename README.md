@@ -71,6 +71,14 @@ TelegramClient is a **Squeak-Client** for the widely used Telegram-Messenger. It
       <td>ℹ</td>
       <td>Show group description and members</td>
     </tr>
+    <tr>
+      <td>↩</td>
+      <td>Reference an old message</td>
+    </tr>
+    <tr>
+      <td>🖼</td>
+      <td>Show profile pictures</td>
+    </tr>
   </tbody>
 </table>
 
@@ -114,6 +122,8 @@ The [wiki](https://github.com/hpi-swa-teaching/TelegramClient/wiki) has a lot of
 Pre-Releases are created automatically whenever a commit is added to the develop-branch. Releases should created before each client meeting and can simply be done by merging develop into master.
 
 ## Our Group
+
+Group 11 of the 2022 SWT I module included [Richard Wohlbold](https://github.com/rgwohlbold), [Til Bergmann](https://github.com/Till-B), [Antony Kamp](https://github.com/antonykamp), [Lucas Reisener](https://github.com/LucasDerReisende), [Erik Kohlros](https://github.com/kohlros), and [Jacob Schäfer](https://github.com/jacob271).
 
 Group 2 of the 2021 SWT I module included [Romeo Sommerfeld](https://github.com/rsommerfeld), [Raphael Kunert](https://github.com/Storyxx), [Jannis Berndt](https://github.com/jb3rndt), [Philipp Keese](https://github.com/phkeese), [Tom Richter](https://github.com/tom-richter), and [Paul Ermler](https://github.com/permler).
 

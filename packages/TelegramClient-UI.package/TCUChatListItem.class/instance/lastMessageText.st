@@ -2,5 +2,5 @@ accessing
 lastMessageText
 
 		^ TCUEmojiHelper embedEmojisInto:
-				(self chat lastMessage condensedIntoOneLine
+				(self chat lastMessageText condensedIntoOneLine
 					truncateWithElipsisTo: self class defaultMessagePreviewLength)

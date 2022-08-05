@@ -1,0 +1,4 @@
+accessing
+libraryFilePath
+
+	^ self subclassResponsibility

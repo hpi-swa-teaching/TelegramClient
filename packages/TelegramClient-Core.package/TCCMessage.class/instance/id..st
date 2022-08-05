@@ -1,4 +1,4 @@
 accessing
 id: aNumber
 
-	id := aNumber.
+	id := aNumber

@@ -6,6 +6,7 @@
 		"defaultTestResultPath" : "RS 5/23/2021 17:12" },
 	"instance" : {
 		"assertNotReading:in:" : "RS 5/31/2021 07:54",
+		"assertNotReading:inMorph:" : "JS 5/22/2022 19:17",
 		"assertReading:in:" : "TR 6/9/2021 14:55",
 		"assertReading:inMorph:" : "JB 6/26/2021 10:02",
 		"computeHashOf:" : "RS 5/23/2021 16:19",
@@ -16,7 +17,7 @@
 		"forceSaveScreenshotOf:as:in:" : "RS 5/26/2021 13:29",
 		"openAnyChat" : "JB 7/18/2021 12:22",
 		"openChatWithId:" : "JB 7/18/2021 12:57",
-		"setUp" : "RS 8/1/2021 12:53",
+		"setUp" : "ek 8/5/2022 15:47",
 		"takeScreenshotOf:" : "JB 5/24/2021 16:21",
 		"tearDown" : "RS 6/25/2021 12:38",
 		"waitUntil:" : "RS 6/6/2021 13:00" } }

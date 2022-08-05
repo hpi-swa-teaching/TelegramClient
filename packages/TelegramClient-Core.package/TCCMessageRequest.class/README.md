@@ -1,0 +1,1 @@
+Class with the id of a requested message. If request is completed, execute the completionMessage on the completionReceiver.

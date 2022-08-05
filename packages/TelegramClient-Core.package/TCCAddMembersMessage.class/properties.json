@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ek 8/4/2022 10:39",
+	"instvars" : [
+		"members" ],
+	"name" : "TCCAddMembersMessage",
+	"pools" : [
+		 ],
+	"super" : "TCCMessage",
+	"type" : "normal" }

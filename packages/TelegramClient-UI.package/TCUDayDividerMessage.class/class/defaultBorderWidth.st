@@ -1,0 +1,4 @@
+defaults
+defaultBorderWidth
+
+	^ 2

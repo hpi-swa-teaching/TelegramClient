@@ -1,13 +1,18 @@
 messages
 addAtTop: aCoreMessage
 
-	| wrapper |
+	| messageItem lastMessage |
 	(self isFromCurrentChat: aCoreMessage) ifFalse: [^ self].
 	
-	wrapper := self wrapperFor: (TCUMessage newFrom: aCoreMessage).
-	self scroller addMorphFront: wrapper.
-	self items addFirst: wrapper.
+	(aCoreMessage isLastMessageOfDay and: self items isEmpty not) ifTrue: [
+		lastMessage := self items first message messageModel.
+		self addTopDayDividerForDate: lastMessage date asDate
+	].
+	
+	messageItem := self createMessageItemFrom: aCoreMessage.
+	self scroller addMorphFront: messageItem.
+	self items addFirst: messageItem.
 	
 	self isFullyScrolledDown
 		ifTrue: [self scrollToNewestMessage].
-	self scrollBy: 0 @ (wrapper height negated).
+	self scrollBy: 0 @ (messageItem height negated).

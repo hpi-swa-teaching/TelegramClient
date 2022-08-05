@@ -1,13 +1,16 @@
 messages
 addAtBottom: aCoreMessage
 
-	| wrapper wasFullyScrolledDown |
-	
+	| wasFullyScrolledDown messageItem |
+
 	(self isFromCurrentChat: aCoreMessage)
 		ifFalse: [ ^ self ].
+	
+	(aCoreMessage isFirstMessageOfDay) ifTrue: [self addBottomDayDividerForDate: aCoreMessage date asDate].
+	
 	wasFullyScrolledDown := self isFullyScrolledDown.
-	wrapper := self wrapperFor: (TCUMessage newFrom: aCoreMessage).
-	self scroller addMorphBack: wrapper.
-	self items addLast: wrapper.
+	messageItem := self createMessageItemFrom: aCoreMessage.
+	self scroller addMorphBack: messageItem.
+	self items addLast: messageItem.
 	wasFullyScrolledDown
-		ifTrue: [ self scrollToNewestMessage ]
+		ifTrue: [ self scrollToNewestMessage ].

@@ -1,4 +1,4 @@
 default values
 defaultInputfieldHeight
 
-	^ 70
+	^ 120

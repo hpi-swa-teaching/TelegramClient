@@ -1,0 +1,4 @@
+event handling
+answeredMessageReceived
+
+	self updateReplySnippet

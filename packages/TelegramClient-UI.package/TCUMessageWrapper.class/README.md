@@ -1,0 +1,1 @@
+abstract class to wrap a message to use it in chatMessageList 

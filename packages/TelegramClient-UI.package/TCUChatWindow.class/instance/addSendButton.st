@@ -1,8 +1,9 @@
 drawing
 addSendButton
 
-	self inputBar addMorph: (TCUButton new
+	self sendButton: (TCUButton new
 		text: 'Send';
-		on: #mouseDown send: #buttonSendPressed to: self;
+		on: #mouseUp send: #buttonSendPressed to: self;
 		name: 'sendMessage';
 		yourself).
+	self inputBar addMorph: self sendButton.
