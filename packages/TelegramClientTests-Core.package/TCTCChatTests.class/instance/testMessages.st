@@ -9,10 +9,10 @@ testMessages
 	messages := OrderedCollection newFrom: {message1. message2}.
 
 	self chat messageIds: messageIds.
-	self chat messageDictionary at: message1 id put: message1.
-	self chat messageDictionary at: message2 id put: message2.
+	self chat addMessage: message1.
+	self chat addMessage: message2.
 
 	self assert: messageIds equals: self chat messageIds.
-	self assert: message1 equals: (self chat messageDictionary at: message1 id).
-	self assert: message2 equals: (self chat messageDictionary at: message2 id).
+	self assert: message1 equals: (self chat messageDictionary at: message1 id) value.
+	self assert: message2 equals: (self chat messageDictionary at: message2 id) value.
 	self assert: messages equals: self chat messages
