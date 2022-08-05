@@ -6,6 +6,6 @@
 		"testEnteringCodeOpensTelegram" : "aka 5/21/2022 13:02",
 		"testEnteringPasswordOpensTelegram" : "aka 5/21/2022 14:01",
 		"testEnteringPhoneNumberAsksForCode" : "aka 5/21/2022 13:29",
-		"testPressCancelOnAuthCode" : "aka 5/21/2022 13:51",
-		"testPressCancelOnAuthPassword" : "aka 5/21/2022 13:50",
+		"testPressCancelOnAuthCode" : "ek 8/5/2022 15:27",
+		"testPressCancelOnAuthPassword" : "ek 8/5/2022 15:27",
 		"testTelegramOpensAuthentication" : "RS 7/17/2021 12:55" } }

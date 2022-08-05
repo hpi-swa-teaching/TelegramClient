@@ -1,8 +1,8 @@
 controlling
 handleMessageRequest: aMessageRequest
 
-	((self messageIds occurrencesOf: (aMessageRequest messageId)) ~= 0) ifTrue:
+	(self hasMessage: (aMessageRequest messageId)) ifTrue:
 			[aMessageRequest completeRequest.]
 		ifFalse:
 			[self requestedMessages add: aMessageRequest.
-			self loadChatHistory.]
+			self loadChatHistory.].

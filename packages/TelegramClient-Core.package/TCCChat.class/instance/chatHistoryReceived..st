@@ -10,5 +10,4 @@ chatHistoryReceived: anEvent
 
 	self waitingForUpdate: false.
 
-	self stillRequestedMessages > 0
-		ifTrue: [self loadChatHistory.].
+	self stillRequestedMessages > 0 ifTrue: [self loadChatHistory.].

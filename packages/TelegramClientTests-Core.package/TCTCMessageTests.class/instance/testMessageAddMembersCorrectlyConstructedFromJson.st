@@ -9,4 +9,4 @@ testMessageAddMembersCorrectlyConstructedFromJson
 
 	self assert: addMembersMessage members equals: {TCTMMocks mockUser1 id}.
 	self assert: 'Added: Test User' equals: addMembersMessage asSnippet.
-	self assert: 'Added: Test User' equals: addMembersMessage asText
+	self assert: 'Added: Test User' equals: addMembersMessage asText.

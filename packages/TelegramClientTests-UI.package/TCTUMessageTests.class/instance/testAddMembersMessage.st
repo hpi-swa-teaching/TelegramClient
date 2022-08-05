@@ -8,4 +8,4 @@ testAddMembersMessage
 	addMembersMessage := TCCMessage newFromMessageEvent: addMembersEvent in: chat with: self core.
 
 	self wantsToTest: (TCUMessage newFrom: addMembersMessage).
-	self assertReading: 'Added: Test User' in: self subject
+	self assertReading: 'Added: Test User' in: self subject.

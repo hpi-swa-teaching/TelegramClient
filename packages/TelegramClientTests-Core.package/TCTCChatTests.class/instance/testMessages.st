@@ -15,4 +15,4 @@ testMessages
 	self assert: messageIds equals: self chat messageIds.
 	self assert: message1 equals: (self chat messageDictionary at: message1 id) value.
 	self assert: message2 equals: (self chat messageDictionary at: message2 id) value.
-	self assert: messages equals: self chat messages
+	self assert: messages equals: self chat messages.

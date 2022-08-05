@@ -11,4 +11,4 @@ initializeDefaults
 		hResizing: #shrinkWrap;
 		vResizing: #shrinkWrap;
 		borderWidth: 0;
-		useRoundedCorners
+		useRoundedCorners.
