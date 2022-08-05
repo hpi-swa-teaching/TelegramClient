@@ -8,5 +8,5 @@ addOldestMessage: aMessage
 		self oldestLoadedMessage isFirstMessageOfDay: true.
 		aMessage isLastMessageOfDay: true].
 	self messageIds add: aMessage id.
-	self messageDictionary at: aMessage id put: aMessage.
+	self addMessage: aMessage.
 	self triggerEvent: #loadedMessage with: aMessage.
