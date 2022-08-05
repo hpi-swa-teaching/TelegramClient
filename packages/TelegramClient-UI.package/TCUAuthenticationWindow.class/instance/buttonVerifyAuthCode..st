@@ -1,4 +1,4 @@
 accessing
 buttonVerifyAuthCode: aButton
 
-	buttonVerifyAuthCode := aButton.
+	buttonVerifyAuthCode := aButton

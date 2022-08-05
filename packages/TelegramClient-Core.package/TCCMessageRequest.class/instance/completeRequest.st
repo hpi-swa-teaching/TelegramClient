@@ -1,4 +1,4 @@
-accessing
+utility
 completeRequest
 
-	self completionReceiver perform: (self completionMessage) with: (self messageId)
+	self completionReceiver perform: (self completionMessage) with: (self messageId).

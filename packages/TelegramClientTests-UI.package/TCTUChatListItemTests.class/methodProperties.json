@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "js 6/30/2022 16:10",
+		"setUp" : "ek 8/5/2022 15:29",
 		"testChatHasPhoto" : "js 6/30/2022 16:01",
-		"testChatIsNotPinned" : "js 6/30/2022 16:10",
-		"testChatIsPinned" : "js 6/30/2022 16:10",
-		"testChatLastSenderNameIsLoggedInUser" : "LR 7/16/2022 12:31",
-		"testChatLastSenderNameIsNotLoggedInUser" : "LR 7/16/2022 12:36",
-		"testChatWithoutPhotoHasDefaultPhoto" : "js 6/30/2022 16:10" } }
+		"testChatIsNotPinned" : "ek 8/5/2022 15:30",
+		"testChatIsPinned" : "ek 8/5/2022 15:30",
+		"testChatLastSenderNameIsLoggedInUser" : "ek 8/5/2022 15:31",
+		"testChatLastSenderNameIsNotLoggedInUser" : "ek 8/5/2022 15:31",
+		"testChatWithoutPhotoHasDefaultPhoto" : "ek 8/5/2022 15:31" } }

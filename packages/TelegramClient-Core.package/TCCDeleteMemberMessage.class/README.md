@@ -1,1 +1,1 @@
-Reprents a message where a member is removed from a group.
+Represents a message where a member is removed from a group.

@@ -9,4 +9,4 @@ testPressCancelOnAuthPassword
 		showAuthPasswordStep.
 	button := (self subject findByClass: TCUButton) findByCriteria: [:textMorph | textMorph text asText = 'Cancel' ].
 	button click.
-	self assert: nextButton visible
+	self assert: nextButton visible.

@@ -15,5 +15,5 @@ initialize
 		useRoundedCorners;
 		borderWidth: self class defaultBorderWidth;
 		borderColor: Color transparent;
-		width: textMorph width + (2*self class defaultLayoutInset);
-		height: textMorph height + (2*self class defaultLayoutInset).
+		width: textMorph width + (2 * self class defaultLayoutInset);
+		height: textMorph height + (2 * self class defaultLayoutInset).

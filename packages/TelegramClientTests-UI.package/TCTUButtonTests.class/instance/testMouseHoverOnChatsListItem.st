@@ -1,7 +1,7 @@
 hovering
 testMouseHoverOnChatsListItem
 
-	|chatListItem oldColor|
+	| chatListItem oldColor |
 
 	chatListItem := TCUChatListItem new.
 	oldColor := chatListItem color.

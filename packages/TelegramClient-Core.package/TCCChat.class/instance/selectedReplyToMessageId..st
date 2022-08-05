@@ -1,8 +1,8 @@
 accessing
-selectedReplyToMessageId: aNumber
+selectedReplyToMessageId: aMessageId
 
-	aNumber = selectedReplyToMessageId
+	aMessageId = selectedReplyToMessageId
 		ifTrue: [selectedReplyToMessageId := self class defaultSelectedReplyToMessageId]
-		ifFalse: [selectedReplyToMessageId := aNumber].
+		ifFalse: [selectedReplyToMessageId := aMessageId].
 
-	self triggerEvent: #updateReplyToMessageId
+	self triggerEvent: #updateReplyToMessageId.

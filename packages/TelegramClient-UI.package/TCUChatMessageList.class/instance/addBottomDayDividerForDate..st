@@ -7,4 +7,4 @@ addBottomDayDividerForDate: aDate
 	self scroller addMorphBack: divider.
 	self items addLast: divider.
 	wasFullyScrolledDown
-		ifTrue: [ self scrollToNewestMessage ]
+		ifTrue: [ self scrollToNewestMessage ].

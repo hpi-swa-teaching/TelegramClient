@@ -1,4 +1,4 @@
-constructing
+event handling
 triggerRequestScroll
 
-	self triggerEvent: #requestScroll
+	self triggerEvent: #requestScroll.

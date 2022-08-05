@@ -13,4 +13,4 @@ addAtBottom: aCoreMessage
 	self scroller addMorphBack: messageItem.
 	self items addLast: messageItem.
 	wasFullyScrolledDown
-		ifTrue: [ self scrollToNewestMessage ]
+		ifTrue: [ self scrollToNewestMessage ].

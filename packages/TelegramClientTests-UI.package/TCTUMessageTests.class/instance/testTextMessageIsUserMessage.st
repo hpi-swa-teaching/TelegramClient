@@ -6,4 +6,4 @@ testTextMessageIsUserMessage
 	message := (TCTMMocks mockTextMessageWith: self core).
 
 	self wantsToTest: (TCUMessage newFrom: message).
-	self assert: self subject isUserMessage
+	self assert: self subject isUserMessage.

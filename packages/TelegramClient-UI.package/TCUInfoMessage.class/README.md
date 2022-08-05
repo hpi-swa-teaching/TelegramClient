@@ -1,1 +1,1 @@
-UI element containing 'added XYZ'
+UI message element showing information such as 'added XYZ'

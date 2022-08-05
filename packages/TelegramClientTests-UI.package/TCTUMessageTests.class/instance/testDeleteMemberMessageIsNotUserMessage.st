@@ -8,4 +8,4 @@ testDeleteMemberMessageIsNotUserMessage
 	deleteMemberMessage := TCCMessage newFromMessageEvent: deleteMemberEvent in: chat with: self core.
 
 	self wantsToTest: (TCUMessage newFrom: deleteMemberMessage).
-	self deny: self subject isUserMessage
+	self deny: self subject isUserMessage.

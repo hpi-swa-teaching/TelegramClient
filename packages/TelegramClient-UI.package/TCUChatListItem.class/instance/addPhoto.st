@@ -11,4 +11,4 @@ addPhoto
 		]
 	] ifFalse: [
 		self addMorphBack: TCUDefaultValues defaultProfilePhoto asMorph.
-	]
+	].

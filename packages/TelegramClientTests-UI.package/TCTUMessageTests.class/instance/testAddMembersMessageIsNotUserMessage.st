@@ -8,4 +8,4 @@ testAddMembersMessageIsNotUserMessage
 	addMembersMessage := TCCMessage newFromMessageEvent: addMembersEvent in: chat with: self core.
 
 	self wantsToTest: (TCUMessage newFrom: addMembersMessage).
-	self deny: self subject isUserMessage
+	self deny: self subject isUserMessage.

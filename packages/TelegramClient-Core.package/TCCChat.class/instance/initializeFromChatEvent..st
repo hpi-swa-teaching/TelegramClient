@@ -13,4 +13,4 @@ initializeFromChatEvent: anEvent
 
 	(anEvent at: 'photo') ifNotNil: [
 		self photoId: (((anEvent at: 'photo') at: 'small') at: 'id').
-	]
+	].

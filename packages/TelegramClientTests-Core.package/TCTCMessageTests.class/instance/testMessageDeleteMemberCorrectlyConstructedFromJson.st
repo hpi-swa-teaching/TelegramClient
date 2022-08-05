@@ -9,4 +9,4 @@ testMessageDeleteMemberCorrectlyConstructedFromJson
 
 	self assert: deleteMemberMessage member equals: (TCTMMocks mockUser1 id).
 	self assert: 'Removed: Test User' equals: deleteMemberMessage asSnippet.
-	self assert: 'Removed: Test User' equals: deleteMemberMessage asText
+	self assert: 'Removed: Test User' equals: deleteMemberMessage asText.

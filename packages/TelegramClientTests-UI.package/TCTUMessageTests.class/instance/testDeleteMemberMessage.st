@@ -8,4 +8,4 @@ testDeleteMemberMessage
 	deleteMemberMessage := TCCMessage newFromMessageEvent: deleteMemberEvent in: chat with: self core.
 
 	self wantsToTest: (TCUMessage newFrom: deleteMemberMessage).
-	self assertReading: 'Removed: Test User' in: self subject
+	self assertReading: 'Removed: Test User' in: self subject.

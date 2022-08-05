@@ -5,4 +5,4 @@ testMessageReplySnippetTruncates
 	message := TCTMMocks mockTextMessageWith: self core.
 	message text: ((String new: 250) atAllPut: $A).
 	 
-	self assert: message asReplySnippet size - message senderName size - 4 <= (TCCMessage maxReplySnippetSize)
+	self assert: message asReplySnippet size - message senderName size - 4 <= (TCCMessage maxReplySnippetSize).
