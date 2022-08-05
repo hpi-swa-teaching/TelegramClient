@@ -2,8 +2,12 @@ testing
 testScrollToReferencedMessage
 
 	| referencedMessage referencingMessage referencedOffset replySnippet referencedTCUMessage |
-	referencedMessage := (TCTMMocks mockTextMessageWith: self core withId: 1) text: 'Referenced Message'.
-	referencingMessage := (TCTMMocks mockTextMessageWith: self core withId: 2 replyTo: 1) text: 'Referencing Message'.
+	referencedMessage := (TCTMMocks mockTextMessageWith: self core withId: 1)
+		text: 'Referenced Message';
+		chat: self subject chat.
+	referencingMessage := (TCTMMocks mockTextMessageWith: self core withId: 2 replyTo: 1)
+		text: 'Referencing Message';
+		chat: self subject chat.
 	self subject chat addOldestMessage: referencedMessage.
 	self subject chat addNewestMessage: referencingMessage.
 	

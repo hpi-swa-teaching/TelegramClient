@@ -12,4 +12,5 @@ mockPhotoMessageWith: aCore
 		caption: self mockText;
 		width: self mockPhotoWidth;
 		height: self mockPhotoHeight;
-		fileId: self mockImageId
+		fileId: self mockImageId;
+		replyToMessageId: 0
