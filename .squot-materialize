@@ -1,0 +1,50 @@
+[
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'BaselineOfTelegramClient'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'TelegramClientTests-Core'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'TelegramClient-Core'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'TelegramClientTests-Misc'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'TelegramClient-UI'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'TelegramClientTests-UI'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	}
+]
