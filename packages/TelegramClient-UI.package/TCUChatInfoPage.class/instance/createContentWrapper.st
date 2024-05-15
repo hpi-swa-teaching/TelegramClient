@@ -3,6 +3,7 @@ createContentWrapper
 
 	self contentWrapper: (RectangleMorph new
 		borderWidth: 0;
+		"color: Color red;"
 		color: Color transparent;
 		width: self width * self class defaultContentWidthPercentage;
 		height: self height - self class defaultInfoBarHeight;

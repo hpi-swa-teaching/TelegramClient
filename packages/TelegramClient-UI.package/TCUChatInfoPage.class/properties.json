@@ -11,7 +11,8 @@
 		"description",
 		"chat",
 		"userList",
-		"backButton" ],
+		"backButton",
+		"testmorph" ],
 	"name" : "TCUChatInfoPage",
 	"pools" : [
 		 ],
