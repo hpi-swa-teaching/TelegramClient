@@ -9,5 +9,5 @@ addPhoto
 			self addMorphCentered: morph.
 		]
 	] ifFalse: [
-		self contentWrapper addMorph: (TCUDefaultValues defaultProfilePhoto scaledToSize: self photoSize) asMorph.
+		self addMorphBack: (TCUDefaultValues defaultProfilePhoto scaledToSize: self photoSize) asMorph.
 	].
