@@ -5,4 +5,5 @@ newFor: aChat withBounds: aRectangle
 		chat: aChat;
 		addInfoBar;
 		addContent;
+		addHiddenPhotoPage;
 		yourself

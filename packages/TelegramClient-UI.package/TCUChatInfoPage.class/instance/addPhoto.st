@@ -7,6 +7,7 @@ addPhoto
 		promise >>= [:aForm |
 			morph := (aForm scaledToSize: self class defaultPhotoSize) asMorph.
 			morph position: self position.
+			morph on: #mouseDown send: #showPhotoPage to: self.
 			self contentWrapper addMorph: morph.
 		]
 	] ifFalse: [
