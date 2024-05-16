@@ -2,7 +2,7 @@ as yet unclassified
 addSticker
 
 	| stickerForm |
-	stickerForm := self messageModel core imageStore getFormFor: self messageModel stickerId.
+	stickerForm := self messageModel core stickerStore getFormFor: self messageModel stickerId.
 	"stickerForm := stickerForm scaledToWidth: self class defaultWidth."
 
 	(stickerForm height > self class maxHeight) ifTrue: [
