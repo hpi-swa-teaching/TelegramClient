@@ -5,5 +5,5 @@ requestStickerFor: aStickerId with: aPromise
 	"https://core.telegram.org/tdlib/docs/classtd_1_1td__api_1_1download_file.html"
 
 	self core
-		send: (TCCRequest newRequestFile: aStickerId)
+		send: (TCCRequest newRequestSticker: aStickerId)
 		thenDo: [:stickerEvent | aPromise resolveWith: (self class extractPathFrom: stickerEvent)].
