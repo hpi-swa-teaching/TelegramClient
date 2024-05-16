@@ -17,7 +17,7 @@
 		"freeClient" : "6/9/2021 14:12:18",
 		"generateCallbackId" : "pk 8/5/2021 17:04",
 		"getOwnProfile" : "pk 8/5/2021 17:05",
-		"handleEvent:" : "rgw 7/21/2022 13:13",
+		"handleEvent:" : "JK 5/16/2024 22:13",
 		"handleMessageEvent:" : "rgw 5/12/2022 13:44",
 		"handlePendingEvent:" : "per 8/2/2021 15:05",
 		"imageStore" : "pk 6/19/2021 17:15",
@@ -39,6 +39,6 @@
 		"stickerStore" : "JK 5/16/2024 21:25",
 		"stickerStore:" : "JK 5/16/2024 21:25",
 		"tryHandleError:" : "aka 5/21/2022 12:07",
-		"update" : "rgw 7/24/2022 15:08",
+		"update" : "JK 5/16/2024 21:57",
 		"userStore" : "per 7/15/2021 12:56",
 		"userStore:" : "tr 7/25/2021 17:57" } }
