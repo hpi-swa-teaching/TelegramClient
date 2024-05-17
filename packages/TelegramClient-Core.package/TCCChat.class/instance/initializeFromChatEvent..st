@@ -12,5 +12,5 @@ initializeFromChatEvent: anEvent
 		isPinned: false.
 
 	(anEvent at: 'photo') ifNotNil: [
-		self photoId: (((anEvent at: 'photo') at: 'small') at: 'id').
+		self photoId: (((anEvent at: 'photo') at: 'big') at: 'id').
 	].
