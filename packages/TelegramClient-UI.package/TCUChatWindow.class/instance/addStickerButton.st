@@ -1,10 +1,10 @@
 drawing
 addStickerButton
 
-	self sendButton: (TCUButton new
+	self stickerButton: (TCUButton new
 		extent: 50 @ 30;
 		text: '+';
-		on: #mouseUp send: #buttonSendPressed to: self;
+		on: #mouseUp send: #buttonStickerPressed to: self;
 		name: 'sendSticker';
 		yourself).
-	self inputBar addMorph: self sendButton.
+	self inputBar addMorph: self stickerButton.

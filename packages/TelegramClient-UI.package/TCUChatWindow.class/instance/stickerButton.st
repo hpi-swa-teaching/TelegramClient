@@ -1,0 +1,4 @@
+accessing
+stickerButton
+
+	^ stickerButton
