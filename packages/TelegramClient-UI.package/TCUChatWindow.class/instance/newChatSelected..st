@@ -3,6 +3,7 @@ newChatSelected: aChat
 
 	self welcomeMessage hide.
 	self inputBar submorphsDo: #abandon.
+	self addStickerButton.
 	self addSendButton.
 	self addTextInputField.
 	self inputBar show.
