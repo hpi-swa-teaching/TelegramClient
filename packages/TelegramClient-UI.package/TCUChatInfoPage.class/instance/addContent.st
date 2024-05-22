@@ -11,6 +11,6 @@ addContent
 			self addUserList.
 		]
 	].
-	self addTestmorph.
+	self addTitle.
 	self addPhoto.
 	

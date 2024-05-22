@@ -12,8 +12,9 @@
 		"chat",
 		"userList",
 		"backButton",
-		"testmorph",
-		"photoPage" ],
+		"title",
+		"photoPage",
+		"photo" ],
 	"name" : "TCUChatInfoPage",
 	"pools" : [
 		 ],

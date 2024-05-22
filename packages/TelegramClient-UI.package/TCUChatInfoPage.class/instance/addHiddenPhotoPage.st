@@ -1,8 +1,10 @@
 as yet unclassified
 addHiddenPhotoPage
 
-	self
-		photoPage: (TCUChatPhotoPage newFor: chat withBounds: self bounds andSize: (self width * 0.75));
-		addMorphFront: self photoPage.
+	self chat hasPhoto ifTrue: [
+		self
+			photoPage: (TCUChatPhotoPage newWithBounds: self bounds andPhoto: self photo andSize: (self width * 0.9));
+			addMorphFront: self photoPage.
 
-	self photoPage hide.
+		self photoPage hide
+	]
