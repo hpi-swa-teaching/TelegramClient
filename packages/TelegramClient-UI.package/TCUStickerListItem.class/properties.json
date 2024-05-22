@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"closeButton",
-		"shouldRedraw" ],
-	"name" : "TCUStickerWindow",
+		 ],
+	"name" : "TCUStickerListItem",
 	"pools" : [
 		 ],
-	"super" : "TCUList",
+	"super" : "ImageMorph",
 	"type" : "normal" }

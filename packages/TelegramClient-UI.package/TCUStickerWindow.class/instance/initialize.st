@@ -3,6 +3,7 @@ initialize
 
 	super initialize.
 	
-	self extent: 300 @ 400;
-		addCloseButton;
-		loadStickers.
+	self extent: 110 @ 590;
+		shouldRedraw: true;
+		addCloseButton.
+		"loadStickers."

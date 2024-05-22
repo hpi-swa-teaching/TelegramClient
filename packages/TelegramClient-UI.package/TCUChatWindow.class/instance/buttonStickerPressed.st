@@ -3,6 +3,6 @@ buttonStickerPressed
 
 	| stickerWindow |
 	
-	stickerWindow := TCUStickerWindow new position: (self position + (520 @ 240)).
+	stickerWindow := TCUStickerWindow new position: (self position + (700 @ 50)).
 	self addMorph: stickerWindow.
 	self stickerButton makeLighter.
