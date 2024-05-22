@@ -5,5 +5,5 @@ buildStickerListItems
 	
 	stickers := OrderedCollection new.
 	self items do: [:sticker | stickers add: (TCUStickerListItem new
-		image: ((Form fromFileNamed: sticker fullName ) scaledToWidth: 100))].
+		image: ((self convertWebp: sticker) scaledToWidth: 100))].
 	self items: stickers.
