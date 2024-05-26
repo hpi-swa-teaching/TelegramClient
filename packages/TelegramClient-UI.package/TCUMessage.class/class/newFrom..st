@@ -3,6 +3,7 @@ newFrom: aCoreMessage
 
 	^ (aCoreMessage class caseOf: {
 			[TCCTextMessage] -> [TCUTextMessage].
+			[TCCPollMessage] -> [TCUPollMessage].
 			[TCCPhotoMessage] -> [TCUPhotoMessage].
 			[TCCAddMembersMessage] -> [TCUInfoMessage].
 			[TCCDeleteMemberMessage] -> [TCUInfoMessage].

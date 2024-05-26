@@ -1,0 +1,14 @@
+{
+	"category" : "TelegramClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TCUPollMessage",
+	"pools" : [
+		 ],
+	"super" : "TCUUserMessage",
+	"type" : "normal" }
