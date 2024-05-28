@@ -1,4 +1,5 @@
 as yet unclassified
 mouseDown: anEvent
 
-	Transcript show: 'sticker clicked'
+	self selectedChat sendStickerMessage: path.
+	"Transcript show: self asString."

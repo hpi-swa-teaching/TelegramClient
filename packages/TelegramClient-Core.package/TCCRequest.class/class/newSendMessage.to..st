@@ -1,6 +1,6 @@
 instance creation
 newSendMessage: aString to: aChatId
-
+"
 	^ TCCRequest
 		newWithType: 'sendMessage'
 		from: {
@@ -12,4 +12,5 @@ newSendMessage: aString to: aChatId
 					'text' -> aString asString squeakToUtf8
 				})
 			})
-		}
+		}"
+		Transcript show: 'hier passiert ja doch was'.
