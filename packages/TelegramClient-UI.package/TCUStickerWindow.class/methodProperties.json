@@ -4,10 +4,11 @@
 	"instance" : {
 		"addCloseButton" : "JK 5/21/2024 10:22",
 		"buildStickerListItems" : "JK 5/22/2024 21:50",
+		"collectInstalledStickers" : "JK 5/24/2024 09:18",
 		"convertWebp:" : "JK 5/22/2024 21:52",
-		"initialize" : "JK 5/22/2024 20:22",
-		"loadStickers" : "JK 5/22/2024 21:49",
+		"initialize" : "JK 5/23/2024 21:45",
+		"loadStickers" : "JK 5/24/2024 08:51",
 		"shouldRedraw" : "JK 5/22/2024 20:12",
 		"shouldRedraw:" : "JK 5/22/2024 20:12",
-		"step" : "JK 5/22/2024 20:26",
+		"step" : "JK 5/28/2024 09:27",
 		"stepTime" : "JK 5/22/2024 19:59" } }
