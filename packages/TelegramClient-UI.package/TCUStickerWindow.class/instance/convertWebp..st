@@ -1,4 +1,4 @@
-as yet unclassified
+converting
 convertWebp: aStickerPath
 
 	| file byteArray form |

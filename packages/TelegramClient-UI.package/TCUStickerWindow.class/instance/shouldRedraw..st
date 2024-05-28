@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 shouldRedraw: aBool
 
 	shouldRedraw := aBool

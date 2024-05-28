@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 buildStickerListItems
 
 	| stickers item |

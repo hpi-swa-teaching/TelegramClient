@@ -1,4 +1,4 @@
-as yet unclassified
+default values
 defaultPhoto
 	"@linter-ignore"
 	"This is an auto-generated method"
