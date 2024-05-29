@@ -1,5 +1,6 @@
 json conversion
 newMessageWith: aJsonObject
+	"Transcript show: aJsonObject."
 
 	^ (aJsonObject at: '@type') caseOf: {
 		['messageText'] -> [TCCTextMessage newFrom: aJsonObject].

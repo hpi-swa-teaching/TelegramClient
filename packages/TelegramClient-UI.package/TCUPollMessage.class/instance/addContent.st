@@ -1,4 +1,5 @@
 constructing
 addContent
 
-	self addQuestion.
+	self addQuestion;
+		addPollOptions.

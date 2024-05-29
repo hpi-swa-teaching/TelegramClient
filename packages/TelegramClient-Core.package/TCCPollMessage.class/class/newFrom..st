@@ -1,7 +1,11 @@
 instance creation
 newFrom: aJsonObject
-	Transcript show: ((aJsonObject at: 'poll') at: 'question').
+	
+	| options |
+	
+	options := ((aJsonObject at: 'poll') at: 'options').
 	
 	^ self new
 		question: ((aJsonObject at: 'poll') at: 'question');
+		optionText: (options collect: [:text | text at: 'text']);
 		yourself
