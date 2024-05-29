@@ -13,7 +13,8 @@
 		"welcomeMessage",
 		"textInputField",
 		"sendButton",
-		"stickerButton" ],
+		"stickerButton",
+		"stickerWindow" ],
 	"name" : "TCUChatWindow",
 	"pools" : [
 		 ],

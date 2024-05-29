@@ -1,0 +1,4 @@
+accessing
+stickerWindow
+
+	^ stickerWindow

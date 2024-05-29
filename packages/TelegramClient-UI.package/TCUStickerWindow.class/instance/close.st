@@ -1,0 +1,4 @@
+initialization
+close
+
+	self abandon
