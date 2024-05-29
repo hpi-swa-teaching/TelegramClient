@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"newFor:withBounds:andSize:" : " 5/29/2024 17:07:15",
+		"newWithBounds:andPhoto:andSize:" : "jkon 5/22/2024 10:27" },
+	"instance" : {
+		"addPhoto" : "jkon 5/22/2024 10:21",
+		"chat" : " 5/29/2024 17:07:15",
+		"chat:" : " 5/29/2024 17:07:15",
+		"initialize" : "jkon 5/15/2024 15:11",
+		"photo" : "jkon 5/22/2024 10:30",
+		"photo:" : "jkon 5/22/2024 10:31",
+		"photoSize" : "jkon 5/15/2024 15:00",
+		"photoSize:" : "jkon 5/15/2024 15:01" } }

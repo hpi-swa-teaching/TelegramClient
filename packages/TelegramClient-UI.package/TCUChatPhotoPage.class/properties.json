@@ -4,18 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "RS 5/20/2021 21:41",
+	"commentStamp" : "",
 	"instvars" : [
-		"infoBar",
-		"contentWrapper",
-		"description",
-		"chat",
-		"userList",
-		"backButton",
-		"title",
-		"photoPage",
+		"photoSize",
 		"photo" ],
-	"name" : "TCUChatInfoPage",
+	"name" : "TCUChatPhotoPage",
 	"pools" : [
 		 ],
 	"super" : "RectangleMorph",
