@@ -7,5 +7,5 @@ stickerFormFrom: aString
 	file binary.
 	byteArray := file next: file size.
 	file close.
-	form := (LibWebP decode: byteArray).
+	form := (TCCLibWebP decode: byteArray).
 	^ form
