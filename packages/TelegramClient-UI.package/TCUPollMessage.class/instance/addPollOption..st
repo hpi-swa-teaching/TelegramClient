@@ -5,15 +5,20 @@ addPollOption: anOption
 	rectangleMorph := RectangleMorph new.
 	circleMorph := CircleMorph new.
 	circleMorph
-		color: Color black;
-		extent: 30@30.
-		rectangleMorph 
-			addMorph: circleMorph;
-			addMorph: (self class defaultTextMorph
-			contents: anOption; 
+		color: self messageColor;
+		extent: 16@16.
+	rectangleMorph
+		color: self messageColor;
+		borderWidth: 0;
+		addMorph: circleMorph;
+		addMorph: (self class defaultTextMorph
+			contents: (TCUEmojiHelper embedEmojisInto: anOption); 
 			hResizing: #spaceFill;
 			color: Color white;
 			margins: self class defaultMargins;
-			position: 35@0;
-			yourself).
+			position: 26@0;
+			yourself);
+		hResizing: #shrinkWrap;
+		"hResizing: #spaceFill;"
+		vResizing: #shrinkWrap.
 	^ rectangleMorph.
