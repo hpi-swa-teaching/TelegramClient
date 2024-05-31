@@ -8,7 +8,8 @@
 	"instvars" : [
 		"closeButton",
 		"shouldRedraw",
-		"selectedChat" ],
+		"selectedChat",
+		"core" ],
 	"name" : "TCUStickerWindow",
 	"pools" : [
 		 ],
