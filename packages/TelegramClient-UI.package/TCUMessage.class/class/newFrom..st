@@ -7,6 +7,7 @@ newFrom: aCoreMessage
 			[TCCStickerMessage] -> [TCUStickerMessage].
 			[TCCAddMembersMessage] -> [TCUInfoMessage].
 			[TCCDeleteMemberMessage] -> [TCUInfoMessage].
+			[TCCAnimatedStickerMessage] -> [TCUAnimatedStickerMessage].
 		} otherwise: [TCUTextMessage])
 		basicNew
 		messageModel: aCoreMessage;

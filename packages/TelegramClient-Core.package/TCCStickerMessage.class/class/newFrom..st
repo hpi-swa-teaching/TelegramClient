@@ -4,7 +4,7 @@ newFrom: aJsonObject
 	| stickerData |
 	stickerData := (aJsonObject at: 'sticker').
 	(stickerData at: 'is_animated') ifTrue:
-		[^ TCCNotSupportedMessage new].
+		[^ self newAnimatedStickerFrom: aJsonObject].
 	
 	^ self new
 		width: (stickerData at: 'width');
