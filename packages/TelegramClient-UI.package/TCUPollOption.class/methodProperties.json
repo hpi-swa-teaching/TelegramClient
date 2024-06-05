@@ -1,8 +1,10 @@
 {
 	"class" : {
 		"new" : "TU 6/5/2024 12:08",
-		"new:" : "TU 6/5/2024 12:09" },
+		"new:" : "TU 6/5/2024 12:09",
+		"new:with:" : "F.M. 6/5/2024 14:49" },
 	"instance" : {
-		"initializeWith:" : "TU 6/5/2024 12:18",
+		"initializeWith:" : "F.M. 6/5/2024 14:41",
+		"initializeWith:and:" : "F.M. 6/5/2024 14:50",
 		"selected:" : "TU 6/5/2024 12:26",
-		"updateText:" : "TU 6/5/2024 12:19" } }
+		"updateText:" : "F.M. 6/5/2024 14:48" } }
