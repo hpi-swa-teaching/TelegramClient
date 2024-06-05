@@ -10,6 +10,7 @@ initialize
 		imageStore: (TCCImageStore newWith: self);
 		stickerStore: (TCCStickerStore newWith: self);
 		callbackCounter: 0.
+	
 
 	"Mac users report serious slowdowns when receiveLoop is running at lower priority"
 	"So we have to rely on just the delay"

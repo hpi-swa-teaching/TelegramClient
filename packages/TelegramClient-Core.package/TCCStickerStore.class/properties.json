@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"core" ],
+		"core",
+		"stickerIds" ],
 	"name" : "TCCStickerStore",
 	"pools" : [
 		 ],
