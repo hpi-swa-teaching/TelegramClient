@@ -9,7 +9,8 @@
 		"question",
 		"optionText",
 		"isAnonymous",
-		"pollType" ],
+		"pollType",
+		"hasVoted" ],
 	"name" : "TCCPollMessage",
 	"pools" : [
 		 ],
