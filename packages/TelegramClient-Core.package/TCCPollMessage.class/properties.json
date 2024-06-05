@@ -10,7 +10,8 @@
 		"options",
 		"isAnonymous",
 		"pollType",
-		"hasVoted" ],
+		"hasVoted",
+		"allowsMultipleAnswers" ],
 	"name" : "TCCPollMessage",
 	"pools" : [
 		 ],

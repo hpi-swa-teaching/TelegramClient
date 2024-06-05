@@ -17,4 +17,5 @@ newFrom: aJsonObject
 		isAnonymous: ((aJsonObject at: 'poll') at: 'is_anonymous');
 		pollType: (((aJsonObject at: 'poll') at: 'type') at: '@type');
 		hasVoted: options;
+		allowsMultipleAnswers: aJsonObject;
 		yourself

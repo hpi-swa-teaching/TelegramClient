@@ -1,0 +1,4 @@
+accessing
+allowsMultipleAnswers
+
+	^ allowsMultipleAnswers

@@ -20,7 +20,8 @@ initializeWith: aPollMessage and: anOption
 		hResizing: #shrinkWrap;
 		"hResizing: #spaceFill;"
 		vResizing: #shrinkWrap;
-		selected: anOption isBeingChosen
+		selected: anOption isBeingChosen;
+		on: #mouseDown send: #mouseDown to: self
 
 	
 	
