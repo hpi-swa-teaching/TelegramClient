@@ -6,13 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"question",
-		"options",
-		"isAnonymous",
-		"pollType",
-		"hasVoted" ],
-	"name" : "TCCPollMessage",
+		"isBeingChosen",
+		"isChosen",
+		"text",
+		"votePercentage",
+		"voterCount" ],
+	"name" : "TCCPollOption",
 	"pools" : [
 		 ],
-	"super" : "TCCMessage",
+	"super" : "Object",
 	"type" : "normal" }

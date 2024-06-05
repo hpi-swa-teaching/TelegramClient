@@ -2,5 +2,5 @@ as yet unclassified
 addPollOption: anOption
 	
 	^(TCUPollOption new: self)
-		updateText: anOption;
-		selected: true.
+		updateText: anOption text;
+		selected: anOption isBeingChosen.

@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newFrom:" : "ED 6/5/2024 13:57" },
+		"newFrom:" : "ED 6/5/2024 15:35" },
 	"instance" : {
 		"asSnippet" : "ED 5/26/2024 11:05",
 		"asText" : "ED 5/26/2024 11:00",
@@ -8,8 +8,8 @@
 		"hasVoted:" : "ED 6/5/2024 14:16",
 		"isAnonymous" : "ED 6/5/2024 13:10",
 		"isAnonymous:" : "ED 6/5/2024 13:10",
-		"optionText" : "FM 5/28/2024 19:40",
-		"optionText:" : "FM 5/28/2024 19:41",
+		"options" : "ED 6/5/2024 15:40",
+		"options:" : "ED 6/5/2024 15:40",
 		"pollType" : "ED 6/5/2024 13:11",
 		"pollType:" : "ED 6/5/2024 13:11",
 		"question" : "ED 5/26/2024 10:42",
