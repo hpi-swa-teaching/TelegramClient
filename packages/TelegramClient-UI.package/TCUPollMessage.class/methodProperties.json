@@ -2,7 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addContent" : "FM 5/29/2024 15:47",
+		"addContent" : "ED 6/5/2024 13:12",
 		"addPollOption:" : "ED 5/31/2024 00:48",
 		"addPollOptions" : "FM 5/29/2024 16:33",
-		"addQuestion" : "FM 5/29/2024 16:30" } }
+		"addQuestion" : "FM 5/29/2024 16:30",
+		"addState" : "ED 6/5/2024 13:18",
+		"pollTypeString" : "ED 6/5/2024 13:16",
+		"pollTypeString:" : "ED 6/5/2024 13:16",
+		"pollTypes" : "ED 6/5/2024 13:15" } }

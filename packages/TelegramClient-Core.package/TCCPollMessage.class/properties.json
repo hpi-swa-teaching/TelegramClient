@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"question",
-		"optionText" ],
+		"optionText",
+		"isAnonymous",
+		"pollType" ],
 	"name" : "TCCPollMessage",
 	"pools" : [
 		 ],

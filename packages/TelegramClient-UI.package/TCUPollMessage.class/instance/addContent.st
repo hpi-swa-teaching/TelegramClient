@@ -1,5 +1,7 @@
 constructing
 addContent
 
-	self addQuestion;
+	self pollTypes;
+		addQuestion;
+		addState;
 		addPollOptions.
