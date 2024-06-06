@@ -9,7 +9,7 @@
 		"circleMorph",
 		"textMorph",
 		"pollMessage",
-		"selected" ],
+		"pollOption" ],
 	"name" : "TCUPollOption",
 	"pools" : [
 		 ],

@@ -1,5 +1,6 @@
 as yet unclassified
 addPollOptions
 
-	self messageModel options do: [:option |
-		self addMorphBack: (self addPollOption: option)].
+	options := OrderedCollection new.
+	self messageModel options do: [:option | self addPollOption: option].
+	self messageModel when: #pollUpdated send: #updatePoll to: self.

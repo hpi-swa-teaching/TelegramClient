@@ -1,11 +1,8 @@
 {
 	"class" : {
 		"new" : "TU 6/5/2024 12:08",
-		"new:" : "TU 6/5/2024 12:09",
 		"new:with:" : "F.M. 6/5/2024 14:49" },
 	"instance" : {
-		"initializeWith:and:" : "ED 6/5/2024 16:14",
-		"mouseDown:" : "ED 6/5/2024 16:18",
-		"selected" : "ED 6/5/2024 16:15",
-		"selected:" : "ED 6/5/2024 16:18",
-		"updateText:" : "F.M. 6/5/2024 14:48" } }
+		"initializeWith:and:" : "TU 6/6/2024 02:02",
+		"mouseDown:" : "TU 6/6/2024 01:46",
+		"updateSelection" : "TU 6/6/2024 01:59" } }

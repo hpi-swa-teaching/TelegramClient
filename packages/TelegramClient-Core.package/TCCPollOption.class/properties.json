@@ -10,7 +10,8 @@
 		"isChosen",
 		"text",
 		"votePercentage",
-		"voterCount" ],
+		"voterCount",
+		"ordinal" ],
 	"name" : "TCCPollOption",
 	"pools" : [
 		 ],
