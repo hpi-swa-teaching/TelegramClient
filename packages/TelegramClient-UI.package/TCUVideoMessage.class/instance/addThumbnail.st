@@ -2,7 +2,7 @@ constructing
 addThumbnail
 
 	| thumbnailForm thumbnailMorph |
-	thumbnailForm := self messageModel core imageStore getFormFor: self messageModel thumbnailId.
+	thumbnailForm := self messageModel core videoStore getFormFor: self messageModel thumbnailId.
 	thumbnailForm := thumbnailForm scaledToWidth: self class defaultWidth.
 
 	(thumbnailForm height > self class maxHeight) ifTrue: [

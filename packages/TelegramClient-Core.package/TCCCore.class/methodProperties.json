@@ -22,7 +22,7 @@
 		"handlePendingEvent:" : "per 8/2/2021 15:05",
 		"imageStore" : "pk 6/19/2021 17:15",
 		"imageStore:" : "TR 6/22/2021 09:33",
-		"initialize" : "pk 8/5/2021 17:09",
+		"initialize" : "JK 6/12/2024 19:42",
 		"initializeHandlers" : "RS 8/1/2021 12:53",
 		"isClientAlive" : "js 5/28/2020 17:18",
 		"loggedInUserId" : "pk 8/5/2021 17:04",
@@ -39,4 +39,6 @@
 		"tryHandleError:" : "aka 5/21/2022 12:07",
 		"update" : "rgw 7/24/2022 15:08",
 		"userStore" : "per 7/15/2021 12:56",
-		"userStore:" : "tr 7/25/2021 17:57" } }
+		"userStore:" : "tr 7/25/2021 17:57",
+		"videoStore" : "JK 6/12/2024 19:42",
+		"videoStore:" : "JK 6/12/2024 19:43" } }

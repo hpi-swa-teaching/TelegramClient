@@ -13,7 +13,8 @@
 		"loggedInUserId",
 		"pendingRequests",
 		"callbackCounter",
-		"userStore" ],
+		"userStore",
+		"videoStore" ],
 	"name" : "TCCCore",
 	"pools" : [
 		 ],

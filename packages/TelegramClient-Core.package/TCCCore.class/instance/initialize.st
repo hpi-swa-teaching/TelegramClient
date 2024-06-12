@@ -8,6 +8,7 @@ initialize
 		pendingRequests: Dictionary new;
 		userStore: (TCCUserStore newWith: self);
 		imageStore: (TCCImageStore newWith: self);
+		videoStore: (TCCVideoStore newWith: self);
 		callbackCounter: 0.
 
 	"Mac users report serious slowdowns when receiveLoop is running at lower priority"

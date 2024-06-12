@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "pk 6/19/2021 16:13",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		 ],
-	"name" : "TCCImageStore",
+	"name" : "TCCVideoStore",
 	"pools" : [
 		 ],
 	"super" : "TCCFileStore",
