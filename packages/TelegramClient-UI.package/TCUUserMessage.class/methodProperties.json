@@ -2,8 +2,9 @@
 	"class" : {
 		"defaultHeight" : "JB 5/29/2021 20:44",
 		"defaultLayoutInset" : "LR 6/11/2022 11:40",
+		"defaultMessageWidth" : "jkon 6/12/2024 17:48",
 		"defaultPhotoSize" : "JS 6/11/2022 09:55",
-		"defaultTextMorph" : "JK 5/31/2024 11:33",
+		"defaultTextMorph" : "jkon 6/12/2024 17:41",
 		"defaultWidth" : "r.s 7/31/2020 14:19" },
 	"instance" : {
 		"addContent" : "TR 6/20/2021 11:12",
@@ -23,6 +24,6 @@
 		"messageDateText" : "JB 5/17/2021 10:04",
 		"messageModel:" : "ek 8/5/2022 14:44",
 		"secondaryColor" : "rgw 5/12/2022 15:54",
-		"shrinkToContent" : "LR 6/11/2022 12:38",
+		"shrinkToContent" : "jkon 6/12/2024 17:46",
 		"text" : "RK 6/29/2021 11:18",
 		"triggerRequestScroll" : "ek 8/5/2022 14:46" } }
