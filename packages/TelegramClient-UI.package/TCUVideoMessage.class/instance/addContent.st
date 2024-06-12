@@ -1,5 +1,5 @@
 constructing
 addContent
 
-	self addPhoto.
+	self addThumbnail.
 	self messageModel hasCaption ifTrue: [self addText].

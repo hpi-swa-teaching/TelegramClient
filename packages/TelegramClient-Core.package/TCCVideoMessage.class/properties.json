@@ -1,0 +1,18 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"caption",
+		"width",
+		"height",
+		"thumbnailId",
+		"videoId" ],
+	"name" : "TCCVideoMessage",
+	"pools" : [
+		 ],
+	"super" : "TCCMessage",
+	"type" : "normal" }
