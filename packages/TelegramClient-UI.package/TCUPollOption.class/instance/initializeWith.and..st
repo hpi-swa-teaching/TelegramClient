@@ -3,10 +3,12 @@ initializeWith: aPollMessage and: anOption
 	
 	pollMessage := aPollMessage.
 	pollOption := anOption.
-	circleMorph := CircleMorph new
+	(aPollMessage messageModel allowsMultipleAnswers)
+		ifTrue: [selectionMorph := RectangleMorph new]
+		ifFalse: [selectionMorph := CircleMorph new].
+	selectionMorph
 		color: aPollMessage messageColor;
-		extent: 16@16;
-		yourself.
+		extent: 16@16.
 	textMorph := aPollMessage class defaultTextMorph
 		contents: (TCUEmojiHelper embedEmojisInto: anOption text);
 		hResizing: #spaceFill;
@@ -17,7 +19,7 @@ initializeWith: aPollMessage and: anOption
 		yourself.
 	self color: pollMessage messageColor;
 		borderWidth: 0;
-		addMorph: circleMorph;
+		addMorph: selectionMorph;
 		addMorph: textMorph;
 		hResizing: #shrinkWrap;
 		"hResizing: #spaceFill;"
