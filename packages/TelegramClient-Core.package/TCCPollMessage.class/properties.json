@@ -1,0 +1,19 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"question",
+		"options",
+		"isAnonymous",
+		"pollType",
+		"allowsMultipleAnswers",
+		"isClosed" ],
+	"name" : "TCCPollMessage",
+	"pools" : [
+		 ],
+	"super" : "TCCMessage",
+	"type" : "normal" }

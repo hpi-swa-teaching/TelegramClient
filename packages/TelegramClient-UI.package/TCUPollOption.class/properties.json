@@ -1,0 +1,17 @@
+{
+	"category" : "TelegramClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectionMorph",
+		"textMorph",
+		"pollMessage",
+		"pollOption" ],
+	"name" : "TCUPollOption",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }

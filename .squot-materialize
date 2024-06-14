@@ -107,15 +107,15 @@
 	},
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
-			'README.md'
+			'.github',
+			'workflows',
+			'main.yml'
 		],
 		#encoding : 'TXT'
 	},
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
-			'.github',
-			'workflows',
-			'main.yml'
+			'README.md'
 		],
 		#encoding : 'TXT'
 	},
@@ -134,6 +134,13 @@
 			'packages'
 		]
 	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'scripts',
+			'preLoading.st'
+		],
+		#encoding : 'TXT'
+	},
 	SquotCypressMapper {
 		#package : MCPackage {
 			#name : 'BaselineOfTelegramClient'
@@ -141,13 +148,6 @@
 		#path : FSAbsolutePath [
 			'packages'
 		]
-	},
-	SquotPlaintextMapper {
-		#path : FSAbsolutePath [
-			'scripts',
-			'preLoading.st'
-		],
-		#encoding : 'TXT'
 	},
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [

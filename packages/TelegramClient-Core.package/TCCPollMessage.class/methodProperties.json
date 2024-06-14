@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"newFrom:" : "TU 6/6/2024 01:42" },
+	"instance" : {
+		"allowsMultipleAnswers" : "ED 6/5/2024 16:25",
+		"allowsMultipleAnswers:" : "ED 6/5/2024 16:33",
+		"asSnippet" : "ED 5/26/2024 11:05",
+		"asText" : "ED 5/26/2024 11:00",
+		"hasVoted" : "TU 6/6/2024 01:55",
+		"hasVoted:" : "6/14/2024 00:26:15",
+		"isAnonymous" : "ED 6/5/2024 13:10",
+		"isAnonymous:" : "ED 6/5/2024 13:10",
+		"isClosed" : "TU 6/6/2024 00:35",
+		"isClosed:" : "TU 6/6/2024 00:42",
+		"isSelectionAllowed" : "TU 6/6/2024 01:55",
+		"optionClicked:" : "TU 6/6/2024 01:57",
+		"optionText" : "6/6/2024 00:10:50",
+		"optionText:" : "6/6/2024 00:10:50",
+		"options" : "ED 6/5/2024 15:40",
+		"options:" : "ED 6/5/2024 15:40",
+		"pollType" : "ED 6/5/2024 13:11",
+		"pollType:" : "ED 6/5/2024 13:11",
+		"question" : "ED 5/26/2024 10:42",
+		"question:" : "ED 5/26/2024 10:42",
+		"selectOption:" : "TU 6/6/2024 01:42" } }

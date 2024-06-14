@@ -1,0 +1,19 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"isBeingChosen",
+		"isChosen",
+		"text",
+		"votePercentage",
+		"voterCount",
+		"ordinal" ],
+	"name" : "TCCPollOption",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

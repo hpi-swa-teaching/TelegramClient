@@ -1,0 +1,4 @@
+accessing
+pollType
+
+	^ pollType
