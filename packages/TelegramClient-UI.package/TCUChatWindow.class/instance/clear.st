@@ -6,3 +6,5 @@ clear
 	self welcomeMessage show.
 	self chatMessageList hide.
 	self infoPage hide.
+	self stickerWindow ifNotNil: [self stickerWindow close.
+		self stickerWindow: nil].

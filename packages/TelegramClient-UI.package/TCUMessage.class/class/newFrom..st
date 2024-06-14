@@ -6,8 +6,10 @@ newFrom: aCoreMessage
 			[TCCPollMessage] -> [TCUPollMessage].
 			[TCCPhotoMessage] -> [TCUPhotoMessage].
 			[TCCVideoMessage] -> [TCUVideoMessage].
+			[TCCStickerMessage] -> [TCUStickerMessage].
 			[TCCAddMembersMessage] -> [TCUInfoMessage].
 			[TCCDeleteMemberMessage] -> [TCUInfoMessage].
+			[TCCAnimatedStickerMessage] -> [TCUAnimatedStickerMessage].
 		} otherwise: [TCUTextMessage])
 		basicNew
 		messageModel: aCoreMessage;

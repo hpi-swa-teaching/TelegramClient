@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addCloseButton" : "JK 5/21/2024 10:22",
+		"buildStickerListItems" : "JK 6/5/2024 12:09",
+		"close" : "JK 5/29/2024 20:09",
+		"collectInstalledStickers" : "6/7/2024 09:02:10",
+		"convertWebp:" : "TU 5/29/2024 15:05",
+		"core" : "JK 5/31/2024 14:29",
+		"core:" : "JK 5/31/2024 14:29",
+		"downloadStickerSetFrom:" : "6/7/2024 09:02:10",
+		"initialize" : "JK 5/31/2024 14:35",
+		"loadStickers" : "JK 6/5/2024 11:45",
+		"loadStickersFromStore" : "JK 6/4/2024 11:57",
+		"selectedChat" : "JK 5/28/2024 10:22",
+		"selectedChat:" : "JK 5/28/2024 10:23",
+		"shouldRedraw" : "JK 5/22/2024 20:12",
+		"shouldRedraw:" : "JK 5/22/2024 20:12",
+		"step" : "JK 6/5/2024 12:07",
+		"stepTime" : "JK 5/22/2024 19:59" } }

@@ -14,7 +14,8 @@
 		"pendingRequests",
 		"callbackCounter",
 		"userStore",
-		"videoStore" ],
+		"videoStore",
+		"stickerStore" ],
 	"name" : "TCCCore",
 	"pools" : [
 		 ],

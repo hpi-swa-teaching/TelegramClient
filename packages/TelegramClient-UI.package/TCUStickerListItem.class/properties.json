@@ -1,0 +1,16 @@
+{
+	"category" : "TelegramClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"path",
+		"selectedChat",
+		"id" ],
+	"name" : "TCUStickerListItem",
+	"pools" : [
+		 ],
+	"super" : "ImageMorph",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "TelegramClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"core",
+		"stickerIds" ],
+	"name" : "TCCStickerStore",
+	"pools" : [
+		 ],
+	"super" : "Dictionary",
+	"type" : "normal" }
