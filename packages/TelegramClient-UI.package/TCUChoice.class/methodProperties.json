@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"newFor:isExclusive:" : "jkon 6/17/2024 15:40" },
+	"instance" : {
+		"addSelectionMorph" : "jkon 6/17/2024 15:21",
+		"addTextMorph" : "jkon 6/17/2024 15:32",
+		"content" : "jkon 6/17/2024 15:32",
+		"content:" : "jkon 6/17/2024 15:32",
+		"initialize" : "jkon 6/17/2024 15:40",
+		"isExclusive" : "jkon 6/17/2024 15:16",
+		"isExclusive:" : "jkon 6/17/2024 15:17",
+		"isSelected" : "jkon 6/17/2024 14:52",
+		"isSelected:" : "jkon 6/17/2024 14:52",
+		"selectionMorph" : "jkon 6/17/2024 15:20",
+		"selectionMorph:" : "jkon 6/17/2024 15:20",
+		"updateChoice" : "jkon 6/17/2024 14:56" } }

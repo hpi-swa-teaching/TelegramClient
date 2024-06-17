@@ -6,12 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"chat",
-		"typeOption",
 		"selectionMorph",
-		"textMorph",
-		"isSelected" ],
-	"name" : "TCUChatPollEditor",
+		"isSelected",
+		"content",
+		"isExclusive" ],
+	"name" : "TCUChoice",
 	"pools" : [
 		 ],
 	"super" : "RectangleMorph",
