@@ -13,6 +13,6 @@ createInputBar
 		wrapCentering: #topLeft;
 		layoutInset: 2;
 		vResizing: #shrinkWrap;
-		cellInset: 12;
+		cellInset: 8;
 		hide;
 		yourself).

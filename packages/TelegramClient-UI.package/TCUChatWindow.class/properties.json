@@ -14,7 +14,9 @@
 		"textInputField",
 		"sendButton",
 		"stickerButton",
-		"stickerWindow" ],
+		"stickerWindow",
+		"pollButton",
+		"pollEditor" ],
 	"name" : "TCUChatWindow",
 	"pools" : [
 		 ],
