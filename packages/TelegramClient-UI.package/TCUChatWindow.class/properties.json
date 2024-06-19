@@ -16,7 +16,8 @@
 		"stickerButton",
 		"stickerWindow",
 		"pollButton",
-		"pollEditor" ],
+		"pollEditor",
+		"fileButton" ],
 	"name" : "TCUChatWindow",
 	"pools" : [
 		 ],

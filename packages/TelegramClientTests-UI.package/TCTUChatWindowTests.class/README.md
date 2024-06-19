@@ -1,1 +1,0 @@
-Tests the TCUChatWindow
