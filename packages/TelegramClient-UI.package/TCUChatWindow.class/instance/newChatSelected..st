@@ -13,8 +13,7 @@ newChatSelected: aChat
 	self
 		selectedChat: aChat;
 		addTitleBar;
-		addHiddenInfoPage;
-		addHiddenPollEditor.
+		addHiddenInfoPage.
 
 	self  chatMessageList show.
 	self chatMessageList displayChat: aChat.

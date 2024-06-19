@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initialize
 
 	super initialize.
@@ -6,5 +6,5 @@ initialize
 	self
 		color: (TCUDefaultValues colorLightGray alpha: 0.8);
 		borderWidth: 0;
-		on: #mouseUp send: #hide to: self.
+		on: #mouseUp send: #clear to: self.
 		

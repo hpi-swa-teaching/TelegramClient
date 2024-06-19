@@ -1,7 +1,7 @@
 as yet unclassified
 addSelectionMorph
 
-	selectionMorph := RectangleMorph new.
+	selectionMorph := CircleMorph new.
 	selectionMorph
 		color: TCUDefaultValues colorNileBlue;
 		extent: 22@22.

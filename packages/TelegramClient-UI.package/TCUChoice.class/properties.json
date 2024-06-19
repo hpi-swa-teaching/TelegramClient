@@ -9,7 +9,8 @@
 		"selectionMorph",
 		"isSelected",
 		"content",
-		"isExclusive" ],
+		"isExclusive",
+		"poll" ],
 	"name" : "TCUChoice",
 	"pools" : [
 		 ],

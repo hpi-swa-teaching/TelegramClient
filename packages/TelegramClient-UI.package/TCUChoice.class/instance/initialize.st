@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 
-	self color: TCUDefaultValues colorLightBlue;
+	self color: TCUDefaultValues colorNileBlue;
 		borderWidth: 0;
 		hResizing: #shrinkWrap;
 		vResizing: #shrinkWrap;

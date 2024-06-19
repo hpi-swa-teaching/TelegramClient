@@ -1,0 +1,4 @@
+drawing
+clear
+
+	self abandon.

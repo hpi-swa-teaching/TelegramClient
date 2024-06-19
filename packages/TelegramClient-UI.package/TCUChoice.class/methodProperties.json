@@ -1,16 +1,14 @@
 {
 	"class" : {
-		"newFor:isExclusive:" : "jkon 6/17/2024 15:40" },
+		"newFor:" : "jkon 6/19/2024 18:26" },
 	"instance" : {
-		"addSelectionMorph" : "jkon 6/17/2024 15:21",
+		"addSelectionMorph" : "jkon 6/19/2024 18:32",
 		"addTextMorph" : "jkon 6/17/2024 15:32",
 		"content" : "jkon 6/17/2024 15:32",
 		"content:" : "jkon 6/17/2024 15:32",
-		"initialize" : "jkon 6/17/2024 15:40",
-		"isExclusive" : "jkon 6/17/2024 15:16",
-		"isExclusive:" : "jkon 6/17/2024 15:17",
+		"initialize" : "jkon 6/18/2024 10:03",
 		"isSelected" : "jkon 6/17/2024 14:52",
 		"isSelected:" : "jkon 6/17/2024 14:52",
 		"selectionMorph" : "jkon 6/17/2024 15:20",
 		"selectionMorph:" : "jkon 6/17/2024 15:20",
-		"updateChoice" : "jkon 6/17/2024 14:56" } }
+		"updateChoice" : "jkon 6/18/2024 10:03" } }
