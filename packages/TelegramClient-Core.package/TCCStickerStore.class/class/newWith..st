@@ -3,5 +3,5 @@ newWith: aCore
 	
 	^ self new
 		core: aCore;
-		stickerIds: OrderedCollection new;
+		stickerSets: Dictionary new;
 		yourself

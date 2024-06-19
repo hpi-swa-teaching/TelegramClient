@@ -1,15 +1,16 @@
 {
 	"class" : {
 		"extractPathFrom:" : "pk 6/19/2021 16:23",
-		"newWith:" : "JK 6/5/2024 12:01",
+		"newWith:" : "JK 6/19/2024 11:30",
 		"stickerFormFrom:" : "JK 6/5/2024 11:15" },
 	"instance" : {
 		"core" : "pk 6/19/2021 16:13",
 		"core:" : "pk 6/19/2021 16:13",
-		"downloadStickerSet:" : "JK 6/5/2024 12:07",
+		"downloadStickerSet:" : "JK 6/19/2024 11:33",
 		"getFormFor:" : "JK 6/5/2024 11:12",
 		"getFormPromiseFor:" : "JK 5/16/2024 21:21",
 		"getInstalledStickers" : "JK 6/5/2024 11:37",
 		"requestStickerFor:with:" : "JK 5/16/2024 21:40",
-		"stickerIds" : "JK 6/5/2024 11:41",
-		"stickerIds:" : "JK 6/5/2024 11:41" } }
+		"stickerSets" : "JK 6/19/2024 11:30",
+		"stickerSets:" : "JK 6/19/2024 11:30",
+		"storeStickerSet:" : "JK 6/19/2024 11:44" } }

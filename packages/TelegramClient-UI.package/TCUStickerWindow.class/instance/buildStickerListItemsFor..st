@@ -1,5 +1,5 @@
 drawing
-buildStickerListItems
+buildStickerListItemsFor: anOrderedCollection
 
 	| stickers item |
 	

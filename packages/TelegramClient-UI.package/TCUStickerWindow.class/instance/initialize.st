@@ -5,5 +5,7 @@ initialize
 	
 	self extent: 110 @ 590;
 		shouldRedraw: true;
-		addCloseButton.
+		addCloseButton;
+		addPreviousButton;
+		addNextButton.
 		"loadStickers."
