@@ -1,0 +1,4 @@
+initialization
+initializeStickerStore
+
+	self core stickerStore loadStickerIds

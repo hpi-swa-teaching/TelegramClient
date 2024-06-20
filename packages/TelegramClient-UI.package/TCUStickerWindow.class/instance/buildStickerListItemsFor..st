@@ -1,15 +1,15 @@
 drawing
-buildStickerListItemsFor: anOrderedCollection
+buildStickerListItemsFor: anArray
 
 	| stickers item |
 	
 	stickers := OrderedCollection new.
-	(self core stickerStore keys) do: [:sticker | 
+	anArray do: [:stickerId | 
 		item := (TCUStickerListItem new
-			image: ((self core stickerStore getFormFor: sticker) scaledToWidth: 100);
-			id: sticker;
+			image: ((self core stickerStore getFormFor: stickerId) scaledToWidth: 100);
+			id: stickerId;
 			selectedChat: self selectedChat).
-		item on: #mouseDown send: #sendStickerMessage:event:from: to: self selectedChat withValue: sticker.
+		item on: #mouseDown send: #sendStickerMessage:event:from: to: self selectedChat withValue: stickerId.
 		stickers add: item].
 	self items: stickers.
 	

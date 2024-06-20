@@ -9,7 +9,8 @@
 		"closeButton",
 		"shouldRedraw",
 		"selectedChat",
-		"core" ],
+		"core",
+		"selectedSet" ],
 	"name" : "TCUStickerWindow",
 	"pools" : [
 		 ],

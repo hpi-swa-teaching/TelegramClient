@@ -1,8 +1,7 @@
 stepping and presenter
 step
-	
+
 	self shouldRedraw ifTrue: [
-		self core stickerStore getInstalledStickers.
-		self buildStickerListItems.
-		self items do: [:anItem | self scroller addMorphBack: anItem].
+		self selectedSet: ((self core stickerStore stickerSets keysInOrder) at: 1).
+		self showSelectedSet.
 		self shouldRedraw: false]

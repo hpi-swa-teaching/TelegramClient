@@ -8,6 +8,7 @@ initialize
 		addHeader;
 		chatWindow: TCUChatWindow new;
 		addChatsList;
+		initializeStickerStore;
 		initializeChatWindow;
 		subscribeChatsList;
 		clipSubmorphs: true.

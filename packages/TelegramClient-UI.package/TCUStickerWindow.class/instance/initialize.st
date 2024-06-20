@@ -8,4 +8,3 @@ initialize
 		addCloseButton;
 		addPreviousButton;
 		addNextButton.
-		"loadStickers."
