@@ -7,6 +7,7 @@ newFrom: aCoreMessage
 			[TCCPhotoMessage] -> [TCUPhotoMessage].
 			[TCCVideoMessage] -> [TCUVideoMessage].
 			[TCCStickerMessage] -> [TCUStickerMessage].
+			[TCCDocumentMessage] -> [TCUDocumentMessage].
 			[TCCAddMembersMessage] -> [TCUInfoMessage].
 			[TCCDeleteMemberMessage] -> [TCUInfoMessage].
 			[TCCAnimatedStickerMessage] -> [TCUAnimatedStickerMessage].

@@ -1,0 +1,1 @@
+data-represantation of a single text message in a chat
