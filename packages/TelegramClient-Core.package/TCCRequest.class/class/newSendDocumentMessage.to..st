@@ -1,5 +1,7 @@
 instance creation
 newSendDocumentMessage: aDocumentPath to: aChatId
+	Transcript show: aDocumentPath.
+	self halt.
 
 	^ TCCRequest
 		newWithType: 'sendMessage'
