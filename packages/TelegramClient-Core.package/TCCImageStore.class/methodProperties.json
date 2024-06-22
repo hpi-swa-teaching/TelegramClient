@@ -1,11 +1,5 @@
 {
 	"class" : {
-		"extractPathFrom:" : " 6/21/2024 14:11:19",
-		"imageFormFrom:" : " 6/21/2024 14:11:19",
-		"newWith:" : " 6/21/2024 14:11:19" },
+		 },
 	"instance" : {
-		"core" : " 6/21/2024 14:11:19",
-		"core:" : " 6/21/2024 14:11:19",
-		"getFormFor:" : " 6/21/2024 14:11:19",
-		"getFormPromiseFor:" : " 6/21/2024 14:11:19",
-		"requestImageFor:with:" : " 6/21/2024 14:11:19" } }
+		 } }

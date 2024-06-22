@@ -1,9 +1,6 @@
 {
 	"class" : {
-		"extractPathFrom:" : " 6/21/2024 14:11:19",
-		"imageFormFrom:" : " 6/21/2024 14:11:19" },
+		 },
 	"instance" : {
-		"getFormFor:" : " 6/21/2024 14:11:19",
-		"getFormPromiseFor:" : " 6/21/2024 14:11:19",
 		"getVideoFor:" : "JK 6/12/2024 19:48",
 		"getVideoPromiseFor:" : "JK 6/12/2024 19:56" } }
