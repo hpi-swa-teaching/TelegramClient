@@ -20,6 +20,7 @@
 		"testPhotoMessageCorrectlyConstructedFromJson" : "JK 6/23/2024 14:31",
 		"testPhotoMessageTypeIdentifiedCorrectly" : "JK 6/23/2024 11:26",
 		"testPollMessageCorrectlyConstructedFromJson" : "TU 6/23/2024 16:36",
+		"testPollMessageTypeIdentifiedCorrectly" : "TU 6/23/2024 16:41",
 		"testSenderNameInChannelMessage" : "tom.richter 7/25/2021 11:36",
 		"testSenderNameInNonChannelMessage" : "per 7/17/2021 16:13",
 		"testStaticStickerMessageCorrectlyContructedFromJson" : "JK 6/23/2024 14:34",
