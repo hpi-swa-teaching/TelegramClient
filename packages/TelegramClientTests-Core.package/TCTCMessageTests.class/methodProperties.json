@@ -19,7 +19,7 @@
 		"testNotSupportedMessageTypeIdentifiedCorrectly" : "js 7/31/2022 10:29",
 		"testPhotoMessageCorrectlyConstructedFromJson" : "JK 6/23/2024 14:31",
 		"testPhotoMessageTypeIdentifiedCorrectly" : "JK 6/23/2024 11:26",
-		"testPollMessageCorrectlyConstructedFromJson" : "TU 6/23/2024 16:36",
+		"testPollMessageCorrectlyConstructedFromJson" : "JK 6/23/2024 17:58",
 		"testPollMessageTypeIdentifiedCorrectly" : "TU 6/23/2024 16:41",
 		"testSenderNameInChannelMessage" : "tom.richter 7/25/2021 11:36",
 		"testSenderNameInNonChannelMessage" : "per 7/17/2021 16:13",
