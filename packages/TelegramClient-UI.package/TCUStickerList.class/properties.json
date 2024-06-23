@@ -11,7 +11,7 @@
 		"selectedChat",
 		"core",
 		"selectedSet" ],
-	"name" : "TCUStickerWindow",
+	"name" : "TCUStickerList",
 	"pools" : [
 		 ],
 	"super" : "TCUList",
