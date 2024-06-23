@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"mockAnimatedStickerMessageJsonFrom:" : "JK 6/23/2024 11:49",
 		"mockBasicGroupChat" : "rgw 6/2/2022 12:06",
 		"mockBasicGroupFullInfoJson" : "per 6/10/2021 19:41",
 		"mockChannelSupergroupChat" : "rgw 6/2/2022 12:07",
@@ -9,6 +10,8 @@
 		"mockChatHistoryJsonContainingMessageId:inChat:" : "aka 6/15/2022 11:49",
 		"mockChats" : "LR 7/16/2022 12:52",
 		"mockChatsFor:" : "JB 7/18/2021 13:15",
+		"mockDocumentFileName" : "JK 6/23/2024 12:00",
+		"mockDocumentMessageJsonFrom:" : "JK 6/23/2024 12:01",
 		"mockEmojiSequence1" : "pk 7/10/2021 15:22",
 		"mockEmojiSequence2" : "pk 7/10/2021 15:23",
 		"mockEmojiString" : "pk 7/11/2021 20:23",
@@ -43,6 +46,10 @@
 		"mockPrivateChatLastMessageIsLoggedInUser" : "LR 7/16/2022 12:25",
 		"mockSingleEmojiSequence" : "pk 7/10/2021 15:21",
 		"mockSplitCharsAndEmojis" : "pk 7/10/2021 15:23",
+		"mockStaticStickerMessageJsonFrom:" : "JK 6/23/2024 11:40",
+		"mockStickerHeight" : "JK 6/23/2024 11:39",
+		"mockStickerId" : "JK 6/23/2024 11:39",
+		"mockStickerWidth" : "JK 6/23/2024 11:39",
 		"mockSupergroupChat" : "rgw 6/2/2022 12:07",
 		"mockSupergroupMembersJson" : "per 6/10/2021 20:53",
 		"mockText" : "TR 6/25/2021 21:15",
@@ -73,6 +80,10 @@
 		"mockUserStore" : "LR 7/16/2022 12:58",
 		"mockUsers" : "LR 7/16/2022 12:25",
 		"mockValidEmoji" : "pk 7/9/2021 16:07",
+		"mockVideoHeight" : "JK 6/23/2024 11:11",
+		"mockVideoId" : "JK 6/23/2024 11:10",
+		"mockVideoMessageJsonFrom:" : "JK 6/23/2024 11:14",
+		"mockVideoWidth" : "JK 6/23/2024 11:11",
 		"writeMockImage" : "pk 6/19/2021 17:36" },
 	"instance" : {
 		 } }

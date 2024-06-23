@@ -2,6 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testAnimatedStickerMessageCorrectlyConstructedFromJson" : "JK 6/23/2024 11:49",
+		"testAnimatedStickerMessageTypeIdentifiedCorrectly" : "JK 6/23/2024 11:45",
+		"testDocumentMessageCorrectlyConstructedFromJson" : "JK 6/23/2024 12:01",
+		"testDocumentMessageTypeIdentifiedCorrectly" : "JK 6/23/2024 11:55",
 		"testMessageAddMembersCorrectlyConstructedFromJson" : "ek 8/5/2022 15:07",
 		"testMessageCorrectlyConstructedFromJson" : "js 7/31/2022 10:28",
 		"testMessageDeleteMemberCorrectlyConstructedFromJson" : "ek 8/5/2022 15:08",
@@ -14,8 +18,12 @@
 		"testMessageWithMessageSenderChatCorrectlyConstructedFromJson" : "js 7/31/2022 10:29",
 		"testNotSupportedMessageTypeIdentifiedCorrectly" : "js 7/31/2022 10:29",
 		"testPhotoMessageCorrectlyConstructedFromJson" : "js 7/31/2022 10:29",
-		"testPhotoMessageTypeIdentifiedCorrectly" : "js 7/31/2022 10:29",
+		"testPhotoMessageTypeIdentifiedCorrectly" : "JK 6/23/2024 11:26",
 		"testSenderNameInChannelMessage" : "tom.richter 7/25/2021 11:36",
 		"testSenderNameInNonChannelMessage" : "per 7/17/2021 16:13",
+		"testStaticStickerMessageCorrectlyContructedFromJson" : "JK 6/23/2024 11:43",
+		"testStaticStickerMessageTypeIdentifiedCorrectly" : "JK 6/23/2024 11:30",
 		"testTextMessageCorrectlyConstructedFromJson" : "js 7/31/2022 10:30",
-		"testTextMessageTypeIdentifiedCorrectly" : "js 7/31/2022 10:30" } }
+		"testTextMessageTypeIdentifiedCorrectly" : "js 7/31/2022 10:30",
+		"testVideoMessageCorrectlyConstructedFromJson" : "JK 6/23/2024 11:12",
+		"testVideoMessageTypeIdentifiedCorrectly" : "JK 6/23/2024 11:24" } }
