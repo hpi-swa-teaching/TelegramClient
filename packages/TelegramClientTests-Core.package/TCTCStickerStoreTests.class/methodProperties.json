@@ -1,0 +1,6 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "JK 6/23/2024 16:21",
+		"testCorrectlyLoadsStickerIdsFromJson" : "JK 6/23/2024 16:43" } }

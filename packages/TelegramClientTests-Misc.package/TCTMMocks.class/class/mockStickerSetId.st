@@ -1,0 +1,4 @@
+sticker
+mockStickerSetId
+	
+	^ 13

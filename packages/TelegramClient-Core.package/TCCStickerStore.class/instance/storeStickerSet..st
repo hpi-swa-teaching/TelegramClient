@@ -2,6 +2,7 @@ utility
 storeStickerSet: aStickerSet
 	
 	| stickers |
+	
 	self stickerSets at: (aStickerSet at: 'id') ifAbsent: [
 		stickers := OrderedCollection new.
 		(aStickerSet at: 'stickers') do: [:sticker |
