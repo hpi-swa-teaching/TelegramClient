@@ -8,3 +8,5 @@ testDocumentMessageCorrectlyConstructedFromJson
 	documentMessage := TCCMessage newFromMessageEvent: documentMessageEvent in: chat with: self core.
 
 	self assert: TCTMMocks mockDocumentFileName equals: documentMessage filename.
+	self assert: TCTMMocks mockDocumentFileName equals: documentMessage asSnippet.
+	self assert: TCTMMocks mockDocumentFileName equals: documentMessage asText.

@@ -4,7 +4,7 @@
 	"instance" : {
 		"testAnimatedStickerMessageCorrectlyConstructedFromJson" : "JK 6/23/2024 14:35",
 		"testAnimatedStickerMessageTypeIdentifiedCorrectly" : "JK 6/23/2024 11:45",
-		"testDocumentMessageCorrectlyConstructedFromJson" : "JK 6/23/2024 12:01",
+		"testDocumentMessageCorrectlyConstructedFromJson" : "JK 6/23/2024 17:43",
 		"testDocumentMessageTypeIdentifiedCorrectly" : "JK 6/23/2024 11:55",
 		"testMessageAddMembersCorrectlyConstructedFromJson" : "ek 8/5/2022 15:07",
 		"testMessageCorrectlyConstructedFromJson" : "js 7/31/2022 10:28",
