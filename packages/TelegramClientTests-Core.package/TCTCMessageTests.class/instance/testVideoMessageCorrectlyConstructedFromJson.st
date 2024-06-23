@@ -13,3 +13,5 @@ testVideoMessageCorrectlyConstructedFromJson
 	self assert: TCTMMocks mockPhotoHeight equals: videoMessage height.
 	self assert: TCTMMocks mockPhotoWidth equals: videoMessage width.
 	self assert: TCTMMocks mockVideoId equals: videoMessage videoId.
+	self assert: 'Video: ', TCTMMocks mockText equals: videoMessage asSnippet.
+	self assert: TCTMMocks mockText equals: videoMessage asText.
