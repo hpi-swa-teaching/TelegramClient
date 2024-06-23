@@ -5,6 +5,12 @@
 		],
 		#encoding : 'TXT'
 	},
+	SquotImageMapper {
+		#path : FSAbsolutePath [
+			'file-icon.png'
+		],
+		#encoding : Class [ #PNGReadWriter ]
+	},
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
 			'.github',
@@ -117,7 +123,7 @@
 			'assets',
 			'logo.png'
 		],
-		#encoding : Class [ #PNGReadWriter ]
+		#encoding : @6
 	},
 	SquotCypressMapper {
 		#package : MCPackage {
@@ -169,6 +175,13 @@
 		],
 		#encoding : Class [ #JPEGReadWriter2 ]
 	},
+	SquotImageMapper {
+		#path : FSAbsolutePath [
+			'assets',
+			'play_circle_outline_icon.png'
+		],
+		#encoding : @6
+	},
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
 			'.github',
@@ -176,12 +189,5 @@
 			'ci-linter.yml'
 		],
 		#encoding : 'TXT'
-	},
-	SquotImageMapper {
-		#path : FSAbsolutePath [
-			'assets',
-			'play_circle_outline_icon.png'
-		],
-		#encoding : @40
 	}
 ]

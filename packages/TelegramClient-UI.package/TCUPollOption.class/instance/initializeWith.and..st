@@ -1,5 +1,6 @@
 as yet unclassified
 initializeWith: aPollMessage and: anOption
+	| text |
 	
 	pollMessage := aPollMessage.
 	pollOption := anOption.
@@ -9,8 +10,9 @@ initializeWith: aPollMessage and: anOption
 	selectionMorph
 		color: aPollMessage messageColor;
 		extent: 16@16.
+	text := (anOption votePercentage asString),'% ',(anOption text).
 	textMorph := aPollMessage class defaultTextMorph
-		contents: (TCUEmojiHelper embedEmojisInto: anOption text);
+		contents: (TCUEmojiHelper embedEmojisInto: text);
 		hResizing: #spaceFill;
 		color: Color white;
 		margins: aPollMessage class defaultMargins;

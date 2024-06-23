@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "pk 6/19/2021 17:37",
+		"testCachesRequests" : "JK 6/23/2024 16:56",
+		"testCanGetImageForm" : "JK 6/23/2024 16:55",
+		"testCanGetImagePath" : "JK 6/23/2024 16:55",
+		"testDidCreateFile" : "pk 6/19/2021 17:35" } }

@@ -1,0 +1,4 @@
+accessing
+stickerSets
+
+	^ stickerSets

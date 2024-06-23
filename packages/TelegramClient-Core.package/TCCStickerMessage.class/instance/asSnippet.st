@@ -1,4 +1,4 @@
 accessing
 asSnippet
 
-	^ 'Sticker'
+	^ 'Sticker: ', self stickerId

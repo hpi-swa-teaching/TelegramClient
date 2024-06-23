@@ -2,6 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testAnimatedStickerMessageCorrectlyConstructedFromJson" : "JK 6/23/2024 14:35",
+		"testAnimatedStickerMessageTypeIdentifiedCorrectly" : "JK 6/23/2024 11:45",
+		"testDocumentMessageCorrectlyConstructedFromJson" : "JK 6/23/2024 17:43",
+		"testDocumentMessageTypeIdentifiedCorrectly" : "JK 6/23/2024 11:55",
 		"testMessageAddMembersCorrectlyConstructedFromJson" : "ek 8/5/2022 15:07",
 		"testMessageCorrectlyConstructedFromJson" : "js 7/31/2022 10:28",
 		"testMessageDeleteMemberCorrectlyConstructedFromJson" : "ek 8/5/2022 15:08",
@@ -13,9 +17,15 @@
 		"testMessageShouldNotify" : "RS 7/17/2021 10:53",
 		"testMessageWithMessageSenderChatCorrectlyConstructedFromJson" : "js 7/31/2022 10:29",
 		"testNotSupportedMessageTypeIdentifiedCorrectly" : "js 7/31/2022 10:29",
-		"testPhotoMessageCorrectlyConstructedFromJson" : "js 7/31/2022 10:29",
-		"testPhotoMessageTypeIdentifiedCorrectly" : "js 7/31/2022 10:29",
+		"testPhotoMessageCorrectlyConstructedFromJson" : "JK 6/23/2024 14:31",
+		"testPhotoMessageTypeIdentifiedCorrectly" : "JK 6/23/2024 11:26",
+		"testPollMessageCorrectlyConstructedFromJson" : "JK 6/23/2024 17:58",
+		"testPollMessageTypeIdentifiedCorrectly" : "TU 6/23/2024 16:41",
 		"testSenderNameInChannelMessage" : "tom.richter 7/25/2021 11:36",
 		"testSenderNameInNonChannelMessage" : "per 7/17/2021 16:13",
+		"testStaticStickerMessageCorrectlyContructedFromJson" : "JK 6/23/2024 14:34",
+		"testStaticStickerMessageTypeIdentifiedCorrectly" : "JK 6/23/2024 14:34",
 		"testTextMessageCorrectlyConstructedFromJson" : "js 7/31/2022 10:30",
-		"testTextMessageTypeIdentifiedCorrectly" : "js 7/31/2022 10:30" } }
+		"testTextMessageTypeIdentifiedCorrectly" : "JK 6/23/2024 14:32",
+		"testVideoMessageCorrectlyConstructedFromJson" : "JK 6/23/2024 14:31",
+		"testVideoMessageTypeIdentifiedCorrectly" : "JK 6/23/2024 11:24" } }

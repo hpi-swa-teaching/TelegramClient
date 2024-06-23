@@ -1,0 +1,4 @@
+image
+mockStickerWidth
+
+	^ 100

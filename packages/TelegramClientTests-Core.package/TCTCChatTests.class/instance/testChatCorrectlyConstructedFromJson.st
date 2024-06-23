@@ -2,7 +2,7 @@ testing
 testChatCorrectlyConstructedFromJson
 
 	| mockChat |
-
+	
  	mockChat := TCCChat newFromChatEvent: (TCTMMocks mockChatEvent at: 'chat').
 	
 	self assert: 'MockChat' equals: mockChat title.

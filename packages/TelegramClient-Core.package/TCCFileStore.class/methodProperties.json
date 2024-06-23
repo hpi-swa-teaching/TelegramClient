@@ -1,8 +1,11 @@
 {
 	"class" : {
 		"extractPathFrom:" : "JK 6/12/2024 19:32",
+		"imageFormFrom:" : "JK 6/21/2024 13:53",
 		"newWith:" : "pk 6/19/2021 18:09" },
 	"instance" : {
 		"core" : "pk 6/19/2021 16:13",
 		"core:" : "pk 6/19/2021 16:13",
+		"getFormFor:" : "JK 6/21/2024 13:30",
+		"getFormPromiseFor:" : "JK 6/21/2024 13:47",
 		"requestFileFor:with:" : "JK 6/12/2024 19:23" } }

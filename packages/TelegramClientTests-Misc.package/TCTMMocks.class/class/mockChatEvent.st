@@ -20,7 +20,7 @@ mockChatEvent
  				}).
 				'photo' -> (JsonObject newFrom: {
 					'@type' -> 'chatPhotoInfo'.
-					'small' -> (JsonObject newFrom: {
+					'big' -> (JsonObject newFrom: {
 						'@type' -> 'file'.
 						'id' -> self mockImageId
 					}).

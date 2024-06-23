@@ -15,8 +15,9 @@
 		"deleteMorph" : "RS 7/17/2021 12:20",
 		"header" : "r.s 8/2/2020 19:07",
 		"header:" : "r.s 8/2/2020 19:08",
-		"initialize" : "RS 7/17/2021 17:47",
+		"initialize" : "JK 6/20/2024 22:24",
 		"initializeChatWindow" : "RS 7/17/2021 12:01",
+		"initializeStickerStore" : "JK 6/20/2024 22:28",
 		"logout" : "RS 7/31/2021 15:57",
 		"newMessageReceived:" : "per 6/16/2021 17:36",
 		"subscribeChatsList" : "RS 7/17/2021 11:48" } }

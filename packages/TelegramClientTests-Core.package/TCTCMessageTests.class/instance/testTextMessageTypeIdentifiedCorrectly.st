@@ -8,3 +8,5 @@ testTextMessageTypeIdentifiedCorrectly
 	textMessage := TCCMessage newFromMessageEvent: textMessageEvent in: chat with: self core.
 
 	self assert: TCCTextMessage equals: textMessage class.
+	self assert: TCTMMocks mockText equals: textMessage asSnippet.
+	self assert: TCTMMocks mockText equals: textMessage asText.
