@@ -1,4 +1,4 @@
 accessing
 libraryFilePath
 
-	^ FileDirectory default / self directoryName / 'tdjson.dll'
+	^ FileDirectory default / 'tdjson.dll'
