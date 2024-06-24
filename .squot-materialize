@@ -1,18 +1,6 @@
 [
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
-			'.squot'
-		],
-		#encoding : 'TXT'
-	},
-	SquotImageMapper {
-		#path : FSAbsolutePath [
-			'file-icon.png'
-		],
-		#encoding : Class [ #PNGReadWriter ]
-	},
-	SquotPlaintextMapper {
-		#path : FSAbsolutePath [
 			'.github',
 			'discord_actions.yml'
 		],
@@ -20,55 +8,29 @@
 	},
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
-			'.github',
-			'ISSUE_TEMPLATE',
-			'feature_request.md'
-		],
-		#encoding : 'TXT'
-	},
-	SquotPlaintextMapper {
-		#path : FSAbsolutePath [
-			'.gitignore'
-		],
-		#encoding : 'TXT'
-	},
-	SquotPlaintextMapper {
-		#path : FSAbsolutePath [
-			'CONTRIBUTING.md'
-		],
-		#encoding : 'TXT'
-	},
-	SquotCypressMapper {
-		#package : MCPackage {
-			#name : 'TelegramClientTests-UI'
-		},
-		#path : FSAbsolutePath [
-			'packages'
-		]
-	},
-	SquotPlaintextMapper {
-		#path : FSAbsolutePath [
-			'.smalltalk.ston'
-		],
-		#encoding : 'TXT'
-	},
-	SquotCypressMapper {
-		#package : MCPackage {
-			#name : 'BaselineOfTelegramClient'
-		},
-		#path : FSAbsolutePath [
-			'packages'
-		]
-	},
-	SquotPlaintextMapper {
-		#path : FSAbsolutePath [
-			'README.md'
-		],
-		#encoding : 'TXT'
-	},
-	SquotPlaintextMapper {
-		#path : FSAbsolutePath [
 			'.smalltalk.release.ston'
+		],
+		#encoding : 'TXT'
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'TelegramClientTests-Core'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'TelegramClientTests-Misc'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.smalltalk.lint.ston'
 		],
 		#encoding : 'TXT'
 	},
@@ -91,30 +53,8 @@
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
 			'.github',
-			'workflows',
-			'main.yml'
-		],
-		#encoding : 'TXT'
-	},
-	SquotPlaintextMapper {
-		#path : FSAbsolutePath [
-			'.github',
-			'stale.yml'
-		],
-		#encoding : 'TXT'
-	},
-	SquotCypressMapper {
-		#package : MCPackage {
-			#name : 'TelegramClientTests-Misc'
-		},
-		#path : FSAbsolutePath [
-			'packages'
-		]
-	},
-	SquotPlaintextMapper {
-		#path : FSAbsolutePath [
-			'.github',
-			'pull_request_template.md'
+			'ISSUE_TEMPLATE',
+			'feature_request.md'
 		],
 		#encoding : 'TXT'
 	},
@@ -123,26 +63,11 @@
 			'assets',
 			'logo.png'
 		],
-		#encoding : @6
-	},
-	SquotCypressMapper {
-		#package : MCPackage {
-			#name : 'TelegramClientTests-Core'
-		},
-		#path : FSAbsolutePath [
-			'packages'
-		]
+		#encoding : Class [ #PNGReadWriter ]
 	},
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
-			'.smalltalk.lint.ston'
-		],
-		#encoding : 'TXT'
-	},
-	SquotPlaintextMapper {
-		#path : FSAbsolutePath [
-			'scripts',
-			'preLoading.st'
+			'.gitignore'
 		],
 		#encoding : 'TXT'
 	},
@@ -151,22 +76,6 @@
 			'LICENSE'
 		],
 		#encoding : 'TXT'
-	},
-	SquotPlaintextMapper {
-		#path : FSAbsolutePath [
-			'.github',
-			'workflows',
-			'release.yml'
-		],
-		#encoding : 'TXT'
-	},
-	SquotCypressMapper {
-		#package : MCPackage {
-			#name : 'TelegramClient-Core'
-		},
-		#path : FSAbsolutePath [
-			'packages'
-		]
 	},
 	SquotImageMapper {
 		#path : FSAbsolutePath [
@@ -180,13 +89,104 @@
 			'assets',
 			'play_circle_outline_icon.png'
 		],
-		#encoding : @6
+		#encoding : @23
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'CONTRIBUTING.md'
+		],
+		#encoding : 'TXT'
 	},
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
 			'.github',
 			'workflows',
 			'ci-linter.yml'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'README.md'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.github',
+			'workflows',
+			'main.yml'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.github',
+			'stale.yml'
+		],
+		#encoding : 'TXT'
+	},
+	SquotImageMapper {
+		#path : FSAbsolutePath [
+			'file-icon.png'
+		],
+		#encoding : @23
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'TelegramClientTests-UI'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'BaselineOfTelegramClient'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'scripts',
+			'preLoading.st'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.smalltalk.ston'
+		],
+		#encoding : 'TXT'
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'TelegramClient-Core'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.squot'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.github',
+			'workflows',
+			'release.yml'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.github',
+			'pull_request_template.md'
 		],
 		#encoding : 'TXT'
 	}

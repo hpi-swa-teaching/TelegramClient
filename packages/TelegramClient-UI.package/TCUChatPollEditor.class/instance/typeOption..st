@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 typeOption: aRectangleMorph
 
 	typeOption :=  aRectangleMorph

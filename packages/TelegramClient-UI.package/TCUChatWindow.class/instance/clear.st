@@ -6,5 +6,7 @@ clear
 	self welcomeMessage show.
 	self chatMessageList hide.
 	self infoPage hide.
+	self pollEditor ifNotNil: [self pollEditor abandon. 
+		self pollEditor: nil].
 	self stickerWindow ifNotNil: [self stickerWindow close.
 		self stickerWindow: nil].
