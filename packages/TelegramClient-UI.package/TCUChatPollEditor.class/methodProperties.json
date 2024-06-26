@@ -2,7 +2,7 @@
 	"class" : {
 		"newFor:withBounds:" : "jkon 6/17/2024 11:14" },
 	"instance" : {
-		"addChoices" : " 6/24/2024 10:41:19",
+		"addChoices" : "6/24/2024 10:41:19",
 		"addChoices:" : "jkon 6/19/2024 21:34",
 		"addConfirmButton:" : "jkon 6/18/2024 10:05",
 		"addInputFieldFor:" : "jkon 6/19/2024 21:44",
@@ -13,7 +13,7 @@
 		"chat" : "jkon 6/17/2024 10:29",
 		"chat:" : "jkon 6/17/2024 10:29",
 		"clear" : "jkon 6/18/2024 13:40",
-		"confirmPressed" : "jkon 6/19/2024 18:52",
+		"confirmPressed" : "jkon 6/26/2024 10:54",
 		"createNameSetter" : "jkon 6/19/2024 21:33",
 		"createTypeOption" : "jkon 6/19/2024 21:48",
 		"currentSelection" : "jkon 6/19/2024 18:39",
