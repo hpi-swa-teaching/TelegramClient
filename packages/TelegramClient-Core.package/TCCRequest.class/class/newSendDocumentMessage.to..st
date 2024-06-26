@@ -7,7 +7,7 @@ newSendDocumentMessage: aDocumentPath to: aChatId
 			'chat_id' -> aChatId.
 			'input_message_content' -> (Dictionary newFrom: {
 				'@type' -> 'inputMessageDocument'.
-				'photo' -> (Dictionary newFrom: {
+				'document' -> (Dictionary newFrom: {
 					'@type' -> 'inputFileLocal'.
 					'path' -> aDocumentPath.
 				})

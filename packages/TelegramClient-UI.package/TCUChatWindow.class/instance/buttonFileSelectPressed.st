@@ -3,7 +3,7 @@ buttonFileSelectPressed
 
 	| fileEnding fileObject videoEndings photoEndings|
 	
-	photoEndings := #('jpg' 'jpeg' 'png' 'webp' 'gif' 'bmp').
+	photoEndings := #('jpg' 'jpeg' 'png' 'gif' 'bmp').
 	videoEndings := #('mp4' 'webm' 'mov' 'avi').
 	
 	fileObject := (FileChooser new initializeAsDialogBox open).
