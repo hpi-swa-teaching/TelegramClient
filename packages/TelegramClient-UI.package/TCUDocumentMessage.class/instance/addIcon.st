@@ -1,7 +1,8 @@
 constructing
 addIcon
 
-	| iconForm |
+	| iconForm iconMorph|
 	iconForm := self class getIcon.
-	iconForm := iconForm scaledToHeight: self class maxHeight.
-	self addMorphBack: iconForm asMorph
+	iconMorph := (iconForm scaledToHeight: self class maxHeight) asMorph.
+	iconMorph on: #mouseDown send: #moveDocument to: self.
+	self addMorphBack: iconMorph

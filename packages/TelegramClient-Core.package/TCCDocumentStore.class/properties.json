@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
-		"filename",
-		"documentId" ],
-	"name" : "TCCDocumentMessage",
+		 ],
+	"name" : "TCCDocumentStore",
 	"pools" : [
 		 ],
-	"super" : "TCCMessage",
+	"super" : "TCCFileStore",
 	"type" : "normal" }

@@ -15,7 +15,8 @@
 		"callbackCounter",
 		"userStore",
 		"videoStore",
-		"stickerStore" ],
+		"stickerStore",
+		"documentStore" ],
 	"name" : "TCCCore",
 	"pools" : [
 		 ],
