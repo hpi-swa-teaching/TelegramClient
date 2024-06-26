@@ -3,6 +3,13 @@ newFrom: aJsonObject
 
 	| thumbnailData |
 	thumbnailData := ((aJsonObject at: 'video') at: 'thumbnail').
+	thumbnailData = nil ifTrue: [
+		thumbnailData := JsonObject newFrom: {
+			'width' -> 810.
+			'height' -> 452.
+			'file' -> (JsonObject newFrom: {'id' -> -1}).
+		}.
+	].
 
 	^ self new
 		caption: ((aJsonObject at: 'caption') at: 'text');
