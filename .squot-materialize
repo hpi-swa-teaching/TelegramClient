@@ -20,13 +20,6 @@
 		],
 		#encoding : 'TXT'
 	},
-	SquotImageMapper {
-		#path : FSAbsolutePath [
-			'assets',
-			'default-video-thumbnail.png'
-		],
-		#encoding : Class [ #PNGReadWriter ]
-	},
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
 			'.gitignore'
@@ -124,7 +117,7 @@
 			'assets',
 			'logo.png'
 		],
-		#encoding : @10
+		#encoding : Class [ #PNGReadWriter ]
 	},
 	SquotCypressMapper {
 		#package : MCPackage {
@@ -139,6 +132,13 @@
 			'.smalltalk.lint.ston'
 		],
 		#encoding : 'TXT'
+	},
+	SquotImageMapper {
+		#path : FSAbsolutePath [
+			'assets',
+			'default_video_thumbnail.png'
+		],
+		#encoding : @40
 	},
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
@@ -189,6 +189,6 @@
 			'assets',
 			'play_circle_outline_icon.png'
 		],
-		#encoding : @10
+		#encoding : @40
 	}
 ]
