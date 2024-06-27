@@ -5,7 +5,7 @@ updateReplyMessage
 	inputFieldText := self textInputField contents asString.
 	self inputBar submorphsDo: #abandon.
 	self addStickerButton.
-	self addPollButton.
+	self selectedChat isGroup ifTrue: [self addPollButton].
 	self addFileButton.
 	self addSendButton.
 	self addTextInputField.
