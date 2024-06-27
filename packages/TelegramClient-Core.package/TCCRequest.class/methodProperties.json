@@ -21,12 +21,13 @@
 		"newSendMessage:to:" : "6/7/2024 09:02:10",
 		"newSendMessage:to:asReplyTo:" : "JS 5/20/2022 10:02",
 		"newSendPhoneNumber:" : "RS 6/23/2021 16:34",
-		"newSendPhotoMessage:to:" : "jkon 6/26/2024 16:50",
-		"newSendPollMessage:to:" : "jkon 6/26/2024 16:56",
+		"newSendPhotoMessage:to:" : "jkon 6/27/2024 09:20",
+		"newSendPollMessage:to:asking:with:isAnonymous:" : "jkon 6/27/2024 20:31",
 		"newSendStickerMessage:to:" : "JK 6/21/2024 14:08",
 		"newSendVideoMessage:to:" : "ED 6/19/2024 12:22",
 		"newSetPollAnswer:message:options:" : "TU 6/6/2024 01:15",
 		"newUser:" : "JB 8/1/2021 11:55",
-		"newWithType:from:" : "rs 6/6/2020 16:21" },
+		"newWithType:from:" : "rs 6/6/2020 16:21",
+		"selectJsonFor:" : "jkon 6/27/2024 14:35" },
 	"instance" : {
 		"asString" : "js 8/1/2020 12:16" } }

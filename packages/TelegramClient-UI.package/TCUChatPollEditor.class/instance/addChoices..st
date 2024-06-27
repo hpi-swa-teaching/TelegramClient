@@ -1,7 +1,15 @@
 drawing
 addChoices: aRectangle
 
-	aRectangle addMorph: (TCUChoice newFor: 'Anonymous Poll?');
-		addMorph: (TCUChoiceExclusive newFor: 'Standard Poll' inPoll: self);
-		addMorph: (TCUChoiceExclusive newFor: 'Multiple Options' inPoll: self);
-		addMorph: (TCUChoiceExclusive newFor: 'Quiz' inPoll: self).
+	self createAnonymousChoice. 
+	
+	aRectangle addMorph: self anonymousChoice;
+		addMorph: ((TCUChoiceExclusive newFor: 'Standard Poll' inPoll: self)
+			name: 'regular';
+			yourself);
+		addMorph: ((TCUChoiceExclusive newFor: 'Multiple Options' inPoll: self)
+			name: 'multiple';
+			yourself);
+		addMorph: ((TCUChoiceExclusive newFor: 'Quiz' inPoll: self)
+			name: 'quiz';
+			yourself).
