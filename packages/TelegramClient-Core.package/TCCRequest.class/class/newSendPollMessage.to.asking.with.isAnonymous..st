@@ -9,7 +9,7 @@ newSendPollMessage: aPollType to: aChatId asking: aString with: anOptionOrderedC
 				'@type' -> 'inputMessagePoll'.
 				'question' -> aString.
 				'options' -> anOptionOrderedCollection.
-				'is_anonymous' -> false.
+				'is_anonymous' -> aBoolean.
 				'type' ->(self selectJsonFor: aPollType).
 				}).
 			})
