@@ -3,7 +3,11 @@
 		"WebPDecodeBGRAInto:dataSize:outputBuffer:outputBufferSize:outputStride:" : "TU 5/18/2024 15:20",
 		"WebPGetInfo:dataSize:width:height:" : "TU 5/18/2024 01:44",
 		"decode:" : "TU 5/22/2024 19:22",
+		"downloadUrl" : "TU 6/28/2024 02:46",
+		"fileName" : "TU 6/28/2024 02:40",
 		"formFrom:dimensions:" : "TU 5/22/2024 19:21",
-		"getFileInfo:" : "TU 5/29/2024 15:05" },
+		"getFileInfo:" : "TU 5/29/2024 15:05",
+		"libraryName" : "TU 6/28/2024 02:40",
+		"versionName" : "TU 6/28/2024 02:40" },
 	"instance" : {
 		 } }

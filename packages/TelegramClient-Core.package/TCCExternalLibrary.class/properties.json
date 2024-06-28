@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "js 6/13/2020 16:26",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "TCCFFIClient",
+	"name" : "TCCExternalLibrary",
 	"pools" : [
 		 ],
-	"super" : "TCCExternalLibrary",
+	"super" : "ExternalLibrary",
 	"type" : "normal" }

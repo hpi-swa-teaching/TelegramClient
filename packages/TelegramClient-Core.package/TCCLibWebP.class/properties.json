@@ -10,5 +10,5 @@
 	"name" : "TCCLibWebP",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TCCExternalLibrary",
 	"type" : "normal" }
