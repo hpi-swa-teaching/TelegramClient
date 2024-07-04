@@ -8,7 +8,8 @@ addInputFieldFor: aRectangle
 		color: Color white;
 		contentsWrapped: '' asText;
 		extent: 200 @ 20;
-		"crAction: [self buttonSendPressed];
-	"	yourself).
+		"crAction: [self buttonSendPressed];"
+		yourself).
+	self allInputFields add: inputField.
 	aRectangle addMorph: inputField.
 	

@@ -8,6 +8,6 @@ buttonStickerPressed
 		selectedChat: self selectedChat.
 	self stickerWindow: stickerWindow.
 	self addMorph: stickerWindow.
-	self stickerButton makeLighter.]
+	self buttonMenu stickerButton makeLighter.]
 	ifNotNil: [self stickerWindow close.
 		self stickerWindow: nil]
