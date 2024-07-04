@@ -11,6 +11,8 @@ buildStickerListItemsFor: anArray
 			selectedChat: self selectedChat;
 			path: ((self core stickerStore at: stickerId) value)).
 		item on: #mouseDown send: #sendStickerMessage:event:from: to: self selectedChat withValue: stickerId.
-		stickers add: item].
+		stickers add: item.
+		self scroller addMorphBack: item.
+		Transcript show: '.'].
 	self items: stickers.
 	
