@@ -3,7 +3,7 @@ addButtonMenu
 
 	self createButtonMenu;
 		addStickerButton;
-		addFileButton;
-		addPollButton;
-		addMorphFront: self buttonMenu.
+		addFileButton.
+	(self chat isGroup) ifTrue: [self addPollButton].
+	self addMorphFront: self buttonMenu.
 	self buttonMenu center: self center.

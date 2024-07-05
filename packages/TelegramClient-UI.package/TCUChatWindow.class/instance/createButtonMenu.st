@@ -2,5 +2,5 @@ as yet unclassified
 createButtonMenu
 
 	self
-		buttonMenu: (TCUChatButtonPage newFor: self withBounds: self bounds);
+		buttonMenu: (TCUChatButtonPage newFor: self selectedChat withBounds: self bounds from: self);
 		addMorphFront: self buttonMenu.

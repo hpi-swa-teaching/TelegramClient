@@ -1,8 +1,9 @@
 {
 	"class" : {
-		"newFor:withBounds:" : "jkon 7/4/2024 22:57" },
+		"newFor:withBounds:" : "jkon 7/4/2024 22:57",
+		"newFor:withBounds:from:" : "jkon 7/5/2024 09:30" },
 	"instance" : {
-		"addButtonMenu" : "jkon 7/4/2024 23:00",
+		"addButtonMenu" : "jkon 7/5/2024 09:30",
 		"addFileButton" : "jkon 7/4/2024 22:43",
 		"addPollButton" : "jkon 7/4/2024 22:43",
 		"addStickerButton" : "jkon 7/4/2024 22:43",
