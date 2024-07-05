@@ -2,10 +2,9 @@
 	"class" : {
 		"newFor:withBounds:" : "jkon 6/27/2024 20:14" },
 	"instance" : {
-		"addChoices" : "6/24/2024 10:41:19",
 		"addChoices:" : "jkon 6/27/2024 19:24",
 		"addConfirmButton:" : "jkon 6/18/2024 10:05",
-		"addInputFieldFor:" : "jkon 6/27/2024 20:15",
+		"addInputFieldFor:" : "jkon 7/5/2024 10:00",
 		"addNextButton:" : "jkon 6/19/2024 18:50",
 		"addTextFieldFor:with:" : "jkon 6/18/2024 13:31",
 		"addTextInputFor:" : "jkon 6/19/2024 21:41",
