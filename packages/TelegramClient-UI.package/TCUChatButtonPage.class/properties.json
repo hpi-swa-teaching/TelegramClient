@@ -1,0 +1,19 @@
+{
+	"category" : "TelegramClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"chat",
+		"pollButton",
+		"fileButton",
+		"stickerButton",
+		"buttonMenu",
+		"chatWindow" ],
+	"name" : "TCUChatButtonPage",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }

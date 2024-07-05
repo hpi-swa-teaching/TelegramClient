@@ -3,10 +3,8 @@ newChatSelected: aChat
 
 	self welcomeMessage hide.
 	self inputBar submorphsDo: #abandon.
-	self addStickerButton.
-	aChat isGroup ifTrue: [self addPollButton].
-	self addFileButton.
 	self addSendButton.
+	self addbuttonMenuButton.
 	self addTextInputField.
 	self inputBar show.
 	self titleBar delete.
@@ -16,6 +14,5 @@ newChatSelected: aChat
 		addTitleBar;
 		addHiddenInfoPage;
 		addHiddenPollEditor.
-		
 	self chatMessageList show.
 	self chatMessageList displayChat: aChat.

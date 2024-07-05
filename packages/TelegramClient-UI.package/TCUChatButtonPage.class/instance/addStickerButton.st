@@ -1,10 +1,10 @@
-drawing
+as yet unclassified
 addStickerButton
 
 	self stickerButton: (TCUButton new
 		extent: 100 @ 30;
 		text: 'Sticker';
-		on: #mouseUp send: #buttonStickerPressed to: self;
+		on: #mouseUp send: #buttonStickerPressed to: self chatWindow;
 		name: 'sendSticker';
 		yourself).
 	self buttonMenu addMorph: self stickerButton.
