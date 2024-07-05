@@ -182,6 +182,13 @@
 		],
 		#encoding : Class [ #JPEGReadWriter2 ]
 	},
+	SquotImageMapper {
+		#path : FSAbsolutePath [
+			'assets',
+			'play_circle_outline_icon.png'
+		],
+		#encoding : @6
+	},
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
 			'.github',
@@ -189,12 +196,5 @@
 			'ci-linter.yml'
 		],
 		#encoding : 'TXT'
-	},
-	SquotImageMapper {
-		#path : FSAbsolutePath [
-			'assets',
-			'play_circle_outline_icon.png'
-		],
-		#encoding : @6
 	}
 ]

@@ -15,8 +15,5 @@ buttonFileSelectPressed
 			(fileObject fullName endsWithAnyOf: videoEndings) ifTrue: [
 				self selectedChat sendVideoMessage: (fileObject fullName).
 			] ifFalse: [
-				self selectedChat sendDocumentMessage: (fileObject fullName).
-			]
-		]
-		
-	].
+				self selectedChat sendDocumentMessage: (fileObject fullName).]]].
+	self buttonMenu hide.

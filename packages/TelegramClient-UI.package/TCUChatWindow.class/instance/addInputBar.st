@@ -5,4 +5,5 @@ addInputBar
 		createInputBar;
 		addMorph: self inputBar;
 		addSendButton;
+		addbuttonMenuButton;
 		addTextInputField.

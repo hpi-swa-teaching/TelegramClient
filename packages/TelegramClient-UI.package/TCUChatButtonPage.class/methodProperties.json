@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"newFor:withBounds:" : "jkon 7/4/2024 22:57",
+		"newFor:withBounds:from:" : "jkon 7/5/2024 09:30" },
+	"instance" : {
+		"addButtonMenu" : "jkon 7/5/2024 09:30",
+		"addFileButton" : "jkon 7/4/2024 22:43",
+		"addPollButton" : "jkon 7/4/2024 22:43",
+		"addStickerButton" : "jkon 7/4/2024 22:43",
+		"buttonMenu" : "jkon 7/4/2024 22:11",
+		"buttonMenu:" : "jkon 7/4/2024 22:11",
+		"chat" : "jkon 7/4/2024 22:06",
+		"chat:" : "jkon 7/4/2024 22:06",
+		"chatWindow" : "jkon 7/4/2024 22:42",
+		"chatWindow:" : "jkon 7/4/2024 22:43",
+		"clear" : "jkon 7/4/2024 22:09",
+		"createButtonMenu" : "jkon 7/4/2024 22:13",
+		"fileButton" : "jkon 7/4/2024 22:06",
+		"fileButton:" : "jkon 7/4/2024 22:06",
+		"initialize" : "jkon 7/4/2024 22:08",
+		"pollButton" : "jkon 7/4/2024 22:06",
+		"pollButton:" : "jkon 7/4/2024 22:06",
+		"stickerButton" : "jkon 7/4/2024 22:06",
+		"stickerButton:" : "jkon 7/4/2024 22:06" } }
