@@ -13,6 +13,6 @@ buildStickerListItemsFor: anArray
 		item on: #mouseDown send: #sendStickerMessage:event:from: to: self selectedChat withValue: stickerId.
 		stickers add: item.
 		self scroller addMorphBack: item.
-		Transcript show: '.'].
+		item refreshWorld].
 	self items: stickers.
 	
