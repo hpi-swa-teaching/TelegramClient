@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 fileEnding
 	
 	^ Smalltalk platformName caseOf: {

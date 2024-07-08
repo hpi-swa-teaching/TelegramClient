@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 getFileInfo: aByteArray
 	"returns the dimensions of the given image or nil if it is not a valid WebP format"
 

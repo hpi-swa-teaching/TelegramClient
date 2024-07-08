@@ -1,14 +1,14 @@
 {
 	"category" : "TelegramClient-Core",
 	"classinstvars" : [
-		 ],
+		"instance" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "js 6/13/2020 16:27",
+	"commentStamp" : "js 6/13/2020 16:26",
 	"instvars" : [
 		 ],
-	"name" : "TCCMacClient",
+	"name" : "TCCLibTdJson",
 	"pools" : [
 		 ],
-	"super" : "TCCFFIClient",
+	"super" : "TCCExternalLibrary",
 	"type" : "normal" }

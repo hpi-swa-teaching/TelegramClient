@@ -1,0 +1,4 @@
+accessing
+newForCurrentOs
+
+	^ self new

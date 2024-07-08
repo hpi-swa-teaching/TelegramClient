@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 formFrom: aByteArray dimensions: aPoint
 	"creates a Form from an BGRA ByteArray"
 

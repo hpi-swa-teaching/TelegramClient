@@ -1,8 +1,8 @@
 {
 	"class" : {
 		"defaultLogLevel" : "js 8/2/2020 12:21",
-		"newForCurrentOs" : "pk 8/5/2021 17:10",
-		"newWithClient:" : "LR 7/14/2022 10:59" },
+		"newWithClient:" : "LR 7/14/2022 10:59",
+		"newWithDefaultClient" : "TU 7/8/2024 17:30" },
 	"instance" : {
 		"execute:" : "js 5/28/2020 17:23",
 		"free" : "LR 7/14/2022 11:18",

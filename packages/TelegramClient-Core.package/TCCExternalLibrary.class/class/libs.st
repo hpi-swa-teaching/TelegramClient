@@ -1,8 +1,8 @@
-as yet unclassified
+accessing
 libs
 	
 	| list |
 	list := OrderedCollection new.
 	list add: TCCLibWebP.
-	list add: TCCFFIClient.
+	list add: TCCLibTdJson.
 	^ list

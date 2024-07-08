@@ -11,5 +11,5 @@
 	"name" : "TCTCMockFFIClient",
 	"pools" : [
 		 ],
-	"super" : "TCCFFIClient",
+	"super" : "TCCLibTdJson",
 	"type" : "normal" }

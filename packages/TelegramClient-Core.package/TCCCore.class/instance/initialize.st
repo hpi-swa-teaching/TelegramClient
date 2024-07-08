@@ -1,7 +1,7 @@
 initialization
 initialize
 
-	self client ifNil: [self client: TCCTdlibClient newForCurrentOs].
+	self client ifNil: [self client: TCCTdlibClient newWithDefaultClient].
 	self
 		initializeHandlers;
 		loggedInUserId: 0;

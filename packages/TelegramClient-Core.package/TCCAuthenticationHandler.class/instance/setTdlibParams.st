@@ -12,6 +12,6 @@ setTdlibParams
 			'api_hash' -> self class defaultApiHash.
 			'system_language_code' -> 'en'.
 			'device_model' -> 'Desktop'.
-			'system_version' -> self core client specificClient type.
+			'system_version' -> Smalltalk platformName.
 			'application_version' -> '1.0'.
 			'enable_storage_optimizer' -> true})}).

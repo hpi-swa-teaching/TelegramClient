@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 decode: aByteArray
 	"decodes a WebP image from a ByteArray and returns the result Form or nil in case of an error"
 
