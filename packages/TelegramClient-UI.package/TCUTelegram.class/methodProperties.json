@@ -1,8 +1,9 @@
 {
 	"class" : {
+		"downloadDependencies" : "TU 7/3/2024 15:39",
 		"initialize" : "js 8/2/2020 14:31",
-		"newWithCore" : "8/5/2021 15:40:50",
-		"newWithCore:" : "js 8/2/2020 14:29",
+		"newWithCore" : "TU 7/3/2024 15:37",
+		"newWithCore:" : "TU 7/3/2024 15:36",
 		"registerInWorldMenu" : "js 8/2/2020 14:28" },
 	"instance" : {
 		"addAuthenticationWindow" : "RS 7/17/2021 12:47",
@@ -14,7 +15,7 @@
 		"currentWindow:" : "r.s 7/13/2020 17:11",
 		"delete" : "js 6/21/2022 11:26",
 		"expandToFullScreen" : "js 6/21/2022 11:27",
-		"initialize" : "js 7/14/2022 16:41",
+		"initialize" : "TU 7/3/2024 15:36",
 		"logInCompleted" : "RS 7/17/2021 12:30",
 		"loggedOut" : "RS 7/17/2021 12:25",
 		"openCurrentWindow" : "js 6/21/2022 11:31" } }

@@ -6,7 +6,7 @@ getFileInfo: aByteArray
 	
 	widthHandle := ExternalType long allocate.
 	heightHandle := ExternalType long allocate.
-	result := TCCLibWebP WebPGetInfo: aByteArray dataSize: aByteArray size width: widthHandle height: heightHandle.
+	result := self new WebPGetInfo: aByteArray dataSize: aByteArray size width: widthHandle height: heightHandle.
 	(result = 1)
 		ifTrue: [^ (widthHandle at: 1)@(heightHandle at: 1)]
 		ifFalse: [ ^ nil ]

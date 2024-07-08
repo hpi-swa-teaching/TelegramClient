@@ -10,5 +10,5 @@
 	"name" : "TCCFFIClient",
 	"pools" : [
 		 ],
-	"super" : "ExternalLibrary",
+	"super" : "TCCExternalLibrary",
 	"type" : "normal" }

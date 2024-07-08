@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"doesLibraryExist" : "TU 7/8/2024 16:30",
+		"downloadAllDependencies" : "TU 7/3/2024 15:29",
+		"downloadArchive" : "TU 7/8/2024 16:39",
+		"downloadArchiveIfNotExists" : "TU 7/3/2024 15:29",
+		"downloadUrl" : "TU 7/8/2024 16:34",
+		"fileEnding" : "TU 6/28/2024 02:45",
+		"fileName" : "TU 7/8/2024 16:30",
+		"libraryFile" : "TU 7/8/2024 16:30",
+		"libs" : "TU 7/3/2024 15:27",
+		"linuxDownloadUrl" : "TU 7/8/2024 16:33",
+		"macDownloadUrl" : "TU 7/8/2024 16:33",
+		"moduleName" : "TU 7/8/2024 16:29",
+		"mustDownloadDependencies" : "TU 7/3/2024 15:19",
+		"versionName" : "TU 6/28/2024 03:28",
+		"windowsDownloadUrl" : "TU 7/8/2024 16:33" },
+	"instance" : {
+		 } }

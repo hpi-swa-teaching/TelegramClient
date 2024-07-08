@@ -7,6 +7,6 @@ decode: aByteArray
 	dimensions := self getFileInfo: aByteArray.
 	dimensions ifNil: [ ^nil ].
 	decodedImage := ByteArray new: (dimensions x) * (dimensions y) * 4.
-	result := self WebPDecodeBGRAInto: aByteArray dataSize: aByteArray size outputBuffer: decodedImage outputBufferSize: decodedImage size outputStride: dimensions x * 4.
+	result := self new WebPDecodeBGRAInto: aByteArray dataSize: aByteArray size outputBuffer: decodedImage outputBufferSize: decodedImage size outputStride: dimensions x * 4.
 	(result isNull) ifFalse: [ ^ self formFrom: decodedImage dimensions: dimensions ].
 	^ nil

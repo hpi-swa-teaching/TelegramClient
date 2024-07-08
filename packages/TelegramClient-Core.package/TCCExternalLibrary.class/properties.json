@@ -1,14 +1,14 @@
 {
 	"category" : "TelegramClient-Core",
 	"classinstvars" : [
-		"instance" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "TCCLibWebP",
+	"name" : "TCCExternalLibrary",
 	"pools" : [
 		 ],
-	"super" : "TCCExternalLibrary",
+	"super" : "ExternalLibrary",
 	"type" : "normal" }
