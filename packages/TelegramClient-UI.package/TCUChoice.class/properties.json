@@ -10,7 +10,8 @@
 		"isSelected",
 		"content",
 		"isExclusive",
-		"poll" ],
+		"poll",
+		"name" ],
 	"name" : "TCUChoice",
 	"pools" : [
 		 ],
