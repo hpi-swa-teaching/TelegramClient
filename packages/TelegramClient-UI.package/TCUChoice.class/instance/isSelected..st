@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 isSelected: aBoolean
 
 	isSelected := aBoolean

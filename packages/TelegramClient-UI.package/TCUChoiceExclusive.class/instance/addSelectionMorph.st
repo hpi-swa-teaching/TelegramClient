@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 addSelectionMorph
 
 	selectionMorph := CircleMorph new.
