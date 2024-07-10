@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 anonymousChoice: aChoice
 
 	anonymousChoice := aChoice

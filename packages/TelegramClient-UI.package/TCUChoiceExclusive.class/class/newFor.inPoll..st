@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newFor: aString inPoll: aPoll
 
 	^ (super new)

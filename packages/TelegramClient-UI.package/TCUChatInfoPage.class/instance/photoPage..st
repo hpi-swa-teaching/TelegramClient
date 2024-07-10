@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 photoPage: aPhotoPage
 
 	photoPage := aPhotoPage

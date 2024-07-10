@@ -1,4 +1,4 @@
-as yet unclassified
+constructing
 text
 
 	^ TCUStickerEmojiHelper embedEmojisInto: self messageModel asText

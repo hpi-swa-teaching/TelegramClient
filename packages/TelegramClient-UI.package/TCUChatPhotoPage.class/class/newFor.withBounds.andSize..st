@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newFor: aChat withBounds: aRectangle andSize: aSize
 
 	^ (super newBounds: aRectangle)

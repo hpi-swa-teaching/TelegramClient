@@ -1,4 +1,4 @@
-as yet unclassified
+utility
 getDocumentFor: aDocumentId
 
 	| promise |

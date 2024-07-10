@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 createButtonMenu
 
 	self buttonMenu: (RectangleMorph new

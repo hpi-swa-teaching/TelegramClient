@@ -1,4 +1,4 @@
-as yet unclassified
+constructing
 addText
 
 	self addMorphBack: (self class defaultTextMorph

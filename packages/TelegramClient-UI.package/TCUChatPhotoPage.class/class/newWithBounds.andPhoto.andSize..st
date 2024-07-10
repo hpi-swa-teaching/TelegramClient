@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newWithBounds: aRectangle andPhoto: aPhoto andSize: aSize
 
 	^ (super newBounds: aRectangle)

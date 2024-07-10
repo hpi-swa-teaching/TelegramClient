@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 addPollButton
 
 	self pollButton: (TCUButton new

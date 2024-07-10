@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 isAnonymous: aBoolean
 
 	isAnonymous := aBoolean

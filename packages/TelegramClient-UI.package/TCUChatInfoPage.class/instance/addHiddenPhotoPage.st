@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 addHiddenPhotoPage
 
 	self chat hasPhoto ifTrue: [

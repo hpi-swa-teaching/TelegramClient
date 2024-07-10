@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 addStickerButton
 
 	self stickerButton: (TCUButton new

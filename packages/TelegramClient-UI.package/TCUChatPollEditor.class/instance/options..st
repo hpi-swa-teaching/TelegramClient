@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 options: anOrderedCollection
 
 	options := anOrderedCollection

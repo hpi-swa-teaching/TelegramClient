@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 selectJsonFor: aPollType
 
 	^ aPollType caseOf: {

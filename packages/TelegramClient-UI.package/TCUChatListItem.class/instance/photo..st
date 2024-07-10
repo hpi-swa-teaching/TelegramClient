@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 photo: aPhoto
 
 	photo := aPhoto

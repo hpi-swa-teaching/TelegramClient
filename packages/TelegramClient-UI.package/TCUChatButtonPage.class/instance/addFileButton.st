@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 addFileButton
 
 	self fileButton: (TCUButton new

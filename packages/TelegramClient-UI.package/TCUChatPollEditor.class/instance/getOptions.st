@@ -1,4 +1,4 @@
-as yet unclassified
+event handling
 getOptions
 
 	self options: (OrderedCollection new).

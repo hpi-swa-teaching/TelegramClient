@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 createTitle
 
 	self title: (RectangleMorph new
