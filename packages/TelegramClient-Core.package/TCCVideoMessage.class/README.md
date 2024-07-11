@@ -1,1 +1,1 @@
-data-represantation of a single message with a photo in a chat
+data-represantation of a single message with a video in a chat

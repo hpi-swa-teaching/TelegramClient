@@ -1,0 +1,1 @@
+wrapper for profile picture on TCUChatInfoPage

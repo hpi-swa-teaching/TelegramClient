@@ -1,0 +1,1 @@
+interface to set poll question and title

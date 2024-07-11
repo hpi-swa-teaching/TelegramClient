@@ -1,1 +1,1 @@
-data-represantation of a single text message in a chat
+data-represantation of a single animated sticker message in a chat

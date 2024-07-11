@@ -1,0 +1,1 @@
+A TCCDocumentStore is a cache for local document files on disk with a synchronous interface

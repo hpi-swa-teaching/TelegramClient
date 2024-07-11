@@ -1,0 +1,1 @@
+data-represantation of a single poll option

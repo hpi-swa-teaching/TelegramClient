@@ -1,1 +1,1 @@
-a single text message displayed in a TCUMessageList
+a single document message displayed in a TCUMessageList

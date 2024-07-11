@@ -1,0 +1,1 @@
+a single sticker message displayed in a TCUMessageList

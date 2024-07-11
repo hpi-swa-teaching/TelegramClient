@@ -1,1 +1,1 @@
-A TCCImageStore is a cache for local image files on disk with a synchronous interface.
+A TCCStickerStore is a cache for local sticker files on disk with a synchronous interface.

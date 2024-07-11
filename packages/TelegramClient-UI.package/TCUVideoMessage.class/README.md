@@ -1,1 +1,1 @@
-a single message with photo displayed in a TCUMessageList
+a single message with video displayed in a TCUMessageList

@@ -1,0 +1,1 @@
+Emoji helper with different text size for animated sticker messages

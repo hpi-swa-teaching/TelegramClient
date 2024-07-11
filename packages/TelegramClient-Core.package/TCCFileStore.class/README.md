@@ -1,1 +1,1 @@
-A TCCImageStore is a cache for local image files on disk with a synchronous interface.
+A TCCFileStore is a cache superclass for local files on disk with a synchronous interface.

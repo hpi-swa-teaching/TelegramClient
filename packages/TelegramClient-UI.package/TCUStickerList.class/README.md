@@ -1,0 +1,1 @@
+displays installed stickerset's stickers

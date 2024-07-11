@@ -1,0 +1,1 @@
+a single poll message displayed in a TCUMessageList
