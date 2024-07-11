@@ -4,5 +4,5 @@ addSelectionMorph
 	selectionMorph := CircleMorph new.
 	selectionMorph
 		color: TCUDefaultValues colorNileBlue;
-		extent: 22@22.
+		extent: self class defaultSelectionMorphExtent.
 	self addMorph: selectionMorph.

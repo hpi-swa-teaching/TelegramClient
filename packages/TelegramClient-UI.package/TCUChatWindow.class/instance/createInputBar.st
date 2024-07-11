@@ -2,7 +2,7 @@ drawing
 createInputBar
 
 	self inputBar: (RectangleMorph new
-		borderWidth: 0;
+		borderWidth: self defaultBorderWidth;
 		color: TCUDefaultValues colorLightGray;
 		width: self width;
 		height: self class defaultInputfieldHeight;
@@ -11,8 +11,8 @@ createInputBar
 		listDirection: #leftToRight;
 		wrapDirection: #topToBottom;
 		wrapCentering: #topLeft;
-		layoutInset: 2;
+		layoutInset: self class defaultLayoutInset;
 		vResizing: #shrinkWrap;
-		cellInset: 8;
+		cellInset: self class defaultCellInset;
 		hide;
 		yourself).

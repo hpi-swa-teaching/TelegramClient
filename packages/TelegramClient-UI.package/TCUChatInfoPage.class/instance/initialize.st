@@ -5,4 +5,4 @@ initialize
 
 	self
 		color: TCUDefaultValues colorLightGray;
-		borderWidth: 0.
+		borderWidth: self class defaultBorderWidth.

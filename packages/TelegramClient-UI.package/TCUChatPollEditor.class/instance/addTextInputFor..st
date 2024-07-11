@@ -3,13 +3,13 @@ addTextInputFor: aString
 
 	| morph|
 	morph := (RectangleMorph new
-		borderWidth: 0;
+		borderWidth: self class defaultBorderWidth;
 		color: TCUDefaultValues colorNileBlue;
 		layoutPolicy: TableLayout new;
 		listDirection: #leftToRight;
 		wrapDirection: #leftToRight;
 		wrapCentering: #topLeft;
-		layoutInset: 2;
+		layoutInset: self class defaultLayoutInset;
 		hResizing: #shrinkWrap;
 		vResizing: #shrinkWrap;
 		yourself).

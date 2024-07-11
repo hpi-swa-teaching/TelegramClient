@@ -1,12 +1,15 @@
 {
 	"class" : {
+		"defaultBorderWidth" : "jkon 7/11/2024 15:49",
+		"defaultSelectionMorphExtent" : "jkon 7/11/2024 15:50",
+		"defaultTextMorphPosition" : "jkon 7/11/2024 15:51",
 		"newFor:" : "jkon 6/19/2024 18:26" },
 	"instance" : {
-		"addSelectionMorph" : "jkon 6/19/2024 18:32",
-		"addTextMorph" : "jkon 6/17/2024 15:32",
+		"addSelectionMorph" : "jkon 7/11/2024 15:50",
+		"addTextMorph" : "jkon 7/11/2024 15:51",
 		"content" : "jkon 6/17/2024 15:32",
 		"content:" : "jkon 6/17/2024 15:32",
-		"initialize" : "jkon 6/18/2024 10:03",
+		"initialize" : "jkon 7/11/2024 15:49",
 		"isSelected" : "jkon 6/17/2024 14:52",
 		"isSelected:" : "jkon 6/17/2024 14:52",
 		"name" : "jkon 6/27/2024 19:30",

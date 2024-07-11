@@ -3,11 +3,11 @@ addInputFieldFor: aRectangle
 
 	|inputField|
 	inputField :=  (TextMorph new
-		borderWidth: 2;
+		borderWidth: self class defaultInputFieldBorderWidth;
 		borderColor: TCUDefaultValues colorLightBlue;
 		color: Color white;
 		contentsWrapped: '' asText;
-		extent: 200 @ 20;
+		extent: self class defaultInputFieldWidth @ (self class defaultFieldHeight);
 		yourself).
 	self allInputFields add: inputField.
 	aRectangle addMorph: inputField.

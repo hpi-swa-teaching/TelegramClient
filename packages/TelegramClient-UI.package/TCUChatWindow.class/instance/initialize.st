@@ -5,6 +5,6 @@ initialize
 
 	self
 		color: TCUDefaultValues colorLightGray;
-		borderWidth: 0;
+		borderWidth: self class defaultBorderWidth;
 		selectedChat: TCCNullChat new;
 		titleBar: Morph new.

@@ -4,7 +4,7 @@ addTextFieldFor: aRectangle with: aString
 	|text|
 	text := (TextMorph new
 		contents: aString;
-		extent: 20 @ 20;
+		extent: self class defaultTextFieldWidth @ (self class defaultFieldHeight);
 		readOnly: true;
 		color: Color white;
 		lock;

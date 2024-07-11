@@ -7,7 +7,7 @@ addTextMorph
 		contents: self content;
 		hResizing: #spaceFill;
 		color: Color white;
-		position: 26@0;
+		position: self class defaultTextMorphPosition;
 		readOnly: true;
 		lock;
 		yourself.

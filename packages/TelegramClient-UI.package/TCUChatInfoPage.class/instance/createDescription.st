@@ -2,7 +2,7 @@ drawing
 createDescription
 
 	self description: (RectangleMorph new
-		borderWidth: 0;
+		borderWidth: self class defaultBorderWidth;
 		color: Color white;
 		layoutPolicy: TableLayout new;
 		listDirection: #topToBottom;

@@ -4,7 +4,7 @@ initialize
 	super initialize.
 
 	self color: TCUDefaultValues colorNileBlue;
-		borderWidth: 0;
+		borderWidth: self class defaultBorderWidth;
 		hResizing: #shrinkWrap;
 		vResizing: #shrinkWrap;
 		on: #mouseDown send: #updateChoice to: self;

@@ -3,14 +3,14 @@ createButtonMenu
 
 	self buttonMenu: (RectangleMorph new
 			color: TCUDefaultValues colorNileBlue;
-			extent: 200@200;
+			extent: self class defaultMenuWidth @ (self class defaultMenuHeight);
 			useRoundedCorners;
 			layoutPolicy: TableLayout new;
 			listDirection: #leftToRight;
 			wrapDirection: #bottomToTop;
 			wrapCentering: #topLeft;
-			layoutInset: 2;
+			layoutInset: self class defaultLayoutInset;
 			hResizing: #shrinkWrap;
 			vResizing: #shrinkWrap;
-			cellInset: 8;
+			cellInset: self class defaultCellInset;
 			yourself).

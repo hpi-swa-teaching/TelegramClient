@@ -2,14 +2,14 @@ drawing
 createTitleBar
 
 	self titleBar: (AlignmentMorph newRow
-		borderWidth: 0;
+		borderWidth: self class defaultBorderWidth;
 		color: TCUDefaultValues colorLightGray;
 		width: self width;
 		height: self class defaultTitleBarHeight;
 		topLeft: self topLeft;
 		layoutPolicy: TableLayout new;
 		listDirection: #leftToRight;
-		layoutInset: 2;
+		layoutInset: self class defaultLayoutInset;
 		hResizing: #spaceFill;
 		vResizing: #shrinkWrap;
 		cellInset: 12;
