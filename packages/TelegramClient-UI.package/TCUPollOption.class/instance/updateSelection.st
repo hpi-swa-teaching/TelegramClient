@@ -1,4 +1,4 @@
-as yet unclassified
+event handling
 updateSelection
 	
 	pollOption isChosen ifTrue: [selectionMorph color: Color black.]

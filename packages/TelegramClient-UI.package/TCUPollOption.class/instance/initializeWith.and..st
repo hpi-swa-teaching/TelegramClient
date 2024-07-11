@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeWith: aPollMessage and: anOption
 	| text |
 	
