@@ -7,4 +7,4 @@ mockPollOptionsJson
 	options at: 2 put: (self mockPollOptionJson: 'Option 2' isBeingChosen: false isChosen: false votePercentage: 25 voterCount: 1).
 	options at: 3 put: (self mockPollOptionJson: 'Option 3' isBeingChosen: false isChosen: false votePercentage: 25 voterCount: 1).
 	
-	^ options.
+	^ options

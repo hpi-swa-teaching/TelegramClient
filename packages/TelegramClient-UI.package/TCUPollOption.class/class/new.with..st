@@ -3,4 +3,4 @@ new: aPollMessage with: anOption
 
 	^ super new
 		initializeWith: aPollMessage and: anOption;
-		yourself.
+		yourself
