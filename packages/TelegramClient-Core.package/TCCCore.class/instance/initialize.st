@@ -7,7 +7,7 @@ initialize
 		loggedInUserId: 0;
 		pendingRequests: Dictionary new;
 		userStore: (TCCUserStore newWith: self);
-		imageStore: (TCCImageStore newWith: self);
+		imageStore: (TCCFileStore newWith: self);
 		videoStore: (TCCVideoStore newWith: self);
 		stickerStore: (TCCStickerStore newWith: self);
 		documentStore: (TCCDocumentStore newWith: self);
