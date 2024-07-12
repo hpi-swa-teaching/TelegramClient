@@ -1,4 +1,4 @@
 accessing
 stickerSets: aDictionary
 
-	stickerSets := aDictionary
+	stickerSets := aDictionary.

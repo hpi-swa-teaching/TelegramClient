@@ -1,4 +1,4 @@
 constructing
 pollTypeString: aString
 
-	pollTypeString := aString
+	pollTypeString := aString.

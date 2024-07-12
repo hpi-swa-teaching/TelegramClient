@@ -2,7 +2,6 @@ drawing
 addNextButton
 
 	| nextButton |
-	
 	nextButton := TCUButton new
 	 	extent: 30 @ 30;	
 		text: '>';

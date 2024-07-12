@@ -2,7 +2,6 @@ drawing
 buildStickerListItemsFor: anArray
 
 	| stickers item |
-	
 	stickers := OrderedCollection new.
 	anArray do: [:stickerId | 
 		item := (TCUStickerListItem new

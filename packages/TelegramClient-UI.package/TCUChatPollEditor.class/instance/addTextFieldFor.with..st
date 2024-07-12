@@ -1,7 +1,7 @@
 drawing
 addTextFieldFor: aRectangle with: aString
 
-	|text|
+	| text |
 	text := (TextMorph new
 		contents: aString;
 		extent: self class defaultTextFieldWidth @ (self class defaultFieldHeight);

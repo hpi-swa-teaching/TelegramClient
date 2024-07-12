@@ -1,4 +1,4 @@
 accessing
 filename: aString
 
-	filename := aString
+	filename := aString.

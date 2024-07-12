@@ -1,4 +1,4 @@
 constructing
 addContent
 
-	self addSticker
+	self addSticker.

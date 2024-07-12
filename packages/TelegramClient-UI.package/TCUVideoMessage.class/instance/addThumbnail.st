@@ -6,8 +6,7 @@ addThumbnail
 	thumbnailForm := thumbnailForm scaledToWidth: self class defaultWidth.
 
 	(thumbnailForm height > self class maxHeight) ifTrue: [
-		thumbnailForm := thumbnailForm scaledToHeight: self class maxHeight.
-	].
+		thumbnailForm := thumbnailForm scaledToHeight: self class maxHeight].
 	thumbnailMorph := self addPlaybuttonTo: thumbnailForm.
 	thumbnailMorph on: #mouseDown send: #openVideo to: self.
 	self addMorphBack: thumbnailMorph.

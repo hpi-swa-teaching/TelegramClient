@@ -11,5 +11,5 @@ addTextMorph
 		readOnly: true;
 		lock;
 		yourself.
-	self addMorph: textMorph
+	self addMorph: textMorph.
 	

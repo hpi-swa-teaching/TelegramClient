@@ -1,4 +1,4 @@
 accessing
 path: aStickerPath
 
-	path := aStickerPath
+	path := aStickerPath.

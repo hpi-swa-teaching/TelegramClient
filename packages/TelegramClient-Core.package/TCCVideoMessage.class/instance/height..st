@@ -1,4 +1,4 @@
 accessing
 height: aNumber
 
-	height := aNumber
+	height := aNumber.

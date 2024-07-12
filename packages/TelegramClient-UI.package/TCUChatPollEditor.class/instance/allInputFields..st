@@ -1,4 +1,4 @@
 accessing
 allInputFields: anOrderedCollection
 
-	allInputFields:= anOrderedCollection
+	allInputFields:= anOrderedCollection.

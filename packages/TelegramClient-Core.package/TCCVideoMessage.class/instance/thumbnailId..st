@@ -1,4 +1,4 @@
 accessing
 thumbnailId: aNumber
 
-	thumbnailId := aNumber
+	thumbnailId := aNumber.

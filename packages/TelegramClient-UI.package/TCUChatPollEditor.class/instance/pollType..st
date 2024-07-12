@@ -1,4 +1,4 @@
 accessing
 pollType: aString
 
-	pollType := aString
+	pollType := aString.

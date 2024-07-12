@@ -1,4 +1,4 @@
 accessing
 buttonMenu: aRectangle
 
-	buttonMenu := aRectangle
+	buttonMenu := aRectangle.

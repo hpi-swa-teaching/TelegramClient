@@ -1,4 +1,4 @@
 accessing
 documentId: aNumber
 
-	documentId := aNumber
+	documentId := aNumber.

@@ -1,4 +1,4 @@
 accessing
 isAnonymous: aBoolean
 
-	isAnonymous := aBoolean
+	isAnonymous := aBoolean.

@@ -2,7 +2,6 @@ drawing
 addPreviousButton
 
 	| previousButton |
-	
 	previousButton := TCUButton new
 	 	extent: 30 @ 30;	
 		text: '<';

@@ -1,7 +1,7 @@
 drawing
 addInputFieldFor: aRectangle
 
-	|inputField|
+	| inputField |
 	inputField :=  (TextMorph new
 		borderWidth: self class defaultInputFieldBorderWidth;
 		borderColor: TCUDefaultValues colorLightBlue;

@@ -1,4 +1,4 @@
 event handling
 updatePoll
 
-	options do: [ :option | option updateSelection ]
+	options do: [:option | option updateSelection].

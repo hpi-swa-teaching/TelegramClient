@@ -1,4 +1,4 @@
 accessing
 options: anOrderedCollection
 
-	options := anOrderedCollection
+	options := anOrderedCollection.

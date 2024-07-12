@@ -1,4 +1,4 @@
 accessing
 poll: aPoll
 
-	poll := aPoll
+	poll := aPoll.

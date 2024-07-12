@@ -1,4 +1,4 @@
 accessing
 anonymousChoice: aChoice
 
-	anonymousChoice := aChoice
+	anonymousChoice := aChoice.

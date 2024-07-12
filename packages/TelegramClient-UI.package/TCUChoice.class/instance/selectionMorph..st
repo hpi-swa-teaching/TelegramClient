@@ -1,4 +1,4 @@
 accessing
 selectionMorph: aMorph
 
-	selectionMorph := aMorph
+	selectionMorph := aMorph.

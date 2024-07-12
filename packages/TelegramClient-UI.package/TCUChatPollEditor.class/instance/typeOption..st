@@ -1,4 +1,4 @@
 accessing
 typeOption: aRectangleMorph
 
-	typeOption :=  aRectangleMorph
+	typeOption :=  aRectangleMorph.

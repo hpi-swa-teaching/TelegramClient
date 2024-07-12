@@ -1,4 +1,4 @@
 accessing
 chatWindow: aChatWindow
 
-	chatWindow := aChatWindow
+	chatWindow := aChatWindow.

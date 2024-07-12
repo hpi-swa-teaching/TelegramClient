@@ -2,7 +2,6 @@ drawing
 addCloseButton
 
 	| closeButton |
-	
 	closeButton := TCUButton new
 	 	extent: 30 @ 30;	
 		text: 'X';

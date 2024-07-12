@@ -1,4 +1,4 @@
 accessing
 isSelected: aBoolean
 
-	isSelected := aBoolean
+	isSelected := aBoolean.

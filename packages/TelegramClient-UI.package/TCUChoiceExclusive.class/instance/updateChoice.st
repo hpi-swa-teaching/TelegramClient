@@ -6,5 +6,4 @@ updateChoice
 		self isSelected: false.]
 	ifFalse: [selectionMorph color: Color black.
 		self isSelected: true.
-		poll newSelection: self.
-		]
+		poll newSelection: self].

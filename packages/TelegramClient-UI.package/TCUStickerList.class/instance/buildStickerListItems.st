@@ -2,7 +2,6 @@ drawing
 buildStickerListItems
 
 	| stickers item |
-	
 	stickers := OrderedCollection new.
 	(self core stickerStore keys) do: [:sticker | 
 		item := (TCUStickerListItem new

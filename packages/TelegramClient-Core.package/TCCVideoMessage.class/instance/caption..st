@@ -1,4 +1,4 @@
 accessing
 caption: aString
 
-	caption := aString
+	caption := aString.

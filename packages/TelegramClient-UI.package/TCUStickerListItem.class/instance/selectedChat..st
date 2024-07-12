@@ -1,4 +1,4 @@
 accessing
 selectedChat: aChat
 
-	selectedChat := aChat
+	selectedChat := aChat.

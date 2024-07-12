@@ -1,4 +1,4 @@
 accessing
 fileId: aNumber
 
-	fileId := aNumber
+	fileId := aNumber.

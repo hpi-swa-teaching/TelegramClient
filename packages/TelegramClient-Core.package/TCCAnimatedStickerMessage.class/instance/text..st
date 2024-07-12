@@ -1,4 +1,4 @@
 accessing
 text: aString
 
-	text := aString
+	text := aString.

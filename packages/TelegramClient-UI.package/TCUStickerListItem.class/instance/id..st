@@ -1,4 +1,4 @@
 accessing
 id: aStickerId
 
-	id := aStickerId
+	id := aStickerId.

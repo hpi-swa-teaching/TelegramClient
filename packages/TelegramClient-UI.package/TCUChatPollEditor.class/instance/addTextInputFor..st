@@ -1,7 +1,7 @@
 drawing
 addTextInputFor: aString
 
-	| morph|
+	| morph |
 	morph := (RectangleMorph new
 		borderWidth: self class defaultBorderWidth;
 		color: TCUDefaultValues colorNileBlue;
@@ -16,4 +16,4 @@ addTextInputFor: aString
 		
 	self addInputFieldFor: morph.
 	self addTextFieldFor: morph with: aString.
-	^ morph.
+	^ morph

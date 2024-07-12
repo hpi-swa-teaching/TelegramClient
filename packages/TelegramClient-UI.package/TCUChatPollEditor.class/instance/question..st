@@ -1,4 +1,4 @@
 accessing
 question: aString
 
-	question := aString
+	question := aString.

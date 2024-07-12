@@ -1,4 +1,4 @@
 accessing
 shouldRedraw: aBool
 
-	shouldRedraw := aBool
+	shouldRedraw := aBool.

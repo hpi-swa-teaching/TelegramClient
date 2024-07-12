@@ -1,4 +1,4 @@
 accessing
 selectedSet: aSetId
 
-	selectedSet := aSetId
+	selectedSet := aSetId.

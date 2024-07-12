@@ -1,4 +1,4 @@
 accessing
 currentSelection: aChoice
 
-	currentSelection := aChoice
+	currentSelection := aChoice.

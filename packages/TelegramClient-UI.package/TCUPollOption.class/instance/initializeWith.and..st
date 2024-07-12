@@ -1,7 +1,7 @@
 initialization
 initializeWith: aPollMessage and: anOption
-	| text |
 	
+	| text |
 	pollMessage := aPollMessage.
 	pollOption := anOption.
 	(aPollMessage messageModel allowsMultipleAnswers)

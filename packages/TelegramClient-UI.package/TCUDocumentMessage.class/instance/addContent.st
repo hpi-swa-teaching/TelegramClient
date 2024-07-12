@@ -2,4 +2,4 @@ constructing
 addContent
 
 	self addIcon.
-	self addText
+	self addText.
