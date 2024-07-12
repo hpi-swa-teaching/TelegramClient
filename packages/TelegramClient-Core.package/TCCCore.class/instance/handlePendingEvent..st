@@ -4,4 +4,4 @@ handlePendingEvent: anEvent
 	| callbackId |
 	callbackId := anEvent at: '@extra'.
 	(self pendingRequests at: callbackId) value: anEvent.
-	self pendingRequests removeKey: callbackId ifAbsent: []
+	self pendingRequests removeKey: callbackId ifAbsent: [].

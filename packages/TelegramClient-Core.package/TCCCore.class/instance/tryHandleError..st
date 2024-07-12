@@ -10,4 +10,5 @@ tryHandleError: anError
 	otherwise: [
 		((anError at: 'message') beginsWith: 'Can''t lock file')
 			ifTrue: [UIManager default inform: TCCErrorConstants tdlibAlreadyInUse]
-			ifFalse: [self halt: 'An Error Occured. Check Transcript Output.']].
+			ifFalse: [self halt: 'An Error Occured. Check Transcript Output.']
+	].

@@ -1,8 +1,5 @@
 sending
 send: aRequest thenDo: aBlock
 
-	| callbackId |
-	
-	callbackId := self registerCallback: aBlock.
-	aRequest at: '@extra' put: callbackId.
-	self send: aRequest
+	aRequest at: '@extra' put: (self registerCallback: aBlock).
+	self send: aRequest.
