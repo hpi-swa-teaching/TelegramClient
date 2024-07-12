@@ -1,4 +1,4 @@
 instance creation
 newAnimatedStickerFrom: aJsonObject
 
-	^ TCCAnimatedStickerMessage newFrom: aJsonObject.
+	^ TCCAnimatedStickerMessage newFrom: aJsonObject

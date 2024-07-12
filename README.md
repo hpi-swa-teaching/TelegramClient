@@ -15,7 +15,9 @@
 
 TelegramClient is a **Squeak-Client** for the widely used Telegram-Messenger. It aims to provide features such as Authentication, Contacts, Message and Media sending and a minimal UI as well as as a Zen-mode and receiving messages in the background.
 
-*This Project is part of the "Softwaretechnik" Lecture 2020 at the Hasso Plattner Institute.*
+The current TelegramClient doesn't works because the TDLib (Version 1.8.0) is outdated and is not longer supported [further informations](https://github.com/hpi-swa-teaching/TelegramClient/wiki/TDLib#maintanance-required---updating-tdlib).
+
+*This Project is part of the "Softwaretechnik" Lecture since 2020 at the Hasso Plattner Institute.*
 
 ## Features
 
@@ -77,14 +79,34 @@ TelegramClient is a **Squeak-Client** for the widely used Telegram-Messenger. It
     </tr>
     <tr>
       <td>🖼</td>
-      <td>Show profile pictures</td>
+      <td>Show profile pictures, also in info screen</td>
+    </tr>
+    <tr>
+      <td>🖼️</td>
+      <td>Display, choose and send static sticker</td>
+    </tr>
+    <tr>
+      <td>:)</td>
+      <td>Display emoji as substitute for an animated sticker</td>
+    </tr>
+    <tr>
+      <td>🙋</td>
+      <td>Display, participate, create and send polls</td>
+    </tr>
+    <tr>
+      <td>🎬</td>
+      <td>view and send videos</td>
+    </tr>
+    <tr>
+      <td>📄</td>
+      <td>view, download and send documents</td>
     </tr>
   </tbody>
 </table>
 
 ## Running TelegramClient
 
-We currently only support Squeak 5.3.
+We currently only support Squeak 6.
 
 ### Option 1 (online installation)
 
@@ -123,11 +145,15 @@ Pre-Releases are created automatically whenever a commit is added to the develop
 
 ## Our Group
 
+Group 13 of the 2024 SWT I module included [Jannes Konarski](https://github.com/gitjannes), [Tebbe Ubben](https://github.com/TebbeUbben), [Jonas Kubeler](https://github.com/jkubuni), [Elia Doumerc](https://github.com/elimatao), [Fabian Möller](https://github.com/famoe03), and [Alexander Ho](https://github.com/ShAlexHo08HPI). 
+
 Group 11 of the 2022 SWT I module included [Richard Wohlbold](https://github.com/rgwohlbold), [Til Bergmann](https://github.com/Till-B), [Antony Kamp](https://github.com/antonykamp), [Lucas Reisener](https://github.com/LucasDerReisende), [Erik Kohlros](https://github.com/kohlros), and [Jacob Schäfer](https://github.com/jacob271).
 
 Group 2 of the 2021 SWT I module included [Romeo Sommerfeld](https://github.com/rsommerfeld), [Raphael Kunert](https://github.com/Storyxx), [Jannis Berndt](https://github.com/jb3rndt), [Philipp Keese](https://github.com/phkeese), [Tom Richter](https://github.com/tom-richter), and [Paul Ermler](https://github.com/permler).
 
-Group 13 of the 2020 SWT I module included [Rohan Sawahn](https://github.com/rohansaw), [Jonas Schmidt](https://github.com/schmidtjonas), [Frederik Wollny](https://github.com/Freddy200), [Stefan Spangenberg](https://github.com/sspangenberg), [Lukas Laskowski](https://github.com/lasklu), and [Niklas Schilli](https://github.com/Mrnikbobjeff). Feel free to add your names to the list.
+Group 13 of the 2020 SWT I module included [Rohan Sawahn](https://github.com/rohansaw), [Jonas Schmidt](https://github.com/schmidtjonas), [Frederik Wollny](https://github.com/Freddy200), [Stefan Spangenberg](https://github.com/sspangenberg), [Lukas Laskowski](https://github.com/lasklu), and [Niklas Schilli](https://github.com/Mrnikbobjeff). 
+
+Feel free to add your names to the list.
 
 ## Acknowledgements
 

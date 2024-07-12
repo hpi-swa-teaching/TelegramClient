@@ -7,4 +7,4 @@ mockStickerSet
 				add: self mockStickerId;
 				add: self mockStickerId2;
 				yourself);
-		yourself.
+		yourself
