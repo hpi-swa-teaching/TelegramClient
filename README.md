@@ -15,7 +15,7 @@
 
 TelegramClient is a **Squeak-Client** for the widely used Telegram-Messenger. It aims to provide features such as Authentication, Contacts, Message and Media sending and a minimal UI as well as as a Zen-mode and receiving messages in the background.
 
-The current TelegramClient doesn't works because the TDLib (Version 1.8.0) is outdated and is not longer supported [further informations](https://github.com/hpi-swa-teaching/TelegramClient/wiki/TDLib#maintanance-needed---updating-tdlib).
+The current TelegramClient doesn't works because the TDLib (Version 1.8.0) is outdated and is not longer supported [further informations](https://github.com/hpi-swa-teaching/TelegramClient/wiki/TDLib#maintanance-required---updating-tdlib).
 
 *This Project is part of the "Softwaretechnik" Lecture since 2020 at the Hasso Plattner Institute.*
 
