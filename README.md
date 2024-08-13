@@ -145,7 +145,7 @@ Pre-Releases are created automatically whenever a commit is added to the develop
 
 ## Our Group
 
-Group 13 of the 2024 SWT I module included [Jannes Konarski](https://github.com/gitjannes), [Tebbe Ubben](https://github.com/TebbeUbben), [Jonas Kubeler](https://github.com/jkubuni), [Elia Doumerc](https://github.com/elimatao), [Fabian Möller](https://github.com/famoe03), and [Alexander Ho](https://github.com/ShAlexHo08HPI). 
+Group 13 of the 2024 SWT I module included [Jannes Konarski](https://github.com/gitjannes), [Jonas Kubeler](https://github.com/jkubuni), [Elia Doumerc](https://github.com/elimatao), [Fabian Möller](https://github.com/famoe03), and [Alexander Ho](https://github.com/ShAlexHo08HPI). 
 
 Group 11 of the 2022 SWT I module included [Richard Wohlbold](https://github.com/rgwohlbold), [Til Bergmann](https://github.com/Till-B), [Antony Kamp](https://github.com/antonykamp), [Lucas Reisener](https://github.com/LucasDerReisende), [Erik Kohlros](https://github.com/kohlros), and [Jacob Schäfer](https://github.com/jacob271).
 
